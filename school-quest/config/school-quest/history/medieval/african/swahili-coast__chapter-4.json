@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "swahili-coast",
+  "title": "The Swahili Coast",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "swahili-coast",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Swahili Coast. Type: era-exploration. Background: Starting around 500 CE, Bantu-speaking people along the coast began trading with sailors from across. Legacy: The Swahili Coast left a lasting mark on the world. The Swahili language is one . Topics: What ocean did the Swahili Coast trade across?, What was a major building material for Swahili cities?.",
+      "filename": "swahili-coast-map.webp"
+    },
+    {
+      "id": "swahili-coast-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Swahili Coast. Type: era-exploration. Background: Starting around 500 CE, Bantu-speaking people along the coast began trading with sailors from across. Legacy: The Swahili Coast left a lasting mark on the world. The Swahili language is one . Topics: What ocean did the Swahili Coast trade across?, What was a major building material for Swahili cities?.",
+      "filename": "swahili-coast-portrait.webp"
+    }
+  ]
+}

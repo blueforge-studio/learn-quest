@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "teddy-roosevelt",
+  "title": "Theodore Roosevelt",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "teddy-roosevelt",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Theodore Roosevelt. Type: historical-figure. Background: Born in New York City in 1858, young Teddy was often sick with asthma and couldn’t play outside much. Legacy: Teddy Roosevelt is remembered as a conservation hero — the father of America’s n. Topics: How old was Theodore Roosevelt when he became president?, What famous group did Teddy lead in the Spanish-American War?.",
+      "filename": "teddy-roosevelt-portrait.webp"
+    },
+    {
+      "id": "teddy-roosevelt-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Theodore Roosevelt. Type: historical-figure. Background: Born in New York City in 1858, young Teddy was often sick with asthma and couldn’t play outside much. Legacy: Teddy Roosevelt is remembered as a conservation hero — the father of America’s n. Topics: How old was Theodore Roosevelt when he became president?, What famous group did Teddy lead in the Spanish-American War?.",
+      "filename": "teddy-roosevelt-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "shakespeare",
+  "title": "William Shakespeare",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "shakespeare",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: William Shakespeare. Type: historical-figure. Background: Born in Stratford-upon-Avon, England in 1564, young Will went to grammar school where he learned Lat. Legacy: Shakespeare’s words and stories are still performed, studied, and loved around t. Topics: Where was William Shakespeare born?, Which of these words did Shakespeare help invent?.",
+      "filename": "shakespeare-portrait.webp"
+    },
+    {
+      "id": "shakespeare-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: William Shakespeare. Type: historical-figure. Background: Born in Stratford-upon-Avon, England in 1564, young Will went to grammar school where he learned Lat. Legacy: Shakespeare’s words and stories are still performed, studied, and loved around t. Topics: Where was William Shakespeare born?, Which of these words did Shakespeare help invent?.",
+      "filename": "shakespeare-scene.webp"
+    }
+  ]
+}

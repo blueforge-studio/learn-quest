@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "scramble-for-africa",
+  "title": "The Scramble for Africa",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "scramble-for-africa",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: steam engines, faster ships, and new machines meant cou. Legacy: These early steps helped shape how Africa would be treated in later years. Many . Topics: Why did European countries become more interested in Africa during the Industrial Revolution?, What happened in Sierra Leone in 1787?.",
+      "filename": "scramble-for-africa-timeline.webp"
+    },
+    {
+      "id": "scramble-for-africa-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: steam engines, faster ships, and new machines meant cou. Legacy: These early steps helped shape how Africa would be treated in later years. Many . Topics: Why did European countries become more interested in Africa during the Industrial Revolution?, What happened in Sierra Leone in 1787?.",
+      "filename": "scramble-for-africa-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "railways",
+  "title": "The Railway Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "railways",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Railway Revolution. Type: timeline. Background: In the late 1700s, Europe was changing fast. Factories needed coal and iron, and people wanted to mo. Legacy: Trains sparked a transportation revolution that still powers our world today! Mo. Topics: What pulled carts on the earliest railways before steam engines?, Who built the first full-size steam locomotive to run on rails?.",
+      "filename": "railways-timeline.webp"
+    },
+    {
+      "id": "railways-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Railway Revolution. Type: timeline. Background: In the late 1700s, Europe was changing fast. Factories needed coal and iron, and people wanted to mo. Legacy: Trains sparked a transportation revolution that still powers our world today! Mo. Topics: What pulled carts on the earliest railways before steam engines?, Who built the first full-size steam locomotive to run on rails?.",
+      "filename": "railways-scene.webp"
+    }
+  ]
+}

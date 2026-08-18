@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "comparing-numbers",
+  "title": "Comparing Two‑Digit Numbers",
+  "lessonType": "number-sense",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-math/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "comparing-numbers-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Comparing Two‑Digit Numbers. . Clear labeled illustration.",
+      "filename": "comparing-numbers-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "comparing-numbers-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Comparing Two‑Digit Numbers. Educational illustration style.",
+      "filename": "comparing-numbers-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "comparing-numbers-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Comparing Two‑Digit Numbers. Step by step visual educational math style.",
+      "filename": "comparing-numbers-example.webp",
+      "quality": 85
+    }
+  ]
+}

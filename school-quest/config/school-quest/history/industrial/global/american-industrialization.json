@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-industrialization",
+  "title": "American Industrialization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "american-industrialization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After the American Revolution, the young United States was full of natural resources like coal and i. Legacy: American industrialization connected a vast continent with railroads and canals,. Topics: What invention, created by Eli Whitney in 1793, made cleaning cotton much faster?, What man-made waterway, finished in 1825, connected the Great Lakes to New York City?.",
+      "filename": "american-industrialization-map.webp"
+    },
+    {
+      "id": "american-industrialization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After the American Revolution, the young United States was full of natural resources like coal and i. Legacy: American industrialization connected a vast continent with railroads and canals,. Topics: What invention, created by Eli Whitney in 1793, made cleaning cotton much faster?, What man-made waterway, finished in 1825, connected the Great Lakes to New York City?.",
+      "filename": "american-industrialization-portrait.webp"
+    }
+  ]
+}

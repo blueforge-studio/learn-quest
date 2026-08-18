@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "telegraph-communication",
+  "title": "The Telegraph",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "telegraph-communication",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Telegraph. Type: era-exploration. Background: In the early 1800s, sending a letter from London to New York took weeks by ship. Scientists like Ale. Legacy: The telegraph was the great-grandparent of today’s smartphones and the internet.. Topics: What did the telegraph let people do for the first time?, What are the two main symbols in Morse code?.",
+      "filename": "telegraph-communication-map.webp"
+    },
+    {
+      "id": "telegraph-communication-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Telegraph. Type: era-exploration. Background: In the early 1800s, sending a letter from London to New York took weeks by ship. Scientists like Ale. Legacy: The telegraph was the great-grandparent of today’s smartphones and the internet.. Topics: What did the telegraph let people do for the first time?, What are the two main symbols in Morse code?.",
+      "filename": "telegraph-communication-portrait.webp"
+    }
+  ]
+}

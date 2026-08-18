@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-trade-ch3",
+  "title": "Ancient Trade Routes",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-trade-ch3",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: Trade began over 5,500 years ago when early farmers swapped grain for tools. As cities grew, so did . Legacy: Ancient trade routes were the world’s first 'global internet' — not with wires o. Topics: What was the most famous item traded on the Silk Road?, Which animal helped traders cross the Sahara Desert?.",
+      "filename": "ancient-trade-ch3-map.webp"
+    },
+    {
+      "id": "ancient-trade-ch3-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: Trade began over 5,500 years ago when early farmers swapped grain for tools. As cities grew, so did . Legacy: Ancient trade routes were the world’s first 'global internet' — not with wires o. Topics: What was the most famous item traded on the Silk Road?, Which animal helped traders cross the Sahara Desert?.",
+      "filename": "ancient-trade-ch3-portrait.webp"
+    }
+  ]
+}

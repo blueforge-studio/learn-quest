@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "iron-age-ch5",
+  "title": "The Iron Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "iron-age-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: The Iron Age didn’t start all at once—it began at different times in different places! It started ar. Legacy: The Iron Age laid the foundation for everything that came next—from ancient Rome. Topics: What made iron tools better than bronze tools?, How did iron plows help villages grow?.",
+      "filename": "iron-age-ch5-map.webp"
+    },
+    {
+      "id": "iron-age-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: The Iron Age didn’t start all at once—it began at different times in different places! It started ar. Legacy: The Iron Age laid the foundation for everything that came next—from ancient Rome. Topics: What made iron tools better than bronze tools?, How did iron plows help villages grow?.",
+      "filename": "iron-age-ch5-portrait.webp"
+    }
+  ]
+}

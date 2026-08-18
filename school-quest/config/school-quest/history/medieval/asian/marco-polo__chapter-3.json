@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "marco-polo",
+  "title": "Marco Polo",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "marco-polo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Marco Polo. Type: historical-figure. Background: Born in Venice in 1254, Marco grew up in a family of merchants. When he was just 17 years old, he jo. Legacy: Marco Polo's book inspired generations of explorers, including Christopher Colum. Topics: How old was Marco Polo when he began his journey to Asia?, Which Mongol ruler did Marco Polo serve for 17 years?.",
+      "filename": "marco-polo-portrait.webp"
+    },
+    {
+      "id": "marco-polo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Marco Polo. Type: historical-figure. Background: Born in Venice in 1254, Marco grew up in a family of merchants. When he was just 17 years old, he jo. Legacy: Marco Polo's book inspired generations of explorers, including Christopher Colum. Topics: How old was Marco Polo when he began his journey to Asia?, Which Mongol ruler did Marco Polo serve for 17 years?.",
+      "filename": "marco-polo-scene.webp"
+    }
+  ]
+}

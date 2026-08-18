@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spinning-jenny",
+  "title": "Spinning Jenny and Textiles",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "spinning-jenny",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: For centuries, people in Europe made thread for cloth using a simple tool called a spinning wheel. I. Legacy: The Spinning Jenny didn't just make more socks and shirts. It changed the world.. Topics: What did the Spinning Jenny make?, Why was the Spinning Jenny so important?.",
+      "filename": "spinning-jenny-map.webp"
+    },
+    {
+      "id": "spinning-jenny-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: For centuries, people in Europe made thread for cloth using a simple tool called a spinning wheel. I. Legacy: The Spinning Jenny didn't just make more socks and shirts. It changed the world.. Topics: What did the Spinning Jenny make?, Why was the Spinning Jenny so important?.",
+      "filename": "spinning-jenny-portrait.webp"
+    }
+  ]
+}

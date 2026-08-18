@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "suez-canal",
+  "title": "The Suez Canal",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "suez-canal",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Suez Canal. Type: era-exploration. Background: For centuries, people dreamed of cutting through the narrow strip of land called the Isthmus of Suez. Legacy: The Suez Canal is one of the world's most important waterways. It made global tr. Topics: What two bodies of water does the Suez Canal connect?, Why was the Suez Canal such an important shortcut?.",
+      "filename": "suez-canal-map.webp"
+    },
+    {
+      "id": "suez-canal-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Suez Canal. Type: era-exploration. Background: For centuries, people dreamed of cutting through the narrow strip of land called the Isthmus of Suez. Legacy: The Suez Canal is one of the world's most important waterways. It made global tr. Topics: What two bodies of water does the Suez Canal connect?, Why was the Suez Canal such an important shortcut?.",
+      "filename": "suez-canal-portrait.webp"
+    }
+  ]
+}

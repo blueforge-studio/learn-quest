@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mamluk-egypt",
+  "title": "Mamluk Egypt",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "mamluk-egypt",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Mamluk Egypt. Type: era-exploration. Background: The word 'Mamluk' means 'owned' in Arabic. They were young boys, often from Central Asia or the Cauc. Legacy: The Mamluk era left a permanent mark on Egypt. Their stunning buildings still st. Topics: What does the word 'Mamluk' mean?, What major enemy did the Mamluks famously stop at the Battle of Ain Jalut?.",
+      "filename": "mamluk-egypt-map.webp"
+    },
+    {
+      "id": "mamluk-egypt-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mamluk Egypt. Type: era-exploration. Background: The word 'Mamluk' means 'owned' in Arabic. They were young boys, often from Central Asia or the Cauc. Legacy: The Mamluk era left a permanent mark on Egypt. Their stunning buildings still st. Topics: What does the word 'Mamluk' mean?, What major enemy did the Mamluks famously stop at the Battle of Ain Jalut?.",
+      "filename": "mamluk-egypt-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "magna-carta",
+  "title": "The Magna Carta",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "magna-carta",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Magna Carta. Type: era-exploration. Background: In medieval England, King John was a very unpopular king. He taxed his barons (the powerful nobles) . Legacy: King John tried to get out of the deal almost immediately, and the Pope said the. Topics: Where was the Magna Carta signed in 1215?, What was the main, big idea of the Magna Carta?.",
+      "filename": "magna-carta-map.webp"
+    },
+    {
+      "id": "magna-carta-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Magna Carta. Type: era-exploration. Background: In medieval England, King John was a very unpopular king. He taxed his barons (the powerful nobles) . Legacy: King John tried to get out of the deal almost immediately, and the Pope said the. Topics: Where was the Magna Carta signed in 1215?, What was the main, big idea of the Magna Carta?.",
+      "filename": "magna-carta-portrait.webp"
+    }
+  ]
+}

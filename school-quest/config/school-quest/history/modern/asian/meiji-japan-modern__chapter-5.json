@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "meiji-japan-modern",
+  "title": "Modern Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "meiji-japan-modern",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Modern Japan. Type: era-exploration. Background: For over 200 years, Japan was ruled by shoguns and samurai in a system called feudalism. The country. Legacy: Japan's incredible transformation showed the world that change could happen very. Topics: What major event in 1868 started Japan's rapid modernization?, How did Japan learn about Western technology in the 1870s?.",
+      "filename": "meiji-japan-modern-map.webp"
+    },
+    {
+      "id": "meiji-japan-modern-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Modern Japan. Type: era-exploration. Background: For over 200 years, Japan was ruled by shoguns and samurai in a system called feudalism. The country. Legacy: Japan's incredible transformation showed the world that change could happen very. Topics: What major event in 1868 started Japan's rapid modernization?, How did Japan learn about Western technology in the 1870s?.",
+      "filename": "meiji-japan-modern-portrait.webp"
+    }
+  ]
+}

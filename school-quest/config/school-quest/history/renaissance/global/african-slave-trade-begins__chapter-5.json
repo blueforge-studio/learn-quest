@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "african-slave-trade-begins",
+  "title": "The Atlantic Slave Trade Begins",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "african-slave-trade-begins",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Atlantic Slave Trade Begins. Type: timeline. Background: Before 1400, slavery existed in many parts of the world — including Africa, Europe, and the Middle E. Legacy: The Atlantic Slave Trade lasted over 400 years and affected three continents. It. Topics: Where did the very first known group of enslaved Africans arrive in Europe?, What important building did the Portuguese build in 1482 to help control the slave trade?.",
+      "filename": "african-slave-trade-begins-timeline.webp"
+    },
+    {
+      "id": "african-slave-trade-begins-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Atlantic Slave Trade Begins. Type: timeline. Background: Before 1400, slavery existed in many parts of the world — including Africa, Europe, and the Middle E. Legacy: The Atlantic Slave Trade lasted over 400 years and affected three continents. It. Topics: Where did the very first known group of enslaved Africans arrive in Europe?, What important building did the Portuguese build in 1482 to help control the slave trade?.",
+      "filename": "african-slave-trade-begins-scene.webp"
+    }
+  ]
+}

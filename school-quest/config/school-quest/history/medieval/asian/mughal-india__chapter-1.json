@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mughal-india",
+  "title": "The Early Delhi Sultanate",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mughal-india",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, a Turkish general named Qutb-ud-din Aibak became the first Sultan of Delhi. He a. Legacy: The Delhi Sultanate left a lasting mark on India. It introduced new architectura. Topics: What was the Delhi Sultanate?, What is the Qutb Minar?.",
+      "filename": "mughal-india-map.webp"
+    },
+    {
+      "id": "mughal-india-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, a Turkish general named Qutb-ud-din Aibak became the first Sultan of Delhi. He a. Legacy: The Delhi Sultanate left a lasting mark on India. It introduced new architectura. Topics: What was the Delhi Sultanate?, What is the Qutb Minar?.",
+      "filename": "mughal-india-portrait.webp"
+    }
+  ]
+}

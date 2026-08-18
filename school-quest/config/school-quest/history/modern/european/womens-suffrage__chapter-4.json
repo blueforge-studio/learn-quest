@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "womens-suffrage",
+  "title": "Women's Suffrage",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "womens-suffrage",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Women's Suffrage. Type: timeline. Background: In the 1800s, most European countries were ruled by kings or parliaments where only men could vote. . Legacy: The suffrage movement transformed Europe. Once women could vote, they could infl. Topics: What does 'suffrage' mean?, Which European country was the first to give women the right to vote?.",
+      "filename": "womens-suffrage-timeline.webp"
+    },
+    {
+      "id": "womens-suffrage-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Women's Suffrage. Type: timeline. Background: In the 1800s, most European countries were ruled by kings or parliaments where only men could vote. . Legacy: The suffrage movement transformed Europe. Once women could vote, they could infl. Topics: What does 'suffrage' mean?, Which European country was the first to give women the right to vote?.",
+      "filename": "womens-suffrage-scene.webp"
+    }
+  ]
+}

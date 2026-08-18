@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "napoleon",
+  "title": "Napoleon Bonaparte",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "napoleon",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born on the island of Corsica in 1769 (just after it became part of France), Napoleon was the second. Legacy: Napoleon changed Europe forever—not just by winning battles, but by spreading id. Topics: Where was Napoleon born?, What did Napoleon do at the coronation ceremony in 1804?.",
+      "filename": "napoleon-portrait.webp"
+    },
+    {
+      "id": "napoleon-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born on the island of Corsica in 1769 (just after it became part of France), Napoleon was the second. Legacy: Napoleon changed Europe forever—not just by winning battles, but by spreading id. Topics: Where was Napoleon born?, What did Napoleon do at the coronation ceremony in 1804?.",
+      "filename": "napoleon-scene.webp"
+    }
+  ]
+}

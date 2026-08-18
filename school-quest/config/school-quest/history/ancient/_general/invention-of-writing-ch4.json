@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "invention-of-writing-ch4",
+  "title": "The Invention of Writing",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "invention-of-writing-ch4",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in a place called Mesopotamia (modern-day Iraq), people started making marks on wet. Legacy: Writing changed everything! It allowed knowledge to be saved and shared across t. Topics: Where was the world's first writing system, cuneiform, invented?, What material did ancient Egyptians often write their hieroglyphics on?.",
+      "filename": "invention-of-writing-ch4-map.webp"
+    },
+    {
+      "id": "invention-of-writing-ch4-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in a place called Mesopotamia (modern-day Iraq), people started making marks on wet. Legacy: Writing changed everything! It allowed knowledge to be saved and shared across t. Topics: Where was the world's first writing system, cuneiform, invented?, What material did ancient Egyptians often write their hieroglyphics on?.",
+      "filename": "invention-of-writing-ch4-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "child-labor",
+  "title": "Child Labor",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "child-labor",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Child Labor. Type: era-exploration. Background: In the late 1700s and early 1800s, new machines powered by steam engines changed how things were mad. Legacy: The fight against child labor was one of the first major workers' rights movemen. Topics: Why did factory owners hire so many children during the Industrial Revolution?, What was a common job for a child in a coal mine?.",
+      "filename": "child-labor-map.webp"
+    },
+    {
+      "id": "child-labor-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Child Labor. Type: era-exploration. Background: In the late 1700s and early 1800s, new machines powered by steam engines changed how things were mad. Legacy: The fight against child labor was one of the first major workers' rights movemen. Topics: Why did factory owners hire so many children during the Industrial Revolution?, What was a common job for a child in a coal mine?.",
+      "filename": "child-labor-portrait.webp"
+    }
+  ]
+}

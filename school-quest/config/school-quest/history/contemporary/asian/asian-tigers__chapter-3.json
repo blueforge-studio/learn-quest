@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "asian-tigers",
+  "title": "Asian Tigers: The Four Economic Dragons",
+  "lessonType": "lesson",
+  "chapter": "chapter-3",
+  "epoch": "contemporary",
+  "region": "asian",
+  "basePath": "public/images/lessons/contemporary/asian",
+  "images": [
+    {
+      "id": "asian-tigers",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Asian Tigers: The Four Economic Dragons. Type: lesson. Topics: Which countries are called the Asian Tigers?, What are chaebols?.",
+      "filename": "asian-tigers-timeline.webp"
+    },
+    {
+      "id": "asian-tigers-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Asian Tigers: The Four Economic Dragons. Type: lesson. Topics: Which countries are called the Asian Tigers?, What are chaebols?.",
+      "filename": "asian-tigers-scene.webp"
+    }
+  ]
+}

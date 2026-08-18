@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "charlemagne",
+  "title": "Charlemagne",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "charlemagne",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Charlemagne. Type: historical-figure. Background: Born around 748, Charlemagne was the grandson of Charles Martel, who stopped a Muslim invasion of Eu. Legacy: Charlemagne is called the 'Father of Europe' because his empire laid the foundat. Topics: What does the name 'Charlemagne' mean?, What important title did Charlemagne receive on Christmas Day in the year 800?.",
+      "filename": "charlemagne-portrait.webp"
+    },
+    {
+      "id": "charlemagne-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Charlemagne. Type: historical-figure. Background: Born around 748, Charlemagne was the grandson of Charles Martel, who stopped a Muslim invasion of Eu. Legacy: Charlemagne is called the 'Father of Europe' because his empire laid the foundat. Topics: What does the name 'Charlemagne' mean?, What important title did Charlemagne receive on Christmas Day in the year 800?.",
+      "filename": "charlemagne-scene.webp"
+    }
+  ]
+}

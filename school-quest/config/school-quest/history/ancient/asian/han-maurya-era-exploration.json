@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "han-maurya-era-exploration",
+  "title": "The Han Dynasty and Maurya Empire: A Tale of Two Empires",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "han-maurya-era-exploration",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Han Dynasty and Maurya Empire: A Tale of Two Empires. Type: era-exploration. Topics: What did the Han Dynasty help create that connected China to the West?, Which Indian emperor created stone pillars with moral laws?.",
+      "filename": "han-maurya-era-exploration-map.webp"
+    },
+    {
+      "id": "han-maurya-era-exploration-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Han Dynasty and Maurya Empire: A Tale of Two Empires. Type: era-exploration. Topics: What did the Han Dynasty help create that connected China to the West?, Which Indian emperor created stone pillars with moral laws?.",
+      "filename": "han-maurya-era-exploration-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "meiji-japan-modern",
+  "title": "Modern Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "meiji-japan-modern",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Modern Japan. Type: era-exploration. Background: For over 200 years, Japan was mostly closed to the outside world. In 1853, American ships arrived, d. Legacy: Japan's amazing transformation showed the world that a nation could modernize in. Topics: What event in 1853 shocked Japan into realizing it needed to change?, What was the name of the period when Japan began its rapid modernization?.",
+      "filename": "meiji-japan-modern-map.webp"
+    },
+    {
+      "id": "meiji-japan-modern-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Modern Japan. Type: era-exploration. Background: For over 200 years, Japan was mostly closed to the outside world. In 1853, American ships arrived, d. Legacy: Japan's amazing transformation showed the world that a nation could modernize in. Topics: What event in 1853 shocked Japan into realizing it needed to change?, What was the name of the period when Japan began its rapid modernization?.",
+      "filename": "meiji-japan-modern-portrait.webp"
+    }
+  ]
+}

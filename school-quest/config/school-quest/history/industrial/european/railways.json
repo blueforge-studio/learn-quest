@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "railways",
+  "title": "The Railway Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "railways",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Railway Revolution. Type: timeline. Background: In the late 1700s, factories in Britain needed better ways to move coal and goods. Early railways we. Legacy: The Railway Revolution laid the tracks for our modern world — inspiring subways,. Topics: What pulled early 'railways' before steam engines?, Which famous locomotive won the Rainhill Trials in 1829?.",
+      "filename": "railways-timeline.webp"
+    },
+    {
+      "id": "railways-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Railway Revolution. Type: timeline. Background: In the late 1700s, factories in Britain needed better ways to move coal and goods. Early railways we. Legacy: The Railway Revolution laid the tracks for our modern world — inspiring subways,. Topics: What pulled early 'railways' before steam engines?, Which famous locomotive won the Rainhill Trials in 1829?.",
+      "filename": "railways-scene.webp"
+    }
+  ]
+}

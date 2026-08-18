@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "world-war-2-europe",
+  "title": "World War II in Europe",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "world-war-2-europe",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War II in Europe. Type: timeline. Background: In the 1930s, a leader named Adolf Hitler rose to power in Germany. He wanted more land and believed. Legacy: World War II changed the world forever. It led to the United Nations (to help co. Topics: What does 'Blitzkrieg' mean?, Which event was the biggest beach invasion in history?.",
+      "filename": "world-war-2-europe-timeline.webp"
+    },
+    {
+      "id": "world-war-2-europe-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War II in Europe. Type: timeline. Background: In the 1930s, a leader named Adolf Hitler rose to power in Germany. He wanted more land and believed. Legacy: World War II changed the world forever. It led to the United Nations (to help co. Topics: What does 'Blitzkrieg' mean?, Which event was the biggest beach invasion in history?.",
+      "filename": "world-war-2-europe-scene.webp"
+    }
+  ]
+}

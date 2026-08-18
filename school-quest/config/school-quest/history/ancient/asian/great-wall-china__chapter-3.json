@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-wall-china",
+  "title": "The Great Wall of China",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "great-wall-china",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: Long ago, China was made up of different kingdoms that often fought each other. To the north, there . Legacy: Today, the Great Wall is a UNESCO World Heritage Site and a symbol of China. It . Topics: What was the MAIN reason the Great Wall was first built?, Who ordered the first separate walls to be joined into one 'Great Wall'?.",
+      "filename": "great-wall-china-map.webp"
+    },
+    {
+      "id": "great-wall-china-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: Long ago, China was made up of different kingdoms that often fought each other. To the north, there . Legacy: Today, the Great Wall is a UNESCO World Heritage Site and a symbol of China. It . Topics: What was the MAIN reason the Great Wall was first built?, Who ordered the first separate walls to be joined into one 'Great Wall'?.",
+      "filename": "great-wall-china-portrait.webp"
+    }
+  ]
+}

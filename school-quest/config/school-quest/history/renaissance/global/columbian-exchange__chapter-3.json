@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "columbian-exchange",
+  "title": "The Columbian Exchange",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "columbian-exchange",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Columbian Exchange. Type: era-exploration. Background: For thousands of years, the Americas and Europe/Africa/Asia developed separately. When European expl. Legacy: The Columbian Exchange created the interconnected world we know today. It shows . Topics: What was the Columbian Exchange?, Which food traveled FROM the Americas TO Europe during the exchange?.",
+      "filename": "columbian-exchange-map.webp"
+    },
+    {
+      "id": "columbian-exchange-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Columbian Exchange. Type: era-exploration. Background: For thousands of years, the Americas and Europe/Africa/Asia developed separately. When European expl. Legacy: The Columbian Exchange created the interconnected world we know today. It shows . Topics: What was the Columbian Exchange?, Which food traveled FROM the Americas TO Europe during the exchange?.",
+      "filename": "columbian-exchange-portrait.webp"
+    }
+  ]
+}

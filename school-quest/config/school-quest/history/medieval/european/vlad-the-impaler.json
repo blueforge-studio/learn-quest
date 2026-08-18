@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "vlad-the-impaler",
+  "title": "Vlad the Impaler",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "vlad-the-impaler",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Vlad the Impaler. Type: historical-figure. Background: Wallachia was a small kingdom caught between two powerful empires: the Ottoman Empire to the south a. Legacy: Vlad is remembered in two very different ways. In Romania, he is often seen as a. Topics: What does the name 'Drăculea,' which inspired 'Dracula,' mean?, Why was young Vlad sent to the Ottoman court as a boy?.",
+      "filename": "vlad-the-impaler-portrait.webp"
+    },
+    {
+      "id": "vlad-the-impaler-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Vlad the Impaler. Type: historical-figure. Background: Wallachia was a small kingdom caught between two powerful empires: the Ottoman Empire to the south a. Legacy: Vlad is remembered in two very different ways. In Romania, he is often seen as a. Topics: What does the name 'Drăculea,' which inspired 'Dracula,' mean?, Why was young Vlad sent to the Ottoman court as a boy?.",
+      "filename": "vlad-the-impaler-scene.webp"
+    }
+  ]
+}

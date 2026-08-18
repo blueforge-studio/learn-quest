@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mongol-empire",
+  "title": "The Mongol Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mongol-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Mongol Empire. Type: era-exploration. Background: For centuries, many different tribes lived on the vast, grassy plains of Central Asia, called the st. Legacy: The Mongol Empire changed the world. They connected East and West like never bef. Topics: What was the name of the vast, grassy plains where the Mongols originally lived?, What title was given to Temujin when he united the Mongol tribes in 1206?.",
+      "filename": "mongol-empire-map.webp"
+    },
+    {
+      "id": "mongol-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Mongol Empire. Type: era-exploration. Background: For centuries, many different tribes lived on the vast, grassy plains of Central Asia, called the st. Legacy: The Mongol Empire changed the world. They connected East and West like never bef. Topics: What was the name of the vast, grassy plains where the Mongols originally lived?, What title was given to Temujin when he united the Mongol tribes in 1206?.",
+      "filename": "mongol-empire-portrait.webp"
+    }
+  ]
+}

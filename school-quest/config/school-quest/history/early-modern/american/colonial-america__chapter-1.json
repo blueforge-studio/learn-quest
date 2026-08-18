@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "colonial-america",
+  "title": "Colonial America",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "colonial-america",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Colonial America. Type: era-exploration. Background: Starting in the late 1500s, European countries like England, Spain, France, and the Netherlands sent. Legacy: The 13 colonies laid the foundation for the United States. Their experiments in . Topics: What was the first permanent English settlement in America?, Why did the Pilgrims come to America in 1620?.",
+      "filename": "colonial-america-map.webp"
+    },
+    {
+      "id": "colonial-america-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Colonial America. Type: era-exploration. Background: Starting in the late 1500s, European countries like England, Spain, France, and the Netherlands sent. Legacy: The 13 colonies laid the foundation for the United States. Their experiments in . Topics: What was the first permanent English settlement in America?, Why did the Pilgrims come to America in 1620?.",
+      "filename": "colonial-america-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "railways",
+  "title": "The Railway Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "railways",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Railway Revolution. Type: timeline. Background: In the 1700s, factories in Britain needed better ways to move coal and goods. Roads were bumpy and r. Legacy: Trains made travel affordable and exciting for ordinary people — not just kings . Topics: What pulled early rail carts before steam engines?, Which famous train won a speed contest in 1829?.",
+      "filename": "railways-timeline.webp"
+    },
+    {
+      "id": "railways-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Railway Revolution. Type: timeline. Background: In the 1700s, factories in Britain needed better ways to move coal and goods. Roads were bumpy and r. Legacy: Trains made travel affordable and exciting for ordinary people — not just kings . Topics: What pulled early rail carts before steam engines?, Which famous train won a speed contest in 1829?.",
+      "filename": "railways-scene.webp"
+    }
+  ]
+}

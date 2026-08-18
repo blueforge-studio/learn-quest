@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "sun-yat-sen",
+  "title": "Sun Yat-sen",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "sun-yat-sen",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Born in 1866 in a small village near Guangzhou (in southern China), Sun Yat-sen grew up while China . Legacy: Sun Yat-sen is remembered as the 'Father of Modern China' — not because he ruled. Topics: What important job did Sun Yat-sen have before becoming a leader?, What did Sun Yat-sen’s 'Three Principles' include?.",
+      "filename": "sun-yat-sen-portrait.webp"
+    },
+    {
+      "id": "sun-yat-sen-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Born in 1866 in a small village near Guangzhou (in southern China), Sun Yat-sen grew up while China . Legacy: Sun Yat-sen is remembered as the 'Father of Modern China' — not because he ruled. Topics: What important job did Sun Yat-sen have before becoming a leader?, What did Sun Yat-sen’s 'Three Principles' include?.",
+      "filename": "sun-yat-sen-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "zheng-he",
+  "title": "Zheng He's Voyages",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "zheng-he",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Zheng He's Voyages. Type: historical-figure. Background: Zheng He was born in Yunnan Province, China, in 1371. As a child, he was captured by Ming Dynasty so. Legacy: Zheng He is remembered as a symbol of peaceful exploration and cultural exchange. Topics: How many major ocean voyages did Zheng He lead?, What were Zheng He’s huge ships called?.",
+      "filename": "zheng-he-portrait.webp"
+    },
+    {
+      "id": "zheng-he-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Zheng He's Voyages. Type: historical-figure. Background: Zheng He was born in Yunnan Province, China, in 1371. As a child, he was captured by Ming Dynasty so. Legacy: Zheng He is remembered as a symbol of peaceful exploration and cultural exchange. Topics: How many major ocean voyages did Zheng He lead?, What were Zheng He’s huge ships called?.",
+      "filename": "zheng-he-scene.webp"
+    }
+  ]
+}

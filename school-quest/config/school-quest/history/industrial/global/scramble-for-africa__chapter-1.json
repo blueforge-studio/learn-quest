@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "scramble-for-africa",
+  "title": "The Scramble for Africa",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "scramble-for-africa",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: factories were booming, steam engines were chugging, an. Legacy: These early actions changed Africa forever. Coastal colonies grew into gateways . Topics: What did Britain do in 1807 that changed how it interacted with Africa?, Which country helped create Liberia in 1822?.",
+      "filename": "scramble-for-africa-timeline.webp"
+    },
+    {
+      "id": "scramble-for-africa-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: factories were booming, steam engines were chugging, an. Legacy: These early actions changed Africa forever. Coastal colonies grew into gateways . Topics: What did Britain do in 1807 that changed how it interacted with Africa?, Which country helped create Liberia in 1822?.",
+      "filename": "scramble-for-africa-scene.webp"
+    }
+  ]
+}

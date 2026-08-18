@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "hatshepsut",
+  "title": "Hatshepsut",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "hatshepsut",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Hatshepsut. Type: historical-figure. Background: Hatshepsut was born a princess, the daughter of Pharaoh Thutmose I. When her husband, Pharaoh Thutmo. Legacy: Hatshepsut proved that a woman could be a great and powerful pharaoh. Her buildi. Topics: What was unusual about Hatshepsut's rule?, What famous project did Hatshepsut build?.",
+      "filename": "hatshepsut-portrait.webp"
+    },
+    {
+      "id": "hatshepsut-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Hatshepsut. Type: historical-figure. Background: Hatshepsut was born a princess, the daughter of Pharaoh Thutmose I. When her husband, Pharaoh Thutmo. Legacy: Hatshepsut proved that a woman could be a great and powerful pharaoh. Her buildi. Topics: What was unusual about Hatshepsut's rule?, What famous project did Hatshepsut build?.",
+      "filename": "hatshepsut-scene.webp"
+    }
+  ]
+}

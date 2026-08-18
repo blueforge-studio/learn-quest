@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "opium-wars",
+  "title": "The Opium Wars",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "opium-wars",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a rich and powerful empire that traded tea, silk, and porcelain with Europe. Legacy: The Opium Wars are a dark chapter in world history. They are remembered as wars . Topics: What product was Britain buying from China that started the trade problem?, What addictive drug did British merchants smuggle into China?.",
+      "filename": "opium-wars-map.webp"
+    },
+    {
+      "id": "opium-wars-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a rich and powerful empire that traded tea, silk, and porcelain with Europe. Legacy: The Opium Wars are a dark chapter in world history. They are remembered as wars . Topics: What product was Britain buying from China that started the trade problem?, What addictive drug did British merchants smuggle into China?.",
+      "filename": "opium-wars-portrait.webp"
+    }
+  ]
+}

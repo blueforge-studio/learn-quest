@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "thirty-years-war",
+  "title": "The Thirty Years' War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "thirty-years-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Thirty Years' War. Type: era-exploration. Background: In the early 1600s, Europe was divided by religion. The Holy Roman Empire (a patchwork of German sta. Legacy: The Peace of Westphalia ended the war and created new rules for Europe. It allow. Topics: What event in 1618 is considered the spark that started the war?, The war is named for how long it lasted. How many years was it?.",
+      "filename": "thirty-years-war-map.webp"
+    },
+    {
+      "id": "thirty-years-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Thirty Years' War. Type: era-exploration. Background: In the early 1600s, Europe was divided by religion. The Holy Roman Empire (a patchwork of German sta. Legacy: The Peace of Westphalia ended the war and created new rules for Europe. It allow. Topics: What event in 1618 is considered the spark that started the war?, The war is named for how long it lasted. How many years was it?.",
+      "filename": "thirty-years-war-portrait.webp"
+    }
+  ]
+}

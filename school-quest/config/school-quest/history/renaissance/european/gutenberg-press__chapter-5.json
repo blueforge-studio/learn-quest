@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gutenberg-press",
+  "title": "The Printing Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "gutenberg-press",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Printing Revolution. Type: era-exploration. Background: In the early 1400s, most books in Europe were handwritten by monks in quiet monasteries. It took mon. Legacy: Gutenberg’s press is one of the most important inventions in human history — lik. Topics: Before Gutenberg, how were most books made in Europe?, What special material did Gutenberg use for his letters?.",
+      "filename": "gutenberg-press-map.webp"
+    },
+    {
+      "id": "gutenberg-press-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Printing Revolution. Type: era-exploration. Background: In the early 1400s, most books in Europe were handwritten by monks in quiet monasteries. It took mon. Legacy: Gutenberg’s press is one of the most important inventions in human history — lik. Topics: Before Gutenberg, how were most books made in Europe?, What special material did Gutenberg use for his letters?.",
+      "filename": "gutenberg-press-portrait.webp"
+    }
+  ]
+}

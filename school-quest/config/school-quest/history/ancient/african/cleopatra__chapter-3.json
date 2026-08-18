@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cleopatra",
+  "title": "Cleopatra: Last Pharaoh",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "cleopatra",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Cleopatra: Last Pharaoh. Type: historical-figure. Background: Cleopatra was born in 69 BCE in Alexandria, Egypt — a bustling city full of libraries, temples, and . Legacy: Cleopatra is remembered as a symbol of intelligence, leadership, and cultural pr. Topics: How old was Cleopatra when she first became pharaoh?, What clever trick did Cleopatra use to meet Julius Caesar?.",
+      "filename": "cleopatra-portrait.webp"
+    },
+    {
+      "id": "cleopatra-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Cleopatra: Last Pharaoh. Type: historical-figure. Background: Cleopatra was born in 69 BCE in Alexandria, Egypt — a bustling city full of libraries, temples, and . Legacy: Cleopatra is remembered as a symbol of intelligence, leadership, and cultural pr. Topics: How old was Cleopatra when she first became pharaoh?, What clever trick did Cleopatra use to meet Julius Caesar?.",
+      "filename": "cleopatra-scene.webp"
+    }
+  ]
+}

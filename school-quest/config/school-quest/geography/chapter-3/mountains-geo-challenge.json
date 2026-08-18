@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "mountains-geo-challenge",
+  "title": "Mountain Movers: A Geo-Challenge!",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-geography/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "mountains-geo-challenge-map",
+      "type": "map",
+      "prompt": "Map illustration for: Mountain Movers: A Geo-Challenge!. Educational geography map.",
+      "filename": "mountains-geo-challenge-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "mountains-geo-challenge-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Mountain Movers: A Geo-Challenge!. Famous geographical location.",
+      "filename": "mountains-geo-challenge-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "mountains-geo-challenge-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Mountain Movers: A Geo-Challenge!. Geographic region visual.",
+      "filename": "mountains-geo-challenge-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "mountains-geo-challenge-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Mountain Movers: A Geo-Challenge!. Natural environment visual.",
+      "filename": "mountains-geo-challenge-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

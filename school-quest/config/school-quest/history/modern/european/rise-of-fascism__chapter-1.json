@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "rise-of-fascism",
+  "title": "The Rise of Fascism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "rise-of-fascism",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Rise of Fascism. Type: era-exploration. Background: After World War I ended in 1918, countries like Italy and Germany faced big problems: broken economi. Legacy: The rise of fascism teaches us how important it is to protect fairness, kindness. Topics: What major war ended just before fascism began rising in Europe?, Which two European countries saw fascist leaders take power before World War II?.",
+      "filename": "rise-of-fascism-map.webp"
+    },
+    {
+      "id": "rise-of-fascism-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Rise of Fascism. Type: era-exploration. Background: After World War I ended in 1918, countries like Italy and Germany faced big problems: broken economi. Legacy: The rise of fascism teaches us how important it is to protect fairness, kindness. Topics: What major war ended just before fascism began rising in Europe?, Which two European countries saw fascist leaders take power before World War II?.",
+      "filename": "rise-of-fascism-portrait.webp"
+    }
+  ]
+}

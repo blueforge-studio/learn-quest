@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "haitian-revolution",
+  "title": "The Haitian Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "haitian-revolution",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: The island of Hispaniola was split between two colonies: Spanish Santo Domingo (east) and French Sai. Legacy: Haiti’s independence proved that enslaved people were not just workers — they we. Topics: Where did the Haitian Revolution happen?, What important event started the revolution in 1791?.",
+      "filename": "haitian-revolution-map.webp"
+    },
+    {
+      "id": "haitian-revolution-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: The island of Hispaniola was split between two colonies: Spanish Santo Domingo (east) and French Sai. Legacy: Haiti’s independence proved that enslaved people were not just workers — they we. Topics: Where did the Haitian Revolution happen?, What important event started the revolution in 1791?.",
+      "filename": "haitian-revolution-portrait.webp"
+    }
+  ]
+}

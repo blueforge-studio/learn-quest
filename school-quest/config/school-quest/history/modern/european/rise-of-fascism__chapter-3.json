@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "rise-of-fascism",
+  "title": "The Rise of Fascism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "rise-of-fascism",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Rise of Fascism. Type: era-exploration. Background: After World War I ended in 1918, countries like Germany and Italy faced big problems: broken economi. Legacy: Fascism taught the world a powerful lesson: when leaders take away people’s righ. Topics: What country did Mussolini lead?, What did the word 'fascism' come from?.",
+      "filename": "rise-of-fascism-map.webp"
+    },
+    {
+      "id": "rise-of-fascism-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Rise of Fascism. Type: era-exploration. Background: After World War I ended in 1918, countries like Germany and Italy faced big problems: broken economi. Legacy: Fascism taught the world a powerful lesson: when leaders take away people’s righ. Topics: What country did Mussolini lead?, What did the word 'fascism' come from?.",
+      "filename": "rise-of-fascism-portrait.webp"
+    }
+  ]
+}

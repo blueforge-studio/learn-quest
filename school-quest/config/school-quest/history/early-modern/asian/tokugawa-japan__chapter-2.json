@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tokugawa-japan",
+  "title": "Tokugawa Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "tokugawa-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was divided and fought over by rival samurai lords in a time calle. Legacy: The Tokugawa shogunate created one of the longest periods of peace in Japanese h. Topics: Who was the military ruler of Japan during the Tokugawa period?, What was the name of the warrior class that served the shogun and lords?.",
+      "filename": "tokugawa-japan-map.webp"
+    },
+    {
+      "id": "tokugawa-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was divided and fought over by rival samurai lords in a time calle. Legacy: The Tokugawa shogunate created one of the longest periods of peace in Japanese h. Topics: Who was the military ruler of Japan during the Tokugawa period?, What was the name of the warrior class that served the shogun and lords?.",
+      "filename": "tokugawa-japan-portrait.webp"
+    }
+  ]
+}

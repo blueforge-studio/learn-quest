@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "vasco-da-gama",
+  "title": "Vasco da Gama",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "vasco-da-gama",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Vasco da Gama. Type: historical-figure. Background: Born around 1460 in Sines, Portugal, Vasco grew up near the sea and dreamed of sailing. He trained a. Legacy: Vasco da Gama opened the door to global trade, colonial empires, and cultural ex. Topics: What did Vasco da Gama do that no European had done before?, Which continent did Vasco da Gama sail around to reach India?.",
+      "filename": "vasco-da-gama-portrait.webp"
+    },
+    {
+      "id": "vasco-da-gama-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Vasco da Gama. Type: historical-figure. Background: Born around 1460 in Sines, Portugal, Vasco grew up near the sea and dreamed of sailing. He trained a. Legacy: Vasco da Gama opened the door to global trade, colonial empires, and cultural ex. Topics: What did Vasco da Gama do that no European had done before?, Which continent did Vasco da Gama sail around to reach India?.",
+      "filename": "vasco-da-gama-scene.webp"
+    }
+  ]
+}

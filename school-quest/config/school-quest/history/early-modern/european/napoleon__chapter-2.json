@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "napoleon",
+  "title": "Napoleon Bonaparte",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "napoleon",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born in 1769 on the Mediterranean island of Corsica (which had just become part of France), Napoleon. Legacy: Napoleon’s influence is still felt today! Many countries use versions of his Nap. Topics: Where was Napoleon born?, What important job did Napoleon get in 1799?.",
+      "filename": "napoleon-portrait.webp"
+    },
+    {
+      "id": "napoleon-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born in 1769 on the Mediterranean island of Corsica (which had just become part of France), Napoleon. Legacy: Napoleon’s influence is still felt today! Many countries use versions of his Nap. Topics: Where was Napoleon born?, What important job did Napoleon get in 1799?.",
+      "filename": "napoleon-scene.webp"
+    }
+  ]
+}

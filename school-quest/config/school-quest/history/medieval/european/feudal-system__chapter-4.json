@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "feudal-system",
+  "title": "The Feudal System",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "feudal-system",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Feudal System. Type: era-exploration. Background: After the fall of the Roman Empire, Europe became a dangerous place with many small kingdoms and inv. Legacy: The feudal system slowly faded away as kings grew more powerful, cities and trad. Topics: Who was at the very top of the feudal pyramid?, What did a knight promise to his lord in exchange for land?.",
+      "filename": "feudal-system-map.webp"
+    },
+    {
+      "id": "feudal-system-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Feudal System. Type: era-exploration. Background: After the fall of the Roman Empire, Europe became a dangerous place with many small kingdoms and inv. Legacy: The feudal system slowly faded away as kings grew more powerful, cities and trad. Topics: Who was at the very top of the feudal pyramid?, What did a knight promise to his lord in exchange for land?.",
+      "filename": "feudal-system-portrait.webp"
+    }
+  ]
+}

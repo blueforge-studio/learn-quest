@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "steam-engine",
+  "title": "The Steam Engine",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "steam-engine",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Steam Engine. Type: era-exploration. Background: Before steam engines, people and animals did most work. Factories had to be near rivers to use water. Legacy: The steam engine created our modern world. It led to railways that connected cou. Topics: What problem did James Watt's improved steam engine solve?, How did steam engines change where factories could be built?.",
+      "filename": "steam-engine-map.webp"
+    },
+    {
+      "id": "steam-engine-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Steam Engine. Type: era-exploration. Background: Before steam engines, people and animals did most work. Factories had to be near rivers to use water. Legacy: The steam engine created our modern world. It led to railways that connected cou. Topics: What problem did James Watt's improved steam engine solve?, How did steam engines change where factories could be built?.",
+      "filename": "steam-engine-portrait.webp"
+    }
+  ]
+}

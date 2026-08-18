@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "magellan-circumnavigation",
+  "title": "Magellan's Circumnavigation",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "magellan-circumnavigation",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Magellan's Circumnavigation. Type: era-exploration. Background: Ferdinand Magellan was a Portuguese explorer sailing for Spain. At the time, spices like cloves and . Legacy: Magellan's expedition was the first to circumnavigate the globe. It provided und. Topics: What was the main goal of Magellan's voyage?, What is the name of the narrow water passage Magellan found in South America?.",
+      "filename": "magellan-circumnavigation-map.webp"
+    },
+    {
+      "id": "magellan-circumnavigation-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Magellan's Circumnavigation. Type: era-exploration. Background: Ferdinand Magellan was a Portuguese explorer sailing for Spain. At the time, spices like cloves and . Legacy: Magellan's expedition was the first to circumnavigate the globe. It provided und. Topics: What was the main goal of Magellan's voyage?, What is the name of the narrow water passage Magellan found in South America?.",
+      "filename": "magellan-circumnavigation-portrait.webp"
+    }
+  ]
+}

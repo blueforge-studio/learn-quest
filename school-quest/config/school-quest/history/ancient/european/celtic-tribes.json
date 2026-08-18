@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "celtic-tribes",
+  "title": "Celtic Europe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "celtic-tribes",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one country or empire — they were many different tribes across Europe, from Irelan. Legacy: Celtic traditions live on today! The Irish language (Gaeilge), Scottish Gaelic, . Topics: What were Celtic hill forts used for?, What special metal did the Celts become famous for using?.",
+      "filename": "celtic-tribes-map.webp"
+    },
+    {
+      "id": "celtic-tribes-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one country or empire — they were many different tribes across Europe, from Irelan. Legacy: Celtic traditions live on today! The Irish language (Gaeilge), Scottish Gaelic, . Topics: What were Celtic hill forts used for?, What special metal did the Celts become famous for using?.",
+      "filename": "celtic-tribes-portrait.webp"
+    }
+  ]
+}

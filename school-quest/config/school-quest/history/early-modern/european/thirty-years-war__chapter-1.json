@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "thirty-years-war",
+  "title": "The Thirty Years' War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "thirty-years-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Thirty Years' War. Type: era-exploration. Background: In the early 1600s, Europe was divided by religion after the Protestant Reformation. The Holy Roman . Legacy: The Peace of Westphalia in 1648 ended the war. It redrew the map of Europe, weak. Topics: What was the main cause that started the Thirty Years' War?, Which Protestant king from Sweden was a famous military hero in the war?.",
+      "filename": "thirty-years-war-map.webp"
+    },
+    {
+      "id": "thirty-years-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Thirty Years' War. Type: era-exploration. Background: In the early 1600s, Europe was divided by religion after the Protestant Reformation. The Holy Roman . Legacy: The Peace of Westphalia in 1648 ended the war. It redrew the map of Europe, weak. Topics: What was the main cause that started the Thirty Years' War?, Which Protestant king from Sweden was a famous military hero in the war?.",
+      "filename": "thirty-years-war-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "siamese-kingdom",
+  "title": "The Kingdom of Siam",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "siamese-kingdom",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Kingdom of Siam. Type: era-exploration. Background: Founded in 1351, the Ayutthaya Kingdom grew into one of Asia’s most powerful and prosperous kingdoms. Legacy: Though Ayutthaya fell to Burmese forces in 1767, its spirit lived on. The next k. Topics: What was the name of Siam’s famous capital city?, Which European country first sent traders to Siam in 1511?.",
+      "filename": "siamese-kingdom-map.webp"
+    },
+    {
+      "id": "siamese-kingdom-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Kingdom of Siam. Type: era-exploration. Background: Founded in 1351, the Ayutthaya Kingdom grew into one of Asia’s most powerful and prosperous kingdoms. Legacy: Though Ayutthaya fell to Burmese forces in 1767, its spirit lived on. The next k. Topics: What was the name of Siam’s famous capital city?, Which European country first sent traders to Siam in 1511?.",
+      "filename": "siamese-kingdom-portrait.webp"
+    }
+  ]
+}

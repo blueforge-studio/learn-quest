@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "crusades",
+  "title": "The Crusades",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "crusades",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Crusades. Type: timeline. Background: In the 1000s, many Christians in Europe wanted to visit Jerusalem — a city very important to Christi. Legacy: The Crusades changed history in many ways: they brought cultures closer together. Topics: What did Pope Urban II ask European knights to do in 1095?, Which leader peacefully regained Jerusalem in 1187?.",
+      "filename": "crusades-timeline.webp"
+    },
+    {
+      "id": "crusades-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Crusades. Type: timeline. Background: In the 1000s, many Christians in Europe wanted to visit Jerusalem — a city very important to Christi. Legacy: The Crusades changed history in many ways: they brought cultures closer together. Topics: What did Pope Urban II ask European knights to do in 1095?, Which leader peacefully regained Jerusalem in 1187?.",
+      "filename": "crusades-scene.webp"
+    }
+  ]
+}

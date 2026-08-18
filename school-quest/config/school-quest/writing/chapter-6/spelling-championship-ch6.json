@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "spelling-championship-ch6",
+  "title": "Spelling Bee Championship",
+  "lessonType": "spelling",
+  "chapter": "chapter-6",
+  "basePath": "public/images/lessons/lq-writing/chapter-6",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "spelling-championship-ch6-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Spelling Bee Championship. Educational writing example.",
+      "filename": "spelling-championship-ch6-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "spelling-championship-ch6-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Spelling Bee Championship. Writing template visual.",
+      "filename": "spelling-championship-ch6-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "spelling-championship-ch6-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Spelling Bee Championship. Descriptive scene image.",
+      "filename": "spelling-championship-ch6-scene.webp",
+      "quality": 85
+    }
+  ]
+}

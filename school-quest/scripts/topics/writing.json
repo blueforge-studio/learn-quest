@@ -1,0 +1,53 @@
+{
+  "templateLesson": "lq-writing/public/data/lessons/en/chapter-1/handwriting-uppercase-a.json",
+  "categories": {
+    "grammar": [
+      { "id": "nouns-verbs", "title": "Nouns and Verbs", "type": "grammar", "description": "Identify nouns (person, place, thing) and action verbs" },
+      { "id": "adjectives", "title": "Adjectives", "type": "grammar", "description": "Describing words: color, size, shape, number" },
+      { "id": "sentence-structure", "title": "Sentence Structure", "type": "grammar", "description": "Subject + verb, capital letters, periods, question marks" },
+      { "id": "pronouns", "title": "Pronouns", "type": "grammar", "description": "Words like he, she, they, it that replace nouns" },
+      { "id": "adverbs", "title": "Adverbs", "type": "grammar", "description": "Words that describe how, when, and where actions happen" },
+      { "id": "prepositions", "title": "Prepositions", "type": "grammar", "description": "Position words: on, in, under, between, beside" },
+      { "id": "conjunctions", "title": "Conjunctions", "type": "grammar", "description": "Joining words: and, but, or, so, because" },
+      { "id": "punctuation-advanced", "title": "Advanced Punctuation", "type": "grammar", "description": "Commas, apostrophes, quotation marks, and exclamation points" },
+      { "id": "subject-verb-agreement", "title": "Subject-Verb Agreement", "type": "grammar", "description": "Making sure the subject and verb match: he runs, they run" },
+      { "id": "tenses", "title": "Verb Tenses", "type": "grammar", "description": "Past, present, and future: walked, walk, will walk" }
+    ],
+    "creative": [
+      { "id": "story-starters", "title": "Story Starters", "type": "creative-writing", "description": "Use prompts to begin imaginative stories" },
+      { "id": "character-creation", "title": "Creating Characters", "type": "creative-writing", "description": "Describe characters: appearance, personality, goals" },
+      { "id": "descriptive-writing", "title": "Descriptive Writing", "type": "creative-writing", "description": "Use senses (see, hear, smell, taste, touch) in writing" },
+      { "id": "setting-building", "title": "Setting Building", "type": "creative-writing", "description": "Create vivid places for your stories with rich details" },
+      { "id": "plot-structure", "title": "Plot Structure", "type": "creative-writing", "description": "Beginning, middle, and end with a problem and solution" },
+      { "id": "dialogue-writing", "title": "Writing Dialogue", "type": "creative-writing", "description": "Make characters talk with quotation marks and speech tags" },
+      { "id": "poetry-writing", "title": "Poetry Writing", "type": "creative-writing", "description": "Write rhyming poems, haiku, and free verse" },
+      { "id": "comic-strip-creation", "title": "Comic Strip Creation", "type": "creative-writing", "description": "Combine pictures and words to tell a short funny story" },
+      { "id": "fantasy-world", "title": "Fantasy World Building", "type": "creative-writing", "description": "Invent imaginary worlds with their own rules and creatures" },
+      { "id": "memoir-writing", "title": "Memoir Writing", "type": "creative-writing", "description": "Write about a real memory from your own life" }
+    ],
+    "essays": [
+      { "id": "opinion-writing", "title": "Opinion Writing", "type": "composition", "description": "State an opinion and give reasons: My favorite animal is..." },
+      { "id": "informative-writing", "title": "Informative Writing", "type": "composition", "description": "Write to teach: All about penguins, How to make a sandwich" },
+      { "id": "paragraph-structure", "title": "Paragraph Structure", "type": "composition", "description": "Topic sentence, supporting details, closing sentence" },
+      { "id": "persuasive-writing", "title": "Persuasive Writing", "type": "composition", "description": "Convince someone to agree with you using strong reasons" },
+      { "id": "compare-contrast-essay", "title": "Compare and Contrast Essay", "type": "composition", "description": "Write about how two things are alike and different" },
+      { "id": "cause-effect-writing", "title": "Cause and Effect Writing", "type": "composition", "description": "Explain why something happens and what happens because of it" },
+      { "id": "research-basics", "title": "Research Basics", "type": "composition", "description": "Find facts from books and websites to use in your writing" },
+      { "id": "bibliography-intro", "title": "Introduction to Bibliography", "type": "composition", "description": "Give credit to the books and sources you used" },
+      { "id": "thesis-statement", "title": "Writing a Thesis Statement", "type": "composition", "description": "Write one clear sentence that tells the main point of your essay" },
+      { "id": "peer-review", "title": "Peer Review", "type": "composition", "description": "Give and receive helpful feedback on writing with classmates" }
+    ],
+    "practical": [
+      { "id": "letter-writing", "title": "Writing Letters", "type": "composition", "description": "Friendly letters: greeting, body, closing, signature" },
+      { "id": "lists-instructions", "title": "Lists and Instructions", "type": "composition", "description": "Write numbered steps, shopping lists, to-do lists" },
+      { "id": "journal-writing", "title": "Journal Writing", "type": "creative-writing", "description": "Daily journal entries: what happened, how I felt, what I learned" },
+      { "id": "email-writing", "title": "Email Writing", "type": "composition", "description": "Write clear emails with a subject line, greeting, and sign-off" },
+      { "id": "note-taking", "title": "Note Taking", "type": "composition", "description": "Write short notes to remember important information" },
+      { "id": "invitation-writing", "title": "Writing Invitations", "type": "composition", "description": "Create party invitations with who, what, when, where details" },
+      { "id": "recipe-writing", "title": "Recipe Writing", "type": "composition", "description": "Write ingredients and step-by-step cooking instructions" },
+      { "id": "directions-writing", "title": "Writing Directions", "type": "composition", "description": "Give clear directions to help someone get from place to place" },
+      { "id": "report-writing", "title": "Report Writing", "type": "composition", "description": "Write a short report on a topic with facts and details" },
+      { "id": "review-writing", "title": "Writing Reviews", "type": "creative-writing", "description": "Share your opinion about a book, movie, or game" }
+    ]
+  }
+}

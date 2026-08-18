@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "castles-sieges",
+  "title": "Castles and Sieges",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "castles-sieges",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Castles and Sieges. Type: era-exploration. Background: After the fall of the Roman Empire, Europe was divided into many kingdoms and lands ruled by powerfu. Legacy: Castles changed how wars were fought. Attackers had to become engineers, buildin. Topics: What was the main purpose of a castle in the Middle Ages?, What was a moat used for?.",
+      "filename": "castles-sieges-map.webp"
+    },
+    {
+      "id": "castles-sieges-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Castles and Sieges. Type: era-exploration. Background: After the fall of the Roman Empire, Europe was divided into many kingdoms and lands ruled by powerfu. Legacy: Castles changed how wars were fought. Attackers had to become engineers, buildin. Topics: What was the main purpose of a castle in the Middle Ages?, What was a moat used for?.",
+      "filename": "castles-sieges-portrait.webp"
+    }
+  ]
+}

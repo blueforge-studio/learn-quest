@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "main-idea-ch3",
+  "title": "Finding the Main Idea",
+  "lessonType": "comprehension",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-reading/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "main-idea-ch3-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Finding the Main Idea. Educational scene.",
+      "filename": "main-idea-ch3-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "main-idea-ch3-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Finding the Main Idea. Story scene or concept illustration.",
+      "filename": "main-idea-ch3-visual.webp",
+      "quality": 85
+    }
+  ]
+}

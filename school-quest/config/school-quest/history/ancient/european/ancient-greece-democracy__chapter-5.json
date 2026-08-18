@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-greece-democracy",
+  "title": "Greek Democracy",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "ancient-greece-democracy",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Greek Democracy. Type: era-exploration. Background: Around 508 BCE, an Athenian leader named Cleisthenes helped create this new system. Before this, Ath. Legacy: The ideas from Athens inspired democracies all over the world, including the one. Topics: In which ancient city was democracy invented?, Where did citizens meet to vote on laws in Athens?.",
+      "filename": "ancient-greece-democracy-map.webp"
+    },
+    {
+      "id": "ancient-greece-democracy-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Greek Democracy. Type: era-exploration. Background: Around 508 BCE, an Athenian leader named Cleisthenes helped create this new system. Before this, Ath. Legacy: The ideas from Athens inspired democracies all over the world, including the one. Topics: In which ancient city was democracy invented?, Where did citizens meet to vote on laws in Athens?.",
+      "filename": "ancient-greece-democracy-portrait.webp"
+    }
+  ]
+}

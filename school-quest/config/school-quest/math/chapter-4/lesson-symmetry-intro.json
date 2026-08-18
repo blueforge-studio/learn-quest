@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "lesson-symmetry-intro",
+  "title": "Mirror Magic: What is Symmetry?",
+  "lessonType": "geometry",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-math/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "lesson-symmetry-intro-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Mirror Magic: What is Symmetry?. . Clear labeled illustration.",
+      "filename": "lesson-symmetry-intro-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "lesson-symmetry-intro-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Mirror Magic: What is Symmetry?. Educational illustration style.",
+      "filename": "lesson-symmetry-intro-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "lesson-symmetry-intro-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Mirror Magic: What is Symmetry?. Step by step visual educational math style.",
+      "filename": "lesson-symmetry-intro-example.webp",
+      "quality": 85
+    }
+  ]
+}

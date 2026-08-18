@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gandhi",
+  "title": "Mahatma Gandhi",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "gandhi",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mahatma Gandhi. Type: historical-figure. Background: Mohandas Karamchand Gandhi was born in 1869 in Porbandar, India. He studied law in London and then w. Legacy: Mahatma Gandhi, whose name means 'Great Soul', is remembered as the 'Father of t. Topics: What was Gandhi's main method for fighting injustice?, What famous protest did Gandhi lead in 1930?.",
+      "filename": "gandhi-portrait.webp"
+    },
+    {
+      "id": "gandhi-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Mahatma Gandhi. Type: historical-figure. Background: Mohandas Karamchand Gandhi was born in 1869 in Porbandar, India. He studied law in London and then w. Legacy: Mahatma Gandhi, whose name means 'Great Soul', is remembered as the 'Father of t. Topics: What was Gandhi's main method for fighting injustice?, What famous protest did Gandhi lead in 1930?.",
+      "filename": "gandhi-scene.webp"
+    }
+  ]
+}

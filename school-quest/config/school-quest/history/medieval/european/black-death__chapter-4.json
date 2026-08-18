@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "black-death",
+  "title": "The Black Death",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "black-death",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Black Death. Type: era-exploration. Background: The plague started in Asia and traveled along trade routes to Europe on ships. It arrived in Italy i. Legacy: The Black Death was one of the deadliest events in human history. It killed abou. Topics: How did the Black Death first arrive in Europe?, What tiny insect actually spread the plague by biting people?.",
+      "filename": "black-death-map.webp"
+    },
+    {
+      "id": "black-death-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Black Death. Type: era-exploration. Background: The plague started in Asia and traveled along trade routes to Europe on ships. It arrived in Italy i. Legacy: The Black Death was one of the deadliest events in human history. It killed abou. Topics: How did the Black Death first arrive in Europe?, What tiny insect actually spread the plague by biting people?.",
+      "filename": "black-death-portrait.webp"
+    }
+  ]
+}

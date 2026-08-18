@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-laws-ch3",
+  "title": "The First Laws",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-laws-ch3",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient cities, as more people lived close together, disagreements happened. Kings and leaders st. Legacy: The concept of written, public law is one of humanity's greatest inventions. It . Topics: Where were the laws of King Hammurabi displayed for everyone to see?, What was the main benefit of writing laws down in ancient times?.",
+      "filename": "ancient-laws-ch3-map.webp"
+    },
+    {
+      "id": "ancient-laws-ch3-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient cities, as more people lived close together, disagreements happened. Kings and leaders st. Legacy: The concept of written, public law is one of humanity's greatest inventions. It . Topics: Where were the laws of King Hammurabi displayed for everyone to see?, What was the main benefit of writing laws down in ancient times?.",
+      "filename": "ancient-laws-ch3-portrait.webp"
+    }
+  ]
+}

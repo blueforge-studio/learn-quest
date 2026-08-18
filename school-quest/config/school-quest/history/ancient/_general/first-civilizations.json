@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-civilizations",
+  "title": "The First Civilizations",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "first-civilizations",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The First Civilizations. Type: era-exploration. Background: Around 10,000 years ago, people discovered how to grow their own food (like wheat and barley) and ra. Legacy: The inventions of the first civilizations are still part of our lives today. The. Topics: Why did the first civilizations start near rivers?, Which civilization built cities with advanced plumbing and drainage systems?.",
+      "filename": "first-civilizations-map.webp"
+    },
+    {
+      "id": "first-civilizations-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The First Civilizations. Type: era-exploration. Background: Around 10,000 years ago, people discovered how to grow their own food (like wheat and barley) and ra. Legacy: The inventions of the first civilizations are still part of our lives today. The. Topics: Why did the first civilizations start near rivers?, Which civilization built cities with advanced plumbing and drainage systems?.",
+      "filename": "first-civilizations-portrait.webp"
+    }
+  ]
+}

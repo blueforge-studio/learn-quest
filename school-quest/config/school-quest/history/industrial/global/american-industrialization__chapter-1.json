@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-industrialization",
+  "title": "American Industrialization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "american-industrialization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After winning independence, the United States began building its own industries. Inspired by Britain. Legacy: The foundations built between 1760 and 1840 set the stage for America to become . Topics: What invention by Eli Whitney made cleaning cotton much faster?, What major transportation project opened in 1825, connecting the Great Lakes to New York City?.",
+      "filename": "american-industrialization-map.webp"
+    },
+    {
+      "id": "american-industrialization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After winning independence, the United States began building its own industries. Inspired by Britain. Legacy: The foundations built between 1760 and 1840 set the stage for America to become . Topics: What invention by Eli Whitney made cleaning cotton much faster?, What major transportation project opened in 1825, connecting the Great Lakes to New York City?.",
+      "filename": "american-industrialization-portrait.webp"
+    }
+  ]
+}

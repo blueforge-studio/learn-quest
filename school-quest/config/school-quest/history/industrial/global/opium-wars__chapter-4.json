@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "opium-wars",
+  "title": "The Opium Wars",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "opium-wars",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a rich and powerful empire. It sold valuable goods like tea, silk, and porc. Legacy: The Opium Wars were a major turning point. They forced China to open up to forei. Topics: What valuable product did China sell to Britain that started the trade problem?, What illegal product did British merchants bring into China to solve their trade problem?.",
+      "filename": "opium-wars-map.webp"
+    },
+    {
+      "id": "opium-wars-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a rich and powerful empire. It sold valuable goods like tea, silk, and porc. Legacy: The Opium Wars were a major turning point. They forced China to open up to forei. Topics: What valuable product did China sell to Britain that started the trade problem?, What illegal product did British merchants bring into China to solve their trade problem?.",
+      "filename": "opium-wars-portrait.webp"
+    }
+  ]
+}

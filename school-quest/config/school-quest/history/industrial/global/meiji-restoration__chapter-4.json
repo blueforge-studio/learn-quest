@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "meiji-restoration",
+  "title": "Japan's Meiji Restoration",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "meiji-restoration",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Japan's Meiji Restoration. Type: era-exploration. Background: For over two centuries, Japan was ruled by shoguns and followed strict traditions. Foreigners weren’. Legacy: Japan became the first non-Western nation to industrialize successfully — provin. Topics: What year did the Meiji Restoration officially begin?, Why did Japan decide to change so quickly in the 1800s?.",
+      "filename": "meiji-restoration-map.webp"
+    },
+    {
+      "id": "meiji-restoration-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Japan's Meiji Restoration. Type: era-exploration. Background: For over two centuries, Japan was ruled by shoguns and followed strict traditions. Foreigners weren’. Legacy: Japan became the first non-Western nation to industrialize successfully — provin. Topics: What year did the Meiji Restoration officially begin?, Why did Japan decide to change so quickly in the 1800s?.",
+      "filename": "meiji-restoration-portrait.webp"
+    }
+  ]
+}

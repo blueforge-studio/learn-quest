@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "pronouns-ch3",
+  "title": "Pronouns",
+  "lessonType": "grammar",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-writing/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "pronouns-ch3-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Pronouns. Educational writing example.",
+      "filename": "pronouns-ch3-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "pronouns-ch3-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Pronouns. Writing template visual.",
+      "filename": "pronouns-ch3-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "pronouns-ch3-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Pronouns. Descriptive scene image.",
+      "filename": "pronouns-ch3-scene.webp",
+      "quality": 85
+    }
+  ]
+}

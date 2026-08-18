@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "world-war-1",
+  "title": "World War I: The Great War",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "world-war-1",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War I: The Great War. Type: timeline. Background: In the early 1900s, many European countries had made secret promises to defend each other, called al. Legacy: World War I was devastating. Millions of soldiers and civilians died. It ended e. Topics: What was the immediate event that sparked the start of World War I in 1914?, What were the long, muddy ditches soldiers fought from called?.",
+      "filename": "world-war-1-timeline.webp"
+    },
+    {
+      "id": "world-war-1-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War I: The Great War. Type: timeline. Background: In the early 1900s, many European countries had made secret promises to defend each other, called al. Legacy: World War I was devastating. Millions of soldiers and civilians died. It ended e. Topics: What was the immediate event that sparked the start of World War I in 1914?, What were the long, muddy ditches soldiers fought from called?.",
+      "filename": "world-war-1-scene.webp"
+    }
+  ]
+}

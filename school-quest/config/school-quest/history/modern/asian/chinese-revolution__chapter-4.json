@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chinese-revolution",
+  "title": "The Chinese Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "chinese-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For over 2,000 years, China was ruled by emperors. But by the 1800s, the Qing Dynasty (the last impe. Legacy: Sun Yat-sen’s Three Principles still inspire people in China and around the worl. Topics: What did Sun Yat-sen believe were the Three Principles for China?, What happened in 1912 that changed China forever?.",
+      "filename": "chinese-revolution-timeline.webp"
+    },
+    {
+      "id": "chinese-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For over 2,000 years, China was ruled by emperors. But by the 1800s, the Qing Dynasty (the last impe. Legacy: Sun Yat-sen’s Three Principles still inspire people in China and around the worl. Topics: What did Sun Yat-sen believe were the Three Principles for China?, What happened in 1912 that changed China forever?.",
+      "filename": "chinese-revolution-scene.webp"
+    }
+  ]
+}

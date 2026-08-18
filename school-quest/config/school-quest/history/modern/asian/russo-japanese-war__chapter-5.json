@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russo-japanese-war",
+  "title": "The Russo-Japanese War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "russo-japanese-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: By the early 1900s, both Japan and Russia wanted control over Korea and parts of northeastern China . Legacy: The Russo-Japanese War changed how the world saw Asia. It showed that Japan was . Topics: Which two countries fought in the Russo-Japanese War?, Why was this war so special for Asia?.",
+      "filename": "russo-japanese-war-map.webp"
+    },
+    {
+      "id": "russo-japanese-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: By the early 1900s, both Japan and Russia wanted control over Korea and parts of northeastern China . Legacy: The Russo-Japanese War changed how the world saw Asia. It showed that Japan was . Topics: Which two countries fought in the Russo-Japanese War?, Why was this war so special for Asia?.",
+      "filename": "russo-japanese-war-portrait.webp"
+    }
+  ]
+}

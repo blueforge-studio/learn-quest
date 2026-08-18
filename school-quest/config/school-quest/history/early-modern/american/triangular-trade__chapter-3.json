@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "triangular-trade",
+  "title": "The Triangular Trade",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "triangular-trade",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Triangular Trade. Type: era-exploration. Background: Starting in the 1500s, European countries like Spain, Portugal, England, and France set up colonies . Legacy: The Triangular Trade had a huge and lasting impact. It brought great wealth to E. Topics: Why was it called the 'Triangular' Trade?, What did European ships carry to Africa in the first stage?.",
+      "filename": "triangular-trade-map.webp"
+    },
+    {
+      "id": "triangular-trade-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Triangular Trade. Type: era-exploration. Background: Starting in the 1500s, European countries like Spain, Portugal, England, and France set up colonies . Legacy: The Triangular Trade had a huge and lasting impact. It brought great wealth to E. Topics: Why was it called the 'Triangular' Trade?, What did European ships carry to Africa in the first stage?.",
+      "filename": "triangular-trade-portrait.webp"
+    }
+  ]
+}

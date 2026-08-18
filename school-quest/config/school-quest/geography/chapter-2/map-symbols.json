@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "map-symbols",
+  "title": "Map Symbols and Legends",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-geography/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "map-symbols-map",
+      "type": "map",
+      "prompt": "Map illustration for: Map Symbols and Legends. Educational geography map.",
+      "filename": "map-symbols-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-symbols-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Map Symbols and Legends. Famous geographical location.",
+      "filename": "map-symbols-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-symbols-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Map Symbols and Legends. Geographic region visual.",
+      "filename": "map-symbols-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-symbols-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Map Symbols and Legends. Natural environment visual.",
+      "filename": "map-symbols-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

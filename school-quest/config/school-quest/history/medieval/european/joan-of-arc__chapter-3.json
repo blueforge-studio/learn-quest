@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "joan-of-arc",
+  "title": "Joan of Arc",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "joan-of-arc",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Joan of Arc. Type: historical-figure. Background: Joan grew up in the quiet village of Domrémy in eastern France. When she was about 13, she began hea. Legacy: Though Joan was executed at age 19, she never faded from memory. Over 500 years . Topics: How old was Joan when she first heard voices from saints?, What important city did Joan help free from English control in 1429?.",
+      "filename": "joan-of-arc-portrait.webp"
+    },
+    {
+      "id": "joan-of-arc-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Joan of Arc. Type: historical-figure. Background: Joan grew up in the quiet village of Domrémy in eastern France. When she was about 13, she began hea. Legacy: Though Joan was executed at age 19, she never faded from memory. Over 500 years . Topics: How old was Joan when she first heard voices from saints?, What important city did Joan help free from English control in 1429?.",
+      "filename": "joan-of-arc-scene.webp"
+    }
+  ]
+}

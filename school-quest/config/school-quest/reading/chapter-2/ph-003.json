@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "ph-003",
+  "title": "Blending Sounds: CVC Magic",
+  "lessonType": "phonics",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-reading/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "ph-003-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Blending Sounds: CVC Magic. Educational scene.",
+      "filename": "ph-003-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "ph-003-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Blending Sounds: CVC Magic. Story scene or concept illustration.",
+      "filename": "ph-003-visual.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "celtic-tribes",
+  "title": "Celtic Europe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "celtic-tribes",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one country or empire — they were many different tribes who shared similar languag. Legacy: Celtic symbols like the triskele (three spirals) and the shamrock are still used. Topics: What did Celtic druids NOT do?, Where did Celts often build their hill forts?.",
+      "filename": "celtic-tribes-map.webp"
+    },
+    {
+      "id": "celtic-tribes-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one country or empire — they were many different tribes who shared similar languag. Legacy: Celtic symbols like the triskele (three spirals) and the shamrock are still used. Topics: What did Celtic druids NOT do?, Where did Celts often build their hill forts?.",
+      "filename": "celtic-tribes-portrait.webp"
+    }
+  ]
+}

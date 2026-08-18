@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "songhai-empire",
+  "title": "The Songhai Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "songhai-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Songhai Empire. Type: era-exploration. Background: The Songhai people lived near the Niger River in what is now Mali and Niger. At first, they were par. Legacy: Though the Songhai Empire fell in 1591 after an invasion from Morocco, its legac. Topics: What was the name of the famous university in Timbuktu?, Which two things were traded across the Sahara Desert in the Songhai Empire?.",
+      "filename": "songhai-empire-map.webp"
+    },
+    {
+      "id": "songhai-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Songhai Empire. Type: era-exploration. Background: The Songhai people lived near the Niger River in what is now Mali and Niger. At first, they were par. Legacy: Though the Songhai Empire fell in 1591 after an invasion from Morocco, its legac. Topics: What was the name of the famous university in Timbuktu?, Which two things were traded across the Sahara Desert in the Songhai Empire?.",
+      "filename": "songhai-empire-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mughal-india",
+  "title": "Early Delhi Sultanate",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mughal-india",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, Turkic warriors from Central Asia established their rule in Delhi. The first maj. Legacy: The Delhi Sultanate left a lasting impact on India. It introduced Persian art, a. Topics: What was the Qutb Minar?, What new language became important during the Delhi Sultanate?.",
+      "filename": "mughal-india-map.webp"
+    },
+    {
+      "id": "mughal-india-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, Turkic warriors from Central Asia established their rule in Delhi. The first maj. Legacy: The Delhi Sultanate left a lasting impact on India. It introduced Persian art, a. Topics: What was the Qutb Minar?, What new language became important during the Delhi Sultanate?.",
+      "filename": "mughal-india-portrait.webp"
+    }
+  ]
+}

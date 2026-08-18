@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "wright-brothers",
+  "title": "The Wright Brothers",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "wright-brothers",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Wright Brothers. Type: historical-figure. Background: Wilbur was born in 1867 and Orville in 1871. Their father was a bishop and their mother was a talent. Legacy: The Wright Brothers proved that human flight was possible — and safe, reliable f. Topics: Where did the Wright Brothers open their bicycle shop?, What was the name of their first successful airplane?.",
+      "filename": "wright-brothers-portrait.webp"
+    },
+    {
+      "id": "wright-brothers-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: The Wright Brothers. Type: historical-figure. Background: Wilbur was born in 1867 and Orville in 1871. Their father was a bishop and their mother was a talent. Legacy: The Wright Brothers proved that human flight was possible — and safe, reliable f. Topics: Where did the Wright Brothers open their bicycle shop?, What was the name of their first successful airplane?.",
+      "filename": "wright-brothers-scene.webp"
+    }
+  ]
+}

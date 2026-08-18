@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "seljuk-turks",
+  "title": "The Seljuk Turks",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "seljuk-turks",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Seljuk Turks. Type: era-exploration. Background: Originally from the steppes (grasslands) of Central Asia, the Seljuks were expert horse riders and a. Legacy: The Seljuk Empire paved the way for future Turkish states, most importantly the . Topics: Where were the Seljuk Turks originally from?, What major religion did the Seljuk Turks adopt?.",
+      "filename": "seljuk-turks-map.webp"
+    },
+    {
+      "id": "seljuk-turks-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Seljuk Turks. Type: era-exploration. Background: Originally from the steppes (grasslands) of Central Asia, the Seljuks were expert horse riders and a. Legacy: The Seljuk Empire paved the way for future Turkish states, most importantly the . Topics: Where were the Seljuk Turks originally from?, What major religion did the Seljuk Turks adopt?.",
+      "filename": "seljuk-turks-portrait.webp"
+    }
+  ]
+}

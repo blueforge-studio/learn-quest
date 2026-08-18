@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "suleiman",
+  "title": "Süleyman the Magnificent",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "suleiman",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Süleyman the Magnificent. Type: historical-figure. Background: Born in 1494 in Trabzon, on the Black Sea coast, Süleyman was the son of Sultan Selim I. He received. Legacy: Süleyman is remembered as one of the greatest Ottoman sultans. His reign marked . Topics: What was Süleyman's nickname that reflected his work creating laws?, Which magnificent building did Süleyman commission in Istanbul?.",
+      "filename": "suleiman-portrait.webp"
+    },
+    {
+      "id": "suleiman-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Süleyman the Magnificent. Type: historical-figure. Background: Born in 1494 in Trabzon, on the Black Sea coast, Süleyman was the son of Sultan Selim I. He received. Legacy: Süleyman is remembered as one of the greatest Ottoman sultans. His reign marked . Topics: What was Süleyman's nickname that reflected his work creating laws?, Which magnificent building did Süleyman commission in Istanbul?.",
+      "filename": "suleiman-scene.webp"
+    }
+  ]
+}

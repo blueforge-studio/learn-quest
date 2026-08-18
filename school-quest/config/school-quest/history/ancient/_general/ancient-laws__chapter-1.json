@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-laws",
+  "title": "The First Laws",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-laws",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient times, kings and leaders realized that for a city to be peaceful and fair, everyone neede. Legacy: The idea of writing laws down changed the world. It led to the concept that ever. Topics: Why was it important for ancient laws to be written down?, Which ancient law code was famous for the rule 'an eye for an eye'?.",
+      "filename": "ancient-laws-map.webp"
+    },
+    {
+      "id": "ancient-laws-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient times, kings and leaders realized that for a city to be peaceful and fair, everyone neede. Legacy: The idea of writing laws down changed the world. It led to the concept that ever. Topics: Why was it important for ancient laws to be written down?, Which ancient law code was famous for the rule 'an eye for an eye'?.",
+      "filename": "ancient-laws-portrait.webp"
+    }
+  ]
+}

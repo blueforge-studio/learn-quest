@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kingdom-of-ghana",
+  "title": "Kingdom of Ghana",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "kingdom-of-ghana",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Kingdom of Ghana. Type: era-exploration. Background: The Kingdom of Ghana began around 500 CE in the region between the Senegal and Niger rivers. It was . Legacy: The Kingdom of Ghana proved that powerful, sophisticated, and wealthy civilizati. Topics: What natural resource made the Kingdom of Ghana so famous and wealthy?, What was the MOST important reason for Ghana's wealth?.",
+      "filename": "kingdom-of-ghana-map.webp"
+    },
+    {
+      "id": "kingdom-of-ghana-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Kingdom of Ghana. Type: era-exploration. Background: The Kingdom of Ghana began around 500 CE in the region between the Senegal and Niger rivers. It was . Legacy: The Kingdom of Ghana proved that powerful, sophisticated, and wealthy civilizati. Topics: What natural resource made the Kingdom of Ghana so famous and wealthy?, What was the MOST important reason for Ghana's wealth?.",
+      "filename": "kingdom-of-ghana-portrait.webp"
+    }
+  ]
+}

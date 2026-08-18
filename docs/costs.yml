@@ -1,0 +1,92 @@
+# LearnQuest AI Generation Cost Tracking
+# Updated automatically by generation scripts via @blueforge-studio/ai-budget
+
+budget:
+  monthly: 60.00  # USD
+  per_run: 10.00  # USD max per script execution
+  alerts:
+    warning_pct: 80
+    slack_webhook: null  # Set to enable Slack notifications
+
+providers:
+  replicate:
+    name: Replicate
+    models:
+      flux-schnell: { cost_per_image: 0.003 }
+      flux-pro: { cost_per_image: 0.05 }
+  qwen:
+    name: Qwen (Alibaba)
+    models:
+      qwen-plus: { cost_per_1m_input: 0.03, cost_per_1m_output: 0.06 }
+  gemini:
+    name: Google Gemini
+    free_tier: { rpm: 15, rpd: 1500, tpm: 1000000 }
+    models:
+      gemini-2.5-flash: { cost_per_1m_input: 0.15, cost_per_1m_output: 0.60 }
+      imagen-4: { cost_per_image: 0.04 }
+  edge-tts:
+    name: Microsoft Edge TTS
+    cost: free
+  google-cloud-tts:
+    name: Google Cloud TTS
+    cost_per_1m_chars: 4.00
+
+# Actual spend log (updated by scripts)
+spend_log:
+  - date: "2026-04-10"
+    session: "ecosystem-restructuring"
+    items:
+      - script: generate-vocab-images
+        provider: replicate
+        model: flux-schnell
+        count: 23
+        cost: 0.069
+      - script: generate-lessons (lao)
+        provider: qwen
+        model: qwen-plus
+        count: 108
+        cost: 0.00
+      - script: generate-lessons (burmese)
+        provider: qwen
+        model: qwen-plus
+        count: 108
+        cost: 0.00
+      - script: generate-audio (lao)
+        provider: edge-tts
+        count: 424
+        cost: 0.00
+      - script: generate-audio (burmese)
+        provider: edge-tts
+        count: 413
+        cost: 0.00
+  - date: "2026-04-11"
+    session: "content-expansion"
+    items:
+      - script: generate-lessons (romanian+cantonese+bosnian+breton)
+        provider: qwen
+        model: qwen-plus
+        count: 410
+        cost: 0.00
+      - script: generate-lessons (macedonian+slovenian)
+        provider: qwen
+        model: qwen-plus
+        count: 208
+        cost: 0.00
+      - script: generate-audio (romanian+cantonese+bosnian+breton)
+        provider: edge-tts
+        count: 1296
+        cost: 0.00
+      - script: generate-audio (macedonian+slovenian)
+        provider: edge-tts
+        count: 807
+        cost: 0.00
+      - script: generate-vocab-images (retry)
+        provider: replicate
+        model: flux-schnell
+        count: 7
+        cost: 0.021
+
+totals:
+  all_time: 0.09
+  this_month: 0.09
+  budget_remaining: 59.91

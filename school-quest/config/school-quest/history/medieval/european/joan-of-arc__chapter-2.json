@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "joan-of-arc",
+  "title": "Joan of Arc",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "joan-of-arc",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Joan of Arc. Type: historical-figure. Background: Joan was born around 1412 in Domrémy, a small village in eastern France. She grew up helping her fam. Legacy: Though Joan was executed at age 19, her bravery never faded. Twenty-five years l. Topics: How old was Joan when she first heard voices telling her to help France?, What important city did Joan help free from English control in 1429?.",
+      "filename": "joan-of-arc-portrait.webp"
+    },
+    {
+      "id": "joan-of-arc-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Joan of Arc. Type: historical-figure. Background: Joan was born around 1412 in Domrémy, a small village in eastern France. She grew up helping her fam. Legacy: Though Joan was executed at age 19, her bravery never faded. Twenty-five years l. Topics: How old was Joan when she first heard voices telling her to help France?, What important city did Joan help free from English control in 1429?.",
+      "filename": "joan-of-arc-scene.webp"
+    }
+  ]
+}

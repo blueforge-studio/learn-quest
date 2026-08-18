@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "reagan-era",
+  "title": "The Reagan Era",
+  "lessonType": "lesson",
+  "chapter": "chapter-3",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "reagan-era",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Reagan Era. Type: lesson. Topics: What was Reaganomics?, What did Reagan call the Soviet Union?.",
+      "filename": "reagan-era-timeline.webp"
+    },
+    {
+      "id": "reagan-era-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Reagan Era. Type: lesson. Topics: What was Reaganomics?, What did Reagan call the Soviet Union?.",
+      "filename": "reagan-era-scene.webp"
+    }
+  ]
+}

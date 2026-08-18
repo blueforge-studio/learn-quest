@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "urbanization",
+  "title": "The Growth of Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "urbanization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: Before 1760, most Europeans lived in the countryside and worked on farms. But when inventors built p. Legacy: The cities we know today — with schools, parks, hospitals, and public transport . Topics: What was the main reason people moved from farms to cities during the Industrial Revolution?, Which resource helped power the earliest factories?.",
+      "filename": "urbanization-map.webp"
+    },
+    {
+      "id": "urbanization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: Before 1760, most Europeans lived in the countryside and worked on farms. But when inventors built p. Legacy: The cities we know today — with schools, parks, hospitals, and public transport . Topics: What was the main reason people moved from farms to cities during the Industrial Revolution?, Which resource helped power the earliest factories?.",
+      "filename": "urbanization-portrait.webp"
+    }
+  ]
+}

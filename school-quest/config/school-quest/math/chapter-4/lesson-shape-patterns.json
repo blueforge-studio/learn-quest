@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "lesson-shape-patterns",
+  "title": "Shape Patterns All Around!",
+  "lessonType": "geometry",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-math/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "lesson-shape-patterns-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Shape Patterns All Around!. . Clear labeled illustration.",
+      "filename": "lesson-shape-patterns-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "lesson-shape-patterns-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Shape Patterns All Around!. Educational illustration style.",
+      "filename": "lesson-shape-patterns-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "lesson-shape-patterns-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Shape Patterns All Around!. Step by step visual educational math style.",
+      "filename": "lesson-shape-patterns-example.webp",
+      "quality": 85
+    }
+  ]
+}

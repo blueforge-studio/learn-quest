@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "sahara-region-profile",
+  "title": "Sahara Desert: Region Profile",
+  "lessonType": "region-profile",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-geography/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "sahara-region-profile-map",
+      "type": "map",
+      "prompt": "Map illustration for: Sahara Desert: Region Profile. Educational geography map.",
+      "filename": "sahara-region-profile-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "sahara-region-profile-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Sahara Desert: Region Profile. Famous geographical location.",
+      "filename": "sahara-region-profile-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "sahara-region-profile-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Sahara Desert: Region Profile. Geographic region visual.",
+      "filename": "sahara-region-profile-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "sahara-region-profile-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Sahara Desert: Region Profile. Natural environment visual.",
+      "filename": "sahara-region-profile-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

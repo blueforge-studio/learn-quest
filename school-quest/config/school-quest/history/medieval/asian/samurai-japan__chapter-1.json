@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "samurai-japan",
+  "title": "Samurai Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "samurai-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: From around 500 CE, Japan developed its own unique culture far from Europe and China. By 1100 CE, po. Legacy: The samurai spirit lives on today in Japanese values like respect, hard work, an. Topics: What does 'bushido' mean?, Which weapon was most important to a samurai?.",
+      "filename": "samurai-japan-map.webp"
+    },
+    {
+      "id": "samurai-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: From around 500 CE, Japan developed its own unique culture far from Europe and China. By 1100 CE, po. Legacy: The samurai spirit lives on today in Japanese values like respect, hard work, an. Topics: What does 'bushido' mean?, Which weapon was most important to a samurai?.",
+      "filename": "samurai-japan-portrait.webp"
+    }
+  ]
+}

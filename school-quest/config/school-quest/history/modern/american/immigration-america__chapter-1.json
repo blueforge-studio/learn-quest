@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "immigration-america",
+  "title": "Ellis Island: The Gateway to America",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "immigration-america",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ellis Island: The Gateway to America. Type: era-exploration. Background: In the late 1800s and early 1900s, many people in Europe and other parts of the world faced hard tim. Legacy: Ellis Island processed over 12 million immigrants. Today, over 100 million Ameri. Topics: What was Ellis Island?, What statue did immigrants often see as their ship arrived in New York Harbor?.",
+      "filename": "immigration-america-map.webp"
+    },
+    {
+      "id": "immigration-america-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ellis Island: The Gateway to America. Type: era-exploration. Background: In the late 1800s and early 1900s, many people in Europe and other parts of the world faced hard tim. Legacy: Ellis Island processed over 12 million immigrants. Today, over 100 million Ameri. Topics: What was Ellis Island?, What statue did immigrants often see as their ship arrived in New York Harbor?.",
+      "filename": "immigration-america-portrait.webp"
+    }
+  ]
+}

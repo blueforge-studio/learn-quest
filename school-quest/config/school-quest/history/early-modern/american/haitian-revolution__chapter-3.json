@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "haitian-revolution",
+  "title": "The Haitian Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "haitian-revolution",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: Haiti is a beautiful island in the Caribbean, part of the island of Hispaniola. In the 1700s, it was. Legacy: Haiti’s victory inspired enslaved people and freedom fighters across the America. Topics: Where did the Haitian Revolution happen?, Who was Toussaint Louverture?.",
+      "filename": "haitian-revolution-map.webp"
+    },
+    {
+      "id": "haitian-revolution-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: Haiti is a beautiful island in the Caribbean, part of the island of Hispaniola. In the 1700s, it was. Legacy: Haiti’s victory inspired enslaved people and freedom fighters across the America. Topics: Where did the Haitian Revolution happen?, Who was Toussaint Louverture?.",
+      "filename": "haitian-revolution-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pyramids-of-giza",
+  "title": "Building the Pyramids",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "pyramids-of-giza",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: Over 4,500 years ago, ancient Egypt was a powerful and wealthy civilization along the Nile River. Th. Legacy: The Great Pyramid stood as the tallest human-made structure in the world for nea. Topics: Why did the ancient Egyptians build pyramids?, What was the main material used to build the Great Pyramid's core?.",
+      "filename": "pyramids-of-giza-map.webp"
+    },
+    {
+      "id": "pyramids-of-giza-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: Over 4,500 years ago, ancient Egypt was a powerful and wealthy civilization along the Nile River. Th. Legacy: The Great Pyramid stood as the tallest human-made structure in the world for nea. Topics: Why did the ancient Egyptians build pyramids?, What was the main material used to build the Great Pyramid's core?.",
+      "filename": "pyramids-of-giza-portrait.webp"
+    }
+  ]
+}

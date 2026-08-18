@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russo-japanese-war",
+  "title": "The Russo-Japanese War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "russo-japanese-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: By the early 1900s, Japan had spent decades learning from Western countries — building strong armies. Legacy: Japan became the first Asian country to defeat a major European power in a moder. Topics: In which years did the Russo-Japanese War happen?, Which country won the Russo-Japanese War?.",
+      "filename": "russo-japanese-war-map.webp"
+    },
+    {
+      "id": "russo-japanese-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: By the early 1900s, Japan had spent decades learning from Western countries — building strong armies. Legacy: Japan became the first Asian country to defeat a major European power in a moder. Topics: In which years did the Russo-Japanese War happen?, Which country won the Russo-Japanese War?.",
+      "filename": "russo-japanese-war-portrait.webp"
+    }
+  ]
+}

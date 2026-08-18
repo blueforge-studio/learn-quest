@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "letter-writing",
+  "title": "Writing Letters",
+  "lessonType": "composition",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-writing/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "letter-writing-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Writing Letters. Educational writing example.",
+      "filename": "letter-writing-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "letter-writing-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Writing Letters. Writing template visual.",
+      "filename": "letter-writing-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "letter-writing-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Writing Letters. Descriptive scene image.",
+      "filename": "letter-writing-scene.webp",
+      "quality": 85
+    }
+  ]
+}

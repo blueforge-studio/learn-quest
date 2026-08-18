@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "urbanization",
+  "title": "The Growth of Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "urbanization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: In the mid-1700s, clever inventors in Britain built machines powered by steam — like spinning jennie. Legacy: Today’s cities — with schools, parks, hospitals, and public transport — grew out. Topics: Why did many families leave farms to live in cities during the Industrial Revolution?, Which city grew from 17,000 to over 300,000 people between 1750 and 1850?.",
+      "filename": "urbanization-map.webp"
+    },
+    {
+      "id": "urbanization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: In the mid-1700s, clever inventors in Britain built machines powered by steam — like spinning jennie. Legacy: Today’s cities — with schools, parks, hospitals, and public transport — grew out. Topics: Why did many families leave farms to live in cities during the Industrial Revolution?, Which city grew from 17,000 to over 300,000 people between 1750 and 1850?.",
+      "filename": "urbanization-portrait.webp"
+    }
+  ]
+}

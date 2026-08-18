@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "alexander-the-great",
+  "title": "Alexander the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "alexander-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Alexander the Great. Type: historical-figure. Background: Alexander was born in Pella, ancient Macedonia (in modern-day Greece), to King Philip II and Queen O. Legacy: Though Alexander died young at 32, his empire changed the ancient world forever.. Topics: How old was Alexander when he became king?, Which famous philosopher taught Alexander as a boy?.",
+      "filename": "alexander-the-great-portrait.webp"
+    },
+    {
+      "id": "alexander-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Alexander the Great. Type: historical-figure. Background: Alexander was born in Pella, ancient Macedonia (in modern-day Greece), to King Philip II and Queen O. Legacy: Though Alexander died young at 32, his empire changed the ancient world forever.. Topics: How old was Alexander when he became king?, Which famous philosopher taught Alexander as a boy?.",
+      "filename": "alexander-the-great-scene.webp"
+    }
+  ]
+}

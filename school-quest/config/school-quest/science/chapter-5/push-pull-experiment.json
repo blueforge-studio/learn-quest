@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "push-pull-experiment",
+  "title": "What Makes Things Move? A Push and Pull Investigation",
+  "lessonType": "experiment",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-science/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "push-pull-experiment-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: What Makes Things Move? A Push and Pull Investigation. . Clear labeled illustration.",
+      "filename": "push-pull-experiment-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "push-pull-experiment-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: What Makes Things Move? A Push and Pull Investigation. Educational science style.",
+      "filename": "push-pull-experiment-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "push-pull-experiment-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: What Makes Things Move? A Push and Pull Investigation. Step by step visual showing the concept. Educational style.",
+      "filename": "push-pull-experiment-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

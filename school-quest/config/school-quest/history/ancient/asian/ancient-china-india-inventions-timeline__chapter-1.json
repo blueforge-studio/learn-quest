@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-china-india-inventions-timeline",
+  "title": "Inventions and Discoveries of Ancient China & India",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-china-india-inventions-timeline",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Inventions and Discoveries of Ancient China & India. Type: timeline. Topics: What did Chinese inventors create around 105 CE that made writing easier?, Which civilization first used a decimal system with the concept of zero?.",
+      "filename": "ancient-china-india-inventions-timeline-timeline.webp"
+    },
+    {
+      "id": "ancient-china-india-inventions-timeline-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Inventions and Discoveries of Ancient China & India. Type: timeline. Topics: What did Chinese inventors create around 105 CE that made writing easier?, Which civilization first used a decimal system with the concept of zero?.",
+      "filename": "ancient-china-india-inventions-timeline-scene.webp"
+    }
+  ]
+}

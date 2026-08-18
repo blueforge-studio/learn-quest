@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chavin-culture",
+  "title": "The Chavín Culture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "chavin-culture",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived in the rugged Andes mountains of modern-day Peru, centered at a sacred site . Legacy: Even though the Chavín culture faded by 500 CE, their ideas lived on! Later civi. Topics: Where was the main Chavín temple located?, What animal was especially important to the Chavín people?.",
+      "filename": "chavin-culture-map.webp"
+    },
+    {
+      "id": "chavin-culture-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived in the rugged Andes mountains of modern-day Peru, centered at a sacred site . Legacy: Even though the Chavín culture faded by 500 CE, their ideas lived on! Later civi. Topics: Where was the main Chavín temple located?, What animal was especially important to the Chavín people?.",
+      "filename": "chavin-culture-portrait.webp"
+    }
+  ]
+}

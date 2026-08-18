@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "aksum-empire",
+  "title": "The Empire of Aksum",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "aksum-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum began growing around 100 CE near the Red Sea. Its location was perfect: mountains for farming,. Legacy: Aksum is the root of modern Ethiopia’s identity. Its ancient churches, like the . Topics: What important religion did the Kingdom of Aksum adopt around 330 CE?, What were the giant carved stone towers in Aksum called?.",
+      "filename": "aksum-empire-map.webp"
+    },
+    {
+      "id": "aksum-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum began growing around 100 CE near the Red Sea. Its location was perfect: mountains for farming,. Legacy: Aksum is the root of modern Ethiopia’s identity. Its ancient churches, like the . Topics: What important religion did the Kingdom of Aksum adopt around 330 CE?, What were the giant carved stone towers in Aksum called?.",
+      "filename": "aksum-empire-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "opium-wars",
+  "title": "The Opium Wars",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "opium-wars",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a rich and powerful empire. It sold valuable goods like tea, silk, and porc. Legacy: The Opium Wars marked a tragic turning point. They showed how military power cou. Topics: What product was Britain smuggling into China, leading to war?, What did Chinese official Lin Zexu do in 1839?.",
+      "filename": "opium-wars-map.webp"
+    },
+    {
+      "id": "opium-wars-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a rich and powerful empire. It sold valuable goods like tea, silk, and porc. Legacy: The Opium Wars marked a tragic turning point. They showed how military power cou. Topics: What product was Britain smuggling into China, leading to war?, What did Chinese official Lin Zexu do in 1839?.",
+      "filename": "opium-wars-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kangxi-emperor",
+  "title": "The Kangxi Emperor",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "kangxi-emperor",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Kangxi Emperor. Type: historical-figure. Background: Born Aisin Gioro Xuanye in Beijing in 1654, Kangxi was the grandson of the founder of the Qing Dynas. Legacy: Kangxi is remembered as a gentle giant of Chinese history — a ruler who valued k. Topics: How old was Kangxi when he became emperor?, What famous book did Kangxi help create?.",
+      "filename": "kangxi-emperor-portrait.webp"
+    },
+    {
+      "id": "kangxi-emperor-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: The Kangxi Emperor. Type: historical-figure. Background: Born Aisin Gioro Xuanye in Beijing in 1654, Kangxi was the grandson of the founder of the Qing Dynas. Legacy: Kangxi is remembered as a gentle giant of Chinese history — a ruler who valued k. Topics: How old was Kangxi when he became emperor?, What famous book did Kangxi help create?.",
+      "filename": "kangxi-emperor-scene.webp"
+    }
+  ]
+}

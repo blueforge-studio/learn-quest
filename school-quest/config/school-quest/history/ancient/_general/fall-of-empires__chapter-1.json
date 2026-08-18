@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-empires",
+  "title": "Why Empires Fall",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "fall-of-empires",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Why Empires Fall. Type: era-exploration. Background: Empires are huge kingdoms with many lands, people, and cultures ruled by one leader or family. They . Legacy: Even though these empires didn’t last forever, their legacies did! Roman laws in. Topics: Which empire built the famous Silk Road and invented paper?, What did Emperor Ashoka do after his big battle in India?.",
+      "filename": "fall-of-empires-map.webp"
+    },
+    {
+      "id": "fall-of-empires-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Why Empires Fall. Type: era-exploration. Background: Empires are huge kingdoms with many lands, people, and cultures ruled by one leader or family. They . Legacy: Even though these empires didn’t last forever, their legacies did! Roman laws in. Topics: Which empire built the famous Silk Road and invented paper?, What did Emperor Ashoka do after his big battle in India?.",
+      "filename": "fall-of-empires-portrait.webp"
+    }
+  ]
+}

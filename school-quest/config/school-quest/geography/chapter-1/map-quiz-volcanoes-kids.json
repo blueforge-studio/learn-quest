@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "map-quiz-volcanoes-kids",
+  "title": "Volcanoes Around the World",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-geography/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "map-quiz-volcanoes-kids-map",
+      "type": "map",
+      "prompt": "Map illustration for: Volcanoes Around the World. Educational geography map.",
+      "filename": "map-quiz-volcanoes-kids-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-quiz-volcanoes-kids-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Volcanoes Around the World. Famous geographical location.",
+      "filename": "map-quiz-volcanoes-kids-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-quiz-volcanoes-kids-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Volcanoes Around the World. Geographic region visual.",
+      "filename": "map-quiz-volcanoes-kids-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-quiz-volcanoes-kids-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Volcanoes Around the World. Natural environment visual.",
+      "filename": "map-quiz-volcanoes-kids-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

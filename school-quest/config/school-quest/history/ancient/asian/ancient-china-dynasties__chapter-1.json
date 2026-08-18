@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-china-dynasties",
+  "title": "Chinese Dynasties",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-china-dynasties",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient Chinese civilization began along the Yellow River. The first dynasties were like royal famil. Legacy: The foundations laid by these early dynasties are still part of China's identity. Topics: Which was the first Chinese dynasty to leave clear written records?, What major project did the Qin Dynasty begin?.",
+      "filename": "ancient-china-dynasties-timeline.webp"
+    },
+    {
+      "id": "ancient-china-dynasties-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient Chinese civilization began along the Yellow River. The first dynasties were like royal famil. Legacy: The foundations laid by these early dynasties are still part of China's identity. Topics: Which was the first Chinese dynasty to leave clear written records?, What major project did the Qin Dynasty begin?.",
+      "filename": "ancient-china-dynasties-scene.webp"
+    }
+  ]
+}

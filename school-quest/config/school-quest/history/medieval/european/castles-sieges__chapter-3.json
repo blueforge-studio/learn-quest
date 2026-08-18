@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "castles-sieges",
+  "title": "Castles and Sieges",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "castles-sieges",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Castles and Sieges. Type: era-exploration. Background: After the fall of the Roman Empire, Europe became a patchwork of kingdoms and lordships often at war. Legacy: Castles changed how wars were fought. Attacking a castle was slow, difficult, an. Topics: What was the main purpose of a castle in the Middle Ages?, What is a moat?.",
+      "filename": "castles-sieges-map.webp"
+    },
+    {
+      "id": "castles-sieges-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Castles and Sieges. Type: era-exploration. Background: After the fall of the Roman Empire, Europe became a patchwork of kingdoms and lordships often at war. Legacy: Castles changed how wars were fought. Attacking a castle was slow, difficult, an. Topics: What was the main purpose of a castle in the Middle Ages?, What is a moat?.",
+      "filename": "castles-sieges-portrait.webp"
+    }
+  ]
+}

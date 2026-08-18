@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "meiji-restoration",
+  "title": "Japan's Meiji Restoration",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "meiji-restoration",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Japan's Meiji Restoration. Type: era-exploration. Background: For over 250 years, Japan was ruled by shoguns and isolated from most of the world. Samurai warriors. Legacy: By 1905, Japan had defeated Russia in war — the first Asian nation to beat a Eur. Topics: What does 'Meiji' mean?, Before the Meiji Restoration, who held real political power in Japan?.",
+      "filename": "meiji-restoration-map.webp"
+    },
+    {
+      "id": "meiji-restoration-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Japan's Meiji Restoration. Type: era-exploration. Background: For over 250 years, Japan was ruled by shoguns and isolated from most of the world. Samurai warriors. Legacy: By 1905, Japan had defeated Russia in war — the first Asian nation to beat a Eur. Topics: What does 'Meiji' mean?, Before the Meiji Restoration, who held real political power in Japan?.",
+      "filename": "meiji-restoration-portrait.webp"
+    }
+  ]
+}

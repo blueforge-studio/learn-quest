@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "colonialism-industrial",
+  "title": "Industrial Colonialism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "colonialism-industrial",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the 1760s, European countries had colonies, but they were limited by slow travel and small-sc. Legacy: Industrial colonialism changed the map of the world and created economic pattern. Topics: What new source of power was crucial for Industrial Colonialism?, Why did European empires want colonies during the Industrial Revolution?.",
+      "filename": "colonialism-industrial-map.webp"
+    },
+    {
+      "id": "colonialism-industrial-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the 1760s, European countries had colonies, but they were limited by slow travel and small-sc. Legacy: Industrial colonialism changed the map of the world and created economic pattern. Topics: What new source of power was crucial for Industrial Colonialism?, Why did European empires want colonies during the Industrial Revolution?.",
+      "filename": "colonialism-industrial-portrait.webp"
+    }
+  ]
+}

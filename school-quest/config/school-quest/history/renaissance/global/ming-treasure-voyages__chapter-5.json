@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ming-treasure-voyages",
+  "title": "Ming China Meets the World",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "ming-treasure-voyages",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ming China Meets the World. Type: era-exploration. Background: In 1405, the Ming Dynasty ruled China — a powerful, wealthy empire with advanced shipbuilding, navig. Legacy: Zheng He’s voyages remind us that exploration isn’t just about who got there fir. Topics: What were Zheng He’s biggest ships called?, Which animal did Zheng He bring back from Africa that amazed the Chinese court?.",
+      "filename": "ming-treasure-voyages-map.webp"
+    },
+    {
+      "id": "ming-treasure-voyages-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ming China Meets the World. Type: era-exploration. Background: In 1405, the Ming Dynasty ruled China — a powerful, wealthy empire with advanced shipbuilding, navig. Legacy: Zheng He’s voyages remind us that exploration isn’t just about who got there fir. Topics: What were Zheng He’s biggest ships called?, Which animal did Zheng He bring back from Africa that amazed the Chinese court?.",
+      "filename": "ming-treasure-voyages-portrait.webp"
+    }
+  ]
+}

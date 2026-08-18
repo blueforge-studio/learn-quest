@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "weather-vs-climate-showdown",
+  "title": "Weather vs. Climate Showdown",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-geography/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "weather-vs-climate-showdown-map",
+      "type": "map",
+      "prompt": "Map illustration for: Weather vs. Climate Showdown. Educational geography map.",
+      "filename": "weather-vs-climate-showdown-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "weather-vs-climate-showdown-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Weather vs. Climate Showdown. Famous geographical location.",
+      "filename": "weather-vs-climate-showdown-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "weather-vs-climate-showdown-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Weather vs. Climate Showdown. Geographic region visual.",
+      "filename": "weather-vs-climate-showdown-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "weather-vs-climate-showdown-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Weather vs. Climate Showdown. Natural environment visual.",
+      "filename": "weather-vs-climate-showdown-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

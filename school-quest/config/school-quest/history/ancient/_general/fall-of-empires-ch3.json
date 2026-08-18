@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-empires-ch3",
+  "title": "Why Empires Fall",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "fall-of-empires-ch3",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Between 3500 BCE and 500 CE, huge empires rose across the world — from Italy to India to China. They. Legacy: We still use ideas from these empires: Roman roads inspired modern highways; Han. Topics: Which problem affected ALL THREE empires (Rome, Han, and Maurya)?, What helped spread Han Chinese ideas — like paper — even after the Han Empire ended?.",
+      "filename": "fall-of-empires-ch3-timeline.webp"
+    },
+    {
+      "id": "fall-of-empires-ch3-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Between 3500 BCE and 500 CE, huge empires rose across the world — from Italy to India to China. They. Legacy: We still use ideas from these empires: Roman roads inspired modern highways; Han. Topics: Which problem affected ALL THREE empires (Rome, Han, and Maurya)?, What helped spread Han Chinese ideas — like paper — even after the Han Empire ended?.",
+      "filename": "fall-of-empires-ch3-scene.webp"
+    }
+  ]
+}

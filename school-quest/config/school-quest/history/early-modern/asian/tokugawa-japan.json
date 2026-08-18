@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tokugawa-japan",
+  "title": "Tokugawa Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "tokugawa-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was torn apart by civil wars between rival samurai lords. In 1600,. Legacy: The Tokugawa peace created a stable, unified Japan with a rich and distinct cult. Topics: Who was the supreme military ruler of Japan during the Tokugawa period?, What was the capital city of Tokugawa Japan?.",
+      "filename": "tokugawa-japan-map.webp"
+    },
+    {
+      "id": "tokugawa-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was torn apart by civil wars between rival samurai lords. In 1600,. Legacy: The Tokugawa peace created a stable, unified Japan with a rich and distinct cult. Topics: Who was the supreme military ruler of Japan during the Tokugawa period?, What was the capital city of Tokugawa Japan?.",
+      "filename": "tokugawa-japan-portrait.webp"
+    }
+  ]
+}

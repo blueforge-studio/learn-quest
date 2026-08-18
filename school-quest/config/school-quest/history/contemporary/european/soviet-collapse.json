@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "soviet-collapse",
+  "title": "Collapse of the Soviet Union",
+  "lessonType": "lesson",
+  "chapter": "chapter-3",
+  "epoch": "contemporary",
+  "region": "european",
+  "basePath": "public/images/lessons/contemporary/european",
+  "images": [
+    {
+      "id": "soviet-collapse",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Collapse of the Soviet Union. Type: lesson. Topics: Into how many countries did the Soviet Union dissolve?, What was the August 1991 coup?.",
+      "filename": "soviet-collapse-timeline.webp"
+    },
+    {
+      "id": "soviet-collapse-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Collapse of the Soviet Union. Type: lesson. Topics: Into how many countries did the Soviet Union dissolve?, What was the August 1991 coup?.",
+      "filename": "soviet-collapse-scene.webp"
+    }
+  ]
+}

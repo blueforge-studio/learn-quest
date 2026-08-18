@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "map-projections-ch3",
+  "title": "Map Projections",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-geography/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "map-projections-ch3-map",
+      "type": "map",
+      "prompt": "Map illustration for: Map Projections. Educational geography map.",
+      "filename": "map-projections-ch3-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-projections-ch3-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Map Projections. Famous geographical location.",
+      "filename": "map-projections-ch3-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-projections-ch3-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Map Projections. Geographic region visual.",
+      "filename": "map-projections-ch3-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-projections-ch3-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Map Projections. Natural environment visual.",
+      "filename": "map-projections-ch3-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

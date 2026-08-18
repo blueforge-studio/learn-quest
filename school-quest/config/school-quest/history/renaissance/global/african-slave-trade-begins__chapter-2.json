@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "african-slave-trade-begins",
+  "title": "The Atlantic Slave Trade Begins",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "african-slave-trade-begins",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Atlantic Slave Trade Begins. Type: timeline. Background: Before 1400, slavery existed in many parts of the world — but it was usually local and not based on . Legacy: The Atlantic Slave Trade shaped languages, music, food, and traditions across th. Topics: In what year did the first enslaved Africans arrive in the Americas?, What was the name of the first major European trading post built in Africa?.",
+      "filename": "african-slave-trade-begins-timeline.webp"
+    },
+    {
+      "id": "african-slave-trade-begins-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Atlantic Slave Trade Begins. Type: timeline. Background: Before 1400, slavery existed in many parts of the world — but it was usually local and not based on . Legacy: The Atlantic Slave Trade shaped languages, music, food, and traditions across th. Topics: In what year did the first enslaved Africans arrive in the Americas?, What was the name of the first major European trading post built in Africa?.",
+      "filename": "african-slave-trade-begins-scene.webp"
+    }
+  ]
+}

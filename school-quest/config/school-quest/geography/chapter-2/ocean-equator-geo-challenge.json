@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "ocean-equator-geo-challenge",
+  "title": "Oceans & the Equator Adventure",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-geography/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "ocean-equator-geo-challenge-map",
+      "type": "map",
+      "prompt": "Map illustration for: Oceans & the Equator Adventure. Educational geography map.",
+      "filename": "ocean-equator-geo-challenge-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "ocean-equator-geo-challenge-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Oceans & the Equator Adventure. Famous geographical location.",
+      "filename": "ocean-equator-geo-challenge-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "ocean-equator-geo-challenge-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Oceans & the Equator Adventure. Geographic region visual.",
+      "filename": "ocean-equator-geo-challenge-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "ocean-equator-geo-challenge-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Oceans & the Equator Adventure. Natural environment visual.",
+      "filename": "ocean-equator-geo-challenge-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

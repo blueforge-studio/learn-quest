@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-warfare-ch5",
+  "title": "Ancient Warfare",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-warfare-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Warfare. Type: era-exploration. Background: From the first cities in Mesopotamia (around 3500 BCE) to the mighty Roman Empire (ending around 500. Legacy: Many things we use today started with ancient warriors: wheels, pulleys, levers,. Topics: What did soldiers in a Greek phalanx do with their shields?, Which ancient army used fast horse-drawn chariots like race cars of war?.",
+      "filename": "ancient-warfare-ch5-map.webp"
+    },
+    {
+      "id": "ancient-warfare-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Warfare. Type: era-exploration. Background: From the first cities in Mesopotamia (around 3500 BCE) to the mighty Roman Empire (ending around 500. Legacy: Many things we use today started with ancient warriors: wheels, pulleys, levers,. Topics: What did soldiers in a Greek phalanx do with their shields?, Which ancient army used fast horse-drawn chariots like race cars of war?.",
+      "filename": "ancient-warfare-ch5-portrait.webp"
+    }
+  ]
+}

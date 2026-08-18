@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "medici-family",
+  "title": "The Medici Family",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "medici-family",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Medici Family. Type: era-exploration. Background: The Medici story began with Giovanni di Bicci de' Medici, who started a successful bank in Florence . Legacy: Without the Medici, the Renaissance might have looked very different. Their mone. Topics: What was the main business that made the Medici family rich and powerful?, What does a 'patron of the arts' do?.",
+      "filename": "medici-family-map.webp"
+    },
+    {
+      "id": "medici-family-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Medici Family. Type: era-exploration. Background: The Medici story began with Giovanni di Bicci de' Medici, who started a successful bank in Florence . Legacy: Without the Medici, the Renaissance might have looked very different. Their mone. Topics: What was the main business that made the Medici family rich and powerful?, What does a 'patron of the arts' do?.",
+      "filename": "medici-family-portrait.webp"
+    }
+  ]
+}

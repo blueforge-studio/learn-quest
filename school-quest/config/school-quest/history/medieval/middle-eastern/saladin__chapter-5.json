@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "saladin",
+  "title": "Saladin",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "saladin",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Saladin. Type: historical-figure. Background: Saladin was born in Tikrit (in modern-day Iraq) in 1137 into a Kurdish family. He grew up in Syria a. Legacy: Saladin is remembered as a hero in the Muslim world for recapturing Jerusalem an. Topics: What is Saladin most famous for?, During which historical period did Saladin live?.",
+      "filename": "saladin-portrait.webp"
+    },
+    {
+      "id": "saladin-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Saladin. Type: historical-figure. Background: Saladin was born in Tikrit (in modern-day Iraq) in 1137 into a Kurdish family. He grew up in Syria a. Legacy: Saladin is remembered as a hero in the Muslim world for recapturing Jerusalem an. Topics: What is Saladin most famous for?, During which historical period did Saladin live?.",
+      "filename": "saladin-scene.webp"
+    }
+  ]
+}

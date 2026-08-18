@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "moche-civilization",
+  "title": "The Moche Civilization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "moche-civilization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Moche Civilization. Type: era-exploration. Background: The Moche civilization flourished in northern Peru, in a desert landscape between the Pacific Ocean . Legacy: The Moche left behind a treasure trove of art and buildings that help us underst. Topics: What were the Moche most famous for creating?, What giant structures did the Moche build?.",
+      "filename": "moche-civilization-map.webp"
+    },
+    {
+      "id": "moche-civilization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Moche Civilization. Type: era-exploration. Background: The Moche civilization flourished in northern Peru, in a desert landscape between the Pacific Ocean . Legacy: The Moche left behind a treasure trove of art and buildings that help us underst. Topics: What were the Moche most famous for creating?, What giant structures did the Moche build?.",
+      "filename": "moche-civilization-portrait.webp"
+    }
+  ]
+}

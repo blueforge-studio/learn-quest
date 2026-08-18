@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "carthage-hannibal",
+  "title": "Carthage and Hannibal",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "carthage-hannibal",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Carthage and Hannibal. Type: historical-figure. Background: Hannibal was born in Carthage, a powerful trading city on the coast of North Africa. His father, Ham. Legacy: Hannibal is remembered as one of history’s greatest generals — not because he wo. Topics: Where was the ancient city of Carthage located?, How many elephants did Hannibal bring across the Alps?.",
+      "filename": "carthage-hannibal-portrait.webp"
+    },
+    {
+      "id": "carthage-hannibal-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Carthage and Hannibal. Type: historical-figure. Background: Hannibal was born in Carthage, a powerful trading city on the coast of North Africa. His father, Ham. Legacy: Hannibal is remembered as one of history’s greatest generals — not because he wo. Topics: Where was the ancient city of Carthage located?, How many elephants did Hannibal bring across the Alps?.",
+      "filename": "carthage-hannibal-scene.webp"
+    }
+  ]
+}

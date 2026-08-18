@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "siddhartha-buddha",
+  "title": "Siddhartha and Buddhism",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "siddhartha-buddha",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Siddhartha and Buddhism. Type: historical-figure. Background: Siddhartha was born a prince in Lumbini (in modern-day Nepal). His father, the king, kept him shelte. Legacy: Siddhartha Gautama, the Buddha, never claimed to be a god. He taught that anyone. Topics: What was Siddhartha's life like before he left the palace?, What did Siddhartha see that made him leave his palace life?.",
+      "filename": "siddhartha-buddha-portrait.webp"
+    },
+    {
+      "id": "siddhartha-buddha-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Siddhartha and Buddhism. Type: historical-figure. Background: Siddhartha was born a prince in Lumbini (in modern-day Nepal). His father, the king, kept him shelte. Legacy: Siddhartha Gautama, the Buddha, never claimed to be a god. He taught that anyone. Topics: What was Siddhartha's life like before he left the palace?, What did Siddhartha see that made him leave his palace life?.",
+      "filename": "siddhartha-buddha-scene.webp"
+    }
+  ]
+}

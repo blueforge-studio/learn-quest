@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-china-dynasties",
+  "title": "Chinese Dynasties",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-china-dynasties",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient China began along the Yellow River, where farming villages grew into kingdoms. Around 1600 B. Legacy: The dynasties of ancient China created a lasting culture. Their inventions—like . Topics: Which was the first Chinese dynasty to leave written records?, What major project is the Qin Dynasty's first emperor most famous for, besides uniting China?.",
+      "filename": "ancient-china-dynasties-timeline.webp"
+    },
+    {
+      "id": "ancient-china-dynasties-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient China began along the Yellow River, where farming villages grew into kingdoms. Around 1600 B. Legacy: The dynasties of ancient China created a lasting culture. Their inventions—like . Topics: Which was the first Chinese dynasty to leave written records?, What major project is the Qin Dynasty's first emperor most famous for, besides uniting China?.",
+      "filename": "ancient-china-dynasties-scene.webp"
+    }
+  ]
+}

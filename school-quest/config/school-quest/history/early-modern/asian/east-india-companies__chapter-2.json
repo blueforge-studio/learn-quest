@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "east-india-companies",
+  "title": "East India Companies",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "east-india-companies",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1600s, Europeans loved Asian spices, silk, and tea, but getting them was a long and dangerous. Legacy: The East India Companies changed the world map. They connected Europe and Asia i. Topics: Why did European East India Companies sail to Asia?, What did the companies build along the Asian coasts?.",
+      "filename": "east-india-companies-map.webp"
+    },
+    {
+      "id": "east-india-companies-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1600s, Europeans loved Asian spices, silk, and tea, but getting them was a long and dangerous. Legacy: The East India Companies changed the world map. They connected Europe and Asia i. Topics: Why did European East India Companies sail to Asia?, What did the companies build along the Asian coasts?.",
+      "filename": "east-india-companies-portrait.webp"
+    }
+  ]
+}

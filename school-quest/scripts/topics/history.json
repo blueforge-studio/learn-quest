@@ -1,0 +1,50 @@
+{
+  "templateLesson": "lq-history/public/data/lessons/en/chapter-1/timeline-ancient-civilizations.json",
+  "categories": {
+    "ancient": [
+      { "id": "first-civilizations", "title": "The First Civilizations", "type": "timeline", "description": "Mesopotamia, Egypt, Indus Valley, China — where civilization began" },
+      { "id": "ancient-inventions", "title": "Ancient Inventions", "type": "era-exploration", "description": "Writing, the wheel, bronze tools, irrigation systems" },
+      { "id": "ancient-trade-routes", "title": "Ancient Trade Routes", "type": "era-exploration", "description": "Silk Road, maritime routes, exchange of goods and ideas" }
+    ],
+    "ancient/european": [
+      { "id": "ancient-greece", "title": "Ancient Greece", "type": "era-exploration", "description": "Athens, Sparta, democracy, Olympics, philosophy" },
+      { "id": "roman-empire", "title": "The Roman Empire", "type": "era-exploration", "description": "Republic to Empire, legions, roads, Colosseum" },
+      { "id": "celtic-europe", "title": "Celtic Europe", "type": "era-exploration", "description": "Celtic tribes, druids, art, hill forts" }
+    ],
+    "ancient/asian": [
+      { "id": "ancient-china", "title": "Ancient China", "type": "era-exploration", "description": "Dynasties, Great Wall, inventions, Silk Road" },
+      { "id": "ancient-india", "title": "Ancient India", "type": "era-exploration", "description": "Indus Valley, Maurya Empire, Buddhism, Hinduism" },
+      { "id": "ancient-japan", "title": "Ancient Japan", "type": "era-exploration", "description": "Jomon period, Shinto, early emperors" }
+    ],
+    "ancient/african": [
+      { "id": "ancient-egypt", "title": "Ancient Egypt", "type": "era-exploration", "description": "Pharaohs, pyramids, Nile, hieroglyphics" },
+      { "id": "kingdom-kush", "title": "Kingdom of Kush", "type": "era-exploration", "description": "Nubian civilization, trade with Egypt, iron-working" },
+      { "id": "carthage", "title": "Carthage", "type": "era-exploration", "description": "Phoenician colony, Hannibal, trade empire" }
+    ],
+    "ancient/american": [
+      { "id": "maya-civilization", "title": "Maya Civilization", "type": "era-exploration", "description": "Calendar, pyramids, writing system, astronomy" },
+      { "id": "aztec-empire", "title": "Aztec Empire", "type": "era-exploration", "description": "Tenochtitlan, warriors, agriculture, culture" },
+      { "id": "inca-empire", "title": "Inca Empire", "type": "era-exploration", "description": "Machu Picchu, roads, quipu, terrace farming" }
+    ],
+    "dark-ages": [
+      { "id": "fall-of-rome", "title": "Fall of the Roman Empire", "type": "timeline", "description": "Why Rome fell, barbarian invasions, aftermath" },
+      { "id": "viking-age", "title": "The Viking Age", "type": "era-exploration", "description": "Norse explorers, longships, raids, settlements" },
+      { "id": "byzantine-empire", "title": "Byzantine Empire", "type": "era-exploration", "description": "Eastern Rome, Constantinople, Justinian" }
+    ],
+    "middle-ages": [
+      { "id": "feudal-system", "title": "The Feudal System", "type": "era-exploration", "description": "Kings, lords, knights, peasants, manor life" },
+      { "id": "castles-knights", "title": "Castles and Knights", "type": "era-exploration", "description": "Castle design, knighthood, armor, tournaments" },
+      { "id": "medieval-trade", "title": "Medieval Trade Routes", "type": "era-exploration", "description": "Silk Road, merchant guilds, market towns" }
+    ],
+    "renaissance": [
+      { "id": "renaissance-art", "title": "Renaissance Art and Artists", "type": "historical-figure", "description": "Michelangelo, Raphael, Botticelli and their masterpieces" },
+      { "id": "printing-press", "title": "The Printing Press Revolution", "type": "timeline", "description": "Gutenberg, movable type, spread of knowledge" },
+      { "id": "age-of-exploration", "title": "Age of Exploration", "type": "era-exploration", "description": "Columbus, Magellan, new trade routes, discoveries" }
+    ],
+    "modern": [
+      { "id": "industrial-revolution", "title": "The Industrial Revolution", "type": "era-exploration", "description": "Factories, steam power, railways, urbanization" },
+      { "id": "space-race", "title": "The Space Race", "type": "timeline", "description": "Sputnik, Apollo 11, moon landing, astronauts" },
+      { "id": "digital-age", "title": "The Digital Age", "type": "era-exploration", "description": "Computers, internet, smartphones, how tech changed the world" }
+    ]
+  }
+}

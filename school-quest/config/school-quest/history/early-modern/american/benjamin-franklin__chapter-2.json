@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "benjamin-franklin",
+  "title": "Benjamin Franklin",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "benjamin-franklin",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Benjamin Franklin. Type: historical-figure. Background: Born in Boston in 1706, Benjamin was the 15th of 17 children! His family couldn’t afford to send him. Legacy: Benjamin Franklin showed that kindness, curiosity, and hard work can change the . Topics: What did Benjamin Franklin prove with his famous kite experiment?, Which important American document did Benjamin Franklin help write in 1776?.",
+      "filename": "benjamin-franklin-portrait.webp"
+    },
+    {
+      "id": "benjamin-franklin-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Benjamin Franklin. Type: historical-figure. Background: Born in Boston in 1706, Benjamin was the 15th of 17 children! His family couldn’t afford to send him. Legacy: Benjamin Franklin showed that kindness, curiosity, and hard work can change the . Topics: What did Benjamin Franklin prove with his famous kite experiment?, Which important American document did Benjamin Franklin help write in 1776?.",
+      "filename": "benjamin-franklin-scene.webp"
+    }
+  ]
+}

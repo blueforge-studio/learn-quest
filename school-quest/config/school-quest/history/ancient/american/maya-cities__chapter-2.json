@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-cities",
+  "title": "Maya Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-cities",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE with small farming villages. Over time, these villages g. Legacy: Today, the ruins of Tikal and Palenque are UNESCO World Heritage Sites. The Maya. Topics: Where did the Maya build their great cities?, What was one of the tallest structures in a Maya city?.",
+      "filename": "maya-cities-map.webp"
+    },
+    {
+      "id": "maya-cities-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE with small farming villages. Over time, these villages g. Legacy: Today, the ruins of Tikal and Palenque are UNESCO World Heritage Sites. The Maya. Topics: Where did the Maya build their great cities?, What was one of the tallest structures in a Maya city?.",
+      "filename": "maya-cities-portrait.webp"
+    }
+  ]
+}

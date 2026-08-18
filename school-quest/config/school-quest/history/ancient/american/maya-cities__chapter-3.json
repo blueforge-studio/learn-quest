@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-cities",
+  "title": "Maya Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-cities",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE. They lived in what is now Mexico, Guatemala, Belize, Ho. Legacy: The ruins of Tikal, Palenque, and other Maya cities are now UNESCO World Heritag. Topics: Where were the ancient Maya cities located?, What was one of the largest and most powerful Maya cities?.",
+      "filename": "maya-cities-map.webp"
+    },
+    {
+      "id": "maya-cities-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE. They lived in what is now Mexico, Guatemala, Belize, Ho. Legacy: The ruins of Tikal, Palenque, and other Maya cities are now UNESCO World Heritag. Topics: Where were the ancient Maya cities located?, What was one of the largest and most powerful Maya cities?.",
+      "filename": "maya-cities-portrait.webp"
+    }
+  ]
+}

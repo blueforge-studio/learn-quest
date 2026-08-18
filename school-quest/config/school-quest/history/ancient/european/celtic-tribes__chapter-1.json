@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "celtic-tribes",
+  "title": "Celtic Europe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "celtic-tribes",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one single country or empire — they were many different tribes who shared similar . Legacy: Celtic art, music, and stories are still alive today! You can see Celtic knots o. Topics: What were Celtic hill forts used for?, Who were the Druids?.",
+      "filename": "celtic-tribes-map.webp"
+    },
+    {
+      "id": "celtic-tribes-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one single country or empire — they were many different tribes who shared similar . Legacy: Celtic art, music, and stories are still alive today! You can see Celtic knots o. Topics: What were Celtic hill forts used for?, Who were the Druids?.",
+      "filename": "celtic-tribes-portrait.webp"
+    }
+  ]
+}

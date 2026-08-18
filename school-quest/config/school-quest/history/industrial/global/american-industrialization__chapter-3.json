@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-industrialization",
+  "title": "American Industrialization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "american-industrialization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After winning independence, the United States began building its own industries. Factories popped up. Legacy: American industrialization laid the foundation for the United States to become a. Topics: What invention made removing seeds from cotton much faster?, What man-made waterway connected New York to the Great Lakes in 1825?.",
+      "filename": "american-industrialization-map.webp"
+    },
+    {
+      "id": "american-industrialization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After winning independence, the United States began building its own industries. Factories popped up. Legacy: American industrialization laid the foundation for the United States to become a. Topics: What invention made removing seeds from cotton much faster?, What man-made waterway connected New York to the Great Lakes in 1825?.",
+      "filename": "american-industrialization-portrait.webp"
+    }
+  ]
+}

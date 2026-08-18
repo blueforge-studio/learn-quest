@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "historical-figure-rosetta-stone-scribe",
+  "title": "The Scribe Who Helped Us Read Hieroglyphs: Meet Jean-François Champollion",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "historical-figure-rosetta-stone-scribe",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Scribe Who Helped Us Read Hieroglyphs: Meet Jean-François Champollion. Type: historical-figure. Topics: What did Champollion discover about hieroglyphs?.",
+      "filename": "historical-figure-rosetta-stone-scribe-portrait.webp"
+    },
+    {
+      "id": "historical-figure-rosetta-stone-scribe-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: The Scribe Who Helped Us Read Hieroglyphs: Meet Jean-François Champollion. Type: historical-figure. Topics: What did Champollion discover about hieroglyphs?.",
+      "filename": "historical-figure-rosetta-stone-scribe-scene.webp"
+    }
+  ]
+}

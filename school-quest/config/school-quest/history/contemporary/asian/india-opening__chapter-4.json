@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "india-opening",
+  "title": "India Opens Up",
+  "lessonType": "lesson",
+  "chapter": "chapter-4",
+  "epoch": "contemporary",
+  "region": "asian",
+  "basePath": "public/images/lessons/contemporary/asian",
+  "images": [
+    {
+      "id": "india-opening",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: India Opens Up. Type: lesson. Topics: What was the 'License Raj'?, What forced India to reform its economy in 1991?.",
+      "filename": "india-opening-timeline.webp"
+    },
+    {
+      "id": "india-opening-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: India Opens Up. Type: lesson. Topics: What was the 'License Raj'?, What forced India to reform its economy in 1991?.",
+      "filename": "india-opening-scene.webp"
+    }
+  ]
+}

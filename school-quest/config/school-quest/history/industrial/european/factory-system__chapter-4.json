@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "factory-system",
+  "title": "The Factory System",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "factory-system",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Factory System. Type: era-exploration. Background: Before factories, many people in Europe worked in the 'cottage industry.' They spun wool into yarn o. Legacy: The Factory System changed the world. It created the modern idea of 'going to wo. Topics: Where did most people make cloth BEFORE the Factory System?, What was a major new source of power for early factories?.",
+      "filename": "factory-system-map.webp"
+    },
+    {
+      "id": "factory-system-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Factory System. Type: era-exploration. Background: Before factories, many people in Europe worked in the 'cottage industry.' They spun wool into yarn o. Legacy: The Factory System changed the world. It created the modern idea of 'going to wo. Topics: Where did most people make cloth BEFORE the Factory System?, What was a major new source of power for early factories?.",
+      "filename": "factory-system-portrait.webp"
+    }
+  ]
+}

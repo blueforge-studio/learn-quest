@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maurya-empire",
+  "title": "The Maurya Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "maurya-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Maurya Empire. Type: era-exploration. Background: Ashoka was born a prince around 304 BCE. In 268 BCE, he became the third emperor of the Maurya Empir. Legacy: Ashoka is remembered as one of history's first compassionate rulers. Because of . Topics: What major event caused Ashoka to change his way of ruling?, How did Ashoka share his new laws with people across his large empire?.",
+      "filename": "maurya-empire-map.webp"
+    },
+    {
+      "id": "maurya-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Maurya Empire. Type: era-exploration. Background: Ashoka was born a prince around 304 BCE. In 268 BCE, he became the third emperor of the Maurya Empir. Legacy: Ashoka is remembered as one of history's first compassionate rulers. Because of . Topics: What major event caused Ashoka to change his way of ruling?, How did Ashoka share his new laws with people across his large empire?.",
+      "filename": "maurya-empire-portrait.webp"
+    }
+  ]
+}

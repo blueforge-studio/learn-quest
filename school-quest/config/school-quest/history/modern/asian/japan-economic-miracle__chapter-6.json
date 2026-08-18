@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "japan-economic-miracle",
+  "title": "Japan's Economic Miracle and Decline",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "japan-economic-miracle",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Japan's Economic Miracle and Decline. Type: lesson. Topics: What happened to Japan's economy in the 1990s?, What challenge does Japan face today?.",
+      "filename": "japan-economic-miracle-timeline.webp"
+    },
+    {
+      "id": "japan-economic-miracle-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Japan's Economic Miracle and Decline. Type: lesson. Topics: What happened to Japan's economy in the 1990s?, What challenge does Japan face today?.",
+      "filename": "japan-economic-miracle-scene.webp"
+    }
+  ]
+}

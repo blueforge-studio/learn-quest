@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "wright-brothers",
+  "title": "The Wright Brothers",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "wright-brothers",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Wright Brothers. Type: historical-figure. Background: Wilbur and Orville grew up in a curious, supportive family. Their father was a bishop who encouraged. Legacy: The Wright Brothers proved that human flight was possible—not with magic or luck. Topics: Where did the Wright Brothers make their first successful powered flight?, What kind of business did the Wright Brothers run before inventing the airplane?.",
+      "filename": "wright-brothers-portrait.webp"
+    },
+    {
+      "id": "wright-brothers-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: The Wright Brothers. Type: historical-figure. Background: Wilbur and Orville grew up in a curious, supportive family. Their father was a bishop who encouraged. Legacy: The Wright Brothers proved that human flight was possible—not with magic or luck. Topics: Where did the Wright Brothers make their first successful powered flight?, What kind of business did the Wright Brothers run before inventing the airplane?.",
+      "filename": "wright-brothers-scene.webp"
+    }
+  ]
+}

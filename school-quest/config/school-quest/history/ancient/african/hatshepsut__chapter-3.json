@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "hatshepsut",
+  "title": "Hatshepsut",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "hatshepsut",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Hatshepsut. Type: historical-figure. Background: Hatshepsut was born a princess, the daughter of Pharaoh Thutmose I. When her husband, Pharaoh Thutmo. Legacy: For many years after her death, later pharaohs tried to erase her from history b. Topics: What was unusual about Hatshepsut's rule?, What was the purpose of Hatshepsut's famous voyage to Punt?.",
+      "filename": "hatshepsut-portrait.webp"
+    },
+    {
+      "id": "hatshepsut-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Hatshepsut. Type: historical-figure. Background: Hatshepsut was born a princess, the daughter of Pharaoh Thutmose I. When her husband, Pharaoh Thutmo. Legacy: For many years after her death, later pharaohs tried to erase her from history b. Topics: What was unusual about Hatshepsut's rule?, What was the purpose of Hatshepsut's famous voyage to Punt?.",
+      "filename": "hatshepsut-scene.webp"
+    }
+  ]
+}

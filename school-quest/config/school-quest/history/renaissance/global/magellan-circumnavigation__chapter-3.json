@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "magellan-circumnavigation",
+  "title": "Magellan's Circumnavigation",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "magellan-circumnavigation",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Magellan's Circumnavigation. Type: era-exploration. Background: In the early 1500s, European countries competed to find sea routes to Asia for valuable spices like . Legacy: Magellan's expedition proved the Earth was round and could be circled by sea. It. Topics: What was the main goal of Magellan's voyage?, What major geographic feature is named after Magellan?.",
+      "filename": "magellan-circumnavigation-map.webp"
+    },
+    {
+      "id": "magellan-circumnavigation-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Magellan's Circumnavigation. Type: era-exploration. Background: In the early 1500s, European countries competed to find sea routes to Asia for valuable spices like . Legacy: Magellan's expedition proved the Earth was round and could be circled by sea. It. Topics: What was the main goal of Magellan's voyage?, What major geographic feature is named after Magellan?.",
+      "filename": "magellan-circumnavigation-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "suez-canal",
+  "title": "The Suez Canal",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "suez-canal",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Suez Canal. Type: era-exploration. Background: For centuries, people dreamed of cutting through the narrow strip of land in Egypt to connect two gr. Legacy: The Suez Canal made the world feel smaller. It cut the sailing time from London . Topics: What two bodies of water does the Suez Canal connect?, Why was the Suez Canal so important for trade?.",
+      "filename": "suez-canal-map.webp"
+    },
+    {
+      "id": "suez-canal-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Suez Canal. Type: era-exploration. Background: For centuries, people dreamed of cutting through the narrow strip of land in Egypt to connect two gr. Legacy: The Suez Canal made the world feel smaller. It cut the sailing time from London . Topics: What two bodies of water does the Suez Canal connect?, Why was the Suez Canal so important for trade?.",
+      "filename": "suez-canal-portrait.webp"
+    }
+  ]
+}

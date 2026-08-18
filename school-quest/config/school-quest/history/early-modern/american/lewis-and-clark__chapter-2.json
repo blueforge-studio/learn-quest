@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "lewis-and-clark",
+  "title": "Lewis and Clark Expedition",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "lewis-and-clark",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Lewis and Clark Expedition. Type: era-exploration. Background: After the United States bought a huge new territory from France in 1803—the Louisiana Purchase—Presi. Legacy: Lewis and Clark opened the door for future settlers, traders, and travelers—but . Topics: Who were the two leaders of the Lewis and Clark Expedition?, What important role did Sacagawea play on the journey?.",
+      "filename": "lewis-and-clark-map.webp"
+    },
+    {
+      "id": "lewis-and-clark-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Lewis and Clark Expedition. Type: era-exploration. Background: After the United States bought a huge new territory from France in 1803—the Louisiana Purchase—Presi. Legacy: Lewis and Clark opened the door for future settlers, traders, and travelers—but . Topics: Who were the two leaders of the Lewis and Clark Expedition?, What important role did Sacagawea play on the journey?.",
+      "filename": "lewis-and-clark-portrait.webp"
+    }
+  ]
+}

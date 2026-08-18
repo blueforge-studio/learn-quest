@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chavin-culture",
+  "title": "The Chavín Culture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "chavin-culture",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived high in the Andes mountains, near a sacred valley where two rivers meet — a . Legacy: The Chavín were like cultural 'seed-spreaders' — their art, symbols, and temple . Topics: Where was the main Chavín temple located?, Which animal was most important to the Chavín people and often carved into their temple?.",
+      "filename": "chavin-culture-map.webp"
+    },
+    {
+      "id": "chavin-culture-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived high in the Andes mountains, near a sacred valley where two rivers meet — a . Legacy: The Chavín were like cultural 'seed-spreaders' — their art, symbols, and temple . Topics: Where was the main Chavín temple located?, Which animal was most important to the Chavín people and often carved into their temple?.",
+      "filename": "chavin-culture-portrait.webp"
+    }
+  ]
+}

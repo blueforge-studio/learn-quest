@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "roman-engineering",
+  "title": "Roman Engineering",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "roman-engineering",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Roman Engineering. Type: era-exploration. Background: Starting as a small city in Italy, Rome grew to control lands all around the Mediterranean Sea. To c. Legacy: Roman engineering changed the world. Their roads became the foundation for moder. Topics: What was one major reason the Romans built such excellent roads?, What amazing feature did Roman concrete have?.",
+      "filename": "roman-engineering-map.webp"
+    },
+    {
+      "id": "roman-engineering-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Roman Engineering. Type: era-exploration. Background: Starting as a small city in Italy, Rome grew to control lands all around the Mediterranean Sea. To c. Legacy: Roman engineering changed the world. Their roads became the foundation for moder. Topics: What was one major reason the Romans built such excellent roads?, What amazing feature did Roman concrete have?.",
+      "filename": "roman-engineering-portrait.webp"
+    }
+  ]
+}

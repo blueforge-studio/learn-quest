@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "abraham-lincoln",
+  "title": "Abraham Lincoln",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "abraham-lincoln",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Abraham Lincoln. Type: historical-figure. Background: Born in a log cabin in Kentucky in 1809, Lincoln grew up in a poor family on the American frontier. . Legacy: Abraham Lincoln is remembered as one of America's greatest presidents. He is cre. Topics: Where was Abraham Lincoln born?, What major problem did Lincoln face as president?.",
+      "filename": "abraham-lincoln-portrait.webp"
+    },
+    {
+      "id": "abraham-lincoln-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Abraham Lincoln. Type: historical-figure. Background: Born in a log cabin in Kentucky in 1809, Lincoln grew up in a poor family on the American frontier. . Legacy: Abraham Lincoln is remembered as one of America's greatest presidents. He is cre. Topics: Where was Abraham Lincoln born?, What major problem did Lincoln face as president?.",
+      "filename": "abraham-lincoln-scene.webp"
+    }
+  ]
+}

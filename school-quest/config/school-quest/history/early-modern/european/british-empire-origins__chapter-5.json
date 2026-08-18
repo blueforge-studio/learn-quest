@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "british-empire-origins",
+  "title": "Origins of the British Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "british-empire-origins",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Origins of the British Empire. Type: era-exploration. Background: In 1500, England was a quiet island nation with no colonies. Kings and queens wanted more wealth, ne. Legacy: By 1800, Britain had colonies in North America, the Caribbean, Africa, and Asia.. Topics: What year was the first permanent English colony founded?, Which famous queen ruled England during the defeat of the Spanish Armada?.",
+      "filename": "british-empire-origins-map.webp"
+    },
+    {
+      "id": "british-empire-origins-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Origins of the British Empire. Type: era-exploration. Background: In 1500, England was a quiet island nation with no colonies. Kings and queens wanted more wealth, ne. Legacy: By 1800, Britain had colonies in North America, the Caribbean, Africa, and Asia.. Topics: What year was the first permanent English colony founded?, Which famous queen ruled England during the defeat of the Spanish Armada?.",
+      "filename": "british-empire-origins-portrait.webp"
+    }
+  ]
+}

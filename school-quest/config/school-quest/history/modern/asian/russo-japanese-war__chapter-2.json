@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russo-japanese-war",
+  "title": "The Russo-Japanese War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "russo-japanese-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: For hundreds of years, many people thought European countries were always stronger than Asian ones. . Legacy: The Russo-Japanese War changed how the world saw Asia forever. It showed that mo. Topics: Which country won the Russo-Japanese War?, What was one reason Japan and Russia went to war?.",
+      "filename": "russo-japanese-war-map.webp"
+    },
+    {
+      "id": "russo-japanese-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: For hundreds of years, many people thought European countries were always stronger than Asian ones. . Legacy: The Russo-Japanese War changed how the world saw Asia forever. It showed that mo. Topics: Which country won the Russo-Japanese War?, What was one reason Japan and Russia went to war?.",
+      "filename": "russo-japanese-war-portrait.webp"
+    }
+  ]
+}

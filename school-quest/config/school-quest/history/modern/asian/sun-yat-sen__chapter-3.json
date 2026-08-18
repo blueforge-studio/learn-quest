@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "sun-yat-sen",
+  "title": "Sun Yat-sen",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "sun-yat-sen",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Sun Yat-sen was born in 1866 in a small village near Guangzhou, in southern China. His family were f. Legacy: Sun Yat-sen never wanted to be a king or stay in power forever. He gave up being. Topics: What did Sun Yat-sen do before becoming a leader?, What year did Sun help end the rule of emperors in China?.",
+      "filename": "sun-yat-sen-portrait.webp"
+    },
+    {
+      "id": "sun-yat-sen-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Sun Yat-sen was born in 1866 in a small village near Guangzhou, in southern China. His family were f. Legacy: Sun Yat-sen never wanted to be a king or stay in power forever. He gave up being. Topics: What did Sun Yat-sen do before becoming a leader?, What year did Sun help end the rule of emperors in China?.",
+      "filename": "sun-yat-sen-scene.webp"
+    }
+  ]
+}

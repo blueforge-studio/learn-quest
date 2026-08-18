@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "isambard-brunel",
+  "title": "Isambard Kingdom Brunel",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "isambard-brunel",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Isambard Kingdom Brunel. Type: historical-figure. Background: Born in Portsmouth, England in 1806, Isambard grew up around big ideas — his father, Marc Brunel, wa. Legacy: Brunel is remembered as one of history’s greatest engineers. His bridges still s. Topics: What kind of amazing thing did Brunel help build UNDER a river?, Which of these was Brunel’s very first big engineering job?.",
+      "filename": "isambard-brunel-portrait.webp"
+    },
+    {
+      "id": "isambard-brunel-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Isambard Kingdom Brunel. Type: historical-figure. Background: Born in Portsmouth, England in 1806, Isambard grew up around big ideas — his father, Marc Brunel, wa. Legacy: Brunel is remembered as one of history’s greatest engineers. His bridges still s. Topics: What kind of amazing thing did Brunel help build UNDER a river?, Which of these was Brunel’s very first big engineering job?.",
+      "filename": "isambard-brunel-scene.webp"
+    }
+  ]
+}

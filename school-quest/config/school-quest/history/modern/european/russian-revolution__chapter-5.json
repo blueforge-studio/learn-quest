@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russian-revolution",
+  "title": "The Russian Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "russian-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by emperors called tsars. By the early 1900s, many ordinary . Legacy: The Russian Revolution created the world's first communist state, the Soviet Uni. Topics: Who was the last tsar (emperor) of Russia, overthrown in 1917?, What was the name of the group led by Vladimir Lenin?.",
+      "filename": "russian-revolution-timeline.webp"
+    },
+    {
+      "id": "russian-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by emperors called tsars. By the early 1900s, many ordinary . Legacy: The Russian Revolution created the world's first communist state, the Soviet Uni. Topics: Who was the last tsar (emperor) of Russia, overthrown in 1917?, What was the name of the group led by Vladimir Lenin?.",
+      "filename": "russian-revolution-scene.webp"
+    }
+  ]
+}

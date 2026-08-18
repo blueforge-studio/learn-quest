@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-trade-ch4",
+  "title": "Ancient Trade Routes",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-trade-ch4",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: Trade began over 5,500 years ago when early farmers in Mesopotamia (modern-day Iraq) swapped grain f. Legacy: These ancient routes laid the foundation for our global world. The Silk Road ins. Topics: What was the most famous item traded on the Silk Road?, Which animal helped traders cross hot, sandy deserts?.",
+      "filename": "ancient-trade-ch4-map.webp"
+    },
+    {
+      "id": "ancient-trade-ch4-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: Trade began over 5,500 years ago when early farmers in Mesopotamia (modern-day Iraq) swapped grain f. Legacy: These ancient routes laid the foundation for our global world. The Silk Road ins. Topics: What was the most famous item traded on the Silk Road?, Which animal helped traders cross hot, sandy deserts?.",
+      "filename": "ancient-trade-ch4-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "socrates-plato",
+  "title": "Socrates and Plato",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "socrates-plato",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: Socrates was born in Athens, Greece. He didn't write books; instead, he taught by walking around the. Legacy: Socrates and Plato are often called the founders of Western philosophy. Their id. Topics: How did Socrates mainly teach his students?, What did Plato create that was like an early university?.",
+      "filename": "socrates-plato-portrait.webp"
+    },
+    {
+      "id": "socrates-plato-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: Socrates was born in Athens, Greece. He didn't write books; instead, he taught by walking around the. Legacy: Socrates and Plato are often called the founders of Western philosophy. Their id. Topics: How did Socrates mainly teach his students?, What did Plato create that was like an early university?.",
+      "filename": "socrates-plato-scene.webp"
+    }
+  ]
+}

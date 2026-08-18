@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "roman-republic",
+  "title": "The Roman Republic",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "roman-republic",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Roman Republic. Type: era-exploration. Background: Rome began as a small village on seven hills in Italy. In 509 BCE, the Romans decided they didn’t wa. Legacy: The Roman Republic taught the world that governments can be built on fairness, b. Topics: What were the two top leaders of the Roman Republic called?, What important group gave advice, managed money, and helped plan wars?.",
+      "filename": "roman-republic-map.webp"
+    },
+    {
+      "id": "roman-republic-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Roman Republic. Type: era-exploration. Background: Rome began as a small village on seven hills in Italy. In 509 BCE, the Romans decided they didn’t wa. Legacy: The Roman Republic taught the world that governments can be built on fairness, b. Topics: What were the two top leaders of the Roman Republic called?, What important group gave advice, managed money, and helped plan wars?.",
+      "filename": "roman-republic-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "factory-system",
+  "title": "The Factory System",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "factory-system",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Factory System. Type: era-exploration. Background: Before factories, many people in Europe worked in the 'cottage industry.' Families made cloth, shoes. Legacy: The factory system created the modern world of mass-produced goods. It led to th. Topics: Where did most people make goods BEFORE the factory system?, What was a major reason the first factories were built near rivers?.",
+      "filename": "factory-system-map.webp"
+    },
+    {
+      "id": "factory-system-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Factory System. Type: era-exploration. Background: Before factories, many people in Europe worked in the 'cottage industry.' Families made cloth, shoes. Legacy: The factory system created the modern world of mass-produced goods. It led to th. Topics: Where did most people make goods BEFORE the factory system?, What was a major reason the first factories were built near rivers?.",
+      "filename": "factory-system-portrait.webp"
+    }
+  ]
+}

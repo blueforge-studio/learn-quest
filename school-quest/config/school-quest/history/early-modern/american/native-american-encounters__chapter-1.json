@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "native-american-encounters",
+  "title": "Native Americans and Colonizers",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "native-american-encounters",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Native Americans and Colonizers. Type: era-exploration. Background: Long before Europeans came, over 500 distinct Native nations thrived in what is now the United State. Legacy: Native American knowledge helped shape the new world — from farming techniques (. Topics: What did the Wampanoag people teach the English Pilgrims?, Which animal did Europeans bring to the Americas that changed life for many Native nations?.",
+      "filename": "native-american-encounters-map.webp"
+    },
+    {
+      "id": "native-american-encounters-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Native Americans and Colonizers. Type: era-exploration. Background: Long before Europeans came, over 500 distinct Native nations thrived in what is now the United State. Legacy: Native American knowledge helped shape the new world — from farming techniques (. Topics: What did the Wampanoag people teach the English Pilgrims?, Which animal did Europeans bring to the Americas that changed life for many Native nations?.",
+      "filename": "native-american-encounters-portrait.webp"
+    }
+  ]
+}

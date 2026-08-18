@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "samurai-japan",
+  "title": "Samurai Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "samurai-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: In medieval Japan (500–1500 CE), powerful landowners needed protectors. At first, these were local f. Legacy: The samurai spirit lives on today in Japanese values like hard work, respect for. Topics: What does 'Bushido' mean?, Which weapon was most sacred to the samurai?.",
+      "filename": "samurai-japan-map.webp"
+    },
+    {
+      "id": "samurai-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: In medieval Japan (500–1500 CE), powerful landowners needed protectors. At first, these were local f. Legacy: The samurai spirit lives on today in Japanese values like hard work, respect for. Topics: What does 'Bushido' mean?, Which weapon was most sacred to the samurai?.",
+      "filename": "samurai-japan-portrait.webp"
+    }
+  ]
+}

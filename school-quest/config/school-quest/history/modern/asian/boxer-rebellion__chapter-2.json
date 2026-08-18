@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "boxer-rebellion",
+  "title": "The Boxer Rebellion",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "boxer-rebellion",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Boxer Rebellion. Type: era-exploration. Background: For much of its history, China was a powerful and independent empire. But by the 1800s, it was growi. Legacy: The Boxer Rebellion was a turning point. While the Boxers failed to expel the fo. Topics: Why were the Boxers angry?, What was the main goal of the Boxers?.",
+      "filename": "boxer-rebellion-map.webp"
+    },
+    {
+      "id": "boxer-rebellion-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Boxer Rebellion. Type: era-exploration. Background: For much of its history, China was a powerful and independent empire. But by the 1800s, it was growi. Legacy: The Boxer Rebellion was a turning point. While the Boxers failed to expel the fo. Topics: Why were the Boxers angry?, What was the main goal of the Boxers?.",
+      "filename": "boxer-rebellion-portrait.webp"
+    }
+  ]
+}

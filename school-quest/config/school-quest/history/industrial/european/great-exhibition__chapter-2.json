@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-exhibition",
+  "title": "The Great Exhibition of 1851",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "great-exhibition",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Exhibition of 1851. Type: era-exploration. Background: After decades of rapid change during the Industrial Revolution (1760–1840), Britain had become the w. Legacy: The Great Exhibition inspired hundreds of world fairs around the globe — like th. Topics: What was the name of the amazing glass building where the Great Exhibition was held?, Who helped organize the Great Exhibition and believed in using science and art to improve the world?.",
+      "filename": "great-exhibition-map.webp"
+    },
+    {
+      "id": "great-exhibition-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Exhibition of 1851. Type: era-exploration. Background: After decades of rapid change during the Industrial Revolution (1760–1840), Britain had become the w. Legacy: The Great Exhibition inspired hundreds of world fairs around the globe — like th. Topics: What was the name of the amazing glass building where the Great Exhibition was held?, Who helped organize the Great Exhibition and believed in using science and art to improve the world?.",
+      "filename": "great-exhibition-portrait.webp"
+    }
+  ]
+}

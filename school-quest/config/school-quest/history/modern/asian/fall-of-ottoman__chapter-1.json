@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-ottoman",
+  "title": "The End of an Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "fall-of-ottoman",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The End of an Empire. Type: era-exploration. Background: The Ottoman Empire began in 1299 and grew to be one of the largest empires in history, controlling l. Legacy: The fall of the Ottoman Empire redrew the map of the Middle East and Southeast E. Topics: How long had the Ottoman Empire ruled before World War I?, What major world event was the final cause of the Ottoman Empire's collapse?.",
+      "filename": "fall-of-ottoman-map.webp"
+    },
+    {
+      "id": "fall-of-ottoman-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The End of an Empire. Type: era-exploration. Background: The Ottoman Empire began in 1299 and grew to be one of the largest empires in history, controlling l. Legacy: The fall of the Ottoman Empire redrew the map of the Middle East and Southeast E. Topics: How long had the Ottoman Empire ruled before World War I?, What major world event was the final cause of the Ottoman Empire's collapse?.",
+      "filename": "fall-of-ottoman-portrait.webp"
+    }
+  ]
+}

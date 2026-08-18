@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-depression",
+  "title": "The Great Depression",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "great-depression",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Depression. Type: era-exploration. Background: In the 1920s, many people in the U.S. and Canada were excited about new inventions like radios and c. Legacy: The Great Depression taught leaders to create safety nets — like rules to protec. Topics: What nickname was given to October 29, 1929 — the day the stock market crashed?, What was the Dust Bowl?.",
+      "filename": "great-depression-map.webp"
+    },
+    {
+      "id": "great-depression-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Depression. Type: era-exploration. Background: In the 1920s, many people in the U.S. and Canada were excited about new inventions like radios and c. Legacy: The Great Depression taught leaders to create safety nets — like rules to protec. Topics: What nickname was given to October 29, 1929 — the day the stock market crashed?, What was the Dust Bowl?.",
+      "filename": "great-depression-portrait.webp"
+    }
+  ]
+}

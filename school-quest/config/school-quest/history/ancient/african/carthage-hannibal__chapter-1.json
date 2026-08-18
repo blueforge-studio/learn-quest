@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "carthage-hannibal",
+  "title": "Carthage and Hannibal",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "carthage-hannibal",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Carthage and Hannibal. Type: historical-figure. Background: Hannibal was born in Carthage — a powerful city on the coast of North Africa (modern-day Tunisia). C. Legacy: Hannibal is remembered as one of history’s greatest military leaders — admired e. Topics: Where was the city of Carthage located?, What special animals did Hannibal bring across the Alps?.",
+      "filename": "carthage-hannibal-portrait.webp"
+    },
+    {
+      "id": "carthage-hannibal-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Carthage and Hannibal. Type: historical-figure. Background: Hannibal was born in Carthage — a powerful city on the coast of North Africa (modern-day Tunisia). C. Legacy: Hannibal is remembered as one of history’s greatest military leaders — admired e. Topics: Where was the city of Carthage located?, What special animals did Hannibal bring across the Alps?.",
+      "filename": "carthage-hannibal-scene.webp"
+    }
+  ]
+}

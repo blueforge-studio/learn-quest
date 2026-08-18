@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "nile-river-life",
+  "title": "Life Along the Nile",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "nile-river-life",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Life Along the Nile. Type: era-exploration. Background: Ancient Egypt was a long, narrow kingdom hugging the banks of the Nile River in Northeast Africa. Th. Legacy: The Nile River is still Egypt's lifeline today. Modern dams control the floods, . Topics: Why was the yearly flooding of the Nile River so important to the ancient Egyptians?, What were the three seasons in the ancient Egyptian calendar based on?.",
+      "filename": "nile-river-life-map.webp"
+    },
+    {
+      "id": "nile-river-life-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Life Along the Nile. Type: era-exploration. Background: Ancient Egypt was a long, narrow kingdom hugging the banks of the Nile River in Northeast Africa. Th. Legacy: The Nile River is still Egypt's lifeline today. Modern dams control the floods, . Topics: Why was the yearly flooding of the Nile River so important to the ancient Egyptians?, What were the three seasons in the ancient Egyptian calendar based on?.",
+      "filename": "nile-river-life-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-wall-china",
+  "title": "The Great Wall of China",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "great-wall-china",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: A long time ago, China was made up of different kingdoms that often fought each other. To the north,. Legacy: Today, the Great Wall is a UNESCO World Heritage site and one of the New Seven W. Topics: What was the MAIN reason the Great Wall was built?, Which Chinese emperor first connected the separate walls into one?.",
+      "filename": "great-wall-china-map.webp"
+    },
+    {
+      "id": "great-wall-china-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: A long time ago, China was made up of different kingdoms that often fought each other. To the north,. Legacy: Today, the Great Wall is a UNESCO World Heritage site and one of the New Seven W. Topics: What was the MAIN reason the Great Wall was built?, Which Chinese emperor first connected the separate walls into one?.",
+      "filename": "great-wall-china-portrait.webp"
+    }
+  ]
+}

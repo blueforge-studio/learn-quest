@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-exhibition",
+  "title": "The Great Exhibition of 1851",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "great-exhibition",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Exhibition of 1851. Type: era-exploration. Background: After decades of factories, trains, and new inventions, Britain wanted to show the world how amazing. Legacy: The Great Exhibition proved that sharing ideas across countries could spark crea. Topics: What was the name of the giant glass building where the Great Exhibition was held?, Who helped organize the Great Exhibition and believed it would bring countries closer together?.",
+      "filename": "great-exhibition-map.webp"
+    },
+    {
+      "id": "great-exhibition-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Exhibition of 1851. Type: era-exploration. Background: After decades of factories, trains, and new inventions, Britain wanted to show the world how amazing. Legacy: The Great Exhibition proved that sharing ideas across countries could spark crea. Topics: What was the name of the giant glass building where the Great Exhibition was held?, Who helped organize the Great Exhibition and believed it would bring countries closer together?.",
+      "filename": "great-exhibition-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "golden-age-islam",
+  "title": "The Islamic Golden Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "golden-age-islam",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Islamic Golden Age. Type: era-exploration. Background: Around the year 800 CE, the Abbasid Caliphate ruled a vast empire from its capital, Baghdad. The cal. Legacy: The discoveries of the Islamic Golden Age are the foundation for much of our mod. Topics: What was the House of Wisdom?, Which scholar is known as the 'Father of Algebra'?.",
+      "filename": "golden-age-islam-map.webp"
+    },
+    {
+      "id": "golden-age-islam-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Islamic Golden Age. Type: era-exploration. Background: Around the year 800 CE, the Abbasid Caliphate ruled a vast empire from its capital, Baghdad. The cal. Legacy: The discoveries of the Islamic Golden Age are the foundation for much of our mod. Topics: What was the House of Wisdom?, Which scholar is known as the 'Father of Algebra'?.",
+      "filename": "golden-age-islam-portrait.webp"
+    }
+  ]
+}

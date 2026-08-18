@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ottoman-golden-age",
+  "title": "Ottoman Golden Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "ottoman-golden-age",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ottoman Golden Age. Type: era-exploration. Background: The Ottoman Empire began in what is now Turkey and grew into one of the largest and most powerful em. Legacy: The Ottoman Golden Age reminds us that great civilizations grow when they value . Topics: What does 'Golden Age' mean?, Who was Süleyman the Magnificent?.",
+      "filename": "ottoman-golden-age-map.webp"
+    },
+    {
+      "id": "ottoman-golden-age-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ottoman Golden Age. Type: era-exploration. Background: The Ottoman Empire began in what is now Turkey and grew into one of the largest and most powerful em. Legacy: The Ottoman Golden Age reminds us that great civilizations grow when they value . Topics: What does 'Golden Age' mean?, Who was Süleyman the Magnificent?.",
+      "filename": "ottoman-golden-age-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "enlightenment",
+  "title": "The Age of Enlightenment",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "enlightenment",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries of kings and queens ruling with absolute power, and after the dark times of witch hu. Legacy: The ideas of the Enlightenment changed the world forever. They are the foundatio. Topics: What was the main tool Enlightenment thinkers believed could improve the world?, Which Enlightenment idea says government power should be split into different branches?.",
+      "filename": "enlightenment-map.webp"
+    },
+    {
+      "id": "enlightenment-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries of kings and queens ruling with absolute power, and after the dark times of witch hu. Legacy: The ideas of the Enlightenment changed the world forever. They are the foundatio. Topics: What was the main tool Enlightenment thinkers believed could improve the world?, Which Enlightenment idea says government power should be split into different branches?.",
+      "filename": "enlightenment-portrait.webp"
+    }
+  ]
+}

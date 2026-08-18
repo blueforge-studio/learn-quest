@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "europe-geo-challenge-eu",
+  "title": "The European Union: More Than Just a Flag",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-geography/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "europe-geo-challenge-eu-map",
+      "type": "map",
+      "prompt": "Map illustration for: The European Union: More Than Just a Flag. Educational geography map.",
+      "filename": "europe-geo-challenge-eu-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "europe-geo-challenge-eu-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: The European Union: More Than Just a Flag. Famous geographical location.",
+      "filename": "europe-geo-challenge-eu-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "europe-geo-challenge-eu-region",
+      "type": "region",
+      "prompt": "Regional illustration for: The European Union: More Than Just a Flag. Geographic region visual.",
+      "filename": "europe-geo-challenge-eu-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "europe-geo-challenge-eu-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: The European Union: More Than Just a Flag. Natural environment visual.",
+      "filename": "europe-geo-challenge-eu-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

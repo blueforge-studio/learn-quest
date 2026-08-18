@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russian-revolution",
+  "title": "The Russian Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "russian-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by a royal family called the Romanovs. The leader was called. Legacy: The Russian Revolution created the Soviet Union, which lasted until 1991. It was. Topics: Who was the ruler of Russia that was overthrown at the start of the revolution?, What was the name of the political party led by Vladimir Lenin?.",
+      "filename": "russian-revolution-timeline.webp"
+    },
+    {
+      "id": "russian-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by a royal family called the Romanovs. The leader was called. Legacy: The Russian Revolution created the Soviet Union, which lasted until 1991. It was. Topics: Who was the ruler of Russia that was overthrown at the start of the revolution?, What was the name of the political party led by Vladimir Lenin?.",
+      "filename": "russian-revolution-scene.webp"
+    }
+  ]
+}

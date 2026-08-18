@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "comprehension-mystery-ch6",
+  "title": "The Mystery of the Missing Mascot",
+  "lessonType": "comprehension",
+  "chapter": "chapter-6",
+  "basePath": "public/images/lessons/lq-reading/chapter-6",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "comprehension-mystery-ch6-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: The Mystery of the Missing Mascot. Educational scene.",
+      "filename": "comprehension-mystery-ch6-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "comprehension-mystery-ch6-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: The Mystery of the Missing Mascot. Story scene or concept illustration.",
+      "filename": "comprehension-mystery-ch6-visual.webp",
+      "quality": 85
+    }
+  ]
+}

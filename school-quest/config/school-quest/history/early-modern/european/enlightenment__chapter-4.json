@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "enlightenment",
+  "title": "The Age of Enlightenment",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "enlightenment",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries of strict rules from monarchs and the church, a new idea began to spread in the late. Legacy: The Enlightenment's ideas became the foundation for modern democracies. They ins. Topics: What was the main 'superpower' Enlightenment thinkers believed people should use?, Which document, inspired by Enlightenment ideas, declared that people have rights to 'Life, Liberty and the pursuit of Happiness'?.",
+      "filename": "enlightenment-map.webp"
+    },
+    {
+      "id": "enlightenment-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries of strict rules from monarchs and the church, a new idea began to spread in the late. Legacy: The Enlightenment's ideas became the foundation for modern democracies. They ins. Topics: What was the main 'superpower' Enlightenment thinkers believed people should use?, Which document, inspired by Enlightenment ideas, declared that people have rights to 'Life, Liberty and the pursuit of Happiness'?.",
+      "filename": "enlightenment-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "solid-liquid-ooobleck-challenge",
+  "title": "Solid or Liquid? Oobleck Challenge",
+  "lessonType": "experiment",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-science/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "solid-liquid-ooobleck-challenge-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Solid or Liquid? Oobleck Challenge. . Clear labeled illustration.",
+      "filename": "solid-liquid-ooobleck-challenge-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "solid-liquid-ooobleck-challenge-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Solid or Liquid? Oobleck Challenge. Educational science style.",
+      "filename": "solid-liquid-ooobleck-challenge-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "solid-liquid-ooobleck-challenge-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Solid or Liquid? Oobleck Challenge. Step by step visual showing the concept. Educational style.",
+      "filename": "solid-liquid-ooobleck-challenge-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

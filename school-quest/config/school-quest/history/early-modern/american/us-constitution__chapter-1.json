@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "us-constitution",
+  "title": "The US Constitution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "us-constitution",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The US Constitution. Type: era-exploration. Background: The first American government under the Articles of Confederation was too weak. In the hot summer of. Legacy: The US Constitution is the oldest written national constitution still in use tod. Topics: Where did the delegates meet to write the Constitution?, What did the 'Great Compromise' create?.",
+      "filename": "us-constitution-map.webp"
+    },
+    {
+      "id": "us-constitution-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The US Constitution. Type: era-exploration. Background: The first American government under the Articles of Confederation was too weak. In the hot summer of. Legacy: The US Constitution is the oldest written national constitution still in use tod. Topics: Where did the delegates meet to write the Constitution?, What did the 'Great Compromise' create?.",
+      "filename": "us-constitution-portrait.webp"
+    }
+  ]
+}

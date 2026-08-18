@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "comp2",
+  "title": "The Garden Adventure – Setting and Plot",
+  "lessonType": "comprehension",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-reading/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "comp2-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: The Garden Adventure – Setting and Plot. Educational scene.",
+      "filename": "comp2-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "comp2-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: The Garden Adventure – Setting and Plot. Story scene or concept illustration.",
+      "filename": "comp2-visual.webp",
+      "quality": 85
+    }
+  ]
+}

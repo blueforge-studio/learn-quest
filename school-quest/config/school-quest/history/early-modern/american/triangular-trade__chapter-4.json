@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "triangular-trade",
+  "title": "The Triangular Trade",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "triangular-trade",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Triangular Trade. Type: era-exploration. Background: After Europeans arrived in the Americas, they built large farms called plantations to grow valuable . Legacy: The Triangular Trade had a devastating and lasting impact. Millions of Africans . Topics: What shape did the trade routes across the Atlantic Ocean make?, What did ships carry from the Americas back to Europe?.",
+      "filename": "triangular-trade-map.webp"
+    },
+    {
+      "id": "triangular-trade-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Triangular Trade. Type: era-exploration. Background: After Europeans arrived in the Americas, they built large farms called plantations to grow valuable . Legacy: The Triangular Trade had a devastating and lasting impact. Millions of Africans . Topics: What shape did the trade routes across the Atlantic Ocean make?, What did ships carry from the Americas back to Europe?.",
+      "filename": "triangular-trade-portrait.webp"
+    }
+  ]
+}

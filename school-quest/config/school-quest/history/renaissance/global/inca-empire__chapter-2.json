@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "inca-empire",
+  "title": "The Inca Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "inca-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Inca Empire. Type: era-exploration. Background: The Inca began as a small tribe near Cusco (in modern-day Peru) around 1200 CE. By 1400, they starte. Legacy: The Inca left behind breathtaking ruins, living languages, and traditions that c. Topics: Where was the Inca Empire located?, What was Machu Picchu?.",
+      "filename": "inca-empire-map.webp"
+    },
+    {
+      "id": "inca-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Inca Empire. Type: era-exploration. Background: The Inca began as a small tribe near Cusco (in modern-day Peru) around 1200 CE. By 1400, they starte. Legacy: The Inca left behind breathtaking ruins, living languages, and traditions that c. Topics: Where was the Inca Empire located?, What was Machu Picchu?.",
+      "filename": "inca-empire-portrait.webp"
+    }
+  ]
+}

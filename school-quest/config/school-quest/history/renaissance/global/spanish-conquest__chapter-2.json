@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-conquest",
+  "title": "Spanish Conquest of the Americas",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "spanish-conquest",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Background: After Christopher Columbus's voyages, Spain sent more explorers called 'conquistadors' to the 'New W. Legacy: The Spanish conquest changed the world forever. It brought the Americas into con. Topics: Which two major empires did the Spanish conquer in the early 1500s?, What was one big advantage the Spanish had over the Aztec and Inca armies?.",
+      "filename": "spanish-conquest-timeline.webp"
+    },
+    {
+      "id": "spanish-conquest-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Background: After Christopher Columbus's voyages, Spain sent more explorers called 'conquistadors' to the 'New W. Legacy: The Spanish conquest changed the world forever. It brought the Americas into con. Topics: Which two major empires did the Spanish conquer in the early 1500s?, What was one big advantage the Spanish had over the Aztec and Inca armies?.",
+      "filename": "spanish-conquest-scene.webp"
+    }
+  ]
+}

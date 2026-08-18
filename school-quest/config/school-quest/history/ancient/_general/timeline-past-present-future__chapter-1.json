@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "timeline-past-present-future",
+  "title": "Past, Present, and Future: A Timeline Journey",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "timeline-past-present-future",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Past, Present, and Future: A Timeline Journey. Type: timeline. Topics: What does a timeline help us do?, Which event happened first?.",
+      "filename": "timeline-past-present-future-timeline.webp"
+    },
+    {
+      "id": "timeline-past-present-future-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Past, Present, and Future: A Timeline Journey. Type: timeline. Topics: What does a timeline help us do?, Which event happened first?.",
+      "filename": "timeline-past-present-future-scene.webp"
+    }
+  ]
+}

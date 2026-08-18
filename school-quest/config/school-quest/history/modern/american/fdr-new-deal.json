@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fdr-new-deal",
+  "title": "FDR and the New Deal",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "fdr-new-deal",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: FDR and the New Deal. Type: historical-figure. Background: Born into a wealthy family in New York in 1882, FDR was a distant cousin of another famous president. Legacy: Franklin D. Roosevelt served as president for 12 years, longer than anyone else.. Topics: What major problem was America facing when FDR became president?, What was the name of FDR's plan to help America recover?.",
+      "filename": "fdr-new-deal-portrait.webp"
+    },
+    {
+      "id": "fdr-new-deal-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: FDR and the New Deal. Type: historical-figure. Background: Born into a wealthy family in New York in 1882, FDR was a distant cousin of another famous president. Legacy: Franklin D. Roosevelt served as president for 12 years, longer than anyone else.. Topics: What major problem was America facing when FDR became president?, What was the name of FDR's plan to help America recover?.",
+      "filename": "fdr-new-deal-scene.webp"
+    }
+  ]
+}

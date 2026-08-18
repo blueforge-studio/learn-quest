@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-ottoman",
+  "title": "The End of an Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "fall-of-ottoman",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The End of an Empire. Type: era-exploration. Background: The Ottoman Empire was founded in 1299 in what is now Turkey. At its peak, it controlled lands in Eu. Legacy: The fall of the Ottoman Empire created the modern country of Turkey and many oth. Topics: How long had the Ottoman Empire ruled before World War I?, Which side did the Ottoman Empire join in World War I?.",
+      "filename": "fall-of-ottoman-map.webp"
+    },
+    {
+      "id": "fall-of-ottoman-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The End of an Empire. Type: era-exploration. Background: The Ottoman Empire was founded in 1299 in what is now Turkey. At its peak, it controlled lands in Eu. Legacy: The fall of the Ottoman Empire created the modern country of Turkey and many oth. Topics: How long had the Ottoman Empire ruled before World War I?, Which side did the Ottoman Empire join in World War I?.",
+      "filename": "fall-of-ottoman-portrait.webp"
+    }
+  ]
+}

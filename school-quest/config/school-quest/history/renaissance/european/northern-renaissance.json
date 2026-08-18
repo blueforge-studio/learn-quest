@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "northern-renaissance",
+  "title": "The Northern Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "northern-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Northern Renaissance. Type: era-exploration. Background: The Northern Renaissance began around 1400 — a little later than Italy’s Renaissance — but it had it. Legacy: The Northern Renaissance helped create modern schools, printed textbooks, and th. Topics: What did Johannes Gutenberg invent that changed how books were made?, Which Northern Renaissance artist made famous detailed drawings like 'Praying Hands'?.",
+      "filename": "northern-renaissance-map.webp"
+    },
+    {
+      "id": "northern-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Northern Renaissance. Type: era-exploration. Background: The Northern Renaissance began around 1400 — a little later than Italy’s Renaissance — but it had it. Legacy: The Northern Renaissance helped create modern schools, printed textbooks, and th. Topics: What did Johannes Gutenberg invent that changed how books were made?, Which Northern Renaissance artist made famous detailed drawings like 'Praying Hands'?.",
+      "filename": "northern-renaissance-portrait.webp"
+    }
+  ]
+}

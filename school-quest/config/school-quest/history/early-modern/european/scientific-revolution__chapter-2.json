@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "scientific-revolution",
+  "title": "Newton, Kepler, and the Birth of Modern Science",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "scientific-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Newton, Kepler, and the Birth of Modern Science. Type: timeline. Background: Starting in the 1500s in Europe, scholars began to question old ideas. They stopped just reading anc. Legacy: The Scientific Revolution created the foundation for all modern science and tech. Topics: What was Nicolaus Copernicus's big idea about the solar system?, What tool did Galileo use to make discoveries that supported Copernicus's idea?.",
+      "filename": "scientific-revolution-timeline.webp"
+    },
+    {
+      "id": "scientific-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Newton, Kepler, and the Birth of Modern Science. Type: timeline. Background: Starting in the 1500s in Europe, scholars began to question old ideas. They stopped just reading anc. Legacy: The Scientific Revolution created the foundation for all modern science and tech. Topics: What was Nicolaus Copernicus's big idea about the solar system?, What tool did Galileo use to make discoveries that supported Copernicus's idea?.",
+      "filename": "scientific-revolution-scene.webp"
+    }
+  ]
+}

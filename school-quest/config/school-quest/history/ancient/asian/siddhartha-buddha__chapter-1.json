@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "siddhartha-buddha",
+  "title": "Siddhartha and Buddhism",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "siddhartha-buddha",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Siddhartha and Buddhism. Type: historical-figure. Background: Siddhartha was born a prince in Lumbini (in modern-day Nepal). His father, the king, kept him inside. Legacy: The Buddha's teachings spread from India across all of Asia and eventually the w. Topics: What was Siddhartha's life like before he began his spiritual search?, What did Siddhartha see on his trips outside the palace that changed his life?.",
+      "filename": "siddhartha-buddha-portrait.webp"
+    },
+    {
+      "id": "siddhartha-buddha-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Siddhartha and Buddhism. Type: historical-figure. Background: Siddhartha was born a prince in Lumbini (in modern-day Nepal). His father, the king, kept him inside. Legacy: The Buddha's teachings spread from India across all of Asia and eventually the w. Topics: What was Siddhartha's life like before he began his spiritual search?, What did Siddhartha see on his trips outside the palace that changed his life?.",
+      "filename": "siddhartha-buddha-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "stone-age-era-exploration",
+  "title": "The Stone Age: Life Long Ago",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "stone-age-era-exploration",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Stone Age: Life Long Ago. Type: era-exploration. Topics: What did Stone Age people use to make their tools?, How do we know what Stone Age life was like?.",
+      "filename": "stone-age-era-exploration-map.webp"
+    },
+    {
+      "id": "stone-age-era-exploration-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Stone Age: Life Long Ago. Type: era-exploration. Topics: What did Stone Age people use to make their tools?, How do we know what Stone Age life was like?.",
+      "filename": "stone-age-era-exploration-portrait.webp"
+    }
+  ]
+}

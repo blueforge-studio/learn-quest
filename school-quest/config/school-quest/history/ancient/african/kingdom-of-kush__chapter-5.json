@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kingdom-of-kush",
+  "title": "Kingdom of Kush",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "kingdom-of-kush",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Kingdom of Kush. Type: era-exploration. Background: Kush was located along the Nile River in what is now Sudan. Its people, called Nubians, lived in a l. Legacy: The Kingdom of Kush reminds us that history isn’t just about one place or people. Topics: Where was the Kingdom of Kush located?, What valuable resource made Kush very wealthy?.",
+      "filename": "kingdom-of-kush-map.webp"
+    },
+    {
+      "id": "kingdom-of-kush-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Kingdom of Kush. Type: era-exploration. Background: Kush was located along the Nile River in what is now Sudan. Its people, called Nubians, lived in a l. Legacy: The Kingdom of Kush reminds us that history isn’t just about one place or people. Topics: Where was the Kingdom of Kush located?, What valuable resource made Kush very wealthy?.",
+      "filename": "kingdom-of-kush-portrait.webp"
+    }
+  ]
+}

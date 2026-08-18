@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "feudal-system",
+  "title": "The Feudal System",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "feudal-system",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Feudal System. Type: era-exploration. Background: After the fall of the Roman Empire, Europe became a dangerous place with many small wars. People nee. Legacy: The feudal system left a lasting mark. It created a powerful noble class that so. Topics: Who was at the very top of the feudal pyramid?, What did a knight promise to do for his lord?.",
+      "filename": "feudal-system-map.webp"
+    },
+    {
+      "id": "feudal-system-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Feudal System. Type: era-exploration. Background: After the fall of the Roman Empire, Europe became a dangerous place with many small wars. People nee. Legacy: The feudal system left a lasting mark. It created a powerful noble class that so. Topics: Who was at the very top of the feudal pyramid?, What did a knight promise to do for his lord?.",
+      "filename": "feudal-system-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "isaac-newton",
+  "title": "Isaac Newton",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "isaac-newton",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Isaac Newton. Type: historical-figure. Background: Born in Woolsthorpe, England in 1643, Isaac was a curious boy who loved building models, like windmi. Legacy: Isaac Newton's work laid the foundation for modern physics and engineering. His . Topics: What famous story is told about Isaac Newton and an apple?, What are Newton's three famous laws about?.",
+      "filename": "isaac-newton-portrait.webp"
+    },
+    {
+      "id": "isaac-newton-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Isaac Newton. Type: historical-figure. Background: Born in Woolsthorpe, England in 1643, Isaac was a curious boy who loved building models, like windmi. Legacy: Isaac Newton's work laid the foundation for modern physics and engineering. His . Topics: What famous story is told about Isaac Newton and an apple?, What are Newton's three famous laws about?.",
+      "filename": "isaac-newton-scene.webp"
+    }
+  ]
+}

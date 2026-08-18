@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mughal-empire",
+  "title": "The Mughal Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "mughal-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Mughal Empire. Type: era-exploration. Background: The empire began in 1526 when a prince named Babur came from Central Asia and won a great battle. Hi. Legacy: The Mughals left a permanent mark on India. Their incredible architecture, like . Topics: Which Mughal emperor built the Taj Mahal?, What was special about Emperor Akbar's rule?.",
+      "filename": "mughal-empire-map.webp"
+    },
+    {
+      "id": "mughal-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Mughal Empire. Type: era-exploration. Background: The empire began in 1526 when a prince named Babur came from Central Asia and won a great battle. Hi. Legacy: The Mughals left a permanent mark on India. Their incredible architecture, like . Topics: Which Mughal emperor built the Taj Mahal?, What was special about Emperor Akbar's rule?.",
+      "filename": "mughal-empire-portrait.webp"
+    }
+  ]
+}

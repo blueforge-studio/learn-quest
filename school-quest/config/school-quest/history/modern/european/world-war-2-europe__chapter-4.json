@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "world-war-2-europe",
+  "title": "World War II in Europe",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "world-war-2-europe",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War II in Europe. Type: timeline. Background: After World War I, many countries in Europe were struggling. In Germany, a leader named Adolf Hitler. Legacy: After the war, countries worked together to build peace — creating the United Na. Topics: What does 'Blitzkrieg' mean?, Where did the D-Day landings happen?.",
+      "filename": "world-war-2-europe-timeline.webp"
+    },
+    {
+      "id": "world-war-2-europe-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War II in Europe. Type: timeline. Background: After World War I, many countries in Europe were struggling. In Germany, a leader named Adolf Hitler. Legacy: After the war, countries worked together to build peace — creating the United Na. Topics: What does 'Blitzkrieg' mean?, Where did the D-Day landings happen?.",
+      "filename": "world-war-2-europe-scene.webp"
+    }
+  ]
+}

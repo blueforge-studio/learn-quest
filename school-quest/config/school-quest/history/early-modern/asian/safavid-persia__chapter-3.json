@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "safavid-persia",
+  "title": "Shah Abbas and the Splendor of Isfahan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "safavid-persia",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Shah Abbas and the Splendor of Isfahan. Type: era-exploration. Background: The Safavid dynasty began in 1501 and made Shi'a Islam the official religion of Persia. For over 200. Legacy: Shah Abbas's Isfahan remains one of the world's most beautiful historical cities. Topics: What was the nickname given to the Safavid capital city of Isfahan?, What famous trade route made Isfahan a very wealthy city?.",
+      "filename": "safavid-persia-map.webp"
+    },
+    {
+      "id": "safavid-persia-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Shah Abbas and the Splendor of Isfahan. Type: era-exploration. Background: The Safavid dynasty began in 1501 and made Shi'a Islam the official religion of Persia. For over 200. Legacy: Shah Abbas's Isfahan remains one of the world's most beautiful historical cities. Topics: What was the nickname given to the Safavid capital city of Isfahan?, What famous trade route made Isfahan a very wealthy city?.",
+      "filename": "safavid-persia-portrait.webp"
+    }
+  ]
+}

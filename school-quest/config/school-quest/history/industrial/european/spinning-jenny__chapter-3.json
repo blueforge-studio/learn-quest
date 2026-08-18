@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spinning-jenny",
+  "title": "Spinning Jenny and Textiles",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "spinning-jenny",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: Before machines, people made cloth at home. Spinning thread was slow work done on a simple spinning . Legacy: The Spinning Jenny didn't just make more thread. It started the factory system. . Topics: What did the Spinning Jenny machine do?, Where did people start to work after inventions like the Spinning Jenny?.",
+      "filename": "spinning-jenny-map.webp"
+    },
+    {
+      "id": "spinning-jenny-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: Before machines, people made cloth at home. Spinning thread was slow work done on a simple spinning . Legacy: The Spinning Jenny didn't just make more thread. It started the factory system. . Topics: What did the Spinning Jenny machine do?, Where did people start to work after inventions like the Spinning Jenny?.",
+      "filename": "spinning-jenny-portrait.webp"
+    }
+  ]
+}

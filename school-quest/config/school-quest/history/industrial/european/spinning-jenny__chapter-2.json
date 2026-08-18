@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spinning-jenny",
+  "title": "Spinning Jenny and Textiles",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "spinning-jenny",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: In the 1700s, England was a major producer of wool and cotton. The demand for cloth was growing, but. Legacy: The Spinning Jenny kicked off a chain reaction of invention. It showed that mach. Topics: What was the main job of the Spinning Jenny?, Why was the Spinning Jenny so important?.",
+      "filename": "spinning-jenny-map.webp"
+    },
+    {
+      "id": "spinning-jenny-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: In the 1700s, England was a major producer of wool and cotton. The demand for cloth was growing, but. Legacy: The Spinning Jenny kicked off a chain reaction of invention. It showed that mach. Topics: What was the main job of the Spinning Jenny?, Why was the Spinning Jenny so important?.",
+      "filename": "spinning-jenny-portrait.webp"
+    }
+  ]
+}

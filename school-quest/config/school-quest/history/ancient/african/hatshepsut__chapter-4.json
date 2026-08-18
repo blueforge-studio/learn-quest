@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "hatshepsut",
+  "title": "Hatshepsut: The Woman Pharaoh",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "hatshepsut",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Hatshepsut: The Woman Pharaoh. Type: historical-figure. Background: Hatshepsut was born around 1507 BCE as a royal princess, daughter of Pharaoh Thutmose I. When her fa. Legacy: Hatshepsut proved that a woman could rule Egypt successfully. Her reign was peac. Topics: What was unusual about Hatshepsut becoming pharaoh?, What famous building project did Hatshepsut create?.",
+      "filename": "hatshepsut-portrait.webp"
+    },
+    {
+      "id": "hatshepsut-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Hatshepsut: The Woman Pharaoh. Type: historical-figure. Background: Hatshepsut was born around 1507 BCE as a royal princess, daughter of Pharaoh Thutmose I. When her fa. Legacy: Hatshepsut proved that a woman could rule Egypt successfully. Her reign was peac. Topics: What was unusual about Hatshepsut becoming pharaoh?, What famous building project did Hatshepsut create?.",
+      "filename": "hatshepsut-scene.webp"
+    }
+  ]
+}

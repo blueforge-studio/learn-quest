@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-cities",
+  "title": "Maya Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-cities",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began to form around 3500 BCE. They lived in what is now southern Mexico, Guat. Legacy: The great Maya cities like Tikal and Palenque were mostly abandoned by around 90. Topics: Where were the ancient Maya cities like Tikal and Palenque located?, What was one major crop that allowed the Maya civilization to grow?.",
+      "filename": "maya-cities-map.webp"
+    },
+    {
+      "id": "maya-cities-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began to form around 3500 BCE. They lived in what is now southern Mexico, Guat. Legacy: The great Maya cities like Tikal and Palenque were mostly abandoned by around 90. Topics: Where were the ancient Maya cities like Tikal and Palenque located?, What was one major crop that allowed the Maya civilization to grow?.",
+      "filename": "maya-cities-portrait.webp"
+    }
+  ]
+}

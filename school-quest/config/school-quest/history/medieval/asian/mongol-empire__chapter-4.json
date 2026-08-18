@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mongol-empire",
+  "title": "The Mongol Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mongol-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Mongol Empire. Type: era-exploration. Background: For centuries, the Mongols lived in tribes on the vast Eurasian steppe, herding animals and living i. Legacy: The Mongol Empire left a huge mark on history. They created the first internatio. Topics: What was the name of the brilliant leader who first united the Mongol tribes?, What were Mongol soldiers famous for being able to do?.",
+      "filename": "mongol-empire-map.webp"
+    },
+    {
+      "id": "mongol-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Mongol Empire. Type: era-exploration. Background: For centuries, the Mongols lived in tribes on the vast Eurasian steppe, herding animals and living i. Legacy: The Mongol Empire left a huge mark on history. They created the first internatio. Topics: What was the name of the brilliant leader who first united the Mongol tribes?, What were Mongol soldiers famous for being able to do?.",
+      "filename": "mongol-empire-portrait.webp"
+    }
+  ]
+}

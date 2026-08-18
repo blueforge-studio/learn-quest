@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "silk-road",
+  "title": "The Silk Road",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "silk-road",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: Long before cars or phones, people in ancient China wanted to trade with faraway lands. Around 130 B. Legacy: The Silk Road wasn’t just about trading silk — it helped connect the whole ancie. Topics: What was the most famous item traded on the Silk Road?, Which animal was known as the 'ship of the desert' on the Silk Road?.",
+      "filename": "silk-road-map.webp"
+    },
+    {
+      "id": "silk-road-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: Long before cars or phones, people in ancient China wanted to trade with faraway lands. Around 130 B. Legacy: The Silk Road wasn’t just about trading silk — it helped connect the whole ancie. Topics: What was the most famous item traded on the Silk Road?, Which animal was known as the 'ship of the desert' on the Silk Road?.",
+      "filename": "silk-road-portrait.webp"
+    }
+  ]
+}

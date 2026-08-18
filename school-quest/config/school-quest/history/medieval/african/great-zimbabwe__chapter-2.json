@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-zimbabwe",
+  "title": "Great Zimbabwe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "great-zimbabwe",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Starting around 500 CE, farming communities settled near the fertile valleys and gold-rich rivers of. Legacy: Great Zimbabwe proves that amazing architecture, strong governments, and global . Topics: What does the word 'Zimbabwe' mean in the Shona language?, How did builders hold the stone walls together — without using mortar?.",
+      "filename": "great-zimbabwe-map.webp"
+    },
+    {
+      "id": "great-zimbabwe-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Starting around 500 CE, farming communities settled near the fertile valleys and gold-rich rivers of. Legacy: Great Zimbabwe proves that amazing architecture, strong governments, and global . Topics: What does the word 'Zimbabwe' mean in the Shona language?, How did builders hold the stone walls together — without using mortar?.",
+      "filename": "great-zimbabwe-portrait.webp"
+    }
+  ]
+}

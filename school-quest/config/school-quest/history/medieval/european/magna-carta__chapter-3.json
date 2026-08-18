@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "magna-carta",
+  "title": "The Magna Carta",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "magna-carta",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Magna Carta. Type: era-exploration. Background: In medieval England, King John was a very unpopular king. He taxed his barons (powerful nobles) heav. Legacy: The Magna Carta is one of the most important documents in history. It establishe. Topics: Who was forced to sign the Magna Carta in 1215?, Where did King John meet the barons to sign the Magna Carta?.",
+      "filename": "magna-carta-map.webp"
+    },
+    {
+      "id": "magna-carta-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Magna Carta. Type: era-exploration. Background: In medieval England, King John was a very unpopular king. He taxed his barons (powerful nobles) heav. Legacy: The Magna Carta is one of the most important documents in history. It establishe. Topics: Who was forced to sign the Magna Carta in 1215?, Where did King John meet the barons to sign the Magna Carta?.",
+      "filename": "magna-carta-portrait.webp"
+    }
+  ]
+}

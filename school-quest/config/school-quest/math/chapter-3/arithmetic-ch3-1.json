@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "arithmetic-ch3-1",
+  "title": "single-digit subtraction (arithmetic)",
+  "lessonType": "arithmetic",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-math/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "arithmetic-ch3-1-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: single-digit subtraction (arithmetic). . Clear labeled illustration.",
+      "filename": "arithmetic-ch3-1-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "arithmetic-ch3-1-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: single-digit subtraction (arithmetic). Educational illustration style.",
+      "filename": "arithmetic-ch3-1-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "arithmetic-ch3-1-example",
+      "type": "example",
+      "prompt": "Math example illustration for: single-digit subtraction (arithmetic). Step by step visual educational math style.",
+      "filename": "arithmetic-ch3-1-example.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "sun-yat-sen",
+  "title": "Sun Yat-sen",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "sun-yat-sen",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Sun Yat-sen was born in 1866 in a small village near Guangzhou, in southern China. His family were f. Legacy: Sun Yat-sen is remembered as the 'Father of Modern China' — not because he ruled. Topics: What did Sun Yat-sen want most for China?, Which important event in 1911 ended China’s emperor system?.",
+      "filename": "sun-yat-sen-portrait.webp"
+    },
+    {
+      "id": "sun-yat-sen-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Sun Yat-sen was born in 1866 in a small village near Guangzhou, in southern China. His family were f. Legacy: Sun Yat-sen is remembered as the 'Father of Modern China' — not because he ruled. Topics: What did Sun Yat-sen want most for China?, Which important event in 1911 ended China’s emperor system?.",
+      "filename": "sun-yat-sen-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "geometry-shapes-intro",
+  "title": "Introduction to Shapes",
+  "lessonType": "geometry",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-math/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "geometry-shapes-intro-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Introduction to Shapes. . Clear labeled illustration.",
+      "filename": "geometry-shapes-intro-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "geometry-shapes-intro-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Introduction to Shapes. Educational illustration style.",
+      "filename": "geometry-shapes-intro-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "geometry-shapes-intro-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Introduction to Shapes. Step by step visual educational math style.",
+      "filename": "geometry-shapes-intro-example.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "rise-of-china",
+  "title": "Rise of China: From Mao to Market",
+  "lessonType": "lesson",
+  "chapter": "chapter-2",
+  "epoch": "contemporary",
+  "region": "asian",
+  "basePath": "public/images/lessons/contemporary/asian",
+  "images": [
+    {
+      "id": "rise-of-china",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Rise of China: From Mao to Market. Type: lesson. Topics: Who led China's economic reforms starting in 1978?, What were Special Economic Zones?.",
+      "filename": "rise-of-china-timeline.webp"
+    },
+    {
+      "id": "rise-of-china-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Rise of China: From Mao to Market. Type: lesson. Topics: Who led China's economic reforms starting in 1978?, What were Special Economic Zones?.",
+      "filename": "rise-of-china-scene.webp"
+    }
+  ]
+}

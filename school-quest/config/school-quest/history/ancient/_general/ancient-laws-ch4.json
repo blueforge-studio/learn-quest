@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-laws-ch4",
+  "title": "The First Laws",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-laws-ch4",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient cities like Babylon and Rome, as more people lived together, disagreements became common.. Legacy: The idea of written laws that apply to everyone became one of humanity's most im. Topics: Where were the Twelve Tables displayed in ancient Rome?, What was the famous 'eye for an eye' rule part of?.",
+      "filename": "ancient-laws-ch4-map.webp"
+    },
+    {
+      "id": "ancient-laws-ch4-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient cities like Babylon and Rome, as more people lived together, disagreements became common.. Legacy: The idea of written laws that apply to everyone became one of humanity's most im. Topics: Where were the Twelve Tables displayed in ancient Rome?, What was the famous 'eye for an eye' rule part of?.",
+      "filename": "ancient-laws-ch4-portrait.webp"
+    }
+  ]
+}

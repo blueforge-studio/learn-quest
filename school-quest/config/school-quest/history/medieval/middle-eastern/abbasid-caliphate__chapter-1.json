@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "abbasid-caliphate",
+  "title": "The Abbasid Caliphate",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "abbasid-caliphate",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Abbasid Caliphate. Type: era-exploration. Background: In 750 CE, the Abbasid family became rulers of a huge empire stretching from North Africa to Central. Legacy: The Abbasids helped save and grow knowledge that later reached Europe — sparking. Topics: What was the name of Baghdad’s famous library and science center?, Which subject did Al-Khwarizmi help create using numbers and symbols?.",
+      "filename": "abbasid-caliphate-map.webp"
+    },
+    {
+      "id": "abbasid-caliphate-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Abbasid Caliphate. Type: era-exploration. Background: In 750 CE, the Abbasid family became rulers of a huge empire stretching from North Africa to Central. Legacy: The Abbasids helped save and grow knowledge that later reached Europe — sparking. Topics: What was the name of Baghdad’s famous library and science center?, Which subject did Al-Khwarizmi help create using numbers and symbols?.",
+      "filename": "abbasid-caliphate-portrait.webp"
+    }
+  ]
+}

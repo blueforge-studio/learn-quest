@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chinese-revolution",
+  "title": "The Chinese Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "chinese-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For centuries, China was led by emperors — wise rulers who governed a huge, ancient civilization. Bu. Legacy: Sun Yat-sen is still honored today as the 'Father of Modern China.' His Three Pr. Topics: What ended in 1912 after more than 2,000 years?, Who is called the 'Father of Modern China'?.",
+      "filename": "chinese-revolution-timeline.webp"
+    },
+    {
+      "id": "chinese-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For centuries, China was led by emperors — wise rulers who governed a huge, ancient civilization. Bu. Legacy: Sun Yat-sen is still honored today as the 'Father of Modern China.' His Three Pr. Topics: What ended in 1912 after more than 2,000 years?, Who is called the 'Father of Modern China'?.",
+      "filename": "chinese-revolution-scene.webp"
+    }
+  ]
+}

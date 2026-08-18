@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-civilizations-ch5",
+  "title": "The First Civilizations",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "first-civilizations-ch5",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The First Civilizations. Type: timeline. Legacy: These first civilizations gave us inventions we still use today: writing, wheels. Topics: Which civilization built cities with straight streets and sewer systems over 4,000 years ago?, What was the main reason the first civilizations started near rivers?.",
+      "filename": "first-civilizations-ch5-timeline.webp"
+    },
+    {
+      "id": "first-civilizations-ch5-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The First Civilizations. Type: timeline. Legacy: These first civilizations gave us inventions we still use today: writing, wheels. Topics: Which civilization built cities with straight streets and sewer systems over 4,000 years ago?, What was the main reason the first civilizations started near rivers?.",
+      "filename": "first-civilizations-ch5-scene.webp"
+    }
+  ]
+}

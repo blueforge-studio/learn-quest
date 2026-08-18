@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-empires-ch2",
+  "title": "Why Empires Fall",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "fall-of-empires-ch2",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Between 3500 BCE and 500 CE, huge empires rose across the world. They built roads, wrote laws, trade. Legacy: We still learn from these empires today! Their roads, laws, and ideas inspired l. Topics: Which empire ended around 185 BCE after arguments among leaders?, What caused trouble for the Han Dynasty besides fighting and floods?.",
+      "filename": "fall-of-empires-ch2-timeline.webp"
+    },
+    {
+      "id": "fall-of-empires-ch2-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Between 3500 BCE and 500 CE, huge empires rose across the world. They built roads, wrote laws, trade. Legacy: We still learn from these empires today! Their roads, laws, and ideas inspired l. Topics: Which empire ended around 185 BCE after arguments among leaders?, What caused trouble for the Han Dynasty besides fighting and floods?.",
+      "filename": "fall-of-empires-ch2-scene.webp"
+    }
+  ]
+}

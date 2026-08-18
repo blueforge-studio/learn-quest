@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "napoleon",
+  "title": "Napoleon Bonaparte",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "napoleon",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born on the island of Corsica in 1769, just after it became part of France, Napoleon was small in si. Legacy: Napoleon changed Europe forever! His laws inspired legal systems around the worl. Topics: Where was Napoleon born?, What important object did Napoleon’s scientists discover in Egypt?.",
+      "filename": "napoleon-portrait.webp"
+    },
+    {
+      "id": "napoleon-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born on the island of Corsica in 1769, just after it became part of France, Napoleon was small in si. Legacy: Napoleon changed Europe forever! His laws inspired legal systems around the worl. Topics: Where was Napoleon born?, What important object did Napoleon’s scientists discover in Egypt?.",
+      "filename": "napoleon-scene.webp"
+    }
+  ]
+}

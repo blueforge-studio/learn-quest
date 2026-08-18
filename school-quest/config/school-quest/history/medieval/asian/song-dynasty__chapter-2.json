@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "song-dynasty",
+  "title": "Song Dynasty Inventions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "song-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Song Dynasty Inventions. Type: era-exploration. Background: The Song Dynasty was a golden age in China. The government supported education and science, cities g. Legacy: Song Dynasty inventions shaped our modern world. Gunpowder changed warfare. Prin. Topics: What was gunpowder originally trying to make when it was discovered?, How did movable type printing make book production faster?.",
+      "filename": "song-dynasty-map.webp"
+    },
+    {
+      "id": "song-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Song Dynasty Inventions. Type: era-exploration. Background: The Song Dynasty was a golden age in China. The government supported education and science, cities g. Legacy: Song Dynasty inventions shaped our modern world. Gunpowder changed warfare. Prin. Topics: What was gunpowder originally trying to make when it was discovered?, How did movable type printing make book production faster?.",
+      "filename": "song-dynasty-portrait.webp"
+    }
+  ]
+}

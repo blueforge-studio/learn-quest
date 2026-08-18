@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "zapotec-monte-alban",
+  "title": "Zapotec: Monte Albán",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "zapotec-monte-alban",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Zapotec: Monte Albán. Type: era-exploration. Background: The Zapotec lived in what is now Oaxaca, Mexico. Around 500 BCE, they chose a rocky hilltop — cleare. Legacy: The Zapotec language is still spoken today by over 400,000 people in Oaxaca! The. Topics: Where is Monte Albán located?, What makes Zapotec writing special?.",
+      "filename": "zapotec-monte-alban-map.webp"
+    },
+    {
+      "id": "zapotec-monte-alban-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Zapotec: Monte Albán. Type: era-exploration. Background: The Zapotec lived in what is now Oaxaca, Mexico. Around 500 BCE, they chose a rocky hilltop — cleare. Legacy: The Zapotec language is still spoken today by over 400,000 people in Oaxaca! The. Topics: Where is Monte Albán located?, What makes Zapotec writing special?.",
+      "filename": "zapotec-monte-alban-portrait.webp"
+    }
+  ]
+}

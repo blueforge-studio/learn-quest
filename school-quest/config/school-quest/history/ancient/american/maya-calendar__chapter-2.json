@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-calendar",
+  "title": "The Maya Calendar",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-calendar",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Maya Calendar. Type: era-exploration. Background: The Maya civilization began thousands of years ago. They built great cities with towering pyramids i. Legacy: The Maya calendar is a stunning achievement. It shows how advanced their underst. Topics: What amazing number did the Maya invent for their math?, How many days were in the Maya's sacred Tzolk'in calendar?.",
+      "filename": "maya-calendar-map.webp"
+    },
+    {
+      "id": "maya-calendar-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Maya Calendar. Type: era-exploration. Background: The Maya civilization began thousands of years ago. They built great cities with towering pyramids i. Legacy: The Maya calendar is a stunning achievement. It shows how advanced their underst. Topics: What amazing number did the Maya invent for their math?, How many days were in the Maya's sacred Tzolk'in calendar?.",
+      "filename": "maya-calendar-portrait.webp"
+    }
+  ]
+}

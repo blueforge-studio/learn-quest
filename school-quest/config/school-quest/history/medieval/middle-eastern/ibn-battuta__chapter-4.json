@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ibn-battuta",
+  "title": "Ibn Battuta",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "ibn-battuta",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ibn Battuta. Type: historical-figure. Background: Born in Tangier, Morocco in 1304, Ibn Battuta came from a family of Muslim judges. At age 21, he lef. Legacy: Ibn Battuta's travels showed how connected the medieval world really was. His bo. Topics: Where was Ibn Battuta born?, What was Ibn Battuta's original reason for traveling?.",
+      "filename": "ibn-battuta-portrait.webp"
+    },
+    {
+      "id": "ibn-battuta-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Ibn Battuta. Type: historical-figure. Background: Born in Tangier, Morocco in 1304, Ibn Battuta came from a family of Muslim judges. At age 21, he lef. Legacy: Ibn Battuta's travels showed how connected the medieval world really was. His bo. Topics: Where was Ibn Battuta born?, What was Ibn Battuta's original reason for traveling?.",
+      "filename": "ibn-battuta-scene.webp"
+    }
+  ]
+}

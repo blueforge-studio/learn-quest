@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-greece-democracy",
+  "title": "Greek Democracy",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "ancient-greece-democracy",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Greek Democracy. Type: era-exploration. Background: Before democracy, Athens was ruled by a few wealthy men or powerful families. Around 508 BCE, a lead. Legacy: Ancient Athenian democracy was not perfect—it excluded many people. However, it . Topics: In which ancient Greek city was democracy invented?, Where did citizens meet to vote on laws in Athens?.",
+      "filename": "ancient-greece-democracy-map.webp"
+    },
+    {
+      "id": "ancient-greece-democracy-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Greek Democracy. Type: era-exploration. Background: Before democracy, Athens was ruled by a few wealthy men or powerful families. Around 508 BCE, a lead. Legacy: Ancient Athenian democracy was not perfect—it excluded many people. However, it . Topics: In which ancient Greek city was democracy invented?, Where did citizens meet to vote on laws in Athens?.",
+      "filename": "ancient-greece-democracy-portrait.webp"
+    }
+  ]
+}

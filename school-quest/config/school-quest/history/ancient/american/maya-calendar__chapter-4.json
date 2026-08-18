@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-calendar",
+  "title": "The Maya Calendar",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-calendar",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Maya Calendar. Type: era-exploration. Background: The Maya civilization flourished in what is now Mexico, Guatemala, Belize, Honduras, and El Salvador. Legacy: The Maya calendar is a stunning achievement of the ancient world. Their Long Cou. Topics: What two calendars combined to make the 52-year Calendar Round?, What mathematical concept did the Maya invent that was vital for their calendar calculations?.",
+      "filename": "maya-calendar-map.webp"
+    },
+    {
+      "id": "maya-calendar-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Maya Calendar. Type: era-exploration. Background: The Maya civilization flourished in what is now Mexico, Guatemala, Belize, Honduras, and El Salvador. Legacy: The Maya calendar is a stunning achievement of the ancient world. Their Long Cou. Topics: What two calendars combined to make the 52-year Calendar Round?, What mathematical concept did the Maya invent that was vital for their calendar calculations?.",
+      "filename": "maya-calendar-portrait.webp"
+    }
+  ]
+}

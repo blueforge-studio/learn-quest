@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "confucius",
+  "title": "Confucius",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "confucius",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Confucius. Type: historical-figure. Background: Confucius was born in the state of Lu (in modern-day Shandong province) during a time when China was. Legacy: Confucius's teachings became the official guiding philosophy of China for over t. Topics: What was Confucius's main job?, What is the name of the book that contains his teachings?.",
+      "filename": "confucius-portrait.webp"
+    },
+    {
+      "id": "confucius-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Confucius. Type: historical-figure. Background: Confucius was born in the state of Lu (in modern-day Shandong province) during a time when China was. Legacy: Confucius's teachings became the official guiding philosophy of China for over t. Topics: What was Confucius's main job?, What is the name of the book that contains his teachings?.",
+      "filename": "confucius-scene.webp"
+    }
+  ]
+}

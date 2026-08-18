@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "indus-valley",
+  "title": "Indus Valley Civilization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "indus-valley",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Indus Valley Civilization. Type: era-exploration. Background: Around 5,500 years ago, people began farming near the Indus River, using its rich soil and seasonal . Legacy: Though their cities were abandoned around 1900 BCE (possibly due to climate chan. Topics: What were Mohenjo-daro and Harappa?, What made Indus Valley city planning special?.",
+      "filename": "indus-valley-map.webp"
+    },
+    {
+      "id": "indus-valley-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Indus Valley Civilization. Type: era-exploration. Background: Around 5,500 years ago, people began farming near the Indus River, using its rich soil and seasonal . Legacy: Though their cities were abandoned around 1900 BCE (possibly due to climate chan. Topics: What were Mohenjo-daro and Harappa?, What made Indus Valley city planning special?.",
+      "filename": "indus-valley-portrait.webp"
+    }
+  ]
+}

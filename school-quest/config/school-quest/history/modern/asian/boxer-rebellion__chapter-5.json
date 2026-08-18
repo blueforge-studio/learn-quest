@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "boxer-rebellion",
+  "title": "The Boxer Rebellion",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "boxer-rebellion",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Boxer Rebellion. Type: era-exploration. Background: During the 1800s, European countries, Japan, and the United States gained special trading rights in . Legacy: The Boxer Rebellion showed how strongly some Chinese people felt about protectin. Topics: Who were the Boxers fighting against?, What major event happened in Beijing in 1900?.",
+      "filename": "boxer-rebellion-map.webp"
+    },
+    {
+      "id": "boxer-rebellion-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Boxer Rebellion. Type: era-exploration. Background: During the 1800s, European countries, Japan, and the United States gained special trading rights in . Legacy: The Boxer Rebellion showed how strongly some Chinese people felt about protectin. Topics: Who were the Boxers fighting against?, What major event happened in Beijing in 1900?.",
+      "filename": "boxer-rebellion-portrait.webp"
+    }
+  ]
+}

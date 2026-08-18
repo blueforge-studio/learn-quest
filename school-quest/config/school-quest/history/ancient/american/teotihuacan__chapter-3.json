@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "teotihuacan",
+  "title": "Teotihuacan: City of the Gods",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "teotihuacan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Teotihuacan: City of the Gods. Type: era-exploration. Background: Teotihuacan began as a small farming village around 3500 BCE, but by 100 BCE, people started buildin. Legacy: Though the city was mysteriously abandoned by 550 CE (no one knows exactly why!). Topics: What does 'Teotihuacan' mean in the Aztec language (Nahuatl)?, Which of these was NOT found in Teotihuacan?.",
+      "filename": "teotihuacan-map.webp"
+    },
+    {
+      "id": "teotihuacan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Teotihuacan: City of the Gods. Type: era-exploration. Background: Teotihuacan began as a small farming village around 3500 BCE, but by 100 BCE, people started buildin. Legacy: Though the city was mysteriously abandoned by 550 CE (no one knows exactly why!). Topics: What does 'Teotihuacan' mean in the Aztec language (Nahuatl)?, Which of these was NOT found in Teotihuacan?.",
+      "filename": "teotihuacan-portrait.webp"
+    }
+  ]
+}

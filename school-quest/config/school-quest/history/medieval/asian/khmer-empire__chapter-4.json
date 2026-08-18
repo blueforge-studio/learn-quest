@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "khmer-empire",
+  "title": "The Khmer Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "khmer-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Khmer Empire. Type: era-exploration. Background: The Khmer Empire began around 500 CE in what is now Cambodia, Vietnam, Thailand, and Laos. The Khmer. Legacy: The Khmer Empire left behind awe-inspiring ruins, a rich language still spoken b. Topics: What is Angkor Wat known for?, Why did the Khmer build huge reservoirs and canals?.",
+      "filename": "khmer-empire-map.webp"
+    },
+    {
+      "id": "khmer-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Khmer Empire. Type: era-exploration. Background: The Khmer Empire began around 500 CE in what is now Cambodia, Vietnam, Thailand, and Laos. The Khmer. Legacy: The Khmer Empire left behind awe-inspiring ruins, a rich language still spoken b. Topics: What is Angkor Wat known for?, Why did the Khmer build huge reservoirs and canals?.",
+      "filename": "khmer-empire-portrait.webp"
+    }
+  ]
+}

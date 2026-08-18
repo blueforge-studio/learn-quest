@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "winston-churchill",
+  "title": "Winston Churchill",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "winston-churchill",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Winston Churchill. Type: historical-figure. Background: Born in 1874 into a wealthy family, Winston had a difficult time in school but loved history, readin. Legacy: Winston Churchill is remembered as one of history's greatest leaders for his str. Topics: What major job did Winston Churchill have during World War II?, What was the 'Blitz' that Churchill helped Britain survive?.",
+      "filename": "winston-churchill-portrait.webp"
+    },
+    {
+      "id": "winston-churchill-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Winston Churchill. Type: historical-figure. Background: Born in 1874 into a wealthy family, Winston had a difficult time in school but loved history, readin. Legacy: Winston Churchill is remembered as one of history's greatest leaders for his str. Topics: What major job did Winston Churchill have during World War II?, What was the 'Blitz' that Churchill helped Britain survive?.",
+      "filename": "winston-churchill-scene.webp"
+    }
+  ]
+}

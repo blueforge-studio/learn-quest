@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "voltaire-rousseau",
+  "title": "Voltaire and Rousseau",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "voltaire-rousseau",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Voltaire and Rousseau. Type: historical-figure. Background: Voltaire was born in Paris, France, and loved asking 'Why?' about everything — especially unfair law. Legacy: Voltaire and Rousseau showed the world that ideas can change history! Today, the. Topics: What period in history did Voltaire and Rousseau live in?, What did Voltaire believe was very important for everyone?.",
+      "filename": "voltaire-rousseau-portrait.webp"
+    },
+    {
+      "id": "voltaire-rousseau-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Voltaire and Rousseau. Type: historical-figure. Background: Voltaire was born in Paris, France, and loved asking 'Why?' about everything — especially unfair law. Legacy: Voltaire and Rousseau showed the world that ideas can change history! Today, the. Topics: What period in history did Voltaire and Rousseau live in?, What did Voltaire believe was very important for everyone?.",
+      "filename": "voltaire-rousseau-scene.webp"
+    }
+  ]
+}

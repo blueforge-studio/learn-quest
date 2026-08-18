@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ethiopian-churches",
+  "title": "Ethiopia's Rock Churches",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "ethiopian-churches",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ethiopia's Rock Churches. Type: era-exploration. Background: In the 12th century, King Lalibela ruled the Zagwe dynasty. After visiting Jerusalem, he wanted to c. Legacy: The churches of Lalibela are often called the 'Eighth Wonder of the World.' They. Topics: How were the churches of Lalibela built?, Which king is most famous for building these rock churches?.",
+      "filename": "ethiopian-churches-map.webp"
+    },
+    {
+      "id": "ethiopian-churches-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ethiopia's Rock Churches. Type: era-exploration. Background: In the 12th century, King Lalibela ruled the Zagwe dynasty. After visiting Jerusalem, he wanted to c. Legacy: The churches of Lalibela are often called the 'Eighth Wonder of the World.' They. Topics: How were the churches of Lalibela built?, Which king is most famous for building these rock churches?.",
+      "filename": "ethiopian-churches-portrait.webp"
+    }
+  ]
+}

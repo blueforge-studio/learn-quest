@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "songhai-empire",
+  "title": "The Songhai Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "songhai-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Songhai Empire. Type: era-exploration. Background: The Songhai people lived near the Niger River in what is now Mali and Niger. At first, they were par. Legacy: Even after the Songhai Empire fell in 1591, its legacy lived on. Its universitie. Topics: What river was the heart of the Songhai Empire?, Which famous city in the Songhai Empire was known as a center of learning and books?.",
+      "filename": "songhai-empire-map.webp"
+    },
+    {
+      "id": "songhai-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Songhai Empire. Type: era-exploration. Background: The Songhai people lived near the Niger River in what is now Mali and Niger. At first, they were par. Legacy: Even after the Songhai Empire fell in 1591, its legacy lived on. Its universitie. Topics: What river was the heart of the Songhai Empire?, Which famous city in the Songhai Empire was known as a center of learning and books?.",
+      "filename": "songhai-empire-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-wall-china",
+  "title": "The Great Wall of China",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "great-wall-china",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: The idea for a great wall began over 2,500 years ago during China's Warring States period. Different. Legacy: The Great Wall is the longest structure ever built by humans and can even be see. Topics: What was the MAIN reason the Great Wall was built?, Which emperor first connected walls to create the 'Great Wall'?.",
+      "filename": "great-wall-china-map.webp"
+    },
+    {
+      "id": "great-wall-china-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: The idea for a great wall began over 2,500 years ago during China's Warring States period. Different. Legacy: The Great Wall is the longest structure ever built by humans and can even be see. Topics: What was the MAIN reason the Great Wall was built?, Which emperor first connected walls to create the 'Great Wall'?.",
+      "filename": "great-wall-china-portrait.webp"
+    }
+  ]
+}

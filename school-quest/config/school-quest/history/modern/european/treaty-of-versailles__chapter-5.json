@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "treaty-of-versailles",
+  "title": "Treaty of Versailles",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "treaty-of-versailles",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Treaty of Versailles. Type: era-exploration. Background: World War I (1914-1918) was one of the biggest wars ever. It was called 'The Great War' and involved. Legacy: Instead of creating lasting peace, the harsh terms of the Treaty of Versailles m. Topics: Where was the Treaty of Versailles signed in 1919?, What did the treaty force Germany to accept about the war?.",
+      "filename": "treaty-of-versailles-map.webp"
+    },
+    {
+      "id": "treaty-of-versailles-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Treaty of Versailles. Type: era-exploration. Background: World War I (1914-1918) was one of the biggest wars ever. It was called 'The Great War' and involved. Legacy: Instead of creating lasting peace, the harsh terms of the Treaty of Versailles m. Topics: Where was the Treaty of Versailles signed in 1919?, What did the treaty force Germany to accept about the war?.",
+      "filename": "treaty-of-versailles-portrait.webp"
+    }
+  ]
+}

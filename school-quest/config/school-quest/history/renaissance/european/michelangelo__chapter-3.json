@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "michelangelo",
+  "title": "Michelangelo",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "michelangelo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Michelangelo. Type: historical-figure. Background: Born in Caprese, Italy in 1475, Michelangelo was sent to live with a stonecutter's family as a baby.. Legacy: Michelangelo is considered one of the greatest artists of all time. His focus on. Topics: What is Michelangelo's most famous sculpture?, Where did Michelangelo paint his famous ceiling?.",
+      "filename": "michelangelo-portrait.webp"
+    },
+    {
+      "id": "michelangelo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Michelangelo. Type: historical-figure. Background: Born in Caprese, Italy in 1475, Michelangelo was sent to live with a stonecutter's family as a baby.. Legacy: Michelangelo is considered one of the greatest artists of all time. His focus on. Topics: What is Michelangelo's most famous sculpture?, Where did Michelangelo paint his famous ceiling?.",
+      "filename": "michelangelo-scene.webp"
+    }
+  ]
+}

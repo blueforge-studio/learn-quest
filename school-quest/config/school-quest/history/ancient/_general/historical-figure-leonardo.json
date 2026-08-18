@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "historical-figure-leonardo",
+  "title": "Leonardo da Vinci",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "historical-figure-leonardo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Leonardo da Vinci. Type: historical-figure. Background: Born in Vinci, Italy in 1452, Leonardo was the illegitimate son of a notary and a peasant woman. He . Legacy: Leonardo is the archetype of the 'Renaissance man' — someone with expertise in m. Topics: During which historical period did Leonardo live?, What made Leonardo unusual compared to other artists of his time?.",
+      "filename": "historical-figure-leonardo-portrait.webp"
+    },
+    {
+      "id": "historical-figure-leonardo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Leonardo da Vinci. Type: historical-figure. Background: Born in Vinci, Italy in 1452, Leonardo was the illegitimate son of a notary and a peasant woman. He . Legacy: Leonardo is the archetype of the 'Renaissance man' — someone with expertise in m. Topics: During which historical period did Leonardo live?, What made Leonardo unusual compared to other artists of his time?.",
+      "filename": "historical-figure-leonardo-scene.webp"
+    }
+  ]
+}

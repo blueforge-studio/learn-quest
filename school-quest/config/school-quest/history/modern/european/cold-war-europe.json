@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cold-war-europe",
+  "title": "The Cold War",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "cold-war-europe",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Cold War. Type: lesson. Topics: What was the Cold War?, Which leader coined the term \"Iron Curtain\"?.",
+      "filename": "cold-war-europe-timeline.webp"
+    },
+    {
+      "id": "cold-war-europe-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Cold War. Type: lesson. Topics: What was the Cold War?, Which leader coined the term \"Iron Curtain\"?.",
+      "filename": "cold-war-europe-scene.webp"
+    }
+  ]
+}

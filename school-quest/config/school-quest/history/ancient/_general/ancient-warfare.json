@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-warfare",
+  "title": "Ancient Warfare",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-warfare",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Warfare. Type: era-exploration. Background: Warfare began when early cities like Ur and Uruk built walls and trained soldiers. As civilizations . Legacy: Ancient warfare laid the foundation for how armies train and fight today. The id. Topics: What was the main job of a chariot in ancient battles?, How did Greek soldiers in a phalanx protect each other?.",
+      "filename": "ancient-warfare-map.webp"
+    },
+    {
+      "id": "ancient-warfare-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Warfare. Type: era-exploration. Background: Warfare began when early cities like Ur and Uruk built walls and trained soldiers. As civilizations . Legacy: Ancient warfare laid the foundation for how armies train and fight today. The id. Topics: What was the main job of a chariot in ancient battles?, How did Greek soldiers in a phalanx protect each other?.",
+      "filename": "ancient-warfare-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "us-civil-war",
+  "title": "The American Civil War",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "us-civil-war",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The American Civil War. Type: timeline. Background: For many years, the United States was split on the issue of slavery. The Northern states had factori. Legacy: The Civil War kept the United States together as one country. It ended the terri. Topics: What was the main issue that caused the American Civil War?, What did President Lincoln's Emancipation Proclamation do?.",
+      "filename": "us-civil-war-timeline.webp"
+    },
+    {
+      "id": "us-civil-war-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The American Civil War. Type: timeline. Background: For many years, the United States was split on the issue of slavery. The Northern states had factori. Legacy: The Civil War kept the United States together as one country. It ended the terri. Topics: What was the main issue that caused the American Civil War?, What did President Lincoln's Emancipation Proclamation do?.",
+      "filename": "us-civil-war-scene.webp"
+    }
+  ]
+}

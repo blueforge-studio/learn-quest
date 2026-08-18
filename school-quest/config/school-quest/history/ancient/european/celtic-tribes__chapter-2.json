@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "celtic-tribes",
+  "title": "Celtic Europe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "celtic-tribes",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one country or empire — they were many different tribes living across Europe, from. Legacy: Celtic ideas live on today! The Irish shamrock, Scottish tartan patterns, Welsh . Topics: What did Celtic hill forts protect?, What were druids known for?.",
+      "filename": "celtic-tribes-map.webp"
+    },
+    {
+      "id": "celtic-tribes-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one country or empire — they were many different tribes living across Europe, from. Legacy: Celtic ideas live on today! The Irish shamrock, Scottish tartan patterns, Welsh . Topics: What did Celtic hill forts protect?, What were druids known for?.",
+      "filename": "celtic-tribes-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cold-war-europe",
+  "title": "The Cold War in Europe",
+  "lessonType": "lesson",
+  "chapter": "chapter-1",
+  "epoch": "contemporary",
+  "region": "european",
+  "basePath": "public/images/lessons/contemporary/european",
+  "images": [
+    {
+      "id": "cold-war-europe",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Cold War in Europe. Type: lesson. Topics: What did Churchill call the division between East and West?, What was the Berlin Airlift?.",
+      "filename": "cold-war-europe-timeline.webp"
+    },
+    {
+      "id": "cold-war-europe-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Cold War in Europe. Type: lesson. Topics: What did Churchill call the division between East and West?, What was the Berlin Airlift?.",
+      "filename": "cold-war-europe-scene.webp"
+    }
+  ]
+}

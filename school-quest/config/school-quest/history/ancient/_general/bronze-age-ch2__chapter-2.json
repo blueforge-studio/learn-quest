@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "bronze-age-ch2",
+  "title": "The Bronze Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "bronze-age-ch2",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: For thousands of years, people used tools made of stone, wood, and bone. Then, around 3500 BCE, in a. Legacy: Bronze was the first human-made alloy (metal mixture), showing our incredible ab. Topics: What two metals are mixed together to make bronze?, How did bronze tools help farmers?.",
+      "filename": "bronze-age-ch2-map.webp"
+    },
+    {
+      "id": "bronze-age-ch2-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: For thousands of years, people used tools made of stone, wood, and bone. Then, around 3500 BCE, in a. Legacy: Bronze was the first human-made alloy (metal mixture), showing our incredible ab. Topics: What two metals are mixed together to make bronze?, How did bronze tools help farmers?.",
+      "filename": "bronze-age-ch2-portrait.webp"
+    }
+  ]
+}

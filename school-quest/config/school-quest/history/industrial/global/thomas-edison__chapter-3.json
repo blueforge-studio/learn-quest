@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "thomas-edison",
+  "title": "Thomas Edison",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "thomas-edison",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Thomas Edison. Type: historical-figure. Background: Born in 1847 in Milan, Ohio, Thomas had very little formal schooling. His mother taught him at home,. Legacy: Thomas Edison is remembered as America's greatest inventor. He showed the power . Topics: What is Thomas Edison's most famous invention?, What did Edison call his famous workshop in New Jersey?.",
+      "filename": "thomas-edison-portrait.webp"
+    },
+    {
+      "id": "thomas-edison-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Thomas Edison. Type: historical-figure. Background: Born in 1847 in Milan, Ohio, Thomas had very little formal schooling. His mother taught him at home,. Legacy: Thomas Edison is remembered as America's greatest inventor. He showed the power . Topics: What is Thomas Edison's most famous invention?, What did Edison call his famous workshop in New Jersey?.",
+      "filename": "thomas-edison-scene.webp"
+    }
+  ]
+}

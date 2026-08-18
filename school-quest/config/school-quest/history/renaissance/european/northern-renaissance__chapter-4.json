@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "northern-renaissance",
+  "title": "The Northern Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "northern-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Northern Renaissance. Type: era-exploration. Background: The Northern Renaissance began around 1400 in places like the Netherlands, Germany, and France. It w. Legacy: The Northern Renaissance helped launch the Reformation, modern education, and sc. Topics: What special paint did Northern Renaissance artists love to use?, Who was a famous German artist and thinker who studied in Italy and brought back math and art ideas?.",
+      "filename": "northern-renaissance-map.webp"
+    },
+    {
+      "id": "northern-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Northern Renaissance. Type: era-exploration. Background: The Northern Renaissance began around 1400 in places like the Netherlands, Germany, and France. It w. Legacy: The Northern Renaissance helped launch the Reformation, modern education, and sc. Topics: What special paint did Northern Renaissance artists love to use?, Who was a famous German artist and thinker who studied in Italy and brought back math and art ideas?.",
+      "filename": "northern-renaissance-portrait.webp"
+    }
+  ]
+}

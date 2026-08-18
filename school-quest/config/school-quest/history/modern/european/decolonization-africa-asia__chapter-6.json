@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "decolonization-africa-asia",
+  "title": "End of Colonialism",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "decolonization-africa-asia",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: End of Colonialism. Type: lesson. Topics: When did India gain independence?, Which African nation was the first to gain independence?.",
+      "filename": "decolonization-africa-asia-timeline.webp"
+    },
+    {
+      "id": "decolonization-africa-asia-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: End of Colonialism. Type: lesson. Topics: When did India gain independence?, Which African nation was the first to gain independence?.",
+      "filename": "decolonization-africa-asia-scene.webp"
+    }
+  ]
+}

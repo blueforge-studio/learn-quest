@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "columbus-voyage",
+  "title": "Columbus and the New World",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "columbus-voyage",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Columbus and the New World. Type: timeline. Background: Born in Genoa, Italy, Columbus was a skilled sailor who believed the Earth was smaller than most tho. Legacy: Columbus's voyage created a lasting connection between Europe and the Americas, . Topics: What was Columbus's main goal for his 1492 voyage?, What island did Columbus and his crew reach first in October 1492?.",
+      "filename": "columbus-voyage-timeline.webp"
+    },
+    {
+      "id": "columbus-voyage-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Columbus and the New World. Type: timeline. Background: Born in Genoa, Italy, Columbus was a skilled sailor who believed the Earth was smaller than most tho. Legacy: Columbus's voyage created a lasting connection between Europe and the Americas, . Topics: What was Columbus's main goal for his 1492 voyage?, What island did Columbus and his crew reach first in October 1492?.",
+      "filename": "columbus-voyage-scene.webp"
+    }
+  ]
+}

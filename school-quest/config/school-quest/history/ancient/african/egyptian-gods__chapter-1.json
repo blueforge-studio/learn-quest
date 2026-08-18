@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "egyptian-gods",
+  "title": "Egyptian Gods and Beliefs",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "egyptian-gods",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Egyptian Gods and Beliefs. Type: era-exploration. Background: For over 3,000 years, the people of ancient Egypt lived along the Nile River. Their lives were deepl. Legacy: Egyptian beliefs left a huge mark on history. Their ideas about judgment after d. Topics: Who was the Egyptian sun god who sailed across the sky each day?, What was the name of the test to enter the Egyptian afterlife?.",
+      "filename": "egyptian-gods-map.webp"
+    },
+    {
+      "id": "egyptian-gods-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Egyptian Gods and Beliefs. Type: era-exploration. Background: For over 3,000 years, the people of ancient Egypt lived along the Nile River. Their lives were deepl. Legacy: Egyptian beliefs left a huge mark on history. Their ideas about judgment after d. Topics: Who was the Egyptian sun god who sailed across the sky each day?, What was the name of the test to enter the Egyptian afterlife?.",
+      "filename": "egyptian-gods-portrait.webp"
+    }
+  ]
+}

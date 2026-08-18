@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spinning-jenny",
+  "title": "Spinning Jenny and Textiles",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "spinning-jenny",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: In the 1700s, most people in Europe wore clothes made from wool or linen. Making thread for these cl. Legacy: The Spinning Jenny sparked a chain reaction. It showed that machines could make . Topics: What was the main job of the Spinning Jenny?, Why was the Jenny so important?.",
+      "filename": "spinning-jenny-map.webp"
+    },
+    {
+      "id": "spinning-jenny-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Spinning Jenny and Textiles. Type: era-exploration. Background: In the 1700s, most people in Europe wore clothes made from wool or linen. Making thread for these cl. Legacy: The Spinning Jenny sparked a chain reaction. It showed that machines could make . Topics: What was the main job of the Spinning Jenny?, Why was the Jenny so important?.",
+      "filename": "spinning-jenny-portrait.webp"
+    }
+  ]
+}

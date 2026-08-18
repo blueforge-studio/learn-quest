@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-rome",
+  "title": "Fall of the Roman Empire",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "fall-of-rome",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Fall of the Roman Empire. Type: timeline. Background: Rome began as a small city in Italy around 753 BCE. By 117 CE, the empire stretched from Britain to . Legacy: Roman ideas still shape our world today: jury trials, Latin words (like 'exit', . Topics: What happened during the Crisis of the Third Century?, Why did Emperor Diocletian split the empire in 285 CE?.",
+      "filename": "fall-of-rome-timeline.webp"
+    },
+    {
+      "id": "fall-of-rome-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Fall of the Roman Empire. Type: timeline. Background: Rome began as a small city in Italy around 753 BCE. By 117 CE, the empire stretched from Britain to . Legacy: Roman ideas still shape our world today: jury trials, Latin words (like 'exit', . Topics: What happened during the Crisis of the Third Century?, Why did Emperor Diocletian split the empire in 285 CE?.",
+      "filename": "fall-of-rome-scene.webp"
+    }
+  ]
+}

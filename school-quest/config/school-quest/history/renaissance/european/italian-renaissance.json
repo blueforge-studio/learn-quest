@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "italian-renaissance",
+  "title": "The Italian Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "italian-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: After the Middle Ages, people in Italy became very interested in the art and learning of ancient civ. Legacy: The Italian Renaissance gave us some of the world's most beloved art and archite. Topics: In which Italian city did the Renaissance begin?, What does 'Renaissance' mean?.",
+      "filename": "italian-renaissance-map.webp"
+    },
+    {
+      "id": "italian-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: After the Middle Ages, people in Italy became very interested in the art and learning of ancient civ. Legacy: The Italian Renaissance gave us some of the world's most beloved art and archite. Topics: In which Italian city did the Renaissance begin?, What does 'Renaissance' mean?.",
+      "filename": "italian-renaissance-portrait.webp"
+    }
+  ]
+}

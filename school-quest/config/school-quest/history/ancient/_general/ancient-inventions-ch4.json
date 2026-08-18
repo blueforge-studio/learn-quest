@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-inventions-ch4",
+  "title": "Ancient Inventions",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-inventions-ch4",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Inventions. Type: timeline. Legacy: The wheel is on everything from cars to skateboards. We still use irrigation to . Topics: Which invention made it much easier to transport heavy goods?, Why was irrigation so important for ancient farmers?.",
+      "filename": "ancient-inventions-ch4-timeline.webp"
+    },
+    {
+      "id": "ancient-inventions-ch4-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Inventions. Type: timeline. Legacy: The wheel is on everything from cars to skateboards. We still use irrigation to . Topics: Which invention made it much easier to transport heavy goods?, Why was irrigation so important for ancient farmers?.",
+      "filename": "ancient-inventions-ch4-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "winston-churchill",
+  "title": "Winston Churchill",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "winston-churchill",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Winston Churchill. Type: historical-figure. Background: Born into an aristocratic family in 1874, Churchill had a varied career as a soldier, journalist, an. Legacy: Winston Churchill is remembered as one of history's greatest leaders for his def. Topics: What major world event was Winston Churchill Prime Minister during?, What was Churchill famous for, besides being a leader?.",
+      "filename": "winston-churchill-portrait.webp"
+    },
+    {
+      "id": "winston-churchill-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Winston Churchill. Type: historical-figure. Background: Born into an aristocratic family in 1874, Churchill had a varied career as a soldier, journalist, an. Legacy: Winston Churchill is remembered as one of history's greatest leaders for his def. Topics: What major world event was Winston Churchill Prime Minister during?, What was Churchill famous for, besides being a leader?.",
+      "filename": "winston-churchill-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "korean-war",
+  "title": "The Korean War",
+  "lessonType": "lesson",
+  "chapter": "chapter-2",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "korean-war",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Korean War. Type: lesson. Topics: At what line was Korea divided after WWII?, What was the Korean War primarily about?.",
+      "filename": "korean-war-timeline.webp"
+    },
+    {
+      "id": "korean-war-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Korean War. Type: lesson. Topics: At what line was Korea divided after WWII?, What was the Korean War primarily about?.",
+      "filename": "korean-war-scene.webp"
+    }
+  ]
+}

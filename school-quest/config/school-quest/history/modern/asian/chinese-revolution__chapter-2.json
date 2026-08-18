@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chinese-revolution",
+  "title": "The Chinese Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "chinese-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For centuries, China was led by emperors under the Qing Dynasty. But by the 1800s, the country faced. Legacy: The Chinese Revolution laid the foundation for today’s China. Sun Yat-sen is hon. Topics: What did Sun Yat-sen believe were the 'Three Principles'?, What happened in 1912 that changed China forever?.",
+      "filename": "chinese-revolution-timeline.webp"
+    },
+    {
+      "id": "chinese-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For centuries, China was led by emperors under the Qing Dynasty. But by the 1800s, the country faced. Legacy: The Chinese Revolution laid the foundation for today’s China. Sun Yat-sen is hon. Topics: What did Sun Yat-sen believe were the 'Three Principles'?, What happened in 1912 that changed China forever?.",
+      "filename": "chinese-revolution-scene.webp"
+    }
+  ]
+}

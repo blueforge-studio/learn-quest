@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "isaac-newton",
+  "title": "Isaac Newton",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "isaac-newton",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Isaac Newton. Type: historical-figure. Background: Born in Woolsthorpe, England in 1643, Newton was a curious child who loved building models and solvi. Legacy: Newton's discoveries form the foundation of modern physics and engineering. His . Topics: What famous story is told about Newton's discovery of gravity?, What mathematics did Newton invent to help explain motion?.",
+      "filename": "isaac-newton-portrait.webp"
+    },
+    {
+      "id": "isaac-newton-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Isaac Newton. Type: historical-figure. Background: Born in Woolsthorpe, England in 1643, Newton was a curious child who loved building models and solvi. Legacy: Newton's discoveries form the foundation of modern physics and engineering. His . Topics: What famous story is told about Newton's discovery of gravity?, What mathematics did Newton invent to help explain motion?.",
+      "filename": "isaac-newton-scene.webp"
+    }
+  ]
+}

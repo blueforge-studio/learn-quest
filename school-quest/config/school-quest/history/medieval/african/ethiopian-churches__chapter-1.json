@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ethiopian-churches",
+  "title": "Ethiopia's Rock Churches",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "ethiopian-churches",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ethiopia's Rock Churches. Type: era-exploration. Background: Long ago, King Lalibela had a dream. He wanted to create a new holy city for Christians in Ethiopia,. Legacy: Today, Lalibela is a UNESCO World Heritage Site and a living place of worship. P. Topics: How were the churches of Lalibela created?, Which king is most famous for creating Lalibela?.",
+      "filename": "ethiopian-churches-map.webp"
+    },
+    {
+      "id": "ethiopian-churches-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ethiopia's Rock Churches. Type: era-exploration. Background: Long ago, King Lalibela had a dream. He wanted to create a new holy city for Christians in Ethiopia,. Legacy: Today, Lalibela is a UNESCO World Heritage Site and a living place of worship. P. Topics: How were the churches of Lalibela created?, Which king is most famous for creating Lalibela?.",
+      "filename": "ethiopian-churches-portrait.webp"
+    }
+  ]
+}

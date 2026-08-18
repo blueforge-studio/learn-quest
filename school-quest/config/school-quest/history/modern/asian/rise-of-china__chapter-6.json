@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "rise-of-china",
+  "title": "Rise of China",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "rise-of-china",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Rise of China. Type: lesson. Topics: When did China begin its economic reforms?, What is China known as today?.",
+      "filename": "rise-of-china-timeline.webp"
+    },
+    {
+      "id": "rise-of-china-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Rise of China. Type: lesson. Topics: When did China begin its economic reforms?, What is China known as today?.",
+      "filename": "rise-of-china-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "genghis-khan",
+  "title": "Genghis Khan",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "genghis-khan",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162, the son of a minor Mongol chieftain. After his father was poison. Legacy: Genghis Khan's empire became the largest contiguous land empire in history. His . Topics: What was Genghis Khan's original birth name?, What major accomplishment did Genghis Khan achieve in 1206?.",
+      "filename": "genghis-khan-portrait.webp"
+    },
+    {
+      "id": "genghis-khan-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162, the son of a minor Mongol chieftain. After his father was poison. Legacy: Genghis Khan's empire became the largest contiguous land empire in history. His . Topics: What was Genghis Khan's original birth name?, What major accomplishment did Genghis Khan achieve in 1206?.",
+      "filename": "genghis-khan-scene.webp"
+    }
+  ]
+}

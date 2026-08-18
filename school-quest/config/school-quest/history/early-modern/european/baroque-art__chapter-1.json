@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "baroque-art",
+  "title": "Baroque Art and Architecture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "baroque-art",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Baroque Art and Architecture. Type: era-exploration. Background: The Baroque style began in Italy around 1600 and spread across Europe. It was a time when kings and . Legacy: Baroque style changed our cities and art forever. Its love of drama influenced l. Topics: What was one main goal of Baroque art and architecture?, Which king built the magnificent Palace of Versailles?.",
+      "filename": "baroque-art-map.webp"
+    },
+    {
+      "id": "baroque-art-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Baroque Art and Architecture. Type: era-exploration. Background: The Baroque style began in Italy around 1600 and spread across Europe. It was a time when kings and . Legacy: Baroque style changed our cities and art forever. Its love of drama influenced l. Topics: What was one main goal of Baroque art and architecture?, Which king built the magnificent Palace of Versailles?.",
+      "filename": "baroque-art-portrait.webp"
+    }
+  ]
+}

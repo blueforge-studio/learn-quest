@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-greece-timeline",
+  "title": "Ancient Greece Timeline: From Myth to Democracy",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "ancient-greece-timeline",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Greece Timeline: From Myth to Democracy. Type: timeline. Topics: Which event marks the very first Olympic Games?, Who introduced the first democratic reforms in Athens?.",
+      "filename": "ancient-greece-timeline-timeline.webp"
+    },
+    {
+      "id": "ancient-greece-timeline-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Greece Timeline: From Myth to Democracy. Type: timeline. Topics: Which event marks the very first Olympic Games?, Who introduced the first democratic reforms in Athens?.",
+      "filename": "ancient-greece-timeline-scene.webp"
+    }
+  ]
+}

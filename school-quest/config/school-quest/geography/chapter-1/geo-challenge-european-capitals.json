@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "geo-challenge-european-capitals",
+  "title": "European Capitals Challenge",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-geography/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "geo-challenge-european-capitals-map",
+      "type": "map",
+      "prompt": "Map illustration for: European Capitals Challenge. Educational geography map.",
+      "filename": "geo-challenge-european-capitals-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "geo-challenge-european-capitals-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: European Capitals Challenge. Famous geographical location.",
+      "filename": "geo-challenge-european-capitals-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "geo-challenge-european-capitals-region",
+      "type": "region",
+      "prompt": "Regional illustration for: European Capitals Challenge. Geographic region visual.",
+      "filename": "geo-challenge-european-capitals-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "geo-challenge-european-capitals-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: European Capitals Challenge. Natural environment visual.",
+      "filename": "geo-challenge-european-capitals-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "italian-renaissance",
+  "title": "The Italian Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "italian-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: The Renaissance began in Italy around 1400. The word 'Renaissance' means 'rebirth' in French. It was. Legacy: The Italian Renaissance changed the world. It placed a new value on human creati. Topics: In which Italian city did the Renaissance begin?, What does the word 'Renaissance' mean?.",
+      "filename": "italian-renaissance-map.webp"
+    },
+    {
+      "id": "italian-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: The Renaissance began in Italy around 1400. The word 'Renaissance' means 'rebirth' in French. It was. Legacy: The Italian Renaissance changed the world. It placed a new value on human creati. Topics: In which Italian city did the Renaissance begin?, What does the word 'Renaissance' mean?.",
+      "filename": "italian-renaissance-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "al-andalus",
+  "title": "Al-Andalus: Moorish Spain",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "al-andalus",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Al-Andalus: Moorish Spain. Type: era-exploration. Background: In 711 CE, Muslim armies from North Africa crossed into Spain. They called their new land Al-Andalus. Legacy: Al-Andalus left a permanent mark on Spain and Europe. Spanish words like 'algebr. Topics: What was special about the city of Córdoba around 950 CE?, What beautiful palace in Granada has a fountain held up by lion statues?.",
+      "filename": "al-andalus-map.webp"
+    },
+    {
+      "id": "al-andalus-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Al-Andalus: Moorish Spain. Type: era-exploration. Background: In 711 CE, Muslim armies from North Africa crossed into Spain. They called their new land Al-Andalus. Legacy: Al-Andalus left a permanent mark on Spain and Europe. Spanish words like 'algebr. Topics: What was special about the city of Córdoba around 950 CE?, What beautiful palace in Granada has a fountain held up by lion statues?.",
+      "filename": "al-andalus-portrait.webp"
+    }
+  ]
+}

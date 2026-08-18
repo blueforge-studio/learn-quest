@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "spelling-2",
+  "title": "Spelling Adjectives and Pronouns",
+  "lessonType": "spelling",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-writing/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "spelling-2-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Spelling Adjectives and Pronouns. Educational writing example.",
+      "filename": "spelling-2-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "spelling-2-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Spelling Adjectives and Pronouns. Writing template visual.",
+      "filename": "spelling-2-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "spelling-2-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Spelling Adjectives and Pronouns. Descriptive scene image.",
+      "filename": "spelling-2-scene.webp",
+      "quality": 85
+    }
+  ]
+}

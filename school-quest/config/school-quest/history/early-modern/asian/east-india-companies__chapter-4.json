@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "east-india-companies",
+  "title": "East India Companies",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "east-india-companies",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1600s, Europeans loved Asian spices, silk, and tea, but getting them was a long and dangerous. Legacy: The East India Companies changed the world. They connected Europe and Asia throu. Topics: Why did European countries create East India Companies?, What was a 'factory' in the time of the East India Companies?.",
+      "filename": "east-india-companies-map.webp"
+    },
+    {
+      "id": "east-india-companies-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1600s, Europeans loved Asian spices, silk, and tea, but getting them was a long and dangerous. Legacy: The East India Companies changed the world. They connected Europe and Asia throu. Topics: Why did European countries create East India Companies?, What was a 'factory' in the time of the East India Companies?.",
+      "filename": "east-india-companies-portrait.webp"
+    }
+  ]
+}

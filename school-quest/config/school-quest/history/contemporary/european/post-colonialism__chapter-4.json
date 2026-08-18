@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "post-colonialism",
+  "title": "Post-Colonialism and Decolonization",
+  "lessonType": "lesson",
+  "chapter": "chapter-4",
+  "epoch": "contemporary",
+  "region": "european",
+  "basePath": "public/images/lessons/contemporary/european",
+  "images": [
+    {
+      "id": "post-colonialism",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Post-Colonialism and Decolonization. Type: lesson. Topics: What major event inspired African independence movements?, What problem did African nations face due to colonial borders?.",
+      "filename": "post-colonialism-timeline.webp"
+    },
+    {
+      "id": "post-colonialism-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Post-Colonialism and Decolonization. Type: lesson. Topics: What major event inspired African independence movements?, What problem did African nations face due to colonial borders?.",
+      "filename": "post-colonialism-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pompeii",
+  "title": "Pompeii: Frozen in Time",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "pompeii",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Pompeii: Frozen in Time. Type: era-exploration. Background: Pompeii was a prosperous port city in southern Italy, home to about 11,000 people. It had shops, bak. Legacy: Pompeii is one of the world's most important archaeological sites. It gives us a. Topics: What natural disaster buried the city of Pompeii?, What was Pompeii like before the eruption?.",
+      "filename": "pompeii-map.webp"
+    },
+    {
+      "id": "pompeii-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Pompeii: Frozen in Time. Type: era-exploration. Background: Pompeii was a prosperous port city in southern Italy, home to about 11,000 people. It had shops, bak. Legacy: Pompeii is one of the world's most important archaeological sites. It gives us a. Topics: What natural disaster buried the city of Pompeii?, What was Pompeii like before the eruption?.",
+      "filename": "pompeii-portrait.webp"
+    }
+  ]
+}

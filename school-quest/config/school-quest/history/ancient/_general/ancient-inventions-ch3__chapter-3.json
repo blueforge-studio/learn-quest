@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-inventions-ch3",
+  "title": "Ancient Inventions",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-inventions-ch3",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Inventions. Type: timeline. Background: Between 3500 BCE and 500 CE, in different parts of the world like Mesopotamia, Egypt, China, and Mes. Legacy: The ancient world's genius is all around us. Every car, bicycle, and shopping ca. Topics: What was the FIRST use of the wheel around 3500 BCE?, Why was irrigation so important for ancient civilizations?.",
+      "filename": "ancient-inventions-ch3-timeline.webp"
+    },
+    {
+      "id": "ancient-inventions-ch3-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Inventions. Type: timeline. Background: Between 3500 BCE and 500 CE, in different parts of the world like Mesopotamia, Egypt, China, and Mes. Legacy: The ancient world's genius is all around us. Every car, bicycle, and shopping ca. Topics: What was the FIRST use of the wheel around 3500 BCE?, Why was irrigation so important for ancient civilizations?.",
+      "filename": "ancient-inventions-ch3-scene.webp"
+    }
+  ]
+}

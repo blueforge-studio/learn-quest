@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "east-india-companies",
+  "title": "East India Companies",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "east-india-companies",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1500s, European sailors learned how to make long ocean voyages. They sailed around Africa and. Legacy: The East India Companies changed the world. They brought new foods and goods to . Topics: What were the East India Companies mainly trying to buy in Asia?, Which European country started the Dutch East India Company?.",
+      "filename": "east-india-companies-map.webp"
+    },
+    {
+      "id": "east-india-companies-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1500s, European sailors learned how to make long ocean voyages. They sailed around Africa and. Legacy: The East India Companies changed the world. They brought new foods and goods to . Topics: What were the East India Companies mainly trying to buy in Asia?, Which European country started the Dutch East India Company?.",
+      "filename": "east-india-companies-portrait.webp"
+    }
+  ]
+}

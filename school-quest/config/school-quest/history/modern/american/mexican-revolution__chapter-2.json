@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mexican-revolution",
+  "title": "The Mexican Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "mexican-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Mexican Revolution. Type: timeline. Background: In the early 1900s, Mexico was ruled by President Porfirio Díaz for over 30 years. His rule brought . Legacy: The Mexican Revolution transformed Mexico. It created a more democratic system (. Topics: What were the two main things Zapata and Villa were fighting for?, Who was the revolutionary leader from the south of Mexico?.",
+      "filename": "mexican-revolution-timeline.webp"
+    },
+    {
+      "id": "mexican-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Mexican Revolution. Type: timeline. Background: In the early 1900s, Mexico was ruled by President Porfirio Díaz for over 30 years. His rule brought . Legacy: The Mexican Revolution transformed Mexico. It created a more democratic system (. Topics: What were the two main things Zapata and Villa were fighting for?, Who was the revolutionary leader from the south of Mexico?.",
+      "filename": "mexican-revolution-scene.webp"
+    }
+  ]
+}

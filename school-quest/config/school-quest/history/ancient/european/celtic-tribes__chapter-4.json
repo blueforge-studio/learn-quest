@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "celtic-tribes",
+  "title": "Celtic Europe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "celtic-tribes",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one single country or empire — they were many different tribes who shared similar . Legacy: Even though the Celts didn’t build huge empires or write history books, their in. Topics: What were Celtic hill forts used for?, What did Druids NOT do?.",
+      "filename": "celtic-tribes-map.webp"
+    },
+    {
+      "id": "celtic-tribes-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Celtic Europe. Type: era-exploration. Background: The Celts weren’t one single country or empire — they were many different tribes who shared similar . Legacy: Even though the Celts didn’t build huge empires or write history books, their in. Topics: What were Celtic hill forts used for?, What did Druids NOT do?.",
+      "filename": "celtic-tribes-portrait.webp"
+    }
+  ]
+}

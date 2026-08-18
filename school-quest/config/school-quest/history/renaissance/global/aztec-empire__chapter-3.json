@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "aztec-empire",
+  "title": "The Aztec Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "aztec-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Aztec Empire. Type: era-exploration. Background: The Aztecs, who called themselves the Mexica, were originally nomadic people. According to legend, t. Legacy: The fall of the Aztec Empire marked the beginning of Spanish rule in Mexico. Tod. Topics: What was the magnificent capital city of the Aztec Empire built on a lake?, What were the two most elite types of Aztec soldiers called?.",
+      "filename": "aztec-empire-map.webp"
+    },
+    {
+      "id": "aztec-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Aztec Empire. Type: era-exploration. Background: The Aztecs, who called themselves the Mexica, were originally nomadic people. According to legend, t. Legacy: The fall of the Aztec Empire marked the beginning of Spanish rule in Mexico. Tod. Topics: What was the magnificent capital city of the Aztec Empire built on a lake?, What were the two most elite types of Aztec soldiers called?.",
+      "filename": "aztec-empire-portrait.webp"
+    }
+  ]
+}

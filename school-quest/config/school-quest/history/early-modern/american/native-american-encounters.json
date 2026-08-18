@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "native-american-encounters",
+  "title": "Native Americans and Colonizers",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "native-american-encounters",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Native Americans and Colonizers. Type: era-exploration. Background: Long before Europeans came, Native peoples lived in diverse communities — from the Iroquois Confeder. Legacy: Native American knowledge shaped the whole continent — from the foods we eat (co. Topics: What were the 'Three Sisters' that many Native nations grew together?, Which Native group helped the English colonists survive their first winter in Plymouth?.",
+      "filename": "native-american-encounters-map.webp"
+    },
+    {
+      "id": "native-american-encounters-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Native Americans and Colonizers. Type: era-exploration. Background: Long before Europeans came, Native peoples lived in diverse communities — from the Iroquois Confeder. Legacy: Native American knowledge shaped the whole continent — from the foods we eat (co. Topics: What were the 'Three Sisters' that many Native nations grew together?, Which Native group helped the English colonists survive their first winter in Plymouth?.",
+      "filename": "native-american-encounters-portrait.webp"
+    }
+  ]
+}

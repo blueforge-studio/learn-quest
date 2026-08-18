@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mansa-musa",
+  "title": "Mansa Musa",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "mansa-musa",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mansa Musa. Type: historical-figure. Background: Mansa Musa became the 'Mansa' (which means 'king of kings') of Mali around 1312. He inherited a king. Legacy: Mansa Musa is remembered as the richest person in history. His famous pilgrimage. Topics: What does 'Mansa' mean?, Why did Mansa Musa travel to Mecca?.",
+      "filename": "mansa-musa-portrait.webp"
+    },
+    {
+      "id": "mansa-musa-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Mansa Musa. Type: historical-figure. Background: Mansa Musa became the 'Mansa' (which means 'king of kings') of Mali around 1312. He inherited a king. Legacy: Mansa Musa is remembered as the richest person in history. His famous pilgrimage. Topics: What does 'Mansa' mean?, Why did Mansa Musa travel to Mecca?.",
+      "filename": "mansa-musa-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "templateLesson": "lq-geography/public/data/lessons/en/chapter-1/geo-challenge-european-capitals.json",
+  "categories": {
+    "world-map": [
+      { "id": "continents-oceans", "title": "Continents and Oceans", "type": "map-quiz", "description": "7 continents and 5 oceans identification" },
+      { "id": "famous-landmarks", "title": "Famous World Landmarks", "type": "geo-challenge", "description": "Eiffel Tower, Great Wall, Taj Mahal, etc." },
+      { "id": "countries-flags", "title": "Countries and Flags", "type": "geo-challenge", "description": "Match countries to their flags around the world" },
+      { "id": "latitude-longitude", "title": "Latitude and Longitude", "type": "map-quiz", "description": "Find locations on a globe using grid coordinates" },
+      { "id": "time-zones", "title": "Time Zones", "type": "geo-challenge", "description": "Why clocks show different times around the world" },
+      { "id": "hemispheres", "title": "Hemispheres", "type": "map-quiz", "description": "Northern, Southern, Eastern, and Western halves of Earth" },
+      { "id": "map-projections", "title": "Map Projections", "type": "geo-challenge", "description": "How flat maps show a round Earth in different ways" },
+      { "id": "compass-directions", "title": "Compass Directions", "type": "map-quiz", "description": "North, south, east, west, and using a compass rose" },
+      { "id": "map-symbols", "title": "Map Symbols and Legends", "type": "map-quiz", "description": "Read map keys to understand symbols for roads, rivers, and cities" },
+      { "id": "physical-vs-political", "title": "Physical vs Political Maps", "type": "geo-challenge", "description": "Compare maps that show landforms vs country borders" }
+    ],
+    "earth": [
+      { "id": "layers-of-earth", "title": "Layers of the Earth", "type": "science-concept", "description": "Crust, mantle, outer core, inner core" },
+      { "id": "mountains-volcanoes", "title": "Mountains and Volcanoes", "type": "region-profile", "description": "How mountains form, famous volcanoes, plate tectonics basics" },
+      { "id": "earthquakes", "title": "Earthquakes", "type": "science-concept", "description": "Fault lines, seismic waves, earthquake safety" },
+      { "id": "plate-tectonics", "title": "Plate Tectonics", "type": "science-concept", "description": "How giant plates move and shape the surface of Earth" },
+      { "id": "mineral-types", "title": "Mineral Types", "type": "science-concept", "description": "Common minerals, their colors, hardness, and where we find them" },
+      { "id": "landform-types", "title": "Landform Types", "type": "region-profile", "description": "Plains, plateaus, valleys, canyons, and how they form" },
+      { "id": "soil-formation", "title": "Soil Formation", "type": "science-concept", "description": "How rocks break down into soil over thousands of years" },
+      { "id": "continent-formation", "title": "Continent Formation", "type": "science-concept", "description": "Pangaea and how continents drifted to where they are today" },
+      { "id": "geothermal-energy", "title": "Geothermal Energy", "type": "science-concept", "description": "Heat from inside the Earth and how we use it" },
+      { "id": "natural-disasters", "title": "Natural Disasters", "type": "science-concept", "description": "Tsunamis, landslides, sinkholes, and staying safe" }
+    ],
+    "water": [
+      { "id": "rivers-lakes", "title": "Rivers and Lakes", "type": "geo-challenge", "description": "Major rivers (Nile, Amazon, Mississippi), Great Lakes" },
+      { "id": "oceans-seas", "title": "Oceans and Seas", "type": "map-quiz", "description": "Pacific, Atlantic, Indian, Arctic, Southern oceans" },
+      { "id": "coral-reefs", "title": "Coral Reefs", "type": "region-profile", "description": "Great Barrier Reef, marine ecosystems, why reefs matter" },
+      { "id": "water-cycle-deep", "title": "The Water Cycle in Depth", "type": "science-concept", "description": "Evaporation, transpiration, runoff, and groundwater" },
+      { "id": "ocean-currents", "title": "Ocean Currents", "type": "science-concept", "description": "How water flows through the oceans and affects climate" },
+      { "id": "freshwater-resources", "title": "Freshwater Resources", "type": "geo-challenge", "description": "Where our drinking water comes from and why it matters" },
+      { "id": "wetlands", "title": "Wetlands", "type": "region-profile", "description": "Swamps, marshes, bogs, and the animals that live there" },
+      { "id": "glaciers-ice-caps", "title": "Glaciers and Ice Caps", "type": "science-concept", "description": "Giant ice formations and how they shape the land" },
+      { "id": "water-pollution", "title": "Water Pollution", "type": "science-concept", "description": "Causes of dirty water and what we can do to help" },
+      { "id": "dams-reservoirs", "title": "Dams and Reservoirs", "type": "geo-challenge", "description": "How we store and control water for cities and farms" }
+    ],
+    "space": [
+      { "id": "solar-system", "title": "Our Solar System", "type": "science-concept", "description": "Sun, 8 planets, asteroid belt, dwarf planets" },
+      { "id": "earth-moon", "title": "Earth and the Moon", "type": "science-concept", "description": "Moon phases, tides, eclipses, lunar features" },
+      { "id": "stars-constellations", "title": "Stars and Constellations", "type": "geo-challenge", "description": "Star patterns, Big Dipper, Orion, North Star" },
+      { "id": "planet-comparison", "title": "Comparing the Planets", "type": "science-concept", "description": "Size, distance, temperature, and features of each planet" },
+      { "id": "asteroid-belt", "title": "The Asteroid Belt", "type": "science-concept", "description": "Millions of space rocks orbiting between Mars and Jupiter" },
+      { "id": "milky-way", "title": "The Milky Way Galaxy", "type": "science-concept", "description": "Our home galaxy with billions of stars and solar systems" },
+      { "id": "space-exploration-timeline", "title": "Space Exploration Timeline", "type": "geo-challenge", "description": "From Sputnik to Mars rovers: key moments in space history" },
+      { "id": "iss-space-station", "title": "International Space Station", "type": "science-concept", "description": "Life aboard the ISS and how astronauts live in space" },
+      { "id": "tides-gravity", "title": "Tides and Gravity", "type": "science-concept", "description": "How the Moon and Sun pull on ocean water to create tides" },
+      { "id": "seasons-earth-tilt", "title": "Seasons and Earth's Tilt", "type": "science-concept", "description": "Why we have summer, winter, spring, and fall" }
+    ],
+    "weather": [
+      { "id": "cloud-types", "title": "Types of Clouds", "type": "science-concept", "description": "Cumulus, stratus, cirrus, cumulonimbus" },
+      { "id": "severe-weather", "title": "Severe Weather", "type": "science-concept", "description": "Thunderstorms, tornadoes, hurricanes, blizzards" },
+      { "id": "climate-zones", "title": "Climate Zones", "type": "map-quiz", "description": "Tropical, temperate, polar, desert, Mediterranean" },
+      { "id": "hurricanes-deep", "title": "Hurricanes in Depth", "type": "science-concept", "description": "How hurricanes form over warm ocean water and grow stronger" },
+      { "id": "tornadoes-formation", "title": "How Tornadoes Form", "type": "science-concept", "description": "Spinning columns of air and Tornado Alley in the US" },
+      { "id": "weather-instruments", "title": "Weather Instruments", "type": "science-concept", "description": "Thermometers, barometers, anemometers, and rain gauges" },
+      { "id": "rain-cycle", "title": "The Rain Cycle", "type": "science-concept", "description": "How clouds form and release rain, sleet, snow, and hail" },
+      { "id": "wind-patterns", "title": "Wind Patterns", "type": "science-concept", "description": "Trade winds, jet streams, and why wind blows" },
+      { "id": "weather-forecasting", "title": "Weather Forecasting", "type": "science-concept", "description": "How meteorologists predict tomorrow's weather" },
+      { "id": "el-nino", "title": "El Nino and La Nina", "type": "science-concept", "description": "Ocean temperature changes that affect weather worldwide" }
+    ]
+  }
+}

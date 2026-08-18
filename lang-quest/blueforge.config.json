@@ -1,0 +1,168 @@
+{
+  "project": "lang-quest",
+  "assets": {
+    "primary": { "provider": "minio", "bucket": "nordic-quest-assets" },
+    "mirrors": [ { "provider": "cloudflare_r2", "bucket": "nordic-quest-assets" } ],
+    "push": [
+      { "source": "public/_shared/images", "prefix": "shared/images" },
+      { "source": "public/_regional/universal", "prefix": "regional/universal" },
+      { "source": "public/data", "prefix": "data" },
+      { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+    ],
+    "pull": [ { "prefix": "data", "dest": "/usr/share/nginx/html/data" } ]
+  },
+  "apps": {
+    "lq-nordic": {
+      "name": "nordic-quest",
+      "bucket": "nordic-quest-assets",
+      "domains": ["nordic-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "nordic-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"]
+    },
+    "lq-african": {
+      "name": "african-quest",
+      "bucket": "african-quest-assets",
+      "domains": ["african-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "african-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"]
+    },
+    "lq-germanic": {
+      "name": "germanic-quest",
+      "bucket": "germanic-quest-assets",
+      "domains": ["germanic-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "germanic-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"]
+    },
+    "lq-romance": {
+      "name": "romance-quest",
+      "bucket": "romance-quest-assets",
+      "domains": ["romance-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "romance-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"]
+    },
+    "lq-slavic": {
+      "name": "slavic-quest",
+      "bucket": "slavic-quest-assets",
+      "domains": ["slavic-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "slavic-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"]
+    },
+    "lq-balkan": {
+      "name": "balkan-quest",
+      "bucket": "balkan-quest-assets",
+      "domains": ["balkan-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "balkan-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-celtic": {
+      "name": "celtic-quest",
+      "bucket": "celtic-quest-assets",
+      "domains": ["celtic-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "celtic-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-east-asian": {
+      "name": "east-asian-quest",
+      "bucket": "east-asian-quest-assets",
+      "domains": ["east-asian-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "east-asian-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-english": {
+      "name": "english-quest",
+      "bucket": "english-quest-assets",
+      "domains": ["english-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "english-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-middle-eastern": {
+      "name": "middle-eastern-quest",
+      "bucket": "middle-eastern-quest-assets",
+      "domains": ["middle-eastern-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "middle-eastern-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-south-asian": {
+      "name": "south-asian-quest",
+      "bucket": "south-asian-quest-assets",
+      "domains": ["south-asian-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "south-asian-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-southeast-asian": {
+      "name": "southeast-asian-quest",
+      "bucket": "southeast-asian-quest-assets",
+      "domains": ["southeast-asian-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "southeast-asian-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-uralic": {
+      "name": "uralic-quest",
+      "bucket": "uralic-quest-assets",
+      "domains": ["uralic-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "uralic-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    },
+    "lq-west-slavic": {
+      "name": "west-slavic-quest",
+      "bucket": "west-slavic-quest-assets",
+      "domains": ["west-slavic-quest.blueforge.studio"],
+      "infra": { "s3Host": null, "r2": { "accountIdEnv": "CLOUDFLARE_ACCOUNT_ID", "bucket": "west-slavic-quest-assets" } },
+      "ignore": ["scripts/audit-*", "tests/**/*.spec.ts", "test-results", "playwright-report", "screen-audit", "audit-results", ".playwright-mcp", "*.log", "lq.config.json", "asset-map.json", "package-lock.json", "public/_shared/images", "public/_regional", "public/languages", "public/data"],
+      "push": [
+        { "source": "public/_shared/images", "prefix": "shared/images" },
+        { "source": "public/_regional/universal", "prefix": "regional/universal" },
+        { "source": "public/languages", "prefix": "languages", "filter": "images,audio" }
+      ],
+      "pull": []
+    }
+  }
+}

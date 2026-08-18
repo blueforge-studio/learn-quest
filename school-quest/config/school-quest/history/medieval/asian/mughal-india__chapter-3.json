@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mughal-india",
+  "title": "Early Delhi Sultanate",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mughal-india",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, warriors from Afghanistan and Central Asia, led by commanders like Qutb-ud-din A. Legacy: The Delhi Sultanate left a lasting mark on India. It introduced Persian-style go. Topics: What was the Delhi Sultanate?, What is one major example of architecture from this time that still exists?.",
+      "filename": "mughal-india-map.webp"
+    },
+    {
+      "id": "mughal-india-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, warriors from Afghanistan and Central Asia, led by commanders like Qutb-ud-din A. Legacy: The Delhi Sultanate left a lasting mark on India. It introduced Persian-style go. Topics: What was the Delhi Sultanate?, What is one major example of architecture from this time that still exists?.",
+      "filename": "mughal-india-portrait.webp"
+    }
+  ]
+}

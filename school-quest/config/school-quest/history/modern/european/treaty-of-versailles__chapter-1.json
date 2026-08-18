@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "treaty-of-versailles",
+  "title": "Treaty of Versailles",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "treaty-of-versailles",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Treaty of Versailles. Type: era-exploration. Background: World War I (1914-1918) was a huge conflict involving many countries. It was called 'The Great War' . Legacy: The Treaty of Versailles left Germany poor, angry, and wanting revenge. While it. Topics: Where was the peace treaty signed after World War I?, What did the 'War Guilt Clause' force Germany to do?.",
+      "filename": "treaty-of-versailles-map.webp"
+    },
+    {
+      "id": "treaty-of-versailles-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Treaty of Versailles. Type: era-exploration. Background: World War I (1914-1918) was a huge conflict involving many countries. It was called 'The Great War' . Legacy: The Treaty of Versailles left Germany poor, angry, and wanting revenge. While it. Topics: Where was the peace treaty signed after World War I?, What did the 'War Guilt Clause' force Germany to do?.",
+      "filename": "treaty-of-versailles-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "song-dynasty",
+  "title": "Song Dynasty Inventions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "song-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Song Dynasty Inventions. Type: era-exploration. Background: The Song Dynasty ruled China for over 300 years. It was a time of peace, wealth, and incredible curi. Legacy: These inventions didn't just stay in China. Over centuries, they traveled along . Topics: What were the three main ingredients of the first gunpowder?, How did movable type printing make bookmaking better?.",
+      "filename": "song-dynasty-map.webp"
+    },
+    {
+      "id": "song-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Song Dynasty Inventions. Type: era-exploration. Background: The Song Dynasty ruled China for over 300 years. It was a time of peace, wealth, and incredible curi. Legacy: These inventions didn't just stay in China. Over centuries, they traveled along . Topics: What were the three main ingredients of the first gunpowder?, How did movable type printing make bookmaking better?.",
+      "filename": "song-dynasty-portrait.webp"
+    }
+  ]
+}

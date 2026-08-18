@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "opium-wars",
+  "title": "The Opium Wars",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "opium-wars",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a powerful and wealthy empire that mostly traded on its own terms. Britain,. Legacy: The Opium Wars are a stark example of how industrial power could be misused. The. Topics: What popular Chinese product did Britain want to buy?, What addictive drug did British merchants sell to China to pay for tea?.",
+      "filename": "opium-wars-map.webp"
+    },
+    {
+      "id": "opium-wars-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For centuries, China was a powerful and wealthy empire that mostly traded on its own terms. Britain,. Legacy: The Opium Wars are a stark example of how industrial power could be misused. The. Topics: What popular Chinese product did Britain want to buy?, What addictive drug did British merchants sell to China to pay for tea?.",
+      "filename": "opium-wars-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-greek-olympics",
+  "title": "The Ancient Greek Olympics: Where Heroes Were Born",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "ancient-greek-olympics",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Ancient Greek Olympics: Where Heroes Were Born. Type: era-exploration. Topics: Why were the ancient Olympic Games held?, Which of these events was part of the ancient Olympics?.",
+      "filename": "ancient-greek-olympics-map.webp"
+    },
+    {
+      "id": "ancient-greek-olympics-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Ancient Greek Olympics: Where Heroes Were Born. Type: era-exploration. Topics: Why were the ancient Olympic Games held?, Which of these events was part of the ancient Olympics?.",
+      "filename": "ancient-greek-olympics-portrait.webp"
+    }
+  ]
+}

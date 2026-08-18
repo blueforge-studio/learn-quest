@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "michelangelo",
+  "title": "Michelangelo",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "michelangelo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Michelangelo. Type: historical-figure. Background: Michelangelo was born in 1475 in a small town near Florence, Italy. Even as a young boy, he loved dr. Legacy: Michelangelo's artworks are still admired by millions of people every year. His . Topics: What famous statue did Michelangelo carve that stands over 17 feet tall?, Where did Michelangelo paint his famous ceiling fresco?.",
+      "filename": "michelangelo-portrait.webp"
+    },
+    {
+      "id": "michelangelo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Michelangelo. Type: historical-figure. Background: Michelangelo was born in 1475 in a small town near Florence, Italy. Even as a young boy, he loved dr. Legacy: Michelangelo's artworks are still admired by millions of people every year. His . Topics: What famous statue did Michelangelo carve that stands over 17 feet tall?, Where did Michelangelo paint his famous ceiling fresco?.",
+      "filename": "michelangelo-scene.webp"
+    }
+  ]
+}

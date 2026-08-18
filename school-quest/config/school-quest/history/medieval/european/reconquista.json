@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "reconquista",
+  "title": "The Reconquista",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "reconquista",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Reconquista. Type: timeline. Background: In 711 CE, Muslim armies from North Africa crossed into Spain and quickly conquered most of the Iber. Legacy: The Reconquista shaped Spain's identity as a Christian nation. It created a soci. Topics: What does 'Reconquista' mean in English?, Which battle in 722 CE marked the beginning of the Reconquista?.",
+      "filename": "reconquista-timeline.webp"
+    },
+    {
+      "id": "reconquista-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Reconquista. Type: timeline. Background: In 711 CE, Muslim armies from North Africa crossed into Spain and quickly conquered most of the Iber. Legacy: The Reconquista shaped Spain's identity as a Christian nation. It created a soci. Topics: What does 'Reconquista' mean in English?, Which battle in 722 CE marked the beginning of the Reconquista?.",
+      "filename": "reconquista-scene.webp"
+    }
+  ]
+}

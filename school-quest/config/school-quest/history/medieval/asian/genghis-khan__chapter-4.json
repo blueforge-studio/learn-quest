@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "genghis-khan",
+  "title": "Genghis Khan",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "genghis-khan",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162 on the harsh Mongolian steppes. His father was a tribal chief who. Legacy: Genghis Khan's legacy is huge and complex. He created the largest contiguous lan. Topics: What was Genghis Khan's original name as a boy?, What major thing did Genghis Khan do first in 1206?.",
+      "filename": "genghis-khan-portrait.webp"
+    },
+    {
+      "id": "genghis-khan-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162 on the harsh Mongolian steppes. His father was a tribal chief who. Legacy: Genghis Khan's legacy is huge and complex. He created the largest contiguous lan. Topics: What was Genghis Khan's original name as a boy?, What major thing did Genghis Khan do first in 1206?.",
+      "filename": "genghis-khan-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "reformation",
+  "title": "The Protestant Reformation",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "reformation",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Protestant Reformation. Type: timeline. Background: Before the Reformation, the Catholic Church was very powerful in Europe. It taught people how to liv. Legacy: The Reformation led to many Christian churches we know today — Lutheran, Presbyt. Topics: What did Martin Luther nail to the church door in 1517?, Why was translating the Bible into German so important?.",
+      "filename": "reformation-timeline.webp"
+    },
+    {
+      "id": "reformation-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Protestant Reformation. Type: timeline. Background: Before the Reformation, the Catholic Church was very powerful in Europe. It taught people how to liv. Legacy: The Reformation led to many Christian churches we know today — Lutheran, Presbyt. Topics: What did Martin Luther nail to the church door in 1517?, Why was translating the Bible into German so important?.",
+      "filename": "reformation-scene.webp"
+    }
+  ]
+}

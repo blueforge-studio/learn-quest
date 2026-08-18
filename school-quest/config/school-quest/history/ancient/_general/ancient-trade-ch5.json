@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-trade-ch5",
+  "title": "Ancient Trade Routes",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-trade-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: From around 3500 BCE, early civilizations like Mesopotamia, Egypt, the Indus Valley, and China began. Legacy: These ancient routes were the world’s first global network! They helped shape ou. Topics: What was the most famous land-based ancient trade route?, Which animal helped traders cross deserts on the Silk Road?.",
+      "filename": "ancient-trade-ch5-map.webp"
+    },
+    {
+      "id": "ancient-trade-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: From around 3500 BCE, early civilizations like Mesopotamia, Egypt, the Indus Valley, and China began. Legacy: These ancient routes were the world’s first global network! They helped shape ou. Topics: What was the most famous land-based ancient trade route?, Which animal helped traders cross deserts on the Silk Road?.",
+      "filename": "ancient-trade-ch5-portrait.webp"
+    }
+  ]
+}

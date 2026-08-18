@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "voltaire-rousseau",
+  "title": "Voltaire and Rousseau",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "voltaire-rousseau",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Voltaire and Rousseau. Type: historical-figure. Background: Voltaire was born in Paris in 1694. He loved books, jokes, and truth — so much that he got sent to j. Legacy: Voltaire and Rousseau remind us that ideas can change the world. Today, kids hav. Topics: What was the Enlightenment?, What did Voltaire believe was very important?.",
+      "filename": "voltaire-rousseau-portrait.webp"
+    },
+    {
+      "id": "voltaire-rousseau-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Voltaire and Rousseau. Type: historical-figure. Background: Voltaire was born in Paris in 1694. He loved books, jokes, and truth — so much that he got sent to j. Legacy: Voltaire and Rousseau remind us that ideas can change the world. Today, kids hav. Topics: What was the Enlightenment?, What did Voltaire believe was very important?.",
+      "filename": "voltaire-rousseau-scene.webp"
+    }
+  ]
+}

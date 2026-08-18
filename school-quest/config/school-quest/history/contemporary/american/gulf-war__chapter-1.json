@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gulf-war",
+  "title": "The Gulf War",
+  "lessonType": "lesson",
+  "chapter": "chapter-1",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "gulf-war",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Gulf War. Type: lesson. Topics: Why did Iraq invade Kuwait in 1990?, What was Operation Desert Storm?.",
+      "filename": "gulf-war-timeline.webp"
+    },
+    {
+      "id": "gulf-war-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Gulf War. Type: lesson. Topics: Why did Iraq invade Kuwait in 1990?, What was Operation Desert Storm?.",
+      "filename": "gulf-war-scene.webp"
+    }
+  ]
+}

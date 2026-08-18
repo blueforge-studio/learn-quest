@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-americans",
+  "title": "The First Americans",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "first-americans",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The First Americans. Type: timeline. Background: Around 20,000 years ago, the world was much colder. So much water was frozen in giant glaciers that . Legacy: All the indigenous peoples of North and South America are descendants of those f. Topics: What was the name of the land bridge the first Americans crossed?, Why did the first people come to the Americas?.",
+      "filename": "first-americans-timeline.webp"
+    },
+    {
+      "id": "first-americans-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The First Americans. Type: timeline. Background: Around 20,000 years ago, the world was much colder. So much water was frozen in giant glaciers that . Legacy: All the indigenous peoples of North and South America are descendants of those f. Topics: What was the name of the land bridge the first Americans crossed?, Why did the first people come to the Americas?.",
+      "filename": "first-americans-scene.webp"
+    }
+  ]
+}

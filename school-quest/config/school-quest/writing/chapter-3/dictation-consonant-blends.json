@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "dictation-consonant-blends",
+  "title": "Consonant Blends: 'bl', 'st', 'gr'",
+  "lessonType": "dictation",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-writing/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "dictation-consonant-blends-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Consonant Blends: 'bl', 'st', 'gr'. Educational writing example.",
+      "filename": "dictation-consonant-blends-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "dictation-consonant-blends-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Consonant Blends: 'bl', 'st', 'gr'. Writing template visual.",
+      "filename": "dictation-consonant-blends-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "dictation-consonant-blends-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Consonant Blends: 'bl', 'st', 'gr'. Descriptive scene image.",
+      "filename": "dictation-consonant-blends-scene.webp",
+      "quality": 85
+    }
+  ]
+}

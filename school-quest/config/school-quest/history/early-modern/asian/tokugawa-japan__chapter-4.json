@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tokugawa-japan",
+  "title": "Tokugawa Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "tokugawa-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was divided by civil wars between powerful samurai lords. In 1600,. Legacy: The Tokugawa period created a distinct Japanese culture that continues to influe. Topics: Who was the real ruler of Japan during the Tokugawa period?, What was Japan's policy toward foreign countries for most of this period?.",
+      "filename": "tokugawa-japan-map.webp"
+    },
+    {
+      "id": "tokugawa-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was divided by civil wars between powerful samurai lords. In 1600,. Legacy: The Tokugawa period created a distinct Japanese culture that continues to influe. Topics: Who was the real ruler of Japan during the Tokugawa period?, What was Japan's policy toward foreign countries for most of this period?.",
+      "filename": "tokugawa-japan-portrait.webp"
+    }
+  ]
+}

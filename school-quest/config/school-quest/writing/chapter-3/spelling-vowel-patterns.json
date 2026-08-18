@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "spelling-vowel-patterns",
+  "title": "Short Vowel Patterns: CVC Words",
+  "lessonType": "spelling",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-writing/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "spelling-vowel-patterns-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Short Vowel Patterns: CVC Words. Educational writing example.",
+      "filename": "spelling-vowel-patterns-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "spelling-vowel-patterns-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Short Vowel Patterns: CVC Words. Writing template visual.",
+      "filename": "spelling-vowel-patterns-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "spelling-vowel-patterns-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Short Vowel Patterns: CVC Words. Descriptive scene image.",
+      "filename": "spelling-vowel-patterns-scene.webp",
+      "quality": 85
+    }
+  ]
+}

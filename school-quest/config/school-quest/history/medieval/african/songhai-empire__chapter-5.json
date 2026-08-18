@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "songhai-empire",
+  "title": "The Songhai Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "songhai-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Songhai Empire. Type: era-exploration. Background: The Songhai people lived along the Niger River — a lifeline that brought water, fish, trade, and tra. Legacy: The Songhai Empire reminds us that greatness comes in many forms — not just swor. Topics: What important river helped the Songhai Empire grow and trade?, Which famous city in the Songhai Empire was known as a center of learning and books?.",
+      "filename": "songhai-empire-map.webp"
+    },
+    {
+      "id": "songhai-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Songhai Empire. Type: era-exploration. Background: The Songhai people lived along the Niger River — a lifeline that brought water, fish, trade, and tra. Legacy: The Songhai Empire reminds us that greatness comes in many forms — not just swor. Topics: What important river helped the Songhai Empire grow and trade?, Which famous city in the Songhai Empire was known as a center of learning and books?.",
+      "filename": "songhai-empire-portrait.webp"
+    }
+  ]
+}

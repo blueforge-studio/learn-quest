@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-ottoman",
+  "title": "The End of an Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "fall-of-ottoman",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The End of an Empire. Type: era-exploration. Background: The Ottoman Empire began in 1299 in what is now Turkey. At its height, it controlled much of southea. Legacy: From the ashes of the Ottoman Empire rose the modern Republic of Turkey in 1923,. Topics: How long did the Ottoman Empire rule before its fall?, Which war finally ended the Ottoman Empire?.",
+      "filename": "fall-of-ottoman-map.webp"
+    },
+    {
+      "id": "fall-of-ottoman-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The End of an Empire. Type: era-exploration. Background: The Ottoman Empire began in 1299 in what is now Turkey. At its height, it controlled much of southea. Legacy: From the ashes of the Ottoman Empire rose the modern Republic of Turkey in 1923,. Topics: How long did the Ottoman Empire rule before its fall?, Which war finally ended the Ottoman Empire?.",
+      "filename": "fall-of-ottoman-portrait.webp"
+    }
+  ]
+}

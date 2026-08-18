@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "qing-dynasty",
+  "title": "The Qing Dynasty",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "qing-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Qing Dynasty. Type: era-exploration. Background: The Qing Dynasty began when the Manchu people — from northeast Asia — defeated the Ming Dynasty and . Legacy: The Qing Dynasty left behind stunning palaces, breathtaking paintings, elegant s. Topics: Where did the Qing rulers originally come from?, What was special about Emperor Kangxi’s reign?.",
+      "filename": "qing-dynasty-map.webp"
+    },
+    {
+      "id": "qing-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Qing Dynasty. Type: era-exploration. Background: The Qing Dynasty began when the Manchu people — from northeast Asia — defeated the Ming Dynasty and . Legacy: The Qing Dynasty left behind stunning palaces, breathtaking paintings, elegant s. Topics: Where did the Qing rulers originally come from?, What was special about Emperor Kangxi’s reign?.",
+      "filename": "qing-dynasty-portrait.webp"
+    }
+  ]
+}

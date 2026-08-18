@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "siddhartha-buddha",
+  "title": "Siddhartha and Buddhism",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "siddhartha-buddha",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Siddhartha and Buddhism. Type: historical-figure. Background: Siddhartha was born a prince in a small kingdom in what is now Nepal. His father, the king, tried to. Legacy: The Buddha's teachings spread from India across Asia and eventually the whole wo. Topics: What was Siddhartha's life like before he began his spiritual quest?, What did Siddhartha realize after seeing the 'Four Sights'?.",
+      "filename": "siddhartha-buddha-portrait.webp"
+    },
+    {
+      "id": "siddhartha-buddha-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Siddhartha and Buddhism. Type: historical-figure. Background: Siddhartha was born a prince in a small kingdom in what is now Nepal. His father, the king, tried to. Legacy: The Buddha's teachings spread from India across Asia and eventually the whole wo. Topics: What was Siddhartha's life like before he began his spiritual quest?, What did Siddhartha realize after seeing the 'Four Sights'?.",
+      "filename": "siddhartha-buddha-scene.webp"
+    }
+  ]
+}

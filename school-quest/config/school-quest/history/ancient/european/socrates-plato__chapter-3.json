@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "socrates-plato",
+  "title": "Socrates and Plato",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "socrates-plato",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: They lived in Athens, a powerful and creative city-state in ancient Greece. Socrates was a stonecutt. Legacy: Their ideas are still taught in schools and universities all over the world. The. Topics: In which ancient city did Socrates and Plato live and teach?, How did Socrates usually teach people?.",
+      "filename": "socrates-plato-portrait.webp"
+    },
+    {
+      "id": "socrates-plato-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: They lived in Athens, a powerful and creative city-state in ancient Greece. Socrates was a stonecutt. Legacy: Their ideas are still taught in schools and universities all over the world. The. Topics: In which ancient city did Socrates and Plato live and teach?, How did Socrates usually teach people?.",
+      "filename": "socrates-plato-scene.webp"
+    }
+  ]
+}

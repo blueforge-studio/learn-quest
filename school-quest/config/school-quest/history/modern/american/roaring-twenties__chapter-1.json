@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "roaring-twenties",
+  "title": "The Roaring Twenties",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "roaring-twenties",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Roaring Twenties. Type: era-exploration. Background: After World War I ended in 1918, many people in the United States and Canada felt hopeful and ready . Legacy: The 1920s changed how people thought about music, fashion, gender roles, and cre. Topics: What kind of music became super popular in the 1920s?, What were 'flappers' known for?.",
+      "filename": "roaring-twenties-map.webp"
+    },
+    {
+      "id": "roaring-twenties-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Roaring Twenties. Type: era-exploration. Background: After World War I ended in 1918, many people in the United States and Canada felt hopeful and ready . Legacy: The 1920s changed how people thought about music, fashion, gender roles, and cre. Topics: What kind of music became super popular in the 1920s?, What were 'flappers' known for?.",
+      "filename": "roaring-twenties-portrait.webp"
+    }
+  ]
+}

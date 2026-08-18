@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "silk-road",
+  "title": "The Silk Road",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "silk-road",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: The Silk Road wasn’t built by one person or opened on a single day. It began growing slowly around 3. Legacy: The Silk Road taught the world how connected we can be. Ideas like zero (from In. Topics: What was the most famous item traded from China on the Silk Road?, Which animal was best known for carrying goods across the desert on the Silk Road?.",
+      "filename": "silk-road-map.webp"
+    },
+    {
+      "id": "silk-road-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: The Silk Road wasn’t built by one person or opened on a single day. It began growing slowly around 3. Legacy: The Silk Road taught the world how connected we can be. Ideas like zero (from In. Topics: What was the most famous item traded from China on the Silk Road?, Which animal was best known for carrying goods across the desert on the Silk Road?.",
+      "filename": "silk-road-portrait.webp"
+    }
+  ]
+}

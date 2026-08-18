@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "colonialism-industrial",
+  "title": "Industrial Colonialism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "colonialism-industrial",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the Industrial Revolution, European countries like Britain, France, and Spain already had som. Legacy: Industrial colonialism reshaped the entire world map and global economy. It crea. Topics: What did European factories need from colonies?, What new invention helped Europeans travel to colonies faster?.",
+      "filename": "colonialism-industrial-map.webp"
+    },
+    {
+      "id": "colonialism-industrial-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the Industrial Revolution, European countries like Britain, France, and Spain already had som. Legacy: Industrial colonialism reshaped the entire world map and global economy. It crea. Topics: What did European factories need from colonies?, What new invention helped Europeans travel to colonies faster?.",
+      "filename": "colonialism-industrial-portrait.webp"
+    }
+  ]
+}

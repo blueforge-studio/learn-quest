@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "steam-engine",
+  "title": "The Steam Engine",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "steam-engine",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Steam Engine. Type: era-exploration. Background: Before the steam engine, people and animals did most of the work, or they used simple machines power. Legacy: The steam engine was the 'powerhouse' of the Industrial Revolution. It led to fa. Topics: What was the main problem James Watt solved with his improved steam engine?, How did the steam engine change factories?.",
+      "filename": "steam-engine-map.webp"
+    },
+    {
+      "id": "steam-engine-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Steam Engine. Type: era-exploration. Background: Before the steam engine, people and animals did most of the work, or they used simple machines power. Legacy: The steam engine was the 'powerhouse' of the Industrial Revolution. It led to fa. Topics: What was the main problem James Watt solved with his improved steam engine?, How did the steam engine change factories?.",
+      "filename": "steam-engine-portrait.webp"
+    }
+  ]
+}

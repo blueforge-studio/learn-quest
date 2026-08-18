@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "shakespeare",
+  "title": "William Shakespeare",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "shakespeare",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: William Shakespeare. Type: historical-figure. Background: William was born in Stratford-upon-Avon, a small town in England, in 1564. He went to grammar school. Legacy: Shakespeare’s stories and words are everywhere — in movies, songs, schools, and . Topics: Where was William Shakespeare born?, Which famous theater did Shakespeare help own and perform in?.",
+      "filename": "shakespeare-portrait.webp"
+    },
+    {
+      "id": "shakespeare-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: William Shakespeare. Type: historical-figure. Background: William was born in Stratford-upon-Avon, a small town in England, in 1564. He went to grammar school. Legacy: Shakespeare’s stories and words are everywhere — in movies, songs, schools, and . Topics: Where was William Shakespeare born?, Which famous theater did Shakespeare help own and perform in?.",
+      "filename": "shakespeare-scene.webp"
+    }
+  ]
+}

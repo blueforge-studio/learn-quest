@@ -1,0 +1,53 @@
+{
+  "templateLesson": "lq-reading/public/data/lessons/en/chapter-1/phonics-letter-sounds-a.json",
+  "categories": {
+    "phonics": [
+      { "id": "short-vowels", "title": "Short Vowel Sounds", "type": "phonics", "description": "Short a, e, i, o, u in CVC words (cat, bed, pig)" },
+      { "id": "consonant-blends", "title": "Consonant Blends", "type": "phonics", "description": "bl, br, cl, cr, dr, fl, fr, gr, pl, pr, sl, sm, sn, st, tr" },
+      { "id": "digraphs", "title": "Digraphs", "type": "phonics", "description": "ch, sh, th, wh, ph sounds and words" },
+      { "id": "long-vowels", "title": "Long Vowel Sounds", "type": "phonics", "description": "Long a, e, i, o, u and the sounds they make in words" },
+      { "id": "r-controlled", "title": "R-Controlled Vowels", "type": "phonics", "description": "ar, er, ir, or, ur sounds like in car, her, bird" },
+      { "id": "silent-e-rule", "title": "Silent E Rule", "type": "phonics", "description": "How adding e to the end changes a short vowel to long" },
+      { "id": "vowel-teams", "title": "Vowel Teams", "type": "phonics", "description": "Two vowels together like ea, oa, ai, ee in words" },
+      { "id": "diphthongs", "title": "Diphthongs", "type": "phonics", "description": "Gliding vowel sounds like oi, oy, ou, ow in words" },
+      { "id": "syllable-types", "title": "Syllable Types", "type": "phonics", "description": "Open and closed syllables and how to split words apart" },
+      { "id": "word-building", "title": "Word Building", "type": "phonics", "description": "Blend sounds together to build and read new words" }
+    ],
+    "vocabulary": [
+      { "id": "sight-words-1", "title": "Sight Words Level 1", "type": "sight-words", "description": "the, and, is, it, to, in, you, that, he, was" },
+      { "id": "word-families", "title": "Word Families", "type": "sight-words", "description": "-at, -an, -ig, -op, -ug word family groups" },
+      { "id": "compound-words", "title": "Compound Words", "type": "sight-words", "description": "sun+flower, rain+bow, book+shelf, bed+room" },
+      { "id": "prefixes-suffixes", "title": "Prefixes and Suffixes", "type": "sight-words", "description": "Word parts like un-, re-, pre-, -ing, -ful, -less" },
+      { "id": "context-clues", "title": "Context Clues", "type": "sight-words", "description": "Use surrounding words to figure out what a new word means" },
+      { "id": "synonyms-antonyms", "title": "Synonyms and Antonyms", "type": "sight-words", "description": "Words that mean the same and words that mean the opposite" },
+      { "id": "homophones", "title": "Homophones", "type": "sight-words", "description": "Words that sound alike but have different meanings: their, there" },
+      { "id": "multiple-meanings", "title": "Multiple Meaning Words", "type": "sight-words", "description": "Words like bank, bat, and ring that mean different things" },
+      { "id": "root-words", "title": "Root Words", "type": "sight-words", "description": "Base words that help you understand bigger words" },
+      { "id": "dictionary-skills", "title": "Dictionary Skills", "type": "sight-words", "description": "How to look up words and read dictionary entries" }
+    ],
+    "comprehension": [
+      { "id": "main-idea", "title": "Finding the Main Idea", "type": "comprehension", "description": "Read short passages and identify the main idea" },
+      { "id": "story-elements", "title": "Story Elements", "type": "comprehension", "description": "Characters, setting, problem, solution in stories" },
+      { "id": "cause-effect", "title": "Cause and Effect", "type": "comprehension", "description": "Identify what happened and why in short texts" },
+      { "id": "inference-making", "title": "Making Inferences", "type": "comprehension", "description": "Use clues in the text to figure out what is not directly said" },
+      { "id": "sequencing", "title": "Sequencing Events", "type": "comprehension", "description": "Put story events in the correct order from first to last" },
+      { "id": "compare-contrast", "title": "Compare and Contrast", "type": "comprehension", "description": "Find similarities and differences between characters or ideas" },
+      { "id": "authors-purpose", "title": "Author's Purpose", "type": "comprehension", "description": "Figure out if the author wants to inform, persuade, or entertain" },
+      { "id": "fact-vs-opinion", "title": "Fact vs Opinion", "type": "comprehension", "description": "Tell the difference between what is true and what someone thinks" },
+      { "id": "summarizing", "title": "Summarizing", "type": "comprehension", "description": "Retell the most important parts of a story in your own words" },
+      { "id": "predicting", "title": "Making Predictions", "type": "comprehension", "description": "Guess what will happen next using clues from the story" }
+    ],
+    "literature": [
+      { "id": "fables-morals", "title": "Fables and Their Morals", "type": "interactive-story", "description": "Aesop fables: Tortoise and Hare, Fox and Grapes" },
+      { "id": "fairy-tales", "title": "Classic Fairy Tales", "type": "interactive-story", "description": "Cinderella, Jack and the Beanstalk, Three Little Pigs" },
+      { "id": "poetry-intro", "title": "Introduction to Poetry", "type": "fluency", "description": "Rhyme, rhythm, simple poems by Shel Silverstein, Dr. Seuss" },
+      { "id": "myths-legends", "title": "Myths and Legends", "type": "interactive-story", "description": "Ancient stories from Greece, Norse, and world cultures" },
+      { "id": "tall-tales", "title": "Tall Tales", "type": "interactive-story", "description": "Paul Bunyan, Pecos Bill, and other larger-than-life heroes" },
+      { "id": "biography-reading", "title": "Reading Biographies", "type": "comprehension", "description": "True stories about famous people and their achievements" },
+      { "id": "historical-fiction", "title": "Historical Fiction", "type": "interactive-story", "description": "Made-up stories set in real times from the past" },
+      { "id": "science-fiction-intro", "title": "Introduction to Science Fiction", "type": "interactive-story", "description": "Stories about future technology, space travel, and robots" },
+      { "id": "poetry-forms", "title": "Poetry Forms", "type": "fluency", "description": "Haiku, limerick, acrostic, and other fun poem styles" },
+      { "id": "drama-reading", "title": "Reading Drama", "type": "fluency", "description": "Read short plays with dialogue, stage directions, and scenes" }
+    ]
+  }
+}

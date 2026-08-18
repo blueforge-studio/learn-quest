@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-revolution",
+  "title": "The American Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "american-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The American Revolution. Type: timeline. Background: For over 150 years, people in America lived as British colonies. They paid taxes to a king and gover. Legacy: The American Revolution created the United States of America, the first modern d. Topics: What famous event involved colonists dumping tea into Boston Harbor?, In what year did the colonies declare independence from Britain?.",
+      "filename": "american-revolution-timeline.webp"
+    },
+    {
+      "id": "american-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The American Revolution. Type: timeline. Background: For over 150 years, people in America lived as British colonies. They paid taxes to a king and gover. Legacy: The American Revolution created the United States of America, the first modern d. Topics: What famous event involved colonists dumping tea into Boston Harbor?, In what year did the colonies declare independence from Britain?.",
+      "filename": "american-revolution-scene.webp"
+    }
+  ]
+}

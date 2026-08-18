@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "samurai-japan",
+  "title": "Samurai Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "samurai-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: Long ago, Japan was made up of many small regions ruled by powerful families. To protect their lands. Legacy: The samurai are still loved today in movies, games, and books — not just for the. Topics: What does 'Bushido' mean?, Which weapon was most special to the samurai?.",
+      "filename": "samurai-japan-map.webp"
+    },
+    {
+      "id": "samurai-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: Long ago, Japan was made up of many small regions ruled by powerful families. To protect their lands. Legacy: The samurai are still loved today in movies, games, and books — not just for the. Topics: What does 'Bushido' mean?, Which weapon was most special to the samurai?.",
+      "filename": "samurai-japan-portrait.webp"
+    }
+  ]
+}

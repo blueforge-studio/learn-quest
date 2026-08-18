@@ -1,0 +1,53 @@
+{
+  "templateLesson": "lq-science/public/data/lessons/en/chapter-1/science-concept-states-of-matter.json",
+  "categories": {
+    "biology": [
+      { "id": "plant-parts", "title": "Parts of a Plant", "type": "science-concept", "description": "Roots, stems, leaves, flowers and their functions" },
+      { "id": "animal-habitats", "title": "Animal Habitats", "type": "science-concept", "description": "Where animals live: forest, ocean, desert, arctic" },
+      { "id": "food-chains", "title": "Food Chains", "type": "science-concept", "description": "Producers, consumers, decomposers and energy flow" },
+      { "id": "cell-basics", "title": "Cell Basics", "type": "science-concept", "description": "Plant and animal cells, cell parts and what they do" },
+      { "id": "ecosystems", "title": "Ecosystems", "type": "science-concept", "description": "How living things interact with each other and their environment" },
+      { "id": "photosynthesis", "title": "Photosynthesis", "type": "science-concept", "description": "How plants use sunlight, water, and air to make food" },
+      { "id": "life-cycles", "title": "Life Cycles", "type": "science-concept", "description": "Stages of life for butterflies, frogs, plants, and humans" },
+      { "id": "human-body-systems", "title": "Human Body Systems", "type": "science-concept", "description": "Skeleton, muscles, heart, lungs, and how they work together" },
+      { "id": "animal-adaptations", "title": "Animal Adaptations", "type": "science-concept", "description": "How animals survive with camouflage, hibernation, and migration" },
+      { "id": "classification-of-living", "title": "Classifying Living Things", "type": "classification", "description": "Sort animals and plants into groups by their features" }
+    ],
+    "chemistry": [
+      { "id": "matter-properties", "title": "Properties of Matter", "type": "science-concept", "description": "Mass, volume, density, color, texture" },
+      { "id": "mixtures-solutions", "title": "Mixtures and Solutions", "type": "experiment", "description": "Dissolving, mixing, separating substances" },
+      { "id": "chemical-reactions", "title": "Simple Chemical Reactions", "type": "experiment", "description": "Baking soda + vinegar, rusting, cooking changes" },
+      { "id": "atoms-intro", "title": "Introduction to Atoms", "type": "science-concept", "description": "Tiny building blocks that make up everything around us" },
+      { "id": "periodic-table-basics", "title": "Periodic Table Basics", "type": "science-concept", "description": "How elements are organized and what the table tells us" },
+      { "id": "acids-bases", "title": "Acids and Bases", "type": "experiment", "description": "Test everyday liquids with pH paper and indicators" },
+      { "id": "chemical-bonds", "title": "Chemical Bonds", "type": "science-concept", "description": "How atoms stick together to form molecules" },
+      { "id": "elements-compounds", "title": "Elements and Compounds", "type": "science-concept", "description": "Pure substances vs combinations like water (H2O)" },
+      { "id": "energy-in-reactions", "title": "Energy in Reactions", "type": "experiment", "description": "Endothermic and exothermic reactions you can feel" },
+      { "id": "everyday-chemistry", "title": "Everyday Chemistry", "type": "science-concept", "description": "Chemistry in cooking, cleaning, and nature" }
+    ],
+    "physics": [
+      { "id": "forces-motion", "title": "Forces and Motion", "type": "science-concept", "description": "Push, pull, gravity, friction basics" },
+      { "id": "simple-machines", "title": "Simple Machines", "type": "science-concept", "description": "Levers, pulleys, inclined planes, wheels" },
+      { "id": "light-sound", "title": "Light and Sound", "type": "science-concept", "description": "How light travels, reflection, sound waves, vibration" },
+      { "id": "electricity-basics", "title": "Electricity Basics", "type": "science-concept", "description": "Circuits, conductors, insulators, and static electricity" },
+      { "id": "magnetism", "title": "Magnetism", "type": "science-concept", "description": "Magnets, poles, magnetic fields, and compasses" },
+      { "id": "energy-forms", "title": "Forms of Energy", "type": "science-concept", "description": "Heat, light, sound, kinetic, and potential energy" },
+      { "id": "heat-transfer", "title": "Heat Transfer", "type": "science-concept", "description": "Conduction, convection, and radiation in everyday life" },
+      { "id": "waves-intro", "title": "Introduction to Waves", "type": "science-concept", "description": "Wave properties: crests, troughs, wavelength, amplitude" },
+      { "id": "speed-velocity", "title": "Speed and Velocity", "type": "science-concept", "description": "Measuring how fast things move and in which direction" },
+      { "id": "gravity-weight", "title": "Gravity and Weight", "type": "science-concept", "description": "Why things fall down and how gravity differs on other planets" }
+    ],
+    "earth-science": [
+      { "id": "rock-types", "title": "Types of Rocks", "type": "science-concept", "description": "Igneous, sedimentary, metamorphic rocks and the rock cycle" },
+      { "id": "water-cycle", "title": "The Water Cycle", "type": "science-concept", "description": "Evaporation, condensation, precipitation, collection" },
+      { "id": "weather-patterns", "title": "Weather Patterns", "type": "science-concept", "description": "Clouds, rain, temperature, seasons" },
+      { "id": "soil-types", "title": "Soil Types", "type": "science-concept", "description": "Sand, silt, clay, loam and what grows best in each" },
+      { "id": "fossils-intro", "title": "Introduction to Fossils", "type": "science-concept", "description": "How fossils form and what they tell us about the past" },
+      { "id": "earthquakes-volcanoes", "title": "Earthquakes and Volcanoes", "type": "science-concept", "description": "Why the ground shakes and mountains erupt" },
+      { "id": "natural-resources", "title": "Natural Resources", "type": "science-concept", "description": "Renewable and nonrenewable resources we use every day" },
+      { "id": "erosion-weathering", "title": "Erosion and Weathering", "type": "science-concept", "description": "How wind, water, and ice break down and move rock" },
+      { "id": "ocean-floor", "title": "The Ocean Floor", "type": "science-concept", "description": "Trenches, ridges, and mountains hidden under the sea" },
+      { "id": "atmosphere-layers", "title": "Layers of the Atmosphere", "type": "science-concept", "description": "Troposphere, stratosphere, and the air that surrounds Earth" }
+    ]
+  }
+}

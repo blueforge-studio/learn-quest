@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ww2-pacific",
+  "title": "World War II in the Pacific",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "ww2-pacific",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War II in the Pacific. Type: timeline. Background: By the 1930s, Japan wanted more land and resources to grow its empire. It invaded parts of China and. Legacy: The Pacific War taught the world how important teamwork, quick thinking, and pea. Topics: What famous U.S. naval base was attacked on December 7, 1941?, What clever idea did the U.S. use to move closer to Japan without fighting on every island?.",
+      "filename": "ww2-pacific-timeline.webp"
+    },
+    {
+      "id": "ww2-pacific-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War II in the Pacific. Type: timeline. Background: By the 1930s, Japan wanted more land and resources to grow its empire. It invaded parts of China and. Legacy: The Pacific War taught the world how important teamwork, quick thinking, and pea. Topics: What famous U.S. naval base was attacked on December 7, 1941?, What clever idea did the U.S. use to move closer to Japan without fighting on every island?.",
+      "filename": "ww2-pacific-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "thirty-years-war",
+  "title": "The Thirty Years' War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "thirty-years-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Thirty Years' War. Type: era-exploration. Background: In the early 1600s, Europe was divided by religion. The Protestant Reformation had created new Chris. Legacy: The war was a horrible tragedy. It caused immense suffering, famine, and disease. Topics: What was the main reason the Thirty Years' War started?, What surprising country joined the war on the Protestant side, even though it was Catholic?.",
+      "filename": "thirty-years-war-map.webp"
+    },
+    {
+      "id": "thirty-years-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Thirty Years' War. Type: era-exploration. Background: In the early 1600s, Europe was divided by religion. The Protestant Reformation had created new Chris. Legacy: The war was a horrible tragedy. It caused immense suffering, famine, and disease. Topics: What was the main reason the Thirty Years' War started?, What surprising country joined the war on the Protestant side, even though it was Catholic?.",
+      "filename": "thirty-years-war-portrait.webp"
+    }
+  ]
+}

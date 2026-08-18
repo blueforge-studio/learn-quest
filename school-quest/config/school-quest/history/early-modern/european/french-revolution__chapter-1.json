@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "french-revolution",
+  "title": "The French Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "french-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The French Revolution. Type: timeline. Background: By the late 1700s, France was in big trouble: the royal family spent too much money, farmers had bad. Legacy: Though the Revolution had ups and downs, its ideas changed the world forever! 'L. Topics: What famous event happened on July 14, 1789 — now celebrated as France’s Independence Day?, What did the Declaration of the Rights of Man say all people deserve?.",
+      "filename": "french-revolution-timeline.webp"
+    },
+    {
+      "id": "french-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The French Revolution. Type: timeline. Background: By the late 1700s, France was in big trouble: the royal family spent too much money, farmers had bad. Legacy: Though the Revolution had ups and downs, its ideas changed the world forever! 'L. Topics: What famous event happened on July 14, 1789 — now celebrated as France’s Independence Day?, What did the Declaration of the Rights of Man say all people deserve?.",
+      "filename": "french-revolution-scene.webp"
+    }
+  ]
+}

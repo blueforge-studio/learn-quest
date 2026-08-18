@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "world-war-2-europe",
+  "title": "World War II in Europe",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "world-war-2-europe",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War II in Europe. Type: timeline. Background: After World War I, many European countries were struggling. In Germany, a leader named Adolf Hitler . Legacy: WWII taught the world powerful lessons about kindness, courage, and protecting p. Topics: What does 'Blitzkrieg' mean?, Which event marked the beginning of the liberation of Europe from Nazi control?.",
+      "filename": "world-war-2-europe-timeline.webp"
+    },
+    {
+      "id": "world-war-2-europe-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War II in Europe. Type: timeline. Background: After World War I, many European countries were struggling. In Germany, a leader named Adolf Hitler . Legacy: WWII taught the world powerful lessons about kindness, courage, and protecting p. Topics: What does 'Blitzkrieg' mean?, Which event marked the beginning of the liberation of Europe from Nazi control?.",
+      "filename": "world-war-2-europe-scene.webp"
+    }
+  ]
+}

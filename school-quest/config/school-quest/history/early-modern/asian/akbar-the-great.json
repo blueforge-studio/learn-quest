@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "akbar-the-great",
+  "title": "Akbar the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "akbar-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Akbar the Great. Type: historical-figure. Background: Akbar was born in 1542 in Umerkot, in what is now Pakistan. His father, Humayun, was the Mughal empe. Legacy: Akbar is remembered as 'the Great' not just for his military power, but for his . Topics: How old was Akbar when he became emperor?, What was one of Akbar's most famous ideas for uniting his empire?.",
+      "filename": "akbar-the-great-portrait.webp"
+    },
+    {
+      "id": "akbar-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Akbar the Great. Type: historical-figure. Background: Akbar was born in 1542 in Umerkot, in what is now Pakistan. His father, Humayun, was the Mughal empe. Legacy: Akbar is remembered as 'the Great' not just for his military power, but for his . Topics: How old was Akbar when he became emperor?, What was one of Akbar's most famous ideas for uniting his empire?.",
+      "filename": "akbar-the-great-scene.webp"
+    }
+  ]
+}

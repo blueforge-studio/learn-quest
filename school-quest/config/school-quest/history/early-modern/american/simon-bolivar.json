@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "simon-bolivar",
+  "title": "Simón Bolívar",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "simon-bolivar",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Simón Bolívar. Type: historical-figure. Background: Born in 1783 in Caracas, Venezuela, into a wealthy family, Simón was orphaned as a child. He travele. Legacy: Simón Bolívar is a hero to millions. He is called 'El Libertador' (The Liberator. Topics: What is Simón Bolívar's famous nickname?, Which amazing natural obstacle did Bolívar's army cross to surprise the Spanish?.",
+      "filename": "simon-bolivar-portrait.webp"
+    },
+    {
+      "id": "simon-bolivar-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Simón Bolívar. Type: historical-figure. Background: Born in 1783 in Caracas, Venezuela, into a wealthy family, Simón was orphaned as a child. He travele. Legacy: Simón Bolívar is a hero to millions. He is called 'El Libertador' (The Liberator. Topics: What is Simón Bolívar's famous nickname?, Which amazing natural obstacle did Bolívar's army cross to surprise the Spanish?.",
+      "filename": "simon-bolivar-scene.webp"
+    }
+  ]
+}

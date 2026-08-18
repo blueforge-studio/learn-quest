@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "iron-age-ch2",
+  "title": "The Iron Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "iron-age-ch2",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: Before the Iron Age, people used stone (Stone Age) and then bronze (Bronze Age) for tools. But bronz. Legacy: The Iron Age laid the foundation for everything that came next — from ancient Ro. Topics: What made iron better than bronze for tools?, How did iron help farmers?.",
+      "filename": "iron-age-ch2-map.webp"
+    },
+    {
+      "id": "iron-age-ch2-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: Before the Iron Age, people used stone (Stone Age) and then bronze (Bronze Age) for tools. But bronz. Legacy: The Iron Age laid the foundation for everything that came next — from ancient Ro. Topics: What made iron better than bronze for tools?, How did iron help farmers?.",
+      "filename": "iron-age-ch2-portrait.webp"
+    }
+  ]
+}

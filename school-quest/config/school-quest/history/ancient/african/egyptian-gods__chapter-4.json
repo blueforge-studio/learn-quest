@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "egyptian-gods",
+  "title": "Egyptian Gods and Beliefs",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "egyptian-gods",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Egyptian Gods and Beliefs. Type: era-exploration. Background: For over 3,000 years, the people of ancient Egypt lived along the Nile River. Their lives were deepl. Legacy: Egyptian myths have inspired stories for centuries. Their beliefs about judgment. Topics: Who was the powerful Egyptian sun god who sailed across the sky?, What was the job of Osiris in the afterlife?.",
+      "filename": "egyptian-gods-map.webp"
+    },
+    {
+      "id": "egyptian-gods-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Egyptian Gods and Beliefs. Type: era-exploration. Background: For over 3,000 years, the people of ancient Egypt lived along the Nile River. Their lives were deepl. Legacy: Egyptian myths have inspired stories for centuries. Their beliefs about judgment. Topics: Who was the powerful Egyptian sun god who sailed across the sky?, What was the job of Osiris in the afterlife?.",
+      "filename": "egyptian-gods-portrait.webp"
+    }
+  ]
+}

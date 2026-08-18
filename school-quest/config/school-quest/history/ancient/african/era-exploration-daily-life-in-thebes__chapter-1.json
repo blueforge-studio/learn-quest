@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "era-exploration-daily-life-in-thebes",
+  "title": "A Day in the Life of an Egyptian Child in Thebes",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "era-exploration-daily-life-in-thebes",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: A Day in the Life of an Egyptian Child in Thebes. Type: era-exploration. Topics: What did ancient Egyptian children use to practice writing before paper was invented?.",
+      "filename": "era-exploration-daily-life-in-thebes-map.webp"
+    },
+    {
+      "id": "era-exploration-daily-life-in-thebes-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: A Day in the Life of an Egyptian Child in Thebes. Type: era-exploration. Topics: What did ancient Egyptian children use to practice writing before paper was invented?.",
+      "filename": "era-exploration-daily-life-in-thebes-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "child-labor",
+  "title": "Child Labor",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "child-labor",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Child Labor. Type: era-exploration. Background: In the late 1700s, new machines powered by steam engines changed how things were made. Big factories. Legacy: The fight against child labor helped create the idea that childhood is special. . Topics: Why did factory owners hire children during the Industrial Revolution?, What was a common danger for children working in factories?.",
+      "filename": "child-labor-map.webp"
+    },
+    {
+      "id": "child-labor-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Child Labor. Type: era-exploration. Background: In the late 1700s, new machines powered by steam engines changed how things were made. Big factories. Legacy: The fight against child labor helped create the idea that childhood is special. . Topics: Why did factory owners hire children during the Industrial Revolution?, What was a common danger for children working in factories?.",
+      "filename": "child-labor-portrait.webp"
+    }
+  ]
+}

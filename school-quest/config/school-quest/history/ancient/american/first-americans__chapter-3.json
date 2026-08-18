@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-americans",
+  "title": "The First Americans",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "first-americans",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The First Americans. Type: timeline. Background: Around 20,000 to 15,000 years ago, the world was much colder. So much water was frozen in giant glac. Legacy: The descendants of these first explorers became the hundreds of diverse Native A. Topics: What was the name of the land bridge that connected Asia and North America during the Ice Age?, Why were the first people able to walk from Asia to America?.",
+      "filename": "first-americans-timeline.webp"
+    },
+    {
+      "id": "first-americans-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The First Americans. Type: timeline. Background: Around 20,000 to 15,000 years ago, the world was much colder. So much water was frozen in giant glac. Legacy: The descendants of these first explorers became the hundreds of diverse Native A. Topics: What was the name of the land bridge that connected Asia and North America during the Ice Age?, Why were the first people able to walk from Asia to America?.",
+      "filename": "first-americans-scene.webp"
+    }
+  ]
+}

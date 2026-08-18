@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fdr-new-deal",
+  "title": "FDR and the New Deal",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "fdr-new-deal",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: FDR and the New Deal. Type: historical-figure. Background: FDR was born into a wealthy family in New York in 1882. He became a lawyer and entered politics, but. Legacy: FDR is the only president elected four times. His New Deal programs changed the . Topics: What was the name of FDR's plan to help America during the Great Depression?, How did FDR talk directly to the American people?.",
+      "filename": "fdr-new-deal-portrait.webp"
+    },
+    {
+      "id": "fdr-new-deal-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: FDR and the New Deal. Type: historical-figure. Background: FDR was born into a wealthy family in New York in 1882. He became a lawyer and entered politics, but. Legacy: FDR is the only president elected four times. His New Deal programs changed the . Topics: What was the name of FDR's plan to help America during the Great Depression?, How did FDR talk directly to the American people?.",
+      "filename": "fdr-new-deal-scene.webp"
+    }
+  ]
+}

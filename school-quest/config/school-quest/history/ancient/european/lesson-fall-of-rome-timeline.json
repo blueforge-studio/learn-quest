@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "lesson-fall-of-rome-timeline",
+  "title": "The Fall of Rome: A Timeline of Change",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "lesson-fall-of-rome-timeline",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Fall of Rome: A Timeline of Change. Type: timeline. Topics: Why is 476 CE considered the 'fall' of Rome—even though Rome kept going in the East?.",
+      "filename": "lesson-fall-of-rome-timeline-timeline.webp"
+    },
+    {
+      "id": "lesson-fall-of-rome-timeline-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Fall of Rome: A Timeline of Change. Type: timeline. Topics: Why is 476 CE considered the 'fall' of Rome—even though Rome kept going in the East?.",
+      "filename": "lesson-fall-of-rome-timeline-scene.webp"
+    }
+  ]
+}

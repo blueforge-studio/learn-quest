@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-laws-ch5",
+  "title": "The First Laws",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-laws-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient cities like Babylon and Rome, life could get confusing with so many people living close t. Legacy: The idea of writing laws down for public display is the foundation of our legal . Topics: Where were the Twelve Tables displayed for all Romans to see?, What famous phrase is associated with Hammurabi's Code?.",
+      "filename": "ancient-laws-ch5-map.webp"
+    },
+    {
+      "id": "ancient-laws-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient cities like Babylon and Rome, life could get confusing with so many people living close t. Legacy: The idea of writing laws down for public display is the foundation of our legal . Topics: Where were the Twelve Tables displayed for all Romans to see?, What famous phrase is associated with Hammurabi's Code?.",
+      "filename": "ancient-laws-ch5-portrait.webp"
+    }
+  ]
+}

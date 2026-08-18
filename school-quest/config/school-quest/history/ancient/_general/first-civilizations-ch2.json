@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-civilizations-ch2",
+  "title": "The First Civilizations",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "first-civilizations-ch2",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The First Civilizations. Type: timeline. Background: Around 10,000 years ago, people discovered how to grow crops like wheat and barley and raise animals. Legacy: The inventions of the first civilizations—writing, laws, cities, wheeled vehicle. Topics: Why did the first civilizations start in river valleys?, Which civilization built cities with straight streets and indoor bathrooms over 4,000 years ago?.",
+      "filename": "first-civilizations-ch2-timeline.webp"
+    },
+    {
+      "id": "first-civilizations-ch2-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The First Civilizations. Type: timeline. Background: Around 10,000 years ago, people discovered how to grow crops like wheat and barley and raise animals. Legacy: The inventions of the first civilizations—writing, laws, cities, wheeled vehicle. Topics: Why did the first civilizations start in river valleys?, Which civilization built cities with straight streets and indoor bathrooms over 4,000 years ago?.",
+      "filename": "first-civilizations-ch2-scene.webp"
+    }
+  ]
+}

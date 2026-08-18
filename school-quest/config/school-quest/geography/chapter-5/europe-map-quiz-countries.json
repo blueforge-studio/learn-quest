@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "europe-map-quiz-countries",
+  "title": "Europe's Country Challenge",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-geography/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "europe-map-quiz-countries-map",
+      "type": "map",
+      "prompt": "Map illustration for: Europe's Country Challenge. Educational geography map.",
+      "filename": "europe-map-quiz-countries-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "europe-map-quiz-countries-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Europe's Country Challenge. Famous geographical location.",
+      "filename": "europe-map-quiz-countries-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "europe-map-quiz-countries-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Europe's Country Challenge. Geographic region visual.",
+      "filename": "europe-map-quiz-countries-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "europe-map-quiz-countries-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Europe's Country Challenge. Natural environment visual.",
+      "filename": "europe-map-quiz-countries-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

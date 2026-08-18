@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-china-dynasties",
+  "title": "Chinese Dynasties",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-china-dynasties",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient China began along the Yellow River, where farming villages grew into powerful kingdoms. The . Legacy: The first 2000 years of Chinese dynasties created the foundation for one of the . Topics: Which dynasty was the first to have written records in ancient China?, What major project did the First Emperor of the Qin Dynasty begin?.",
+      "filename": "ancient-china-dynasties-timeline.webp"
+    },
+    {
+      "id": "ancient-china-dynasties-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient China began along the Yellow River, where farming villages grew into powerful kingdoms. The . Legacy: The first 2000 years of Chinese dynasties created the foundation for one of the . Topics: Which dynasty was the first to have written records in ancient China?, What major project did the First Emperor of the Qin Dynasty begin?.",
+      "filename": "ancient-china-dynasties-scene.webp"
+    }
+  ]
+}

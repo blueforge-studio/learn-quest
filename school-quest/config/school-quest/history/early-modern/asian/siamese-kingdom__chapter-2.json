@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "siamese-kingdom",
+  "title": "The Kingdom of Siam",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "siamese-kingdom",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Kingdom of Siam. Type: era-exploration. Background: Ayutthaya was founded in 1351 on a river delta in central Thailand. By 1500, it had grown into a ric. Legacy: Even after Ayutthaya fell in 1767, its spirit lived on. The modern nation of Tha. Topics: What was the name of Siam’s famous capital city?, Which animals did Siam use as gentle giants in parades and ceremonies?.",
+      "filename": "siamese-kingdom-map.webp"
+    },
+    {
+      "id": "siamese-kingdom-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Kingdom of Siam. Type: era-exploration. Background: Ayutthaya was founded in 1351 on a river delta in central Thailand. By 1500, it had grown into a ric. Legacy: Even after Ayutthaya fell in 1767, its spirit lived on. The modern nation of Tha. Topics: What was the name of Siam’s famous capital city?, Which animals did Siam use as gentle giants in parades and ceremonies?.",
+      "filename": "siamese-kingdom-portrait.webp"
+    }
+  ]
+}

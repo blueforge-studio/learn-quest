@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ww2-pacific",
+  "title": "World War II in the Pacific",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "ww2-pacific",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War II in the Pacific. Type: timeline. Background: In the early 1900s, Japan wanted more land and resources to grow its empire. It built a powerful nav. Legacy: After the war, Japan rebuilt as a peaceful democracy. Many Asian nations gained . Topics: What event caused the United States to join World War II?, What was the 'island-hopping' strategy?.",
+      "filename": "ww2-pacific-timeline.webp"
+    },
+    {
+      "id": "ww2-pacific-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War II in the Pacific. Type: timeline. Background: In the early 1900s, Japan wanted more land and resources to grow its empire. It built a powerful nav. Legacy: After the war, Japan rebuilt as a peaceful democracy. Many Asian nations gained . Topics: What event caused the United States to join World War II?, What was the 'island-hopping' strategy?.",
+      "filename": "ww2-pacific-scene.webp"
+    }
+  ]
+}

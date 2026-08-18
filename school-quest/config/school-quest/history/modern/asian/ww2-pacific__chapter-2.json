@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ww2-pacific",
+  "title": "World War II in the Pacific",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "ww2-pacific",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War II in the Pacific. Type: timeline. Background: In the early 1900s, Japan wanted to grow its empire and control more land and resources in Asia and . Legacy: The end of WWII led to peace in the Pacific, new friendships between countries, . Topics: What famous U.S. naval base was attacked on December 7, 1941?, What clever idea helped the U.S. win the Battle of Midway?.",
+      "filename": "ww2-pacific-timeline.webp"
+    },
+    {
+      "id": "ww2-pacific-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War II in the Pacific. Type: timeline. Background: In the early 1900s, Japan wanted to grow its empire and control more land and resources in Asia and . Legacy: The end of WWII led to peace in the Pacific, new friendships between countries, . Topics: What famous U.S. naval base was attacked on December 7, 1941?, What clever idea helped the U.S. win the Battle of Midway?.",
+      "filename": "ww2-pacific-scene.webp"
+    }
+  ]
+}

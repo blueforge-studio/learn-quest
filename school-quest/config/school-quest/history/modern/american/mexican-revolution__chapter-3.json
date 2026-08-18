@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mexican-revolution",
+  "title": "The Mexican Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "mexican-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Mexican Revolution. Type: timeline. Background: For over 30 years, Mexico was ruled by President Porfirio Díaz. During his rule, the country built r. Legacy: The Mexican Revolution transformed Mexico. It created a sense of national pride . Topics: What were the two main things Emiliano Zapata was fighting for?, Where did Pancho Villa lead his revolutionary army?.",
+      "filename": "mexican-revolution-timeline.webp"
+    },
+    {
+      "id": "mexican-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Mexican Revolution. Type: timeline. Background: For over 30 years, Mexico was ruled by President Porfirio Díaz. During his rule, the country built r. Legacy: The Mexican Revolution transformed Mexico. It created a sense of national pride . Topics: What were the two main things Emiliano Zapata was fighting for?, Where did Pancho Villa lead his revolutionary army?.",
+      "filename": "mexican-revolution-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "teddy-roosevelt",
+  "title": "Theodore Roosevelt",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "teddy-roosevelt",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Theodore Roosevelt. Type: historical-figure. Background: Born in New York City in 1858, young Teddy was often sick with asthma and couldn’t play outside much. Legacy: Today, millions of kids hike in national parks, watch eagles soar in wildlife re. Topics: How old was Theodore Roosevelt when he became president?, What was the name of Teddy’s famous volunteer army?.",
+      "filename": "teddy-roosevelt-portrait.webp"
+    },
+    {
+      "id": "teddy-roosevelt-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Theodore Roosevelt. Type: historical-figure. Background: Born in New York City in 1858, young Teddy was often sick with asthma and couldn’t play outside much. Legacy: Today, millions of kids hike in national parks, watch eagles soar in wildlife re. Topics: How old was Theodore Roosevelt when he became president?, What was the name of Teddy’s famous volunteer army?.",
+      "filename": "teddy-roosevelt-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-egypt-pharaohs",
+  "title": "Egypt: Land of the Pharaohs",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "ancient-egypt-pharaohs",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Ancient Egypt began when villages along the Nile River united into one kingdom around 3100 BCE. The . Legacy: Ancient Egypt left an incredible mark on the world. We still marvel at their pyr. Topics: What was the most important geographic feature for Ancient Egyptian civilization?, During which kingdom were the Great Pyramids of Giza built?.",
+      "filename": "ancient-egypt-pharaohs-map.webp"
+    },
+    {
+      "id": "ancient-egypt-pharaohs-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Ancient Egypt began when villages along the Nile River united into one kingdom around 3100 BCE. The . Legacy: Ancient Egypt left an incredible mark on the world. We still marvel at their pyr. Topics: What was the most important geographic feature for Ancient Egyptian civilization?, During which kingdom were the Great Pyramids of Giza built?.",
+      "filename": "ancient-egypt-pharaohs-portrait.webp"
+    }
+  ]
+}

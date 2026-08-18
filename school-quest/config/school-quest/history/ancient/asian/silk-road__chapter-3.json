@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "silk-road",
+  "title": "The Silk Road",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "silk-road",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: The Silk Road wasn’t built by one person or country — it grew slowly over thousands of years! Early . Legacy: The Silk Road helped shape our world! Without it, paper might not have reached E. Topics: What was the MOST famous item traded from China along the Silk Road?, Which animal was nicknamed the 'ship of the desert' on the Silk Road?.",
+      "filename": "silk-road-map.webp"
+    },
+    {
+      "id": "silk-road-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: The Silk Road wasn’t built by one person or country — it grew slowly over thousands of years! Early . Legacy: The Silk Road helped shape our world! Without it, paper might not have reached E. Topics: What was the MOST famous item traded from China along the Silk Road?, Which animal was nicknamed the 'ship of the desert' on the Silk Road?.",
+      "filename": "silk-road-portrait.webp"
+    }
+  ]
+}

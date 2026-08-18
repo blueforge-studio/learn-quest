@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-japan",
+  "title": "Ancient Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Japan. Type: era-exploration. Background: Ancient Japan began with the Jomon people — hunter-gatherers who lived in villages across the island. Legacy: Jomon pottery inspires modern artists; Shinto shrines still welcome visitors wit. Topics: What does 'Jomon' mean in Japanese?, What are 'kami' in Shinto belief?.",
+      "filename": "ancient-japan-map.webp"
+    },
+    {
+      "id": "ancient-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Japan. Type: era-exploration. Background: Ancient Japan began with the Jomon people — hunter-gatherers who lived in villages across the island. Legacy: Jomon pottery inspires modern artists; Shinto shrines still welcome visitors wit. Topics: What does 'Jomon' mean in Japanese?, What are 'kami' in Shinto belief?.",
+      "filename": "ancient-japan-portrait.webp"
+    }
+  ]
+}

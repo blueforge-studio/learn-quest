@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-americans",
+  "title": "The First Americans",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "first-americans",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The First Americans. Type: timeline. Background: Around 25,000 years ago, much of the world's water was frozen in giant glaciers, causing sea levels . Legacy: The journey of the First Americans is an incredible story of human exploration a. Topics: How did the first people likely reach North America from Asia?, What was the name of the land bridge they crossed?.",
+      "filename": "first-americans-timeline.webp"
+    },
+    {
+      "id": "first-americans-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The First Americans. Type: timeline. Background: Around 25,000 years ago, much of the world's water was frozen in giant glaciers, causing sea levels . Legacy: The journey of the First Americans is an incredible story of human exploration a. Topics: How did the first people likely reach North America from Asia?, What was the name of the land bridge they crossed?.",
+      "filename": "first-americans-scene.webp"
+    }
+  ]
+}

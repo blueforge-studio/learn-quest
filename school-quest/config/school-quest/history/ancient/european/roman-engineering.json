@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "roman-engineering",
+  "title": "Roman Engineering",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "roman-engineering",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Roman Engineering. Type: era-exploration. Background: As the Roman Empire grew, its leaders needed ways to connect and control their new lands. They built. Legacy: Roman engineering shaped the modern world. Many modern roads follow old Roman ro. Topics: What was the main purpose of the vast network of Roman roads?, What did Roman aqueducts carry?.",
+      "filename": "roman-engineering-map.webp"
+    },
+    {
+      "id": "roman-engineering-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Roman Engineering. Type: era-exploration. Background: As the Roman Empire grew, its leaders needed ways to connect and control their new lands. They built. Legacy: Roman engineering shaped the modern world. Many modern roads follow old Roman ro. Topics: What was the main purpose of the vast network of Roman roads?, What did Roman aqueducts carry?.",
+      "filename": "roman-engineering-portrait.webp"
+    }
+  ]
+}

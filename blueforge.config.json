@@ -1,0 +1,78 @@
+{
+  "name": "learn-quest",
+  "displayName": "Learn Quest",
+  "category": "tool",
+  "tags": [
+    "learning",
+    "education",
+    "quests"
+  ],
+  "target": "hetzner",
+  "server": "hetzner-prod-1",
+  "registry": "ghcr.io/blueforge-studio",
+  "portRange": [3000, 3999],
+  "caddyEmail": "ops@blueforge.studio",
+  "packageManager": "pnpm",
+  "apps": {
+    "lq-site": {
+      "path": "lq-site",
+      "type": "next",
+      "port": 3500
+    },
+    "books-platform": {
+      "path": "books-platform",
+      "type": "next",
+      "port": 8080
+    },
+    "lingua-quest-site": {
+      "path": "lingua-quest/apps/site",
+      "type": "next",
+      "port": 3500,
+      "domains": ["linguaquest.blueforge.studio"]
+    },
+    "lingua-quest-api": {
+      "path": "lingua-quest/apps/api",
+      "type": "express",
+      "port": 3002,
+      "healthcheck": "/health",
+      "domains": ["api.linguaquest.blueforge.studio"],
+      "secrets": {
+        "DATABASE_URL": { "source": "literal" },
+        "JWT_SECRET": { "source": "literal" },
+        "STRIPE_SECRET_KEY": { "source": "literal" },
+        "STRIPE_WEBHOOK_SECRET": { "source": "literal" }
+      },
+      "env": {
+        "PORT": "3002",
+        "STRIPE_SUB_YEARLY_PRICE": "price_1TLg112HDZANBvp8Awa2oZib",
+        "STRIPE_SUB_MONTHLY_PRICE": "price_1TLg1A2HDZANBvp88THmAC6G",
+        "STRIPE_QUEST_PRICE": "price_1TLg1C2HDZANBvp8Gt5OGhpZ"
+      }
+    },
+    "lingua-quest-collab-server": {
+      "path": "lingua-quest/apps/collab-server",
+      "type": "hono",
+      "port": 3040,
+      "healthcheck": "/health",
+      "domains": ["collab.linguaquest.blueforge.studio"],
+      "secrets": {
+        "DATABASE_URL": { "source": "literal" },
+        "JWT_SECRET": { "source": "literal" }
+      },
+      "env": {
+        "PORT": "3040",
+        "FORGE_AUTH_URL": "https://auth.blueforge.studio"
+      }
+    },
+    "lingua-quest-quest-editor": {
+      "path": "lingua-quest/apps/quest-editor",
+      "type": "vite",
+      "port": 8082
+    },
+    "lingua-quest-web": {
+      "path": "lingua-quest/apps/web",
+      "type": "vite",
+      "port": 8081
+    }
+  }
+}

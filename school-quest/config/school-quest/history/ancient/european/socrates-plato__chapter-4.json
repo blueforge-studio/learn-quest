@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "socrates-plato",
+  "title": "Socrates and Plato",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "socrates-plato",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: Socrates was born in Athens, Greece, around 470 BCE. He didn't write books; instead, he taught by wa. Legacy: Socrates and Plato are considered the fathers of Western philosophy. Their metho. Topics: How did Socrates primarily teach his students?, What was the name of the famous school that Plato started?.",
+      "filename": "socrates-plato-portrait.webp"
+    },
+    {
+      "id": "socrates-plato-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: Socrates was born in Athens, Greece, around 470 BCE. He didn't write books; instead, he taught by wa. Legacy: Socrates and Plato are considered the fathers of Western philosophy. Their metho. Topics: How did Socrates primarily teach his students?, What was the name of the famous school that Plato started?.",
+      "filename": "socrates-plato-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "han-dynasty-inventions",
+  "title": "Han Dynasty Inventions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "han-dynasty-inventions",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Han Dynasty Inventions. Type: era-exploration. Background: The Han Dynasty ruled China from 206 BCE to 220 CE — a time of peace, trade (like the Silk Road!), a. Legacy: Han inventions shaped our modern world! Paper made books and schools possible. C. Topics: Who invented the first real paper during the Han Dynasty?, What did the Han Dynasty’s ‘dragon-seismograph’ help detect?.",
+      "filename": "han-dynasty-inventions-map.webp"
+    },
+    {
+      "id": "han-dynasty-inventions-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Han Dynasty Inventions. Type: era-exploration. Background: The Han Dynasty ruled China from 206 BCE to 220 CE — a time of peace, trade (like the Silk Road!), a. Legacy: Han inventions shaped our modern world! Paper made books and schools possible. C. Topics: Who invented the first real paper during the Han Dynasty?, What did the Han Dynasty’s ‘dragon-seismograph’ help detect?.",
+      "filename": "han-dynasty-inventions-portrait.webp"
+    }
+  ]
+}

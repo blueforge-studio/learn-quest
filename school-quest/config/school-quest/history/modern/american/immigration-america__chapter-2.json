@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "immigration-america",
+  "title": "Ellis Island and the Dream of a Better Life",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "immigration-america",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ellis Island and the Dream of a Better Life. Type: era-exploration. Background: In the 1800s and early 1900s, many people in Europe and other parts of the world faced hard times—li. Legacy: Ellis Island is now a museum. The stories of the 12 million people who entered t. Topics: What was Ellis Island?, What statue did immigrants often see first when their ship arrived?.",
+      "filename": "immigration-america-map.webp"
+    },
+    {
+      "id": "immigration-america-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ellis Island and the Dream of a Better Life. Type: era-exploration. Background: In the 1800s and early 1900s, many people in Europe and other parts of the world faced hard times—li. Legacy: Ellis Island is now a museum. The stories of the 12 million people who entered t. Topics: What was Ellis Island?, What statue did immigrants often see first when their ship arrived?.",
+      "filename": "immigration-america-portrait.webp"
+    }
+  ]
+}

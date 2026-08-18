@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-cities",
+  "title": "Maya Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-cities",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE, with people farming maize and beans. Over thousands of . Legacy: The ancient Maya left behind magnificent ruins that tell us about their advanced. Topics: Where did the Maya build their great cities?, What was one major crop that the Maya grew to feed their cities?.",
+      "filename": "maya-cities-map.webp"
+    },
+    {
+      "id": "maya-cities-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE, with people farming maize and beans. Over thousands of . Legacy: The ancient Maya left behind magnificent ruins that tell us about their advanced. Topics: Where did the Maya build their great cities?, What was one major crop that the Maya grew to feed their cities?.",
+      "filename": "maya-cities-portrait.webp"
+    }
+  ]
+}

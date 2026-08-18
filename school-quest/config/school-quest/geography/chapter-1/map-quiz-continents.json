@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "map-quiz-continents",
+  "title": "The Seven Continents",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-geography/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "map-quiz-continents-map",
+      "type": "map",
+      "prompt": "Map illustration for: The Seven Continents. Educational geography map.",
+      "filename": "map-quiz-continents-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-quiz-continents-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: The Seven Continents. Famous geographical location.",
+      "filename": "map-quiz-continents-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-quiz-continents-region",
+      "type": "region",
+      "prompt": "Regional illustration for: The Seven Continents. Geographic region visual.",
+      "filename": "map-quiz-continents-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "map-quiz-continents-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: The Seven Continents. Natural environment visual.",
+      "filename": "map-quiz-continents-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

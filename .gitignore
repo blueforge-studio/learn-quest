@@ -1,0 +1,40 @@
+# learn-quest is a container repo — every child that is its own git repo is ignored.
+# Each product sub-repo lives on its own remote; the container only tracks
+# container-level docs/configs.
+
+# --- nested git repos (own .git) ---
+# life-quest has its own .git wrapping 17 child repos
+books-platform/
+lingua-quest/
+lq-assets/
+lq-core/
+lq-operations/
+lq-site/
+lq-tools/
+life-quest/
+# 14 language-group repos
+lang-quest/lq-*/
+# 6 school-subject repos
+school-quest/lq-*/
+
+# --- tooling / env ---
+node_modules/
+.next/
+dist/
+.turbo/
+coverage/
+*.tsbuildinfo
+.env
+.env.local
+.DS_Store
+
+# --- local state / tooling output ---
+.claude/
+.playwright-mcp/
+e2e-reports/
+.content-db.sqlite
+
+# --- audit / screenshot artifacts (belong in per-app dirs, not the container root) ---
+*.png
+*-snapshot.yml
+Dockerfile.*.bak

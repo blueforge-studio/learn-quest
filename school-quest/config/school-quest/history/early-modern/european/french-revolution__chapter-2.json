@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "french-revolution",
+  "title": "The French Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "french-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The French Revolution. Type: timeline. Background: In the late 1700s, France was ruled by King Louis XVI and Queen Marie Antoinette. The country was in. Legacy: The French Revolution changed the world! Its motto — Liberty, Equality, Fraterni. Topics: What did the Third Estate swear to do in the Tennis Court Oath?, Why was the storming of the Bastille so important?.",
+      "filename": "french-revolution-timeline.webp"
+    },
+    {
+      "id": "french-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The French Revolution. Type: timeline. Background: In the late 1700s, France was ruled by King Louis XVI and Queen Marie Antoinette. The country was in. Legacy: The French Revolution changed the world! Its motto — Liberty, Equality, Fraterni. Topics: What did the Third Estate swear to do in the Tennis Court Oath?, Why was the storming of the Bastille so important?.",
+      "filename": "french-revolution-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "womens-suffrage",
+  "title": "Women's Suffrage",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "womens-suffrage",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Women's Suffrage. Type: timeline. Background: In the 1800s, as ideas about democracy and individual rights spread, many women began to ask: why ca. Legacy: The courage of the suffragists changed history. Today, women's right to vote is . Topics: What was the main goal of the Women's Suffrage movement?, Which country was the first in Europe to give women the right to vote?.",
+      "filename": "womens-suffrage-timeline.webp"
+    },
+    {
+      "id": "womens-suffrage-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Women's Suffrage. Type: timeline. Background: In the 1800s, as ideas about democracy and individual rights spread, many women began to ask: why ca. Legacy: The courage of the suffragists changed history. Today, women's right to vote is . Topics: What was the main goal of the Women's Suffrage movement?, Which country was the first in Europe to give women the right to vote?.",
+      "filename": "womens-suffrage-scene.webp"
+    }
+  ]
+}

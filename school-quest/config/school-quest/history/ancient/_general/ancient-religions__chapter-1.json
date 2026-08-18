@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-religions",
+  "title": "Ancient Religions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-religions",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Religions. Type: era-exploration. Background: In ancient times, before science could explain things like weather or sickness, people created stori. Legacy: These ancient religions shaped art, laws, calendars, and holidays. Many modern s. Topics: What is the belief that everything in nature has a spirit called?, What does 'polytheism' mean?.",
+      "filename": "ancient-religions-map.webp"
+    },
+    {
+      "id": "ancient-religions-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Religions. Type: era-exploration. Background: In ancient times, before science could explain things like weather or sickness, people created stori. Legacy: These ancient religions shaped art, laws, calendars, and holidays. Many modern s. Topics: What is the belief that everything in nature has a spirit called?, What does 'polytheism' mean?.",
+      "filename": "ancient-religions-portrait.webp"
+    }
+  ]
+}

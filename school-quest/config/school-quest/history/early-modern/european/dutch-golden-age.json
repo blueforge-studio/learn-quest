@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "dutch-golden-age",
+  "title": "The Dutch Golden Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "dutch-golden-age",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Dutch Golden Age. Type: era-exploration. Background: In the 17th century (the 1600s), the Netherlands was a small country in Europe with limited land. Bu. Legacy: The Dutch Golden Age showed how trade and tolerance could make a country prosper. Topics: What was special about the Dutch East India Company (VOC)?, Why was Amsterdam so important during the Golden Age?.",
+      "filename": "dutch-golden-age-map.webp"
+    },
+    {
+      "id": "dutch-golden-age-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Dutch Golden Age. Type: era-exploration. Background: In the 17th century (the 1600s), the Netherlands was a small country in Europe with limited land. Bu. Legacy: The Dutch Golden Age showed how trade and tolerance could make a country prosper. Topics: What was special about the Dutch East India Company (VOC)?, Why was Amsterdam so important during the Golden Age?.",
+      "filename": "dutch-golden-age-portrait.webp"
+    }
+  ]
+}

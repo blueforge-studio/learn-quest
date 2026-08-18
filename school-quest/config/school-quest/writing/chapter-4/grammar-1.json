@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "grammar-1",
+  "title": "Discovering Nouns and Verbs",
+  "lessonType": "grammar",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-writing/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "grammar-1-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Discovering Nouns and Verbs. Educational writing example.",
+      "filename": "grammar-1-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "grammar-1-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Discovering Nouns and Verbs. Writing template visual.",
+      "filename": "grammar-1-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "grammar-1-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Discovering Nouns and Verbs. Descriptive scene image.",
+      "filename": "grammar-1-scene.webp",
+      "quality": 85
+    }
+  ]
+}

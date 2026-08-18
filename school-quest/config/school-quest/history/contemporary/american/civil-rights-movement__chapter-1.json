@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "civil-rights-movement",
+  "title": "The Civil Rights Movement",
+  "lessonType": "lesson",
+  "chapter": "chapter-1",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "civil-rights-movement",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Civil Rights Movement. Type: lesson. Topics: What were the laws called that kept Black and white people separate in the South?, What did Rosa Parks do that sparked the Montgomery Bus Boycott?.",
+      "filename": "civil-rights-movement-timeline.webp"
+    },
+    {
+      "id": "civil-rights-movement-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Civil Rights Movement. Type: lesson. Topics: What were the laws called that kept Black and white people separate in the South?, What did Rosa Parks do that sparked the Montgomery Bus Boycott?.",
+      "filename": "civil-rights-movement-scene.webp"
+    }
+  ]
+}

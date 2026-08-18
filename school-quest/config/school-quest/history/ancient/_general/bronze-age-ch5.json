@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "bronze-age-ch5",
+  "title": "The Bronze Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "bronze-age-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: The Bronze Age began at different times around the world, starting in the Middle East around 3500 BC. Legacy: The Bronze Age showed humans how technology could transform society. It proved t. Topics: What two metals are mixed together to make bronze?, Why was bronze better than stone for making tools?.",
+      "filename": "bronze-age-ch5-map.webp"
+    },
+    {
+      "id": "bronze-age-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: The Bronze Age began at different times around the world, starting in the Middle East around 3500 BC. Legacy: The Bronze Age showed humans how technology could transform society. It proved t. Topics: What two metals are mixed together to make bronze?, Why was bronze better than stone for making tools?.",
+      "filename": "bronze-age-ch5-portrait.webp"
+    }
+  ]
+}

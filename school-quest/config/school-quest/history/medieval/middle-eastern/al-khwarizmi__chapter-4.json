@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "al-khwarizmi",
+  "title": "Al-Khwarizmi: Father of Algebra",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "al-khwarizmi",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Al-Khwarizmi: Father of Algebra. Type: historical-figure. Background: Al-Khwarizmi was born in Khwarazm (now part of Uzbekistan) around 780 CE. When he grew up, he moved . Legacy: Al-Khwarizmi’s ideas traveled from Baghdad to Europe through translations in Spa. Topics: What does the word 'algebra' come from?, Which number system did Al-Khwarizmi help spread across the Middle East and later Europe?.",
+      "filename": "al-khwarizmi-portrait.webp"
+    },
+    {
+      "id": "al-khwarizmi-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Al-Khwarizmi: Father of Algebra. Type: historical-figure. Background: Al-Khwarizmi was born in Khwarazm (now part of Uzbekistan) around 780 CE. When he grew up, he moved . Legacy: Al-Khwarizmi’s ideas traveled from Baghdad to Europe through translations in Spa. Topics: What does the word 'algebra' come from?, Which number system did Al-Khwarizmi help spread across the Middle East and later Europe?.",
+      "filename": "al-khwarizmi-scene.webp"
+    }
+  ]
+}

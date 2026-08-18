@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "league-of-nations",
+  "title": "The League of Nations",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "league-of-nations",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The League of Nations. Type: era-exploration. Background: World War I (1914–1918) hurt millions of people and changed Europe forever. People were tired of fig. Legacy: Even though the League couldn’t stop World War II, it was the proud grandparent . Topics: What was the main job of the League of Nations?, Where was the League of Nations based?.",
+      "filename": "league-of-nations-map.webp"
+    },
+    {
+      "id": "league-of-nations-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The League of Nations. Type: era-exploration. Background: World War I (1914–1918) hurt millions of people and changed Europe forever. People were tired of fig. Legacy: Even though the League couldn’t stop World War II, it was the proud grandparent . Topics: What was the main job of the League of Nations?, Where was the League of Nations based?.",
+      "filename": "league-of-nations-portrait.webp"
+    }
+  ]
+}

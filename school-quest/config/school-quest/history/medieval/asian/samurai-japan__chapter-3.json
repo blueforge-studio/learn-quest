@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "samurai-japan",
+  "title": "Samurai Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "samurai-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: From around 500 CE, Japan was divided into powerful regions ruled by noble families. As wars broke o. Legacy: Samurai values live on in modern Japan — in schools that teach respect and respo. Topics: What does 'Bushido' mean?, Which sword was known as the 'soul of the samurai'?.",
+      "filename": "samurai-japan-map.webp"
+    },
+    {
+      "id": "samurai-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Samurai Japan. Type: era-exploration. Background: From around 500 CE, Japan was divided into powerful regions ruled by noble families. As wars broke o. Legacy: Samurai values live on in modern Japan — in schools that teach respect and respo. Topics: What does 'Bushido' mean?, Which sword was known as the 'soul of the samurai'?.",
+      "filename": "samurai-japan-portrait.webp"
+    }
+  ]
+}

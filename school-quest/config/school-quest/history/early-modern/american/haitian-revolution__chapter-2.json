@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "haitian-revolution",
+  "title": "The Haitian Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "haitian-revolution",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: The island of Hispaniola was divided into two colonies: Spanish Santo Domingo (east) and French Sain. Legacy: Haiti became the first independent nation in Latin America and the second in the. Topics: Where did the Haitian Revolution happen?, Who was Toussaint Louverture?.",
+      "filename": "haitian-revolution-map.webp"
+    },
+    {
+      "id": "haitian-revolution-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: The island of Hispaniola was divided into two colonies: Spanish Santo Domingo (east) and French Sain. Legacy: Haiti became the first independent nation in Latin America and the second in the. Topics: Where did the Haitian Revolution happen?, Who was Toussaint Louverture?.",
+      "filename": "haitian-revolution-portrait.webp"
+    }
+  ]
+}

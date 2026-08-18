@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "european-union-formation",
+  "title": "Formation of the European Union",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "european-union-formation",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Formation of the European Union. Type: lesson. Topics: What was the first step toward the EU?, When did the Euro become official currency?.",
+      "filename": "european-union-formation-timeline.webp"
+    },
+    {
+      "id": "european-union-formation-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Formation of the European Union. Type: lesson. Topics: What was the first step toward the EU?, When did the Euro become official currency?.",
+      "filename": "european-union-formation-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,1336 @@
+{
+  "epochs": [
+    {
+      "id": "ancient",
+      "label": "Ancient World",
+      "period": "3500 BCE \u2013 500 CE",
+      "regions": [
+        {
+          "id": "_general",
+          "label": "Overview",
+          "topics": [
+            {
+              "id": "first-civilizations",
+              "title": "The First Civilizations",
+              "type": "timeline",
+              "description": "Mesopotamia, Egypt, Indus Valley, China \u2014 where civilization began"
+            },
+            {
+              "id": "invention-of-writing",
+              "title": "The Invention of Writing",
+              "type": "era-exploration",
+              "description": "Cuneiform, hieroglyphics, and why writing changed everything"
+            },
+            {
+              "id": "bronze-age",
+              "title": "The Bronze Age",
+              "type": "era-exploration",
+              "description": "How bronze tools and weapons changed society"
+            },
+            {
+              "id": "iron-age",
+              "title": "The Iron Age",
+              "type": "era-exploration",
+              "description": "Iron tools, farming improvements, and new empires"
+            },
+            {
+              "id": "ancient-trade",
+              "title": "Ancient Trade Routes",
+              "type": "era-exploration",
+              "description": "Silk Road, maritime routes, exchange of goods and ideas"
+            },
+            {
+              "id": "ancient-religions",
+              "title": "Ancient Religions",
+              "type": "era-exploration",
+              "description": "Early beliefs: animism, polytheism, and the first temples"
+            },
+            {
+              "id": "ancient-inventions",
+              "title": "Ancient Inventions",
+              "type": "timeline",
+              "description": "The wheel, irrigation, calendars, and mathematics"
+            },
+            {
+              "id": "ancient-laws",
+              "title": "The First Laws",
+              "type": "era-exploration",
+              "description": "Code of Hammurabi, Twelve Tables, and early justice"
+            },
+            {
+              "id": "ancient-warfare",
+              "title": "Ancient Warfare",
+              "type": "era-exploration",
+              "description": "Chariots, phalanxes, and siege warfare"
+            },
+            {
+              "id": "fall-of-empires",
+              "title": "Why Empires Fall",
+              "type": "timeline",
+              "description": "Patterns of collapse: Rome, Han, Maurya"
+            }
+          ]
+        },
+        {
+          "id": "african",
+          "label": "Africa",
+          "topics": [
+            {
+              "id": "ancient-egypt-pharaohs",
+              "title": "Egypt: Land of the Pharaohs",
+              "type": "era-exploration",
+              "description": "Old, Middle, and New Kingdoms \u2014 3000 years of pharaohs"
+            },
+            {
+              "id": "pyramids-of-giza",
+              "title": "Building the Pyramids",
+              "type": "era-exploration",
+              "description": "How the Great Pyramids were built and why"
+            },
+            {
+              "id": "hatshepsut",
+              "title": "Hatshepsut: The Woman Pharaoh",
+              "type": "historical-figure",
+              "description": "Egypt's most successful female ruler"
+            },
+            {
+              "id": "kingdom-of-kush",
+              "title": "Kingdom of Kush",
+              "type": "era-exploration",
+              "description": "Nubia's powerful rival to Egypt, rich in gold and iron"
+            },
+            {
+              "id": "carthage-hannibal",
+              "title": "Carthage and Hannibal",
+              "type": "historical-figure",
+              "description": "Hannibal's elephants crossing the Alps to fight Rome"
+            },
+            {
+              "id": "nile-river-life",
+              "title": "Life Along the Nile",
+              "type": "era-exploration",
+              "description": "Farming, flooding, and daily life in ancient Egypt"
+            },
+            {
+              "id": "egyptian-gods",
+              "title": "Egyptian Gods and Beliefs",
+              "type": "era-exploration",
+              "description": "Ra, Osiris, Isis, and the afterlife"
+            },
+            {
+              "id": "hieroglyphics",
+              "title": "Reading Hieroglyphics",
+              "type": "era-exploration",
+              "description": "The Rosetta Stone and decoding ancient Egyptian writing"
+            },
+            {
+              "id": "aksum-empire",
+              "title": "The Empire of Aksum",
+              "type": "era-exploration",
+              "description": "Ethiopia's ancient trading empire"
+            },
+            {
+              "id": "cleopatra",
+              "title": "Cleopatra: Last Pharaoh",
+              "type": "historical-figure",
+              "description": "Egypt's final ruler and her alliance with Rome"
+            }
+          ]
+        },
+        {
+          "id": "european",
+          "label": "Europe",
+          "topics": [
+            {
+              "id": "ancient-greece-democracy",
+              "title": "Greek Democracy",
+              "type": "era-exploration",
+              "description": "Athens invented democracy \u2014 how it worked and who could vote"
+            },
+            {
+              "id": "greek-olympics",
+              "title": "The Olympic Games",
+              "type": "era-exploration",
+              "description": "Sports, competition, and peace in ancient Greece"
+            },
+            {
+              "id": "socrates-plato",
+              "title": "Socrates and Plato",
+              "type": "historical-figure",
+              "description": "The philosophers who shaped Western thought"
+            },
+            {
+              "id": "alexander-the-great",
+              "title": "Alexander the Great",
+              "type": "historical-figure",
+              "description": "The young king who conquered the known world"
+            },
+            {
+              "id": "roman-republic",
+              "title": "The Roman Republic",
+              "type": "era-exploration",
+              "description": "Senate, consuls, and how Rome governed itself"
+            },
+            {
+              "id": "julius-caesar",
+              "title": "Julius Caesar",
+              "type": "historical-figure",
+              "description": "The general who became dictator and changed Rome forever"
+            },
+            {
+              "id": "roman-engineering",
+              "title": "Roman Engineering",
+              "type": "era-exploration",
+              "description": "Roads, aqueducts, concrete, and the Colosseum"
+            },
+            {
+              "id": "pompeii",
+              "title": "Pompeii: Frozen in Time",
+              "type": "era-exploration",
+              "description": "The city buried by Mount Vesuvius in 79 CE"
+            },
+            {
+              "id": "celtic-tribes",
+              "title": "Celtic Europe",
+              "type": "era-exploration",
+              "description": "Druids, warriors, and Iron Age hill forts"
+            },
+            {
+              "id": "fall-of-rome",
+              "title": "Fall of the Roman Empire",
+              "type": "timeline",
+              "description": "Why the greatest empire collapsed"
+            }
+          ]
+        },
+        {
+          "id": "asian",
+          "label": "Asia",
+          "topics": [
+            {
+              "id": "ancient-china-dynasties",
+              "title": "Chinese Dynasties",
+              "type": "timeline",
+              "description": "Shang, Zhou, Qin, Han \u2014 the first 2000 years"
+            },
+            {
+              "id": "qin-shi-huang",
+              "title": "Qin Shi Huang: First Emperor",
+              "type": "historical-figure",
+              "description": "United China, built the Great Wall, created the Terracotta Army"
+            },
+            {
+              "id": "great-wall-china",
+              "title": "The Great Wall of China",
+              "type": "era-exploration",
+              "description": "Why it was built, how long it took, and who built it"
+            },
+            {
+              "id": "silk-road",
+              "title": "The Silk Road",
+              "type": "era-exploration",
+              "description": "Trade routes connecting China to Rome"
+            },
+            {
+              "id": "indus-valley",
+              "title": "Indus Valley Civilization",
+              "type": "era-exploration",
+              "description": "Mohenjo-daro, Harappa, and advanced city planning"
+            },
+            {
+              "id": "siddhartha-buddha",
+              "title": "Siddhartha and Buddhism",
+              "type": "historical-figure",
+              "description": "The prince who became the Buddha"
+            },
+            {
+              "id": "maurya-empire",
+              "title": "The Maurya Empire",
+              "type": "era-exploration",
+              "description": "Ashoka the Great and the spread of Buddhism"
+            },
+            {
+              "id": "confucius",
+              "title": "Confucius and His Teachings",
+              "type": "historical-figure",
+              "description": "The philosopher who shaped Chinese society for 2500 years"
+            },
+            {
+              "id": "han-dynasty-inventions",
+              "title": "Han Dynasty Inventions",
+              "type": "era-exploration",
+              "description": "Paper, compass, seismograph, and the civil service"
+            },
+            {
+              "id": "ancient-japan",
+              "title": "Ancient Japan",
+              "type": "era-exploration",
+              "description": "Jomon pottery, Shinto beliefs, and early emperors"
+            }
+          ]
+        },
+        {
+          "id": "american",
+          "label": "Americas",
+          "topics": [
+            {
+              "id": "olmec-civilization",
+              "title": "The Olmec: Mother Culture",
+              "type": "era-exploration",
+              "description": "The first major Mesoamerican civilization"
+            },
+            {
+              "id": "maya-calendar",
+              "title": "The Maya Calendar",
+              "type": "era-exploration",
+              "description": "Maya astronomy, mathematics, and the Long Count"
+            },
+            {
+              "id": "maya-cities",
+              "title": "Maya Cities",
+              "type": "era-exploration",
+              "description": "Tikal, Palenque, and the jungle kingdoms"
+            },
+            {
+              "id": "teotihuacan",
+              "title": "Teotihuacan: City of the Gods",
+              "type": "era-exploration",
+              "description": "The mysterious metropolis with massive pyramids"
+            },
+            {
+              "id": "nazca-lines",
+              "title": "The Nazca Lines",
+              "type": "era-exploration",
+              "description": "Giant drawings in the desert \u2014 who made them and why?"
+            },
+            {
+              "id": "moche-civilization",
+              "title": "The Moche Civilization",
+              "type": "era-exploration",
+              "description": "Peru's pre-Inca master potters and builders"
+            },
+            {
+              "id": "first-americans",
+              "title": "The First Americans",
+              "type": "timeline",
+              "description": "Ice Age migration and the peopling of the Americas"
+            },
+            {
+              "id": "ancient-mound-builders",
+              "title": "Mound Builders",
+              "type": "era-exploration",
+              "description": "Cahokia and the great earthworks of North America"
+            },
+            {
+              "id": "chavin-culture",
+              "title": "The Chavin Culture",
+              "type": "era-exploration",
+              "description": "Peru's early unifying culture and its jaguar gods"
+            },
+            {
+              "id": "zapotec-monte-alban",
+              "title": "Zapotec: Monte Alban",
+              "type": "era-exploration",
+              "description": "Mexico's mountaintop capital and early writing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "label": "Medieval World",
+      "period": "500 \u2013 1500 CE",
+      "regions": [
+        {
+          "id": "european",
+          "label": "Europe",
+          "topics": [
+            {
+              "id": "feudal-system",
+              "title": "The Feudal System",
+              "type": "era-exploration",
+              "description": "Kings, lords, knights, and peasants"
+            },
+            {
+              "id": "castles-sieges",
+              "title": "Castles and Sieges",
+              "type": "era-exploration",
+              "description": "How castles were built and attacked"
+            },
+            {
+              "id": "charlemagne",
+              "title": "Charlemagne",
+              "type": "historical-figure",
+              "description": "The father of Europe who united the Frankish Empire"
+            },
+            {
+              "id": "viking-age",
+              "title": "The Viking Age",
+              "type": "era-exploration",
+              "description": "Norse explorers, longships, and settlements"
+            },
+            {
+              "id": "crusades",
+              "title": "The Crusades",
+              "type": "timeline",
+              "description": "Holy wars between Europe and the Middle East"
+            },
+            {
+              "id": "black-death",
+              "title": "The Black Death",
+              "type": "era-exploration",
+              "description": "How plague killed a third of Europe"
+            },
+            {
+              "id": "magna-carta",
+              "title": "The Magna Carta",
+              "type": "era-exploration",
+              "description": "The document that limited royal power"
+            },
+            {
+              "id": "medieval-monks",
+              "title": "Medieval Monks and Monasteries",
+              "type": "era-exploration",
+              "description": "How monks preserved knowledge through the Dark Ages"
+            },
+            {
+              "id": "hundred-years-war",
+              "title": "The Hundred Years' War",
+              "type": "timeline",
+              "description": "England vs France: the longest medieval conflict"
+            },
+            {
+              "id": "joan-of-arc",
+              "title": "Joan of Arc",
+              "type": "historical-figure",
+              "description": "The teenage girl who led France to victory"
+            },
+            {
+              "id": "reconquista",
+              "title": "The Reconquista",
+              "type": "timeline",
+              "description": "700 years of Christian kingdoms reconquering the Iberian Peninsula from the Moors"
+            },
+            {
+              "id": "vlad-the-impaler",
+              "title": "Vlad the Impaler",
+              "type": "historical-figure",
+              "description": "The Wallachian prince who fought the Ottomans and inspired the Dracula legend"
+            }
+          ]
+        },
+        {
+          "id": "asian",
+          "label": "Asia",
+          "topics": [
+            {
+              "id": "tang-dynasty",
+              "title": "The Tang Dynasty",
+              "type": "era-exploration",
+              "description": "China's golden age of poetry, art, and trade"
+            },
+            {
+              "id": "genghis-khan",
+              "title": "Genghis Khan",
+              "type": "historical-figure",
+              "description": "The conqueror who built the largest land empire"
+            },
+            {
+              "id": "mongol-empire",
+              "title": "The Mongol Empire",
+              "type": "era-exploration",
+              "description": "From steppes to empire: trade, law, and conquest"
+            },
+            {
+              "id": "samurai-japan",
+              "title": "Samurai Japan",
+              "type": "era-exploration",
+              "description": "Bushido, honor, and the warrior class"
+            },
+            {
+              "id": "khmer-empire",
+              "title": "The Khmer Empire",
+              "type": "era-exploration",
+              "description": "Angkor Wat and Southeast Asia's greatest kingdom"
+            },
+            {
+              "id": "song-dynasty",
+              "title": "Song Dynasty Inventions",
+              "type": "era-exploration",
+              "description": "Gunpowder, printing, and the compass"
+            },
+            {
+              "id": "marco-polo",
+              "title": "Marco Polo's Journey",
+              "type": "historical-figure",
+              "description": "The Venetian who traveled to the court of Kublai Khan"
+            },
+            {
+              "id": "mughal-india",
+              "title": "Early Delhi Sultanate",
+              "type": "era-exploration",
+              "description": "Muslim rule in India and the blending of cultures"
+            },
+            {
+              "id": "ming-dynasty",
+              "title": "The Ming Dynasty",
+              "type": "era-exploration",
+              "description": "The Great Wall rebuilt, the Forbidden City, and treasure ships"
+            },
+            {
+              "id": "zheng-he",
+              "title": "Zheng He's Voyages",
+              "type": "historical-figure",
+              "description": "China's great admiral and his treasure fleet"
+            },
+            {
+              "id": "timur-tamerlane",
+              "title": "Timur (Tamerlane)",
+              "type": "historical-figure",
+              "description": "The Turco-Mongol conqueror who built an empire from India to Turkey"
+            }
+          ]
+        },
+        {
+          "id": "middle-eastern",
+          "label": "Middle East",
+          "topics": [
+            {
+              "id": "rise-of-islam",
+              "title": "The Rise of Islam",
+              "type": "timeline",
+              "description": "Muhammad, the Quran, and the spread of a new faith"
+            },
+            {
+              "id": "golden-age-islam",
+              "title": "Islamic Golden Age",
+              "type": "era-exploration",
+              "description": "Algebra, astronomy, medicine, and the House of Wisdom"
+            },
+            {
+              "id": "saladin",
+              "title": "Saladin",
+              "type": "historical-figure",
+              "description": "The sultan who recaptured Jerusalem"
+            },
+            {
+              "id": "abbasid-caliphate",
+              "title": "The Abbasid Caliphate",
+              "type": "era-exploration",
+              "description": "Baghdad as the center of learning and trade"
+            },
+            {
+              "id": "ottoman-origins",
+              "title": "Rise of the Ottomans",
+              "type": "era-exploration",
+              "description": "How a small Turkish state became a great empire"
+            },
+            {
+              "id": "ibn-battuta",
+              "title": "Ibn Battuta: World Traveler",
+              "type": "historical-figure",
+              "description": "The greatest traveler of the medieval world"
+            },
+            {
+              "id": "seljuk-turks",
+              "title": "The Seljuk Turks",
+              "type": "era-exploration",
+              "description": "Nomadic warriors who reshaped the Middle East"
+            },
+            {
+              "id": "mamluk-egypt",
+              "title": "Mamluk Egypt",
+              "type": "era-exploration",
+              "description": "Slave soldiers who became sultans"
+            },
+            {
+              "id": "persian-literature",
+              "title": "Persian Poetry and Literature",
+              "type": "era-exploration",
+              "description": "Rumi, Hafiz, and the Shahnameh"
+            },
+            {
+              "id": "al-khwarizmi",
+              "title": "Al-Khwarizmi: Father of Algebra",
+              "type": "historical-figure",
+              "description": "The mathematician who gave us algorithms"
+            },
+            {
+              "id": "al-andalus",
+              "title": "Al-Andalus: Moorish Spain",
+              "type": "era-exploration",
+              "description": "The Islamic civilization in Spain \u2014 architecture, science, and coexistence"
+            }
+          ]
+        },
+        {
+          "id": "african",
+          "label": "Africa",
+          "topics": [
+            {
+              "id": "kingdom-of-ghana",
+              "title": "Kingdom of Ghana",
+              "type": "era-exploration",
+              "description": "West Africa's gold empire and trans-Saharan trade"
+            },
+            {
+              "id": "mali-empire",
+              "title": "The Mali Empire",
+              "type": "era-exploration",
+              "description": "Mansa Musa's golden kingdom and Timbuktu"
+            },
+            {
+              "id": "mansa-musa",
+              "title": "Mansa Musa",
+              "type": "historical-figure",
+              "description": "The richest person in history and his famous pilgrimage"
+            },
+            {
+              "id": "great-zimbabwe",
+              "title": "Great Zimbabwe",
+              "type": "era-exploration",
+              "description": "Stone city of southern Africa and its mysteries"
+            },
+            {
+              "id": "songhai-empire",
+              "title": "The Songhai Empire",
+              "type": "era-exploration",
+              "description": "West Africa's last great medieval empire"
+            },
+            {
+              "id": "swahili-coast",
+              "title": "The Swahili Coast",
+              "type": "era-exploration",
+              "description": "Trade cities linking Africa to the Indian Ocean world"
+            },
+            {
+              "id": "ethiopian-churches",
+              "title": "Ethiopia's Rock Churches",
+              "type": "era-exploration",
+              "description": "Lalibela's churches carved from living rock"
+            },
+            {
+              "id": "timbuktu-learning",
+              "title": "Timbuktu: City of Learning",
+              "type": "era-exploration",
+              "description": "Libraries, scholars, and the spread of knowledge"
+            },
+            {
+              "id": "benin-kingdom",
+              "title": "The Kingdom of Benin",
+              "type": "era-exploration",
+              "description": "Bronze casting, city walls, and royal power"
+            },
+            {
+              "id": "sundiata-keita",
+              "title": "Sundiata Keita: Lion King",
+              "type": "historical-figure",
+              "description": "The legendary founder of the Mali Empire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renaissance",
+      "label": "Renaissance & Exploration",
+      "period": "1400 \u2013 1600 CE",
+      "regions": [
+        {
+          "id": "european",
+          "label": "Europe",
+          "topics": [
+            {
+              "id": "italian-renaissance",
+              "title": "The Italian Renaissance",
+              "type": "era-exploration",
+              "description": "Florence, art, and the rebirth of classical learning"
+            },
+            {
+              "id": "leonardo-da-vinci",
+              "title": "Leonardo da Vinci",
+              "type": "historical-figure",
+              "description": "Artist, inventor, and the original Renaissance man"
+            },
+            {
+              "id": "michelangelo",
+              "title": "Michelangelo",
+              "type": "historical-figure",
+              "description": "The sculptor of David and painter of the Sistine Chapel"
+            },
+            {
+              "id": "gutenberg-press",
+              "title": "The Printing Revolution",
+              "type": "era-exploration",
+              "description": "Gutenberg's press and the spread of knowledge"
+            },
+            {
+              "id": "reformation",
+              "title": "The Protestant Reformation",
+              "type": "timeline",
+              "description": "Martin Luther, the 95 Theses, and religious revolution"
+            },
+            {
+              "id": "copernicus-galileo",
+              "title": "Copernicus and Galileo",
+              "type": "historical-figure",
+              "description": "The astronomers who proved Earth orbits the Sun"
+            },
+            {
+              "id": "spanish-inquisition",
+              "title": "The Spanish Inquisition",
+              "type": "era-exploration",
+              "description": "Religious persecution and its impact on Spain"
+            },
+            {
+              "id": "medici-family",
+              "title": "The Medici Family",
+              "type": "era-exploration",
+              "description": "Florence's banking dynasty that funded the Renaissance"
+            },
+            {
+              "id": "shakespeare",
+              "title": "William Shakespeare",
+              "type": "historical-figure",
+              "description": "The playwright who shaped the English language"
+            },
+            {
+              "id": "northern-renaissance",
+              "title": "The Northern Renaissance",
+              "type": "era-exploration",
+              "description": "D\u00fcrer, Erasmus, and humanism beyond Italy"
+            }
+          ]
+        },
+        {
+          "id": "global",
+          "label": "Global Exploration",
+          "topics": [
+            {
+              "id": "columbus-voyage",
+              "title": "Columbus and the New World",
+              "type": "timeline",
+              "description": "The 1492 voyage that changed history"
+            },
+            {
+              "id": "magellan-circumnavigation",
+              "title": "Magellan's Circumnavigation",
+              "type": "era-exploration",
+              "description": "The first voyage around the world"
+            },
+            {
+              "id": "aztec-empire",
+              "title": "The Aztec Empire",
+              "type": "era-exploration",
+              "description": "Tenochtitlan, warriors, and the fall to Cort\u00e9s"
+            },
+            {
+              "id": "inca-empire",
+              "title": "The Inca Empire",
+              "type": "era-exploration",
+              "description": "Machu Picchu, roads, and the Quechua people"
+            },
+            {
+              "id": "vasco-da-gama",
+              "title": "Vasco da Gama",
+              "type": "historical-figure",
+              "description": "The Portuguese explorer who reached India by sea"
+            },
+            {
+              "id": "columbian-exchange",
+              "title": "The Columbian Exchange",
+              "type": "era-exploration",
+              "description": "Plants, animals, and diseases crossing the Atlantic"
+            },
+            {
+              "id": "portuguese-trade",
+              "title": "Portuguese Maritime Empire",
+              "type": "era-exploration",
+              "description": "Spice trade, forts, and global commerce"
+            },
+            {
+              "id": "spanish-conquest",
+              "title": "Spanish Conquest of the Americas",
+              "type": "timeline",
+              "description": "Cort\u00e9s, Pizarro, and the fall of empires"
+            },
+            {
+              "id": "ming-treasure-voyages",
+              "title": "Ming China Meets the World",
+              "type": "era-exploration",
+              "description": "Zheng He's voyages and China's withdrawal"
+            },
+            {
+              "id": "african-slave-trade-begins",
+              "title": "The Atlantic Slave Trade Begins",
+              "type": "timeline",
+              "description": "The devastating trade that shaped three continents"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "early-modern",
+      "label": "Early Modern",
+      "period": "1500 \u2013 1800 CE",
+      "regions": [
+        {
+          "id": "european",
+          "label": "Europe",
+          "topics": [
+            {
+              "id": "scientific-revolution",
+              "title": "The Scientific Revolution",
+              "type": "timeline",
+              "description": "Newton, Kepler, and the birth of modern science"
+            },
+            {
+              "id": "isaac-newton",
+              "title": "Isaac Newton",
+              "type": "historical-figure",
+              "description": "Gravity, calculus, and the laws of motion"
+            },
+            {
+              "id": "enlightenment",
+              "title": "The Age of Enlightenment",
+              "type": "era-exploration",
+              "description": "Reason, liberty, and the rights of man"
+            },
+            {
+              "id": "french-revolution",
+              "title": "The French Revolution",
+              "type": "timeline",
+              "description": "Liberty, equality, and the fall of the monarchy"
+            },
+            {
+              "id": "napoleon",
+              "title": "Napoleon Bonaparte",
+              "type": "historical-figure",
+              "description": "The general who crowned himself emperor"
+            },
+            {
+              "id": "thirty-years-war",
+              "title": "The Thirty Years' War",
+              "type": "era-exploration",
+              "description": "Europe's most devastating religious conflict"
+            },
+            {
+              "id": "peter-the-great",
+              "title": "Peter the Great",
+              "type": "historical-figure",
+              "description": "The tsar who modernized Russia"
+            },
+            {
+              "id": "baroque-art",
+              "title": "Baroque Art and Architecture",
+              "type": "era-exploration",
+              "description": "Grand palaces, dramatic art, and Versailles"
+            },
+            {
+              "id": "british-empire-origins",
+              "title": "Origins of the British Empire",
+              "type": "era-exploration",
+              "description": "From island nation to global power"
+            },
+            {
+              "id": "voltaire-rousseau",
+              "title": "Voltaire and Rousseau",
+              "type": "historical-figure",
+              "description": "The thinkers who inspired revolution"
+            },
+            {
+              "id": "dutch-golden-age",
+              "title": "The Dutch Golden Age",
+              "type": "era-exploration",
+              "description": "The Netherlands as a trading superpower \u2014 VOC, art, and global commerce"
+            },
+            {
+              "id": "dutch-east-india-company",
+              "title": "The Dutch East India Company (VOC)",
+              "type": "era-exploration",
+              "description": "The world's first multinational corporation and its global trade network"
+            }
+          ]
+        },
+        {
+          "id": "american",
+          "label": "Americas",
+          "topics": [
+            {
+              "id": "american-revolution",
+              "title": "The American Revolution",
+              "type": "timeline",
+              "description": "From colonies to independence: 1776 and beyond"
+            },
+            {
+              "id": "george-washington",
+              "title": "George Washington",
+              "type": "historical-figure",
+              "description": "The general who became the first president"
+            },
+            {
+              "id": "colonial-america",
+              "title": "Colonial America",
+              "type": "era-exploration",
+              "description": "Pilgrims, plantations, and the 13 colonies"
+            },
+            {
+              "id": "native-american-encounters",
+              "title": "Native Americans and Colonizers",
+              "type": "era-exploration",
+              "description": "Contact, conflict, and cultural exchange"
+            },
+            {
+              "id": "haitian-revolution",
+              "title": "The Haitian Revolution",
+              "type": "era-exploration",
+              "description": "The first successful slave revolution"
+            },
+            {
+              "id": "simon-bolivar",
+              "title": "Sim\u00f3n Bol\u00edvar",
+              "type": "historical-figure",
+              "description": "The liberator of South America"
+            },
+            {
+              "id": "triangular-trade",
+              "title": "The Triangular Trade",
+              "type": "era-exploration",
+              "description": "Slaves, sugar, and manufactured goods"
+            },
+            {
+              "id": "us-constitution",
+              "title": "The US Constitution",
+              "type": "era-exploration",
+              "description": "Creating a new form of government"
+            },
+            {
+              "id": "lewis-and-clark",
+              "title": "Lewis and Clark Expedition",
+              "type": "era-exploration",
+              "description": "Exploring the American West"
+            },
+            {
+              "id": "benjamin-franklin",
+              "title": "Benjamin Franklin",
+              "type": "historical-figure",
+              "description": "Inventor, diplomat, and Founding Father"
+            }
+          ]
+        },
+        {
+          "id": "asian",
+          "label": "Asia",
+          "topics": [
+            {
+              "id": "mughal-empire",
+              "title": "The Mughal Empire",
+              "type": "era-exploration",
+              "description": "Akbar, the Taj Mahal, and India's golden age"
+            },
+            {
+              "id": "akbar-the-great",
+              "title": "Akbar the Great",
+              "type": "historical-figure",
+              "description": "The Mughal emperor who promoted tolerance"
+            },
+            {
+              "id": "tokugawa-japan",
+              "title": "Tokugawa Japan",
+              "type": "era-exploration",
+              "description": "Shoguns, samurai, and 250 years of peace"
+            },
+            {
+              "id": "qing-dynasty",
+              "title": "The Qing Dynasty",
+              "type": "era-exploration",
+              "description": "China's last imperial dynasty"
+            },
+            {
+              "id": "ottoman-golden-age",
+              "title": "Ottoman Golden Age",
+              "type": "era-exploration",
+              "description": "S\u00fcleyman the Magnificent and the Ottoman Empire"
+            },
+            {
+              "id": "suleiman",
+              "title": "S\u00fcleyman the Magnificent",
+              "type": "historical-figure",
+              "description": "The longest-reigning Ottoman sultan"
+            },
+            {
+              "id": "east-india-companies",
+              "title": "East India Companies",
+              "type": "era-exploration",
+              "description": "European trading companies in Asia"
+            },
+            {
+              "id": "safavid-persia",
+              "title": "Safavid Persia",
+              "type": "era-exploration",
+              "description": "Shah Abbas and the splendor of Isfahan"
+            },
+            {
+              "id": "siamese-kingdom",
+              "title": "The Kingdom of Siam",
+              "type": "era-exploration",
+              "description": "Thailand's Ayutthaya Kingdom and diplomacy"
+            },
+            {
+              "id": "kangxi-emperor",
+              "title": "The Kangxi Emperor",
+              "type": "historical-figure",
+              "description": "China's longest-reigning emperor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial",
+      "label": "Industrial Revolution",
+      "period": "1760 \u2013 1840 CE",
+      "regions": [
+        {
+          "id": "european",
+          "label": "Europe",
+          "topics": [
+            {
+              "id": "steam-engine",
+              "title": "The Steam Engine",
+              "type": "era-exploration",
+              "description": "James Watt and the machine that powered a revolution"
+            },
+            {
+              "id": "factory-system",
+              "title": "The Factory System",
+              "type": "era-exploration",
+              "description": "From cottage industry to mass production"
+            },
+            {
+              "id": "child-labor",
+              "title": "Child Labor",
+              "type": "era-exploration",
+              "description": "Children in mines and factories \u2014 and the fight to stop it"
+            },
+            {
+              "id": "railways",
+              "title": "The Railway Revolution",
+              "type": "timeline",
+              "description": "Stephenson's Rocket and the age of trains"
+            },
+            {
+              "id": "urbanization",
+              "title": "The Growth of Cities",
+              "type": "era-exploration",
+              "description": "Rural to urban: how factories changed where people lived"
+            },
+            {
+              "id": "charles-dickens",
+              "title": "Charles Dickens",
+              "type": "historical-figure",
+              "description": "The novelist who exposed Victorian poverty"
+            },
+            {
+              "id": "spinning-jenny",
+              "title": "Spinning Jenny and Textiles",
+              "type": "era-exploration",
+              "description": "How the textile industry started the revolution"
+            },
+            {
+              "id": "trade-unions",
+              "title": "Trade Unions",
+              "type": "era-exploration",
+              "description": "Workers organizing for better conditions"
+            },
+            {
+              "id": "great-exhibition",
+              "title": "The Great Exhibition of 1851",
+              "type": "era-exploration",
+              "description": "The Crystal Palace and Britain's industrial pride"
+            },
+            {
+              "id": "isambard-brunel",
+              "title": "Isambard Kingdom Brunel",
+              "type": "historical-figure",
+              "description": "The engineer who built bridges, tunnels, and ships"
+            }
+          ]
+        },
+        {
+          "id": "global",
+          "label": "Global Impact",
+          "topics": [
+            {
+              "id": "colonialism-industrial",
+              "title": "Industrial Colonialism",
+              "type": "era-exploration",
+              "description": "How industrial power fueled European empires"
+            },
+            {
+              "id": "abolition-slavery",
+              "title": "Abolition of Slavery",
+              "type": "timeline",
+              "description": "The movement to end the slave trade"
+            },
+            {
+              "id": "opium-wars",
+              "title": "The Opium Wars",
+              "type": "era-exploration",
+              "description": "Britain, China, and the drug trade that started wars"
+            },
+            {
+              "id": "meiji-restoration",
+              "title": "Japan's Meiji Restoration",
+              "type": "era-exploration",
+              "description": "How Japan industrialized in one generation"
+            },
+            {
+              "id": "scramble-for-africa",
+              "title": "The Scramble for Africa",
+              "type": "timeline",
+              "description": "European powers dividing up a continent"
+            },
+            {
+              "id": "american-industrialization",
+              "title": "American Industrialization",
+              "type": "era-exploration",
+              "description": "Railroads, steel, and the rise of US industry"
+            },
+            {
+              "id": "thomas-edison",
+              "title": "Thomas Edison",
+              "type": "historical-figure",
+              "description": "The inventor who lit up the world"
+            },
+            {
+              "id": "suez-canal",
+              "title": "The Suez Canal",
+              "type": "era-exploration",
+              "description": "The waterway that connected East and West"
+            },
+            {
+              "id": "telegraph-communication",
+              "title": "The Telegraph",
+              "type": "era-exploration",
+              "description": "Instant communication changes the world"
+            },
+            {
+              "id": "harriet-tubman",
+              "title": "Harriet Tubman",
+              "type": "historical-figure",
+              "description": "The conductor of the Underground Railroad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "label": "Modern Era",
+      "period": "1800 \u2013 1945 CE",
+      "regions": [
+        {
+          "id": "european",
+          "label": "Europe",
+          "topics": [
+            {
+              "id": "world-war-1",
+              "title": "World War I",
+              "type": "timeline",
+              "description": "The Great War: trenches, alliances, and devastation"
+            },
+            {
+              "id": "russian-revolution",
+              "title": "The Russian Revolution",
+              "type": "timeline",
+              "description": "Lenin, the Bolsheviks, and the fall of the tsar"
+            },
+            {
+              "id": "treaty-of-versailles",
+              "title": "Treaty of Versailles",
+              "type": "era-exploration",
+              "description": "The peace that planted seeds for another war"
+            },
+            {
+              "id": "rise-of-fascism",
+              "title": "The Rise of Fascism",
+              "type": "era-exploration",
+              "description": "Mussolini, Hitler, and the march to war"
+            },
+            {
+              "id": "world-war-2-europe",
+              "title": "World War II in Europe",
+              "type": "timeline",
+              "description": "Blitzkrieg, D-Day, and the liberation of Europe"
+            },
+            {
+              "id": "anne-frank",
+              "title": "Anne Frank",
+              "type": "historical-figure",
+              "description": "The girl whose diary told the world about the Holocaust"
+            },
+            {
+              "id": "winston-churchill",
+              "title": "Winston Churchill",
+              "type": "historical-figure",
+              "description": "The leader who inspired Britain through its darkest hour"
+            },
+            {
+              "id": "womens-suffrage",
+              "title": "Women's Suffrage",
+              "type": "timeline",
+              "description": "The fight for women's right to vote"
+            },
+            {
+              "id": "league-of-nations",
+              "title": "The League of Nations",
+              "type": "era-exploration",
+              "description": "The first attempt at international peacekeeping"
+            },
+            {
+              "id": "marie-curie",
+              "title": "Marie Curie",
+              "type": "historical-figure",
+              "description": "The scientist who discovered radioactivity"
+            }
+          ]
+        },
+        {
+          "id": "asian",
+          "label": "Asia",
+          "topics": [
+            {
+              "id": "meiji-japan-modern",
+              "title": "Modern Japan",
+              "type": "era-exploration",
+              "description": "From feudal society to world power in 50 years"
+            },
+            {
+              "id": "gandhi",
+              "title": "Mahatma Gandhi",
+              "type": "historical-figure",
+              "description": "The man who freed India through nonviolent resistance"
+            },
+            {
+              "id": "indian-independence",
+              "title": "Indian Independence Movement",
+              "type": "timeline",
+              "description": "From British rule to freedom: salt marches and civil disobedience"
+            },
+            {
+              "id": "chinese-revolution",
+              "title": "The Chinese Revolution",
+              "type": "timeline",
+              "description": "Sun Yat-sen, warlords, and the birth of modern China"
+            },
+            {
+              "id": "ww2-pacific",
+              "title": "World War II in the Pacific",
+              "type": "timeline",
+              "description": "Pearl Harbor, island-hopping, and the atomic bomb"
+            },
+            {
+              "id": "fall-of-ottoman",
+              "title": "Fall of the Ottoman Empire",
+              "type": "era-exploration",
+              "description": "How WWI ended 600 years of Ottoman rule"
+            },
+            {
+              "id": "ataturk",
+              "title": "Atat\u00fcrk: Father of Turkey",
+              "type": "historical-figure",
+              "description": "The general who created modern Turkey"
+            },
+            {
+              "id": "boxer-rebellion",
+              "title": "The Boxer Rebellion",
+              "type": "era-exploration",
+              "description": "China's fight against foreign influence"
+            },
+            {
+              "id": "russo-japanese-war",
+              "title": "The Russo-Japanese War",
+              "type": "era-exploration",
+              "description": "The first modern war won by an Asian power"
+            },
+            {
+              "id": "sun-yat-sen",
+              "title": "Sun Yat-sen",
+              "type": "historical-figure",
+              "description": "The father of the Chinese Republic"
+            }
+          ]
+        },
+        {
+          "id": "american",
+          "label": "Americas",
+          "topics": [
+            {
+              "id": "us-civil-war",
+              "title": "The American Civil War",
+              "type": "timeline",
+              "description": "North vs South: slavery, secession, and reunification"
+            },
+            {
+              "id": "abraham-lincoln",
+              "title": "Abraham Lincoln",
+              "type": "historical-figure",
+              "description": "The president who saved the Union and freed the slaves"
+            },
+            {
+              "id": "mexican-revolution",
+              "title": "The Mexican Revolution",
+              "type": "timeline",
+              "description": "Zapata, Villa, and the fight for land and liberty"
+            },
+            {
+              "id": "roaring-twenties",
+              "title": "The Roaring Twenties",
+              "type": "era-exploration",
+              "description": "Jazz, flappers, and the boom before the bust"
+            },
+            {
+              "id": "great-depression",
+              "title": "The Great Depression",
+              "type": "era-exploration",
+              "description": "The economic crash that shook the world"
+            },
+            {
+              "id": "fdr-new-deal",
+              "title": "FDR and the New Deal",
+              "type": "historical-figure",
+              "description": "The president who rebuilt America from depression"
+            },
+            {
+              "id": "panama-canal",
+              "title": "The Panama Canal",
+              "type": "era-exploration",
+              "description": "The engineering marvel that connected two oceans"
+            },
+            {
+              "id": "immigration-america",
+              "title": "Immigration to America",
+              "type": "era-exploration",
+              "description": "Ellis Island and the dream of a better life"
+            },
+            {
+              "id": "wright-brothers",
+              "title": "The Wright Brothers",
+              "type": "historical-figure",
+              "description": "The bicycle makers who invented flight"
+            },
+            {
+              "id": "teddy-roosevelt",
+              "title": "Theodore Roosevelt",
+              "type": "historical-figure",
+              "description": "The Rough Rider who became president and protected nature"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

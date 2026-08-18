@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "skip-counting",
+  "title": "Skip Counting by 2, 5, and 10",
+  "lessonType": "number-sense",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-math/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "skip-counting-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Skip Counting by 2, 5, and 10. . Clear labeled illustration.",
+      "filename": "skip-counting-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "skip-counting-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Skip Counting by 2, 5, and 10. Educational illustration style.",
+      "filename": "skip-counting-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "skip-counting-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Skip Counting by 2, 5, and 10. Step by step visual educational math style.",
+      "filename": "skip-counting-example.webp",
+      "quality": 85
+    }
+  ]
+}

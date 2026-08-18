@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "dictation-sentences-1",
+  "title": "Listen and Write",
+  "lessonType": "dictation",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-writing/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "dictation-sentences-1-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Listen and Write. Educational writing example.",
+      "filename": "dictation-sentences-1-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "dictation-sentences-1-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Listen and Write. Writing template visual.",
+      "filename": "dictation-sentences-1-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "dictation-sentences-1-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Listen and Write. Descriptive scene image.",
+      "filename": "dictation-sentences-1-scene.webp",
+      "quality": 85
+    }
+  ]
+}

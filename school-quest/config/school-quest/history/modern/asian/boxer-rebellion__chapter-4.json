@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "boxer-rebellion",
+  "title": "The Boxer Rebellion",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "boxer-rebellion",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Boxer Rebellion. Type: era-exploration. Background: During the 1800s, powerful countries like Britain, France, Germany, and Japan forced China to give t. Legacy: The Boxer Rebellion showed how strongly many Chinese people wanted to protect th. Topics: What were the Boxers trying to achieve?, What major event did the Boxers carry out in 1900?.",
+      "filename": "boxer-rebellion-map.webp"
+    },
+    {
+      "id": "boxer-rebellion-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Boxer Rebellion. Type: era-exploration. Background: During the 1800s, powerful countries like Britain, France, Germany, and Japan forced China to give t. Legacy: The Boxer Rebellion showed how strongly many Chinese people wanted to protect th. Topics: What were the Boxers trying to achieve?, What major event did the Boxers carry out in 1900?.",
+      "filename": "boxer-rebellion-portrait.webp"
+    }
+  ]
+}

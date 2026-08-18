@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "basic-shapes-ch5",
+  "title": "Basic 2D Shapes",
+  "lessonType": "geometry",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-math/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "basic-shapes-ch5-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Basic 2D Shapes. . Clear labeled illustration.",
+      "filename": "basic-shapes-ch5-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "basic-shapes-ch5-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Basic 2D Shapes. Educational illustration style.",
+      "filename": "basic-shapes-ch5-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "basic-shapes-ch5-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Basic 2D Shapes. Step by step visual educational math style.",
+      "filename": "basic-shapes-ch5-example.webp",
+      "quality": 85
+    }
+  ]
+}

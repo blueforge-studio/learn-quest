@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "leonardo-da-vinci",
+  "title": "Leonardo da Vinci",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "leonardo-da-vinci",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Leonardo da Vinci. Type: historical-figure. Background: Leonardo was born in 1452 in a small Italian town called Vinci. As a boy, he loved to draw and explo. Legacy: Leonardo da Vinci is the perfect example of a 'Renaissance Man' because he was t. Topics: What is Leonardo da Vinci most famous for being?, Which of these is Leonardo's most famous painting?.",
+      "filename": "leonardo-da-vinci-portrait.webp"
+    },
+    {
+      "id": "leonardo-da-vinci-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Leonardo da Vinci. Type: historical-figure. Background: Leonardo was born in 1452 in a small Italian town called Vinci. As a boy, he loved to draw and explo. Legacy: Leonardo da Vinci is the perfect example of a 'Renaissance Man' because he was t. Topics: What is Leonardo da Vinci most famous for being?, Which of these is Leonardo's most famous painting?.",
+      "filename": "leonardo-da-vinci-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "place-value-subtraction",
+  "title": "Tens and Ones Subtraction",
+  "lessonType": "number-sense",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-math/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "place-value-subtraction-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Tens and Ones Subtraction. . Clear labeled illustration.",
+      "filename": "place-value-subtraction-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "place-value-subtraction-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Tens and Ones Subtraction. Educational illustration style.",
+      "filename": "place-value-subtraction-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "place-value-subtraction-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Tens and Ones Subtraction. Step by step visual educational math style.",
+      "filename": "place-value-subtraction-example.webp",
+      "quality": 85
+    }
+  ]
+}

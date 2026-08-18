@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "columbian-exchange",
+  "title": "The Columbian Exchange",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "columbian-exchange",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Columbian Exchange. Type: era-exploration. Background: For thousands of years, the continents were separated by vast oceans. This meant they had completely. Legacy: The Columbian Exchange is one of the most important events in world history. It . Topics: What was the Columbian Exchange?, Which of these foods originally came from the Americas?.",
+      "filename": "columbian-exchange-map.webp"
+    },
+    {
+      "id": "columbian-exchange-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Columbian Exchange. Type: era-exploration. Background: For thousands of years, the continents were separated by vast oceans. This meant they had completely. Legacy: The Columbian Exchange is one of the most important events in world history. It . Topics: What was the Columbian Exchange?, Which of these foods originally came from the Americas?.",
+      "filename": "columbian-exchange-portrait.webp"
+    }
+  ]
+}

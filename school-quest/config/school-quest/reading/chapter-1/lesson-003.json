@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "lesson-003",
+  "title": "Sight Words: Basic Words",
+  "lessonType": "sight-words",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-reading/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "lesson-003-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Sight Words: Basic Words. Educational scene.",
+      "filename": "lesson-003-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "lesson-003-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Sight Words: Basic Words. Story scene or concept illustration.",
+      "filename": "lesson-003-visual.webp",
+      "quality": 85
+    }
+  ]
+}

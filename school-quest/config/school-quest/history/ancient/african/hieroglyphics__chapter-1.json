@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "hieroglyphics",
+  "title": "Reading Hieroglyphics",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "hieroglyphics",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Reading Hieroglyphics. Type: era-exploration. Background: Ancient Egyptians used a writing system called hieroglyphics for over 3,000 years. They carved and p. Legacy: The Rosetta Stone is one of the most important archaeological discoveries ever. . Topics: What was the name of the special stone that helped decode hieroglyphics?, How many different scripts were written on the Rosetta Stone?.",
+      "filename": "hieroglyphics-map.webp"
+    },
+    {
+      "id": "hieroglyphics-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Reading Hieroglyphics. Type: era-exploration. Background: Ancient Egyptians used a writing system called hieroglyphics for over 3,000 years. They carved and p. Legacy: The Rosetta Stone is one of the most important archaeological discoveries ever. . Topics: What was the name of the special stone that helped decode hieroglyphics?, How many different scripts were written on the Rosetta Stone?.",
+      "filename": "hieroglyphics-portrait.webp"
+    }
+  ]
+}

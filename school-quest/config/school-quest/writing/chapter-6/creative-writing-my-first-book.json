@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "creative-writing-my-first-book",
+  "title": "Create Your First Book!",
+  "lessonType": "creative-writing",
+  "chapter": "chapter-6",
+  "basePath": "public/images/lessons/lq-writing/chapter-6",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "creative-writing-my-first-book-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Create Your First Book!. Educational writing example.",
+      "filename": "creative-writing-my-first-book-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "creative-writing-my-first-book-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Create Your First Book!. Writing template visual.",
+      "filename": "creative-writing-my-first-book-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "creative-writing-my-first-book-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Create Your First Book!. Descriptive scene image.",
+      "filename": "creative-writing-my-first-book-scene.webp",
+      "quality": 85
+    }
+  ]
+}

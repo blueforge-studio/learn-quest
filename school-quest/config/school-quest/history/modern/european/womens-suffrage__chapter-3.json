@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "womens-suffrage",
+  "title": "Women's Suffrage",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "womens-suffrage",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Women's Suffrage. Type: timeline. Background: In the 1800s, most societies believed only men should make laws and decisions. Women were expected t. Legacy: Winning the vote was a massive victory for equality. It meant women's voices and. Topics: What did women prove by doing important jobs during World War I?, Which country was the first in Europe to give women the right to vote?.",
+      "filename": "womens-suffrage-timeline.webp"
+    },
+    {
+      "id": "womens-suffrage-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Women's Suffrage. Type: timeline. Background: In the 1800s, most societies believed only men should make laws and decisions. Women were expected t. Legacy: Winning the vote was a massive victory for equality. It meant women's voices and. Topics: What did women prove by doing important jobs during World War I?, Which country was the first in Europe to give women the right to vote?.",
+      "filename": "womens-suffrage-scene.webp"
+    }
+  ]
+}

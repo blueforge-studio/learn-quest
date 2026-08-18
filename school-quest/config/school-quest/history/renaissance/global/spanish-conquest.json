@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-conquest",
+  "title": "Spanish Conquest of the Americas",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "spanish-conquest",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Background: After Christopher Columbus reached the Caribbean in 1492, Spain sent more expeditions to explore and. Legacy: The Spanish conquest connected the Eastern and Western hemispheres for the first. Topics: Which Spanish conquistador led the expedition that conquered the Aztec Empire?, What was a major reason the great Native American empires fell so quickly to the Spanish?.",
+      "filename": "spanish-conquest-timeline.webp"
+    },
+    {
+      "id": "spanish-conquest-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Background: After Christopher Columbus reached the Caribbean in 1492, Spain sent more expeditions to explore and. Legacy: The Spanish conquest connected the Eastern and Western hemispheres for the first. Topics: Which Spanish conquistador led the expedition that conquered the Aztec Empire?, What was a major reason the great Native American empires fell so quickly to the Spanish?.",
+      "filename": "spanish-conquest-scene.webp"
+    }
+  ]
+}

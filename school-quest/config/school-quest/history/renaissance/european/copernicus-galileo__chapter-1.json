@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "copernicus-galileo",
+  "title": "Copernicus and Galileo",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "copernicus-galileo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Copernicus and Galileo. Type: historical-figure. Background: Nicolaus Copernicus was a Polish scholar who studied mathematics, astronomy, and medicine. Galileo G. Legacy: Copernicus and Galileo started the Scientific Revolution. They showed that caref. Topics: What was the big idea that Copernicus proposed?, What tool did Galileo improve and use to make his discoveries?.",
+      "filename": "copernicus-galileo-portrait.webp"
+    },
+    {
+      "id": "copernicus-galileo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Copernicus and Galileo. Type: historical-figure. Background: Nicolaus Copernicus was a Polish scholar who studied mathematics, astronomy, and medicine. Galileo G. Legacy: Copernicus and Galileo started the Scientific Revolution. They showed that caref. Topics: What was the big idea that Copernicus proposed?, What tool did Galileo improve and use to make his discoveries?.",
+      "filename": "copernicus-galileo-scene.webp"
+    }
+  ]
+}

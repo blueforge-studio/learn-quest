@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "crusades",
+  "title": "The Crusades",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "crusades",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Crusades. Type: timeline. Background: In the year 1095, Pope Urban II gave a powerful speech in France. He asked Christians in Europe to h. Legacy: The Crusades changed the world in surprising ways! Europeans brought back lemons. Topics: What does the word 'Crusade' come from?, Which leader peacefully won back Jerusalem in 1187?.",
+      "filename": "crusades-timeline.webp"
+    },
+    {
+      "id": "crusades-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Crusades. Type: timeline. Background: In the year 1095, Pope Urban II gave a powerful speech in France. He asked Christians in Europe to h. Legacy: The Crusades changed the world in surprising ways! Europeans brought back lemons. Topics: What does the word 'Crusade' come from?, Which leader peacefully won back Jerusalem in 1187?.",
+      "filename": "crusades-scene.webp"
+    }
+  ]
+}

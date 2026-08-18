@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-trade-ch2",
+  "title": "Ancient Trade Routes",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-trade-ch2",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: From around 3500 BCE, early civilizations like Mesopotamia, Egypt, the Indus Valley, and China began. Legacy: Ancient trade routes laid the foundation for our global world today. The Silk Ro. Topics: What was one of the first valuable items traded over very long distances?, Which famous land route connected China to the Roman Empire?.",
+      "filename": "ancient-trade-ch2-map.webp"
+    },
+    {
+      "id": "ancient-trade-ch2-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Trade Routes. Type: era-exploration. Background: From around 3500 BCE, early civilizations like Mesopotamia, Egypt, the Indus Valley, and China began. Legacy: Ancient trade routes laid the foundation for our global world today. The Silk Ro. Topics: What was one of the first valuable items traded over very long distances?, Which famous land route connected China to the Roman Empire?.",
+      "filename": "ancient-trade-ch2-portrait.webp"
+    }
+  ]
+}

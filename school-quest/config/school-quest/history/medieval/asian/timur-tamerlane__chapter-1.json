@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "timur-tamerlane",
+  "title": "Timur (Tamerlane)",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "timur-tamerlane",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Timur (Tamerlane). Type: historical-figure. Background: Timur was born in 1336 in what is now Uzbekistan, near the city of Samarkand. He grew up during a ti. Legacy: Timur left a mixed legacy. He was responsible for the deaths of millions and the. Topics: What was Timur's capital city, which he made into a beautiful center of learning and art?, Which famous earlier conqueror did Timur try to imitate and connect himself to?.",
+      "filename": "timur-tamerlane-portrait.webp"
+    },
+    {
+      "id": "timur-tamerlane-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Timur (Tamerlane). Type: historical-figure. Background: Timur was born in 1336 in what is now Uzbekistan, near the city of Samarkand. He grew up during a ti. Legacy: Timur left a mixed legacy. He was responsible for the deaths of millions and the. Topics: What was Timur's capital city, which he made into a beautiful center of learning and art?, Which famous earlier conqueror did Timur try to imitate and connect himself to?.",
+      "filename": "timur-tamerlane-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "era-exploration-ancient-egypt-kingdoms",
+  "title": "Life in Ancient Egypt: The Three Great Kingdoms",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "era-exploration-ancient-egypt-kingdoms",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Life in Ancient Egypt: The Three Great Kingdoms. Type: era-exploration. Topics: Why was the Nile River so important to ancient Egyptians?.",
+      "filename": "era-exploration-ancient-egypt-kingdoms-map.webp"
+    },
+    {
+      "id": "era-exploration-ancient-egypt-kingdoms-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Life in Ancient Egypt: The Three Great Kingdoms. Type: era-exploration. Topics: Why was the Nile River so important to ancient Egyptians?.",
+      "filename": "era-exploration-ancient-egypt-kingdoms-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "sight-words-1-ch5",
+  "title": "Sight Words Level 1",
+  "lessonType": "sight-words",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-reading/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "sight-words-1-ch5-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Sight Words Level 1. Educational scene.",
+      "filename": "sight-words-1-ch5-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "sight-words-1-ch5-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Sight Words Level 1. Story scene or concept illustration.",
+      "filename": "sight-words-1-ch5-visual.webp",
+      "quality": 85
+    }
+  ]
+}

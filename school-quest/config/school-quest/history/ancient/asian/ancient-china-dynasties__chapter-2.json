@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-china-dynasties",
+  "title": "Chinese Dynasties",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-china-dynasties",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient Chinese civilization began along the Yellow River. The first dynasties were like royal famil. Legacy: The first 2000 years of Chinese dynasties created the foundation for one of the . Topics: Which was the first dynasty to have clear historical records in China?, What did Qin Shi Huangdi build to help protect China from northern invaders?.",
+      "filename": "ancient-china-dynasties-timeline.webp"
+    },
+    {
+      "id": "ancient-china-dynasties-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Chinese Dynasties. Type: timeline. Background: Ancient Chinese civilization began along the Yellow River. The first dynasties were like royal famil. Legacy: The first 2000 years of Chinese dynasties created the foundation for one of the . Topics: Which was the first dynasty to have clear historical records in China?, What did Qin Shi Huangdi build to help protect China from northern invaders?.",
+      "filename": "ancient-china-dynasties-scene.webp"
+    }
+  ]
+}

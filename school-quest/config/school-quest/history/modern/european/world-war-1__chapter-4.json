@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "world-war-1",
+  "title": "World War I",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "world-war-1",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: World War I. Type: timeline. Background: In the early 1900s, many European countries had formed alliances, promising to help each other if at. Legacy: World War I was one of the deadliest conflicts in history. It destroyed old empi. Topics: What was the immediate event that sparked the start of World War I?, What were the long, muddy ditches soldiers lived in called?.",
+      "filename": "world-war-1-timeline.webp"
+    },
+    {
+      "id": "world-war-1-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: World War I. Type: timeline. Background: In the early 1900s, many European countries had formed alliances, promising to help each other if at. Legacy: World War I was one of the deadliest conflicts in history. It destroyed old empi. Topics: What was the immediate event that sparked the start of World War I?, What were the long, muddy ditches soldiers lived in called?.",
+      "filename": "world-war-1-scene.webp"
+    }
+  ]
+}

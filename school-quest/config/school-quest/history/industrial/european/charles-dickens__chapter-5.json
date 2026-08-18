@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "charles-dickens",
+  "title": "Charles Dickens",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "charles-dickens",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Charles Dickens. Type: historical-figure. Background: Charles was born in Portsmouth, England in 1812. When he was just 12 years old, his father was sent . Legacy: Charles Dickens is one of the most famous writers in the English language. His s. Topics: What major event in history was happening during Charles Dickens's life?, Why did young Charles Dickens have to work in a factory?.",
+      "filename": "charles-dickens-portrait.webp"
+    },
+    {
+      "id": "charles-dickens-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Charles Dickens. Type: historical-figure. Background: Charles was born in Portsmouth, England in 1812. When he was just 12 years old, his father was sent . Legacy: Charles Dickens is one of the most famous writers in the English language. His s. Topics: What major event in history was happening during Charles Dickens's life?, Why did young Charles Dickens have to work in a factory?.",
+      "filename": "charles-dickens-scene.webp"
+    }
+  ]
+}

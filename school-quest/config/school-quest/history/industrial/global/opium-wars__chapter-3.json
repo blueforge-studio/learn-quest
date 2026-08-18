@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "opium-wars",
+  "title": "The Opium Wars",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "opium-wars",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For a long time, China was a rich and powerful empire that traded tea, silk, and porcelain with Brit. Legacy: The Opium Wars are a dark example of how industrial power could be misused. They. Topics: What popular Chinese product did Britain want to buy at the start of this story?, What harmful product did Britain smuggle into China when they ran out of silver?.",
+      "filename": "opium-wars-map.webp"
+    },
+    {
+      "id": "opium-wars-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Opium Wars. Type: era-exploration. Background: For a long time, China was a rich and powerful empire that traded tea, silk, and porcelain with Brit. Legacy: The Opium Wars are a dark example of how industrial power could be misused. They. Topics: What popular Chinese product did Britain want to buy at the start of this story?, What harmful product did Britain smuggle into China when they ran out of silver?.",
+      "filename": "opium-wars-portrait.webp"
+    }
+  ]
+}

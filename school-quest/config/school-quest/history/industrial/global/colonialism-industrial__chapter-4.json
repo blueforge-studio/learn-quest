@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "colonialism-industrial",
+  "title": "Industrial Colonialism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "colonialism-industrial",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the Industrial Revolution, European countries like Britain, France, and Spain already had col. Legacy: Industrial colonialism shaped our modern world in huge ways. It drew maps that c. Topics: What new source of power helped Europeans control colonies?, Why did European factories need colonies?.",
+      "filename": "colonialism-industrial-map.webp"
+    },
+    {
+      "id": "colonialism-industrial-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the Industrial Revolution, European countries like Britain, France, and Spain already had col. Legacy: Industrial colonialism shaped our modern world in huge ways. It drew maps that c. Topics: What new source of power helped Europeans control colonies?, Why did European factories need colonies?.",
+      "filename": "colonialism-industrial-portrait.webp"
+    }
+  ]
+}

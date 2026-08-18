@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "genghis-khan",
+  "title": "Genghis Khan",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "genghis-khan",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162 on the harsh Mongolian steppes. His father was a tribal chief who. Legacy: Genghis Khan's empire became the largest contiguous land empire in history. Afte. Topics: What was Genghis Khan's original name?, What does the title 'Genghis Khan' mean?.",
+      "filename": "genghis-khan-portrait.webp"
+    },
+    {
+      "id": "genghis-khan-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162 on the harsh Mongolian steppes. His father was a tribal chief who. Legacy: Genghis Khan's empire became the largest contiguous land empire in history. Afte. Topics: What was Genghis Khan's original name?, What does the title 'Genghis Khan' mean?.",
+      "filename": "genghis-khan-scene.webp"
+    }
+  ]
+}

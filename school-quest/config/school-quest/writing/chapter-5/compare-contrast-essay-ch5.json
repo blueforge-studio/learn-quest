@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "compare-contrast-essay-ch5",
+  "title": "Compare and Contrast Essay",
+  "lessonType": "composition",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-writing/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "compare-contrast-essay-ch5-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Compare and Contrast Essay. Educational writing example.",
+      "filename": "compare-contrast-essay-ch5-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "compare-contrast-essay-ch5-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Compare and Contrast Essay. Writing template visual.",
+      "filename": "compare-contrast-essay-ch5-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "compare-contrast-essay-ch5-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Compare and Contrast Essay. Descriptive scene image.",
+      "filename": "compare-contrast-essay-ch5-scene.webp",
+      "quality": 85
+    }
+  ]
+}

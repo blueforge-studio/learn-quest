@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "teotihuacan",
+  "title": "Teotihuacan: City of the Gods",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "teotihuacan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Teotihuacan: City of the Gods. Type: era-exploration. Background: Teotihuacan began as a small farming village around 3500 BCE. By 100 BCE, it grew into one of the la. Legacy: Even though Teotihuacan was mysteriously abandoned around 500 CE (no one knows e. Topics: What does 'Teotihuacan' mean in the Aztec language?, Which famous pyramid in Teotihuacan is one of the largest in the world?.",
+      "filename": "teotihuacan-map.webp"
+    },
+    {
+      "id": "teotihuacan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Teotihuacan: City of the Gods. Type: era-exploration. Background: Teotihuacan began as a small farming village around 3500 BCE. By 100 BCE, it grew into one of the la. Legacy: Even though Teotihuacan was mysteriously abandoned around 500 CE (no one knows e. Topics: What does 'Teotihuacan' mean in the Aztec language?, Which famous pyramid in Teotihuacan is one of the largest in the world?.",
+      "filename": "teotihuacan-portrait.webp"
+    }
+  ]
+}

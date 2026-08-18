@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "genghis-khan",
+  "title": "Genghis Khan",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "genghis-khan",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162 on the Mongolian steppes, a vast grassland. His father was a trib. Legacy: Genghis Khan is remembered as one of history's greatest conquerors. The empire h. Topics: What was Genghis Khan's original name as a boy?, What did Genghis Khan do first to become powerful?.",
+      "filename": "genghis-khan-portrait.webp"
+    },
+    {
+      "id": "genghis-khan-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Genghis Khan. Type: historical-figure. Background: He was born as Temüjin around 1162 on the Mongolian steppes, a vast grassland. His father was a trib. Legacy: Genghis Khan is remembered as one of history's greatest conquerors. The empire h. Topics: What was Genghis Khan's original name as a boy?, What did Genghis Khan do first to become powerful?.",
+      "filename": "genghis-khan-scene.webp"
+    }
+  ]
+}

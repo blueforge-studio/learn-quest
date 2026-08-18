@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "LF-HW-03",
+  "title": "Pencil Power & Spacing Smarts",
+  "lessonType": "handwriting",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-writing/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "LF-HW-03-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Pencil Power & Spacing Smarts. Educational writing example.",
+      "filename": "LF-HW-03-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "LF-HW-03-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Pencil Power & Spacing Smarts. Writing template visual.",
+      "filename": "LF-HW-03-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "LF-HW-03-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Pencil Power & Spacing Smarts. Descriptive scene image.",
+      "filename": "LF-HW-03-scene.webp",
+      "quality": 85
+    }
+  ]
+}

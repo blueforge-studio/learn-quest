@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "meiji-japan-modern",
+  "title": "Modern Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "meiji-japan-modern",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Modern Japan. Type: era-exploration. Background: For over 200 years, Japan was mostly closed to the outside world, ruled by military leaders called s. Legacy: Japan's Meiji transformation is one of history's most astonishing success storie. Topics: What major event in 1853 shocked Japan and started its push to modernize?, What was the name of the period when Japan rapidly modernized, starting in 1868?.",
+      "filename": "meiji-japan-modern-map.webp"
+    },
+    {
+      "id": "meiji-japan-modern-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Modern Japan. Type: era-exploration. Background: For over 200 years, Japan was mostly closed to the outside world, ruled by military leaders called s. Legacy: Japan's Meiji transformation is one of history's most astonishing success storie. Topics: What major event in 1853 shocked Japan and started its push to modernize?, What was the name of the period when Japan rapidly modernized, starting in 1868?.",
+      "filename": "meiji-japan-modern-portrait.webp"
+    }
+  ]
+}

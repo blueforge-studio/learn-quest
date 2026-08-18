@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "cell-basics-ch3",
+  "title": "Cell Basics",
+  "lessonType": "science-concept",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-science/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "cell-basics-ch3-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Cell Basics. . Clear labeled illustration.",
+      "filename": "cell-basics-ch3-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "cell-basics-ch3-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Cell Basics. Educational science style.",
+      "filename": "cell-basics-ch3-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "cell-basics-ch3-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Cell Basics. Step by step visual showing the concept. Educational style.",
+      "filename": "cell-basics-ch3-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

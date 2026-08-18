@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "zapotec-monte-alban",
+  "title": "Zapotec: Monte Albán",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "zapotec-monte-alban",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Zapotec: Monte Albán. Type: era-exploration. Background: The Zapotec lived in what is now Oaxaca, Mexico. Around 500 BCE, they chose a huge, flat-topped moun. Legacy: Monte Albán’s ruins still stand today — a UNESCO World Heritage Site visited by . Topics: Where was Monte Albán built?, What makes Zapotec writing special?.",
+      "filename": "zapotec-monte-alban-map.webp"
+    },
+    {
+      "id": "zapotec-monte-alban-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Zapotec: Monte Albán. Type: era-exploration. Background: The Zapotec lived in what is now Oaxaca, Mexico. Around 500 BCE, they chose a huge, flat-topped moun. Legacy: Monte Albán’s ruins still stand today — a UNESCO World Heritage Site visited by . Topics: Where was Monte Albán built?, What makes Zapotec writing special?.",
+      "filename": "zapotec-monte-alban-portrait.webp"
+    }
+  ]
+}

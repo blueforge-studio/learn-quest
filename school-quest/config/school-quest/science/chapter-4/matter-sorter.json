@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "matter-sorter",
+  "title": "Matter Sorter: Solids, Liquids, Gases, and Mixtures",
+  "lessonType": "classification",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-science/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "matter-sorter-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Matter Sorter: Solids, Liquids, Gases, and Mixtures. . Clear labeled illustration.",
+      "filename": "matter-sorter-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "matter-sorter-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Matter Sorter: Solids, Liquids, Gases, and Mixtures. Educational science style.",
+      "filename": "matter-sorter-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "matter-sorter-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Matter Sorter: Solids, Liquids, Gases, and Mixtures. Step by step visual showing the concept. Educational style.",
+      "filename": "matter-sorter-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

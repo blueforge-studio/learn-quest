@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "roman-engineering",
+  "title": "Roman Engineering",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "roman-engineering",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Roman Engineering. Type: era-exploration. Background: Starting as a small city in Italy around 753 BCE, Rome grew to control lands all around the Mediterr. Legacy: Roman engineering shaped the modern world! Many Roman roads became the routes of. Topics: What was the main purpose of Roman roads?, How did aqueducts move water without pumps?.",
+      "filename": "roman-engineering-map.webp"
+    },
+    {
+      "id": "roman-engineering-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Roman Engineering. Type: era-exploration. Background: Starting as a small city in Italy around 753 BCE, Rome grew to control lands all around the Mediterr. Legacy: Roman engineering shaped the modern world! Many Roman roads became the routes of. Topics: What was the main purpose of Roman roads?, How did aqueducts move water without pumps?.",
+      "filename": "roman-engineering-portrait.webp"
+    }
+  ]
+}

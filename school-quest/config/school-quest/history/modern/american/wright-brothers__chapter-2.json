@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "wright-brothers",
+  "title": "The Wright Brothers",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "wright-brothers",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Wright Brothers. Type: historical-figure. Background: Born in the 1860s and 70s, Orville and Wilbur grew up loving machines, kites, and science. Their fat. Legacy: The Wright Brothers proved that powered, controlled, and sustained human flight . Topics: Where did the Wright Brothers make their first successful airplane flight?, What kind of business did the Wright Brothers run before building airplanes?.",
+      "filename": "wright-brothers-portrait.webp"
+    },
+    {
+      "id": "wright-brothers-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: The Wright Brothers. Type: historical-figure. Background: Born in the 1860s and 70s, Orville and Wilbur grew up loving machines, kites, and science. Their fat. Legacy: The Wright Brothers proved that powered, controlled, and sustained human flight . Topics: Where did the Wright Brothers make their first successful airplane flight?, What kind of business did the Wright Brothers run before building airplanes?.",
+      "filename": "wright-brothers-scene.webp"
+    }
+  ]
+}

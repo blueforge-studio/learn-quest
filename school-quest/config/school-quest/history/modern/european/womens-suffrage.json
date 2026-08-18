@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "womens-suffrage",
+  "title": "Women's Suffrage in Europe",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "womens-suffrage",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Women's Suffrage in Europe. Type: timeline. Background: In the 1800s, most people believed only men should be involved in politics. Women began to organize,. Legacy: The suffrage movement was a major step toward gender equality. It showed that pe. Topics: What was the main goal of the women's suffrage movement?, Which country was the first in Europe to give women the vote?.",
+      "filename": "womens-suffrage-timeline.webp"
+    },
+    {
+      "id": "womens-suffrage-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Women's Suffrage in Europe. Type: timeline. Background: In the 1800s, most people believed only men should be involved in politics. Women began to organize,. Legacy: The suffrage movement was a major step toward gender equality. It showed that pe. Topics: What was the main goal of the women's suffrage movement?, Which country was the first in Europe to give women the vote?.",
+      "filename": "womens-suffrage-scene.webp"
+    }
+  ]
+}

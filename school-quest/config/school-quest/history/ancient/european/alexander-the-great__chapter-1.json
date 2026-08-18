@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "alexander-the-great",
+  "title": "Alexander the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "alexander-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Alexander the Great. Type: historical-figure. Background: Born in Pella, Macedonia (in modern-day Greece), Alexander was taught by the famous philosopher Aris. Legacy: Though Alexander died young at age 32, his empire inspired generations of leader. Topics: How old was Alexander when he became king?, Which famous teacher helped educate young Alexander?.",
+      "filename": "alexander-the-great-portrait.webp"
+    },
+    {
+      "id": "alexander-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Alexander the Great. Type: historical-figure. Background: Born in Pella, Macedonia (in modern-day Greece), Alexander was taught by the famous philosopher Aris. Legacy: Though Alexander died young at age 32, his empire inspired generations of leader. Topics: How old was Alexander when he became king?, Which famous teacher helped educate young Alexander?.",
+      "filename": "alexander-the-great-scene.webp"
+    }
+  ]
+}

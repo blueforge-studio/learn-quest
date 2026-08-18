@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "timbuktu-learning",
+  "title": "Timbuktu: City of Learning",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "timbuktu-learning",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Timbuktu: City of Learning. Type: era-exploration. Background: Timbuktu started as a small trading camp for Tuareg nomads around 1100 CE. Because it was located wh. Legacy: Timbuktu's legacy is one of wisdom. It proves that Africa had a rich written his. Topics: What was Timbuktu's most famous treasure?, Why did Timbuktu become such an important city?.",
+      "filename": "timbuktu-learning-map.webp"
+    },
+    {
+      "id": "timbuktu-learning-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Timbuktu: City of Learning. Type: era-exploration. Background: Timbuktu started as a small trading camp for Tuareg nomads around 1100 CE. Because it was located wh. Legacy: Timbuktu's legacy is one of wisdom. It proves that Africa had a rich written his. Topics: What was Timbuktu's most famous treasure?, Why did Timbuktu become such an important city?.",
+      "filename": "timbuktu-learning-portrait.webp"
+    }
+  ]
+}

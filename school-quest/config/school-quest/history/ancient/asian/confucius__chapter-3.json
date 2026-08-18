@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "confucius",
+  "title": "Confucius",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "confucius",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Confucius. Type: historical-figure. Background: Born in the state of Lu (in modern-day Shandong province), Confucius lived during a time of war and . Legacy: Confucius's teachings, known as Confucianism, became the official guiding philos. Topics: What was Confucius's main goal as a teacher?, Which book contains the collected sayings of Confucius?.",
+      "filename": "confucius-portrait.webp"
+    },
+    {
+      "id": "confucius-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Confucius. Type: historical-figure. Background: Born in the state of Lu (in modern-day Shandong province), Confucius lived during a time of war and . Legacy: Confucius's teachings, known as Confucianism, became the official guiding philos. Topics: What was Confucius's main goal as a teacher?, Which book contains the collected sayings of Confucius?.",
+      "filename": "confucius-scene.webp"
+    }
+  ]
+}

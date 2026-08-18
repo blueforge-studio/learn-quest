@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gandhi",
+  "title": "Mahatma Gandhi",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "gandhi",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mahatma Gandhi. Type: historical-figure. Background: Mohandas Karamchand Gandhi was born in 1869 in Porbandar, India. As a young man, he went to London t. Legacy: Gandhi is remembered as the 'Father of the Nation' in India. His birthday, Octob. Topics: What was Gandhi's main method of fighting for India's freedom?, What famous protest did Gandhi lead in 1930?.",
+      "filename": "gandhi-portrait.webp"
+    },
+    {
+      "id": "gandhi-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Mahatma Gandhi. Type: historical-figure. Background: Mohandas Karamchand Gandhi was born in 1869 in Porbandar, India. As a young man, he went to London t. Legacy: Gandhi is remembered as the 'Father of the Nation' in India. His birthday, Octob. Topics: What was Gandhi's main method of fighting for India's freedom?, What famous protest did Gandhi lead in 1930?.",
+      "filename": "gandhi-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "aztec-empire",
+  "title": "The Aztec Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "aztec-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Aztec Empire. Type: era-exploration. Background: According to legend, the Aztec people were told by their god Huitzilopochtli to look for an eagle pe. Legacy: The Aztecs left a lasting mark on Mexico. Their language, Nahuatl, is still spok. Topics: What was the name of the magnificent Aztec capital city built on a lake?, What sign did the Aztecs look for to know where to build their city?.",
+      "filename": "aztec-empire-map.webp"
+    },
+    {
+      "id": "aztec-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Aztec Empire. Type: era-exploration. Background: According to legend, the Aztec people were told by their god Huitzilopochtli to look for an eagle pe. Legacy: The Aztecs left a lasting mark on Mexico. Their language, Nahuatl, is still spok. Topics: What was the name of the magnificent Aztec capital city built on a lake?, What sign did the Aztecs look for to know where to build their city?.",
+      "filename": "aztec-empire-portrait.webp"
+    }
+  ]
+}

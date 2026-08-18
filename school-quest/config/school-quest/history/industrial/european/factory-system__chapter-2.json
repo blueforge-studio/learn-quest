@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "factory-system",
+  "title": "The Factory System",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "factory-system",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Factory System. Type: era-exploration. Background: Before factories, people in Europe often worked at home or in small workshops. This was called the '. Legacy: The Factory System changed life forever. It created many new jobs and made goods. Topics: Where did most people work to make goods BEFORE the Factory System?, What new source of power allowed factories to be built away from rivers?.",
+      "filename": "factory-system-map.webp"
+    },
+    {
+      "id": "factory-system-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Factory System. Type: era-exploration. Background: Before factories, people in Europe often worked at home or in small workshops. This was called the '. Legacy: The Factory System changed life forever. It created many new jobs and made goods. Topics: Where did most people work to make goods BEFORE the Factory System?, What new source of power allowed factories to be built away from rivers?.",
+      "filename": "factory-system-portrait.webp"
+    }
+  ]
+}

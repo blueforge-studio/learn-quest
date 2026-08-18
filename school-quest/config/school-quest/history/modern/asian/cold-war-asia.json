@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cold-war-asia",
+  "title": "Cold War in Asia",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "cold-war-asia",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Cold War in Asia. Type: lesson. Topics: When did the Korean War end?, What happened to Vietnam after the US withdrew?.",
+      "filename": "cold-war-asia-timeline.webp"
+    },
+    {
+      "id": "cold-war-asia-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Cold War in Asia. Type: lesson. Topics: When did the Korean War end?, What happened to Vietnam after the US withdrew?.",
+      "filename": "cold-war-asia-scene.webp"
+    }
+  ]
+}

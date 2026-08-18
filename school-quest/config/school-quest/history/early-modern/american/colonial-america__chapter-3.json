@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "colonial-america",
+  "title": "Colonial America",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "colonial-america",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Colonial America. Type: era-exploration. Background: Starting in the late 1500s, European countries like England, Spain, France, and the Netherlands sent. Legacy: The 13 colonies became the foundation of the United States. Their stories of see. Topics: Why did the Pilgrims sail to America on the Mayflower?, What was the first permanent English settlement in America?.",
+      "filename": "colonial-america-map.webp"
+    },
+    {
+      "id": "colonial-america-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Colonial America. Type: era-exploration. Background: Starting in the late 1500s, European countries like England, Spain, France, and the Netherlands sent. Legacy: The 13 colonies became the foundation of the United States. Their stories of see. Topics: Why did the Pilgrims sail to America on the Mayflower?, What was the first permanent English settlement in America?.",
+      "filename": "colonial-america-portrait.webp"
+    }
+  ]
+}

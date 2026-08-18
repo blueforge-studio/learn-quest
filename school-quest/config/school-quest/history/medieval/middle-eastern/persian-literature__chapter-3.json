@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "persian-literature",
+  "title": "Persian Poetry and Literature",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "persian-literature",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Persian Poetry and Literature. Type: era-exploration. Background: From 500 to 1500 CE, Persian culture bloomed across the Middle East — even as empires rose and fell.. Legacy: Persian poetry still sings today! Rumi is one of the best-selling poets in the w. Topics: What is the Shahnameh?, What did Rumi often use to express joy and connection with the divine?.",
+      "filename": "persian-literature-map.webp"
+    },
+    {
+      "id": "persian-literature-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Persian Poetry and Literature. Type: era-exploration. Background: From 500 to 1500 CE, Persian culture bloomed across the Middle East — even as empires rose and fell.. Legacy: Persian poetry still sings today! Rumi is one of the best-selling poets in the w. Topics: What is the Shahnameh?, What did Rumi often use to express joy and connection with the divine?.",
+      "filename": "persian-literature-portrait.webp"
+    }
+  ]
+}

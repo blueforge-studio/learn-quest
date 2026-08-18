@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "suleiman",
+  "title": "Süleyman the Magnificent",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "suleiman",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Süleyman the Magnificent. Type: historical-figure. Background: Süleyman was born in 1494 in Trabzon, on the Black Sea coast. He was the son of Sultan Selim I. As a. Legacy: Süleyman's reign is remembered as the 'Golden Age' of the Ottoman Empire. He lef. Topics: What was Süleyman the Magnificent's role?, Why was he also called 'Süleyman the Lawgiver'?.",
+      "filename": "suleiman-portrait.webp"
+    },
+    {
+      "id": "suleiman-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Süleyman the Magnificent. Type: historical-figure. Background: Süleyman was born in 1494 in Trabzon, on the Black Sea coast. He was the son of Sultan Selim I. As a. Legacy: Süleyman's reign is remembered as the 'Golden Age' of the Ottoman Empire. He lef. Topics: What was Süleyman the Magnificent's role?, Why was he also called 'Süleyman the Lawgiver'?.",
+      "filename": "suleiman-scene.webp"
+    }
+  ]
+}

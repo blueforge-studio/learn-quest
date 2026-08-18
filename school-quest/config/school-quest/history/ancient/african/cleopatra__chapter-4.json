@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cleopatra",
+  "title": "Cleopatra: Last Pharaoh",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "cleopatra",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Cleopatra: Last Pharaoh. Type: historical-figure. Background: Cleopatra was born in Alexandria, Egypt, around 69 BCE. She was part of the Ptolemy family — Greek r. Legacy: Cleopatra is remembered as a symbol of strength, intelligence, and cultural prid. Topics: How old was Cleopatra when she became pharaoh?, What made Cleopatra different from earlier Ptolemaic rulers?.",
+      "filename": "cleopatra-portrait.webp"
+    },
+    {
+      "id": "cleopatra-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Cleopatra: Last Pharaoh. Type: historical-figure. Background: Cleopatra was born in Alexandria, Egypt, around 69 BCE. She was part of the Ptolemy family — Greek r. Legacy: Cleopatra is remembered as a symbol of strength, intelligence, and cultural prid. Topics: How old was Cleopatra when she became pharaoh?, What made Cleopatra different from earlier Ptolemaic rulers?.",
+      "filename": "cleopatra-scene.webp"
+    }
+  ]
+}

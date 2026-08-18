@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "nazca-lines",
+  "title": "The Nazca Lines",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "nazca-lines",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Nazca Lines. Type: era-exploration. Background: The Nazca Lines were made by the Nazca people, who lived in what is now southern Peru between about . Legacy: The Nazca Lines are a UNESCO World Heritage Site and one of the greatest mysteri. Topics: Where are the Nazca Lines located?, How did the Nazca people make the lines visible?.",
+      "filename": "nazca-lines-map.webp"
+    },
+    {
+      "id": "nazca-lines-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Nazca Lines. Type: era-exploration. Background: The Nazca Lines were made by the Nazca people, who lived in what is now southern Peru between about . Legacy: The Nazca Lines are a UNESCO World Heritage Site and one of the greatest mysteri. Topics: Where are the Nazca Lines located?, How did the Nazca people make the lines visible?.",
+      "filename": "nazca-lines-portrait.webp"
+    }
+  ]
+}

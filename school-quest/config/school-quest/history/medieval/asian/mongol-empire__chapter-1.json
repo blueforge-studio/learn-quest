@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mongol-empire",
+  "title": "The Mongol Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mongol-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Mongol Empire. Type: era-exploration. Background: The Mongols were nomadic people who lived on the vast, windy grasslands called the steppes. They wer. Legacy: The Mongol Empire connected East and West like never before. They spread technol. Topics: What does the title 'Genghis Khan' mean?, What was the super-fast Mongol postal system called?.",
+      "filename": "mongol-empire-map.webp"
+    },
+    {
+      "id": "mongol-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Mongol Empire. Type: era-exploration. Background: The Mongols were nomadic people who lived on the vast, windy grasslands called the steppes. They wer. Legacy: The Mongol Empire connected East and West like never before. They spread technol. Topics: What does the title 'Genghis Khan' mean?, What was the super-fast Mongol postal system called?.",
+      "filename": "mongol-empire-portrait.webp"
+    }
+  ]
+}

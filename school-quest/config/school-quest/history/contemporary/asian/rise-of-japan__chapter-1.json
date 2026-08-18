@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "rise-of-japan",
+  "title": "Rise of Japan: From Ruins to Economic Superpower",
+  "lessonType": "lesson",
+  "chapter": "chapter-1",
+  "epoch": "contemporary",
+  "region": "asian",
+  "basePath": "public/images/lessons/contemporary/asian",
+  "images": [
+    {
+      "id": "rise-of-japan",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Rise of Japan: From Ruins to Economic Superpower. Type: lesson. Topics: Who led the American occupation of Japan after WWII?, What was the Japanese economic miracle?.",
+      "filename": "rise-of-japan-timeline.webp"
+    },
+    {
+      "id": "rise-of-japan-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Rise of Japan: From Ruins to Economic Superpower. Type: lesson. Topics: Who led the American occupation of Japan after WWII?, What was the Japanese economic miracle?.",
+      "filename": "rise-of-japan-scene.webp"
+    }
+  ]
+}

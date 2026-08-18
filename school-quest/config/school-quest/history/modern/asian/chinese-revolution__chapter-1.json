@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chinese-revolution",
+  "title": "The Chinese Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "chinese-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For thousands of years, China was ruled by emperors. But by 1900, many Chinese people wanted their c. Legacy: The Chinese Revolution created the modern Chinese state. Sun Yat-sen is remember. Topics: What ended in China in 1912 after more than 2,000 years?, Who was the doctor who became China's first president and had 'Three Principles' for the country?.",
+      "filename": "chinese-revolution-timeline.webp"
+    },
+    {
+      "id": "chinese-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Chinese Revolution. Type: timeline. Background: For thousands of years, China was ruled by emperors. But by 1900, many Chinese people wanted their c. Legacy: The Chinese Revolution created the modern Chinese state. Sun Yat-sen is remember. Topics: What ended in China in 1912 after more than 2,000 years?, Who was the doctor who became China's first president and had 'Three Principles' for the country?.",
+      "filename": "chinese-revolution-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "vocab1",
+  "title": "Story Vocabulary – Characters, Setting, and Plot",
+  "lessonType": "sight-words",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-reading/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "vocab1-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Story Vocabulary – Characters, Setting, and Plot. Educational scene.",
+      "filename": "vocab1-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "vocab1-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Story Vocabulary – Characters, Setting, and Plot. Story scene or concept illustration.",
+      "filename": "vocab1-visual.webp",
+      "quality": 85
+    }
+  ]
+}

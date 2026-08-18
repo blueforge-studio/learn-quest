@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "marie-curie",
+  "title": "Marie Curie",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "marie-curie",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Marie Curie. Type: historical-figure. Background: Born Maria Skłodowska in Warsaw, Poland (then part of the Russian Empire), Marie loved learning but . Legacy: Marie Curie opened doors for girls everywhere to become scientists, doctors, and. Topics: What did Marie Curie discover and name?, Which two elements did Marie Curie discover?.",
+      "filename": "marie-curie-portrait.webp"
+    },
+    {
+      "id": "marie-curie-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Marie Curie. Type: historical-figure. Background: Born Maria Skłodowska in Warsaw, Poland (then part of the Russian Empire), Marie loved learning but . Legacy: Marie Curie opened doors for girls everywhere to become scientists, doctors, and. Topics: What did Marie Curie discover and name?, Which two elements did Marie Curie discover?.",
+      "filename": "marie-curie-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pericles",
+  "title": "Pericles: Father of Athenian Democracy",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "pericles",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Pericles: Father of Athenian Democracy. Type: historical-figure. Topics: What role did Pericles play in Athens?, Which building did Pericles most famously help to create?.",
+      "filename": "pericles-portrait.webp"
+    },
+    {
+      "id": "pericles-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Pericles: Father of Athenian Democracy. Type: historical-figure. Topics: What role did Pericles play in Athens?, Which building did Pericles most famously help to create?.",
+      "filename": "pericles-scene.webp"
+    }
+  ]
+}

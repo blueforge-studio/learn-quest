@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tang-dynasty",
+  "title": "The Tang Dynasty",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "tang-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Tang Dynasty. Type: era-exploration. Background: The Tang Dynasty began in 618 CE when a general named Li Yuan became Emperor Gaozu. The capital city. Legacy: The Tang Dynasty set a standard for beauty, culture, and good government that la. Topics: What was the Tang Dynasty known as?, What famous trade route was very busy during the Tang Dynasty?.",
+      "filename": "tang-dynasty-map.webp"
+    },
+    {
+      "id": "tang-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Tang Dynasty. Type: era-exploration. Background: The Tang Dynasty began in 618 CE when a general named Li Yuan became Emperor Gaozu. The capital city. Legacy: The Tang Dynasty set a standard for beauty, culture, and good government that la. Topics: What was the Tang Dynasty known as?, What famous trade route was very busy during the Tang Dynasty?.",
+      "filename": "tang-dynasty-portrait.webp"
+    }
+  ]
+}

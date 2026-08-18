@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mughal-india",
+  "title": "The Early Delhi Sultanate",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mughal-india",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, Muslim warriors from Central Asia conquered parts of northern India. They establ. Legacy: The Delhi Sultanate transformed Indian culture forever. It introduced Persian ar. Topics: What was the capital city of the Delhi Sultanate?, What famous tower was built during the early Delhi Sultanate?.",
+      "filename": "mughal-india-map.webp"
+    },
+    {
+      "id": "mughal-india-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, Muslim warriors from Central Asia conquered parts of northern India. They establ. Legacy: The Delhi Sultanate transformed Indian culture forever. It introduced Persian ar. Topics: What was the capital city of the Delhi Sultanate?, What famous tower was built during the early Delhi Sultanate?.",
+      "filename": "mughal-india-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russian-revolution",
+  "title": "The Russian Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "russian-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by an emperor called the Tsar. By the early 1900s, many ordi. Legacy: The revolution created the world's first communist state, the Soviet Union, whic. Topics: What was the main promise Lenin made to the Russian people?, Who was forced to give up the throne in March 1917?.",
+      "filename": "russian-revolution-timeline.webp"
+    },
+    {
+      "id": "russian-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by an emperor called the Tsar. By the early 1900s, many ordi. Legacy: The revolution created the world's first communist state, the Soviet Union, whic. Topics: What was the main promise Lenin made to the Russian people?, Who was forced to give up the throne in March 1917?.",
+      "filename": "russian-revolution-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tokugawa-japan",
+  "title": "Tokugawa Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "tokugawa-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was torn apart by wars between rival samurai lords. In 1600, a pow. Legacy: The Tokugawa period shaped modern Japan. It created a strong national identity, . Topics: Who was the military ruler of Japan during the Tokugawa period?, What was one major rule the Tokugawa shoguns made about other countries?.",
+      "filename": "tokugawa-japan-map.webp"
+    },
+    {
+      "id": "tokugawa-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Tokugawa Japan. Type: era-exploration. Background: Before the Tokugawa period, Japan was torn apart by wars between rival samurai lords. In 1600, a pow. Legacy: The Tokugawa period shaped modern Japan. It created a strong national identity, . Topics: Who was the military ruler of Japan during the Tokugawa period?, What was one major rule the Tokugawa shoguns made about other countries?.",
+      "filename": "tokugawa-japan-portrait.webp"
+    }
+  ]
+}

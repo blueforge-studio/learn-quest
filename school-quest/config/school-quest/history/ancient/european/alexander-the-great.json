@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "alexander-the-great",
+  "title": "Alexander the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "alexander-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Alexander the Great. Type: historical-figure. Background: Alexander was born in Pella, Macedonia (now part of northern Greece) in 356 BCE. His father, King Ph. Legacy: Though Alexander died young at 32, his empire inspired generations of leaders. C. Topics: How old was Alexander when he became king?, Who was Alexander’s famous teacher?.",
+      "filename": "alexander-the-great-portrait.webp"
+    },
+    {
+      "id": "alexander-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Alexander the Great. Type: historical-figure. Background: Alexander was born in Pella, Macedonia (now part of northern Greece) in 356 BCE. His father, King Ph. Legacy: Though Alexander died young at 32, his empire inspired generations of leaders. C. Topics: How old was Alexander when he became king?, Who was Alexander’s famous teacher?.",
+      "filename": "alexander-the-great-scene.webp"
+    }
+  ]
+}

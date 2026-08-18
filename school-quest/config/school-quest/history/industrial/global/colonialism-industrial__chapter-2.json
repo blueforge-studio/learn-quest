@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "colonialism-industrial",
+  "title": "Industrial Colonialism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "colonialism-industrial",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the 1760s, empires were built mostly for gold, spices, and land. But after inventions like th. Legacy: Industrial colonialism created a world where a few industrialized nations became. Topics: What did European factories need from their colonies?, How did the steamship help build empires?.",
+      "filename": "colonialism-industrial-map.webp"
+    },
+    {
+      "id": "colonialism-industrial-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Industrial Colonialism. Type: era-exploration. Background: Before the 1760s, empires were built mostly for gold, spices, and land. But after inventions like th. Legacy: Industrial colonialism created a world where a few industrialized nations became. Topics: What did European factories need from their colonies?, How did the steamship help build empires?.",
+      "filename": "colonialism-industrial-portrait.webp"
+    }
+  ]
+}

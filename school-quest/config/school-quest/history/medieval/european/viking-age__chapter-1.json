@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "viking-age",
+  "title": "The Viking Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "viking-age",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Viking Age. Type: era-exploration. Background: The Viking Age began in 793 CE when Vikings attacked the monastery at Lindisfarne in England — a sho. Legacy: Vikings left behind incredible ship burials, rune stones, and place names (like . Topics: What kind of special ship did Vikings use for exploring and raiding?, Which Viking explorer is believed to have reached North America around the year 1000?.",
+      "filename": "viking-age-map.webp"
+    },
+    {
+      "id": "viking-age-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Viking Age. Type: era-exploration. Background: The Viking Age began in 793 CE when Vikings attacked the monastery at Lindisfarne in England — a sho. Legacy: Vikings left behind incredible ship burials, rune stones, and place names (like . Topics: What kind of special ship did Vikings use for exploring and raiding?, Which Viking explorer is believed to have reached North America around the year 1000?.",
+      "filename": "viking-age-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "winston-churchill",
+  "title": "Winston Churchill",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "winston-churchill",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Winston Churchill. Type: historical-figure. Background: Born in 1874 into an aristocratic family, Winston had a difficult time in school but loved reading h. Legacy: Winston Churchill is remembered as one of history's greatest leaders for his def. Topics: What was Winston Churchill's main job during World War II?, What famous symbol did Churchill help popularize during the war?.",
+      "filename": "winston-churchill-portrait.webp"
+    },
+    {
+      "id": "winston-churchill-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Winston Churchill. Type: historical-figure. Background: Born in 1874 into an aristocratic family, Winston had a difficult time in school but loved reading h. Legacy: Winston Churchill is remembered as one of history's greatest leaders for his def. Topics: What was Winston Churchill's main job during World War II?, What famous symbol did Churchill help popularize during the war?.",
+      "filename": "winston-churchill-scene.webp"
+    }
+  ]
+}

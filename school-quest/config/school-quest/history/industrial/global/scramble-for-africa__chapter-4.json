@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "scramble-for-africa",
+  "title": "The Scramble for Africa",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "scramble-for-africa",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: factories were booming, steam engines were chugging, an. Legacy: The early actions between 1760–1840 laid the groundwork for the full 'Scramble' . Topics: What was one reason European countries became more interested in Africa during the Industrial Revolution?, Which country founded a colony in Sierra Leone in 1799?.",
+      "filename": "scramble-for-africa-timeline.webp"
+    },
+    {
+      "id": "scramble-for-africa-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: factories were booming, steam engines were chugging, an. Legacy: The early actions between 1760–1840 laid the groundwork for the full 'Scramble' . Topics: What was one reason European countries became more interested in Africa during the Industrial Revolution?, Which country founded a colony in Sierra Leone in 1799?.",
+      "filename": "scramble-for-africa-scene.webp"
+    }
+  ]
+}

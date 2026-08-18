@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "bronze-age-ch4",
+  "title": "The Bronze Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "bronze-age-ch4",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: For thousands of years, people used stone, wood, and bone for tools and weapons. Then, around 3500 B. Legacy: The Bronze Age laid the foundation for modern civilization. It showed humans the. Topics: What two metals are mixed together to make bronze?, How did bronze tools help farmers?.",
+      "filename": "bronze-age-ch4-map.webp"
+    },
+    {
+      "id": "bronze-age-ch4-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: For thousands of years, people used stone, wood, and bone for tools and weapons. Then, around 3500 B. Legacy: The Bronze Age laid the foundation for modern civilization. It showed humans the. Topics: What two metals are mixed together to make bronze?, How did bronze tools help farmers?.",
+      "filename": "bronze-age-ch4-portrait.webp"
+    }
+  ]
+}

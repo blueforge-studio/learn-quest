@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-religions-ch3",
+  "title": "Ancient Religions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-religions-ch3",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Religions. Type: era-exploration. Background: In ancient times, before science explained things like weather or sickness, people created stories t. Legacy: Ancient religions shaped the world's first laws, art, architecture, and calendar. Topics: What is animism?, What does 'polytheism' mean?.",
+      "filename": "ancient-religions-ch3-map.webp"
+    },
+    {
+      "id": "ancient-religions-ch3-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Religions. Type: era-exploration. Background: In ancient times, before science explained things like weather or sickness, people created stories t. Legacy: Ancient religions shaped the world's first laws, art, architecture, and calendar. Topics: What is animism?, What does 'polytheism' mean?.",
+      "filename": "ancient-religions-ch3-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-rome",
+  "title": "Fall of the Roman Empire",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "fall-of-rome",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Fall of the Roman Empire. Type: timeline. Background: Rome began as a small city in Italy around 753 BCE. By 27 BCE, it became an empire ruled by emperors. Legacy: Even though the Western Roman Empire ended, Rome’s ideas lived on! Roman laws in. Topics: In what year did the Visigoths sack Rome for the first time?, What happened in 476 CE that marks the official end of the Western Roman Empire?.",
+      "filename": "fall-of-rome-timeline.webp"
+    },
+    {
+      "id": "fall-of-rome-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Fall of the Roman Empire. Type: timeline. Background: Rome began as a small city in Italy around 753 BCE. By 27 BCE, it became an empire ruled by emperors. Legacy: Even though the Western Roman Empire ended, Rome’s ideas lived on! Roman laws in. Topics: In what year did the Visigoths sack Rome for the first time?, What happened in 476 CE that marks the official end of the Western Roman Empire?.",
+      "filename": "fall-of-rome-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "opinion-writing",
+  "title": "Opinion Writing",
+  "lessonType": "composition",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-writing/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "opinion-writing-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Opinion Writing. Educational writing example.",
+      "filename": "opinion-writing-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "opinion-writing-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Opinion Writing. Writing template visual.",
+      "filename": "opinion-writing-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "opinion-writing-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Opinion Writing. Descriptive scene image.",
+      "filename": "opinion-writing-scene.webp",
+      "quality": 85
+    }
+  ]
+}

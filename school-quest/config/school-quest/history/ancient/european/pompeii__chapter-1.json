@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pompeii",
+  "title": "Pompeii: Frozen in Time",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "pompeii",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Pompeii: Frozen in Time. Type: era-exploration. Background: Pompeii was a busy port city in southern Italy, home to about 11,000 people. It had shops, bakeries,. Legacy: Pompeii is our most complete picture of everyday life in a Roman town. It's like. Topics: What natural disaster buried the city of Pompeii?, How was Pompeii preserved so well for centuries?.",
+      "filename": "pompeii-map.webp"
+    },
+    {
+      "id": "pompeii-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Pompeii: Frozen in Time. Type: era-exploration. Background: Pompeii was a busy port city in southern Italy, home to about 11,000 people. It had shops, bakeries,. Legacy: Pompeii is our most complete picture of everyday life in a Roman town. It's like. Topics: What natural disaster buried the city of Pompeii?, How was Pompeii preserved so well for centuries?.",
+      "filename": "pompeii-portrait.webp"
+    }
+  ]
+}

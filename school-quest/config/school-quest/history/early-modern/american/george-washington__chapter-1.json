@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "george-washington",
+  "title": "George Washington",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "george-washington",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: George Washington. Type: historical-figure. Background: George was born in Virginia in 1732. As a young man, he worked as a surveyor, mapping the wilderness. Legacy: George Washington is remembered as a leader of great courage and integrity. He c. Topics: What important job did George Washington have before becoming president?, What was George Washington's most famous home called?.",
+      "filename": "george-washington-portrait.webp"
+    },
+    {
+      "id": "george-washington-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: George Washington. Type: historical-figure. Background: George was born in Virginia in 1732. As a young man, he worked as a surveyor, mapping the wilderness. Legacy: George Washington is remembered as a leader of great courage and integrity. He c. Topics: What important job did George Washington have before becoming president?, What was George Washington's most famous home called?.",
+      "filename": "george-washington-scene.webp"
+    }
+  ]
+}

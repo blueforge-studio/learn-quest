@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "siddhartha-gautama-historical-figure",
+  "title": "Siddhartha Gautama: The Buddha",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "siddhartha-gautama-historical-figure",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Siddhartha Gautama: The Buddha. Type: historical-figure. Topics: What does 'Buddha' mean?, Under what tree did Siddhartha become enlightened?.",
+      "filename": "siddhartha-gautama-historical-figure-portrait.webp"
+    },
+    {
+      "id": "siddhartha-gautama-historical-figure-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Siddhartha Gautama: The Buddha. Type: historical-figure. Topics: What does 'Buddha' mean?, Under what tree did Siddhartha become enlightened?.",
+      "filename": "siddhartha-gautama-historical-figure-scene.webp"
+    }
+  ]
+}

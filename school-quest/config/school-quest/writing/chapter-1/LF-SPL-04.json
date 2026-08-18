@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "LF-SPL-04",
+  "title": "Letter Friends: Uppercase and Lowercase Match",
+  "lessonType": "spelling",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-writing/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "LF-SPL-04-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Letter Friends: Uppercase and Lowercase Match. Educational writing example.",
+      "filename": "LF-SPL-04-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "LF-SPL-04-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Letter Friends: Uppercase and Lowercase Match. Writing template visual.",
+      "filename": "LF-SPL-04-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "LF-SPL-04-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Letter Friends: Uppercase and Lowercase Match. Descriptive scene image.",
+      "filename": "LF-SPL-04-scene.webp",
+      "quality": 85
+    }
+  ]
+}

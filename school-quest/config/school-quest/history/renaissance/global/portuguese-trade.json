@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "portuguese-trade",
+  "title": "Portuguese Maritime Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "portuguese-trade",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Portuguese Maritime Empire. Type: era-exploration. Background: Portugal is a small country with a long coastline. In the 1400s, led by a prince nicknamed Henry the. Legacy: The Portuguese created the first truly global trading network, linking Europe, A. Topics: What was the main treasure Portuguese explorers were trying to find in Asia?, What did Prince Henry the Navigator create to help explorers?.",
+      "filename": "portuguese-trade-map.webp"
+    },
+    {
+      "id": "portuguese-trade-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Portuguese Maritime Empire. Type: era-exploration. Background: Portugal is a small country with a long coastline. In the 1400s, led by a prince nicknamed Henry the. Legacy: The Portuguese created the first truly global trading network, linking Europe, A. Topics: What was the main treasure Portuguese explorers were trying to find in Asia?, What did Prince Henry the Navigator create to help explorers?.",
+      "filename": "portuguese-trade-portrait.webp"
+    }
+  ]
+}

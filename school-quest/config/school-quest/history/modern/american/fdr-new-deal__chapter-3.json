@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fdr-new-deal",
+  "title": "FDR and the New Deal",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "fdr-new-deal",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: FDR and the New Deal. Type: historical-figure. Background: Born into a wealthy family in New York in 1882, FDR was a distant cousin of another famous president. Legacy: Franklin D. Roosevelt served as president for over 12 years, longer than anyone . Topics: What major problem was America facing when FDR became president?, What were FDR's radio speeches called?.",
+      "filename": "fdr-new-deal-portrait.webp"
+    },
+    {
+      "id": "fdr-new-deal-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: FDR and the New Deal. Type: historical-figure. Background: Born into a wealthy family in New York in 1882, FDR was a distant cousin of another famous president. Legacy: Franklin D. Roosevelt served as president for over 12 years, longer than anyone . Topics: What major problem was America facing when FDR became president?, What were FDR's radio speeches called?.",
+      "filename": "fdr-new-deal-scene.webp"
+    }
+  ]
+}

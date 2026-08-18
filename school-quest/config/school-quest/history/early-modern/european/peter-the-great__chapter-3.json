@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "peter-the-great",
+  "title": "Peter the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "peter-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Peter the Great. Type: historical-figure. Background: Peter was born in Moscow in 1672 and became tsar at age 10, sharing power with his half-brother. As . Legacy: Peter transformed Russia from a isolated, traditional state into a major Europea. Topics: Why did Peter the Great travel to Europe in disguise?, What famous city did Peter build as Russia's new capital?.",
+      "filename": "peter-the-great-portrait.webp"
+    },
+    {
+      "id": "peter-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Peter the Great. Type: historical-figure. Background: Peter was born in Moscow in 1672 and became tsar at age 10, sharing power with his half-brother. As . Legacy: Peter transformed Russia from a isolated, traditional state into a major Europea. Topics: Why did Peter the Great travel to Europe in disguise?, What famous city did Peter build as Russia's new capital?.",
+      "filename": "peter-the-great-scene.webp"
+    }
+  ]
+}

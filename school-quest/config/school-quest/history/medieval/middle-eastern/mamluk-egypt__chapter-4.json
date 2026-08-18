@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mamluk-egypt",
+  "title": "Mamluk Egypt",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "mamluk-egypt",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Mamluk Egypt. Type: era-exploration. Background: From 1250 to 1517 CE, the Mamluk Sultanate controlled Egypt, Syria, and parts of Arabia. The word 'M. Legacy: The Mamluks left behind stunning architecture that still graces Cairo's skyline . Topics: What does the word 'Mamluk' mean in Arabic?, What major enemy did the Mamluks defeat at the Battle of Ain Jalut in 1260?.",
+      "filename": "mamluk-egypt-map.webp"
+    },
+    {
+      "id": "mamluk-egypt-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mamluk Egypt. Type: era-exploration. Background: From 1250 to 1517 CE, the Mamluk Sultanate controlled Egypt, Syria, and parts of Arabia. The word 'M. Legacy: The Mamluks left behind stunning architecture that still graces Cairo's skyline . Topics: What does the word 'Mamluk' mean in Arabic?, What major enemy did the Mamluks defeat at the Battle of Ain Jalut in 1260?.",
+      "filename": "mamluk-egypt-portrait.webp"
+    }
+  ]
+}

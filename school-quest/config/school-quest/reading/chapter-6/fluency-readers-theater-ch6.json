@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "fluency-readers-theater-ch6",
+  "title": "Readers' Theater: The Quest for the Golden Book",
+  "lessonType": "fluency",
+  "chapter": "chapter-6",
+  "basePath": "public/images/lessons/lq-reading/chapter-6",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "fluency-readers-theater-ch6-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Readers' Theater: The Quest for the Golden Book. Educational scene.",
+      "filename": "fluency-readers-theater-ch6-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "fluency-readers-theater-ch6-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Readers' Theater: The Quest for the Golden Book. Story scene or concept illustration.",
+      "filename": "fluency-readers-theater-ch6-visual.webp",
+      "quality": 85
+    }
+  ]
+}

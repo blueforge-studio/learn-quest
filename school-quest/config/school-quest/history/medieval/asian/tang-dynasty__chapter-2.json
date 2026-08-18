@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tang-dynasty",
+  "title": "The Tang Dynasty",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "tang-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Tang Dynasty. Type: era-exploration. Background: The Tang Dynasty began in 618 CE when a general named Li Yuan took control. He became Emperor Gaozu.. Legacy: The Tang Dynasty set a standard for Chinese culture that lasted for centuries. I. Topics: What was the Tang Dynasty known as?, What was the name of the famous trade route that flourished during the Tang Dynasty?.",
+      "filename": "tang-dynasty-map.webp"
+    },
+    {
+      "id": "tang-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Tang Dynasty. Type: era-exploration. Background: The Tang Dynasty began in 618 CE when a general named Li Yuan took control. He became Emperor Gaozu.. Legacy: The Tang Dynasty set a standard for Chinese culture that lasted for centuries. I. Topics: What was the Tang Dynasty known as?, What was the name of the famous trade route that flourished during the Tang Dynasty?.",
+      "filename": "tang-dynasty-portrait.webp"
+    }
+  ]
+}

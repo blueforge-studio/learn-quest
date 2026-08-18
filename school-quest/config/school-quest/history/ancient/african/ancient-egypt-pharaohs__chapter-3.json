@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-egypt-pharaohs",
+  "title": "Egypt: Land of the Pharaohs",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "ancient-egypt-pharaohs",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Egypt's story began when people settled along the Nile River around 3500 BCE. The river's predictabl. Legacy: Ancient Egypt left an incredible mark on history. We still marvel at their pyram. Topics: What was the most important geographic feature for Ancient Egyptian civilization?, What were the rulers of Ancient Egypt called?.",
+      "filename": "ancient-egypt-pharaohs-map.webp"
+    },
+    {
+      "id": "ancient-egypt-pharaohs-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Egypt's story began when people settled along the Nile River around 3500 BCE. The river's predictabl. Legacy: Ancient Egypt left an incredible mark on history. We still marvel at their pyram. Topics: What was the most important geographic feature for Ancient Egyptian civilization?, What were the rulers of Ancient Egypt called?.",
+      "filename": "ancient-egypt-pharaohs-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "sb-04",
+  "title": "Join the Clauses! Compound Sentence Sort & Build",
+  "lessonType": "grammar",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-writing/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "sb-04-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Join the Clauses! Compound Sentence Sort & Build. Educational writing example.",
+      "filename": "sb-04-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "sb-04-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Join the Clauses! Compound Sentence Sort & Build. Writing template visual.",
+      "filename": "sb-04-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "sb-04-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Join the Clauses! Compound Sentence Sort & Build. Descriptive scene image.",
+      "filename": "sb-04-scene.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "marco-polo",
+  "title": "Marco Polo",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "marco-polo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Marco Polo. Type: historical-figure. Background: Born in Venice in 1254, Marco grew up in a family of merchants. When he was 17, his father and uncle. Legacy: Marco Polo's book introduced Europeans to the wonders of China and Central Asia.. Topics: How old was Marco Polo when he left Venice for China?, Who was the ruler Marco Polo met in China?.",
+      "filename": "marco-polo-portrait.webp"
+    },
+    {
+      "id": "marco-polo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Marco Polo. Type: historical-figure. Background: Born in Venice in 1254, Marco grew up in a family of merchants. When he was 17, his father and uncle. Legacy: Marco Polo's book introduced Europeans to the wonders of China and Central Asia.. Topics: How old was Marco Polo when he left Venice for China?, Who was the ruler Marco Polo met in China?.",
+      "filename": "marco-polo-scene.webp"
+    }
+  ]
+}

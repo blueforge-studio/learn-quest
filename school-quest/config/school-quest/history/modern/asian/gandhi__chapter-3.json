@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gandhi",
+  "title": "Mahatma Gandhi",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "gandhi",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mahatma Gandhi. Type: historical-figure. Background: Mohandas Karamchand Gandhi was born in 1869 in Porbandar, India. As a young man, he went to London t. Legacy: Mahatma Gandhi is remembered as the 'Father of the Nation' in India. His philoso. Topics: What was Gandhi's main method for fighting injustice?, What famous protest did Gandhi lead by walking to the sea?.",
+      "filename": "gandhi-portrait.webp"
+    },
+    {
+      "id": "gandhi-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Mahatma Gandhi. Type: historical-figure. Background: Mohandas Karamchand Gandhi was born in 1869 in Porbandar, India. As a young man, he went to London t. Legacy: Mahatma Gandhi is remembered as the 'Father of the Nation' in India. His philoso. Topics: What was Gandhi's main method for fighting injustice?, What famous protest did Gandhi lead by walking to the sea?.",
+      "filename": "gandhi-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "indian-independence",
+  "title": "Indian Independence Movement",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "indian-independence",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Indian Independence Movement. Type: timeline. Background: In the 1700s, the British East India Company began to control parts of India. By 1858, the British g. Legacy: India's independence showed the world that peaceful mass movements could defeat . Topics: What was the main method of protest used by Gandhi and his followers?, What famous protest involved walking to the sea to make salt?.",
+      "filename": "indian-independence-timeline.webp"
+    },
+    {
+      "id": "indian-independence-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Indian Independence Movement. Type: timeline. Background: In the 1700s, the British East India Company began to control parts of India. By 1858, the British g. Legacy: India's independence showed the world that peaceful mass movements could defeat . Topics: What was the main method of protest used by Gandhi and his followers?, What famous protest involved walking to the sea to make salt?.",
+      "filename": "indian-independence-scene.webp"
+    }
+  ]
+}

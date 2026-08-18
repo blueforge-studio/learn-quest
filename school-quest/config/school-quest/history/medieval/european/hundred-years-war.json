@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "hundred-years-war",
+  "title": "The Hundred Years' War",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "hundred-years-war",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Hundred Years' War. Type: timeline. Background: In the 1300s, English kings also ruled parts of France (like Aquitaine) because of old family ties a. Legacy: The Hundred Years’ War helped create stronger national identities—people in Engl. Topics: How long did the Hundred Years’ War really last?, What weapon helped the English win the Battle of Crécy?.",
+      "filename": "hundred-years-war-timeline.webp"
+    },
+    {
+      "id": "hundred-years-war-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Hundred Years' War. Type: timeline. Background: In the 1300s, English kings also ruled parts of France (like Aquitaine) because of old family ties a. Legacy: The Hundred Years’ War helped create stronger national identities—people in Engl. Topics: How long did the Hundred Years’ War really last?, What weapon helped the English win the Battle of Crécy?.",
+      "filename": "hundred-years-war-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "seljuk-turks",
+  "title": "The Seljuk Turks",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "seljuk-turks",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Seljuk Turks. Type: era-exploration. Background: Originally from the steppes (grassy plains) of Central Asia, the Seljuks were a clan of Turkic peopl. Legacy: The Seljuks left a giant mark on history. They paved the way for the future Otto. Topics: Where did the Seljuk Turks originally come from?, What important title did the Seljuk rulers take when they became protectors of Baghdad?.",
+      "filename": "seljuk-turks-map.webp"
+    },
+    {
+      "id": "seljuk-turks-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Seljuk Turks. Type: era-exploration. Background: Originally from the steppes (grassy plains) of Central Asia, the Seljuks were a clan of Turkic peopl. Legacy: The Seljuks left a giant mark on history. They paved the way for the future Otto. Topics: Where did the Seljuk Turks originally come from?, What important title did the Seljuk rulers take when they became protectors of Baghdad?.",
+      "filename": "seljuk-turks-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "asian-economic-rise",
+  "title": "Asian Tigers and Economic Rise",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "asian-economic-rise",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Asian Tigers and Economic Rise. Type: lesson. Topics: Which countries are known as the \"Four Asian Tigers\"?, When did the Asian Financial Crisis occur?.",
+      "filename": "asian-economic-rise-timeline.webp"
+    },
+    {
+      "id": "asian-economic-rise-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Asian Tigers and Economic Rise. Type: lesson. Topics: Which countries are known as the \"Four Asian Tigers\"?, When did the Asian Financial Crisis occur?.",
+      "filename": "asian-economic-rise-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "phonics-alphabet",
+  "title": "The Alphabet",
+  "lessonType": "phonics",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-reading/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "phonics-alphabet-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: The Alphabet. Educational scene.",
+      "filename": "phonics-alphabet-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "phonics-alphabet-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: The Alphabet. Story scene or concept illustration.",
+      "filename": "phonics-alphabet-visual.webp",
+      "quality": 85
+    }
+  ]
+}

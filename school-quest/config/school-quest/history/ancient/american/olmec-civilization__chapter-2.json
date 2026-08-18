@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "olmec-civilization",
+  "title": "The Olmec: Mother Culture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "olmec-civilization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Olmec: Mother Culture. Type: era-exploration. Background: The Olmec lived in the hot, swampy lowlands along the Gulf Coast of Mexico, in an area rich with riv. Legacy: The Olmec are called the 'Mother Culture' of Mesoamerica because they invented s. Topics: Why are the Olmec called the 'Mother Culture'?, What is the Olmec's most famous type of sculpture?.",
+      "filename": "olmec-civilization-map.webp"
+    },
+    {
+      "id": "olmec-civilization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Olmec: Mother Culture. Type: era-exploration. Background: The Olmec lived in the hot, swampy lowlands along the Gulf Coast of Mexico, in an area rich with riv. Legacy: The Olmec are called the 'Mother Culture' of Mesoamerica because they invented s. Topics: Why are the Olmec called the 'Mother Culture'?, What is the Olmec's most famous type of sculpture?.",
+      "filename": "olmec-civilization-portrait.webp"
+    }
+  ]
+}

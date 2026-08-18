@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "triangular-trade",
+  "title": "The Triangular Trade",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "triangular-trade",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Triangular Trade. Type: era-exploration. Background: In the Early Modern era, European countries like Portugal, Spain, Britain, and France set up colonie. Legacy: The Triangular Trade had lasting effects. It brought African cultures to the Ame. Topics: Why was it called the 'Triangular' Trade?, What did ships carry from Europe to Africa in the first stage?.",
+      "filename": "triangular-trade-map.webp"
+    },
+    {
+      "id": "triangular-trade-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Triangular Trade. Type: era-exploration. Background: In the Early Modern era, European countries like Portugal, Spain, Britain, and France set up colonie. Legacy: The Triangular Trade had lasting effects. It brought African cultures to the Ame. Topics: Why was it called the 'Triangular' Trade?, What did ships carry from Europe to Africa in the first stage?.",
+      "filename": "triangular-trade-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gutenberg-press",
+  "title": "The Printing Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "gutenberg-press",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Printing Revolution. Type: era-exploration. Background: In the early 1400s, most books in Europe were handwritten by monks in quiet monasteries. It could ta. Legacy: The Printing Revolution is like the 'big bang' of information! It led to modern . Topics: What did Gutenberg use to press ink onto paper?, Before the printing press, who usually copied books by hand?.",
+      "filename": "gutenberg-press-map.webp"
+    },
+    {
+      "id": "gutenberg-press-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Printing Revolution. Type: era-exploration. Background: In the early 1400s, most books in Europe were handwritten by monks in quiet monasteries. It could ta. Legacy: The Printing Revolution is like the 'big bang' of information! It led to modern . Topics: What did Gutenberg use to press ink onto paper?, Before the printing press, who usually copied books by hand?.",
+      "filename": "gutenberg-press-portrait.webp"
+    }
+  ]
+}

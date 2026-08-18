@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "enlightenment",
+  "title": "The Age of Enlightenment",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "enlightenment",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries of kings and queens ruling with absolute power, and after the religious wars of the . Legacy: The Enlightenment's ideas are the foundation of the modern world. They inspired . Topics: What was the main tool Enlightenment thinkers believed could improve the world?, Which Enlightenment idea says government power should be split to prevent tyranny?.",
+      "filename": "enlightenment-map.webp"
+    },
+    {
+      "id": "enlightenment-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries of kings and queens ruling with absolute power, and after the religious wars of the . Legacy: The Enlightenment's ideas are the foundation of the modern world. They inspired . Topics: What was the main tool Enlightenment thinkers believed could improve the world?, Which Enlightenment idea says government power should be split to prevent tyranny?.",
+      "filename": "enlightenment-portrait.webp"
+    }
+  ]
+}

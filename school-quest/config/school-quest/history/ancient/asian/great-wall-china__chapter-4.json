@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-wall-china",
+  "title": "The Great Wall of China",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "great-wall-china",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: Long ago, different groups of people lived in what is now China. To the north were nomadic tribes, s. Legacy: Today, the Great Wall is a symbol of China and a UNESCO World Heritage Site. It . Topics: What was the MAIN reason the Great Wall was built?, Which famous Chinese emperor first connected many of the separate walls?.",
+      "filename": "great-wall-china-map.webp"
+    },
+    {
+      "id": "great-wall-china-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Wall of China. Type: era-exploration. Background: Long ago, different groups of people lived in what is now China. To the north were nomadic tribes, s. Legacy: Today, the Great Wall is a symbol of China and a UNESCO World Heritage Site. It . Topics: What was the MAIN reason the Great Wall was built?, Which famous Chinese emperor first connected many of the separate walls?.",
+      "filename": "great-wall-china-portrait.webp"
+    }
+  ]
+}

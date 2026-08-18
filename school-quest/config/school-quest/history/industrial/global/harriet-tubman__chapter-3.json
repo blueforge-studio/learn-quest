@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "harriet-tubman",
+  "title": "Harriet Tubman",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "harriet-tubman",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Harriet Tubman. Type: historical-figure. Background: Harriet was born into slavery in Maryland around 1822. As a child, she worked hard in fields and hom. Legacy: Harriet Tubman is remembered as one of America’s greatest heroes. Her bravery he. Topics: What was the Underground Railroad?, How many people did Harriet Tubman help escape to freedom?.",
+      "filename": "harriet-tubman-portrait.webp"
+    },
+    {
+      "id": "harriet-tubman-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Harriet Tubman. Type: historical-figure. Background: Harriet was born into slavery in Maryland around 1822. As a child, she worked hard in fields and hom. Legacy: Harriet Tubman is remembered as one of America’s greatest heroes. Her bravery he. Topics: What was the Underground Railroad?, How many people did Harriet Tubman help escape to freedom?.",
+      "filename": "harriet-tubman-scene.webp"
+    }
+  ]
+}

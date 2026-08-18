@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "grammar_003",
+  "title": "Ending Sentences with Periods",
+  "lessonType": "grammar",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-writing/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "grammar_003-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Ending Sentences with Periods. Educational writing example.",
+      "filename": "grammar_003-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "grammar_003-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Ending Sentences with Periods. Writing template visual.",
+      "filename": "grammar_003-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "grammar_003-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Ending Sentences with Periods. Descriptive scene image.",
+      "filename": "grammar_003-scene.webp",
+      "quality": 85
+    }
+  ]
+}

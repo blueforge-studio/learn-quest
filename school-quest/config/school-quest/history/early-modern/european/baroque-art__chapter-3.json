@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "baroque-art",
+  "title": "Baroque Art and Architecture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "baroque-art",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Baroque Art and Architecture. Type: era-exploration. Background: The Baroque style began in Italy around 1600 and spread across Europe. It was a time when kings and . Legacy: Baroque style left a huge mark on Europe. You can still visit its amazing palace. Topics: What is the most famous Baroque palace, built for King Louis XIV?, Baroque art is known for being full of....",
+      "filename": "baroque-art-map.webp"
+    },
+    {
+      "id": "baroque-art-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Baroque Art and Architecture. Type: era-exploration. Background: The Baroque style began in Italy around 1600 and spread across Europe. It was a time when kings and . Legacy: Baroque style left a huge mark on Europe. You can still visit its amazing palace. Topics: What is the most famous Baroque palace, built for King Louis XIV?, Baroque art is known for being full of....",
+      "filename": "baroque-art-portrait.webp"
+    }
+  ]
+}

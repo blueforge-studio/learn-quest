@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "michelangelo",
+  "title": "Michelangelo",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "michelangelo",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Michelangelo. Type: historical-figure. Background: Born in 1475 in Caprese, Italy, Michelangelo grew up near Florence. He loved art from a young age, e. Legacy: Michelangelo is considered one of the greatest artists of all time. His work sho. Topics: What is Michelangelo's most famous sculpture?, Where did Michelangelo paint his famous ceiling fresco?.",
+      "filename": "michelangelo-portrait.webp"
+    },
+    {
+      "id": "michelangelo-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Michelangelo. Type: historical-figure. Background: Born in 1475 in Caprese, Italy, Michelangelo grew up near Florence. He loved art from a young age, e. Legacy: Michelangelo is considered one of the greatest artists of all time. His work sho. Topics: What is Michelangelo's most famous sculpture?, Where did Michelangelo paint his famous ceiling fresco?.",
+      "filename": "michelangelo-scene.webp"
+    }
+  ]
+}

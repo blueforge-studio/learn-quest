@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "akbar-the-great",
+  "title": "Akbar the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "akbar-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Akbar the Great. Type: historical-figure. Background: Akbar was born in 1542 in Umerkot (in modern-day Pakistan). His father, Humayun, was the Mughal empe. Legacy: Akbar is remembered as 'the Great' because of his wisdom and fairness. He showed. Topics: How old was Akbar when he became emperor?, What was the name of Akbar's policy of religious tolerance?.",
+      "filename": "akbar-the-great-portrait.webp"
+    },
+    {
+      "id": "akbar-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Akbar the Great. Type: historical-figure. Background: Akbar was born in 1542 in Umerkot (in modern-day Pakistan). His father, Humayun, was the Mughal empe. Legacy: Akbar is remembered as 'the Great' because of his wisdom and fairness. He showed. Topics: How old was Akbar when he became emperor?, What was the name of Akbar's policy of religious tolerance?.",
+      "filename": "akbar-the-great-scene.webp"
+    }
+  ]
+}

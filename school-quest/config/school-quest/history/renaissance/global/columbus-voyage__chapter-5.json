@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "columbus-voyage",
+  "title": "Columbus and the New World",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "columbus-voyage",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Columbus and the New World. Type: timeline. Background: Born in Genoa, Italy, around 1451, Columbus was a skilled sailor who believed the Earth was smaller . Legacy: Columbus's voyage was a turning point in world history. It permanently connected. Topics: What was Columbus's main goal when he sailed west in 1492?, On what date did Columbus's crew first sight land in 1492?.",
+      "filename": "columbus-voyage-timeline.webp"
+    },
+    {
+      "id": "columbus-voyage-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Columbus and the New World. Type: timeline. Background: Born in Genoa, Italy, around 1451, Columbus was a skilled sailor who believed the Earth was smaller . Legacy: Columbus's voyage was a turning point in world history. It permanently connected. Topics: What was Columbus's main goal when he sailed west in 1492?, On what date did Columbus's crew first sight land in 1492?.",
+      "filename": "columbus-voyage-scene.webp"
+    }
+  ]
+}

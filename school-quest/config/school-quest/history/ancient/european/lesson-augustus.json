@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "lesson-augustus",
+  "title": "Augustus: The Boy Who Became Rome’s First Emperor",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "lesson-augustus",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Augustus: The Boy Who Became Rome’s First Emperor. Type: historical-figure. Topics: What title did Augustus carefully choose instead of 'king' or 'dictator'?.",
+      "filename": "lesson-augustus-portrait.webp"
+    },
+    {
+      "id": "lesson-augustus-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Augustus: The Boy Who Became Rome’s First Emperor. Type: historical-figure. Topics: What title did Augustus carefully choose instead of 'king' or 'dictator'?.",
+      "filename": "lesson-augustus-scene.webp"
+    }
+  ]
+}

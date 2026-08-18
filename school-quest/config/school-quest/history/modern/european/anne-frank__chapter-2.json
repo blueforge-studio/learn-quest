@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "anne-frank",
+  "title": "Anne Frank",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "anne-frank",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Anne Frank. Type: historical-figure. Background: Annelies Marie Frank was born in Frankfurt, Germany, in 1929. When the Nazis, led by Adolf Hitler, c. Legacy: Anne Frank's diary has been translated into over 70 languages and read by tens o. Topics: What did Anne Frank receive for her 13th birthday?, Why did Anne Frank and her family go into hiding?.",
+      "filename": "anne-frank-portrait.webp"
+    },
+    {
+      "id": "anne-frank-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Anne Frank. Type: historical-figure. Background: Annelies Marie Frank was born in Frankfurt, Germany, in 1929. When the Nazis, led by Adolf Hitler, c. Legacy: Anne Frank's diary has been translated into over 70 languages and read by tens o. Topics: What did Anne Frank receive for her 13th birthday?, Why did Anne Frank and her family go into hiding?.",
+      "filename": "anne-frank-scene.webp"
+    }
+  ]
+}

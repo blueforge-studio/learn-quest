@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-empires-ch4",
+  "title": "Why Empires Fall",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "fall-of-empires-ch4",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Empires are huge kingdoms with many lands, people, and armies. To stay strong, they need good leader. Legacy: We still learn from these empires today! Rome’s laws inspired modern courts. Han. Topics: Which of these was a problem ALL THREE empires faced?, What did the Han Dynasty invent that we still use today?.",
+      "filename": "fall-of-empires-ch4-timeline.webp"
+    },
+    {
+      "id": "fall-of-empires-ch4-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Empires are huge kingdoms with many lands, people, and armies. To stay strong, they need good leader. Legacy: We still learn from these empires today! Rome’s laws inspired modern courts. Han. Topics: Which of these was a problem ALL THREE empires faced?, What did the Han Dynasty invent that we still use today?.",
+      "filename": "fall-of-empires-ch4-scene.webp"
+    }
+  ]
+}

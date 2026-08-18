@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "vietnam-war",
+  "title": "The Vietnam War",
+  "lessonType": "lesson",
+  "chapter": "chapter-1",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "vietnam-war",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Vietnam War. Type: lesson. Topics: Why did the US initially support France in Vietnam?, What was the Tet Offensive?.",
+      "filename": "vietnam-war-timeline.webp"
+    },
+    {
+      "id": "vietnam-war-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Vietnam War. Type: lesson. Topics: Why did the US initially support France in Vietnam?, What was the Tet Offensive?.",
+      "filename": "vietnam-war-scene.webp"
+    }
+  ]
+}

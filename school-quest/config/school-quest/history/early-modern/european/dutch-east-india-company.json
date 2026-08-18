@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "dutch-east-india-company",
+  "title": "The Dutch East India Company (VOC)",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "dutch-east-india-company",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Dutch East India Company (VOC). Type: era-exploration. Background: In the 1600s, European countries were racing to trade with Asia for spices like pepper, cinnamon, an. Legacy: The VOC created the model for modern corporations with shareholders and global o. Topics: What was the main reason the Dutch East India Company was created?, What made the VOC different from earlier trading companies?.",
+      "filename": "dutch-east-india-company-map.webp"
+    },
+    {
+      "id": "dutch-east-india-company-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Dutch East India Company (VOC). Type: era-exploration. Background: In the 1600s, European countries were racing to trade with Asia for spices like pepper, cinnamon, an. Legacy: The VOC created the model for modern corporations with shareholders and global o. Topics: What was the main reason the Dutch East India Company was created?, What made the VOC different from earlier trading companies?.",
+      "filename": "dutch-east-india-company-portrait.webp"
+    }
+  ]
+}

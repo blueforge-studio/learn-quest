@@ -1,0 +1,20 @@
+{
+  "products": {
+    "allSubjects": {
+      "id": "prod_UKKg4qaaUOIhHc",
+      "name": "SchoolQuest All Subjects",
+      "prices": {
+        "yearly": { "id": "price_1TLg112HDZANBvp8Awa2oZib", "amount": 5000, "currency": "usd", "interval": "year" },
+        "monthly": { "id": "price_1TLg1A2HDZANBvp88THmAC6G", "amount": 700, "currency": "usd", "interval": "month" }
+      }
+    },
+    "singleSubject": {
+      "id": "prod_UKKgJcjZ3t6x2R",
+      "name": "SchoolQuest Single Subject",
+      "prices": {
+        "oneTime": { "id": "price_1TLg1C2HDZANBvp8Gt5OGhpZ", "amount": 1000, "currency": "usd" }
+      }
+    }
+  },
+  "note": "Test mode. Chapters 1-2 free, chapters 3+ require subscription or single-subject purchase."
+}

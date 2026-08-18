@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "peter-the-great",
+  "title": "Peter the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "peter-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Peter the Great. Type: historical-figure. Background: Peter was born in Moscow in 1672. As a boy, he was fascinated by ships, soldiers, and science. He be. Legacy: Peter transformed Russia into a major empire that could rival its European neigh. Topics: Why did Peter the Great want to modernize Russia?, What famous city did Peter the Great build?.",
+      "filename": "peter-the-great-portrait.webp"
+    },
+    {
+      "id": "peter-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Peter the Great. Type: historical-figure. Background: Peter was born in Moscow in 1672. As a boy, he was fascinated by ships, soldiers, and science. He be. Legacy: Peter transformed Russia into a major empire that could rival its European neigh. Topics: Why did Peter the Great want to modernize Russia?, What famous city did Peter the Great build?.",
+      "filename": "peter-the-great-scene.webp"
+    }
+  ]
+}

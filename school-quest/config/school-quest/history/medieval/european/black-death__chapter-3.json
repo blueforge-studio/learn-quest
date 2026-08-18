@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "black-death",
+  "title": "The Black Death",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "black-death",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Black Death. Type: era-exploration. Background: In the 14th century, people lived close together in towns and cities, and they didn't understand how. Legacy: The Black Death was one of the worst disasters in human history. It caused immen. Topics: About how much of Europe's population did the Black Death kill?, How did the plague most likely travel to Europe?.",
+      "filename": "black-death-map.webp"
+    },
+    {
+      "id": "black-death-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Black Death. Type: era-exploration. Background: In the 14th century, people lived close together in towns and cities, and they didn't understand how. Legacy: The Black Death was one of the worst disasters in human history. It caused immen. Topics: About how much of Europe's population did the Black Death kill?, How did the plague most likely travel to Europe?.",
+      "filename": "black-death-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pyramids-of-giza",
+  "title": "Building the Pyramids",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "pyramids-of-giza",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: The pyramids were built during Egypt's Old Kingdom period along the west bank of the Nile River. Anc. Legacy: The Great Pyramids are the only one of the Seven Wonders of the Ancient World st. Topics: Why did ancient Egyptians build pyramids?, How did workers move the heavy stone blocks?.",
+      "filename": "pyramids-of-giza-map.webp"
+    },
+    {
+      "id": "pyramids-of-giza-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: The pyramids were built during Egypt's Old Kingdom period along the west bank of the Nile River. Anc. Legacy: The Great Pyramids are the only one of the Seven Wonders of the Ancient World st. Topics: Why did ancient Egyptians build pyramids?, How did workers move the heavy stone blocks?.",
+      "filename": "pyramids-of-giza-portrait.webp"
+    }
+  ]
+}

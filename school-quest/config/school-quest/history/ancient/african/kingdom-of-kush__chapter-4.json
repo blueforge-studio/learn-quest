@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kingdom-of-kush",
+  "title": "Kingdom of Kush",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "kingdom-of-kush",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Kingdom of Kush. Type: era-exploration. Background: Kush began as early farming communities along the Nile River in what is now Sudan. Its people, calle. Legacy: The Kingdom of Kush shows that powerful, innovative civilizations flourished acr. Topics: Where was the Kingdom of Kush located?, What precious metal made Kush very wealthy and famous?.",
+      "filename": "kingdom-of-kush-map.webp"
+    },
+    {
+      "id": "kingdom-of-kush-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Kingdom of Kush. Type: era-exploration. Background: Kush began as early farming communities along the Nile River in what is now Sudan. Its people, calle. Legacy: The Kingdom of Kush shows that powerful, innovative civilizations flourished acr. Topics: Where was the Kingdom of Kush located?, What precious metal made Kush very wealthy and famous?.",
+      "filename": "kingdom-of-kush-portrait.webp"
+    }
+  ]
+}

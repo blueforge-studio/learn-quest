@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "khmer-empire",
+  "title": "The Khmer Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "khmer-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Khmer Empire. Type: era-exploration. Background: The Khmer people lived in what is now Cambodia, Thailand, Laos, and southern Vietnam. Around 500 CE,. Legacy: Though the empire declined after 1400 CE, its legacy lives on! Angkor Wat appear. Topics: What is the name of the world’s largest religious monument, built by the Khmer Empire?, What did the Khmer build to store rainwater and grow rice all year?.",
+      "filename": "khmer-empire-map.webp"
+    },
+    {
+      "id": "khmer-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Khmer Empire. Type: era-exploration. Background: The Khmer people lived in what is now Cambodia, Thailand, Laos, and southern Vietnam. Around 500 CE,. Legacy: Though the empire declined after 1400 CE, its legacy lives on! Angkor Wat appear. Topics: What is the name of the world’s largest religious monument, built by the Khmer Empire?, What did the Khmer build to store rainwater and grow rice all year?.",
+      "filename": "khmer-empire-portrait.webp"
+    }
+  ]
+}

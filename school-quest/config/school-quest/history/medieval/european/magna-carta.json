@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "magna-carta",
+  "title": "The Magna Carta",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "magna-carta",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Magna Carta. Type: era-exploration. Background: In medieval England, King John was a very unpopular king. He taxed his barons (the powerful nobles) . Legacy: Although most of its specific rules are now outdated, the Magna Carta's core pri. Topics: Where did King John and the barons meet to agree on the Magna Carta?, What was the main reason the barons were angry with King John?.",
+      "filename": "magna-carta-map.webp"
+    },
+    {
+      "id": "magna-carta-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Magna Carta. Type: era-exploration. Background: In medieval England, King John was a very unpopular king. He taxed his barons (the powerful nobles) . Legacy: Although most of its specific rules are now outdated, the Magna Carta's core pri. Topics: Where did King John and the barons meet to agree on the Magna Carta?, What was the main reason the barons were angry with King John?.",
+      "filename": "magna-carta-portrait.webp"
+    }
+  ]
+}

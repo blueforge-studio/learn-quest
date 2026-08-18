@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "temperature-tales",
+  "title": "Temperature Tales: Hot and Cold Places",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-geography/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "temperature-tales-map",
+      "type": "map",
+      "prompt": "Map illustration for: Temperature Tales: Hot and Cold Places. Educational geography map.",
+      "filename": "temperature-tales-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "temperature-tales-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Temperature Tales: Hot and Cold Places. Famous geographical location.",
+      "filename": "temperature-tales-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "temperature-tales-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Temperature Tales: Hot and Cold Places. Geographic region visual.",
+      "filename": "temperature-tales-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "temperature-tales-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Temperature Tales: Hot and Cold Places. Natural environment visual.",
+      "filename": "temperature-tales-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

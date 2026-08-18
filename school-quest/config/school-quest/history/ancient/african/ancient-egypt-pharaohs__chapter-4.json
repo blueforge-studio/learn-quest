@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-egypt-pharaohs",
+  "title": "Egypt: Land of the Pharaohs",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "ancient-egypt-pharaohs",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Egypt's story began when people settled along the Nile River. The Nile's yearly floods created rich,. Legacy: Ancient Egypt left an incredible legacy. Its pyramids, temples, and mummies cont. Topics: What was the title given to the ruler of Ancient Egypt?, During which kingdom were the Great Pyramids of Giza built?.",
+      "filename": "ancient-egypt-pharaohs-map.webp"
+    },
+    {
+      "id": "ancient-egypt-pharaohs-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Egypt's story began when people settled along the Nile River. The Nile's yearly floods created rich,. Legacy: Ancient Egypt left an incredible legacy. Its pyramids, temples, and mummies cont. Topics: What was the title given to the ruler of Ancient Egypt?, During which kingdom were the Great Pyramids of Giza built?.",
+      "filename": "ancient-egypt-pharaohs-portrait.webp"
+    }
+  ]
+}

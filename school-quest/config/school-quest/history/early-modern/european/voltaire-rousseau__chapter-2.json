@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "voltaire-rousseau",
+  "title": "Voltaire and Rousseau",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "voltaire-rousseau",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Voltaire and Rousseau. Type: historical-figure. Background: Voltaire grew up in Paris and loved reading, writing, and speaking up — even when it got him in trou. Legacy: Voltaire and Rousseau helped build the foundation for modern ideas like human ri. Topics: What was the Enlightenment?, What did Voltaire believe was very important for a fair society?.",
+      "filename": "voltaire-rousseau-portrait.webp"
+    },
+    {
+      "id": "voltaire-rousseau-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Voltaire and Rousseau. Type: historical-figure. Background: Voltaire grew up in Paris and loved reading, writing, and speaking up — even when it got him in trou. Legacy: Voltaire and Rousseau helped build the foundation for modern ideas like human ri. Topics: What was the Enlightenment?, What did Voltaire believe was very important for a fair society?.",
+      "filename": "voltaire-rousseau-scene.webp"
+    }
+  ]
+}

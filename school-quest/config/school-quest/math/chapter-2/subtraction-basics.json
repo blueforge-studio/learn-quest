@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "subtraction-basics",
+  "title": "Subtraction Basics",
+  "lessonType": "arithmetic",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-math/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "subtraction-basics-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Subtraction Basics. . Clear labeled illustration.",
+      "filename": "subtraction-basics-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "subtraction-basics-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Subtraction Basics. Educational illustration style.",
+      "filename": "subtraction-basics-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "subtraction-basics-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Subtraction Basics. Step by step visual educational math style.",
+      "filename": "subtraction-basics-example.webp",
+      "quality": 85
+    }
+  ]
+}

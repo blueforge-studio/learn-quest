@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "benin-kingdom",
+  "title": "The Kingdom of Benin",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "benin-kingdom",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Kingdom of Benin. Type: era-exploration. Background: The Kingdom of Benin began around 500 CE in the rainforests of West Africa. It grew stronger over ce. Legacy: Though the original kingdom ended in 1897, Benin’s legacy lives on! Its bronze p. Topics: What were Benin artists famous for making?, How big were Benin’s ancient city walls?.",
+      "filename": "benin-kingdom-map.webp"
+    },
+    {
+      "id": "benin-kingdom-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Kingdom of Benin. Type: era-exploration. Background: The Kingdom of Benin began around 500 CE in the rainforests of West Africa. It grew stronger over ce. Legacy: Though the original kingdom ended in 1897, Benin’s legacy lives on! Its bronze p. Topics: What were Benin artists famous for making?, How big were Benin’s ancient city walls?.",
+      "filename": "benin-kingdom-portrait.webp"
+    }
+  ]
+}

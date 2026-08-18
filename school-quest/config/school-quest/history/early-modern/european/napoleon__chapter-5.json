@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "napoleon",
+  "title": "Napoleon Bonaparte",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "napoleon",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born in 1769 in Ajaccio, Corsica (a French island in the Mediterranean), Napoleon was the second of . Legacy: Napoleon changed Europe in big ways: he spread ideas about equal rights and fair. Topics: Where was Napoleon born?, What important job did Napoleon get at age 24?.",
+      "filename": "napoleon-portrait.webp"
+    },
+    {
+      "id": "napoleon-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Napoleon Bonaparte. Type: historical-figure. Background: Born in 1769 in Ajaccio, Corsica (a French island in the Mediterranean), Napoleon was the second of . Legacy: Napoleon changed Europe in big ways: he spread ideas about equal rights and fair. Topics: Where was Napoleon born?, What important job did Napoleon get at age 24?.",
+      "filename": "napoleon-scene.webp"
+    }
+  ]
+}

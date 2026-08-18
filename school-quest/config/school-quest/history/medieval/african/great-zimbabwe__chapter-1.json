@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-zimbabwe",
+  "title": "Great Zimbabwe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "great-zimbabwe",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Great Zimbabwe was built by the Shona people over many centuries, starting around 500 CE. By 1000 CE. Legacy: Great Zimbabwe is a powerful symbol of African achievement and ingenuity. Today,. Topics: What does 'Zimbabwe' mean in the Shona language?, Which material did builders use to hold the stones together?.",
+      "filename": "great-zimbabwe-map.webp"
+    },
+    {
+      "id": "great-zimbabwe-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Great Zimbabwe was built by the Shona people over many centuries, starting around 500 CE. By 1000 CE. Legacy: Great Zimbabwe is a powerful symbol of African achievement and ingenuity. Today,. Topics: What does 'Zimbabwe' mean in the Shona language?, Which material did builders use to hold the stones together?.",
+      "filename": "great-zimbabwe-portrait.webp"
+    }
+  ]
+}

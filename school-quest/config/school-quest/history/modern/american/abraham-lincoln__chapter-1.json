@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "abraham-lincoln",
+  "title": "Abraham Lincoln",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "abraham-lincoln",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Abraham Lincoln. Type: historical-figure. Background: Born in a log cabin in Kentucky in 1809, Lincoln grew up poor and mostly taught himself to read. He . Legacy: Abraham Lincoln is remembered as one of America's greatest presidents. He is cre. Topics: What is Abraham Lincoln most famous for?, What famous document did Lincoln issue in 1863?.",
+      "filename": "abraham-lincoln-portrait.webp"
+    },
+    {
+      "id": "abraham-lincoln-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Abraham Lincoln. Type: historical-figure. Background: Born in a log cabin in Kentucky in 1809, Lincoln grew up poor and mostly taught himself to read. He . Legacy: Abraham Lincoln is remembered as one of America's greatest presidents. He is cre. Topics: What is Abraham Lincoln most famous for?, What famous document did Lincoln issue in 1863?.",
+      "filename": "abraham-lincoln-scene.webp"
+    }
+  ]
+}

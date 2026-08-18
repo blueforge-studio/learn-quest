@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "league-of-nations",
+  "title": "The League of Nations",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "league-of-nations",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The League of Nations. Type: era-exploration. Background: World War I (1914–1918) hurt millions of people and changed Europe forever. A kind and hopeful leade. Legacy: Even though the League couldn’t stop World War II, it was the proud grandparent . Topics: What was the main goal of the League of Nations?, Which famous city was the home of the League of Nations?.",
+      "filename": "league-of-nations-map.webp"
+    },
+    {
+      "id": "league-of-nations-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The League of Nations. Type: era-exploration. Background: World War I (1914–1918) hurt millions of people and changed Europe forever. A kind and hopeful leade. Legacy: Even though the League couldn’t stop World War II, it was the proud grandparent . Topics: What was the main goal of the League of Nations?, Which famous city was the home of the League of Nations?.",
+      "filename": "league-of-nations-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-inventions",
+  "title": "Ancient Inventions",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-inventions",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Inventions. Type: timeline. Background: Between 3500 BCE and 500 CE, in different parts of the world like Mesopotamia, Egypt, China, and the. Legacy: The wheel is on every vehicle. Irrigation feeds the world. Calendars organize ou. Topics: What was one of the very first uses for the wheel?, Why was the invention of irrigation so important?.",
+      "filename": "ancient-inventions-timeline.webp"
+    },
+    {
+      "id": "ancient-inventions-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Inventions. Type: timeline. Background: Between 3500 BCE and 500 CE, in different parts of the world like Mesopotamia, Egypt, China, and the. Legacy: The wheel is on every vehicle. Irrigation feeds the world. Calendars organize ou. Topics: What was one of the very first uses for the wheel?, Why was the invention of irrigation so important?.",
+      "filename": "ancient-inventions-scene.webp"
+    }
+  ]
+}

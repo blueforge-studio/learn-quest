@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "socrates-plato",
+  "title": "Socrates and Plato",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "socrates-plato",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: They lived in Athens, a powerful city-state in ancient Greece known for its democracy and culture. S. Legacy: Together, Socrates and Plato laid the foundation for Western philosophy—the love. Topics: In which ancient city did Socrates and Plato live and teach?, What was Socrates' famous way of teaching called?.",
+      "filename": "socrates-plato-portrait.webp"
+    },
+    {
+      "id": "socrates-plato-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Socrates and Plato. Type: historical-figure. Background: They lived in Athens, a powerful city-state in ancient Greece known for its democracy and culture. S. Legacy: Together, Socrates and Plato laid the foundation for Western philosophy—the love. Topics: In which ancient city did Socrates and Plato live and teach?, What was Socrates' famous way of teaching called?.",
+      "filename": "socrates-plato-scene.webp"
+    }
+  ]
+}

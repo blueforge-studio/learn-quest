@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-japan",
+  "title": "Ancient Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Japan. Type: era-exploration. Background: Ancient Japan began over 5,000 years ago with the Jomon people — hunter-gatherers who lived in villa. Legacy: Jomon pottery inspires modern Japanese artists; Shinto shrines still welcome vis. Topics: What does 'Jomon' mean, and why is it used to describe ancient Japanese pottery?, What important new skill did the Yayoi people bring to Japan around 300 BCE?.",
+      "filename": "ancient-japan-map.webp"
+    },
+    {
+      "id": "ancient-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Japan. Type: era-exploration. Background: Ancient Japan began over 5,000 years ago with the Jomon people — hunter-gatherers who lived in villa. Legacy: Jomon pottery inspires modern Japanese artists; Shinto shrines still welcome vis. Topics: What does 'Jomon' mean, and why is it used to describe ancient Japanese pottery?, What important new skill did the Yayoi people bring to Japan around 300 BCE?.",
+      "filename": "ancient-japan-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "ice-cube-melt-race",
+  "title": "Ice Cube Melt Race",
+  "lessonType": "experiment",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-science/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "ice-cube-melt-race-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Ice Cube Melt Race. . Clear labeled illustration.",
+      "filename": "ice-cube-melt-race-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "ice-cube-melt-race-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Ice Cube Melt Race. Educational science style.",
+      "filename": "ice-cube-melt-race-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "ice-cube-melt-race-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Ice Cube Melt Race. Step by step visual showing the concept. Educational style.",
+      "filename": "ice-cube-melt-race-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

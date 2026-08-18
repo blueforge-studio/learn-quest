@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "baroque-art",
+  "title": "Baroque Art and Architecture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "baroque-art",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Baroque Art and Architecture. Type: era-exploration. Background: The Baroque style began in Italy around 1600 and spread across Europe. It was a time when monarchs h. Legacy: Baroque style changed how we think about art and buildings. It showed that art c. Topics: What was the main purpose of Baroque palaces like Versailles?, Which feature is NOT typical of Baroque art and architecture?.",
+      "filename": "baroque-art-map.webp"
+    },
+    {
+      "id": "baroque-art-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Baroque Art and Architecture. Type: era-exploration. Background: The Baroque style began in Italy around 1600 and spread across Europe. It was a time when monarchs h. Legacy: Baroque style changed how we think about art and buildings. It showed that art c. Topics: What was the main purpose of Baroque palaces like Versailles?, Which feature is NOT typical of Baroque art and architecture?.",
+      "filename": "baroque-art-portrait.webp"
+    }
+  ]
+}

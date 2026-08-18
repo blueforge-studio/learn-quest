@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "neoliberalism-globalism",
+  "title": "Neoliberalism and Globalism",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "neoliberalism-globalism",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Neoliberalism and Globalism. Type: lesson. Topics: What does neoliberalism emphasize?, What is globalization?.",
+      "filename": "neoliberalism-globalism-timeline.webp"
+    },
+    {
+      "id": "neoliberalism-globalism-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Neoliberalism and Globalism. Type: lesson. Topics: What does neoliberalism emphasize?, What is globalization?.",
+      "filename": "neoliberalism-globalism-scene.webp"
+    }
+  ]
+}

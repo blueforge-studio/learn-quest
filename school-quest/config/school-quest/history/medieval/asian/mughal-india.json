@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mughal-india",
+  "title": "Early Delhi Sultanate",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "mughal-india",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, Muslim warriors from Central Asia called the Ghurids conquered parts of northern. Legacy: The Delhi Sultanate left a lasting impact on India. It introduced Persian cultur. Topics: What was the capital city of the Delhi Sultanate?, Which tall victory tower was built by the first Sultan?.",
+      "filename": "mughal-india-map.webp"
+    },
+    {
+      "id": "mughal-india-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Early Delhi Sultanate. Type: era-exploration. Background: In the early 1200s, Muslim warriors from Central Asia called the Ghurids conquered parts of northern. Legacy: The Delhi Sultanate left a lasting impact on India. It introduced Persian cultur. Topics: What was the capital city of the Delhi Sultanate?, Which tall victory tower was built by the first Sultan?.",
+      "filename": "mughal-india-portrait.webp"
+    }
+  ]
+}

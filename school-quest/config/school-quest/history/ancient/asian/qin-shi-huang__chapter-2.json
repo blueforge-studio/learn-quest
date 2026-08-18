@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "qin-shi-huang",
+  "title": "Qin Shi Huang",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "qin-shi-huang",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Qin Shi Huang. Type: historical-figure. Background: Born as Ying Zheng in 259 BCE, he became the King of Qin when he was only 13 years old. At that time. Legacy: Qin Shi Huang created the idea of a unified China that has lasted for over 2,000. Topics: What does the name 'Shi Huangdi' mean?, Why did Qin Shi Huang start building the Great Wall?.",
+      "filename": "qin-shi-huang-portrait.webp"
+    },
+    {
+      "id": "qin-shi-huang-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Qin Shi Huang. Type: historical-figure. Background: Born as Ying Zheng in 259 BCE, he became the King of Qin when he was only 13 years old. At that time. Legacy: Qin Shi Huang created the idea of a unified China that has lasted for over 2,000. Topics: What does the name 'Shi Huangdi' mean?, Why did Qin Shi Huang start building the Great Wall?.",
+      "filename": "qin-shi-huang-scene.webp"
+    }
+  ]
+}

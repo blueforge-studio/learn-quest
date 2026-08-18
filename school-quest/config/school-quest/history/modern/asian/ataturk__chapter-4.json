@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ataturk",
+  "title": "Atatürk: Father of Turkey",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "ataturk",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Atatürk: Father of Turkey. Type: historical-figure. Background: Atatürk was born in 1881 in the city of Salonica, which was then part of the Ottoman Empire. He join. Legacy: Atatürk's legacy is everywhere in modern Turkey. He transformed a defeated empir. Topics: What does the name 'Atatürk' mean?, What major change did Atatürk make to help people read and write more easily?.",
+      "filename": "ataturk-portrait.webp"
+    },
+    {
+      "id": "ataturk-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Atatürk: Father of Turkey. Type: historical-figure. Background: Atatürk was born in 1881 in the city of Salonica, which was then part of the Ottoman Empire. He join. Legacy: Atatürk's legacy is everywhere in modern Turkey. He transformed a defeated empir. Topics: What does the name 'Atatürk' mean?, What major change did Atatürk make to help people read and write more easily?.",
+      "filename": "ataturk-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-conquest",
+  "title": "Spanish Conquest of the Americas",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "spanish-conquest",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Legacy: The Spanish conquest changed the world forever. It connected Europe and the Amer. Topics: Which two major American empires did the Spanish conquer in the 1500s?, What was one major advantage the Spanish had over Native American warriors?.",
+      "filename": "spanish-conquest-timeline.webp"
+    },
+    {
+      "id": "spanish-conquest-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Legacy: The Spanish conquest changed the world forever. It connected Europe and the Amer. Topics: Which two major American empires did the Spanish conquer in the 1500s?, What was one major advantage the Spanish had over Native American warriors?.",
+      "filename": "spanish-conquest-scene.webp"
+    }
+  ]
+}

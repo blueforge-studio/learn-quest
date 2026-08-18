@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "post-war-economic-history",
+  "title": "Post-War Economic History: Boom to Crisis",
+  "lessonType": "timeline",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "post-war-economic-history",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Post-War Economic History: Boom to Crisis. Type: timeline.",
+      "filename": "post-war-economic-history-timeline.webp"
+    },
+    {
+      "id": "post-war-economic-history-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Post-War Economic History: Boom to Crisis. Type: timeline.",
+      "filename": "post-war-economic-history-scene.webp"
+    }
+  ]
+}

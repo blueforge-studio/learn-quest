@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "dictation-word-families",
+  "title": "Word Families: -at, -an, -ig",
+  "lessonType": "dictation",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-writing/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "dictation-word-families-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Word Families: -at, -an, -ig. Educational writing example.",
+      "filename": "dictation-word-families-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "dictation-word-families-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Word Families: -at, -an, -ig. Writing template visual.",
+      "filename": "dictation-word-families-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "dictation-word-families-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Word Families: -at, -an, -ig. Descriptive scene image.",
+      "filename": "dictation-word-families-scene.webp",
+      "quality": 85
+    }
+  ]
+}

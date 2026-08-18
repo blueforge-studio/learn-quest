@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "al-khwarizmi",
+  "title": "Al-Khwarizmi",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "al-khwarizmi",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Al-Khwarizmi. Type: historical-figure. Background: Al-Khwarizmi was born in Khwarazm (a region in modern-day Uzbekistan) around 780 CE. When he grew up. Legacy: Al-Khwarizmi’s ideas traveled across continents — from Baghdad to Spain, then to. Topics: Where did Al-Khwarizmi work and study?, What does the word 'algorithm' come from?.",
+      "filename": "al-khwarizmi-portrait.webp"
+    },
+    {
+      "id": "al-khwarizmi-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Al-Khwarizmi. Type: historical-figure. Background: Al-Khwarizmi was born in Khwarazm (a region in modern-day Uzbekistan) around 780 CE. When he grew up. Legacy: Al-Khwarizmi’s ideas traveled across continents — from Baghdad to Spain, then to. Topics: Where did Al-Khwarizmi work and study?, What does the word 'algorithm' come from?.",
+      "filename": "al-khwarizmi-scene.webp"
+    }
+  ]
+}

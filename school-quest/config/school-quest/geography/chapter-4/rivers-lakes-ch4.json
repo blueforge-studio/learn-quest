@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "rivers-lakes-ch4",
+  "title": "Rivers and Lakes",
+  "lessonType": "geo-challenge",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-geography/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "rivers-lakes-ch4-map",
+      "type": "map",
+      "prompt": "Map illustration for: Rivers and Lakes. Educational geography map.",
+      "filename": "rivers-lakes-ch4-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "rivers-lakes-ch4-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Rivers and Lakes. Famous geographical location.",
+      "filename": "rivers-lakes-ch4-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "rivers-lakes-ch4-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Rivers and Lakes. Geographic region visual.",
+      "filename": "rivers-lakes-ch4-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "rivers-lakes-ch4-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Rivers and Lakes. Natural environment visual.",
+      "filename": "rivers-lakes-ch4-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

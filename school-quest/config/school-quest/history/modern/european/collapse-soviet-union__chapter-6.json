@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "collapse-soviet-union",
+  "title": "Collapse of the Soviet Union",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "collapse-soviet-union",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Collapse of the Soviet Union. Type: lesson. Topics: Who introduced reforms that led to the Soviet collapse?, How many countries did the Soviet Union break into?.",
+      "filename": "collapse-soviet-union-timeline.webp"
+    },
+    {
+      "id": "collapse-soviet-union-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Collapse of the Soviet Union. Type: lesson. Topics: Who introduced reforms that led to the Soviet collapse?, How many countries did the Soviet Union break into?.",
+      "filename": "collapse-soviet-union-scene.webp"
+    }
+  ]
+}

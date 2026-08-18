@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "tang-dynasty",
+  "title": "The Tang Dynasty",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "asian",
+  "basePath": "public/images/lessons/medieval/asian",
+  "images": [
+    {
+      "id": "tang-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Tang Dynasty. Type: era-exploration. Background: After a period of fighting, a general named Li Yuan took control and started the Tang Dynasty in 618. Legacy: The Tang Dynasty is remembered as China's 'Golden Age.' Its poetry, art, and leg. Topics: What was the magnificent capital city of the Tang Dynasty called?, What famous network of trade routes flourished during the Tang Dynasty?.",
+      "filename": "tang-dynasty-map.webp"
+    },
+    {
+      "id": "tang-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Tang Dynasty. Type: era-exploration. Background: After a period of fighting, a general named Li Yuan took control and started the Tang Dynasty in 618. Legacy: The Tang Dynasty is remembered as China's 'Golden Age.' Its poetry, art, and leg. Topics: What was the magnificent capital city of the Tang Dynasty called?, What famous network of trade routes flourished during the Tang Dynasty?.",
+      "filename": "tang-dynasty-portrait.webp"
+    }
+  ]
+}

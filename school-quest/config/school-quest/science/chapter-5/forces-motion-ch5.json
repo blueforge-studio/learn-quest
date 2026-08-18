@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "forces-motion-ch5",
+  "title": "Forces and Motion",
+  "lessonType": "science-concept",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-science/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "forces-motion-ch5-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Forces and Motion. . Clear labeled illustration.",
+      "filename": "forces-motion-ch5-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "forces-motion-ch5-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Forces and Motion. Educational science style.",
+      "filename": "forces-motion-ch5-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "forces-motion-ch5-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Forces and Motion. Step by step visual showing the concept. Educational style.",
+      "filename": "forces-motion-ch5-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

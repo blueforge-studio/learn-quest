@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "nile-river-life",
+  "title": "Life Along the Nile",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "nile-river-life",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Life Along the Nile. Type: era-exploration. Background: Ancient Egypt was a long, narrow kingdom hugging the banks of the Nile River in Northeast Africa. Th. Legacy: The ancient Egyptians' mastery of the Nile River environment was the foundation . Topics: Why was the Nile's annual flood so important to the Egyptians?, What was the main material used to build Egyptian houses?.",
+      "filename": "nile-river-life-map.webp"
+    },
+    {
+      "id": "nile-river-life-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Life Along the Nile. Type: era-exploration. Background: Ancient Egypt was a long, narrow kingdom hugging the banks of the Nile River in Northeast Africa. Th. Legacy: The ancient Egyptians' mastery of the Nile River environment was the foundation . Topics: Why was the Nile's annual flood so important to the Egyptians?, What was the main material used to build Egyptian houses?.",
+      "filename": "nile-river-life-portrait.webp"
+    }
+  ]
+}

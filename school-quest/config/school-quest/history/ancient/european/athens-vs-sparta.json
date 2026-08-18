@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "athens-vs-sparta",
+  "title": "Athens vs Sparta: Two City-States of Ancient Greece",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "athens-vs-sparta",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Athens vs Sparta: Two City-States of Ancient Greece. Type: era-exploration. Topics: Which city‑state had a government where all male citizens could vote?, What was the main focus of Spartan education?.",
+      "filename": "athens-vs-sparta-map.webp"
+    },
+    {
+      "id": "athens-vs-sparta-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Athens vs Sparta: Two City-States of Ancient Greece. Type: era-exploration. Topics: Which city‑state had a government where all male citizens could vote?, What was the main focus of Spartan education?.",
+      "filename": "athens-vs-sparta-portrait.webp"
+    }
+  ]
+}

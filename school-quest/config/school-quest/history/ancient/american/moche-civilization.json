@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "moche-civilization",
+  "title": "The Moche Civilization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "moche-civilization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Moche Civilization. Type: era-exploration. Background: The Moche civilization grew in the river valleys of Peru's coast around 100 CE. They weren't a singl. Legacy: The Moche left a lasting mark on history through their incredible art. Their pot. Topics: What were the Moche people most famous for creating?, What major challenge did Moche farmers face, and how did they solve it?.",
+      "filename": "moche-civilization-map.webp"
+    },
+    {
+      "id": "moche-civilization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Moche Civilization. Type: era-exploration. Background: The Moche civilization grew in the river valleys of Peru's coast around 100 CE. They weren't a singl. Legacy: The Moche left a lasting mark on history through their incredible art. Their pot. Topics: What were the Moche people most famous for creating?, What major challenge did Moche farmers face, and how did they solve it?.",
+      "filename": "moche-civilization-portrait.webp"
+    }
+  ]
+}

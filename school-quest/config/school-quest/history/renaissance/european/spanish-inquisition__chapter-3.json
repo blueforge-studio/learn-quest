@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-inquisition",
+  "title": "The Spanish Inquisition",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "spanish-inquisition",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Spanish Inquisition. Type: era-exploration. Background: In 1492, King Ferdinand and Queen Isabella united Spain under Catholic Christianity. They wanted eve. Legacy: The Spanish Inquisition created a society where people were afraid to express di. Topics: Why did King Ferdinand and Queen Isabella start the Spanish Inquisition?, What happened to Jewish people in Spain in 1492?.",
+      "filename": "spanish-inquisition-map.webp"
+    },
+    {
+      "id": "spanish-inquisition-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Spanish Inquisition. Type: era-exploration. Background: In 1492, King Ferdinand and Queen Isabella united Spain under Catholic Christianity. They wanted eve. Legacy: The Spanish Inquisition created a society where people were afraid to express di. Topics: Why did King Ferdinand and Queen Isabella start the Spanish Inquisition?, What happened to Jewish people in Spain in 1492?.",
+      "filename": "spanish-inquisition-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "persian-literature",
+  "title": "Persian Poetry and Literature",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "persian-literature",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Persian Poetry and Literature. Type: era-exploration. Background: After the Arab conquests in the 600s, Persian culture didn’t disappear — it blossomed! Scholars and . Legacy: Persian poetry is still loved today — Rumi is one of the best-selling poets in t. Topics: What is the Shahnameh?, How did Rumi share his ideas about love and kindness?.",
+      "filename": "persian-literature-map.webp"
+    },
+    {
+      "id": "persian-literature-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Persian Poetry and Literature. Type: era-exploration. Background: After the Arab conquests in the 600s, Persian culture didn’t disappear — it blossomed! Scholars and . Legacy: Persian poetry is still loved today — Rumi is one of the best-selling poets in t. Topics: What is the Shahnameh?, How did Rumi share his ideas about love and kindness?.",
+      "filename": "persian-literature-portrait.webp"
+    }
+  ]
+}

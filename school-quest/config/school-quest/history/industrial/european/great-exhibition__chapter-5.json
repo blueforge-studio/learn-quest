@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-exhibition",
+  "title": "The Great Exhibition of 1851",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "great-exhibition",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Great Exhibition of 1851. Type: era-exploration. Background: After nearly 100 years of factories, trains, and new inventions, Britain wanted to show the world ho. Legacy: The Great Exhibition proved that ideas, machines, and cultures could come togeth. Topics: What was the name of the giant glass building where the Great Exhibition was held?, Who helped organize the Great Exhibition and was married to Queen Victoria?.",
+      "filename": "great-exhibition-map.webp"
+    },
+    {
+      "id": "great-exhibition-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Great Exhibition of 1851. Type: era-exploration. Background: After nearly 100 years of factories, trains, and new inventions, Britain wanted to show the world ho. Legacy: The Great Exhibition proved that ideas, machines, and cultures could come togeth. Topics: What was the name of the giant glass building where the Great Exhibition was held?, Who helped organize the Great Exhibition and was married to Queen Victoria?.",
+      "filename": "great-exhibition-portrait.webp"
+    }
+  ]
+}

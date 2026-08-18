@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russian-revolution",
+  "title": "The Russian Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "russian-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by emperors called Tsars. By the early 1900s, many ordinary . Legacy: The Russian Revolution ended centuries of rule by Tsars. It created the world's . Topics: Who was the last emperor (Tsar) of Russia, overthrown in 1917?, What was the name of the radical political party led by Vladimir Lenin?.",
+      "filename": "russian-revolution-timeline.webp"
+    },
+    {
+      "id": "russian-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Russian Revolution. Type: timeline. Background: For hundreds of years, Russia was ruled by emperors called Tsars. By the early 1900s, many ordinary . Legacy: The Russian Revolution ended centuries of rule by Tsars. It created the world's . Topics: Who was the last emperor (Tsar) of Russia, overthrown in 1917?, What was the name of the radical political party led by Vladimir Lenin?.",
+      "filename": "russian-revolution-scene.webp"
+    }
+  ]
+}

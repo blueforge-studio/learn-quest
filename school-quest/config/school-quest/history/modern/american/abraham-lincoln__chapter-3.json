@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "abraham-lincoln",
+  "title": "Abraham Lincoln",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "abraham-lincoln",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Abraham Lincoln. Type: historical-figure. Background: Abraham Lincoln was born in a one-room log cabin in Kentucky in 1809. His family was poor, and he ha. Legacy: Abraham Lincoln is remembered as one of America's greatest presidents. He preser. Topics: What was Abraham Lincoln's famous nickname?, What major American war did Lincoln lead the country through?.",
+      "filename": "abraham-lincoln-portrait.webp"
+    },
+    {
+      "id": "abraham-lincoln-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Abraham Lincoln. Type: historical-figure. Background: Abraham Lincoln was born in a one-room log cabin in Kentucky in 1809. His family was poor, and he ha. Legacy: Abraham Lincoln is remembered as one of America's greatest presidents. He preser. Topics: What was Abraham Lincoln's famous nickname?, What major American war did Lincoln lead the country through?.",
+      "filename": "abraham-lincoln-scene.webp"
+    }
+  ]
+}

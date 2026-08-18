@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "counterculture-60s",
+  "title": "Counterculture and the Hippie Movement",
+  "lessonType": "lesson",
+  "chapter": "chapter-5",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "counterculture-60s",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Counterculture and the Hippie Movement. Type: lesson. Topics: What was the Summer of Love?, Who wrote 'Blowin' in the Wind'?.",
+      "filename": "counterculture-60s-timeline.webp"
+    },
+    {
+      "id": "counterculture-60s-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Counterculture and the Hippie Movement. Type: lesson. Topics: What was the Summer of Love?, Who wrote 'Blowin' in the Wind'?.",
+      "filename": "counterculture-60s-scene.webp"
+    }
+  ]
+}

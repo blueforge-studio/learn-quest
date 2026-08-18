@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "medieval-monks",
+  "title": "Medieval Monks and Monasteries",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "medieval-monks",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Medieval Monks and Monasteries. Type: era-exploration. Background: After the fall of the Roman Empire, Europe entered a period sometimes called the 'Dark Ages' because. Legacy: Medieval monks saved Western civilization's knowledge. The thousands of books th. Topics: What was the special room in a monastery where monks copied books?, What were beautifully decorated medieval books with gold and pictures called?.",
+      "filename": "medieval-monks-map.webp"
+    },
+    {
+      "id": "medieval-monks-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Medieval Monks and Monasteries. Type: era-exploration. Background: After the fall of the Roman Empire, Europe entered a period sometimes called the 'Dark Ages' because. Legacy: Medieval monks saved Western civilization's knowledge. The thousands of books th. Topics: What was the special room in a monastery where monks copied books?, What were beautifully decorated medieval books with gold and pictures called?.",
+      "filename": "medieval-monks-portrait.webp"
+    }
+  ]
+}

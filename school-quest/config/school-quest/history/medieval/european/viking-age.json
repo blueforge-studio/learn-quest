@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "viking-age",
+  "title": "The Viking Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "viking-age",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Viking Age. Type: era-exploration. Background: The Viking Age began in 793 CE when Norse raiders attacked the monastery at Lindisfarne in England —. Legacy: Vikings left behind amazing artifacts — from carved wooden ships to silver jewel. Topics: What kind of ship did Vikings use to explore faraway lands?, Which modern country did Vikings settle and name 'Iceland'?.",
+      "filename": "viking-age-map.webp"
+    },
+    {
+      "id": "viking-age-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Viking Age. Type: era-exploration. Background: The Viking Age began in 793 CE when Norse raiders attacked the monastery at Lindisfarne in England —. Legacy: Vikings left behind amazing artifacts — from carved wooden ships to silver jewel. Topics: What kind of ship did Vikings use to explore faraway lands?, Which modern country did Vikings settle and name 'Iceland'?.",
+      "filename": "viking-age-portrait.webp"
+    }
+  ]
+}

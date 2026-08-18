@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "telegraph-communication",
+  "title": "The Telegraph",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "telegraph-communication",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Telegraph. Type: era-exploration. Background: In the early 1800s, the Industrial Revolution was booming — factories were growing, trains were chug. Legacy: The telegraph sparked a communication revolution! It inspired later inventions l. Topics: What did the telegraph let people do for the first time?, What are the two main parts of Morse code?.",
+      "filename": "telegraph-communication-map.webp"
+    },
+    {
+      "id": "telegraph-communication-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Telegraph. Type: era-exploration. Background: In the early 1800s, the Industrial Revolution was booming — factories were growing, trains were chug. Legacy: The telegraph sparked a communication revolution! It inspired later inventions l. Topics: What did the telegraph let people do for the first time?, What are the two main parts of Morse code?.",
+      "filename": "telegraph-communication-portrait.webp"
+    }
+  ]
+}

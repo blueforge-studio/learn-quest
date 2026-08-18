@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "berlin-wall-fall",
+  "title": "Fall of the Berlin Wall",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "berlin-wall-fall",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Fall of the Berlin Wall. Type: lesson. Topics: When did the Berlin Wall fall?, How long did the Berlin Wall stand?.",
+      "filename": "berlin-wall-fall-timeline.webp"
+    },
+    {
+      "id": "berlin-wall-fall-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Fall of the Berlin Wall. Type: lesson. Topics: When did the Berlin Wall fall?, How long did the Berlin Wall stand?.",
+      "filename": "berlin-wall-fall-scene.webp"
+    }
+  ]
+}

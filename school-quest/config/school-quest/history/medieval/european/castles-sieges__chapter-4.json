@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "castles-sieges",
+  "title": "Castles and Sieges",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "castles-sieges",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Castles and Sieges. Type: era-exploration. Background: After the fall of the Roman Empire, Europe was a land of many kingdoms and lords who often fought ea. Legacy: Although cannons eventually made tall stone walls less effective, castles left a. Topics: What was the main purpose of a medieval castle?, What is a moat?.",
+      "filename": "castles-sieges-map.webp"
+    },
+    {
+      "id": "castles-sieges-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Castles and Sieges. Type: era-exploration. Background: After the fall of the Roman Empire, Europe was a land of many kingdoms and lords who often fought ea. Legacy: Although cannons eventually made tall stone walls less effective, castles left a. Topics: What was the main purpose of a medieval castle?, What is a moat?.",
+      "filename": "castles-sieges-portrait.webp"
+    }
+  ]
+}

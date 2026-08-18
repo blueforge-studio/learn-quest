@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "aksum-empire",
+  "title": "The Empire of Aksum",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "aksum-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum (pronounced ACK-soom) grew in the highlands of modern-day Ethiopia and Eritrea. Its location n. Legacy: Aksum’s legacy lives on in Ethiopia today: the Ethiopian Orthodox Church traces . Topics: What important religion did the Kingdom of Aksum adopt around 330 CE?, What special thing did Aksum do that very few other ancient African kingdoms did?.",
+      "filename": "aksum-empire-map.webp"
+    },
+    {
+      "id": "aksum-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum (pronounced ACK-soom) grew in the highlands of modern-day Ethiopia and Eritrea. Its location n. Legacy: Aksum’s legacy lives on in Ethiopia today: the Ethiopian Orthodox Church traces . Topics: What important religion did the Kingdom of Aksum adopt around 330 CE?, What special thing did Aksum do that very few other ancient African kingdoms did?.",
+      "filename": "aksum-empire-portrait.webp"
+    }
+  ]
+}

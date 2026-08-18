@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-laws-ch2",
+  "title": "The First Laws",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-laws-ch2",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient times, rules were often passed down by word of mouth or decided by kings on the spot. But. Legacy: The idea of written laws is one of humanity's most important inventions. It's th. Topics: Why was it important for ancient laws to be written down?, Where were the Twelve Tables of ancient Rome displayed?.",
+      "filename": "ancient-laws-ch2-map.webp"
+    },
+    {
+      "id": "ancient-laws-ch2-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The First Laws. Type: era-exploration. Background: In ancient times, rules were often passed down by word of mouth or decided by kings on the spot. But. Legacy: The idea of written laws is one of humanity's most important inventions. It's th. Topics: Why was it important for ancient laws to be written down?, Where were the Twelve Tables of ancient Rome displayed?.",
+      "filename": "ancient-laws-ch2-portrait.webp"
+    }
+  ]
+}

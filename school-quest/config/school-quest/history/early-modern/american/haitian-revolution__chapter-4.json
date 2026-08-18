@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "haitian-revolution",
+  "title": "The Haitian Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "haitian-revolution",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: The island of Hispaniola was split between two colonies: Spanish Santo Domingo (east) and French Sai. Legacy: Haiti’s victory inspired enslaved people and abolitionists worldwide — from Jama. Topics: Where did the Haitian Revolution happen?, What important event happened at Bois Caïman in 1791?.",
+      "filename": "haitian-revolution-map.webp"
+    },
+    {
+      "id": "haitian-revolution-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Haitian Revolution. Type: era-exploration. Background: The island of Hispaniola was split between two colonies: Spanish Santo Domingo (east) and French Sai. Legacy: Haiti’s victory inspired enslaved people and abolitionists worldwide — from Jama. Topics: Where did the Haitian Revolution happen?, What important event happened at Bois Caïman in 1791?.",
+      "filename": "haitian-revolution-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "lesson-gladiators",
+  "title": "Gladiators: Fighters, Stars & Surprising Stories",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "lesson-gladiators",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Gladiators: Fighters, Stars & Surprising Stories. Type: era-exploration. Topics: What did gladiators famously eat to stay strong?.",
+      "filename": "lesson-gladiators-map.webp"
+    },
+    {
+      "id": "lesson-gladiators-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Gladiators: Fighters, Stars & Surprising Stories. Type: era-exploration. Topics: What did gladiators famously eat to stay strong?.",
+      "filename": "lesson-gladiators-portrait.webp"
+    }
+  ]
+}

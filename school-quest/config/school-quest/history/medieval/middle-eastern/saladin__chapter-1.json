@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "saladin",
+  "title": "Saladin",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "saladin",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Saladin. Type: historical-figure. Background: Saladin was born in Tikrit (in modern-day Iraq) in 1137. He grew up in a military family and became . Legacy: Saladin is remembered as a legendary hero in the Middle East and a symbol of hon. Topics: What is Saladin most famous for?, Saladin was a leader during which major conflict?.",
+      "filename": "saladin-portrait.webp"
+    },
+    {
+      "id": "saladin-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Saladin. Type: historical-figure. Background: Saladin was born in Tikrit (in modern-day Iraq) in 1137. He grew up in a military family and became . Legacy: Saladin is remembered as a legendary hero in the Middle East and a symbol of hon. Topics: What is Saladin most famous for?, Saladin was a leader during which major conflict?.",
+      "filename": "saladin-scene.webp"
+    }
+  ]
+}

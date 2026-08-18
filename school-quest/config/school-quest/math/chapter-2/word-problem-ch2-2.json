@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "word-problem-ch2-2",
+  "title": "doubles (word-problem)",
+  "lessonType": "word-problem",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-math/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "word-problem-ch2-2-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: doubles (word-problem). . Clear labeled illustration.",
+      "filename": "word-problem-ch2-2-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "word-problem-ch2-2-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: doubles (word-problem). Educational illustration style.",
+      "filename": "word-problem-ch2-2-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "word-problem-ch2-2-example",
+      "type": "example",
+      "prompt": "Math example illustration for: doubles (word-problem). Step by step visual educational math style.",
+      "filename": "word-problem-ch2-2-example.webp",
+      "quality": 85
+    }
+  ]
+}

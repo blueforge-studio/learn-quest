@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-mound-builders",
+  "title": "Mound Builders",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "ancient-mound-builders",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Mound Builders. Type: era-exploration. Background: Starting over 5,000 years ago, different groups of Native American peoples across the eastern and ce. Legacy: The mounds are a lasting testament to the engineering skill and spiritual belief. Topics: What did the Mound Builders create?, What was the giant city of the Mound Builders called?.",
+      "filename": "ancient-mound-builders-map.webp"
+    },
+    {
+      "id": "ancient-mound-builders-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Mound Builders. Type: era-exploration. Background: Starting over 5,000 years ago, different groups of Native American peoples across the eastern and ce. Legacy: The mounds are a lasting testament to the engineering skill and spiritual belief. Topics: What did the Mound Builders create?, What was the giant city of the Mound Builders called?.",
+      "filename": "ancient-mound-builders-portrait.webp"
+    }
+  ]
+}

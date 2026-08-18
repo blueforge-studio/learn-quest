@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "medici-family",
+  "title": "The Medici Family",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "medici-family",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Medici Family. Type: era-exploration. Background: The Medici family started as successful wool traders and bankers in Florence. Their bank became the . Legacy: Without the Medici family, the Renaissance might not have been so spectacular. T. Topics: What was the main business that made the Medici family rich and powerful?, What did the Medici family do with a lot of their money?.",
+      "filename": "medici-family-map.webp"
+    },
+    {
+      "id": "medici-family-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Medici Family. Type: era-exploration. Background: The Medici family started as successful wool traders and bankers in Florence. Their bank became the . Legacy: Without the Medici family, the Renaissance might not have been so spectacular. T. Topics: What was the main business that made the Medici family rich and powerful?, What did the Medici family do with a lot of their money?.",
+      "filename": "medici-family-portrait.webp"
+    }
+  ]
+}

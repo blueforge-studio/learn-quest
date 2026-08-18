@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "vasco-da-gama",
+  "title": "Vasco da Gama",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "vasco-da-gama",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Vasco da Gama. Type: historical-figure. Background: Born around 1460 in Sines, a small coastal town in Portugal, Vasco grew up near the ocean and dreame. Legacy: Vasco da Gama proved that ships could sail all the way from Europe to Asia witho. Topics: What did Vasco da Gama accomplish in 1498?, Which continent did Vasco da Gama sail around to get to India?.",
+      "filename": "vasco-da-gama-portrait.webp"
+    },
+    {
+      "id": "vasco-da-gama-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Vasco da Gama. Type: historical-figure. Background: Born around 1460 in Sines, a small coastal town in Portugal, Vasco grew up near the ocean and dreame. Legacy: Vasco da Gama proved that ships could sail all the way from Europe to Asia witho. Topics: What did Vasco da Gama accomplish in 1498?, Which continent did Vasco da Gama sail around to get to India?.",
+      "filename": "vasco-da-gama-scene.webp"
+    }
+  ]
+}

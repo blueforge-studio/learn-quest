@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "timeline-ancient-egypt-milestones",
+  "title": "Ancient Egypt Through Time: A Kid-Friendly Timeline",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "timeline-ancient-egypt-milestones",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Egypt Through Time: A Kid-Friendly Timeline. Type: timeline. Topics: What happened around 3100 BCE that started dynastic Egypt?.",
+      "filename": "timeline-ancient-egypt-milestones-timeline.webp"
+    },
+    {
+      "id": "timeline-ancient-egypt-milestones-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Egypt Through Time: A Kid-Friendly Timeline. Type: timeline. Topics: What happened around 3100 BCE that started dynastic Egypt?.",
+      "filename": "timeline-ancient-egypt-milestones-scene.webp"
+    }
+  ]
+}

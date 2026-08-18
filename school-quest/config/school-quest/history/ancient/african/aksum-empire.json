@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "aksum-empire",
+  "title": "The Empire of Aksum",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "aksum-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum began as a collection of farming and trading communities in what is now northern Ethiopia and . Legacy: Aksum’s legacy lives on in modern Ethiopia — where the Ark of the Covenant is sa. Topics: Where was the Empire of Aksum located?, What important religion did Aksum adopt around 330 CE?.",
+      "filename": "aksum-empire-map.webp"
+    },
+    {
+      "id": "aksum-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum began as a collection of farming and trading communities in what is now northern Ethiopia and . Legacy: Aksum’s legacy lives on in modern Ethiopia — where the Ark of the Covenant is sa. Topics: Where was the Empire of Aksum located?, What important religion did Aksum adopt around 330 CE?.",
+      "filename": "aksum-empire-portrait.webp"
+    }
+  ]
+}

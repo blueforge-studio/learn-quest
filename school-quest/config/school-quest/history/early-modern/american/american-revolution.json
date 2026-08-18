@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-revolution",
+  "title": "The American Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "american-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The American Revolution. Type: timeline. Background: For over 150 years, people lived in colonies along the Atlantic coast, ruled by a king across the oc. Legacy: The American Revolution created the first modern democracy founded on Enlightenm. Topics: What famous document was signed in 1776, declaring the colonies' independence?, What was the Boston Tea Party a protest against?.",
+      "filename": "american-revolution-timeline.webp"
+    },
+    {
+      "id": "american-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The American Revolution. Type: timeline. Background: For over 150 years, people lived in colonies along the Atlantic coast, ruled by a king across the oc. Legacy: The American Revolution created the first modern democracy founded on Enlightenm. Topics: What famous document was signed in 1776, declaring the colonies' independence?, What was the Boston Tea Party a protest against?.",
+      "filename": "american-revolution-scene.webp"
+    }
+  ]
+}

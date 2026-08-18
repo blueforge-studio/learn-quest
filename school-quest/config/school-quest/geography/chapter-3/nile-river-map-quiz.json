@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "nile-river-map-quiz",
+  "title": "Follow the Nile: River Map Quiz",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-geography/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "nile-river-map-quiz-map",
+      "type": "map",
+      "prompt": "Map illustration for: Follow the Nile: River Map Quiz. Educational geography map.",
+      "filename": "nile-river-map-quiz-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "nile-river-map-quiz-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Follow the Nile: River Map Quiz. Famous geographical location.",
+      "filename": "nile-river-map-quiz-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "nile-river-map-quiz-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Follow the Nile: River Map Quiz. Geographic region visual.",
+      "filename": "nile-river-map-quiz-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "nile-river-map-quiz-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Follow the Nile: River Map Quiz. Natural environment visual.",
+      "filename": "nile-river-map-quiz-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

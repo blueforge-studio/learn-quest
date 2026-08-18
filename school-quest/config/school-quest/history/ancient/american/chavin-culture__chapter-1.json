@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chavin-culture",
+  "title": "The Chavín Culture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "chavin-culture",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived high in the Andes Mountains of modern-day Peru, centered around a sacred tem. Legacy: The Chavín are often called the 'mother culture' of the Andes — not because they. Topics: Where was the main Chavín temple located?, What animal was especially important in Chavín religion and art?.",
+      "filename": "chavin-culture-map.webp"
+    },
+    {
+      "id": "chavin-culture-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived high in the Andes Mountains of modern-day Peru, centered around a sacred tem. Legacy: The Chavín are often called the 'mother culture' of the Andes — not because they. Topics: Where was the main Chavín temple located?, What animal was especially important in Chavín religion and art?.",
+      "filename": "chavin-culture-portrait.webp"
+    }
+  ]
+}

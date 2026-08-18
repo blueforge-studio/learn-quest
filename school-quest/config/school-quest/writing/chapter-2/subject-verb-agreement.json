@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "subject-verb-agreement",
+  "title": "Subject-Verb Agreement",
+  "lessonType": "grammar",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-writing/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "subject-verb-agreement-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Subject-Verb Agreement. Educational writing example.",
+      "filename": "subject-verb-agreement-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "subject-verb-agreement-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Subject-Verb Agreement. Writing template visual.",
+      "filename": "subject-verb-agreement-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "subject-verb-agreement-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Subject-Verb Agreement. Descriptive scene image.",
+      "filename": "subject-verb-agreement-scene.webp",
+      "quality": 85
+    }
+  ]
+}

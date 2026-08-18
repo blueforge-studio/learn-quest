@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "rise-of-fascism",
+  "title": "The Rise of Fascism",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "rise-of-fascism",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Rise of Fascism. Type: era-exploration. Background: Fascism is a type of government where one leader and one political party control everything — the me. Legacy: Fascism led directly to World War II (1939–1945) — the biggest, most dangerous w. Topics: What does 'fascism' mean in simple terms?, Which country did Mussolini lead?.",
+      "filename": "rise-of-fascism-map.webp"
+    },
+    {
+      "id": "rise-of-fascism-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Rise of Fascism. Type: era-exploration. Background: Fascism is a type of government where one leader and one political party control everything — the me. Legacy: Fascism led directly to World War II (1939–1945) — the biggest, most dangerous w. Topics: What does 'fascism' mean in simple terms?, Which country did Mussolini lead?.",
+      "filename": "rise-of-fascism-portrait.webp"
+    }
+  ]
+}

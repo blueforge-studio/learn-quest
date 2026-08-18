@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "recipe-writing",
+  "title": "Recipe Writing",
+  "lessonType": "composition",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-writing/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "recipe-writing-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Recipe Writing. Educational writing example.",
+      "filename": "recipe-writing-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "recipe-writing-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Recipe Writing. Writing template visual.",
+      "filename": "recipe-writing-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "recipe-writing-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Recipe Writing. Descriptive scene image.",
+      "filename": "recipe-writing-scene.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "chavin-culture",
+  "title": "The Chavín Culture",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "chavin-culture",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived high in the Andes Mountains of modern-day Peru, centered at a sacred site ca. Legacy: The Chavín didn’t leave behind kings or laws — but they left behind something ev. Topics: Where was the main sacred center of the Chavín culture?, Which animal was especially sacred to the Chavín people?.",
+      "filename": "chavin-culture-map.webp"
+    },
+    {
+      "id": "chavin-culture-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Chavín Culture. Type: era-exploration. Background: The Chavín people lived high in the Andes Mountains of modern-day Peru, centered at a sacred site ca. Legacy: The Chavín didn’t leave behind kings or laws — but they left behind something ev. Topics: Where was the main sacred center of the Chavín culture?, Which animal was especially sacred to the Chavín people?.",
+      "filename": "chavin-culture-portrait.webp"
+    }
+  ]
+}

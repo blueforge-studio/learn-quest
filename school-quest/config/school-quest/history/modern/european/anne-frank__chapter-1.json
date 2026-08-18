@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "anne-frank",
+  "title": "Anne Frank",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "european",
+  "basePath": "public/images/lessons/modern/european",
+  "images": [
+    {
+      "id": "anne-frank",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Anne Frank. Type: historical-figure. Background: Anne was born in Frankfurt, Germany, in 1929. When the Nazi party, led by Adolf Hitler, came to powe. Legacy: Anne Frank's diary is one of the most important books of the 20th century. It ha. Topics: What did Anne Frank receive for her 13th birthday?, Why did Anne Frank and her family go into hiding?.",
+      "filename": "anne-frank-portrait.webp"
+    },
+    {
+      "id": "anne-frank-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Anne Frank. Type: historical-figure. Background: Anne was born in Frankfurt, Germany, in 1929. When the Nazi party, led by Adolf Hitler, came to powe. Legacy: Anne Frank's diary is one of the most important books of the 20th century. It ha. Topics: What did Anne Frank receive for her 13th birthday?, Why did Anne Frank and her family go into hiding?.",
+      "filename": "anne-frank-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "panama-canal",
+  "title": "The Panama Canal",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "panama-canal",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Panama Canal. Type: era-exploration. Background: For hundreds of years, people dreamed of a shortcut between the oceans. A French company tried to bu. Legacy: The Panama Canal shortened sea voyages by thousands of miles, changing global tr. Topics: What two oceans does the Panama Canal connect?, What was a major health problem workers faced at first?.",
+      "filename": "panama-canal-map.webp"
+    },
+    {
+      "id": "panama-canal-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Panama Canal. Type: era-exploration. Background: For hundreds of years, people dreamed of a shortcut between the oceans. A French company tried to bu. Legacy: The Panama Canal shortened sea voyages by thousands of miles, changing global tr. Topics: What two oceans does the Panama Canal connect?, What was a major health problem workers faced at first?.",
+      "filename": "panama-canal-portrait.webp"
+    }
+  ]
+}

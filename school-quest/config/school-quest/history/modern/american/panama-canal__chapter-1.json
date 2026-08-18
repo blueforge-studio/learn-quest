@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "panama-canal",
+  "title": "The Panama Canal",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "panama-canal",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Panama Canal. Type: era-exploration. Background: For centuries, sailors dreamed of a shortcut between the oceans. A French company tried to build a c. Legacy: The Panama Canal is one of the greatest engineering achievements ever. It change. Topics: What two oceans does the Panama Canal connect?, What was a major problem the first French team faced?.",
+      "filename": "panama-canal-map.webp"
+    },
+    {
+      "id": "panama-canal-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Panama Canal. Type: era-exploration. Background: For centuries, sailors dreamed of a shortcut between the oceans. A French company tried to build a c. Legacy: The Panama Canal is one of the greatest engineering achievements ever. It change. Topics: What two oceans does the Panama Canal connect?, What was a major problem the first French team faced?.",
+      "filename": "panama-canal-portrait.webp"
+    }
+  ]
+}

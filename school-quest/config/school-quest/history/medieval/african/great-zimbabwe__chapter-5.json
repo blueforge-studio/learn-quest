@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-zimbabwe",
+  "title": "Great Zimbabwe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "great-zimbabwe",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Great Zimbabwe was built by the Shona people — skilled farmers, herders, and master stonemasons. Sta. Legacy: Great Zimbabwe proves that amazing civilizations rose in Africa long before Euro. Topics: What material was Great Zimbabwe built from?, Which African people built Great Zimbabwe?.",
+      "filename": "great-zimbabwe-map.webp"
+    },
+    {
+      "id": "great-zimbabwe-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Great Zimbabwe was built by the Shona people — skilled farmers, herders, and master stonemasons. Sta. Legacy: Great Zimbabwe proves that amazing civilizations rose in Africa long before Euro. Topics: What material was Great Zimbabwe built from?, Which African people built Great Zimbabwe?.",
+      "filename": "great-zimbabwe-portrait.webp"
+    }
+  ]
+}

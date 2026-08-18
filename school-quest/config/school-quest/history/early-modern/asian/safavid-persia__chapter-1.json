@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "safavid-persia",
+  "title": "Shah Abbas and the Splendor of Isfahan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "safavid-persia",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Shah Abbas and the Splendor of Isfahan. Type: era-exploration. Background: The Safavid Empire began in 1501 when Shah Ismail I united Persia and made Shia Islam the official r. Legacy: Shah Abbas's Isfahan remains one of the world's most beautiful historical cities. Topics: Who was the great Safavid ruler who made Isfahan his magnificent capital?, What was special about the Shah Mosque in Isfahan?.",
+      "filename": "safavid-persia-map.webp"
+    },
+    {
+      "id": "safavid-persia-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Shah Abbas and the Splendor of Isfahan. Type: era-exploration. Background: The Safavid Empire began in 1501 when Shah Ismail I united Persia and made Shia Islam the official r. Legacy: Shah Abbas's Isfahan remains one of the world's most beautiful historical cities. Topics: Who was the great Safavid ruler who made Isfahan his magnificent capital?, What was special about the Shah Mosque in Isfahan?.",
+      "filename": "safavid-persia-portrait.webp"
+    }
+  ]
+}

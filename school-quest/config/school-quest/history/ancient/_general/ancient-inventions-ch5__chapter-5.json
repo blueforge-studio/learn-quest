@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-inventions-ch5",
+  "title": "Ancient Inventions",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-inventions-ch5",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Inventions. Type: timeline.",
+      "filename": "ancient-inventions-ch5-timeline.webp"
+    },
+    {
+      "id": "ancient-inventions-ch5-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Inventions. Type: timeline.",
+      "filename": "ancient-inventions-ch5-scene.webp"
+    }
+  ]
+}

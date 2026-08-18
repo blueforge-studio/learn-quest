@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "sun-yat-sen",
+  "title": "Sun Yat-sen",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "sun-yat-sen",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Sun Yat-sen was born in 1866 in a small village near Guangzhou, in southern China. His family were f. Legacy: Sun Yat-sen is remembered with deep respect across China and Taiwan. His Three P. Topics: What important event happened in China in 1912 because of Sun Yat-sen’s work?, What were Sun Yat-sen’s three big ideas for China called?.",
+      "filename": "sun-yat-sen-portrait.webp"
+    },
+    {
+      "id": "sun-yat-sen-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Sun Yat-sen. Type: historical-figure. Background: Sun Yat-sen was born in 1866 in a small village near Guangzhou, in southern China. His family were f. Legacy: Sun Yat-sen is remembered with deep respect across China and Taiwan. His Three P. Topics: What important event happened in China in 1912 because of Sun Yat-sen’s work?, What were Sun Yat-sen’s three big ideas for China called?.",
+      "filename": "sun-yat-sen-scene.webp"
+    }
+  ]
+}

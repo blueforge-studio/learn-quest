@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mali-empire",
+  "title": "The Mali Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "mali-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Mali Empire. Type: era-exploration. Background: The Mali Empire began around 1235 CE when a great leader named Sundiata Keita united the Mandinka pe. Legacy: The Mali Empire showed the world the power and sophistication of African civiliz. Topics: What made the Mali Empire so wealthy?, Which famous Mali king is known for his incredibly generous pilgrimage to Mecca?.",
+      "filename": "mali-empire-map.webp"
+    },
+    {
+      "id": "mali-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Mali Empire. Type: era-exploration. Background: The Mali Empire began around 1235 CE when a great leader named Sundiata Keita united the Mandinka pe. Legacy: The Mali Empire showed the world the power and sophistication of African civiliz. Topics: What made the Mali Empire so wealthy?, Which famous Mali king is known for his incredibly generous pilgrimage to Mecca?.",
+      "filename": "mali-empire-portrait.webp"
+    }
+  ]
+}

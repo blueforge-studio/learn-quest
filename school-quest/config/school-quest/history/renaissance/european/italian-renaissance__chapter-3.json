@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "italian-renaissance",
+  "title": "The Italian Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "italian-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: After the Middle Ages, people in wealthy Italian cities like Florence began looking back to the art . Legacy: The Italian Renaissance changed the world. It placed a new value on human creati. Topics: Which Italian city is known as the 'cradle' or birthplace of the Renaissance?, What does the word 'Renaissance' mean?.",
+      "filename": "italian-renaissance-map.webp"
+    },
+    {
+      "id": "italian-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: After the Middle Ages, people in wealthy Italian cities like Florence began looking back to the art . Legacy: The Italian Renaissance changed the world. It placed a new value on human creati. Topics: Which Italian city is known as the 'cradle' or birthplace of the Renaissance?, What does the word 'Renaissance' mean?.",
+      "filename": "italian-renaissance-portrait.webp"
+    }
+  ]
+}

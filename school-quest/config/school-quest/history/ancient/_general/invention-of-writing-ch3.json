@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "invention-of-writing-ch3",
+  "title": "The Invention of Writing",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "invention-of-writing-ch3",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Writing was invented independently in several ancient civilizations. The very first known writing sy. Legacy: The invention of writing was one of humanity's most important breakthroughs. It . Topics: Where was the world's first known writing system, cuneiform, invented?, What were Egyptian hieroglyphics primarily used for?.",
+      "filename": "invention-of-writing-ch3-map.webp"
+    },
+    {
+      "id": "invention-of-writing-ch3-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Writing was invented independently in several ancient civilizations. The very first known writing sy. Legacy: The invention of writing was one of humanity's most important breakthroughs. It . Topics: Where was the world's first known writing system, cuneiform, invented?, What were Egyptian hieroglyphics primarily used for?.",
+      "filename": "invention-of-writing-ch3-portrait.webp"
+    }
+  ]
+}

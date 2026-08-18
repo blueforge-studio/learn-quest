@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "panama-canal",
+  "title": "The Panama Canal",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "panama-canal",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Panama Canal. Type: era-exploration. Background: For hundreds of years, people dreamed of a shortcut. The narrow Isthmus of Panama was the perfect sp. Legacy: The Panama Canal changed world travel and trade forever. It shortened a ship's j. Topics: What two oceans does the Panama Canal connect?, What was a major problem workers faced that was solved by draining swamps?.",
+      "filename": "panama-canal-map.webp"
+    },
+    {
+      "id": "panama-canal-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Panama Canal. Type: era-exploration. Background: For hundreds of years, people dreamed of a shortcut. The narrow Isthmus of Panama was the perfect sp. Legacy: The Panama Canal changed world travel and trade forever. It shortened a ship's j. Topics: What two oceans does the Panama Canal connect?, What was a major problem workers faced that was solved by draining swamps?.",
+      "filename": "panama-canal-portrait.webp"
+    }
+  ]
+}

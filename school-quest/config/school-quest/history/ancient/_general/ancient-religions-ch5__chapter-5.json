@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-religions-ch5",
+  "title": "Ancient Religions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "ancient-religions-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Religions. Type: era-exploration. Background: In ancient times, before science explained things like weather or sickness, people created stories a. Legacy: These ancient beliefs are the roots of many world religions and philosophies tod. Topics: What is the belief that everything in nature has a spirit called?, What does 'polytheism' mean?.",
+      "filename": "ancient-religions-ch5-map.webp"
+    },
+    {
+      "id": "ancient-religions-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Religions. Type: era-exploration. Background: In ancient times, before science explained things like weather or sickness, people created stories a. Legacy: These ancient beliefs are the roots of many world religions and philosophies tod. Topics: What is the belief that everything in nature has a spirit called?, What does 'polytheism' mean?.",
+      "filename": "ancient-religions-ch5-portrait.webp"
+    }
+  ]
+}

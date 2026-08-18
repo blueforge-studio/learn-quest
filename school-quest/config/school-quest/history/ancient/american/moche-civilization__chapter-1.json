@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "moche-civilization",
+  "title": "The Moche Civilization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "moche-civilization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Moche Civilization. Type: era-exploration. Background: The Moche civilization grew in the river valleys of northern Peru around 100 CE. They weren't a sing. Legacy: The Moche left behind a treasure trove of art that helps us understand ancient P. Topics: What were the Moche people most famous for making?, What did the Moche build to farm in the desert?.",
+      "filename": "moche-civilization-map.webp"
+    },
+    {
+      "id": "moche-civilization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Moche Civilization. Type: era-exploration. Background: The Moche civilization grew in the river valleys of northern Peru around 100 CE. They weren't a sing. Legacy: The Moche left behind a treasure trove of art that helps us understand ancient P. Topics: What were the Moche people most famous for making?, What did the Moche build to farm in the desert?.",
+      "filename": "moche-civilization-portrait.webp"
+    }
+  ]
+}

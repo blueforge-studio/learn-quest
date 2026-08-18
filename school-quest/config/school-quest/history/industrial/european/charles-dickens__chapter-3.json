@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "charles-dickens",
+  "title": "Charles Dickens",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "charles-dickens",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Charles Dickens. Type: historical-figure. Background: Charles Dickens was born in Portsmouth, England, in 1812. When he was just 12 years old, his father . Legacy: Charles Dickens is one of the greatest writers in the English language. His book. Topics: What major event from his childhood did Charles Dickens write about?, Which famous Dickens story is about a mean man who is visited by ghosts at Christmas?.",
+      "filename": "charles-dickens-portrait.webp"
+    },
+    {
+      "id": "charles-dickens-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Charles Dickens. Type: historical-figure. Background: Charles Dickens was born in Portsmouth, England, in 1812. When he was just 12 years old, his father . Legacy: Charles Dickens is one of the greatest writers in the English language. His book. Topics: What major event from his childhood did Charles Dickens write about?, Which famous Dickens story is about a mean man who is visited by ghosts at Christmas?.",
+      "filename": "charles-dickens-scene.webp"
+    }
+  ]
+}

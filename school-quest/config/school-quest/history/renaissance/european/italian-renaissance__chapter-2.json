@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "italian-renaissance",
+  "title": "The Italian Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "italian-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: After the Middle Ages, Italy's cities grew rich from trade and banking. Wealthy families, especially. Legacy: The Italian Renaissance changed the world. It gave us breathtaking art and archi. Topics: In which Italian city did the Renaissance begin?, What does the word 'Renaissance' mean?.",
+      "filename": "italian-renaissance-map.webp"
+    },
+    {
+      "id": "italian-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Italian Renaissance. Type: era-exploration. Background: After the Middle Ages, Italy's cities grew rich from trade and banking. Wealthy families, especially. Legacy: The Italian Renaissance changed the world. It gave us breathtaking art and archi. Topics: In which Italian city did the Renaissance begin?, What does the word 'Renaissance' mean?.",
+      "filename": "italian-renaissance-portrait.webp"
+    }
+  ]
+}

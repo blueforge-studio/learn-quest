@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "great-zimbabwe",
+  "title": "Great Zimbabwe",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "great-zimbabwe",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Starting around 500 CE, farming families settled near rich gold mines and fertile land. Over centuri. Legacy: Great Zimbabwe reminds us that African history is rich, ancient, and full of inn. Topics: What special technique did builders use to hold the stones together?, Which animal carving is a famous symbol from Great Zimbabwe?.",
+      "filename": "great-zimbabwe-map.webp"
+    },
+    {
+      "id": "great-zimbabwe-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Great Zimbabwe. Type: era-exploration. Background: Starting around 500 CE, farming families settled near rich gold mines and fertile land. Over centuri. Legacy: Great Zimbabwe reminds us that African history is rich, ancient, and full of inn. Topics: What special technique did builders use to hold the stones together?, Which animal carving is a famous symbol from Great Zimbabwe?.",
+      "filename": "great-zimbabwe-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cleopatra",
+  "title": "Cleopatra: Last Pharaoh",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "cleopatra",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Cleopatra: Last Pharaoh. Type: historical-figure. Background: Cleopatra was born in Alexandria, Egypt in 69 BCE. She was part of the Ptolemy family — Greek rulers. Legacy: Cleopatra is remembered not for being ‘exotic’ or ‘mysterious,’ but for her shar. Topics: How old was Cleopatra when she became co-ruler of Egypt?, What clever trick did Cleopatra use to meet Julius Caesar?.",
+      "filename": "cleopatra-portrait.webp"
+    },
+    {
+      "id": "cleopatra-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Cleopatra: Last Pharaoh. Type: historical-figure. Background: Cleopatra was born in Alexandria, Egypt in 69 BCE. She was part of the Ptolemy family — Greek rulers. Legacy: Cleopatra is remembered not for being ‘exotic’ or ‘mysterious,’ but for her shar. Topics: How old was Cleopatra when she became co-ruler of Egypt?, What clever trick did Cleopatra use to meet Julius Caesar?.",
+      "filename": "cleopatra-scene.webp"
+    }
+  ]
+}

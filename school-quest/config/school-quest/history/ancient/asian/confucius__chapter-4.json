@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "confucius",
+  "title": "Confucius",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "confucius",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Confucius. Type: historical-figure. Background: Confucius was born in the state of Lu (in modern-day Shandong province, China) during a time of war . Legacy: Confucius's teachings were written down by his students in a book called the 'An. Topics: What was Confucius's main profession?, What is the name of the book that contains Confucius's teachings?.",
+      "filename": "confucius-portrait.webp"
+    },
+    {
+      "id": "confucius-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Confucius. Type: historical-figure. Background: Confucius was born in the state of Lu (in modern-day Shandong province, China) during a time of war . Legacy: Confucius's teachings were written down by his students in a book called the 'An. Topics: What was Confucius's main profession?, What is the name of the book that contains Confucius's teachings?.",
+      "filename": "confucius-scene.webp"
+    }
+  ]
+}

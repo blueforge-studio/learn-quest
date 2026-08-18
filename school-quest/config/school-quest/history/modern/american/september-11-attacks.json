@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "september-11-attacks",
+  "title": "September 11 Attacks",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "september-11-attacks",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: September 11 Attacks. Type: lesson. Topics: How many planes were hijacked on 9/11?, Where did al-Qaeda base itself?.",
+      "filename": "september-11-attacks-timeline.webp"
+    },
+    {
+      "id": "september-11-attacks-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: September 11 Attacks. Type: lesson. Topics: How many planes were hijacked on 9/11?, Where did al-Qaeda base itself?.",
+      "filename": "september-11-attacks-scene.webp"
+    }
+  ]
+}

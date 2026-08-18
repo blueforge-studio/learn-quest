@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "british-empire-origins",
+  "title": "Origins of the British Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "british-empire-origins",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Origins of the British Empire. Type: era-exploration. Background: In 1500, England was not very powerful compared to big empires like Spain or Portugal. But English k. Legacy: The British Empire eventually became the largest empire in history — covering on. Topics: What was the name of England’s first permanent colony in North America?, Which famous English explorer sailed all the way around the world in the 1500s?.",
+      "filename": "british-empire-origins-map.webp"
+    },
+    {
+      "id": "british-empire-origins-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Origins of the British Empire. Type: era-exploration. Background: In 1500, England was not very powerful compared to big empires like Spain or Portugal. But English k. Legacy: The British Empire eventually became the largest empire in history — covering on. Topics: What was the name of England’s first permanent colony in North America?, Which famous English explorer sailed all the way around the world in the 1500s?.",
+      "filename": "british-empire-origins-portrait.webp"
+    }
+  ]
+}

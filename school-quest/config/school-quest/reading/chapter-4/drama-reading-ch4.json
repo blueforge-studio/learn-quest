@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "drama-reading-ch4",
+  "title": "Reading Drama",
+  "lessonType": "fluency",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-reading/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "drama-reading-ch4-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: Reading Drama. Educational scene.",
+      "filename": "drama-reading-ch4-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "drama-reading-ch4-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: Reading Drama. Story scene or concept illustration.",
+      "filename": "drama-reading-ch4-visual.webp",
+      "quality": 85
+    }
+  ]
+}

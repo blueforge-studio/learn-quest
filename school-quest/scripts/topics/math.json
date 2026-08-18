@@ -1,0 +1,65 @@
+{
+  "templateLesson": "lq-math/public/data/lessons/en/chapter-1/arithmetic-addition-basics.json",
+  "categories": {
+    "arithmetic": [
+      { "id": "subtraction-basics", "title": "Subtraction Basics", "type": "arithmetic", "description": "Learn basic subtraction with single digits, borrowing concepts" },
+      { "id": "multiplication-intro", "title": "Introduction to Multiplication", "type": "arithmetic", "description": "Multiplication as repeated addition, times tables basics" },
+      { "id": "division-intro", "title": "Introduction to Division", "type": "arithmetic", "description": "Division as sharing equally, basic division facts" },
+      { "id": "division-long", "title": "Long Division", "type": "arithmetic", "description": "Step-by-step long division with remainders" },
+      { "id": "multiplication-multi-digit", "title": "Multi-Digit Multiplication", "type": "arithmetic", "description": "Multiply two-digit and three-digit numbers together" },
+      { "id": "fractions-intro", "title": "Introduction to Fractions", "type": "arithmetic", "description": "Halves, thirds, quarters and what fractions mean" },
+      { "id": "decimals-intro", "title": "Introduction to Decimals", "type": "arithmetic", "description": "Tenths and hundredths, reading and writing decimal numbers" },
+      { "id": "order-of-operations", "title": "Order of Operations", "type": "arithmetic", "description": "PEMDAS rules for solving problems with multiple operations" },
+      { "id": "rounding-estimating", "title": "Rounding and Estimating", "type": "arithmetic", "description": "Round numbers to the nearest ten or hundred and estimate answers" },
+      { "id": "mental-math", "title": "Mental Math Tricks", "type": "arithmetic", "description": "Shortcuts and strategies for quick calculations in your head" }
+    ],
+    "geometry": [
+      { "id": "basic-shapes", "title": "Basic 2D Shapes", "type": "geometry", "description": "Identify circles, squares, triangles, rectangles" },
+      { "id": "angles-intro", "title": "Introduction to Angles", "type": "geometry", "description": "Right angles, acute, obtuse; measuring with protractor concepts" },
+      { "id": "perimeter-basics", "title": "Perimeter Basics", "type": "geometry", "description": "Calculate perimeter of simple shapes" },
+      { "id": "3d-shapes", "title": "3D Shapes", "type": "geometry", "description": "Cubes, spheres, cylinders, cones and their properties" },
+      { "id": "symmetry-intro", "title": "Introduction to Symmetry", "type": "geometry", "description": "Lines of symmetry in shapes and everyday objects" },
+      { "id": "area-basics", "title": "Area Basics", "type": "geometry", "description": "Calculate area of squares and rectangles using multiplication" },
+      { "id": "volume-intro", "title": "Introduction to Volume", "type": "geometry", "description": "Measure how much space a 3D shape takes up" },
+      { "id": "coordinate-grid", "title": "Coordinate Grid", "type": "geometry", "description": "Plot and read points on a grid using x and y coordinates" },
+      { "id": "tessellations", "title": "Tessellations", "type": "geometry", "description": "Create repeating patterns with shapes that fit together" },
+      { "id": "angles-measurement", "title": "Measuring Angles", "type": "geometry", "description": "Use a protractor to measure and draw angles in degrees" }
+    ],
+    "algebra": [
+      { "id": "patterns-sequences", "title": "Patterns and Sequences", "type": "number-sense", "description": "Identify and extend number patterns" },
+      { "id": "variables-intro", "title": "Introduction to Variables", "type": "number-sense", "description": "Using letters to represent unknown numbers" },
+      { "id": "simple-equations", "title": "Simple Equations", "type": "number-sense", "description": "Solve one-step equations like x + 3 = 7" },
+      { "id": "inequalities-intro", "title": "Introduction to Inequalities", "type": "number-sense", "description": "Greater than, less than, and comparing expressions" },
+      { "id": "functions-intro", "title": "Introduction to Functions", "type": "number-sense", "description": "Input-output machines and simple function rules" },
+      { "id": "graphing-basics", "title": "Graphing Basics", "type": "number-sense", "description": "Plot simple equations on a coordinate plane" },
+      { "id": "number-properties", "title": "Number Properties", "type": "number-sense", "description": "Commutative, associative, and distributive properties" },
+      { "id": "order-operations", "title": "Order of Operations in Algebra", "type": "number-sense", "description": "Apply PEMDAS when solving expressions with variables" },
+      { "id": "algebraic-expressions", "title": "Algebraic Expressions", "type": "number-sense", "description": "Write and simplify expressions using variables and constants" },
+      { "id": "solving-two-step", "title": "Solving Two-Step Equations", "type": "number-sense", "description": "Solve equations that need two operations like 2x + 3 = 9" }
+    ],
+    "statistics": [
+      { "id": "reading-graphs", "title": "Reading Bar Graphs", "type": "number-sense", "description": "Interpret data from bar graphs and pictographs" },
+      { "id": "mean-median-mode", "title": "Mean, Median, and Mode", "type": "number-sense", "description": "Calculate averages and find the middle value" },
+      { "id": "data-collection", "title": "Collecting and Organizing Data", "type": "number-sense", "description": "Surveys, tally charts, frequency tables" },
+      { "id": "probability-intro", "title": "Introduction to Probability", "type": "number-sense", "description": "Likely, unlikely, certain, impossible outcomes with coins and dice" },
+      { "id": "line-graphs", "title": "Line Graphs", "type": "number-sense", "description": "Read and create line graphs showing changes over time" },
+      { "id": "pie-charts", "title": "Pie Charts", "type": "number-sense", "description": "Read and interpret circle graphs showing parts of a whole" },
+      { "id": "range-intro", "title": "Range", "type": "number-sense", "description": "Find the range by subtracting the smallest from the largest value" },
+      { "id": "survey-design", "title": "Designing Surveys", "type": "number-sense", "description": "Create good survey questions and collect fair data" },
+      { "id": "data-interpretation", "title": "Data Interpretation", "type": "number-sense", "description": "Draw conclusions and make predictions from charts and tables" },
+      { "id": "averages-real-world", "title": "Averages in Real Life", "type": "number-sense", "description": "Use mean, median, and mode to understand everyday data" }
+    ],
+    "word-problems": [
+      { "id": "addition-word-problems", "title": "Addition Word Problems", "type": "word-problem", "description": "Real-world addition scenarios at the store, school, park" },
+      { "id": "subtraction-word-problems", "title": "Subtraction Word Problems", "type": "word-problem", "description": "Real-world subtraction scenarios with money, items, time" },
+      { "id": "multi-step-problems", "title": "Multi-Step Word Problems", "type": "word-problem", "description": "Problems requiring two operations to solve" },
+      { "id": "fraction-word-problems", "title": "Fraction Word Problems", "type": "word-problem", "description": "Solve problems involving sharing pizza, cutting rope, and recipes" },
+      { "id": "time-word-problems", "title": "Time Word Problems", "type": "word-problem", "description": "Calculate elapsed time, schedules, and durations" },
+      { "id": "money-word-problems", "title": "Money Word Problems", "type": "word-problem", "description": "Making change, comparing prices, and budgeting" },
+      { "id": "measurement-word-problems", "title": "Measurement Word Problems", "type": "word-problem", "description": "Problems with length, weight, and capacity in daily life" },
+      { "id": "ratio-word-problems", "title": "Ratio Word Problems", "type": "word-problem", "description": "Compare quantities using ratios in recipes and maps" },
+      { "id": "percentage-word-problems", "title": "Percentage Word Problems", "type": "word-problem", "description": "Calculate discounts, tips, and test scores as percentages" },
+      { "id": "distance-word-problems", "title": "Distance Word Problems", "type": "word-problem", "description": "Figure out distances, speeds, and travel times" }
+    ]
+  }
+}

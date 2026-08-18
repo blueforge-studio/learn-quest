@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kingdom-of-ghana",
+  "title": "Kingdom of Ghana",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "kingdom-of-ghana",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Kingdom of Ghana. Type: era-exploration. Background: The Kingdom of Ghana emerged around 500 CE in what is now southeastern Mauritania and western Mali. . Legacy: The Kingdom of Ghana showed the world that Africa had powerful, organized civili. Topics: What natural resource made the Kingdom of Ghana incredibly wealthy?, How did traders from different cultures exchange goods without meeting?.",
+      "filename": "kingdom-of-ghana-map.webp"
+    },
+    {
+      "id": "kingdom-of-ghana-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Kingdom of Ghana. Type: era-exploration. Background: The Kingdom of Ghana emerged around 500 CE in what is now southeastern Mauritania and western Mali. . Legacy: The Kingdom of Ghana showed the world that Africa had powerful, organized civili. Topics: What natural resource made the Kingdom of Ghana incredibly wealthy?, How did traders from different cultures exchange goods without meeting?.",
+      "filename": "kingdom-of-ghana-portrait.webp"
+    }
+  ]
+}

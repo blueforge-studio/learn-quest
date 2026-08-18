@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "joan-of-arc",
+  "title": "Joan of Arc",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "joan-of-arc",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Joan of Arc. Type: historical-figure. Background: Joan grew up in the quiet village of Domrémy in eastern France during the Hundred Years’ War — a lon. Legacy: Joan of Arc is remembered as a national heroine of France and a symbol of courag. Topics: How old was Joan when she first met the French prince?, What famous French city did Joan help free from English control?.",
+      "filename": "joan-of-arc-portrait.webp"
+    },
+    {
+      "id": "joan-of-arc-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Joan of Arc. Type: historical-figure. Background: Joan grew up in the quiet village of Domrémy in eastern France during the Hundred Years’ War — a lon. Legacy: Joan of Arc is remembered as a national heroine of France and a symbol of courag. Topics: How old was Joan when she first met the French prince?, What famous French city did Joan help free from English control?.",
+      "filename": "joan-of-arc-scene.webp"
+    }
+  ]
+}

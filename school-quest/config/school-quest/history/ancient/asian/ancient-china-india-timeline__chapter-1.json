@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-china-india-timeline",
+  "title": "Ancient China & India: A Journey Through Time",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-china-india-timeline",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient China & India: A Journey Through Time. Type: timeline. Topics: Which ancient civilization built advanced drainage systems in cities like Mohenjo-daro?, Who was the founder of Buddhism?.",
+      "filename": "ancient-china-india-timeline-timeline.webp"
+    },
+    {
+      "id": "ancient-china-india-timeline-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient China & India: A Journey Through Time. Type: timeline. Topics: Which ancient civilization built advanced drainage systems in cities like Mohenjo-daro?, Who was the founder of Buddhism?.",
+      "filename": "ancient-china-india-timeline-scene.webp"
+    }
+  ]
+}

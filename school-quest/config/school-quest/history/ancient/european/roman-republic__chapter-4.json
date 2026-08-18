@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "roman-republic",
+  "title": "The Roman Republic",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "roman-republic",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Roman Republic. Type: era-exploration. Background: After kicking out their last king in 509 BCE, Romans decided they didn’t want one person in charge a. Legacy: Even though the Republic ended when Julius Caesar’s heir Augustus became emperor. Topics: What were the two top leaders of the Roman Republic called?, What important thing did the Twelve Tables do for Roman citizens?.",
+      "filename": "roman-republic-map.webp"
+    },
+    {
+      "id": "roman-republic-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Roman Republic. Type: era-exploration. Background: After kicking out their last king in 509 BCE, Romans decided they didn’t want one person in charge a. Legacy: Even though the Republic ended when Julius Caesar’s heir Augustus became emperor. Topics: What were the two top leaders of the Roman Republic called?, What important thing did the Twelve Tables do for Roman citizens?.",
+      "filename": "roman-republic-portrait.webp"
+    }
+  ]
+}

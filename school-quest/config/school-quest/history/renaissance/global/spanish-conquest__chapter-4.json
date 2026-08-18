@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-conquest",
+  "title": "Spanish Conquest of the Americas",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "spanish-conquest",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Background: After Christopher Columbus reached the Americas in 1492, Spain sent more explorers seeking gold, lan. Legacy: The Spanish conquest connected the Americas to Europe, Africa, and Asia, startin. Topics: Which two major empires did the Spanish conquistadors encounter in the Americas?, What was a major reason the Spanish were able to defeat such large empires?.",
+      "filename": "spanish-conquest-timeline.webp"
+    },
+    {
+      "id": "spanish-conquest-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Spanish Conquest of the Americas. Type: timeline. Background: After Christopher Columbus reached the Americas in 1492, Spain sent more explorers seeking gold, lan. Legacy: The Spanish conquest connected the Americas to Europe, Africa, and Asia, startin. Topics: Which two major empires did the Spanish conquistadors encounter in the Americas?, What was a major reason the Spanish were able to defeat such large empires?.",
+      "filename": "spanish-conquest-scene.webp"
+    }
+  ]
+}

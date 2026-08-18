@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "qing-dynasty",
+  "title": "The Qing Dynasty",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "qing-dynasty",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Qing Dynasty. Type: era-exploration. Background: The Qing were not Han Chinese — they were Manchus, a people from northeast Asia. In the early 1600s,. Legacy: The Qing left behind breathtaking art, towering palaces, and deep respect for le. Topics: Where did the Qing rulers originally come from?, Which Qing emperor reigned the longest — over 60 years?.",
+      "filename": "qing-dynasty-map.webp"
+    },
+    {
+      "id": "qing-dynasty-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Qing Dynasty. Type: era-exploration. Background: The Qing were not Han Chinese — they were Manchus, a people from northeast Asia. In the early 1600s,. Legacy: The Qing left behind breathtaking art, towering palaces, and deep respect for le. Topics: Where did the Qing rulers originally come from?, Which Qing emperor reigned the longest — over 60 years?.",
+      "filename": "qing-dynasty-portrait.webp"
+    }
+  ]
+}

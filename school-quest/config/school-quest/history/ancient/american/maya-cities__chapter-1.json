@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "maya-cities",
+  "title": "Maya Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "american",
+  "basePath": "public/images/lessons/ancient/american",
+  "images": [
+    {
+      "id": "maya-cities",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE when people started farming corn, beans, and squash. Ove. Legacy: Though most great Maya cities were mostly abandoned by 900 CE, millions of Maya . Topics: Where were Maya cities built?, What was the tallest structure in Tikal?.",
+      "filename": "maya-cities-map.webp"
+    },
+    {
+      "id": "maya-cities-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Maya Cities. Type: era-exploration. Background: The Maya civilization began around 3500 BCE when people started farming corn, beans, and squash. Ove. Legacy: Though most great Maya cities were mostly abandoned by 900 CE, millions of Maya . Topics: Where were Maya cities built?, What was the tallest structure in Tikal?.",
+      "filename": "maya-cities-portrait.webp"
+    }
+  ]
+}

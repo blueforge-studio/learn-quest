@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "scramble-for-africa",
+  "title": "The Scramble for Africa",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "scramble-for-africa",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: steam engines, factories, and faster ships were invente. Legacy: These early steps helped set the stage for the bigger 'Scramble' after 1880 — wh. Topics: What did European countries want from Africa during the Industrial Revolution?, Which country banned its slave trade in 1807?.",
+      "filename": "scramble-for-africa-timeline.webp"
+    },
+    {
+      "id": "scramble-for-africa-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: steam engines, factories, and faster ships were invente. Legacy: These early steps helped set the stage for the bigger 'Scramble' after 1880 — wh. Topics: What did European countries want from Africa during the Industrial Revolution?, Which country banned its slave trade in 1807?.",
+      "filename": "scramble-for-africa-scene.webp"
+    }
+  ]
+}

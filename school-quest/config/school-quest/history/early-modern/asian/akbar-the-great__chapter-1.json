@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "akbar-the-great",
+  "title": "Akbar the Great",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "akbar-the-great",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Akbar the Great. Type: historical-figure. Background: Akbar was born in 1542 in Umerkot (in modern-day Pakistan). He became emperor at the young age of 13. Legacy: Akbar is remembered as 'the Great' for his wisdom, military success, and, most i. Topics: What was Akbar the Great most famous for promoting in his empire?, How old was Akbar when he first became emperor?.",
+      "filename": "akbar-the-great-portrait.webp"
+    },
+    {
+      "id": "akbar-the-great-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Akbar the Great. Type: historical-figure. Background: Akbar was born in 1542 in Umerkot (in modern-day Pakistan). He became emperor at the young age of 13. Legacy: Akbar is remembered as 'the Great' for his wisdom, military success, and, most i. Topics: What was Akbar the Great most famous for promoting in his empire?, How old was Akbar when he first became emperor?.",
+      "filename": "akbar-the-great-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "math",
+  "lessonId": "multiplication-multi-digit-ch3",
+  "title": "Multi-Digit Multiplication",
+  "lessonType": "arithmetic",
+  "chapter": "chapter-3",
+  "basePath": "public/images/lessons/lq-math/chapter-3",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math diagram with labels, educational style on white."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Math visual illustration, educational style."
+    },
+    "example": {
+      "name": "example",
+      "path": "examples",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Math example step by step, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "multiplication-multi-digit-ch3-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Multi-Digit Multiplication. . Clear labeled illustration.",
+      "filename": "multiplication-multi-digit-ch3-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "multiplication-multi-digit-ch3-visual",
+      "type": "visual",
+      "prompt": "Visual representation of concept: Multi-Digit Multiplication. Educational illustration style.",
+      "filename": "multiplication-multi-digit-ch3-visual.webp",
+      "quality": 85
+    },
+    {
+      "id": "multiplication-multi-digit-ch3-example",
+      "type": "example",
+      "prompt": "Math example illustration for: Multi-Digit Multiplication. Step by step visual educational math style.",
+      "filename": "multiplication-multi-digit-ch3-example.webp",
+      "quality": 85
+    }
+  ]
+}

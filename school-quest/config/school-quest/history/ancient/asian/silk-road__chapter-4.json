@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "silk-road",
+  "title": "The Silk Road",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "silk-road",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: The Silk Road wasn’t built all at once — it grew slowly as people from China, Central Asia, India, P. Legacy: The Silk Road wasn’t just about buying and selling — it helped people share idea. Topics: What was the MOST famous item traded on the Silk Road?, Which Chinese explorer helped start the Silk Road by exploring Central Asia?.",
+      "filename": "silk-road-map.webp"
+    },
+    {
+      "id": "silk-road-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Silk Road. Type: era-exploration. Background: The Silk Road wasn’t built all at once — it grew slowly as people from China, Central Asia, India, P. Legacy: The Silk Road wasn’t just about buying and selling — it helped people share idea. Topics: What was the MOST famous item traded on the Silk Road?, Which Chinese explorer helped start the Silk Road by exploring Central Asia?.",
+      "filename": "silk-road-portrait.webp"
+    }
+  ]
+}

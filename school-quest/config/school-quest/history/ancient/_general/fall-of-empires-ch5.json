@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-empires-ch5",
+  "title": "Why Empires Fall",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "fall-of-empires-ch5",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Between 3500 BCE and 500 CE, huge empires rose across Africa, Asia, and Europe. They built roads, wr. Legacy: We study why empires fell not to blame them, but to learn! Their stories teach u. Topics: Which empire was led by Emperor Ashoka and spread peace and Buddhist teachings?, What did the Han Dynasty invent that changed how people share ideas?.",
+      "filename": "fall-of-empires-ch5-timeline.webp"
+    },
+    {
+      "id": "fall-of-empires-ch5-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Why Empires Fall. Type: timeline. Background: Between 3500 BCE and 500 CE, huge empires rose across Africa, Asia, and Europe. They built roads, wr. Legacy: We study why empires fell not to blame them, but to learn! Their stories teach u. Topics: Which empire was led by Emperor Ashoka and spread peace and Buddhist teachings?, What did the Han Dynasty invent that changed how people share ideas?.",
+      "filename": "fall-of-empires-ch5-scene.webp"
+    }
+  ]
+}

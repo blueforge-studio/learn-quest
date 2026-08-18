@@ -1,0 +1,53 @@
+{
+  "subject": "reading",
+  "lessonId": "story-magic-forest",
+  "title": "The Magic Forest",
+  "lessonType": "interactive-story",
+  "chapter": "chapter-6",
+  "basePath": "public/images/lessons/lq-reading/chapter-6",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "illustration": {
+      "name": "illustration",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Story illustration, educational style."
+    },
+    "visual": {
+      "name": "visual",
+      "path": "visuals",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Reading visual aid, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "story-magic-forest-illustration",
+      "type": "illustration",
+      "prompt": "Reading comprehension illustration for: The Magic Forest. Educational scene.",
+      "filename": "story-magic-forest-illustration.webp",
+      "quality": 85
+    },
+    {
+      "id": "story-magic-forest-visual",
+      "type": "visual",
+      "prompt": "Visual aid for: The Magic Forest. Story scene or concept illustration.",
+      "filename": "story-magic-forest-visual.webp",
+      "quality": 85
+    }
+  ]
+}

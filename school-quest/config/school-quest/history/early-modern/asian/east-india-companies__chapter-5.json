@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "east-india-companies",
+  "title": "East India Companies",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "east-india-companies",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1600s, Europeans loved Asian goods like pepper, cinnamon, silk, and porcelain. But getting th. Legacy: The East India Companies changed world trade forever. They connected continents,. Topics: What were the East India Companies mainly trying to get from Asia?, How did goods travel between Europe and Asia before the East India Companies?.",
+      "filename": "east-india-companies-map.webp"
+    },
+    {
+      "id": "east-india-companies-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: East India Companies. Type: era-exploration. Background: In the 1600s, Europeans loved Asian goods like pepper, cinnamon, silk, and porcelain. But getting th. Legacy: The East India Companies changed world trade forever. They connected continents,. Topics: What were the East India Companies mainly trying to get from Asia?, How did goods travel between Europe and Asia before the East India Companies?.",
+      "filename": "east-india-companies-portrait.webp"
+    }
+  ]
+}

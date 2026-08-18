@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-revolution",
+  "title": "The American Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "american-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The American Revolution. Type: timeline. Background: For over 150 years, the American colonies were part of the British Empire. The colonists had to foll. Legacy: The American Revolution created the first modern democracy founded on Enlightenm. Topics: What famous protest involved colonists dumping tea into Boston Harbor?, What important document was signed in 1776?.",
+      "filename": "american-revolution-timeline.webp"
+    },
+    {
+      "id": "american-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The American Revolution. Type: timeline. Background: For over 150 years, the American colonies were part of the British Empire. The colonists had to foll. Legacy: The American Revolution created the first modern democracy founded on Enlightenm. Topics: What famous protest involved colonists dumping tea into Boston Harbor?, What important document was signed in 1776?.",
+      "filename": "american-revolution-scene.webp"
+    }
+  ]
+}

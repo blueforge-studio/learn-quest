@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "scramble-for-africa",
+  "title": "The Scramble for Africa",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "scramble-for-africa",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: factories were booming, steamships were being built, an. Legacy: These early steps laid the groundwork for the much bigger 'Scramble' that happen. Topics: What did European countries mainly want from Africa during this time?, Which event helped shift European focus from slave trading to other kinds of trade?.",
+      "filename": "scramble-for-africa-timeline.webp"
+    },
+    {
+      "id": "scramble-for-africa-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Scramble for Africa. Type: timeline. Background: From 1760 to 1840, Europe was changing fast: factories were booming, steamships were being built, an. Legacy: These early steps laid the groundwork for the much bigger 'Scramble' that happen. Topics: What did European countries mainly want from Africa during this time?, Which event helped shift European focus from slave trading to other kinds of trade?.",
+      "filename": "scramble-for-africa-scene.webp"
+    }
+  ]
+}

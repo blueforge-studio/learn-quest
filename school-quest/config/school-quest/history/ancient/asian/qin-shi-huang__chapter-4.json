@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "qin-shi-huang",
+  "title": "Qin Shi Huang",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "qin-shi-huang",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Qin Shi Huang. Type: historical-figure. Background: Born as Ying Zheng in 259 BCE, he became the king of the Qin state when he was only 13 years old. At. Legacy: Qin Shi Huang's legacy is enormous. He created the idea of a single, unified Chi. Topics: What was Qin Shi Huang's biggest achievement?, Why did Qin Shi Huang build the Terracotta Army?.",
+      "filename": "qin-shi-huang-portrait.webp"
+    },
+    {
+      "id": "qin-shi-huang-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Qin Shi Huang. Type: historical-figure. Background: Born as Ying Zheng in 259 BCE, he became the king of the Qin state when he was only 13 years old. At. Legacy: Qin Shi Huang's legacy is enormous. He created the idea of a single, unified Chi. Topics: What was Qin Shi Huang's biggest achievement?, Why did Qin Shi Huang build the Terracotta Army?.",
+      "filename": "qin-shi-huang-scene.webp"
+    }
+  ]
+}

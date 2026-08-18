@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ottoman-origins",
+  "title": "Rise of the Ottomans",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "ottoman-origins",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Rise of the Ottomans. Type: era-exploration. Background: After the powerful Seljuk Turks weakened, many small Turkish groups settled in Anatolia. One of them. Legacy: The Ottoman Empire lasted over 600 years — longer than most countries today! It . Topics: Who was the founder of the Ottoman state?, What important city did the Ottomans capture in 1453?.",
+      "filename": "ottoman-origins-map.webp"
+    },
+    {
+      "id": "ottoman-origins-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Rise of the Ottomans. Type: era-exploration. Background: After the powerful Seljuk Turks weakened, many small Turkish groups settled in Anatolia. One of them. Legacy: The Ottoman Empire lasted over 600 years — longer than most countries today! It . Topics: Who was the founder of the Ottoman state?, What important city did the Ottomans capture in 1453?.",
+      "filename": "ottoman-origins-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "american-industrialization",
+  "title": "American Industrialization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "american-industrialization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After the American Revolution, the United States was mostly a farming country. But in the early 1800. Legacy: The early Industrial Revolution set the stage for America to become a global eco. Topics: What was a major new form of transportation that began in the 1830s?, What did Samuel Slater build that started American factories?.",
+      "filename": "american-industrialization-map.webp"
+    },
+    {
+      "id": "american-industrialization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: American Industrialization. Type: era-exploration. Background: After the American Revolution, the United States was mostly a farming country. But in the early 1800. Legacy: The early Industrial Revolution set the stage for America to become a global eco. Topics: What was a major new form of transportation that began in the 1830s?, What did Samuel Slater build that started American factories?.",
+      "filename": "american-industrialization-portrait.webp"
+    }
+  ]
+}

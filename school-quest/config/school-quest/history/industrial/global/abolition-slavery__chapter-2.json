@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "abolition-slavery",
+  "title": "Abolition of Slavery",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "abolition-slavery",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Abolition of Slavery. Type: timeline. Background: For hundreds of years, millions of African people were captured and forced into slavery, especially . Legacy: The abolition movement showed that ordinary people could create massive change t. Topics: What was the main goal of the abolition movement?, Which country first banned the slave trade in 1807?.",
+      "filename": "abolition-slavery-timeline.webp"
+    },
+    {
+      "id": "abolition-slavery-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Abolition of Slavery. Type: timeline. Background: For hundreds of years, millions of African people were captured and forced into slavery, especially . Legacy: The abolition movement showed that ordinary people could create massive change t. Topics: What was the main goal of the abolition movement?, Which country first banned the slave trade in 1807?.",
+      "filename": "abolition-slavery-scene.webp"
+    }
+  ]
+}

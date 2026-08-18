@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-egypt-pharaohs",
+  "title": "Egypt: Land of the Pharaohs",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "ancient-egypt-pharaohs",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Egypt's story began when people settled along the fertile banks of the Nile River. The predictable f. Legacy: Ancient Egypt's legacy is everywhere! We see it in our fascination with pyramids. Topics: What was the most important geographic feature for Ancient Egyptian civilization?, During which kingdom were the Great Pyramids of Giza built?.",
+      "filename": "ancient-egypt-pharaohs-map.webp"
+    },
+    {
+      "id": "ancient-egypt-pharaohs-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Egypt: Land of the Pharaohs. Type: era-exploration. Background: Egypt's story began when people settled along the fertile banks of the Nile River. The predictable f. Legacy: Ancient Egypt's legacy is everywhere! We see it in our fascination with pyramids. Topics: What was the most important geographic feature for Ancient Egyptian civilization?, During which kingdom were the Great Pyramids of Giza built?.",
+      "filename": "ancient-egypt-pharaohs-portrait.webp"
+    }
+  ]
+}

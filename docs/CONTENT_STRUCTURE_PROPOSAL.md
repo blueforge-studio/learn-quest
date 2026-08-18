@@ -1,0 +1,618 @@
+# Content Structure Analysis & Unification Proposal
+
+> Date: 2026-04-11
+> Status: PROPOSAL — awaiting approval before implementation
+
+---
+
+## Table of Contents
+
+1. [Current Structure: Lang-Quest](#current-structure-lang-quest)
+2. [Problems with Lang-Quest Structure](#problems-with-lang-quest-structure)
+3. [Current Structure: School-Quest](#current-structure-school-quest)
+4. [Problems with School-Quest Structure](#problems-with-school-quest-structure)
+5. [Proposed Unified Structure](#proposed-unified-structure)
+6. [School-Quest Subject Hierarchy](#school-quest-subject-hierarchy)
+7. [Multi-Level Hierarchy Support](#multi-level-hierarchy-support)
+8. [Migration Plan](#migration-plan)
+
+---
+
+## Current Structure: Lang-Quest
+
+Using `lq-nordic` as the reference (all 14 groups follow this pattern):
+
+```
+lq-nordic/
+├── public/                              ← SERVED BY VITE (browser-accessible)
+│   ├── app.json                         ← Group config (script options)
+│   ├── boss-groups.json                 ← RPG boss definitions
+│   ├── logo.svg, favicon.svg
+│   ├── _shared/                         ← Shared across ALL languages
+│   │   └── images/
+│   │       ├── avatars/player/          ← Player avatar images
+│   │       ├── rpg/equipment/           ← Equipment illustrations
+│   │       └── ui/achievements/         ← Achievement badges
+│   ├── data/                            ← Asset manifests
+│   │   └── asset-map.json
+│   └── languages/                       ← Per-language visual assets
+│       ├── danish/images/
+│       │   ├── avatars/                 ← Language-branded avatars
+│       │   ├── backgrounds/             ← Themed backgrounds
+│       │   ├── illustrations/
+│       │   ├── lessons/vocabulary/      ← Vocab card images
+│       │   ├── logos/
+│       │   ├── rpg/
+│       │   └── textures/
+│       ├── icelandic/images/
+│       ├── norwegian/images/
+│       └── swedish/images/
+│
+├── languages/                           ← NOT SERVED DIRECTLY (source content)
+│   ├── danish/
+│   │   ├── audio/                       ← TTS audio (986 MP3 files)
+│   │   │   ├── chapter-1/
+│   │   │   │   ├── basic-nouns/0-mand.mp3
+│   │   │   │   └── ...
+│   │   │   └── chapter-15/
+│   │   ├── data/                        ← Content + metadata
+│   │   │   ├── chapters.json            ← Chapter list (localized names)
+│   │   │   ├── chapters.yaml
+│   │   │   ├── boss-fight.yaml
+│   │   │   ├── locale-manifest.json
+│   │   │   ├── asset-map.json
+│   │   │   ├── en/                      ← English interface
+│   │   │   │   ├── chapters.json        ← Chapter list (English)
+│   │   │   │   ├── lessons.json         ← Consolidated lessons
+│   │   │   │   ├── bosses.json
+│   │   │   │   ├── equipment.json
+│   │   │   │   ├── achievements.json
+│   │   │   │   ├── rewards.json
+│   │   │   │   ├── challenges.json
+│   │   │   │   └── lessons/             ← Individual lesson files
+│   │   │   │       ├── chapter-1/
+│   │   │   │       │   ├── basic-nouns.json
+│   │   │   │       │   ├── vocab-animals.json
+│   │   │   │       │   └── ...
+│   │   │   │       └── chapter-15/
+│   │   │   ├── de/lessons/              ← German interface
+│   │   │   ├── es/lessons/              ← Spanish interface
+│   │   │   ├── fr/lessons/              ← French interface
+│   │   │   ├── th/lessons/
+│   │   │   ├── vi/lessons/
+│   │   │   └── zh/lessons/
+│   │   └── .local/images/
+│   ├── icelandic/
+│   ├── norwegian/
+│   └── swedish/
+```
+
+**Stats:** ~11,500 files per group (3,431 images + 4,807 JSON + 3,121 MP3 + 29 YAML)
+
+---
+
+## Problems with Lang-Quest Structure
+
+### 1. Content split across two root directories
+
+**Images** are in `public/languages/{lang}/images/` but **audio** is in `languages/{lang}/audio/` and **lesson data** is in `languages/{lang}/data/`. A single language's assets live in two completely separate trees.
+
+**Why this happened:** Vite serves `public/` statically. Audio was originally uploaded to Firebase Storage (not served locally), so it lived outside `public/`. After the Firebase removal, audio stayed in `languages/` but images stayed in `public/`.
+
+### 2. Duplicate metadata files
+
+- `chapters.json` exists in both `languages/danish/data/` AND `languages/danish/data/en/`
+- `chapters.yaml` AND `chapters.json` describe the same data
+- `asset-map.json` exists in both `public/data/` and `languages/danish/data/`
+
+### 3. Deep nesting for no benefit
+
+`public/languages/danish/images/lessons/vocabulary/nouns/cat.webp` — 7 levels deep. The `public/languages/` prefix is redundant since we already know this is a language app.
+
+### 4. Locale data is massive and duplicated
+
+Each language has lesson JSON in 7 interface locales (de, en, es, fr, th, vi, zh). Danish alone has ~600 JSON files × 7 = 4,200 lesson files. Most are identical structure with different UI text.
+
+### 5. No clear separation of "generated" vs "authored" content
+
+Audio files (generated by TTS), images (generated by AI), lesson JSON (generated by AI), and game metadata (authored by hand) are all mixed together.
+
+---
+
+## Current Structure: School-Quest
+
+Using `lq-math` as reference:
+
+```
+lq-math/
+├── public/
+│   ├── app.json
+│   ├── logo.svg, favicon.svg
+│   ├── taxonomy.json                    ← Subject taxonomy
+│   └── data/
+│       └── lessons/
+│           └── en/                      ← English only
+│               ├── chapter-1/
+│               │   ├── arithmetic-addition-basics.json
+│               │   ├── geometry-shapes-intro.json
+│               │   └── ...              (5 lessons)
+│               └── chapter-5/           (5 lessons)
+```
+
+**Stats:** 29 files per app. No audio, no images, no localization.
+
+---
+
+## Problems with School-Quest Structure
+
+### 1. Flat subject model — no sub-categories
+
+`lq-geography` has 25 lessons in 5 chapters, but geography is not one subject — it's:
+- World Map (continents, countries, capitals)
+- Earth (geology, tectonics, volcanoes)
+- Water (oceans, rivers, water cycle)
+- Space (solar system, planets, universe)
+- Weather (climate, seasons, storms)
+
+Similarly, `lq-science` should be: biology, chemistry, physics, earth science.
+
+### 2. No support for future localization
+
+Lessons are in `data/lessons/en/` but there's no infrastructure for adding `de/`, `es/`, etc.
+
+### 3. No asset infrastructure
+
+No images, no audio — subjects like geography and science heavily benefit from visual content (maps, diagrams, photos).
+
+### 4. No shared asset layer
+
+No `_shared/` directory for RPG assets, UI elements, or cross-subject content.
+
+---
+
+## Proposed Unified Structure
+
+### Design Principles
+
+1. **One root for all content** — no split between `public/` and `languages/`
+2. **Config-driven** — `lq.config.json` declares the structure, tools discover from it
+3. **Hierarchy-aware** — supports groups → categories → items (e.g., geography → earth → volcanoes)
+4. **Locale-ready** — interface locale is a parameter, not a directory fork
+5. **Generated vs authored is explicit** — separate directories for AI-generated vs hand-crafted
+
+### Proposed Directory Layout
+
+```
+lq-{app}/
+├── content/                             ← ALL CONTENT LIVES HERE
+│   ├── _shared/                         ← Shared across all categories
+│   │   ├── images/
+│   │   │   ├── avatars/
+│   │   │   ├── rpg/
+│   │   │   └── ui/
+│   │   └── game/                        ← RPG metadata (bosses, equipment, achievements)
+│   │       ├── bosses.json
+│   │       ├── equipment.json
+│   │       ├── achievements.json
+│   │       └── rewards.json
+│   │
+│   ├── {category}/                      ← Per-category content
+│   │   ├── meta.json                    ← Category metadata (name, theme, icon)
+│   │   ├── chapters.json                ← Chapter definitions
+│   │   │
+│   │   ├── lessons/                     ← Lesson content (one JSON per lesson)
+│   │   │   ├── chapter-1/
+│   │   │   │   ├── lesson-1.json
+│   │   │   │   └── lesson-2.json
+│   │   │   └── chapter-N/
+│   │   │
+│   │   ├── audio/                       ← TTS audio per lesson
+│   │   │   ├── chapter-1/
+│   │   │   │   └── lesson-1/
+│   │   │   │       ├── 0-word.mp3
+│   │   │   │       └── 1-phrase.mp3
+│   │   │   └── chapter-N/
+│   │   │
+│   │   └── images/                      ← Category-specific images
+│   │       ├── backgrounds/
+│   │       ├── lessons/
+│   │       ├── logos/
+│   │       └── illustrations/
+│   │
+│   └── {category-2}/                    ← Another category
+│       └── ... (same structure)
+│
+├── locales/                             ← UI translations (separate from content)
+│   ├── en.json                          ← English UI strings
+│   ├── de.json                          ← German UI strings
+│   └── ...
+│
+├── public/                              ← Vite-served (minimal — just app shell assets)
+│   ├── logo.svg
+│   ├── favicon.svg
+│   └── manifest.json
+│
+├── src/                                 ← React app
+├── lq.config.json                       ← Content discovery config
+└── scripts/
+```
+
+### How "category" maps to each app type
+
+**Lang-quest:** category = language
+
+```
+lq-nordic/content/
+├── _shared/
+├── danish/              ← category = "danish"
+│   ├── meta.json        { "id": "danish", "name": "Danish", "script": "latin" }
+│   ├── chapters.json
+│   ├── lessons/
+│   ├── audio/
+│   └── images/
+├── icelandic/
+├── norwegian/
+└── swedish/
+```
+
+**School-quest (flat subjects):** category = sub-discipline
+
+```
+lq-math/content/
+├── _shared/
+├── arithmetic/          ← category = "arithmetic"
+│   ├── meta.json        { "id": "arithmetic", "name": "Arithmetic" }
+│   ├── chapters.json
+│   └── lessons/
+├── geometry/
+├── algebra/
+├── statistics/
+└── word-problems/
+```
+
+**School-quest (hierarchical):** category = sub-discipline, with optional parent
+
+```
+lq-geography/content/
+├── _shared/
+├── world-map/           ← category = "world-map"
+│   ├── meta.json        { "id": "world-map", "name": "World Map", "parent": null }
+│   ├── chapters.json
+│   └── lessons/
+├── earth/
+├── water/
+├── space/
+└── weather/
+```
+
+```
+lq-history/content/
+├── _shared/
+├── ancient/             ← PARENT category (no lessons directly)
+│   ├── meta.json        { "id": "ancient", "name": "Ancient History", "children": ["european", "asian", "african"] }
+│   ├── european/        ← CHILD category
+│   │   ├── meta.json    { "id": "european", "name": "European", "parent": "ancient" }
+│   │   ├── chapters.json
+│   │   └── lessons/
+│   ├── asian/
+│   └── african/
+├── dark-ages/
+├── middle-ages/
+├── renaissance/
+└── modern/
+```
+
+---
+
+## School-Quest Subject Hierarchy
+
+### lq-geography
+
+```yaml
+categories:
+  - id: world-map
+    name: World Map
+    topics: [continents, countries, capitals, borders, population]
+  - id: earth
+    name: Earth
+    topics: [geology, tectonics, volcanoes, mountains, earthquakes]
+  - id: water
+    name: Water
+    topics: [oceans, rivers, lakes, water-cycle, glaciers]
+  - id: space
+    name: Space
+    topics: [solar-system, planets, stars, galaxies, universe]
+  - id: weather
+    name: Weather & Climate
+    topics: [seasons, storms, climate-zones, global-warming]
+```
+
+### lq-history (3-level hierarchy)
+
+```yaml
+categories:
+  - id: ancient
+    name: Ancient History
+    children:
+      - id: european
+        name: European
+        topics: [greece, rome, celts, vikings]
+      - id: asian
+        name: Asian
+        topics: [china, india, japan, persia]
+      - id: african
+        name: African
+        topics: [egypt, nubia, great-zimbabwe]
+      - id: american
+        name: American
+        topics: [maya, aztec, inca]
+  - id: dark-ages
+    name: Dark Ages (500-1000)
+    topics: [byzantine, islamic-golden-age, feudalism]
+  - id: middle-ages
+    name: Middle Ages (1000-1500)
+    topics: [crusades, black-death, magna-carta, trade-routes]
+  - id: renaissance
+    name: Renaissance (1400-1600)
+    topics: [art, science, exploration, reformation]
+  - id: modern
+    name: Modern History (1600+)
+    topics: [industrial-revolution, world-wars, cold-war, digital-age]
+```
+
+### lq-science
+
+```yaml
+categories:
+  - id: biology
+    name: Biology
+    topics: [cells, genetics, ecology, human-body, evolution]
+  - id: chemistry
+    name: Chemistry
+    topics: [elements, reactions, molecules, states-of-matter]
+  - id: physics
+    name: Physics
+    topics: [forces, energy, electricity, waves, gravity]
+  - id: earth-science
+    name: Earth Science
+    topics: [rocks, fossils, weather, water-cycle]
+```
+
+### lq-math
+
+```yaml
+categories:
+  - id: arithmetic
+    name: Arithmetic
+    topics: [addition, subtraction, multiplication, division, fractions]
+  - id: geometry
+    name: Geometry
+    topics: [shapes, angles, area, volume, symmetry]
+  - id: algebra
+    name: Algebra
+    topics: [variables, equations, patterns, functions]
+  - id: statistics
+    name: Statistics
+    topics: [graphs, averages, probability, data]
+  - id: word-problems
+    name: Word Problems
+    topics: [money, time, measurement, logic]
+```
+
+### lq-reading
+
+```yaml
+categories:
+  - id: phonics
+    name: Phonics
+    topics: [letters, sounds, blending, digraphs]
+  - id: vocabulary
+    name: Vocabulary
+    topics: [word-families, prefixes, suffixes, context-clues]
+  - id: comprehension
+    name: Comprehension
+    topics: [main-idea, inference, summarizing, sequencing]
+  - id: literature
+    name: Literature
+    topics: [fiction, non-fiction, poetry, drama]
+```
+
+### lq-writing
+
+```yaml
+categories:
+  - id: grammar
+    name: Grammar
+    topics: [sentences, nouns, verbs, adjectives, punctuation]
+  - id: creative
+    name: Creative Writing
+    topics: [stories, poetry, descriptions, dialogue]
+  - id: essays
+    name: Essay Writing
+    topics: [paragraphs, arguments, compare-contrast, research]
+  - id: practical
+    name: Practical Writing
+    topics: [letters, emails, reports, instructions]
+```
+
+---
+
+## Multi-Level Hierarchy Support
+
+### lq.config.json for 3-level history
+
+```json
+{
+  "app": {
+    "name": "history",
+    "type": "school",
+    "label": "History Quest"
+  },
+  "hierarchy": {
+    "levels": 3,
+    "names": ["era", "region", "topic"],
+    "selectors": {
+      "era": { "ui": "main-menu", "required": true },
+      "region": { "ui": "settings", "required": false, "default": "all" },
+      "topic": { "ui": "chapter-select", "required": false }
+    }
+  },
+  "paths": {
+    "content": "content",
+    "shared": "content/_shared",
+    "locales": "locales"
+  },
+  "categories": [
+    {
+      "id": "ancient",
+      "name": "Ancient History",
+      "children": ["european", "asian", "african", "american"]
+    },
+    { "id": "dark-ages", "name": "Dark Ages" },
+    { "id": "middle-ages", "name": "Middle Ages" },
+    { "id": "renaissance", "name": "Renaissance" },
+    { "id": "modern", "name": "Modern History" }
+  ]
+}
+```
+
+### UI Flow for 3-Level Selection
+
+```
+1. Main Menu / Onboarding:
+   ┌─────────────────────────────┐
+   │  Choose Your Era:           │
+   │  ◉ Ancient History          │
+   │  ○ Dark Ages                │
+   │  ○ Middle Ages              │
+   │  ○ Renaissance              │
+   │  ○ Modern History           │
+   └─────────────────────────────┘
+
+2. Settings (for "Ancient History" — optional sub-selector):
+   ┌─────────────────────────────┐
+   │  Focus Region (optional):   │
+   │  ◉ All Regions              │
+   │  ○ European                 │
+   │  ○ Asian                    │
+   │  ○ African                  │
+   │  ○ American                 │
+   └─────────────────────────────┘
+
+3. Chapter Select:
+   Shows chapters from ancient/european/ or all ancient/* combined
+```
+
+The game engine already has a language selector in settings — the "region" sub-selector follows the same pattern. Implementation: one additional `<CategoryPicker>` component, driven by `hierarchy.selectors` in config.
+
+---
+
+## Updated lq.config.json Schema
+
+```typescript
+interface LqConfigJson {
+  app: {
+    name: string;
+    type: 'lang' | 'school';
+    label: string;
+  };
+
+  // NEW: Hierarchy definition
+  hierarchy?: {
+    levels: number;           // 1 = flat (math), 2 = grouped (geography), 3 = nested (history)
+    names: string[];          // ["language"] or ["subject"] or ["era", "region", "topic"]
+    selectors: Record<string, {
+      ui: 'main-menu' | 'settings' | 'chapter-select' | 'onboarding';
+      required: boolean;
+      default?: string;
+    }>;
+  };
+
+  // SIMPLIFIED: One content root
+  paths: {
+    content: string;          // "content" — everything under here
+    shared: string;           // "content/_shared"
+    locales: string;          // "locales"
+  };
+
+  // Categories (replaces "languages" field)
+  categories: Array<{
+    id: string;
+    name: string;
+    children?: string[];      // Sub-category IDs (for nested hierarchies)
+  }>;
+
+  // Validation (unchanged)
+  validation?: { ... };
+  targets?: { ... };
+}
+```
+
+For lang-quest, `categories` replaces `languages`:
+```json
+{
+  "categories": [
+    { "id": "danish", "name": "Danish" },
+    { "id": "swedish", "name": "Swedish" }
+  ]
+}
+```
+
+For school-quest with hierarchy:
+```json
+{
+  "categories": [
+    { "id": "ancient", "name": "Ancient", "children": ["european", "asian"] },
+    { "id": "modern", "name": "Modern" }
+  ]
+}
+```
+
+---
+
+## Migration Plan
+
+### Phase 1: Create `content/` directory (non-breaking)
+
+For each lang-quest app:
+1. Create `content/{lang}/` directories
+2. Symlink `content/{lang}/lessons/` → `languages/{lang}/data/en/lessons/`
+3. Symlink `content/{lang}/audio/` → `languages/{lang}/audio/`
+4. Symlink `content/{lang}/images/` → `public/languages/{lang}/images/`
+5. Copy game metadata to `content/_shared/game/`
+6. Update `lq.config.json` to add `paths.content`
+
+This gives the new structure without moving files. Tools start reading from `content/`.
+
+### Phase 2: Move files to `content/` (breaking for tools)
+
+1. Move audio from `languages/*/audio/` → `content/*/audio/`
+2. Move images from `public/languages/*/images/` → `content/*/images/`
+3. Move lessons from `languages/*/data/en/lessons/` → `content/*/lessons/`
+4. Move locale data to `locales/` at root
+5. Update all tool scripts to use new paths via `loadConfig()`
+6. Update Vite config to serve `content/` as static
+7. Delete `languages/` and `public/languages/` directories
+
+### Phase 3: Restructure school-quest
+
+1. Create categories within each subject app
+2. Move `public/data/lessons/en/` → `content/{category}/lessons/`
+3. Generate lesson content for new categories
+4. Add hierarchy config to `lq.config.json`
+
+### Phase 4: UI integration
+
+1. Add `<CategoryPicker>` component for multi-level selection
+2. Wire to `hierarchy.selectors` config
+3. Update lesson loading to resolve `content/{category}/lessons/`
+
+### Estimated Effort
+
+| Phase | Effort | Risk |
+|-------|--------|------|
+| Phase 1 (symlinks) | 2 hours | None (non-breaking) |
+| Phase 2 (move files) | 4 hours | Medium (tools need updating) |
+| Phase 3 (school-quest) | 8 hours | Low (new content) |
+| Phase 4 (UI) | 4 hours | Low (additive) |
+| **Total** | **18 hours** | |

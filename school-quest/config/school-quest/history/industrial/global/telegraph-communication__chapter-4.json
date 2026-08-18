@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "telegraph-communication",
+  "title": "The Telegraph",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "telegraph-communication",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Telegraph. Type: era-exploration. Background: In the early 1800s, scientists were excited about electricity — the invisible energy that could make. Legacy: The telegraph was the great-grandparent of all modern communication! It taught u. Topics: What did the first public telegraph message say?, What is Morse code?.",
+      "filename": "telegraph-communication-map.webp"
+    },
+    {
+      "id": "telegraph-communication-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Telegraph. Type: era-exploration. Background: In the early 1800s, scientists were excited about electricity — the invisible energy that could make. Legacy: The telegraph was the great-grandparent of all modern communication! It taught u. Topics: What did the first public telegraph message say?, What is Morse code?.",
+      "filename": "telegraph-communication-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "portuguese-trade",
+  "title": "Portuguese Maritime Empire",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "global",
+  "basePath": "public/images/lessons/renaissance/global",
+  "images": [
+    {
+      "id": "portuguese-trade",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Portuguese Maritime Empire. Type: era-exploration. Background: In the 1400s, Portugal was a small kingdom with a big dream: to find a sea route to Asia. Spices lik. Legacy: The Portuguese created the first truly global empire, connecting Europe, Africa,. Topics: What was the main treasure Portuguese explorers were trying to bring back from Asia?, What was the name of the fast and sturdy ship the Portuguese used for exploration?.",
+      "filename": "portuguese-trade-map.webp"
+    },
+    {
+      "id": "portuguese-trade-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Portuguese Maritime Empire. Type: era-exploration. Background: In the 1400s, Portugal was a small kingdom with a big dream: to find a sea route to Asia. Spices lik. Legacy: The Portuguese created the first truly global empire, connecting Europe, Africa,. Topics: What was the main treasure Portuguese explorers were trying to bring back from Asia?, What was the name of the fast and sturdy ship the Portuguese used for exploration?.",
+      "filename": "portuguese-trade-portrait.webp"
+    }
+  ]
+}

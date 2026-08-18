@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "bronze-age",
+  "title": "The Bronze Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "bronze-age",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: For thousands of years, people used stone tools and weapons. Around 3500 BCE, in an area called Meso. Legacy: The Bronze Age showed how technology can transform society. Bronze tools allowed. Topics: What two metals are mixed together to make bronze?, How did bronze tools help farmers?.",
+      "filename": "bronze-age-map.webp"
+    },
+    {
+      "id": "bronze-age-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Bronze Age. Type: era-exploration. Background: For thousands of years, people used stone tools and weapons. Around 3500 BCE, in an area called Meso. Legacy: The Bronze Age showed how technology can transform society. Bronze tools allowed. Topics: What two metals are mixed together to make bronze?, How did bronze tools help farmers?.",
+      "filename": "bronze-age-portrait.webp"
+    }
+  ]
+}

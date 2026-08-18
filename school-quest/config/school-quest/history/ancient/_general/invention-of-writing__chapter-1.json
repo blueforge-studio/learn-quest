@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "invention-of-writing",
+  "title": "The Invention of Writing",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "invention-of-writing",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in ancient Mesopotamia (modern-day Iraq), people needed a way to keep track of busi. Legacy: Writing changed everything! It allowed knowledge to be saved and shared across g. Topics: Where was the world's first writing system, cuneiform, invented?, What were the picture-symbols used in ancient Egypt called?.",
+      "filename": "invention-of-writing-map.webp"
+    },
+    {
+      "id": "invention-of-writing-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in ancient Mesopotamia (modern-day Iraq), people needed a way to keep track of busi. Legacy: Writing changed everything! It allowed knowledge to be saved and shared across g. Topics: Where was the world's first writing system, cuneiform, invented?, What were the picture-symbols used in ancient Egypt called?.",
+      "filename": "invention-of-writing-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "invention-of-writing-ch5",
+  "title": "The Invention of Writing",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "invention-of-writing-ch5",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in the land between the Tigris and Euphrates rivers (Mesopotamia, modern-day Iraq),. Legacy: The invention of writing is one of the most important events in human history. I. Topics: Where was the world's first writing system, cuneiform, invented?, What material did ancient Egyptians often write on?.",
+      "filename": "invention-of-writing-ch5-map.webp"
+    },
+    {
+      "id": "invention-of-writing-ch5-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in the land between the Tigris and Euphrates rivers (Mesopotamia, modern-day Iraq),. Legacy: The invention of writing is one of the most important events in human history. I. Topics: Where was the world's first writing system, cuneiform, invented?, What material did ancient Egyptians often write on?.",
+      "filename": "invention-of-writing-ch5-portrait.webp"
+    }
+  ]
+}

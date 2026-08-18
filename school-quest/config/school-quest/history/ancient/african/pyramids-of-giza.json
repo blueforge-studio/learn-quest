@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pyramids-of-giza",
+  "title": "Building the Pyramids",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "pyramids-of-giza",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: The pyramids were built during a time called the Old Kingdom of Egypt. The largest one, the Great Py. Legacy: The pyramids are the only one of the Seven Wonders of the Ancient World still st. Topics: Why did the ancient Egyptians build the pyramids?, Where did the builders get the stone for the pyramids?.",
+      "filename": "pyramids-of-giza-map.webp"
+    },
+    {
+      "id": "pyramids-of-giza-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: The pyramids were built during a time called the Old Kingdom of Egypt. The largest one, the Great Py. Legacy: The pyramids are the only one of the Seven Wonders of the Ancient World still st. Topics: Why did the ancient Egyptians build the pyramids?, Where did the builders get the stone for the pyramids?.",
+      "filename": "pyramids-of-giza-portrait.webp"
+    }
+  ]
+}

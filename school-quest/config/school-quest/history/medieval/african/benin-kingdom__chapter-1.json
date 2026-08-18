@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "benin-kingdom",
+  "title": "The Kingdom of Benin",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "african",
+  "basePath": "public/images/lessons/medieval/african",
+  "images": [
+    {
+      "id": "benin-kingdom",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Kingdom of Benin. Type: era-exploration. Background: The Kingdom of Benin began around 500 CE in the rainforest region of West Africa. Its people, the Ed. Legacy: Though the original kingdom changed after 1500, the culture and art of Benin liv. Topics: What were the huge walls around Benin City made of?, What special method did Benin artists use to make bronze sculptures?.",
+      "filename": "benin-kingdom-map.webp"
+    },
+    {
+      "id": "benin-kingdom-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Kingdom of Benin. Type: era-exploration. Background: The Kingdom of Benin began around 500 CE in the rainforest region of West Africa. Its people, the Ed. Legacy: Though the original kingdom changed after 1500, the culture and art of Benin liv. Topics: What were the huge walls around Benin City made of?, What special method did Benin artists use to make bronze sculptures?.",
+      "filename": "benin-kingdom-portrait.webp"
+    }
+  ]
+}

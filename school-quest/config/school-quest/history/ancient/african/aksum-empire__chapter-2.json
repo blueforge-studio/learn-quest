@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "aksum-empire",
+  "title": "The Empire of Aksum",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "aksum-empire",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum (pronounced ACK-soom) grew in the highlands of modern-day Ethiopia and Eritrea. Rich soil, rai. Legacy: Though Aksum declined after the 7th century due to changing trade routes and cli. Topics: What important religion did Aksum adopt around 330 CE?, Which of these did Aksum NOT trade?.",
+      "filename": "aksum-empire-map.webp"
+    },
+    {
+      "id": "aksum-empire-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Empire of Aksum. Type: era-exploration. Background: Aksum (pronounced ACK-soom) grew in the highlands of modern-day Ethiopia and Eritrea. Rich soil, rai. Legacy: Though Aksum declined after the 7th century due to changing trade routes and cli. Topics: What important religion did Aksum adopt around 330 CE?, Which of these did Aksum NOT trade?.",
+      "filename": "aksum-empire-portrait.webp"
+    }
+  ]
+}

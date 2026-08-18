@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "george-washington",
+  "title": "George Washington",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "george-washington",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: George Washington. Type: historical-figure. Background: George was born in 1732 in the British colony of Virginia. As a young man, he worked as a surveyor, . Legacy: George Washington is called the 'Father of His Country.' He showed that a leader. Topics: What major war did George Washington lead the American army in?, What was George Washington's most important role after the war?.",
+      "filename": "george-washington-portrait.webp"
+    },
+    {
+      "id": "george-washington-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: George Washington. Type: historical-figure. Background: George was born in 1732 in the British colony of Virginia. As a young man, he worked as a surveyor, . Legacy: George Washington is called the 'Father of His Country.' He showed that a leader. Topics: What major war did George Washington lead the American army in?, What was George Washington's most important role after the war?.",
+      "filename": "george-washington-scene.webp"
+    }
+  ]
+}

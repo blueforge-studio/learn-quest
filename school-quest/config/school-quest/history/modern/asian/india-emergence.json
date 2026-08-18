@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "india-emergence",
+  "title": "India's Emergence",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "india-emergence",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: India's Emergence. Type: lesson. Topics: When did India begin major economic reforms?, What is Bangalore known for?.",
+      "filename": "india-emergence-timeline.webp"
+    },
+    {
+      "id": "india-emergence-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: India's Emergence. Type: lesson. Topics: When did India begin major economic reforms?, What is Bangalore known for?.",
+      "filename": "india-emergence-scene.webp"
+    }
+  ]
+}

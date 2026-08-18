@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kangxi-emperor",
+  "title": "The Kangxi Emperor",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-4",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "kangxi-emperor",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Kangxi Emperor. Type: historical-figure. Background: Born Aisin Gioro Xuanye in 1654, Kangxi was the grandson of the first Qing Dynasty emperor. When his. Legacy: Kangxi is remembered as one of China’s greatest emperors — not because he fought. Topics: How old was Kangxi when he officially began ruling China on his own?, What important book did Kangxi help create that had over 47,000 Chinese characters?.",
+      "filename": "kangxi-emperor-portrait.webp"
+    },
+    {
+      "id": "kangxi-emperor-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: The Kangxi Emperor. Type: historical-figure. Background: Born Aisin Gioro Xuanye in 1654, Kangxi was the grandson of the first Qing Dynasty emperor. When his. Legacy: Kangxi is remembered as one of China’s greatest emperors — not because he fought. Topics: How old was Kangxi when he officially began ruling China on his own?, What important book did Kangxi help create that had over 47,000 Chinese characters?.",
+      "filename": "kangxi-emperor-scene.webp"
+    }
+  ]
+}

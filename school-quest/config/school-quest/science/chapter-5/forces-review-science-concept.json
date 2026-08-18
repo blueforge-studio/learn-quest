@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "forces-review-science-concept",
+  "title": "Forces All Around Us: Connecting Push, Pull, Gravity, Friction & Machines",
+  "lessonType": "science-concept",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-science/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "forces-review-science-concept-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Forces All Around Us: Connecting Push, Pull, Gravity, Friction & Machines. . Clear labeled illustration.",
+      "filename": "forces-review-science-concept-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "forces-review-science-concept-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Forces All Around Us: Connecting Push, Pull, Gravity, Friction & Machines. Educational science style.",
+      "filename": "forces-review-science-concept-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "forces-review-science-concept-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Forces All Around Us: Connecting Push, Pull, Gravity, Friction & Machines. Step by step visual showing the concept. Educational style.",
+      "filename": "forces-review-science-concept-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "kingdom-of-kush",
+  "title": "Kingdom of Kush",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "kingdom-of-kush",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Kingdom of Kush. Type: era-exploration. Background: Kush began as a collection of small farming villages near the Nile’s winding curves and rocky catara. Legacy: Kush reminds us that ancient Africa was full of powerful, innovative kingdoms — . Topics: What did the ancient Egyptians call Nubia because of its riches?, Which Kushite king ruled Egypt and became a pharaoh of the 25th Dynasty?.",
+      "filename": "kingdom-of-kush-map.webp"
+    },
+    {
+      "id": "kingdom-of-kush-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Kingdom of Kush. Type: era-exploration. Background: Kush began as a collection of small farming villages near the Nile’s winding curves and rocky catara. Legacy: Kush reminds us that ancient Africa was full of powerful, innovative kingdoms — . Topics: What did the ancient Egyptians call Nubia because of its riches?, Which Kushite king ruled Egypt and became a pharaoh of the 25th Dynasty?.",
+      "filename": "kingdom-of-kush-portrait.webp"
+    }
+  ]
+}

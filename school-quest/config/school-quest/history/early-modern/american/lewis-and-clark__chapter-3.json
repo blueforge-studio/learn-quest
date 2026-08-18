@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "lewis-and-clark",
+  "title": "Lewis and Clark Expedition",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "lewis-and-clark",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Lewis and Clark Expedition. Type: era-exploration. Background: After the U.S. bought the Louisiana Territory from France in 1803 (a huge land deal!), President Jef. Legacy: Lewis and Clark’s journals, maps, and drawings helped Americans understand the W. Topics: Who sent Lewis and Clark on their expedition?, What was the name of the special group Lewis and Clark led?.",
+      "filename": "lewis-and-clark-map.webp"
+    },
+    {
+      "id": "lewis-and-clark-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Lewis and Clark Expedition. Type: era-exploration. Background: After the U.S. bought the Louisiana Territory from France in 1803 (a huge land deal!), President Jef. Legacy: Lewis and Clark’s journals, maps, and drawings helped Americans understand the W. Topics: Who sent Lewis and Clark on their expedition?, What was the name of the special group Lewis and Clark led?.",
+      "filename": "lewis-and-clark-portrait.webp"
+    }
+  ]
+}

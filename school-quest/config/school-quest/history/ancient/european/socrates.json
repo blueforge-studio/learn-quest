@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "socrates",
+  "title": "Socrates: The Questioning Philosopher",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "socrates",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Socrates: The Questioning Philosopher. Type: historical-figure. Topics: What is the Socratic method?, Who recorded Socrates’ ideas after his death?.",
+      "filename": "socrates-portrait.webp"
+    },
+    {
+      "id": "socrates-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Socrates: The Questioning Philosopher. Type: historical-figure. Topics: What is the Socratic method?, Who recorded Socrates’ ideas after his death?.",
+      "filename": "socrates-scene.webp"
+    }
+  ]
+}

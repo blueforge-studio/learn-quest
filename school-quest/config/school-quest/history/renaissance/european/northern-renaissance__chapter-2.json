@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "northern-renaissance",
+  "title": "The Northern Renaissance",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "northern-renaissance",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Northern Renaissance. Type: era-exploration. Background: The Northern Renaissance began around 1400 — a little later than Italy’s — but it was just as exciti. Legacy: The Northern Renaissance helped start modern schools, libraries, and even ideas . Topics: What important invention helped spread ideas during the Northern Renaissance?, Which artist painted with such detail that his works looked almost like photographs?.",
+      "filename": "northern-renaissance-map.webp"
+    },
+    {
+      "id": "northern-renaissance-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Northern Renaissance. Type: era-exploration. Background: The Northern Renaissance began around 1400 — a little later than Italy’s — but it was just as exciti. Legacy: The Northern Renaissance helped start modern schools, libraries, and even ideas . Topics: What important invention helped spread ideas during the Northern Renaissance?, Which artist painted with such detail that his works looked almost like photographs?.",
+      "filename": "northern-renaissance-portrait.webp"
+    }
+  ]
+}

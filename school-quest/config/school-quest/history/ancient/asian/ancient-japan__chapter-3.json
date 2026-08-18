@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ancient-japan",
+  "title": "Ancient Japan",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "ancient-japan",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Ancient Japan. Type: era-exploration. Background: Ancient Japan began over 5,000 years ago with the Jomon people — hunter-gatherers who made beautiful. Legacy: Jomon pottery is still admired in museums around the world. Shinto is still prac. Topics: What makes Jomon pottery special?, What are 'kami' in Shinto belief?.",
+      "filename": "ancient-japan-map.webp"
+    },
+    {
+      "id": "ancient-japan-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Ancient Japan. Type: era-exploration. Background: Ancient Japan began over 5,000 years ago with the Jomon people — hunter-gatherers who made beautiful. Legacy: Jomon pottery is still admired in museums around the world. Shinto is still prac. Topics: What makes Jomon pottery special?, What are 'kami' in Shinto belief?.",
+      "filename": "ancient-japan-portrait.webp"
+    }
+  ]
+}

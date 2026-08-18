@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "mexican-revolution",
+  "title": "The Mexican Revolution",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "mexican-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Mexican Revolution. Type: timeline. Background: For over 30 years, President Porfirio Díaz ruled Mexico. His rule brought railroads and factories, b. Legacy: The Mexican Revolution created a new national identity focused on justice for th. Topics: What were the two main things the revolutionaries were fighting for?, Who was the revolutionary leader from the south who fought for farmers' rights?.",
+      "filename": "mexican-revolution-timeline.webp"
+    },
+    {
+      "id": "mexican-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Mexican Revolution. Type: timeline. Background: For over 30 years, President Porfirio Díaz ruled Mexico. His rule brought railroads and factories, b. Legacy: The Mexican Revolution created a new national identity focused on justice for th. Topics: What were the two main things the revolutionaries were fighting for?, Who was the revolutionary leader from the south who fought for farmers' rights?.",
+      "filename": "mexican-revolution-scene.webp"
+    }
+  ]
+}

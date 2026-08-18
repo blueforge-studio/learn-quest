@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "first-civilizations-ch3",
+  "title": "The First Civilizations",
+  "lessonType": "timeline",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "first-civilizations-ch3",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The First Civilizations. Type: timeline. Background: Around 10,000 years ago, people discovered how to grow crops like wheat and barley and raise animals. Legacy: Almost everything we think of as 'civilization' started with these four cultures. Topics: Which civilization was known for building cities with advanced plumbing and sewer systems?, What major invention is credited to the Sumerians of Mesopotamia?.",
+      "filename": "first-civilizations-ch3-timeline.webp"
+    },
+    {
+      "id": "first-civilizations-ch3-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The First Civilizations. Type: timeline. Background: Around 10,000 years ago, people discovered how to grow crops like wheat and barley and raise animals. Legacy: Almost everything we think of as 'civilization' started with these four cultures. Topics: Which civilization was known for building cities with advanced plumbing and sewer systems?, What major invention is credited to the Sumerians of Mesopotamia?.",
+      "filename": "first-civilizations-ch3-scene.webp"
+    }
+  ]
+}

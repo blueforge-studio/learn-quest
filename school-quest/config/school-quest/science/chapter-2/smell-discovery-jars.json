@@ -1,0 +1,73 @@
+{
+  "subject": "science",
+  "lessonId": "smell-discovery-jars",
+  "title": "Smell Discovery Jars",
+  "lessonType": "experiment",
+  "chapter": "chapter-2",
+  "basePath": "public/images/lessons/lq-science/chapter-2",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students. No text labels in images.",
+  "imageTypes": {
+    "diagram": {
+      "name": "diagram",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science diagram with labels, educational style on white."
+    },
+    "specimen": {
+      "name": "specimen",
+      "path": "specimens",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Scientific specimen illustration, educational style."
+    },
+    "experiment": {
+      "name": "experiment",
+      "path": "experiments",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Science experiment illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "smell-discovery-jars-diagram",
+      "type": "diagram",
+      "prompt": "Educational diagram for lesson: Smell Discovery Jars. . Clear labeled illustration.",
+      "filename": "smell-discovery-jars-diagram.webp",
+      "quality": 85
+    },
+    {
+      "id": "smell-discovery-jars-specimen",
+      "type": "specimen",
+      "prompt": "Scientific specimen illustration for: Smell Discovery Jars. Educational science style.",
+      "filename": "smell-discovery-jars-specimen.webp",
+      "quality": 85
+    },
+    {
+      "id": "smell-discovery-jars-experiment",
+      "type": "experiment",
+      "prompt": "Science experiment illustration for: Smell Discovery Jars. Step by step visual showing the concept. Educational style.",
+      "filename": "smell-discovery-jars-experiment.webp",
+      "quality": 85
+    }
+  ]
+}

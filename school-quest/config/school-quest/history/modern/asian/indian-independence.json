@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "indian-independence",
+  "title": "The Path to Indian Independence",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "indian-independence",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Path to Indian Independence. Type: timeline. Background: In the 1700s, the British East India Company began to control parts of India. By 1858, the British g. Legacy: India's independence showed the world that freedom could be won through mass, pe. Topics: What was the main method of protest used by Gandhi and his followers?, What famous 1930 protest involved a long march to the sea?.",
+      "filename": "indian-independence-timeline.webp"
+    },
+    {
+      "id": "indian-independence-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Path to Indian Independence. Type: timeline. Background: In the 1700s, the British East India Company began to control parts of India. By 1858, the British g. Legacy: India's independence showed the world that freedom could be won through mass, pe. Topics: What was the main method of protest used by Gandhi and his followers?, What famous 1930 protest involved a long march to the sea?.",
+      "filename": "indian-independence-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "native-american-encounters",
+  "title": "Native Americans and Colonizers",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "native-american-encounters",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Native Americans and Colonizers. Type: era-exploration. Background: Before Europeans came, over 500 distinct Native nations thrived in what is now the United States and. Legacy: Native American cultures are alive and strong today! Many nations continue their. Topics: What did Native Americans share with Europeans during early trade?, Which event was a peaceful gathering between Wampanoag people and English settlers?.",
+      "filename": "native-american-encounters-map.webp"
+    },
+    {
+      "id": "native-american-encounters-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Native Americans and Colonizers. Type: era-exploration. Background: Before Europeans came, over 500 distinct Native nations thrived in what is now the United States and. Legacy: Native American cultures are alive and strong today! Many nations continue their. Topics: What did Native Americans share with Europeans during early trade?, Which event was a peaceful gathering between Wampanoag people and English settlers?.",
+      "filename": "native-american-encounters-portrait.webp"
+    }
+  ]
+}

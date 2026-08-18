@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "julius-caesar",
+  "title": "Julius Caesar",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "julius-caesar",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Julius Caesar. Type: historical-figure. Background: Gaius Julius Caesar was born in Rome in 100 BCE to a noble but not very rich family. As a young man,. Legacy: Julius Caesar's death led to another civil war. His adopted son, Octavian (later. Topics: What major region did Julius Caesar conquer for Rome?, What famous phrase did Caesar say after a quick victory?.",
+      "filename": "julius-caesar-portrait.webp"
+    },
+    {
+      "id": "julius-caesar-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Julius Caesar. Type: historical-figure. Background: Gaius Julius Caesar was born in Rome in 100 BCE to a noble but not very rich family. As a young man,. Legacy: Julius Caesar's death led to another civil war. His adopted son, Octavian (later. Topics: What major region did Julius Caesar conquer for Rome?, What famous phrase did Caesar say after a quick victory?.",
+      "filename": "julius-caesar-scene.webp"
+    }
+  ]
+}

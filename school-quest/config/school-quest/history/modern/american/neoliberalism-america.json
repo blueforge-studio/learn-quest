@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "neoliberalism-america",
+  "title": "Neoliberalism in America",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "neoliberalism-america",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Neoliberalism in America. Type: lesson. Topics: What was \"Reaganomics\"?, What happened to wages for many workers during this period?.",
+      "filename": "neoliberalism-america-timeline.webp"
+    },
+    {
+      "id": "neoliberalism-america-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Neoliberalism in America. Type: lesson. Topics: What was \"Reaganomics\"?, What happened to wages for many workers during this period?.",
+      "filename": "neoliberalism-america-scene.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "meiji-restoration",
+  "title": "Japan's Meiji Restoration",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "global",
+  "basePath": "public/images/lessons/industrial/global",
+  "images": [
+    {
+      "id": "meiji-restoration",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Japan's Meiji Restoration. Type: era-exploration. Background: Before 1868, Japan was ruled by shoguns (military leaders) and isolated from most of the world for o. Legacy: Japan became the first Asian nation to industrialize successfully — and did it w. Topics: What does 'Meiji' mean?, Why did Japan end its long isolation in the 1850s?.",
+      "filename": "meiji-restoration-map.webp"
+    },
+    {
+      "id": "meiji-restoration-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Japan's Meiji Restoration. Type: era-exploration. Background: Before 1868, Japan was ruled by shoguns (military leaders) and isolated from most of the world for o. Legacy: Japan became the first Asian nation to industrialize successfully — and did it w. Topics: What does 'Meiji' mean?, Why did Japan end its long isolation in the 1850s?.",
+      "filename": "meiji-restoration-portrait.webp"
+    }
+  ]
+}

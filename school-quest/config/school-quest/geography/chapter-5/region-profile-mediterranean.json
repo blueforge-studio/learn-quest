@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "region-profile-mediterranean",
+  "title": "Mediterranean Europe: Sun, Sea, and Ancient Stories",
+  "lessonType": "region-profile",
+  "chapter": "chapter-5",
+  "basePath": "public/images/lessons/lq-geography/chapter-5",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "region-profile-mediterranean-map",
+      "type": "map",
+      "prompt": "Map illustration for: Mediterranean Europe: Sun, Sea, and Ancient Stories. Educational geography map.",
+      "filename": "region-profile-mediterranean-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "region-profile-mediterranean-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Mediterranean Europe: Sun, Sea, and Ancient Stories. Famous geographical location.",
+      "filename": "region-profile-mediterranean-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "region-profile-mediterranean-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Mediterranean Europe: Sun, Sea, and Ancient Stories. Geographic region visual.",
+      "filename": "region-profile-mediterranean-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "region-profile-mediterranean-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Mediterranean Europe: Sun, Sea, and Ancient Stories. Natural environment visual.",
+      "filename": "region-profile-mediterranean-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

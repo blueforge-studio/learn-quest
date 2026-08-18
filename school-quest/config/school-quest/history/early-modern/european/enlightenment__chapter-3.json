@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "enlightenment",
+  "title": "The Age of Enlightenment",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "european",
+  "basePath": "public/images/lessons/early-modern/european",
+  "images": [
+    {
+      "id": "enlightenment",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries where kings and the church had most of the power, new ideas from the Scientific Revo. Legacy: The ideas of the Enlightenment sparked huge changes! They directly inspired the . Topics: What was the main tool Enlightenment thinkers wanted people to use?, Which Enlightenment idea says people are born with rights to life and liberty?.",
+      "filename": "enlightenment-map.webp"
+    },
+    {
+      "id": "enlightenment-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Age of Enlightenment. Type: era-exploration. Background: After centuries where kings and the church had most of the power, new ideas from the Scientific Revo. Legacy: The ideas of the Enlightenment sparked huge changes! They directly inspired the . Topics: What was the main tool Enlightenment thinkers wanted people to use?, Which Enlightenment idea says people are born with rights to life and liberty?.",
+      "filename": "enlightenment-portrait.webp"
+    }
+  ]
+}

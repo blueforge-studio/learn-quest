@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "globalization",
+  "title": "The Age of Globalization",
+  "lessonType": "lesson",
+  "chapter": "chapter-1",
+  "epoch": "contemporary",
+  "region": "global",
+  "basePath": "public/images/lessons/contemporary/global",
+  "images": [
+    {
+      "id": "globalization",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Age of Globalization. Type: lesson. Topics: What accelerated globalization after the Cold War?, What is NAFTA?.",
+      "filename": "globalization-timeline.webp"
+    },
+    {
+      "id": "globalization-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Age of Globalization. Type: lesson. Topics: What accelerated globalization after the Cold War?, What is NAFTA?.",
+      "filename": "globalization-scene.webp"
+    }
+  ]
+}

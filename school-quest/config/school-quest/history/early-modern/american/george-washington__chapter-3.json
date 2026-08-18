@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "george-washington",
+  "title": "George Washington",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-3",
+  "epoch": "early-modern",
+  "region": "american",
+  "basePath": "public/images/lessons/early-modern/american",
+  "images": [
+    {
+      "id": "george-washington",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: George Washington. Type: historical-figure. Background: George was born in 1732 in the British colony of Virginia. He grew up on a farm, loved horseback rid. Legacy: George Washington is remembered as a symbol of leadership, courage, and integrit. Topics: What important role did George Washington have during the American Revolution?, What was George Washington's historic first job for the new United States?.",
+      "filename": "george-washington-portrait.webp"
+    },
+    {
+      "id": "george-washington-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: George Washington. Type: historical-figure. Background: George was born in 1732 in the British colony of Virginia. He grew up on a farm, loved horseback rid. Legacy: George Washington is remembered as a symbol of leadership, courage, and integrit. Topics: What important role did George Washington have during the American Revolution?, What was George Washington's historic first job for the new United States?.",
+      "filename": "george-washington-scene.webp"
+    }
+  ]
+}

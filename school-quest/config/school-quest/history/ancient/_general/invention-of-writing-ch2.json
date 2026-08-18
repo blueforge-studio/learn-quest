@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "invention-of-writing-ch2",
+  "title": "The Invention of Writing",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "invention-of-writing-ch2",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in a land called Mesopotamia (modern-day Iraq), people started using small clay tok. Legacy: The invention of writing is one of humanity's most important breakthroughs. It a. Topics: Where was the writing system called cuneiform invented?, What were Egyptian picture-symbols called?.",
+      "filename": "invention-of-writing-ch2-map.webp"
+    },
+    {
+      "id": "invention-of-writing-ch2-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Invention of Writing. Type: era-exploration. Background: Around 3500 BCE, in a land called Mesopotamia (modern-day Iraq), people started using small clay tok. Legacy: The invention of writing is one of humanity's most important breakthroughs. It a. Topics: Where was the writing system called cuneiform invented?, What were Egyptian picture-symbols called?.",
+      "filename": "invention-of-writing-ch2-portrait.webp"
+    }
+  ]
+}

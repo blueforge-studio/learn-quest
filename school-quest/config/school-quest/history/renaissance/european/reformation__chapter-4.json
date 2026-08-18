@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "reformation",
+  "title": "The Protestant Reformation",
+  "lessonType": "timeline",
+  "chapter": "chapter-4",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "reformation",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Protestant Reformation. Type: timeline. Background: In the early 1500s, many people felt the Catholic Church had grown too focused on money and rules — . Legacy: The Reformation led to more Bibles in everyday languages, better schools for chi. Topics: What did Martin Luther nail to the church door in 1517?, Why was translating the Bible into German so important?.",
+      "filename": "reformation-timeline.webp"
+    },
+    {
+      "id": "reformation-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Protestant Reformation. Type: timeline. Background: In the early 1500s, many people felt the Catholic Church had grown too focused on money and rules — . Legacy: The Reformation led to more Bibles in everyday languages, better schools for chi. Topics: What did Martin Luther nail to the church door in 1517?, Why was translating the Bible into German so important?.",
+      "filename": "reformation-scene.webp"
+    }
+  ]
+}

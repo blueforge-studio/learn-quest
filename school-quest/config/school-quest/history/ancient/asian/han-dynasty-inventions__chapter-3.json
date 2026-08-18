@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "han-dynasty-inventions",
+  "title": "Han Dynasty Inventions",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "han-dynasty-inventions",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Han Dynasty Inventions. Type: era-exploration. Background: The Han Dynasty ruled China for over 400 years — longer than the United States has existed! Emperors. Legacy: Han inventions are still part of our lives today! Paper lets us draw, write stor. Topics: Who invented the first real paper during the Han Dynasty?, What did the Han Dynasty’s seismograph use to show the direction of an earthquake?.",
+      "filename": "han-dynasty-inventions-map.webp"
+    },
+    {
+      "id": "han-dynasty-inventions-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Han Dynasty Inventions. Type: era-exploration. Background: The Han Dynasty ruled China for over 400 years — longer than the United States has existed! Emperors. Legacy: Han inventions are still part of our lives today! Paper lets us draw, write stor. Topics: Who invented the first real paper during the Han Dynasty?, What did the Han Dynasty’s seismograph use to show the direction of an earthquake?.",
+      "filename": "han-dynasty-inventions-portrait.webp"
+    }
+  ]
+}

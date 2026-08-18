@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "gutenberg-press",
+  "title": "The Printing Revolution",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "gutenberg-press",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Printing Revolution. Type: era-exploration. Background: In the early 1400s, books in Europe were written by hand — usually by monks in quiet monasteries. It. Legacy: The printing press didn’t just make books — it helped start the modern world! It. Topics: What was the main problem with books before the printing press?, What special tool did Gutenberg use to hold individual letters?.",
+      "filename": "gutenberg-press-map.webp"
+    },
+    {
+      "id": "gutenberg-press-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Printing Revolution. Type: era-exploration. Background: In the early 1400s, books in Europe were written by hand — usually by monks in quiet monasteries. It. Legacy: The printing press didn’t just make books — it helped start the modern world! It. Topics: What was the main problem with books before the printing press?, What special tool did Gutenberg use to hold individual letters?.",
+      "filename": "gutenberg-press-portrait.webp"
+    }
+  ]
+}

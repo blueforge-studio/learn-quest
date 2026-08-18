@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "indus-valley",
+  "title": "Indus Valley Civilization",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "asian",
+  "basePath": "public/images/lessons/ancient/asian",
+  "images": [
+    {
+      "id": "indus-valley",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Indus Valley Civilization. Type: era-exploration. Background: Over 5,000 years ago, people settled along the Indus River — a mighty river that flooded each year, . Legacy: The Indus Valley shows us that city life, cleanliness, and fair trade began much. Topics: What were the two most famous cities of the Indus Valley Civilization?, What made Indus Valley streets special?.",
+      "filename": "indus-valley-map.webp"
+    },
+    {
+      "id": "indus-valley-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Indus Valley Civilization. Type: era-exploration. Background: Over 5,000 years ago, people settled along the Indus River — a mighty river that flooded each year, . Legacy: The Indus Valley shows us that city life, cleanliness, and fair trade began much. Topics: What were the two most famous cities of the Indus Valley Civilization?, What made Indus Valley streets special?.",
+      "filename": "indus-valley-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "cold-war-america",
+  "title": "America During the Cold War",
+  "lessonType": "lesson",
+  "chapter": "chapter-2",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "cold-war-america",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: America During the Cold War. Type: lesson. Topics: What was McCarthyism?, What was the Space Race?.",
+      "filename": "cold-war-america-timeline.webp"
+    },
+    {
+      "id": "cold-war-america-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: America During the Cold War. Type: lesson. Topics: What was McCarthyism?, What was the Space Race?.",
+      "filename": "cold-war-america-scene.webp"
+    }
+  ]
+}

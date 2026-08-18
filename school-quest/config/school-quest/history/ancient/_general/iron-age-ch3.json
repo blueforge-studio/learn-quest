@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "iron-age-ch3",
+  "title": "The Iron Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "iron-age-ch3",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: The Iron Age didn’t start all at once—it began in different places at different times! It started ar. Legacy: Iron changed everything! Without iron tools, farmers couldn’t grow enough food f. Topics: What made iron better than bronze for tools and weapons?, How did iron plows help farmers?.",
+      "filename": "iron-age-ch3-map.webp"
+    },
+    {
+      "id": "iron-age-ch3-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: The Iron Age didn’t start all at once—it began in different places at different times! It started ar. Legacy: Iron changed everything! Without iron tools, farmers couldn’t grow enough food f. Topics: What made iron better than bronze for tools and weapons?, How did iron plows help farmers?.",
+      "filename": "iron-age-ch3-portrait.webp"
+    }
+  ]
+}

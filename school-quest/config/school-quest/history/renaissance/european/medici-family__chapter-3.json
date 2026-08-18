@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "medici-family",
+  "title": "The Medici Family",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "medici-family",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Medici Family. Type: era-exploration. Background: The Medici story begins with Giovanni di Bicci de' Medici, who started a very successful bank in Flo. Legacy: The Medici family left a legacy of incredible beauty and knowledge. Thanks to th. Topics: What was the main business that made the Medici family rich?, How did the Medici help start the Renaissance?.",
+      "filename": "medici-family-map.webp"
+    },
+    {
+      "id": "medici-family-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Medici Family. Type: era-exploration. Background: The Medici story begins with Giovanni di Bicci de' Medici, who started a very successful bank in Flo. Legacy: The Medici family left a legacy of incredible beauty and knowledge. Thanks to th. Topics: What was the main business that made the Medici family rich?, How did the Medici help start the Renaissance?.",
+      "filename": "medici-family-portrait.webp"
+    }
+  ]
+}

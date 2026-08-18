@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "digital-revolution",
+  "title": "The Digital Revolution",
+  "lessonType": "lesson",
+  "chapter": "chapter-4",
+  "epoch": "contemporary",
+  "region": "american",
+  "basePath": "public/images/lessons/contemporary/american",
+  "images": [
+    {
+      "id": "digital-revolution",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The Digital Revolution. Type: lesson. Topics: What was ARPANET?, Who invented the World Wide Web?.",
+      "filename": "digital-revolution-timeline.webp"
+    },
+    {
+      "id": "digital-revolution-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The Digital Revolution. Type: lesson. Topics: What was ARPANET?, Who invented the World Wide Web?.",
+      "filename": "digital-revolution-scene.webp"
+    }
+  ]
+}

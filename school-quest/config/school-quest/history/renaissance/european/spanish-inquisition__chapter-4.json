@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-inquisition",
+  "title": "The Spanish Inquisition",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "spanish-inquisition",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Spanish Inquisition. Type: era-exploration. Background: In the late 1400s, Spain was ruled by King Ferdinand and Queen Isabella. They had just united their . Legacy: The Spanish Inquisition left a deep mark on Spain. It created a society that was. Topics: Who started the Spanish Inquisition?, What was the main goal of the Spanish Inquisition?.",
+      "filename": "spanish-inquisition-map.webp"
+    },
+    {
+      "id": "spanish-inquisition-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Spanish Inquisition. Type: era-exploration. Background: In the late 1400s, Spain was ruled by King Ferdinand and Queen Isabella. They had just united their . Legacy: The Spanish Inquisition left a deep mark on Spain. It created a society that was. Topics: Who started the Spanish Inquisition?, What was the main goal of the Spanish Inquisition?.",
+      "filename": "spanish-inquisition-portrait.webp"
+    }
+  ]
+}

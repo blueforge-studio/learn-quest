@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "us-civil-war",
+  "title": "The American Civil War",
+  "lessonType": "timeline",
+  "chapter": "chapter-5",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "us-civil-war",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: The American Civil War. Type: timeline. Background: In the early 1800s, the United States was growing, but the North and South were becoming very differ. Legacy: The Civil War solved two big problems: it ended slavery in the United States, an. Topics: What was the main issue that caused the Civil War?, What did the Emancipation Proclamation do?.",
+      "filename": "us-civil-war-timeline.webp"
+    },
+    {
+      "id": "us-civil-war-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: The American Civil War. Type: timeline. Background: In the early 1800s, the United States was growing, but the North and South were becoming very differ. Legacy: The Civil War solved two big problems: it ended slavery in the United States, an. Topics: What was the main issue that caused the Civil War?, What did the Emancipation Proclamation do?.",
+      "filename": "us-civil-war-scene.webp"
+    }
+  ]
+}

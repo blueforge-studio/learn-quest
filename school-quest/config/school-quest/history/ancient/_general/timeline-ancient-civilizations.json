@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "timeline-ancient-civilizations",
+  "title": "Ancient Civilizations Timeline",
+  "lessonType": "timeline",
+  "chapter": "chapter-1",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "timeline-ancient-civilizations",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Ancient Civilizations Timeline. Type: timeline. Topics: Which civilization is often called the 'cradle of civilization'?, Which came first: the Shang Dynasty or Ancient Greece?.",
+      "filename": "timeline-ancient-civilizations-timeline.webp"
+    },
+    {
+      "id": "timeline-ancient-civilizations-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Ancient Civilizations Timeline. Type: timeline. Topics: Which civilization is often called the 'cradle of civilization'?, Which came first: the Shang Dynasty or Ancient Greece?.",
+      "filename": "timeline-ancient-civilizations-scene.webp"
+    }
+  ]
+}

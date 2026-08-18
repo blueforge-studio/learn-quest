@@ -1,0 +1,73 @@
+{
+  "subject": "writing",
+  "lessonId": "handwriting-uppercase-a",
+  "title": "Writing Uppercase A",
+  "lessonType": "handwriting",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-writing/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "grammar": {
+      "name": "grammar",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Grammar illustration, educational style."
+    },
+    "letter-form": {
+      "name": "letter-form",
+      "path": "letter-forms",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Letter form illustration, educational style."
+    },
+    "scene": {
+      "name": "scene",
+      "path": "scenes",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Writing scene illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "handwriting-uppercase-a-grammar",
+      "type": "grammar",
+      "prompt": "Grammar illustration for: Writing Uppercase A. Educational writing example.",
+      "filename": "handwriting-uppercase-a-grammar.webp",
+      "quality": 85
+    },
+    {
+      "id": "handwriting-uppercase-a-letter",
+      "type": "letter-form",
+      "prompt": "Letter form illustration for: Writing Uppercase A. Writing template visual.",
+      "filename": "handwriting-uppercase-a-letter.webp",
+      "quality": 85
+    },
+    {
+      "id": "handwriting-uppercase-a-scene",
+      "type": "scene",
+      "prompt": "Writing scene illustration for: Writing Uppercase A. Descriptive scene image.",
+      "filename": "handwriting-uppercase-a-scene.webp",
+      "quality": 85
+    }
+  ]
+}

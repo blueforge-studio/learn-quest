@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "spanish-inquisition",
+  "title": "The Spanish Inquisition",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "renaissance",
+  "region": "european",
+  "basePath": "public/images/lessons/renaissance/european",
+  "images": [
+    {
+      "id": "spanish-inquisition",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Spanish Inquisition. Type: era-exploration. Background: In 1492, King Ferdinand and Queen Isabella united Spain and wanted it to be a completely Catholic co. Legacy: The Spanish Inquisition left a dark shadow on history. It created a culture of f. Topics: Who started the Spanish Inquisition?, What major choice were Jewish people given in Spain in 1492?.",
+      "filename": "spanish-inquisition-map.webp"
+    },
+    {
+      "id": "spanish-inquisition-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Spanish Inquisition. Type: era-exploration. Background: In 1492, King Ferdinand and Queen Isabella united Spain and wanted it to be a completely Catholic co. Legacy: The Spanish Inquisition left a dark shadow on history. It created a culture of f. Topics: Who started the Spanish Inquisition?, What major choice were Jewish people given in Spain in 1492?.",
+      "filename": "spanish-inquisition-portrait.webp"
+    }
+  ]
+}

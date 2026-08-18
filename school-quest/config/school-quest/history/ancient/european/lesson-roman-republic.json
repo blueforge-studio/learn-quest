@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "lesson-roman-republic",
+  "title": "The Roman Republic: Where Citizens Had a Voice!",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "lesson-roman-republic",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Roman Republic: Where Citizens Had a Voice!. Type: era-exploration. Topics: What did the word 'veto' mean to Roman plebeians?.",
+      "filename": "lesson-roman-republic-map.webp"
+    },
+    {
+      "id": "lesson-roman-republic-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Roman Republic: Where Citizens Had a Voice!. Type: era-exploration. Topics: What did the word 'veto' mean to Roman plebeians?.",
+      "filename": "lesson-roman-republic-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "civil-rights-movement",
+  "title": "Civil Rights Movement",
+  "lessonType": "lesson",
+  "chapter": "chapter-6",
+  "epoch": "modern",
+  "region": "american",
+  "basePath": "public/images/lessons/modern/american",
+  "images": [
+    {
+      "id": "civil-rights-movement",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Civil Rights Movement. Type: lesson. Topics: What were \"Jim Crow\" laws?, When was the Civil Rights Act passed?.",
+      "filename": "civil-rights-movement-timeline.webp"
+    },
+    {
+      "id": "civil-rights-movement-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Civil Rights Movement. Type: lesson. Topics: What were \"Jim Crow\" laws?, When was the Civil Rights Act passed?.",
+      "filename": "civil-rights-movement-scene.webp"
+    }
+  ]
+}

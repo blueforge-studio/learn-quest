@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "suleiman",
+  "title": "Süleyman the Magnificent",
+  "lessonType": "historical-figure",
+  "chapter": "chapter-1",
+  "epoch": "early-modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/early-modern/asian",
+  "images": [
+    {
+      "id": "suleiman",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Süleyman the Magnificent. Type: historical-figure. Background: Born in 1494 in Trabzon, Süleyman was the son of Sultan Selim I. He received an excellent education,. Legacy: Süleyman is remembered as the greatest Ottoman sultan. His long reign brought pe. Topics: What was Süleyman the Magnificent famous for?, What important city did Süleyman conquer in 1521?.",
+      "filename": "suleiman-portrait.webp"
+    },
+    {
+      "id": "suleiman-cenes",
+      "type": "scene",
+      "prompt": "Historical scene featuring the figure, educational style.. Lesson: Süleyman the Magnificent. Type: historical-figure. Background: Born in 1494 in Trabzon, Süleyman was the son of Sultan Selim I. He received an excellent education,. Legacy: Süleyman is remembered as the greatest Ottoman sultan. His long reign brought pe. Topics: What was Süleyman the Magnificent famous for?, What important city did Süleyman conquer in 1521?.",
+      "filename": "suleiman-scene.webp"
+    }
+  ]
+}

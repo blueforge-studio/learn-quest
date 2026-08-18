@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "climate-zone-explorer",
+  "title": "Climate Zone Explorer",
+  "lessonType": "map-quiz",
+  "chapter": "chapter-4",
+  "basePath": "public/images/lessons/lq-geography/chapter-4",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "climate-zone-explorer-map",
+      "type": "map",
+      "prompt": "Map illustration for: Climate Zone Explorer. Educational geography map.",
+      "filename": "climate-zone-explorer-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "climate-zone-explorer-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Climate Zone Explorer. Famous geographical location.",
+      "filename": "climate-zone-explorer-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "climate-zone-explorer-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Climate Zone Explorer. Geographic region visual.",
+      "filename": "climate-zone-explorer-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "climate-zone-explorer-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Climate Zone Explorer. Natural environment visual.",
+      "filename": "climate-zone-explorer-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

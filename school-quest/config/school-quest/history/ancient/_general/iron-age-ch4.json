@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "iron-age-ch4",
+  "title": "The Iron Age",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "ancient",
+  "region": "_general",
+  "basePath": "public/images/lessons/ancient/_general",
+  "images": [
+    {
+      "id": "iron-age-ch4",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: Long ago, people used stone (Stone Age), then copper and bronze (Bronze Age). But bronze was expensi. Legacy: Iron tools helped humans feed more people, build lasting cities, and create writ. Topics: What made iron better than bronze for tools and weapons?, How did iron plows help farmers during the Iron Age?.",
+      "filename": "iron-age-ch4-map.webp"
+    },
+    {
+      "id": "iron-age-ch4-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Iron Age. Type: era-exploration. Background: Long ago, people used stone (Stone Age), then copper and bronze (Bronze Age). But bronze was expensi. Legacy: Iron tools helped humans feed more people, build lasting cities, and create writ. Topics: What made iron better than bronze for tools and weapons?, How did iron plows help farmers during the Iron Age?.",
+      "filename": "iron-age-ch4-portrait.webp"
+    }
+  ]
+}

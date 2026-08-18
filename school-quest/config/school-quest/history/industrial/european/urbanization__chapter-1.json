@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "urbanization",
+  "title": "The Growth of Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "urbanization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: Before 1760, most Europeans lived in the countryside and worked on farms. But when inventors built p. Legacy: The growth of cities during the Industrial Revolution shaped everything we see a. Topics: Before the Industrial Revolution, where did most people in Europe live?, What invention helped factories run without wind or water?.",
+      "filename": "urbanization-map.webp"
+    },
+    {
+      "id": "urbanization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: Before 1760, most Europeans lived in the countryside and worked on farms. But when inventors built p. Legacy: The growth of cities during the Industrial Revolution shaped everything we see a. Topics: Before the Industrial Revolution, where did most people in Europe live?, What invention helped factories run without wind or water?.",
+      "filename": "urbanization-portrait.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "pyramids-of-giza",
+  "title": "Building the Pyramids",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "pyramids-of-giza",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: Ancient Egyptians believed in an afterlife, where a person's spirit would live on forever. For a pha. Legacy: The Pyramids of Giza are the last surviving wonder of the Seven Wonders of the A. Topics: Why did ancient Egyptians build pyramids?, What was the main river that helped build the pyramids?.",
+      "filename": "pyramids-of-giza-map.webp"
+    },
+    {
+      "id": "pyramids-of-giza-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Building the Pyramids. Type: era-exploration. Background: Ancient Egyptians believed in an afterlife, where a person's spirit would live on forever. For a pha. Legacy: The Pyramids of Giza are the last surviving wonder of the Seven Wonders of the A. Topics: Why did ancient Egyptians build pyramids?, What was the main river that helped build the pyramids?.",
+      "filename": "pyramids-of-giza-portrait.webp"
+    }
+  ]
+}

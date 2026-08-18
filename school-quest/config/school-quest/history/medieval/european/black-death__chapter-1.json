@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "black-death",
+  "title": "The Black Death",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "european",
+  "basePath": "public/images/lessons/medieval/european",
+  "images": [
+    {
+      "id": "black-death",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Black Death. Type: era-exploration. Background: The plague started in Asia and traveled to Europe on trading ships. The ships carried not only goods. Legacy: The Black Death was one of the deadliest events in human history. It caused imme. Topics: About how much of Europe's population did the Black Death kill?, How did the plague MOSTLY travel to Europe?.",
+      "filename": "black-death-map.webp"
+    },
+    {
+      "id": "black-death-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Black Death. Type: era-exploration. Background: The plague started in Asia and traveled to Europe on trading ships. The ships carried not only goods. Legacy: The Black Death was one of the deadliest events in human history. It caused imme. Topics: About how much of Europe's population did the Black Death kill?, How did the plague MOSTLY travel to Europe?.",
+      "filename": "black-death-portrait.webp"
+    }
+  ]
+}

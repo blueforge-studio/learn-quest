@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "fall-of-rome",
+  "title": "Fall of the Roman Empire",
+  "lessonType": "timeline",
+  "chapter": "chapter-2",
+  "epoch": "ancient",
+  "region": "european",
+  "basePath": "public/images/lessons/ancient/european",
+  "images": [
+    {
+      "id": "fall-of-rome",
+      "type": "timeline",
+      "prompt": "Historical timeline illustration, educational style.. Lesson: Fall of the Roman Empire. Type: timeline. Background: Rome began as a small city in Italy over 2,700 years ago. By 117 CE, it ruled lands from Britain to . Legacy: Even though the empire ended, Rome’s influence never disappeared. Its roads, aqu. Topics: What happened in 476 CE that historians say marks the end of the Western Roman Empire?, Why did Emperor Diocletian split the Roman Empire in 285 CE?.",
+      "filename": "fall-of-rome-timeline.webp"
+    },
+    {
+      "id": "fall-of-rome-cenes",
+      "type": "scene",
+      "prompt": "Historical scene illustration, educational style.. Lesson: Fall of the Roman Empire. Type: timeline. Background: Rome began as a small city in Italy over 2,700 years ago. By 117 CE, it ruled lands from Britain to . Legacy: Even though the empire ended, Rome’s influence never disappeared. Its roads, aqu. Topics: What happened in 476 CE that historians say marks the end of the Western Roman Empire?, Why did Emperor Diocletian split the Roman Empire in 285 CE?.",
+      "filename": "fall-of-rome-scene.webp"
+    }
+  ]
+}

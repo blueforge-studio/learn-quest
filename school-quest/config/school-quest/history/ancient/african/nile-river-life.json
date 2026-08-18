@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "nile-river-life",
+  "title": "Life Along the Nile",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-5",
+  "epoch": "ancient",
+  "region": "african",
+  "basePath": "public/images/lessons/ancient/african",
+  "images": [
+    {
+      "id": "nile-river-life",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Life Along the Nile. Type: era-exploration. Background: Ancient Egypt was a ribbon of green life in a vast desert. Every year, the Nile River flooded its ba. Legacy: The ancient Egyptians' mastery of farming along the Nile created one of the worl. Topics: Why was the Nile River's yearly flood so important to ancient Egyptians?, What was the main building material for an ordinary Egyptian's house?.",
+      "filename": "nile-river-life-map.webp"
+    },
+    {
+      "id": "nile-river-life-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Life Along the Nile. Type: era-exploration. Background: Ancient Egypt was a ribbon of green life in a vast desert. Every year, the Nile River flooded its ba. Legacy: The ancient Egyptians' mastery of farming along the Nile created one of the worl. Topics: Why was the Nile River's yearly flood so important to ancient Egyptians?, What was the main building material for an ordinary Egyptian's house?.",
+      "filename": "nile-river-life-portrait.webp"
+    }
+  ]
+}

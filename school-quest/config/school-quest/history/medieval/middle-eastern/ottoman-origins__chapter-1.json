@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "ottoman-origins",
+  "title": "Rise of the Ottomans",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-1",
+  "epoch": "medieval",
+  "region": "middle-eastern",
+  "basePath": "public/images/lessons/medieval/middle-eastern",
+  "images": [
+    {
+      "id": "ottoman-origins",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: Rise of the Ottomans. Type: era-exploration. Background: After the great Seljuk Empire weakened, many Turkish tribes settled in Anatolia (modern-day Turkey).. Legacy: The Ottomans ruled for over 600 years! They built beautiful mosques with blue ti. Topics: Who was the founder of the Ottoman state?, What was the first capital city of the Ottomans?.",
+      "filename": "ottoman-origins-map.webp"
+    },
+    {
+      "id": "ottoman-origins-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: Rise of the Ottomans. Type: era-exploration. Background: After the great Seljuk Empire weakened, many Turkish tribes settled in Anatolia (modern-day Turkey).. Legacy: The Ottomans ruled for over 600 years! They built beautiful mosques with blue ti. Topics: Who was the founder of the Ottoman state?, What was the first capital city of the Ottomans?.",
+      "filename": "ottoman-origins-portrait.webp"
+    }
+  ]
+}

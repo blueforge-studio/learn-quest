@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russo-japanese-war",
+  "title": "The Russo-Japanese War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-4",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "russo-japanese-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: At the start of the 1900s, both Russia and Japan wanted influence in Korea and Manchuria (a part of . Legacy: Japan became the first Asian nation recognized as a world power. People across A. Topics: What made the Russo-Japanese War special in world history?, Which famous U.S. president helped end the war?.",
+      "filename": "russo-japanese-war-map.webp"
+    },
+    {
+      "id": "russo-japanese-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: At the start of the 1900s, both Russia and Japan wanted influence in Korea and Manchuria (a part of . Legacy: Japan became the first Asian nation recognized as a world power. People across A. Topics: What made the Russo-Japanese War special in world history?, Which famous U.S. president helped end the war?.",
+      "filename": "russo-japanese-war-portrait.webp"
+    }
+  ]
+}

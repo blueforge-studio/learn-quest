@@ -1,0 +1,93 @@
+{
+  "subject": "geography",
+  "lessonId": "region-profile-japan",
+  "title": "Japan: Land of the Rising Sun",
+  "lessonType": "region-profile",
+  "chapter": "chapter-1",
+  "basePath": "public/images/lessons/lq-geography/chapter-1",
+  "instructions": "Educational illustration for school learning app. Clean, informative style suitable for students.",
+  "imageTypes": {
+    "map": {
+      "name": "map",
+      "path": "",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geography map illustration, educational style."
+    },
+    "landmark": {
+      "name": "landmark",
+      "path": "landmarks",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Famous landmark illustration, educational style."
+    },
+    "region": {
+      "name": "region",
+      "path": "regions",
+      "variantWidths": [
+        400,
+        800
+      ],
+      "defaultSize": [
+        800,
+        600
+      ],
+      "instructions": "Geographic region illustration, educational style."
+    },
+    "ecosystem": {
+      "name": "ecosystem",
+      "path": "ecosystems",
+      "variantWidths": [
+        256,
+        512
+      ],
+      "defaultSize": [
+        512,
+        512
+      ],
+      "instructions": "Ecosystem illustration, educational style."
+    }
+  },
+  "images": [
+    {
+      "id": "region-profile-japan-map",
+      "type": "map",
+      "prompt": "Map illustration for: Japan: Land of the Rising Sun. Educational geography map.",
+      "filename": "region-profile-japan-map.webp",
+      "quality": 85
+    },
+    {
+      "id": "region-profile-japan-landmark",
+      "type": "landmark",
+      "prompt": "Landmark illustration for: Japan: Land of the Rising Sun. Famous geographical location.",
+      "filename": "region-profile-japan-landmark.webp",
+      "quality": 85
+    },
+    {
+      "id": "region-profile-japan-region",
+      "type": "region",
+      "prompt": "Regional illustration for: Japan: Land of the Rising Sun. Geographic region visual.",
+      "filename": "region-profile-japan-region.webp",
+      "quality": 85
+    },
+    {
+      "id": "region-profile-japan-ecosystem",
+      "type": "ecosystem",
+      "prompt": "Ecosystem illustration for: Japan: Land of the Rising Sun. Natural environment visual.",
+      "filename": "region-profile-japan-ecosystem.webp",
+      "quality": 85
+    }
+  ]
+}

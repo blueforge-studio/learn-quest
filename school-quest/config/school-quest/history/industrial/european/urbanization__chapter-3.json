@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "urbanization",
+  "title": "The Growth of Cities",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "industrial",
+  "region": "european",
+  "basePath": "public/images/lessons/industrial/european",
+  "images": [
+    {
+      "id": "urbanization",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: In the 1700s, Europe was mostly rural: families grew food, made clothes by hand, and lived close to . Legacy: Today’s cities — with parks, schools, buses, and hospitals — exist because of le. Topics: Before factories, where did most people in Europe live?, Why did families move to cities during the Industrial Revolution?.",
+      "filename": "urbanization-map.webp"
+    },
+    {
+      "id": "urbanization-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Growth of Cities. Type: era-exploration. Background: In the 1700s, Europe was mostly rural: families grew food, made clothes by hand, and lived close to . Legacy: Today’s cities — with parks, schools, buses, and hospitals — exist because of le. Topics: Before factories, where did most people in Europe live?, Why did families move to cities during the Industrial Revolution?.",
+      "filename": "urbanization-portrait.webp"
+    }
+  ]
+}

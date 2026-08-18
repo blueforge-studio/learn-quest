@@ -1,0 +1,24 @@
+{
+  "subject": "history",
+  "lessonId": "russo-japanese-war",
+  "title": "The Russo-Japanese War",
+  "lessonType": "era-exploration",
+  "chapter": "chapter-3",
+  "epoch": "modern",
+  "region": "asian",
+  "basePath": "public/images/lessons/modern/asian",
+  "images": [
+    {
+      "id": "russo-japanese-war",
+      "type": "map",
+      "prompt": "Historical map illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: By the early 1900s, both Russia and Japan wanted control over parts of Korea and Manchuria (in North. Legacy: Japan became a world power overnight! Countries around the globe started respect. Topics: Which two countries fought in the Russo-Japanese War?, Why was this war so surprising to the world?.",
+      "filename": "russo-japanese-war-map.webp"
+    },
+    {
+      "id": "russo-japanese-war-portrait",
+      "type": "portrait",
+      "prompt": "Historical portrait illustration, educational style.. Lesson: The Russo-Japanese War. Type: era-exploration. Background: By the early 1900s, both Russia and Japan wanted control over parts of Korea and Manchuria (in North. Legacy: Japan became a world power overnight! Countries around the globe started respect. Topics: Which two countries fought in the Russo-Japanese War?, Why was this war so surprising to the world?.",
+      "filename": "russo-japanese-war-portrait.webp"
+    }
+  ]
+}
