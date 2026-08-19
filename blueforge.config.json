@@ -8,9 +8,11 @@
     "quests"
   ],
   "target": "hetzner",
-  "server": "hetzner-prod-1",
   "registry": "ghcr.io/blueforge-studio",
-  "portRange": [3000, 3999],
+  "portRange": [
+    3000,
+    3999
+  ],
   "caddyEmail": "ops@blueforge.studio",
   "packageManager": "pnpm",
   "apps": {
@@ -28,19 +30,31 @@
       "path": "lingua-quest/apps/site",
       "type": "next",
       "port": 3500,
-      "domains": ["linguaquest.blueforge.studio"]
+      "domains": [
+        "linguaquest.blueforge.studio"
+      ]
     },
     "lingua-quest-api": {
       "path": "lingua-quest/apps/api",
       "type": "express",
       "port": 3002,
       "healthcheck": "/health",
-      "domains": ["api.linguaquest.blueforge.studio"],
+      "domains": [
+        "api.linguaquest.blueforge.studio"
+      ],
       "secrets": {
-        "DATABASE_URL": { "source": "literal" },
-        "JWT_SECRET": { "source": "literal" },
-        "STRIPE_SECRET_KEY": { "source": "literal" },
-        "STRIPE_WEBHOOK_SECRET": { "source": "literal" }
+        "DATABASE_URL": {
+          "source": "literal"
+        },
+        "JWT_SECRET": {
+          "source": "literal"
+        },
+        "STRIPE_SECRET_KEY": {
+          "source": "literal"
+        },
+        "STRIPE_WEBHOOK_SECRET": {
+          "source": "literal"
+        }
       },
       "env": {
         "PORT": "3002",
@@ -54,10 +68,16 @@
       "type": "hono",
       "port": 3040,
       "healthcheck": "/health",
-      "domains": ["collab.linguaquest.blueforge.studio"],
+      "domains": [
+        "collab.linguaquest.blueforge.studio"
+      ],
       "secrets": {
-        "DATABASE_URL": { "source": "literal" },
-        "JWT_SECRET": { "source": "literal" }
+        "DATABASE_URL": {
+          "source": "literal"
+        },
+        "JWT_SECRET": {
+          "source": "literal"
+        }
       },
       "env": {
         "PORT": "3040",
