@@ -17,22 +17,26 @@
     "lq-site": {
       "path": "lq-site",
       "type": "next",
+      "role": "marketing",
       "port": 3500
     },
     "books-platform": {
       "path": "books-platform",
       "type": "next",
+      "role": "app",
       "port": 8080
     },
     "lingua-quest-site": {
       "path": "lingua-quest/apps/site",
       "type": "next",
+      "role": "marketing",
       "port": 3500,
       "domains": ["linguaquest.blueforge.studio"]
     },
     "lingua-quest-api": {
       "path": "lingua-quest/apps/api",
       "type": "express",
+      "role": "api",
       "port": 3002,
       "healthcheck": "/health",
       "domains": ["api.linguaquest.blueforge.studio"],
@@ -52,6 +56,7 @@
     "lingua-quest-collab-server": {
       "path": "lingua-quest/apps/collab-server",
       "type": "hono",
+      "role": "api",
       "port": 3040,
       "healthcheck": "/health",
       "domains": ["collab.linguaquest.blueforge.studio"],
@@ -67,11 +72,13 @@
     "lingua-quest-quest-editor": {
       "path": "lingua-quest/apps/quest-editor",
       "type": "vite",
+      "role": "app",
       "port": 8082
     },
     "lingua-quest-web": {
       "path": "lingua-quest/apps/web",
       "type": "vite",
+      "role": "app",
       "port": 8081
     }
   }
