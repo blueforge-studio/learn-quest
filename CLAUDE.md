@@ -14,6 +14,29 @@ Monorepo for language learning + books platforms.
 - **Deployment:** handrolled `deploy/*` scripts (will be retro-fitted to generator in Phase 6)
 - **Stack:** Next.js + Postgres (assumed standard, needs audit)
 
+## Asset resolution — read before counting or auditing images
+
+**`docs/ASSET_RESOLUTION.md`** — read it before writing any script that counts
+images, or before concluding an app's imagery is missing, unwired or clean.
+Four traps it documents, each of which has already produced a wrong answer:
+
+- **Two resolution systems**, not one: lazily-loaded per-domain asset maps
+  (`index.json`, via `AssetService`/`AssetMapProvider`) *and* path-convention
+  refs in lesson content (`images/`, `/_shared/`, `@regional/`) resolved
+  override → shared → raw.
+- **`public/data/asset-map.json` is an empty scaffold** (`EMPTY_ASSET_MAP`) that
+  nothing reads. Its being empty proves nothing.
+- **Naive counts overstate ~5x.** `glob(recursive=True)` follows the symlinked
+  shared vocabulary pools (and `_regional/universal`, which points outside the
+  repo); `find` does not. Responsive `--<size>` files are derived variants.
+  lq-nordic is 1,690 base images, not the 9,496 a naive glob reports.
+- **`status: "active"` means generated, not audited.** Real audit state is
+  `metadata.audit.auditedAt`. "0 flagged" nearly always means never measured.
+
+To verify wiring, run each app's `tests/unit/content-integrity.spec.ts`
+(`@learnquest/unit-core`) rather than hand-rolling a resolver — but note it does
+*not* cover the per-domain asset maps.
+
 ## Asset gen-configs state (2026-08-08)
 
 - **lang** (`lq-tools/packages/image-tools/src/config/languages/`), **school** + **life** (`.../config/subjects/`), and **books** (`.../config/books/<app>/`) app groups have gen-configs wired into the regen pipeline.

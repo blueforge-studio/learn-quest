@@ -198,6 +198,14 @@ books-platform/
 - `languages-shared/` — Shared language assets (flag SVGs, asset maps)
 - `_shared/` — Global shared assets (pronunciation systems for 9 locales)
 
+> **Images resolve through two separate systems** — lazily-loaded per-domain
+> asset maps (`index.json`) and path-convention refs in lesson content.
+> `public/data/asset-map.json` is an empty scaffold and is never read.
+> Counting images naively overstates totals ~5x (symlinked shared pools +
+> responsive variants), and `status: "active"` does not mean audited.
+> See **[ASSET_RESOLUTION.md](ASSET_RESOLUTION.md)** before counting,
+> auditing, or diagnosing missing imagery.
+
 ---
 
 ## Dependency Graph
