@@ -197,6 +197,57 @@ bucket was named. When you change one side, change the other:
 | `public/_shared/images` | `<group>/_shared/images` | `_shared/…` refs |
 | `public/languages` | `apps/<group>` | everything else |
 
+### Which bucket, and which backend (decided 2026-09-01)
+
+**`lq-assets` for now.** It is the bucket that actually serves — a key fetched
+from `lq-assets.blueforge.studio` returns 200 — and all 14 language apps plus
+the school and life apps already point `VITE_ASSETS_BASE_URL` at it.
+
+The account is `fce4dc215a708d705a7d154549959fe0`, and it holds four buckets:
+`lq-assets`, `lq-lang-assets`, `lq-life-assets`, `lq-school-assets`.
+
+**`lq-lang-assets` is a deferred split.** It was created to keep the language
+fleet out of one large shared bucket, and that is still a reasonable end state,
+but nothing serves from it today (404 for a key `lq-assets` has) and the R2
+keys in use are scoped to `lq-assets` only — they get `403 AccessDenied` on it.
+Revisit **after alpha/beta**; moving buckets mid-flight would mean re-uploading
+the fleet and re-pointing `VITE_ASSETS_BASE_URL` for no user-visible gain.
+
+**Credentials: do not trust the shell environment for the account id.**
+`CLOUDFLARE_ACCOUNT_ID` in `~/.zshrc` is a *different* account and does not own
+these buckets; `R2_LANG_PUBLIC_BASE` points at `lq-lang-assets`, not the live
+one. The working set is the account id above plus `R2_LQ_ACCESS_KEY_ID` /
+`R2_LQ_SECRET_ACCESS_KEY`, verified with a signed `ListObjectsV2` (200 on
+`lq-assets`). Of the Cloudflare API tokens only `CLOUDFLARE_WORKERS_API_TOKEN`
+is valid — the other two return `Invalid API Token`.
+
+These three live as project env vars on `lang-quest`
+(`e6bd8a3c-8070-4664-8e45-5601f11b3738`), named exactly as the adapter reads
+them: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`. `R2_BUCKET`
+is **not** among them — sync-to-storage's `buildStorage` bridges
+`assets.bucket` in at construction.
+
+### MinIO as an alternative backend — wired, but not connected
+
+`forge-infra-minio` is live on the platform host and the config layer already
+supports a dual setup: `assets.primary` plus `assets.mirrors`, which lq-nordic
+already declares (`primary: minio`, mirror to `cloudflare_r2 lq-assets`).
+
+That declaration does not work today. The resolver and the adapter disagree on
+variable names:
+
+| `resolveMinIOS3` + `resolveInfraEnv` emit | `providerEnvSchemas.minio` reads |
+|---|---|
+| `S3_ENDPOINT`, `S3_BUCKET`, `S3_ACCESS_KEY`, `S3_SECRET_KEY` | `MINIO_ENDPOINT`, `MINIO_BUCKET`, `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` |
+
+Nothing bridges the two, so a MinIO asset sync fails exactly the way R2 did
+before the phase-env fix — "MINIO_… are required" with a fully-configured
+project. Making the option real is a small mapping change, not a migration.
+
+Until then, treat `assets.primary: minio` as aspirational and keep R2 as the
+serving layer: zero egress and a custom domain are hard to beat for public
+delivery, and MinIO on a 75 GB app host would need its own edge story.
+
 ### `public/data` is deliberately not pushed
 
 Traced 2026-09-01. Nothing under `public/data` needs to be on the CDN:
