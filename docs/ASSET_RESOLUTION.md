@@ -197,10 +197,35 @@ bucket was named. When you change one side, change the other:
 | `public/_shared/images` | `<group>/_shared/images` | `_shared/…` refs |
 | `public/languages` | `apps/<group>` | everything else |
 
-`public/data` is deliberately **not** pushed: it is group-level on disk
-(`data/lessons`, `data/assets`) while the resolver reads
-`apps/<group>/<language>/data/…`, and lesson JSON loads through `ContentSource`
-rather than `AssetService`. Reconcile the shapes before adding it.
+### `public/data` is deliberately not pushed
+
+Traced 2026-09-01. Nothing under `public/data` needs to be on the CDN:
+
+| Subtree | Consumer | Path | Reality |
+|---|---|---|---|
+| `data/lessons/**` | `ContentSource` | **same-origin** `/data/lessons/<locale>/…` | Never touches the CDN. Vite copies `public/` into the build (`dist/data/lessons/` is present), so nginx serves it from the image. |
+| `data/asset-map.json` | `AssetMapLoader.loadCombined` | `apps/<group>/<lang>/data/asset-map.json` | The one real CDN fetch — and it targets the `EMPTY_ASSET_MAP` scaffold described above. Fails soft. |
+| `data/assets/**` | `DOMAIN_FILE_MAP` wants `assets/images/<domain>.json` | CDN | **No app has one.** Every app's `data/assets/` holds only `domains.json`. Fails soft. |
+
+Pushing it would create a second copy of lesson data that no code fetches. The
+one config that implied otherwise — lq-nordic's `pull` of `data` into
+`/usr/share/nginx/html/data` — was dead twice over and was removed.
+
+Putting lessons on the CDN is a real option for a large tree (lq-nordic's is
+18 MB), but it is a deliberate change: `ContentSource` would have to resolve
+through `AssetService` instead of root-relative fetches. Not a config patch.
+
+### `audit-specs.json` is live state, not an artifact
+
+Do not sweep it up with `image-audit-results-*.json`. `audit-spec.ts` reads it
+via `loadSpecRegistry(imagesRoot)` and writes it back via `saveSpecRegistry`,
+so it is a registry that belongs beside the images — 25 files across five apps
+as of 2026-09-01. The `image-audit-results-*.json` files *are* artifacts, but
+check `.audit-cache.sqlite` before deleting: `runs.id` is the path with `/`
+replaced by `__`, and if the row is there the history survives the deletion.
+
+The `filter: "images,audio"` on the `public/languages` push is what keeps both
+kinds out of the public bucket — `.json` is in neither category. Keep it.
 
 ### Do not put working files under `public/`
 
