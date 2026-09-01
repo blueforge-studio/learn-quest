@@ -248,6 +248,55 @@ Until then, treat `assets.primary: minio` as aspirational and keep R2 as the
 serving layer: zero egress and a custom domain are hard to beat for public
 delivery, and MinIO on a 75 GB app host would need its own edge story.
 
+### How assets actually get uploaded (2026-09-01)
+
+**`forge r2 sync`, run from the app directory. Not the deploy.**
+
+```bash
+cd lang-quest/lq-romance
+forge r2 sync            # reads assets.r2.push — no flags needed
+```
+
+It needs `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and
+`R2_ENDPOINT` in the environment (see the credential table above; the account
+id is NOT the one in `~/.zshrc`).
+
+#### Why the deploy cannot do it
+
+The `assetSync` phase runs server-side against the unpacked deploy artifact —
+and every app's `ignore` list strips exactly the directories it would upload:
+
+```
+"ignore": [ ..., "public/_shared/images", "public/_regional",
+            "public/languages", "public/data" ]
+```
+
+That exclusion is correct: assets are served from the CDN, so the image is
+2.8 MB instead of ~500 MB. But it means the server-side sync finds nothing.
+It does not fail — it reports `collected 0 files`, `uploaded=0 failed=0`, and
+the deploy succeeds having published nothing. A green deploy is not evidence
+that assets were uploaded; **check the bucket**.
+
+The client-side path is the one with the files on disk, which is why the upload
+belongs there.
+
+#### The `filter` is a safety mechanism, not a speed one
+
+`"filter": "images,audio"` on the `public/languages` entry is the only thing
+keeping `image-audit-results-*.json` and `audit-specs.json` — which live beside
+the images — out of a public bucket. Do not drop it to "sync everything".
+
+#### Verify, do not trust the summary
+
+```bash
+curl -o /dev/null -w '%{http_code}\n' \
+  https://lq-assets.blueforge.studio/apps/romance/french/images/logos/logo--128.webp
+```
+
+lq-romance was fully synced 2026-09-01: 209 regional, 492 group-shared, 1,645
+per-language. The other 13 apps have **not** been synced yet — their configs
+are correct, but `forge r2 sync` has not been run in them.
+
 ### `public/data` is deliberately not pushed
 
 Traced 2026-09-01. Nothing under `public/data` needs to be on the CDN:
