@@ -120,6 +120,98 @@ A related trap: every app appears to contain the same 7
 `dist/_regional/universal/vocab/` — inside the shared symlink — and are the
 *same files*, not per-app audit history.
 
+## The CDN bucket layout — `lq-assets`
+
+*Added 2026-09-01, after an investigation that found the upload prefixes and the
+runtime read paths had never agreed.*
+
+**One bucket serves every LearnQuest app.** The 14 language families, the
+school apps and the life apps all point `VITE_ASSETS_BASE_URL` at
+`https://lq-assets.blueforge.studio`. That is not incidental — an R2 custom
+domain binds to exactly one bucket, so per-app buckets are not reachable
+through that domain at all. Anything proposing `<slug>-assets` is wrong.
+
+### Four tiers
+
+```
+lq-assets/
+  _regional/<region>/…        cross-repo universal pool — one copy, shared by everything
+  _shared/…                   the shared root: non-group apps (school, life)
+  <group>/_shared/images/…    per-family shared — the 14 language group apps
+  apps/<locale>/…             per-locale content
+```
+
+`<locale>` is **not** the app slug and **not** bare language. For a group app
+`BaseAssetService.locale` is `` `${APP_GROUP}/${getTargetLanguage()}` `` — so
+lq-romance reads `apps/romance/french/images/…`. Non-group apps use
+`APP_LOCALE`.
+
+### Why `_shared/` is scoped for group apps only
+
+`_shared/` at the bucket root is a single global namespace. That is correct for
+the school and life apps: one `_shared/` tree each, no siblings to collide
+with.
+
+Group apps are different. Every language family ships its own `_shared/` tree
+under the same logical paths, and **the trees are not interchangeable**. Of 492
+files in lq-romance and 2,463 in lq-nordic, only 58 paths overlap — and every
+sampled overlap is byte-different. `chapters/chapter-9.webp` is different art
+in each family. Published unscoped, whichever family deployed last would
+silently replace the others' lesson art.
+
+So `sharedCloudPath()` in `path-resolution.ts` prefixes `<group>/` when
+`IS_GROUP_APP`, and leaves the root alone otherwise. The gate is the flag, not
+a hardcoded family list, so a new group app is scoped the day it sets
+`VITE_APP_GROUP`.
+
+Dev is deliberately unscoped — locally the files come from the app's own
+`public/_shared/`, where there is one tree and no bucket to share. A path that
+reads `/_shared/images/x.webp` in dev is `<group>/_shared/images/x.webp` in
+prod, and that asymmetry is intentional.
+
+### Verify before believing
+
+The bucket is public, so a claim about what is published is one command away —
+no credentials needed:
+
+```bash
+curl -o /dev/null -w '%{http_code}\n' \
+  https://lq-assets.blueforge.studio/_regional/universal/vocab/wipe.webp
+```
+
+Do this before concluding a tier is empty. A single 404 proves nothing about a
+prefix: probing one romance-specific chapter image produced "`_shared/` is
+empty", when in fact the root holds a live common core that the integration
+tests in `r2-shared-assets.test.ts` assert against.
+
+### Push config must mirror the read path
+
+`assets.r2.push` in each app's `blueforge.config.json` is the upload side of
+exactly this table, and it drifted from the reader for a long time — every
+prefix was wrong, so cloud assets could not have resolved regardless of which
+bucket was named. When you change one side, change the other:
+
+| Source on disk | Prefix | Read by |
+|---|---|---|
+| `public/_regional/universal` | `_regional/universal` | `@regional/…` refs |
+| `public/_shared/images` | `<group>/_shared/images` | `_shared/…` refs |
+| `public/languages` | `apps/<group>` | everything else |
+
+`public/data` is deliberately **not** pushed: it is group-level on disk
+(`data/lessons`, `data/assets`) while the resolver reads
+`apps/<group>/<language>/data/…`, and lesson JSON loads through `ContentSource`
+rather than `AssetService`. Reconcile the shapes before adding it.
+
+### Do not put working files under `public/`
+
+`public/` is published to a CDN. In 2026-07 an audit session cached 37
+`image-audit-*.json` / `regen-batch-*.json` files into
+`lq-nordic/public/_shared/images/`, alongside 20 webp duplicates of files that
+already lived in `vocab/`. Once the prefixes were fixed, all 57 would have gone
+straight to the public bucket. They were removed 2026-09-01; audit artifacts
+belong outside `public/`, and `@blueforge-studio/audit-db` is the durable home
+for audit results.
+
 ## Tooling
 
 | Task | Command |
