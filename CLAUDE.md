@@ -33,6 +33,17 @@ Four traps it documents, each of which has already produced a wrong answer:
 - **`status: "active"` means generated, not audited.** Real audit state is
   `metadata.audit.auditedAt`. "0 flagged" nearly always means never measured.
 
+**CDN layout (`lq-assets`)** — one bucket for *every* app (14 language
+families + school + life); an R2 custom domain binds to one bucket, so
+per-app `<slug>-assets` names are unreachable and always wrong. Four tiers:
+`_regional/<region>/` (cross-repo pool), `_shared/` (non-group apps),
+`<group>/_shared/images/` (the 14 group apps — their trees are NOT
+interchangeable), and `apps/<locale>/` where a group app's locale is
+`<group>/<language>`, e.g. `apps/romance/french/`. The bucket is public —
+`curl` a key before claiming a tier is empty. Push prefixes in
+`blueforge.config.json` must mirror the read path; they silently disagreed
+until 2026-09-01. Never put working files under `public/` — it is published.
+
 To verify wiring, run each app's `tests/unit/content-integrity.spec.ts`
 (`@learnquest/unit-core`) rather than hand-rolling a resolver — but note it does
 *not* cover the per-domain asset maps.

@@ -120,6 +120,174 @@ A related trap: every app appears to contain the same 7
 `dist/_regional/universal/vocab/` — inside the shared symlink — and are the
 *same files*, not per-app audit history.
 
+## The CDN bucket layout — `lq-assets`
+
+*Added 2026-09-01, after an investigation that found the upload prefixes and the
+runtime read paths had never agreed.*
+
+**One bucket serves every LearnQuest app.** The 14 language families, the
+school apps and the life apps all point `VITE_ASSETS_BASE_URL` at
+`https://lq-assets.blueforge.studio`. That is not incidental — an R2 custom
+domain binds to exactly one bucket, so per-app buckets are not reachable
+through that domain at all. Anything proposing `<slug>-assets` is wrong.
+
+### Four tiers
+
+```
+lq-assets/
+  _regional/<region>/…        cross-repo universal pool — one copy, shared by everything
+  _shared/…                   the shared root: non-group apps (school, life)
+  <group>/_shared/images/…    per-family shared — the 14 language group apps
+  apps/<locale>/…             per-locale content
+```
+
+`<locale>` is **not** the app slug and **not** bare language. For a group app
+`BaseAssetService.locale` is `` `${APP_GROUP}/${getTargetLanguage()}` `` — so
+lq-romance reads `apps/romance/french/images/…`. Non-group apps use
+`APP_LOCALE`.
+
+### Why `_shared/` is scoped for group apps only
+
+`_shared/` at the bucket root is a single global namespace. That is correct for
+the school and life apps: one `_shared/` tree each, no siblings to collide
+with.
+
+Group apps are different. Every language family ships its own `_shared/` tree
+under the same logical paths, and **the trees are not interchangeable**. Of 492
+files in lq-romance and 2,463 in lq-nordic, only 58 paths overlap — and every
+sampled overlap is byte-different. `chapters/chapter-9.webp` is different art
+in each family. Published unscoped, whichever family deployed last would
+silently replace the others' lesson art.
+
+So `sharedCloudPath()` in `path-resolution.ts` prefixes `<group>/` when
+`IS_GROUP_APP`, and leaves the root alone otherwise. The gate is the flag, not
+a hardcoded family list, so a new group app is scoped the day it sets
+`VITE_APP_GROUP`.
+
+Dev is deliberately unscoped — locally the files come from the app's own
+`public/_shared/`, where there is one tree and no bucket to share. A path that
+reads `/_shared/images/x.webp` in dev is `<group>/_shared/images/x.webp` in
+prod, and that asymmetry is intentional.
+
+### Verify before believing
+
+The bucket is public, so a claim about what is published is one command away —
+no credentials needed:
+
+```bash
+curl -o /dev/null -w '%{http_code}\n' \
+  https://lq-assets.blueforge.studio/_regional/universal/vocab/wipe.webp
+```
+
+Do this before concluding a tier is empty. A single 404 proves nothing about a
+prefix: probing one romance-specific chapter image produced "`_shared/` is
+empty", when in fact the root holds a live common core that the integration
+tests in `r2-shared-assets.test.ts` assert against.
+
+### Push config must mirror the read path
+
+`assets.r2.push` in each app's `blueforge.config.json` is the upload side of
+exactly this table, and it drifted from the reader for a long time — every
+prefix was wrong, so cloud assets could not have resolved regardless of which
+bucket was named. When you change one side, change the other:
+
+| Source on disk | Prefix | Read by |
+|---|---|---|
+| `public/_regional/universal` | `_regional/universal` | `@regional/…` refs |
+| `public/_shared/images` | `<group>/_shared/images` | `_shared/…` refs |
+| `public/languages` | `apps/<group>` | everything else |
+
+### Which bucket, and which backend (decided 2026-09-01)
+
+**`lq-assets` for now.** It is the bucket that actually serves — a key fetched
+from `lq-assets.blueforge.studio` returns 200 — and all 14 language apps plus
+the school and life apps already point `VITE_ASSETS_BASE_URL` at it.
+
+The account is `fce4dc215a708d705a7d154549959fe0`, and it holds four buckets:
+`lq-assets`, `lq-lang-assets`, `lq-life-assets`, `lq-school-assets`.
+
+**`lq-lang-assets` is a deferred split.** It was created to keep the language
+fleet out of one large shared bucket, and that is still a reasonable end state,
+but nothing serves from it today (404 for a key `lq-assets` has) and the R2
+keys in use are scoped to `lq-assets` only — they get `403 AccessDenied` on it.
+Revisit **after alpha/beta**; moving buckets mid-flight would mean re-uploading
+the fleet and re-pointing `VITE_ASSETS_BASE_URL` for no user-visible gain.
+
+**Credentials: do not trust the shell environment for the account id.**
+`CLOUDFLARE_ACCOUNT_ID` in `~/.zshrc` is a *different* account and does not own
+these buckets; `R2_LANG_PUBLIC_BASE` points at `lq-lang-assets`, not the live
+one. The working set is the account id above plus `R2_LQ_ACCESS_KEY_ID` /
+`R2_LQ_SECRET_ACCESS_KEY`, verified with a signed `ListObjectsV2` (200 on
+`lq-assets`). Of the Cloudflare API tokens only `CLOUDFLARE_WORKERS_API_TOKEN`
+is valid — the other two return `Invalid API Token`.
+
+These three live as project env vars on `lang-quest`
+(`e6bd8a3c-8070-4664-8e45-5601f11b3738`), named exactly as the adapter reads
+them: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`. `R2_BUCKET`
+is **not** among them — sync-to-storage's `buildStorage` bridges
+`assets.bucket` in at construction.
+
+### MinIO as an alternative backend — wired, but not connected
+
+`forge-infra-minio` is live on the platform host and the config layer already
+supports a dual setup: `assets.primary` plus `assets.mirrors`, which lq-nordic
+already declares (`primary: minio`, mirror to `cloudflare_r2 lq-assets`).
+
+That declaration does not work today. The resolver and the adapter disagree on
+variable names:
+
+| `resolveMinIOS3` + `resolveInfraEnv` emit | `providerEnvSchemas.minio` reads |
+|---|---|
+| `S3_ENDPOINT`, `S3_BUCKET`, `S3_ACCESS_KEY`, `S3_SECRET_KEY` | `MINIO_ENDPOINT`, `MINIO_BUCKET`, `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` |
+
+Nothing bridges the two, so a MinIO asset sync fails exactly the way R2 did
+before the phase-env fix — "MINIO_… are required" with a fully-configured
+project. Making the option real is a small mapping change, not a migration.
+
+Until then, treat `assets.primary: minio` as aspirational and keep R2 as the
+serving layer: zero egress and a custom domain are hard to beat for public
+delivery, and MinIO on a 75 GB app host would need its own edge story.
+
+### `public/data` is deliberately not pushed
+
+Traced 2026-09-01. Nothing under `public/data` needs to be on the CDN:
+
+| Subtree | Consumer | Path | Reality |
+|---|---|---|---|
+| `data/lessons/**` | `ContentSource` | **same-origin** `/data/lessons/<locale>/…` | Never touches the CDN. Vite copies `public/` into the build (`dist/data/lessons/` is present), so nginx serves it from the image. |
+| `data/asset-map.json` | `AssetMapLoader.loadCombined` | `apps/<group>/<lang>/data/asset-map.json` | The one real CDN fetch — and it targets the `EMPTY_ASSET_MAP` scaffold described above. Fails soft. |
+| `data/assets/**` | `DOMAIN_FILE_MAP` wants `assets/images/<domain>.json` | CDN | **No app has one.** Every app's `data/assets/` holds only `domains.json`. Fails soft. |
+
+Pushing it would create a second copy of lesson data that no code fetches. The
+one config that implied otherwise — lq-nordic's `pull` of `data` into
+`/usr/share/nginx/html/data` — was dead twice over and was removed.
+
+Putting lessons on the CDN is a real option for a large tree (lq-nordic's is
+18 MB), but it is a deliberate change: `ContentSource` would have to resolve
+through `AssetService` instead of root-relative fetches. Not a config patch.
+
+### `audit-specs.json` is live state, not an artifact
+
+Do not sweep it up with `image-audit-results-*.json`. `audit-spec.ts` reads it
+via `loadSpecRegistry(imagesRoot)` and writes it back via `saveSpecRegistry`,
+so it is a registry that belongs beside the images — 25 files across five apps
+as of 2026-09-01. The `image-audit-results-*.json` files *are* artifacts, but
+check `.audit-cache.sqlite` before deleting: `runs.id` is the path with `/`
+replaced by `__`, and if the row is there the history survives the deletion.
+
+The `filter: "images,audio"` on the `public/languages` push is what keeps both
+kinds out of the public bucket — `.json` is in neither category. Keep it.
+
+### Do not put working files under `public/`
+
+`public/` is published to a CDN. In 2026-07 an audit session cached 37
+`image-audit-*.json` / `regen-batch-*.json` files into
+`lq-nordic/public/_shared/images/`, alongside 20 webp duplicates of files that
+already lived in `vocab/`. Once the prefixes were fixed, all 57 would have gone
+straight to the public bucket. They were removed 2026-09-01; audit artifacts
+belong outside `public/`, and `@blueforge-studio/audit-db` is the durable home
+for audit results.
+
 ## Tooling
 
 | Task | Command |
