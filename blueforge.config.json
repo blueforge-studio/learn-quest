@@ -46,10 +46,10 @@
       "domains": [
         "api.linguaquest.blueforge.studio"
       ],
+      "dependencies": [
+        "postgres"
+      ],
       "secrets": {
-        "DATABASE_URL": {
-          "source": "literal"
-        },
         "JWT_SECRET": {
           "source": "literal"
         },
@@ -76,10 +76,10 @@
       "domains": [
         "collab.linguaquest.blueforge.studio"
       ],
+      "dependencies": [
+        "postgres"
+      ],
       "secrets": {
-        "DATABASE_URL": {
-          "source": "literal"
-        },
         "JWT_SECRET": {
           "source": "literal"
         }
