@@ -182,6 +182,61 @@ def check_content_languages_match_labels(app: str) -> str | None:
     return None
 
 
+def _norm(name: str) -> str:
+    """'scottish-gaelic' and 'Scottish Gaelic' are the same language."""
+    return re.sub(r"[\s_-]+", " ", name).strip().lower()
+
+
+def check_content_languages_exist(app: str) -> str | None:
+    """
+    Every configured language must have a languages/<dir>, and every
+    languages/<dir> must be configured.
+
+    The other checks assert a setting is PRESENT. None of them asks whether it
+    is TRUE. lq-english shipped 'german' in contentLanguages long after the
+    directory was gone: the field existed, the AppConfig check passed, and the
+    e2e spec asserted a heading that could never render. A fossil in a list is
+    invisible to a presence check by construction.
+
+    Directory names win, because they are what the loader reads.
+    """
+    cfg = read(app, "tests", "e2e.config.ts")
+    if cfg is None:
+        return None
+    m = re.search(r"contentLanguages:\s*\[([^\]]*)\]", cfg)
+    if not m:
+        return None
+    configured = {_norm(e) for e in re.findall(r"'([^']+)'", m.group(1))}
+    if not configured:
+        return None
+
+    langs_dir = os.path.join(ROOT, app, "languages")
+    if not os.path.isdir(langs_dir):
+        return None
+    # Directories only: several apps keep a sibling <lang>.json manifest, and
+    # counting those would invent languages that do not exist.
+    on_disk = {
+        _norm(d) for d in os.listdir(langs_dir)
+        if os.path.isdir(os.path.join(langs_dir, d)) and not d.startswith(".")
+    }
+    if not on_disk:
+        return None
+
+    problems = []
+    fossils = sorted(configured - on_disk)
+    if fossils:
+        problems.append(
+            f"configured but no languages/ directory: {', '.join(fossils)} — "
+            "the e2e spec asserts a heading that can never render"
+        )
+    untested = sorted(on_disk - configured)
+    if untested:
+        problems.append(
+            f"on disk but not in contentLanguages: {', '.join(untested)} — ships untested"
+        )
+    return "; ".join(problems) if problems else None
+
+
 CHECKS = [
     ("packageManager", check_package_manager),
     ("allowBuilds", check_allow_builds),
@@ -190,6 +245,7 @@ CHECKS = [
     ("testIgnore", check_test_ignore),
     ("e2e AppConfig", check_e2e_config),
     ("contentLanguages", check_content_languages_match_labels),
+    ("languages exist", check_content_languages_exist),
 ]
 
 
