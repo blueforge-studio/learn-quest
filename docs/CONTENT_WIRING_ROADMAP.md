@@ -40,7 +40,7 @@ That yields four independent faults, none of which a filesystem walk can see:
 |---|---|---|
 | `no-index` | tree has lessons and no `chapters.json` — serves **nothing** | 0 ✅ *(was 62)* |
 | `invalid` | listed, but fails `LessonFileSchema` — throws `ContentShapeError` | 0 ✅ *(was 188)* |
-| `dangling` | listed with no file — 404 per lesson | 5,829 |
+| `dangling` | listed with no file — 404 per lesson | 5,661 — now **exactly** the §5 authoring backlog |
 | `unlisted` | file exists, no chapter names it — unreachable | 0 ✅ *(was 1,416)* |
 
 ```bash
@@ -134,9 +134,35 @@ beats shipping the wrong language.
 
 ---
 
-## §3 · Propagate 215 and repair 168 renames
+## §3 · Propagate 215 — **BLOCKED**; renames ✅ **DONE 2026-09-04**
 
-Cheap, mostly scripted, both proven.
+### Renames — done
+
+**168 dead index entries removed**, all six Danish sibling locales (28 each):
+the same renames already repaired in `data/en`, unrepaired in `de`, `es`, `fr`,
+`th`, `vi` and `zh`. Tool: `lq-core/scripts/repair-renamed-lessons.ts`.
+
+They needed the *opposite* repair to `data/en`, and the reason is worth
+recording: because §1 ran first, every renamed file is now listed under its own
+name, so the stale id is a dead duplicate to delete rather than a broken
+pointer to repoint. The script reported **zero** until it learned that second
+case. Order matters — run §1 before this, and expect drops rather than
+repoints.
+
+**Fleet dangling is now 5,661, exactly the "needs authoring" figure.** Every
+mechanically repairable index fault in the fleet is closed; what is left is
+§5.
+
+### Propagation — blocked on the §2 decision
+
+The 215 dangling ids that exist in a sibling locale are **not** a mechanical
+win, and should not be run before §2 is settled. The largest flow is 113 in
+`lq-english/american/data/da` — American English taught to Danish learners.
+Copying those from `data/en` yields English words glossed **in English**, which
+is precisely the untranslated-content regression §2 exists to resolve.
+
+Propagation is therefore propagate-**and**-translate, or it recreates the
+problem at a smaller scale. Decide §2 first.
 
 **215 dangling ids already exist in a sibling locale** — propagate then
 translate rather than author. The largest single flow is **113 in
@@ -149,9 +175,9 @@ positives, by requiring a *unique* same-chapter, same-kind, token-subset match
 in both directions. Anything ambiguous is left for a human, which is correct —
 `culture-capital-guide` → `culture-copenhagen-guide` needed a title check.
 
-- [ ] Propagate the 113 `american/data/da` lessons
-- [ ] Propagate the remaining 102
-- [ ] Run the rename matcher fleet-wide, review, apply
+- [x] Run the rename matcher fleet-wide, review, apply — 168 removed
+- [ ] **Blocked on §2:** propagate + translate the 113 `american/data/da`
+- [ ] **Blocked on §2:** propagate + translate the remaining 102
 
 ---
 
@@ -249,4 +275,6 @@ Open from the noun-morphology programme, unrelated to wiring.
 | 2026-09-04 | Danish: 7 duplicates removed, 30 lessons unlocked, 3 authored — 0 dangling, 0 unlisted |
 | 2026-09-04 | American English: 99 lessons authored, 14 review stubs and 4 placeholder spelling lessons rebuilt — 0 dangling, 0 unlisted |
 | 2026-09-04 | `validate-content.ts` + `generate-chapters-json.ts` added; foundations now count only reachable lessons |
+| 2026-09-04 | **§3 renames done.** 168 dead index entries dropped across the six Danish sibling locales — dangling 5,829 → 5,661, now purely the authoring backlog |
+| 2026-09-04 | South Asian: `bn` landed at 95/120; `mr` control typo fixed + `checkControls` guard added; `hi`/`mr` re-running |
 | 2026-09-04 | **§1 done.** 1,359 lessons unlocked across 17 trees (thai 833, danish 456); 49 Danish duplicates removed, 42 Thai items merged — `unlisted` 1,416 → 0 |
