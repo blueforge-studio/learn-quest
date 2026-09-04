@@ -108,29 +108,57 @@ have), อยาก (to want), รู้ (to know), เธอ (she), พวก�
 
 ---
 
-## §2 · Resolve the 47 untranslated trees — **REGRESSION, DO EARLY**
+## §2 · The untranslated trees — ✅ **RESOLVED 2026-09-04, and the premise was wrong**
 
-Generating the 62 missing `chapters.json` files made those trees reachable. **47
-of them carry English glosses despite declaring a non-English learner locale.**
-Before, they served nothing; now they would serve untranslated content to, say,
-a Chinese or Thai learner. That is a regression introduced by the fix.
+**I was wrong about this, and the correction matters more than the original
+claim.** I reported generating the 62 missing `chapters.json` as a regression
+that would ship English glosses to non-English learners. It does not, and never
+did.
 
-Breakdown of the 62 generated: 15 genuinely localized, 47 English-glossed
-(`zh` 17, `ja` 9, `th` 8, `ko` 6, `de` 3, `es` 3, `fr` 1).
+The emit pipeline gates on `locale-manifest.json`, not on `chapters.json`:
+`generate-lesson-files.ts` iterates `Object.entries(manifest.locales)`, so a
+locale absent from that manifest is **never emitted at all**, whatever exists
+under `languages/`. Verified empirically — `malay/data/{zh,ja,ko}` all have
+source content and a generated index, none appears in `public/data/lessons`:
 
-Two options, and they are not exclusive:
+```
+zh: source=True  in manifest=False  EMITTED=False
+```
 
-- **Gate now** (minutes, reversible) — hold these trees out of publishing via
-  `shipChapters` or an equivalent flag, so nothing untranslated ships.
-- **Translate** (tracked job) — `learnerLocale.meaning` and
-  `learnerLocale.pronunciation` per item.
+Every untranslated tree is unmanifested, so **none of them ship**. Nothing
+needed gating. `chapters.json` makes content *addressable*; the manifest makes
+it *published*, and I conflated the two.
 
-**Recommended: gate immediately, translate on a schedule.** Shipping nothing
-beats shipping the wrong language.
+### The real fault, found by checking
 
-- [ ] Confirm the gating mechanism with the `shipChapters` owner
-- [ ] Gate all 47
-- [ ] Queue translation, largest-locale first (`zh`, `ja`, `th`)
+The same audit surfaced the opposite problem. `LocaleEntrySchema` makes
+`enabled` a REQUIRED boolean, all fourteen generators declared it, and **none
+ever tested it**:
+
+| | count |
+|---|---|
+| locale entries marked `enabled: false` | 41 |
+| ...of those, emitted and shipping anyway | **39** |
+| maturity of all 39 | `alpha` |
+
+Someone deliberately marked those locales not-ready and the pipeline shipped
+them regardless. A required flag nothing reads is worse than no flag: the
+manifest reads as a decision when it is only a comment.
+
+Fixed in all 14 generators — `enabled: false` now skips the locale, `undefined`
+still ships so older manifests are unaffected. 6,410 emitted lesson files
+withdrawn across `lq-balkan`, `lq-nordic` and `lq-southeast-asian`.
+
+**One thing to know before deploying:** the regeneration also refreshed a stale
+emitted tree in eight other repos, including the live `lq-romance`. Those
+commits carry morphology annotations and newly-listed lessons that were already
+committed under `languages/` but had never been emitted. That is desirable, but
+it is a production content change and the commit messages say so.
+
+- [x] Establish the actual gating mechanism
+- [x] Verify the untranslated trees do not ship
+- [x] Make `enabled` mean what it says
+- [ ] Decide whether the 39 alpha locales should be promoted rather than held
 
 ---
 
@@ -307,6 +335,7 @@ Open from the noun-morphology programme, unrelated to wiring.
 | 2026-09-04 | Danish: 7 duplicates removed, 30 lessons unlocked, 3 authored — 0 dangling, 0 unlisted |
 | 2026-09-04 | American English: 99 lessons authored, 14 review stubs and 4 placeholder spelling lessons rebuilt — 0 dangling, 0 unlisted |
 | 2026-09-04 | `validate-content.ts` + `generate-chapters-json.ts` added; foundations now count only reachable lessons |
+| 2026-09-04 | **§2 resolved.** The regression I flagged never existed — the emit path gates on `locale-manifest.json`, not `chapters.json`. Real fault found instead: `enabled` ignored by all 14 generators, 39 alpha locales shipping against the flag. Fixed; 6,410 emitted files withdrawn |
 | 2026-09-04 | **§3 renames done.** 168 dead index entries dropped across the six Danish sibling locales — dangling 5,829 → 5,661, now purely the authoring backlog |
 | 2026-09-04 | South Asian: `bn` landed at 95/120; `mr` control typo fixed + `checkControls` guard added; `hi`/`mr` re-running |
 | 2026-09-04 | **§1 done.** 1,359 lessons unlocked across 17 trees (thai 833, danish 456); 49 Danish duplicates removed, 42 Thai items merged — `unlisted` 1,416 → 0 |
