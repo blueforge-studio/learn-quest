@@ -250,18 +250,50 @@ Open from the noun-morphology programme, unrelated to wiring.
       controls, drill frames, or runs against content.
 - [ ] **Re-run Thai.** Coverage understated by the fixed `isCandidate`
       combining-marks bug; never re-run.
-- [~] **Finish South Asian.** Background run completed 2026-09-04. Three
-      landed — **te 54/146, pa 61/141, ur 47/120** (ta 72/126 earlier). Three
-      confirmed **zero**, and neither was a linguistic result:
-      - **mr 0/144** — the *control* was mistyped. Its oblique plural carried
-        two anusvaras (मुलग्यांं) where Marathi has one (मुलग्यां), so every
-        batch failed on answers that were correct. Fixed, plus a `checkControls`
-        guard that now refuses to start on a doubled combining mark or a
-        non-NFC control and names the offending field (`ff39c89d`).
-      - **hi 0/127** — ran at 07:54, before the Dir-citation-cell fallback
-        landed at 09:37. No code fix needed; re-running now resolves 5/6 a batch.
-      - **bn** — produced no tiebreak output at all; re-running.
-      Re-runs for hi, mr and bn are in flight. Apply once they land.
+- [~] **Finish South Asian.** 470 confirmed paradigms across seven languages.
+      Not applied to content yet.
+
+      | | confirmed | note |
+      |---|---|---|
+      | bn | 95/120 (79%) | never ran in the original batch |
+      | hi | 82/127 (65%) | **was 0** — stale code |
+      | ta | 72/126 (57%) | applied earlier |
+      | pa | 61/141 (43%) | re-running with the fixed prompt |
+      | mr | 59/144 (41%) | **was 0** — two control faults + a prompt fault |
+      | ur | 47/120 (39%) | re-running with the fixed prompt |
+      | te | 54/146 (37%) | Dravidian; the oblique fix does NOT apply |
+
+      **Three faults, all in the tooling, none in the model.** Each was hidden
+      behind the one before it, and every one of them failed *silently* while
+      the log blamed the model:
+
+      1. `hi` ran at 07:54, before the Dir citation-cell fallback landed at
+         09:37. No fix needed, only a re-run: 0 → 82.
+      2. `mr`'s control was mistyped — its oblique plural carried two anusvaras
+         (मुलग्यांं) where Marathi has one. Fixed, plus `checkControls`, which
+         now refuses to start on a doubled combining mark or a non-NFC control
+         and names the offending field (`ff39c89d`).
+      3. `mr`'s control then tested a cell the language *argues about*. Both
+         passes answered मुलग्याला / मुलग्यांना — the oblique stems carrying
+         the dative -ला / -ना — and Marathi grammars genuinely differ on which
+         form the "oblique" holds. Marathi now declares DIRECT ONLY. With
+         controls passing, batches still resolved 0/6 because the two passes
+         disagreed with *each other*: the prompt said "the OBLIQUE, which a
+         noun takes before a postposition", readable either way. It now says
+         OBLIQUE STEM, "WITHOUT the postposition attached", with counter-
+         examples (`1adbe1f9`).
+
+      Marathi across four runs — **0% → 0% → 24% → 41%** — is the evidence the
+      faults were mine. The rule violated twice more here is one already
+      written down: *a control must test what the language does not argue
+      about.*
+
+      - [x] Diagnose the two zero-confirmation runs
+      - [x] Re-run hi, mr, bn
+      - [~] Re-run ur and pa — both Indo-Aryan, both ran before the prompt fix
+      - [ ] Decide whether to apply at 37-43%, or push the weak ones again
+      - [ ] Apply to content
+
 - [ ] **~330 genuine splits** fleet-wide, awaiting human adjudication.
 
 ---
