@@ -224,7 +224,18 @@ Open from the noun-morphology programme, unrelated to wiring.
       controls, drill frames, or runs against content.
 - [ ] **Re-run Thai.** Coverage understated by the fixed `isCandidate`
       combining-marks bug; never re-run.
-- [ ] **Finish South Asian.** Verify and apply te/mr/pa/ur and hi/bn.
+- [~] **Finish South Asian.** Background run completed 2026-09-04. Three
+      landed — **te 54/146, pa 61/141, ur 47/120** (ta 72/126 earlier). Three
+      confirmed **zero**, and neither was a linguistic result:
+      - **mr 0/144** — the *control* was mistyped. Its oblique plural carried
+        two anusvaras (मुलग्यांं) where Marathi has one (मुलग्यां), so every
+        batch failed on answers that were correct. Fixed, plus a `checkControls`
+        guard that now refuses to start on a doubled combining mark or a
+        non-NFC control and names the offending field (`ff39c89d`).
+      - **hi 0/127** — ran at 07:54, before the Dir-citation-cell fallback
+        landed at 09:37. No code fix needed; re-running now resolves 5/6 a batch.
+      - **bn** — produced no tiebreak output at all; re-running.
+      Re-runs for hi, mr and bn are in flight. Apply once they land.
 - [ ] **~330 genuine splits** fleet-wide, awaiting human adjudication.
 
 ---
