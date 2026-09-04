@@ -209,25 +209,28 @@ in both directions. Anything ambiguous is left for a human, which is correct —
 
 ---
 
-## §4 · Wire `validate-content.ts` into CI
+## §4 · Guard it in CI — ✅ **WRITTEN 2026-09-04, needs a publish**
 
-`lq-core/scripts/validate-content.ts` already exits non-zero on any fault.
-Without it in CI, the 188 enum breakages recur — they survived for months only
-because nothing parsed those files.
+`createContentWiringTests` is in `@learnquest/unit-core`, with 7 tests, and
+verified green against all 14 apps before landing.
 
-Four of the five fault classes are now at zero, so the gate can be strict about
-those and lenient only where the real backlog lives:
+It asserts **no-index**, **bad-index** and **unlisted**, and only *reports*
+`dangling` — a dangling id is a lesson somebody still has to write, and failing
+on it would block every PR behind the 5,661-lesson backlog of §5.
 
-- **Hard-fail** `no-index`, `bad-index`, `invalid` **and `unlisted`** — all 0
-  after §1, so the gate goes in green and any regression is caught the day it
-  lands. `unlisted` is worth failing on precisely because an unreachable lesson
-  is also unvalidated; that is how the 188 broken enums survived.
-- **Ratchet** `dangling` against a committed baseline (5,829). It is the
-  authoring backlog of §5, so a hard failure would block every PR.
+It went into the shared package rather than as a spec copied into each app: 14
+copies of one check is precisely the tech debt `FLEET_READINESS_ROADMAP.md` §2
+is trying to retire.
 
-- [ ] Add to the fleet CI workflow
-- [ ] Hard-fail no-index / bad-index / invalid / unlisted
-- [ ] Ratchet dangling against a committed baseline
+**Remaining, and deliberately not done:** apps pin
+`@learnquest/unit-core@^0.1.4`, so this needs a package publish and a version
+bump in 14 repos before it runs anywhere. Publishing to the registry is a
+distribution step and wants a human on it.
+
+- [x] Write the check in the shared package, with tests
+- [x] Verify it goes in green across all 14 apps
+- [ ] Publish `@learnquest/unit-core` and bump the 14 apps
+- [ ] Add the 3-line spec to each app's `tests/unit/`
 
 ---
 
@@ -335,6 +338,8 @@ Open from the noun-morphology programme, unrelated to wiring.
 | 2026-09-04 | Danish: 7 duplicates removed, 30 lessons unlocked, 3 authored — 0 dangling, 0 unlisted |
 | 2026-09-04 | American English: 99 lessons authored, 14 review stubs and 4 placeholder spelling lessons rebuilt — 0 dangling, 0 unlisted |
 | 2026-09-04 | `validate-content.ts` + `generate-chapters-json.ts` added; foundations now count only reachable lessons |
+| 2026-09-04 | **§4 written.** `createContentWiringTests` in `@learnquest/unit-core`, green on all 14 apps; awaiting a publish |
+| 2026-09-04 | South Asian morphology **applied** — 707 blocks across 102 files in 5 languages; empty case cells now dropped rather than written as `""` |
 | 2026-09-04 | **§2 resolved.** The regression I flagged never existed — the emit path gates on `locale-manifest.json`, not `chapters.json`. Real fault found instead: `enabled` ignored by all 14 generators, 39 alpha locales shipping against the flag. Fixed; 6,410 emitted files withdrawn |
 | 2026-09-04 | **§3 renames done.** 168 dead index entries dropped across the six Danish sibling locales — dangling 5,829 → 5,661, now purely the authoring backlog |
 | 2026-09-04 | South Asian: `bn` landed at 95/120; `mr` control typo fixed + `checkControls` guard added; `hi`/`mr` re-running |
