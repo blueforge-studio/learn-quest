@@ -234,37 +234,61 @@ distribution step and wants a human on it.
 
 ---
 
-## §5 · The authoring backlog — 3,971 lessons
+## §5 · The authoring backlog — reframed 2026-09-04
 
-The largest item, and a programme rather than a task. **Cross-check against
-`FLEET_READINESS_ROADMAP.md` §3 (4,155) before planning — same backlog, two
-measurements.**
+**Do not plan this from the declared chapter count, and do not plan it from the
+total of complete chapters either.** Both mislead, in opposite directions.
 
-- 5,829 tree-level 404s collapse to **3,971 distinct (language, lesson) pairs**
-  across **65 languages** in 14 apps. Median 67 per language; only 4 languages
-  need ≤20.
-- Only 215 exist in any sibling locale (§3). The rest are unwritten.
-- The pattern is uniform: **chapters 6–15 are a curriculum plan, not content.**
+### Inventory
 
-**American English is the proven template** — 99 lessons authored 2026-09-04:
+`lq-core/scripts/content-inventory.ts` writes `content_inventory` to the shared
+`.content-db.sqlite`, covering both fleet layouts —
+`languages/<lang>/data/<locale>/` and school-quest's `content/<subject>/`.
+`--by-language` reports each language from its BASE locale, because summing
+locales counts one course up to seven times.
 
-- Prose lessons (concept, culture, conversation, dialogue, word-order) authored.
-- **Drills and quizzes derived** from each chapter's own vocabulary, never
-  authored separately. They cannot drift out of sync and cannot test words the
-  chapter never taught. Quiz distractors come from the same chapter, so no
-  question is answerable by noticing three options belong to another topic.
-- Glosses **define** the word rather than repeating it.
+Chapters are counted three ways on purpose — declared, has-any-lesson, and
+complete — because they diverge sharply. American English declared 15 and had
+files for 5.
 
-Worst offenders: `lq-balkan` (1,751 404s), `lq-southeast-asian` (928),
-`lq-english` (524), `lq-south-asian` (482).
+### The finding that reframes the work
 
-**Open question before starting:** does every language need 15 chapters, or
-does the tail ship at 5? Answering that may remove most of this backlog. Decide
-with `shipChapters` (that roadmap's §3) rather than by authoring.
+`shipChapters` releases the FIRST N chapters, so a course's releasable size is
+its **contiguous run from chapter 1**, not its total complete. Those two numbers
+came apart badly:
 
-- [ ] Decide the per-language chapter target
-- [ ] Re-scope the backlog against that decision
-- [ ] Author per language, American English as template
+| language | complete | contiguous | blocked by |
+|---|---|---|---|
+| korean | 13 | **1** | one missing lesson in ch2 |
+| japanese | 9 | **0** | one missing lesson in ch1 |
+| swedish | 14 | **6** | one missing lesson in ch7 |
+| amharic | 4 | **0** | one missing lesson in ch1 |
+| ukrainian | 4 | **0** | one missing lesson in ch1 |
+
+**Five lessons were withholding 37 finished chapters.** Setting `shipChapters`
+from the contiguous run without fixing them first would have *hidden* that
+work — Korean would have released 1 chapter while 13 sat done on disk. Written
+2026-09-04; Japanese, Korean and Swedish are now 15/15.
+
+**So the order is: find blockers, author them, THEN set `shipChapters`.**
+Re-measure before setting anything.
+
+### Where the fleet stands
+
+10 of 67 languages are mature: japanese, korean, american, danish, icelandic,
+norwegian and swedish at 15; australian, british and scottish at 10.
+
+The rest cluster hard — **45 languages sit at exactly 5 or 6 complete chapters
+while declaring 15.** That is not 45 situations, it is one scaffold applied
+fleet-wide: chapters 1-5 or 1-6 authored, the rest declared and never written.
+lq-nordic is the only group finished end to end, so whatever process produced
+it is the one to repeat.
+
+- [x] Build the inventory, persisted to the shared DB
+- [x] Distinguish contiguous from total, and unblock the five
+- [ ] Re-measure blockers across all 67, then author the cheap ones
+- [ ] Set `shipChapters` from the contiguous run
+- [ ] Decide the per-language chapter target before bulk authoring
 
 ---
 
@@ -338,6 +362,8 @@ Open from the noun-morphology programme, unrelated to wiring.
 | 2026-09-04 | Danish: 7 duplicates removed, 30 lessons unlocked, 3 authored — 0 dangling, 0 unlisted |
 | 2026-09-04 | American English: 99 lessons authored, 14 review stubs and 4 placeholder spelling lessons rebuilt — 0 dangling, 0 unlisted |
 | 2026-09-04 | `validate-content.ts` + `generate-chapters-json.ts` added; foundations now count only reachable lessons |
+| 2026-09-04 | **§5 reframed.** Inventory built (`content_inventory`); five lessons authored that were blocking 37 complete chapters — japanese, korean, swedish now 15/15 |
+| 2026-09-04 | lq-english: australian, british and scottish derived from american, 0 → 10 chapters each; 36 culture lessons authored per variant |
 | 2026-09-04 | **§4 written.** `createContentWiringTests` in `@learnquest/unit-core`, green on all 14 apps; awaiting a publish |
 | 2026-09-04 | South Asian morphology **applied** — 707 blocks across 102 files in 5 languages; empty case cells now dropped rather than written as `""` |
 | 2026-09-04 | **§2 resolved.** The regression I flagged never existed — the emit path gates on `locale-manifest.json`, not `chapters.json`. Real fault found instead: `enabled` ignored by all 14 generators, 39 alpha locales shipping against the flag. Fixed; 6,410 emitted files withdrawn |
