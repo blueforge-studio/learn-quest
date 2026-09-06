@@ -180,3 +180,4 @@ missing audio refs.
 | date | what landed |
 |---|---|
 | 2026-09-06 | Plan opened. T1.1 and T1.2 started. |
+| 2026-09-06 | **T1.1 built and verified locally** (lq-core PR #39, app PRs nordic #12 / english #8 / romance #10). Three more faults surfaced on the way: `GameFlowApp` put the shell on the memory router's `*` route, so every game-flow screen unmounted the shell and its router (now an overlay over a permanently mounted shell); the shell-rendered concept and multiple-choice screens had no completion action at all; and `useGameLoop().completeLesson` writes activity rows and achievements through the app database, which in a group app is the Postgres adapter — its rejection aborted completions half-way (the shell now runs the pure `ProgressionService` and treats the database as best effort). Apps need `react-router-dom` deduped and pre-bundled in vite. |
