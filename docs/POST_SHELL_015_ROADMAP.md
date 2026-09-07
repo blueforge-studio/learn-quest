@@ -87,6 +87,32 @@ Verify one app end to end (first-run → map) before batch-merging the rest.
   default when no map is configured. Either ship the per-app map under `/data/`
   or skip the fetch for group apps.
 
+### T1.5 Lesson-type consolidation (agent, after 0.15.2 ships)
+
+**Measured 2026-09-07.** Content across all 13 language repos uses exactly ten
+`lesson.type` values (vocab 1565, concept 560, drill 404, multiple-choice 352,
+conversation 336, culture 334, word-order 318, spelling 309, dialogue 302,
+review 61). The 22-member `LessonType` union is the Thai-era design; the other
+twelve have no content anywhere.
+
+**State.** `@learnquest/lang-lesson-types` (lq-core `libs/lang/lesson-types`)
+holds 16 screens but exports 5 — the rest still read `useParams` and import
+from the deleted `apps/web` tree via `@/` aliases (tasks #184-#185). That is
+why thin re-implementations of concept and multiple-choice exist in both
+`app-shell/src/shell-adapters/` and `web-app/src/screens/`, why spelling and
+word-order go through the school-style activity renderer, and why `review`
+rendered the unknown-lesson stub in production (fixed in web-app 0.3.7 by
+mapping it to the concept screen — same intro/sections/tips shape).
+
+**Target.** Defaults in lq-core; app-specific types via each lq- app's
+`createApp({ screens })` override (already supported). In content-weight
+order: port the original concept, multiple-choice, word-order and spelling
+screens to the prop contract (`{lesson, config, onBack, onComplete}`), delete
+the two copies each, keep `ContentLessonScreen` only as the non-lang fallback,
+archive the seven zero-content legacy screens instead of porting them, prune
+the union last. **Done when** `DEFAULT_LESSON_SCREENS` has one source per type,
+every entry completes a lesson, and `screens/*` in web-app is gone.
+
 ---
 
 ## Tier 2 — deployment readiness (§C–§E of the 2026-09-04 plan)
