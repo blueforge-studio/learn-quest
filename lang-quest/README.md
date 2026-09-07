@@ -24,3 +24,19 @@ The language apps (language quests) can be integrated with the school app `Brigh
 | Southeast Asian | `lang-quest/lq-southeast-asian/` |
 | Uralic | `lang-quest/lq-uralic/` |
 | West Slavic | `lang-quest/lq-west-slavic/` |
+## Brand: one mark, fourteen repos
+
+Every group repo deploys as its own control-plane app, but they are one
+product on blueforge.studio (`lang-quest`). forge-control reads
+`blueforge.product.yml` from the repo it deploys, so each group repo carries
+the sidecar and the mark it references. Do not edit those copies:
+
+```bash
+node lang-quest/scripts/sync-brand.mjs            # write into every lang-quest/lq-* checkout present
+node lang-quest/scripts/sync-brand.mjs --dir ../lq-nordic   # one checkout
+node lang-quest/scripts/sync-brand.mjs --check    # CI: exit 1 when a copy drifted
+```
+
+Source of truth is `lang-quest/brand/` (`logo-512.webp`, `og.webp`). Change
+a file there, re-run, commit the group repos; their next deploy uploads the new
+sha (see blueforge `docs/deploy/asset-sync.md`).
