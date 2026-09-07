@@ -145,6 +145,21 @@ real French lessons. Cheapest chapters first, `set-ship-chapters.ts`, redeploy.
 ~1,700 authored files behind a flag. Audit one disabled tree for translation
 quality; promote what passes with a written reason for the rest.
 
+### T2.5 Word-order content is not shippable (content pipeline; agent measures, human decides)
+
+`lq-operations/scripts/validate-word-order.ts` (PR #3, 2026-09-07) over all
+14 lang repos: 763 lessons, 4,550 exercises, **3,040 errors** (57% under
+three words, 384 not scrambled, 42 unsolvable, one Cyrillic-lettered
+`scрамbledWords` key) and 3,303 suspicious. Chapters 1–5's
+`word-order-{simple,daily,directions,possessives,prepositions}` are
+auto-assembled bags of chapter-1 pronouns and politeness words in nearly every
+language; only the `-1`-suffixed lessons are hand-written. Four exercise
+schemas coexist (localized chips, lq-english `scrambled: "a / b / c"`, Thai
+`correctSequence`, Japanese ch-9 without chips). Options: regenerate through
+lq-tools with the validator as the gate, or set the generated lessons
+`status: hidden` until then. Either way the 318 word-order lessons should not
+count toward `shipChapters`.
+
 ---
 
 ## Tier 3 — the 2026-09-04 handover items still waiting on a human
@@ -214,3 +229,4 @@ missing audio refs.
 | 2026-09-07 | PACKR_TOKEN rotated (human), publish rerun green: app-services 0.1.5, screen-profile 0.2.6, screen-onboarding 0.3.1, app-shell 0.15.1, web-app 0.3.6 on packr. Dependency-bump PRs nordic #13 / english #9 / romance #11 merged after green gates; progress loop re-verified on the published packages. Nordic redeployed (e4715122). |
 | 2026-09-07 | **Nordic production re-baseline (T1.2 closes for nordic): MiniMax-M3 66.4 / 100** over 16 screens, 128 issues (was 64.8 local on 09-06; english local 59.5). Probe against production passed end to end: onboard → map node → Start → Complete → level-up → Continue → reload keeps XP and lesson 2 unlocked. Expectations: 5 pass / 3 warning / **0 fail** — the carousel axe critical is gone; the three warnings (front door, lesson map, site landing) are console noise only. Lowest screens now: Concept lesson 0.45 (one unbroken text block — content shape, not chrome), Settings 0.52 and Switch-language 0.55 (bottom nav pill overlaps the last card in stitched full-page captures — needs a bottom spacer equal to the nav height), chapter map 0.55 (`school` badge clipped at the left edge), Profile 0.55 (blank band below the nav). All four chrome items are in the proposed follow-up list (bottom-nav spacer, badge clipping, guest profile). Results JSON in lq-nordic `screen-audit/results/2026-09-07/`. |
 | 2026-09-07 | **Audit follow-ups built and verified locally** (lq-core PR #40: app-shell 0.15.2, ui 0.1.5, game-features 0.2.10, lang-lesson-types 0.1.4, web-app 0.3.7). Root causes behind four of the five lowest production screens: the content inset added the release banner a second time (the banner is in flow, the app root already starts below it) — ~80px gap under the bar on every page and a banner-height scroll on short pages; the map node icon was a Material Symbols ligature that renders as the word "school" until the webfont arrives; the version badge and force-sync button shipped to learners. Lesson completion: the five ported lesson-type screens used `onBack` as their finish handler, so vocab/drill/culture/conversation/dialogue never completed; spelling and word-order rendered one exercise with no finish and crashed on localized word objects; `review` hit the unknown-lesson stub. All ten content types now render and complete (probe: vocab Finish → level-up → Continue → chapter map, mobile + desktop). Content bug seen on the way: danish `word-order-simple` exercise 1 has `correctSentence: "jeg tak du"` (hint "I thank you") — authoring fault, not code. Next: gate → merge → publish → nordic bump (preconnect for the icon font prepared in `chore/shell-0-15-2`) → deploy → re-audit. |
+| 2026-09-07 | Parallel worktree batch while PR #40 sat in the queue: lq-core PR #41 (packr auth preflight before `turbo build`, 15 tests), lq-operations PR #2 + lq-nordic PR #16 (`returning-one-done` persona, `progress-persists` flow — passes 6/6 against production), lq-operations PR #3 (word-order validator → **T2.5**: the fleet's word-order content is mostly auto-assembled and fails structurally). |
