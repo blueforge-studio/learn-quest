@@ -17,28 +17,31 @@ batch:
   version: 2
   slug: batch-1
   created: 2026-09-10
-  updated: 2026-09-10   # pilot-20 verdict applied: Imagen-4 unavailable; Tier A = 3.1-flash; Tier A' = flash-lite (pending trial)
+  updated: 2026-09-10   # multi-model 5x5 verdict applied: Tier A = 3.1-flash; Tier B = gpt-image-1 medium; Tier B' = flash-lite (demoted)
   status: pending
   prerequisites:
     - pilot-20-verdict          # see pilot-imagen4-vs-gemini3.1.md — DONE 2026-09-10
-    - pilot-100-verdict         # see pilot-imagen4-vs-gemini3.1.md
-    - flash-lite-5img-trial     # PENDING 2026-09-10 — see task #26
+    - multi-model-5x5-verdict   # 2026-09-10 — see 00-program-overview.md § Multi-model 5x5 verdict
+    - pilot-100-verdict         # see pilot-imagen4-vs-gemini3.1.md — should include gpt-image-1 row
     - lq-tools-style-directive-pr-merged   # BLOCKER for hitting target scores
   totalApps: 3
   totalImages: 1007
   estimatedCost:
-    hybrid: $62.00              # Tier A 3.1-flash lesson scenes + Tier B 2.5-flash realtime base
-    allFlashLite: $33.84        # 1007 × $0.0336 — if Tier A' trial confirms quality
+    hybrid: $59.66              # Tier A 3.1-flash lesson scenes (494 imgs × $0.067 = $33.10) + Tier B gpt-image-1 medium subject base (312 imgs × $0.042 = $13.10) + lesson scenes (covered above)
+    allFlashLite: $33.84        # 1007 × $0.0336 — flash-lite scored 3.0/10 on 5x5, below 6.0 target — NOT recommended as primary; cheapest fallback only
     allGemini2_5_flash: $39.27  # cheap fallback (post-directive)
-    allGemini3_1_flash: $67.47  # premium fallback
+    allGemini3_1_flash: $67.47  # premium fallback (all-Tier A)
+    hybrid_gpt_image_1: $59.66  # NEW 2026-09-10 — beats $62 2.5-flash hybrid on quality (3.8/10 vs 2.7/10) at $0.83 more
     note: "REALTIME MODE — uses GEMINI_API_KEY from env. --batch disabled (triggers Vertex AI auth path)."
 
-# Tier definitions. Cost references @blueforge-studio/image-gen pricing.ts (v0.2.3).
+# Tier definitions. Cost references @blueforge-studio/image-gen pricing.ts (v0.2.4).
 # NOTE 2026-09-10: Imagen-4 (imagen-4.0-generate-001) and Imagen-4-fast are NOT exposed via
 # the public Gemini API — Vertex AI OAuth is required. Pilot 20 confirmed both return
 # `404 NOT_FOUND` when invoked via GEMINI_API_KEY. Tier A demoted to gemini-3.1-flash.
-# 2026-09-10: Tier A' (flash-lite) added with VERIFIED pricing from https://ai.google.dev/pricing.
-# Trial pending — if avg ≥ 4.0 on 5-image lq-anatomy, replace Tier A.
+# 2026-09-10 (multi-model 5x5 verdict): flash-lite DEMOTED from Tier A' to Tier B' (3.0/10
+# on clean-prompt sample, below 6.0 target). gpt-image-1 medium PROMOTED to Tier B
+# (3.8/10, beats 2.5-flash pilot 20 2.7/10 at $0.003 more per image).
+# VERIFIED providers (multi-model audit 2026-09-10): gemini-3.1-flash 6.0/10; gpt-image-1 3.8/10; gemini-3.1-flash-lite 3.0/10; replicate-flux-schnell 2.6/10; fal-seedream-5 1.2/10.
 tiers:
   gemini-3.1-flash:
     model: gemini-3.1-flash-image
@@ -48,8 +51,21 @@ tiers:
     mode: realtime
     auth: GEMINI_API_KEY
     targetScore: 6.0
-    pilotResult: "lq-anatomy n=10, avg 4.0 (+3.0 from 1.0 floor, 60% art-style match)"
+    pilotResult: "lq-anatomy n=10, avg 4.0 (+3.0 from 1.0 floor, 60% art-style match) — hard inputs"
+    multiModel5x5: "lq-anatomy n=5, avg 6.0 (clean educational prompts) — VERIFIED on this tier"
     useFor: "Tier A — lesson scenes, rpg/avatars/backgrounds/bosses/equipment"
+  gpt-image-1-medium:
+    model: gpt-image-1
+    provider: openai
+    costPerImage: 0.042
+    qualityTier: medium
+    batchApi: false
+    mode: realtime
+    auth: OPENAI_API_KEY        # alias OPEN_AI_KEY (user env) works — read both
+    targetScore: 5.0
+    multiModel5x5: "lq-anatomy n=4, avg 3.8 (1 OpenAI moderation block) — TIER B NEW 2026-09-10"
+    note: "OPENAI moderation blocked 1/5: 'transparent human body' → 'sexual' category; anatomical content may need prompt rewording"
+    useFor: "Tier B — subject-folder base, lessons/general, non-anatomical content"
   gemini-3.1-flash-lite:
     model: gemini-3.1-flash-lite-image
     provider: gemini
@@ -59,8 +75,8 @@ tiers:
     auth: GEMINI_API_KEY
     targetScore: 6.0
     pricingVerified: 2026-09-10  # https://ai.google.dev/pricing — see blueforge-org#114
-    pilotResult: "NOT YET — 5-image trial pending (task #26)"
-    useFor: "Tier A' candidate — if trial avg ≥ 4.0, replaces Tier A at half the cost"
+    multiModel5x5: "lq-anatomy n=5, avg 3.0 (below 6.0 target — DEMOTED 2026-09-10 from Tier A' candidate)"
+    useFor: "Tier B' — only for non-critical general/ images where quality bar is lowest; use 2.5-flash if budget allows"
   gemini-2.5-flash:
     model: gemini-2.5-flash-image
     provider: gemini
@@ -70,7 +86,29 @@ tiers:
     auth: GEMINI_API_KEY
     targetScore: 5.0
     pilotResult: "lq-anatomy n=10, avg 2.7 (+1.7 from 1.0 floor, 60% art-style match)"
-    useFor: "Tier B — base images, subject-folder lessons, lessons/general"
+    useFor: "Tier C — fallback when gpt-image-1 unavailable (provider down, OpenAI key missing, or rationing spend)"
+  replicate-flux-schnell:
+    model: black-forest-labs/flux-schnell
+    provider: replicate
+    costPerImage: 0.003
+    batchApi: false
+    mode: realtime
+    auth: REPLICATE_API_TOKEN
+    targetScore: 6.0
+    multiModel5x5: "lq-anatomy n=5, avg 2.6 (below target — placeholder use only)"
+    useFor: "(placeholder only) ultra-cheap $0.003 placeholders for content where visual quality doesn't matter; rate-limit 6 req/min — must pace"
+    status: OPTIONAL
+  fal-seedream-5:
+    model: fal-ai/seedream-5
+    provider: fal
+    costPerImage: 0.0262   # $0.026/MP × 1MP @ 1K
+    batchApi: false
+    mode: realtime
+    auth: FAL_AI_KEY
+    targetScore: 6.0
+    multiModel5x5: "lq-anatomy n=5, avg 1.2 — EXCLUDED 2026-09-10"
+    status: EXCLUDED
+    useFor: "(none) — quality too low"
   imagen-4:
     model: imagen-4.0-generate-001
     provider: gemini
@@ -99,9 +137,11 @@ pacing:
   auditBatchSize: 500
   retryRate: 0.10
 
-# Acceptance gate per tier (post-pilot-20, pre-directive target; raise after directive lands)
+# Acceptance gate per tier (post-pilot-20 + post-multi-model-5x5, pre-directive target; raise after directive lands)
 acceptanceGate:
   gemini-3.1-flash: { keepIf: "score >= 4.0", revertIf: "score < 4.0", postDirectiveTarget: 6.0 }
+  gpt-image-1-medium: { keepIf: "score >= 3.5", revertIf: "score < 3.5", postDirectiveTarget: 5.0 }
+  gemini-3.1-flash-lite: { keepIf: "score >= 3.0", revertIf: "score < 3.0", postDirectiveTarget: 6.0 }
   gemini-2.5-flash: { keepIf: "score >= 3.0", revertIf: "score < 3.0", postDirectiveTarget: 5.0 }
   revertMethod: "git checkout -- <file> after audit"
   textOnlyRevertAboveThreshold: false
@@ -140,7 +180,7 @@ apps:
         budgetPerCall: 20
         costEstimate: $12.19  # 182 × $0.067
       - type: regen-file
-        tier: gemini-2.5-flash
+        tier: gpt-image-1-medium
         filterPaths:
           - public/images/lessons/comprehension/
           - public/images/lessons/literature/
@@ -149,7 +189,7 @@ apps:
           - public/images/lessons/general/
         regenFile: /tmp/lq-reading-base-regen.json
         budgetPerCall: 15
-        costEstimate: $4.45   # 114 × $0.039
+        costEstimate: $4.79   # 114 × $0.042 (gpt-image-1 medium)
 
   - name: lq-writing
     path: school-quest/lq-writing
@@ -182,7 +222,7 @@ apps:
         budgetPerCall: 20
         costEstimate: $14.47  # 216 × $0.067
       - type: regen-file
-        tier: gemini-2.5-flash
+        tier: gpt-image-1-medium
         filterPaths:
           - public/images/lessons/creative/
           - public/images/lessons/essays/
@@ -191,7 +231,7 @@ apps:
           - public/images/lessons/general/
         regenFile: /tmp/lq-writing-base-regen.json
         budgetPerCall: 15
-        costEstimate: $3.55   # 91 × $0.039
+        costEstimate: $3.82   # 91 × $0.042 (gpt-image-1 medium)
 
   - name: lq-math
     path: school-quest/lq-math
@@ -236,7 +276,7 @@ apps:
         budgetPerCall: 20
         costEstimate: $18.56  # 277 × $0.067
       - type: regen-file
-        tier: gemini-2.5-flash
+        tier: gpt-image-1-medium
         filterPaths:
           - public/images/lessons/algebra/
           - public/images/lessons/arithmetic/
@@ -246,7 +286,7 @@ apps:
           - public/images/lessons/general/
         regenFile: /tmp/lq-math-base-regen.json
         budgetPerCall: 15
-        costEstimate: $4.17   # 107 × $0.039
+        costEstimate: $4.49   # 107 × $0.042 (gpt-image-1 medium)
 
 # Variant regeneration is automatic via processConfigBatch + image-processor.generateVariants.
 # No separate variant regen unit needed.
