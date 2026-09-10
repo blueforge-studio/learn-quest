@@ -1,0 +1,174 @@
+# batch-2.yml — driver for batch 2 (school science+geography ch1-5)
+#
+# History deferred — see batch-2-school-remaining-ch1-5.md "history carve-out"
+# Generated 2026-09-10.
+
+batch:
+  name: school-remaining-ch1-5
+  version: 1
+  slug: batch-2
+  created: 2026-09-10
+  status: pending
+  prerequisites:
+    - batch-1-complete
+    - pilot-20-and-100-verdicts-applied
+  totalApps: 2          # lq-history deferred (see batch-2 doc)
+  totalImages: 1153
+  estimatedCost:
+    hybrid: $45.84             # Imagen-4 lesson scenes + 2.5-flash realtime base
+    allImagen4: $46.12
+    tierCFallback: $69.27      # Tier A → 3.1-flash realtime
+    tierDFallback: $23.06      # Imagen-4-fast for everything
+    note: "REALTIME MODE — uses GEMINI_API_KEY from env. --batch disabled."
+
+# Inherit tier definitions from batch-1.yml
+tiers: &tiers
+  imagen-4:
+    model: imagen-4.0-generate-001
+    provider: gemini
+    costPerImage: 0.040
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 7.5
+  gemini-2.5-flash:
+    model: gemini-2.5-flash-image
+    provider: gemini
+    costPerImage: 0.039
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+  gemini-3.1-flash:
+    model: gemini-3.1-flash-image
+    provider: gemini
+    costPerImage: 0.067
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+  imagen-4-fast:
+    model: imagen-4.0-fast-generate-001
+    provider: gemini
+    costPerImage: 0.020
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+
+pacing:
+  budgetPerCall: 4.00
+  maxImagesPerBatch: 200
+  auditBatchSize: 500
+
+acceptanceGate:
+  imagen-4: { keepIf: "score >= 7.5", revertIf: "score < 7.5" }
+  gemini-2.5-flash: { keepIf: "score >= 6.0", revertIf: "score < 6.0" }
+  gemini-3.1-flash: { keepIf: "score >= 6.0", revertIf: "score < 6.0" }
+  imagen-4-fast: { keepIf: "score >= 6.0", revertIf: "score < 6.0" }
+
+apps:
+
+  - name: lq-science
+    path: school-quest/lq-science
+    branch: deploy/hetzner-science-quest   # verify before batch starts
+    configDir: lq-tools/packages/image-tools/src/config/subjects/science
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 672, needsRegen: 462, avgScore: 2.5 }   # verify
+    imageCounts:
+      lessonsGeneral: 177   # 672 - 495
+      chapter1: 15
+      chapter2: 120
+      chapter3: 120
+      chapter4: 120
+      chapter5: 120
+      chapter1to5: 495
+      baseTotal: 672
+    regenUnits:
+      - type: chapter
+        tier: imagen-4
+        chapters: [1, 2, 3, 4, 5]
+        paths:
+          - public/images/lessons/lq-science/chapter-1/
+          - public/images/lessons/lq-science/chapter-2/
+          - public/images/lessons/lq-science/chapter-3/
+          - public/images/lessons/lq-science/chapter-4/
+          - public/images/lessons/lq-science/chapter-5/
+        budgetPerCall: 20
+        costEstimate: $19.80  # 495 × $0.04
+      - type: regen-file
+        tier: gemini-2.5-flash
+        filterPaths:
+          - public/images/lessons/   # everything outside lessons/lq-science/
+            exclude:
+              - public/images/lessons/lq-science/chapter-1/
+              - public/images/lessons/lq-science/chapter-2/
+              - public/images/lessons/lq-science/chapter-3/
+              - public/images/lessons/lq-science/chapter-4/
+              - public/images/lessons/lq-science/chapter-5/
+        regenFile: /tmp/lq-science-base-regen.json
+        budgetPerCall: 15
+        costEstimate: $6.90    # 177 × $0.039
+
+  - name: lq-geography
+    path: school-quest/lq-geography
+    branch: deploy/hetzner-geography-quest   # verify before batch starts
+    configDir: lq-tools/packages/image-tools/src/config/subjects/geography
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json   # verify
+    auditSummary: { total: 481, needsRegen: 286, avgScore: 2.5 }   # verify
+    imageCounts:
+      lessonsGeneral: 108   # 481 - 373
+      chapter1: 21
+      chapter2: 88
+      chapter3: 88
+      chapter4: 88
+      chapter5: 88
+      chapter1to5: 373
+      baseTotal: 481
+    regenUnits:
+      - type: chapter
+        tier: imagen-4
+        chapters: [1, 2, 3, 4, 5]
+        paths:
+          - public/images/lessons/lq-geography/chapter-1/
+          - public/images/lessons/lq-geography/chapter-2/
+          - public/images/lessons/lq-geography/chapter-3/
+          - public/images/lessons/lq-geography/chapter-4/
+          - public/images/lessons/lq-geography/chapter-5/
+        budgetPerCall: 20
+        costEstimate: $14.92  # 373 × $0.04
+      - type: regen-file
+        tier: gemini-2.5-flash
+        filterPaths:
+          - public/images/lessons/
+            exclude:
+              - public/images/lessons/lq-geography/chapter-1/
+              - public/images/lessons/lq-geography/chapter-2/
+              - public/images/lessons/lq-geography/chapter-3/
+              - public/images/lessons/lq-geography/chapter-4/
+              - public/images/lessons/lq-geography/chapter-5/
+        regenFile: /tmp/lq-geography-base-regen.json
+        budgetPerCall: 15
+        costEstimate: $4.21    # 108 × $0.039
+
+# lq-history is deferred. See batch-2 doc "history carve-out".
+# When ready, the future batch-2-history-extension.yml should follow this same shape,
+# but with chapters spanning 7 eras × 5 regions (35 sub-trees).
+
+postStep:
+  audit:
+    model: minimax-m3
+    provider: minimax
+    rateLimit: 80
+    budgetPerApp: 2
+  commit:
+    message: "batch-2: regenerate {totalImgs} base + ch1-5 ({tierSummary})"
+    branches:
+      - lq-science: deploy/hetzner-science-quest
+      - lq-geography: deploy/hetzner-geography-quest
+
+sequence:
+  - app: lq-science
+    reason: "more chapter images (495 vs 373), bigger impact first"
+  - app: lq-geography
+    reason: "smaller scope, cleaner tail-end of batch"
