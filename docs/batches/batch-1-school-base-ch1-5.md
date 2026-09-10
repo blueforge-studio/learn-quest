@@ -19,9 +19,11 @@
 **Tier mapping (per [program overview](./00-program-overview.md)) — PILOT-VERIFIED 2026-09-10:**
 
 - **Tier A — Gemini-3.1-flash realtime (target ≥ 6.0):** all lesson scenes (chapters 1-5) + lq-math `rpg/{avatars,backgrounds,bosses,equipment}/` (20 base)
+- **Tier A' (PENDING TRIAL) — Gemini-3.1-flash-lite realtime (target ≥ 6.0, $0.0336/img VERIFIED):** pricing live on Gemini API as of 2026-09-10. If 5-image lq-anatomy trial (task #26) hits avg ≥ 4.0, this replaces Tier A at half the cost — batch 1 drops from $62 → $34.
 - **Tier B — Gemini-2.5-flash realtime (target ≥ 5.0):** subject-folder base + `lessons/general/`
 
 > **Tier model revision:** Pilot 20 (2026-09-10) confirmed Imagen-4 is unavailable via `GEMINI_API_KEY` (Vertex AI only — `404 NOT_FOUND`). Tier A is now `gemini-3.1-flash-image` ($0.067). Pilot 20: 3.1-flash avg 4.0 (+3.0 from floor) beats 2.5-flash avg 2.7 (+1.7) by **+1.3 points**. Both below target until the lq-tools style-directive PR lands.
+> **2026-09-10 update:** Tier A' added — `gemini-3.1-flash-lite-image` VERIFIED at $0.0336/img from https://ai.google.dev/pricing (blueforge-org#114, image-gen 0.2.3). Trial pending.
 
 Image count by tier:
 
@@ -183,8 +185,9 @@ No separate variant-regen step needed.
 
 Cost bands:
 - **Recommended (hybrid, pilot-verdict):** 695 × $0.067 + 312 × $0.039 = **$58.74** → round to **$62**.
+- **Tier A' candidate (flash-lite, VERIFIED pricing 2026-09-10):** 1007 × **$0.0336** = **$33.84**. If the 5-image trial (task #26) hits avg ≥ 4.0, replace Tier A entirely with flash-lite. Saves ~$28 vs hybrid, ~$33 vs all-3.1-flash.
 - **All-2.5-flash** (cheap, post-directive): 1007 × $0.039 = **$39.27**.
 - **All-3.1-flash** (premium): 1007 × $0.067 = **$67.47**.
 - ~~All-Imagen-4~~ **N/A** — Vertex AI only, requires gcloud OAuth.
 - ~~Imagen-4-fast fallback~~ **N/A** — same.
-- **Best-case (post-directive, all-2.5-flash): ~$39. Worst-case (all-3.1-flash): ~$67.**
+- **Best-case (post-directive + Tier A' confirmed): ~$34. Recommended hybrid: ~$62. Worst-case (all-3.1-flash): ~$67.**

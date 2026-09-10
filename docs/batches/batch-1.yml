@@ -17,24 +17,28 @@ batch:
   version: 2
   slug: batch-1
   created: 2026-09-10
-  updated: 2026-09-10   # pilot-20 verdict applied: Imagen-4 unavailable; Tier A = 3.1-flash
+  updated: 2026-09-10   # pilot-20 verdict applied: Imagen-4 unavailable; Tier A = 3.1-flash; Tier A' = flash-lite (pending trial)
   status: pending
   prerequisites:
     - pilot-20-verdict          # see pilot-imagen4-vs-gemini3.1.md — DONE 2026-09-10
     - pilot-100-verdict         # see pilot-imagen4-vs-gemini3.1.md
+    - flash-lite-5img-trial     # PENDING 2026-09-10 — see task #26
     - lq-tools-style-directive-pr-merged   # BLOCKER for hitting target scores
   totalApps: 3
   totalImages: 1007
   estimatedCost:
     hybrid: $62.00              # Tier A 3.1-flash lesson scenes + Tier B 2.5-flash realtime base
+    allFlashLite: $33.84        # 1007 × $0.0336 — if Tier A' trial confirms quality
     allGemini2_5_flash: $39.27  # cheap fallback (post-directive)
     allGemini3_1_flash: $67.47  # premium fallback
     note: "REALTIME MODE — uses GEMINI_API_KEY from env. --batch disabled (triggers Vertex AI auth path)."
 
-# Tier definitions. Cost references @blueforge-studio/image-gen pricing.ts.
+# Tier definitions. Cost references @blueforge-studio/image-gen pricing.ts (v0.2.3).
 # NOTE 2026-09-10: Imagen-4 (imagen-4.0-generate-001) and Imagen-4-fast are NOT exposed via
 # the public Gemini API — Vertex AI OAuth is required. Pilot 20 confirmed both return
 # `404 NOT_FOUND` when invoked via GEMINI_API_KEY. Tier A demoted to gemini-3.1-flash.
+# 2026-09-10: Tier A' (flash-lite) added with VERIFIED pricing from https://ai.google.dev/pricing.
+# Trial pending — if avg ≥ 4.0 on 5-image lq-anatomy, replace Tier A.
 tiers:
   gemini-3.1-flash:
     model: gemini-3.1-flash-image
@@ -46,6 +50,17 @@ tiers:
     targetScore: 6.0
     pilotResult: "lq-anatomy n=10, avg 4.0 (+3.0 from 1.0 floor, 60% art-style match)"
     useFor: "Tier A — lesson scenes, rpg/avatars/backgrounds/bosses/equipment"
+  gemini-3.1-flash-lite:
+    model: gemini-3.1-flash-lite-image
+    provider: gemini
+    costPerImage: 0.0336
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+    pricingVerified: 2026-09-10  # https://ai.google.dev/pricing — see blueforge-org#114
+    pilotResult: "NOT YET — 5-image trial pending (task #26)"
+    useFor: "Tier A' candidate — if trial avg ≥ 4.0, replaces Tier A at half the cost"
   gemini-2.5-flash:
     model: gemini-2.5-flash-image
     provider: gemini
