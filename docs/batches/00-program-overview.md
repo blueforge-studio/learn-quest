@@ -16,17 +16,18 @@ This program runs a three-stage regeneration sweep across the fleet's school + l
 **Headline cost (worst-case all-Tier C 3.1-flash realtime):** ~$228
 **Headline cost (Tier A Imagen-4 + Tier B 2.5-flash realtime):** **N/A — Imagen-4 unavailable** (Vertex AI only; `GEMINI_API_KEY` returns 404)
 **Headline cost (Tier C 3.1-flash + Tier B 2.5-flash realtime, pilot-verified 2026-09-10):** ~$192
+**Headline cost (Tier A' all flash-lite realtime, pricing-verified 2026-09-10):** ~$119 (if 5-img trial confirms quality ≥ Tier A)
 **Headline cost (all 2.5-flash realtime):** ~$136
 **Headline cost (all Imagen-4-fast):** **N/A** (Vertex AI only)
 
 Per-batch bands (realtime mode, post-pilot-20 2026-09-10):
-| Batch | Tier A 3.1-flash + Tier B 2.5-flash | All 2.5-flash (cheap) | Tier C all 3.1-flash (premium) |
+| Batch | Tier A 3.1-flash + Tier B 2.5-flash | All 2.5-flash (cheap) | Tier A' all flash-lite (pending trial) |
 |---|---:|---:|---:|
-| Pilot 20 (DONE) + Pilot 100 (TBD) | $1.06 + ~$4 | ~$5 | ~$7 |
-| Batch 1 (school reading+writing+math, 1007 imgs) | ~$62 | $39 | $67 |
-| Batch 2 (school science+geography, 1153 imgs) | ~$70 | $45 | $77 |
-| Batch 3 (5 life apps, 1249 imgs) | ~$71 | $49 | $84 |
-| **Total** | **~$208** | **~$141** | **~$236** |
+| Pilot 20 (DONE) + Pilot 100 (TBD) | $1.06 + ~$4 | ~$5 | ~$4 (if 5-img trial confirms) |
+| Batch 1 (school reading+writing+math, 1007 imgs) | ~$62 | $39 | ~$34 |
+| Batch 2 (school science+geography, 1153 imgs) | ~$70 | $45 | ~$39 |
+| Batch 3 (5 life apps, 1249 imgs) | ~$71 | $49 | ~$42 |
+| **Total** | **~$208** | **~$141** | **~$119** (if flash-lite wins) |
 
 The pilot-verdict default is **Tier A = 3.1-flash** (lesson scenes, rpg base), **Tier B = 2.5-flash** (subject-folder base). All-2.5-flash is the cheap fallback if quality target flexes.
 
@@ -51,9 +52,12 @@ The pilot-verdict default is **Tier A = 3.1-flash** (lesson scenes, rpg base), *
 | Tier | Model | Provider | Mode | $/img | Target | Pilot result (lq-anatomy, n=10) | Used for |
 |---|---|---|---|---:|---|---|---|
 | **A** | `gemini-3.1-flash-image` | `gemini` | realtime | $0.067 | ≥ 6.0 | **avg 4.0** (+3.0 from floor, 2/10 high, 60% art-match) | lesson scenes, rpg base, character art |
+| **A' (pending)** | `gemini-3.1-flash-lite-image` | `gemini` | realtime | **$0.0336** | ≥ 6.0 | not piloted — candidate Tier A replacement, half the cost of 3.1-flash | lesson scenes, base images (post 5-img pilot) |
 | **B** | `gemini-2.5-flash-image` | `gemini` | realtime | $0.039 | ≥ 5.0 | **avg 2.7** (+1.7 from floor, 0/10 high, 60% art-match) | subject-folder base, `lessons/general/` |
 | ~~Tier C~~ | ~~Imagen-4 standard~~ | gemini | realtime | $0.040 | ≥ 7.5 | **unavailable** (404 — Vertex AI only) | — |
 | ~~Tier D~~ | ~~Imagen-4-fast~~ | gemini | realtime | $0.020 | ≥ 6.0 | **unavailable** (404 — Vertex AI only) | — |
+
+**Tier A' candidate (2026-09-10):** `gemini-3.1-flash-lite-image` pricing VERIFIED against https://ai.google.dev/pricing (PR blueforge-org#114, image-gen 0.2.3). Live on the Gemini API under codename "Nano Banana 2 Lite". If a 5-image lq-anatomy trial hits avg ≥ 4.0, this would replace Tier A on price AND likely quality — batch 1 would drop from $62 (hybrid) to $33 (all-flash-lite). Trial pending (task #26).
 
 **Pilot verdict:** **3.1-flash replaces Imagen-4 as Tier A** — wins by +1.3 avg quality points even on harder inputs. 2.5-flash holds as Tier B (cheap fallback for non-priority content). **Both tiers are below target** until the lq-tools style-directive PR lands (prior lq-history re-audit went avg 1.4 → 5.5+ with the directive in place).
 
