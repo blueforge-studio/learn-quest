@@ -1,0 +1,12 @@
+{
+  "name": "blueforge-sidecar-validation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Validator-only package.json so the fleet-sidecar Zod gate can install its dependency. The repo's real app code lives in lang-quest/, books-platform/, lingua-quest/, school-quest/.",
+  "scripts": {
+    "validate:sidecars": "node scripts/check-sidecars.mjs"
+  },
+  "devDependencies": {
+    "@blueforge-studio/blueforge-sidecar-schemas": "^0.3.1"
+  }
+}
