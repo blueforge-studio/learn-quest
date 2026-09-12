@@ -277,9 +277,45 @@ deploy recipe (`project_lq_nordic_shipped_2026_09_05.md`), verify live.
 ### P2.4 · Release clean languages behind unfinished siblings
 
 **Source:** `DEPLOYMENT_READINESS_ROADMAP.md` §C.
-**Per-language enablement — zero content work, just flags:**
-- lq-east-asian: `enabled: false` on chinese + cantonese → release japanese/korean at 15/15
-- lq-english: hold british/australian/scottish at `shipChapters: 10`, welsh at 5, ship american at 15
+
+**Status (2026-09-12):** **NOT a flag flip.** The language-level
+`enabled` flag and the `shipChapters` gate do not exist on any
+lq-east-asian manifest — `generate-lesson-files.ts:202` reads
+`manifest.shipChapters` but every call gets `undefined`, the cap
+fails open, and all 15 chapters ship. Chinese is currently visible
+in the picker despite only 5 chapters being authored. Cantonese has
+15 chapters authored but 84 dangling lessons.
+
+The roadmap previously stated this was "zero content work, just flags" —
+it inherited the ambiguity from the 2026-09-04 Handover, which described
+`shipChapters` as if it were set conservatively when in fact it is not
+set at all on these manifests.
+
+**What the work actually is (~½ day focused + deploy):**
+
+1. **Schema:** add `enabled` (and/or `shipChapters`) to the locale-manifest
+   schema and document it.
+2. **Generator:** thread the filter through `generate-lesson-files.ts`
+   so `enabled === false` languages are excluded from `localeIndex`.
+3. **Picker:** lq-core's language-picker reads the generated index;
+   verify the filtered index is what it expects, then ship
+   `@learnquest/web-app` (or `web-core`).
+4. **Per-app apply:**
+   - lq-east-asian: `enabled: false` on `chinese` and `cantonese`
+     → release japanese/korean at 15/15.
+   - lq-english: hold british/australian/scottish at `shipChapters: 10`,
+     welsh at 5, ship american at 15. *(Verify these fields exist on
+     lq-english manifests before acting — same cap-failing-open risk.)*
+5. **Backstop:** per the P5 entry, add a repo-level guard so a future
+   `enabled: false` cannot be silently ignored.
+
+**Gating:** steps 1–3 require publishing `@learnquest/web-app` /
+`@learnquest/web-core` / schema updates — all gated on P2.2 (PACKR_TOKEN
+publish scope, see `reference_packr_publish_path.md`). Steps 4–5 are
+local config changes.
+
+**Memory:** `project_p24_scope_2026_09_12.md` — full investigation +
+day estimate.
 
 ### P2.5 · Close lq-romance to 15 chapters
 
