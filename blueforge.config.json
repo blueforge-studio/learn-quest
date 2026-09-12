@@ -7,13 +7,6 @@
     "education",
     "quests"
   ],
-  "target": "hetzner",
-  "registry": "ghcr.io/blueforge-studio",
-  "portRange": [
-    3000,
-    3999
-  ],
-  "caddyEmail": "ops@blueforge.studio",
   "packageManager": "pnpm",
   "apps": {
     "lq-site": {
