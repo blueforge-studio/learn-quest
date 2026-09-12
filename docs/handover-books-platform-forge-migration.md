@@ -44,7 +44,16 @@ webhook endpoint), and **live** Stripe keys (test keys are in).
    `/opt/books-platform/*.docker-compose.yml` on the box and reverts manual
    fixes (loopback ports, per-app Dockerfile path, env_file). Root cause +
    fix design: `forge-control/docs/deploy/monorepo-compose-design.md`.
-   Interim: re-apply after each pipeline deploy (script the 10-file fix-up).
+   **As of 2026-09-08 each app has an `<app>.override.yml` beside its
+   generated file** pinning the published host port and the build context, so
+   a regeneration can no longer revert them — see `/opt/books-platform/README.md`
+   on the box. Always pass both files (§5). Running `docker compose up` on the
+   generated file alone republishes the container on the container port and
+   502s the site; that is what took production down on 2026-09-07.
+   Note the generated compose has **no `env_file:` directive** — its inline
+   `environment:` block is the only source, and it has carried a stale
+   `DATABASE_URL` after a password rotation. Diff it against `<app>.env`
+   before recreating.
 2. **Scene storage layouts** — content upload supports two layouts
    (`scenes/<id>.json`, `scenes/<chN>/<id|name>.json`);
    `ContentRepository.getScene` resolves all.
@@ -58,28 +67,75 @@ webhook endpoint), and **live** Stripe keys (test keys are in).
 
 ## 4. Open items
 
-| Item | Owner | Note |
-|---|---|---|
-| Merge+deploy: compose generator fixes | forge-control | design: `monorepo-compose-design.md` — D1–D4 (volumes key, empty host ports, monorepo dockerfile context, Next HOSTNAME) |
-| Redeploy build-worker after the above | infra | deployed worker predates the 2026-09-06 fixes |
-| Stripe live keys + webhook secret | ops | test checkout works today |
-| Gitea secrets ×4 + packr token rotation | ops | runbook in `docs/handover.md` §4 (2026-09-04) |
-| `/community` + `/my-books` signed-out UX | product | render empty instead of a sign-in prompt |
-| da/es content uploads + sounds CDN sync | optional | en is complete; audio still on containers |
-| image-worker domain route | optional | healthy on-box; needs Caddy route when R2 flows are wanted publicly |
+Updated 2026-09-08. Everything below is what is *not* done; the platform
+itself is live and verified.
+
+### Blocks a paid release
+
+| Item | Note |
+|---|---|
+| **Books are 5-30x shorter than the store claims** | Measured across all 17: 241 scenes, 27,396 words, ~183 minutes of reading for the entire catalogue. Individual books run 4-25 minutes against listed durations of 1-2.5 hours. At $2.99 a buyer finishes "a 2 hour book" in nine minutes. Either write more content or correct `estimatedHours` in the manifests. |
+| **Stripe account is unactivated** | `charges_enabled=false`, `details_submitted=false`, no capabilities. Live keys cannot be used until this is completed, and Connect onboarding fails for the same reason. |
+
+### Blocks a public beta
+
+| Item | Note |
+|---|---|
+| Activity books have no audio and almost no art | 0 sound files, 2 images (covers only), 4-5 minutes of content each. |
+| Adventure books barely use audio | 42 sound files but only 6 scenes reference an audio block, against 53 of the story scenes. |
+| `/community` + `/my-books` signed-out UX | Renders an empty state; fine, but unreviewed as a funnel. |
+| Reader flows never screen-audited | The storefront funnel was walked and fixed on 2026-09-08; the four readers themselves have not had the same pass. |
+
+### Operational
+
+| Item | Note |
+|---|---|
+| Gitea secrets x4 + packr token rotation | Runbook in `docs/handover.md` §4. **Add the `forge-admin` token**: it sits in plaintext in every build-queue job payload on `forge-infra-redis`. |
+| forge-git push mirror does not run on its own | Confirmed 2026-09-08: no sync for 11.5 minutes on a 10-minute interval, `last_error` empty. Trigger `push_mirrors-sync` and confirm `last_update` moved, or GitHub sits hours stale. |
+| `editor.linguaquest.blueforge.studio` blank-screen bug | Same nginx defect fixed here; picks up the fix on its next regenerate with forge-ops >= 0.1.1. |
+| image-worker is routed but has no DNS | `images.questbooks.blueforge.studio` resolves as of 2026-09-08 and is auth-gated. |
+
+### Done since the last revision
+
+Paywall enforced; catalog complete at 17 books, 11 genres and 12/12 locale
+manifests; reader, author and Stripe launch paths fixed; audio off the
+container images; brand mark and icon sets; SPA cache defect fixed in the
+shared generator; Stripe webhook registered with a real signing secret.
 
 ## 5. How to redeploy (current, working)
 
+Each app has its own staged build context at `/opt/books-platform/<app>/`.
+
 ```bash
-# SPAs + APIs: after merging to the branch, ship source and rebuild on-box
-rsync -a --delete --exclude node_modules --exclude dist \
-  apps/<app> root@178.104.130.80:/opt/books-platform/books-api/apps/
+# SPAs read @learnquest/books-shared from its dist, and the generated
+# Dockerfiles never build the workspace packages — so build it first or you
+# ship a stale one.
+pnpm --filter @learnquest/books-shared build
+
+R=root@178.104.130.80:/opt/books-platform/<app>
+rsync -a --delete --exclude node_modules --exclude dist apps/<app>/ $R/apps/<app>/
+for p in books-shared books-reader; do
+  rsync -a --delete --exclude node_modules --exclude dist \
+    packages/$p/src packages/$p/package.json packages/$p/tsconfig.json $R/packages/$p/
+done
+rsync -a --exclude node_modules packages/books-shared/dist $R/packages/books-shared/
+rsync -a pnpm-lock.yaml pnpm-workspace.yaml package.json .dockerignore $R/
+
 ssh root@178.104.130.80 'cd /opt/books-platform && PACKR_TOKEN=$(cat .build-env) \
-  docker compose -f <app>.docker-compose.yml up -d --build'
+  docker compose -f <app>.docker-compose.yml -f <app>.override.yml \
+  up -d --no-deps --build <app>-1'
 ```
+
+**Both `-f` files are required** (§3.1). `--no-deps` is required for books-api:
+a bare `up` fails on the missing `books-platform-books-api-migrations:latest`
+image and leaves the API down. A failed build leaves the old container running.
+
 (Or `forge app-deploy <app> --server --no-dns --target-ip 178.104.130.80` —
-but re-apply the compose fix-ups afterwards, see §3.1.)
+the overrides survive that, but re-check the ports afterwards.)
 
 Verification sweep: the E2E spec
 `apps/lq-book-marketplace/src/e2e/tests/marketplace/browse-preview-flow.spec.ts`
-runs against `BASE_URL=https://questbooks.blueforge.studio`.
+runs against `BASE_URL=https://questbooks.blueforge.studio`. The desktop
+project passes green against production; the `chromium-mobile` project uses the
+iPhone 12 descriptor, which is **WebKit** despite its name, so it needs
+`npx playwright install webkit` first.

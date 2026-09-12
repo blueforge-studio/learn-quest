@@ -1,189 +1,201 @@
-# Handover — Household-Goals Phase 9, Narrative Engine & Monorepo Consolidation
+# Handover — 2026-09-04
 
-> Window: 2026-05 → 2026-07-13. Supersedes the 2026-04-20 regional-vocab handover
-> (archived below the fold in git history).
+Session focus: **stop widening the language fleet, deepen the finished apps and
+ship them.** Ends mid-flight on the first deploy.
 
-## TL;DR
-
-Four parallel tracks landed since the regional-asset sweep:
-
-1. **household-goals Phase 9** (lq-core) — a parent↔kid financial-literacy loop, gated
-   behind an env flag, ~40 commits, not yet pushed.
-2. **Narrative engine** (lingua-quest) — a visual quest editor with PixiJS rendering and
-   Yjs CRDT collaboration; Phases 0–3 shipped on `main`.
-3. **lingua-quest consolidation** (this session) — `backend`→`api`,
-   `collab-validator`→`collab-server`, Turborepo, config-driven Docker/deploy. On a fresh
-   branch, not yet pushed.
-4. **books-platform maturation** — E2E moved to Vitest+supertest, config-driven Docker,
-   OpenAPI + admin/author endpoints, API-backed content pipeline from MinIO.
-
-Underlying all of it: the **on-prem foundation** is now the default — Postgres + Drizzle +
-forge-auth (SSO). Supabase paths are dev/legacy only (`VITE_DB_PROVIDER=postgres`).
+Roadmaps: `docs/DEPLOYMENT_READINESS_ROADMAP.md` (current plan, authoritative),
+`docs/CONTENT_WIRING_ROADMAP.md` (earlier plan, §1-§4 closed).
+Read `docs/ASSET_RESOLUTION.md` before touching any asset path.
 
 ---
 
-## 1. household-goals Phase 9 (lq-core)
+## State at handover
 
-Parent↔kid financial literacy: kids build a wishlist and earn credits by completing goals;
-parents grant credits and adjust balances. Domain logic lives in
-`libs/app/household-goals` (server-side, pure); UI lives in `libs/screens/household-goals`.
+| | |
+|---|---|
+| §A infrastructure | **done**, committed across all 14 app repos |
+| §A4 `_shared` prefix bug | **open**, newly found, blocks a further 358 MB to ~22 MB |
+| §B ship lq-nordic | **blocked on §A4** — artifact 554 MB against a 500 MB server cap |
+| §C release clean languages | not started |
+| §D lq-romance to 15 chapters | not started, 179 lessons |
+| §E nordic disabled locales | not started, ~1,700 authored files behind a flag |
 
-**Domain surface** (`@learnquest/household-goals`):
-
-| Export | Purpose |
-|--------|---------|
-| `goalEvaluator` | Pure — evaluates an `ActiveGoal` against `EvaluationRow`s → progress + status |
-| `rewardGrantService` | Atomic parent→kid credit grant; emits `goalEventChannel` events |
-| `wishlistService` | Kid wishlist CRUD with anti-spam cooldown; kid-friendly error copy |
-| `balanceService` | Parent + kid balance rows; exposes cooldown state |
-| `activityEvaluatorDb` | Drizzle-backed `EvaluatorDb` adapter (keeps evaluator pure) |
-| `householdGoalsNotifications` | Notification fan-out (screen-reader announcements, digests) |
-| `goalEventChannel` | Realtime pub/sub for live balance / grant updates |
-| `periodBounds`, `Cadence` | Weekly / monthly / custom period helpers |
-
-**Architecture invariants** (do not break):
-- `goalEvaluator` takes `db: EvaluatorDb` so it unit-tests without a real DB.
-- All writes funnel through `rewardGrantService` / `wishlistService` — never direct DB writes from UI.
-- Anti-spam state lives in the balance row, not client memory (survives reloads).
-- Error-code → kid-friendly copy happens at the service boundary (`wishlistErrorMessages`), not in components.
-
-**UI shipped:** `WishlistScreen` (affordability + cooldown), `BalanceAdjustmentScreen`
-(parent, focus mgmt + aria-describedby), `GoalCompleteToast` (ephemeral overlay),
-"Goals today" pill on kid dashboard, credit balance under kid avatars in the profile picker.
-
-**Env gate:** the whole feature is gated by `VITE_HOUSEHOLD_FEATURE_ENABLED` in `apps/web`.
-When unset, `$locale/household/*` routes are not registered — the `householdRoutes` flag in
-`libs/common/app-shell` reads it and conditionally mounts the screens. **Gotcha:** a missing
-flag silently disables all household routes and produces ~9 false E2E smoke failures. Check
-`.env.example` and restart the dev server after toggling.
-
-**i18n:** 30 keys per locale under `household_goals.*`, scaffolded for 15 locales with
-English fallback + `_translation_pending` flag.
-
-**DB:** migration `libs/infra/database/drizzle/0008_household_goals.sql`; verify with
-`scripts/verify-household-migration.mjs`. Behavioral tests added for the 3 previously
-untested repositories. Playwright smoke template at `apps/web/e2e/household-goals.spec.ts`.
-
-**Docs:** `lq-core/docs/design/family-profile-rollout.md` (rollout phases, env gate,
-screen registry), `docs/qa/household-goals.md`, `docs/runbooks/apply-0007-households.md`.
+Fleet content faults from the earlier roadmap: `no-index` 62 → **0**, `invalid`
+188 → **0**, `unlisted` 1,416 → **0**, `dangling` 5,829 → 5,423 (pure authoring
+backlog). Languages below 5 chapters: 14 → **0**.
 
 ---
 
-## 2. Narrative engine (lingua-quest, `main`)
+## The decision this session turned on
 
-A visual quest editor + collaborative runtime for authoring branching NPC dialogue.
+Maturity is **two independent axes**, and no two apps are strong on the same one:
 
-- **P1** — visual builders, DAG layout, simulation mode, edge/node ops, multi-locale, AI repair.
-- **P2** — quest mode, PixiJS renderer, GPU shaders, flag-flow authoring.
-- **P3** — Yjs CRDT collaboration (two-way binding) with a **server-side collab-validator**
-  broadcasting validation status over awareness.
-- **quest-constraint** package — the solver feedback loop (choice conditions, quest-level adapter).
-- Content: **Mediterranean Odyssey** (Italian Roman quest) wired into chapters/locations/`DEFAULT_GAMES`
-  with Flux portraits + scene backgrounds.
+| app | clean languages (15/15, 0 dangling) | blocked languages | unit tests | images on R2 | deployed |
+|---|---|---|---|---|---|
+| **lq-nordic** | danish, icelandic, norwegian, swedish — **4 of 4** | — | **2825 pass** | yes | in flight |
+| **lq-east-asian** | japanese, korean | chinese (54 dangling), cantonese (84) | 19 pass | no | no |
+| **lq-english** | american | british/australian/scottish (37 each, clean thru ch10), welsh (85) | **3 fail** | no | no |
+| **lq-romance** | — | all 5 (179 dangling) | 22 pass | yes | **yes, live** |
 
-Roadmap + status: `lingua-quest/Handover.md` (branch-local) and the phased roadmap commit
-`1112db9`.
+**Gate per language, not per app.** `shipChapters` is app-wide, so one
+unfinished language holds back finished ones. Japanese and Korean are as clean
+as anything in lq-nordic but sit behind Chinese and Cantonese. That is §C, and
+it is a flag flip, not content work.
 
----
-
-## 3. lingua-quest consolidation (THIS SESSION — not yet pushed)
-
-Committed on a new branch **`feat/backend-api-consolidation`** (branched from the pushed
-`screen-audit/iterate-2026-05-05T14-12-14` branch to preserve its 6 feature commits —
-chapter splits + landing redesign):
-
-- **`apps/backend` removed** → routes/services/repositories folded into **`apps/api`**
-  (game routes mounted at `/api/game` behind JWT middleware, consistent with `/api/players`).
-- **`apps/collab-validator` removed** → merged into **`collab-server`** as in-process
-  `src/validator/index.ts`.
-- **Turborepo adopted** — `turbo.json` pipeline; root scripts rewritten to `turbo` + per-app `--filter`.
-- **Config-driven Docker + Hetzner deploy** — `blueforge.config.ts` single source of truth;
-  `scripts/generate-dockerfiles.ts` emits per-app `Dockerfile` + `blueforge.json` for
-  web/api/collab-server/quest-editor/site. Adds `docker-compose.prod.yml`, `port-registry.yml`,
-  Caddy config, and Hetzner deploy/DNS scripts under `deploy/`.
-
-Verified: no dangling imports to the deleted apps (only intentional origin comments remain).
-
-App layout post-consolidation:
-
-| App | Port | Type | Description |
-|-----|------|------|-------------|
-| `apps/api` | 3000 | Node/Express | REST — content, players, game state, achievements |
-| `apps/collab-server` | 3040 | Node/Hono | y-websocket collab + in-process validator |
-| `apps/web` | — | Vite SPA | LinguaQuest PWA |
-| `apps/quest-editor` | — | Vite SPA | Visual dialogue-graph editor |
-| `apps/site` | 3500 | Next.js | Marketing site |
+**`shipChapters` was set too conservatively.** It came from the contiguous run
+of chapters where *every* advertised lesson has a file. French is not a
+5-chapter course — it has authored content in all 15, missing only 2-5 lessons
+per chapter. The cap withdrew ~60 real French lessons that are serving in
+production right now. That is §D.
 
 ---
 
-## 4. books-platform maturation
+## Two corrections worth carrying forward
 
-- E2E: replaced the bash script with a **Vitest + supertest** suite; admin sub-routers re-wired.
-- **Config-driven Docker** — `blueforge.config.ts` single source of truth; per-app
-  `Dockerfile` + `blueforge.json`; ESM runtime fixes (`.js` extensions, `import.meta` guards).
-- **OpenAPI spec** + admin/author endpoints + stripe-api wiring + generated API clients.
-- **Content pipeline** — API-backed scene/chapter/meta loading from **MinIO**; book admin
-  routes + storage service + manifest upload; `upload-book-assets` migrated R2-direct → API.
-- Growth: freemium, referrals, genres, i18n, author app, landing page (WIP `cb0d2c0`).
+**1. The `ignore` lists were inert, not blocking.** I first read the configs as
+excluding each app's own lesson content from the deploy bundle, and said so.
+That was wrong. `applyIgnore` globs with `cwd` set to the **build output**
+(`dist/`), after `strategy.build()` — `forge-cli/src/lib/package-app.ts:107-112`,
+`deploy-strategies/src/ignore.ts`. Every learn-quest pattern was written against
+the *source* layout (`public/data`, `public/languages`, …) and `dist/` has no
+`public/` directory, so they matched nothing. Verified against a simulated tree:
 
-Deployed on Hetzner box 1: `books-platform-frontend-1` (8080, one nginx for all 7 SPAs),
-`books-api-1` (3009), `stripe-api-1` (3001). `books-image-worker` not yet deployed.
+```
+CURRENT config patterns -> matched: languages/french/images
+dist-relative patterns  -> matched: languages, _shared, _regional
+```
 
----
+Content ships fine — live romance serving French chapter 9 proves it. The real
+fault was the inverse: the size reduction never happened. lq-nordic built a
+**840 MB** `dist` (a stale one on disk was 1.5 GB), ~460 MB of it images already
+on R2 and served from `VITE_ASSETS_BASE_URL`.
 
-## 5. Documentation sweep (this session)
-
-Fixed staleness across every repo README/CLAUDE:
-- **lq-tools** — package count 27→28; replaced phantom `image-gen-config`/`dev-utils` with real `content-migration`/`utils`.
-- **lq-core** — documented `libs/app/` (app-hooks/services/types/config/household-goals) + Phase 9 deep-dive; corrected backend line to Postgres+Drizzle+forge-auth.
-- **books-platform** — README + CLAUDE synced to 7 SPAs + 3 backends + 5 packages + Hetzner table + turbo commands.
-- **lingua-quest** — README rewritten for the consolidated 5-app / 6-package layout; `turbo.json` added.
-- **root README** + **life-quest CLAUDE.md** — refreshed (these dirs are not git repos).
-
-**Security note:** four `.npmrc` files under lq-core (`libs/common/{app-shell,ui}`,
-`libs/screens/{household-goals,household}`) contained a **live packr registry auth token**
-(admin/publish scope, exp ~2026-09). They were **not** committed; added `.npmrc`, `*.tgz`,
-`test-results/`, and `*.tsbuildinfo` to gitignore to prevent recurrence.
+**2. Live romance is ahead of its own source.** Production advertises and serves
+15 French chapters; the source now ships 5. It was not built from current source
+through the config path — it predates this session's generator fixes.
 
 ---
 
-## Pending pushes (all committed, awaiting approval)
+## §A4 — the open bug, found while sizing §A
 
-Pushes are held because they affect shared state — **pushing lq-core to `main` triggers a
-packr publish via GitHub Actions**, and lang/subject apps pick up the new `@learnquest/*`.
+The resolver sends `_shared/...` to the CDN's **bucket root**
+(`lq-core/libs/common/assets/src/core/BaseAssetService/path-resolution.ts:22-28`).
+Every app's `assets` block pushes the same tree to `<group>/_shared/images`.
+Both tiers exist and hold different content:
 
-| Repo | State | Push target |
-|------|-------|-------------|
-| `lq-tools` | 2 unpushed commits (README fix + prior e2e runner) | `main` |
-| `books-platform` | 1 unpushed doc-sync commit | `main` |
-| `lq-core` | 70 unpushed commits (Phase 9 + docs + gitignore) | `main` — **triggers publish** |
-| `lingua-quest` | new branch `feat/backend-api-consolidation`, 5 new commits over 6 pushed | push branch, open PR |
+```
+_shared/images/chapters/chapter-13--640.webp          404
+nordic/_shared/images/chapters/chapter-13--640.webp   200
+```
 
-## Open tasks
+**20 of 54 sampled files (37%) are missing at the root** — `chapters/`,
+`vocab/`, `hero/`, `lessons/vocabulary/`. Bucket root does hold a genuinely
+cross-app tier (`_shared/sounds/`, `_shared/images/equipment/` both 200), which
+is why this survives: the inert ignore list has been shipping `_shared` from the
+app's own origin the whole time, masking it.
 
-1. **Push decisions** — confirm order; lq-core push will publish packages, so verify the GH
-   Action + downstream app pickup afterward.
-2. **lingua-quest branch strategy** — the consolidation sits on top of the `screen-audit/*`
-   auto-named branch's 6 commits. Decide whether those + the consolidation land on `main`
-   together or split.
-3. **household-goals server gaps** — streak events / realtime enrichment flagged as
-   unenriched in commits `1c7b81e8` / `7d3c5e16`; server-side follow-up needed before GA.
-4. **household i18n** — 14 non-English locales are English-fallback stubs (`_translation_pending`).
-5. **Verify migration 0008** applied in each environment via `verify-household-migration.mjs`
-   before enabling `VITE_HOUSEHOLD_FEATURE_ENABLED` in prod.
-6. **books-image-worker** — built but not deployed to Hetzner.
+**Do not "fix" this by pushing to the bucket root.** The 14 group trees are not
+interchangeable and would collide on same-named files — `chapters/chapter-2.webp`
+differs per group. The fix belongs in the resolver, which already receives
+`locale` as `<group>/<language>` and can derive the group. It needs a
+`@learnquest/assets` publish, which hits the same 403 as `unit-core`.
 
-## Key pointers
-
-| Path | What |
-|------|------|
-| `lq-core/libs/app/household-goals/` | Phase 9 domain logic (pure) |
-| `lq-core/libs/screens/household-goals/` | Phase 9 UI screens |
-| `lq-core/libs/common/app-shell` | `householdRoutes` flag + shell wiring |
-| `lq-core/docs/design/family-profile-rollout.md` | Rollout phases + env gate |
-| `lingua-quest/blueforge.config.ts` | Single source of truth for Docker/deploy |
-| `lingua-quest/apps/collab-server/src/validator/` | In-process collab validator |
-| `books-platform/blueforge.config.ts` | Single source of truth for Docker/deploy |
+Until then `_shared` stays in the bundle. That is why nordic ships 381 MB rather
+than ~22 MB.
 
 ---
-Generated 2026-07-13 at end of session.
+
+## What landed
+
+**All 14 app repos**, one commit each (`fix(deploy): make the ignore list
+actually match the tree it is applied to`):
+
+- `ignore` rewritten dist-relative, 18-33 patterns down to 2 (`languages`,
+  `_regional`). `data` and `_shared` deliberately kept — see above.
+- `sync-assets-to-r2.sh` postBuild dropped from 12 apps. It defaulted to
+  `<slug>-quest-assets`, a per-app bucket that cannot exist (one R2 custom
+  domain binds to one bucket), with prefixes disagreeing with the same file's
+  `assets` block, under `set -euo pipefail` so a missing key aborts the deploy.
+  Redundant: `package-app` runs the declarative block as `assetSync` right after
+  postBuild, and `hosting-core/src/deploy-phases.ts:78` reads the legacy
+  `assets.r2` shape. The two apps that already had it disabled are the two whose
+  images are confirmed live on R2.
+- `prebuild` wired in the 12 apps lacking it. Regenerating produced **zero diff
+  in all 14**, so it is a guard against drift, not a repair.
+
+Verified: `1.5 GB → 358 MB` on the stale dist; a clean rebuild is `840 MB → 381 MB`.
+
+**learn-quest root:** `docs/DEPLOYMENT_READINESS_ROADMAP.md` (new), this file.
+
+---
+
+## Pick up here
+
+1. **Unblock the deploy — it is §A4, and now hard.** Two attempts made:
+
+   - `forge app-deploy web --wait` (local, `mode=v1`) — **exit code 0 but it
+     failed**: `connect ECONNREFUSED 172.21.0.2:5432` plus repeated
+     `[ioredis] ECONNREFUSED 172.21.0.3:6379`. Those are Docker-internal
+     addresses being dialled from a laptop. mission-control itself is healthy
+     (`/api/health` 200), so this is the local path reaching for the
+     control-plane's private Postgres/Redis. **The exit code lying about a
+     failed deploy is its own bug and worth filing.**
+   - `forge app-deploy web --server --no-wait` — reached the build worker and
+     was rejected cleanly:
+     `Upload failed (413): Artifact exceeds 524288000 bytes (Content-Length: 554782322)`
+
+   So the server pipeline works and the blocker is size. `_shared` is 368 MB of
+   the 381 MB bundle. **Fix §A4 and the artifact drops to roughly 22 MB** —
+   that single fix is what ships nordic.
+
+   Note also a domain disagreement: mission-control has
+   `nordic.quest.blueforge.studio`, `blueforge.config.json` has
+   `nordic.lang-quest.blueforge.studio`. `forge sync` reconciles; decide which
+   is canonical first. Neither resolves yet.
+   Verify live: root 200, `data/lessons/en/danish/chapters/chapters.json`
+   returns **real JSON, not the SPA fallback** (every path returns 200 —
+   check the body, not the status), a chapter-15 lesson loads, images resolve
+   from the CDN.
+2. **§C, cheap and next.** `enabled: false` on chinese + cantonese gives a
+   Japanese/Korean release at 15/15. Same move ships american at 15.
+3. **Fix the 3 failing lq-english unit tests.** Two are real bugs in
+   `findPreservationBreaches` — a dropped preserved key yields **0** breaches,
+   so the guard does not guard. The third is 214 missing `american` audio refs
+   (`audio/chapter-6/spelling-body-parts/*.mp3` and similar): generate them or
+   drop the refs.
+4. **§D, the big content win.** 179 lessons takes the one live app from 5 to 15
+   chapters across five languages: french 34, italian 34, spanish 26,
+   portuguese 25, romanian 60. Cheapest chapters first — most need only 2-4.
+
+### Blocked on credentials
+
+`npm publish` returns `E403 token not authorized for scope: @learnquest`; the
+`~/.npmrc` token is read-scoped. Two packages are queued behind it:
+
+- `@learnquest/unit-core@0.1.5` — version bump committed (`ce656081`), adds
+  `createContentWiringTests`; then bump the 14 apps and add the 3-line spec.
+- `@learnquest/assets` — once §A4's resolver fix is written.
+
+`@learnquest/*` normally publishes via CI on push to main; the local admin-token
+route is the documented fallback for when CI is down.
+
+### Also still open, unchanged
+
+Propagate the 215 renamed lessons; promote-or-hold the 39 alpha locales;
+adjectives & locative prepositions (spec written, unimplemented); register the
+Turkish, Uralic, Semitic/Persian and Celtic family specs; re-run Thai after the
+`isCandidate` combining-marks fix; apply South Asian `ur` (47) and `pa` (69, up
+from 61) to content; ~330 splits await human adjudication.
+
+---
+
+## Traps this session re-learned
+
+- **A 200 is not content.** Every path on these SPAs returns 200; the router
+  serves `index.html` for anything unmatched. Read the body.
+- **Verify which tree a glob is applied to.** The entire §A finding is one
+  config written against `public/` and executed against `dist/`.
+- **`du` on a stale `dist` lies.** The 1.5 GB tree predated a clean build; the
+  real figure is 840 MB.
+- **Directory URLs on R2 always 404.** Probing `nordic/_shared/images/` proves
+  nothing — `curl` a real object key.
