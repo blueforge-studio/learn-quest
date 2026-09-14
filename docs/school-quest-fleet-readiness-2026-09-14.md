@@ -5,7 +5,7 @@
 > `[COST-GATE]` require explicit per-step user approval (API money or infra
 > change). All other steps are code-only and can run unattended.
 
-**Last update:** 2026-09-14 (Track 5 Math Batch 1 complete; 6.67 avg across 276 images, 115 regen candidates)
+**Last update:** 2026-09-14 (Track 5 Reading Batch 1 complete; 6.78 avg across 192 images, 58 regen candidates; Writing chunk 1 in flight)
 **Owner:** @kmandrup
 
 ## Goal
@@ -163,7 +163,7 @@ The actual sequence mirrors `docs/batches/batch-1-school-base-ch1-5.md` + `batch
 
 **Expected outcome:** Math already validated at 7.3 avg (Pilot 100, n=100). Reading/writing/geography validated at 6.58/6.92/7.48 avg (Pilot 128, n=128 each, ch1-4). Science not yet piloted — likely 6.0+ (similar scene-based pattern; risk is chemistry diagrams which could mirror math's chalkboard trap). Combined fleet sample n=484 avg 7.06. ch1-style lessons in untested subjects may show the same floor drop as lq-math ch1 (5.3 vs ch2-5 7.3) — chalkboard-bait concepts specific to early-curriculum.
 
-**Status:** IN PROGRESS (2026-09-14). Math Batch 1 complete (276 imgs, 6.67 avg, 115 regen candidates, $10.88). Reading chunk 1 complete (130/130 in 744s); chunk 2 (52) running.
+**Status:** IN PROGRESS (2026-09-14). Math Batch 1 complete (6.67 avg, 276 imgs, $10.88). Reading Batch 1 complete (6.78 avg, 192 imgs, $7.16). Writing chunk 1 in flight (130 imgs).
 
 ### Track 5 Batch 1 — Math result (2026-09-14, commit `0a78566`, branch `track5/lq-math-batch1-ch1to5-2026-09-14`)
 
@@ -183,9 +183,31 @@ The actual sequence mirrors `docs/batches/batch-1-school-base-ch1-5.md` + `batch
 
 **Root cause hypothesis:** 102/276 imgs scored exactly 5 = the audit's `artStyleMismatch` softFail cap (gemini-3.1 renders ch1/ch2/ch5 lessons as painterly fantasy, not RPG-manga). ch3+ch4 lessons trigger the manga style naturally; ch1+ch2+ch5 lessons need a stronger directive to push gemini toward cel-shading + linework.
 
-**Audit infrastructure issue resolved:** The original audit failed 73/276 images (ch4=7 + ch5=66) because the env var `ANTHROPIC_BASE_URL=https://api.minimax.io/anthropic` was missing the `/v1` suffix, so the request URL resolved to `https://api.minimax.io/anthropic/messages` (404). Combined with minimax-anthropic/glm/qwen hitting their daily 100-call limits, the chain exhausted. Retry with `unset ANTHROPIC_BASE_URL` + `--chain-order=anthropic` completed 73/73 in 5min for $0.04. Going forward, audit commands will unset `ANTHROPIC_BASE_URL` and use `--chain-order=anthropic` for predictable single-provider behavior.
-
 **User decision 2026-09-14:** Accept math Track 5 at 6.67 (not revert; not investigate directive variant). Proceed to reading/writing/geography/science Track 5.
+
+### Track 5 Batch 1 — Reading result (2026-09-14, commit `2019c63`, branch `track5/lq-reading-batch1-ch1to6-2026-09-14`)
+
+| Chapter | n | Avg | Regen | Notes |
+|---|---:|---:|---:|---|
+| ch1 | 10 | 4.20 | 6 | Below 6.0 floor — chalkboard-adjacent phonics |
+| ch2 | 36 | 5.17 | 14 | Below 6.0 floor — early phonics |
+| ch3 | 42 | 5.81 | 17 | Approaching Pilot 128 baseline |
+| ch4 | 46 | 7.72 | 14 | Strong — matches Pilot 128 ch4 ~7.5 |
+| ch5 | 48 | **8.92** | 4 | **Fleet-best single chapter score** |
+| ch6 | 10 | 4.60 | 3 | Below 6.0 — review/vocabulary |
+| **TOTAL** | **192** | **6.78** | **58** | $7.10 regen + $0.06 audit = **$7.16** |
+
+**Score histogram** (192 audited, 0 failures):
+- 9: 84 — 8: 15 — 7: 1 — 6: 1 — **5: 69 (artStyleMismatch)** — 4: 8 — 3: 9 — 2: 3 — 1: 2
+
+**Comparison vs Pilot 128:** Pilot 128 reading ch1-4 (n=128) was 6.58 avg. Track 5 ch1-4 subset (n=134) is 6.17 avg — 0.41-point regression concentrated in ch1 (4.20) and ch2 (5.17). ch4 (7.72) and ch5 (8.92 — fleet-best single chapter score so far) hold or improve.
+
+**Audit chain-order trap resolved:** Three env vars must be unset/overridden for predictable single-provider audits (see memory `feedback_audit_chain_order_env.md`):
+- `unset ANTHROPIC_BASE_URL` (env var has no `/v1` suffix → 404)
+- `unset ANTHROPIC_MODEL` (env var is MiniMax-M3, not recognized by Anthropic API)
+- `VISION_CHAIN_ORDER=anthropic` (CLI flag `--chain-order=` is silently dropped by `resolveOptions`; must use env var)
+
+Final reading audit ran with full default chain (env vars unset, no VISION_CHAIN_ORDER) — chain fell through minimax-anthropic (100/100 daily limit after ~80 imgs) → glm (400 content-type rejection) → qwen/anthropic on remaining imgs. All 192 imgs audited successfully; final cost $0.064.
 
 ## Track 6 — First school-quest deploy `[COST-GATE]`
 
