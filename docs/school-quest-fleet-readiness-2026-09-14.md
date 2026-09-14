@@ -5,7 +5,7 @@
 > `[COST-GATE]` require explicit per-step user approval (API money or infra
 > change). All other steps are code-only and can run unattended.
 
-**Last update:** 2026-09-14 (Pilot 128 reading+writing+geography landed; 6.99 avg across 384 images)
+**Last update:** 2026-09-14 (Track 5 Math Batch 1 complete; 6.67 avg across 276 images, 115 regen candidates)
 **Owner:** @kmandrup
 
 ## Goal
@@ -163,7 +163,29 @@ The actual sequence mirrors `docs/batches/batch-1-school-base-ch1-5.md` + `batch
 
 **Expected outcome:** Math already validated at 7.3 avg (Pilot 100, n=100). Reading/writing/geography validated at 6.58/6.92/7.48 avg (Pilot 128, n=128 each, ch1-4). Science not yet piloted — likely 6.0+ (similar scene-based pattern; risk is chemistry diagrams which could mirror math's chalkboard trap). Combined fleet sample n=484 avg 7.06. ch1-style lessons in untested subjects may show the same floor drop as lq-math ch1 (5.3 vs ch2-5 7.3) — chalkboard-bait concepts specific to early-curriculum.
 
-**Status:** NOT STARTED — depends on Track 1 PR #13 merge + user approval.
+**Status:** IN PROGRESS (2026-09-14). Math Batch 1 complete (276 imgs, 6.67 avg, 115 regen candidates, $10.88). Reading chunk 1 complete (130/130 in 744s); chunk 2 (52) running.
+
+### Track 5 Batch 1 — Math result (2026-09-14, commit `0a78566`, branch `track5/lq-math-batch1-ch1to5-2026-09-14`)
+
+| Chapter | n | Avg | Regen | Notes |
+|---|---:|---:|---:|---|
+| ch1 | 15 | 5.73 | 5 | Not in Pilot 100; chalkboard-bait floor (arithmetic/counting/word-problem) |
+| ch2 | 63 | 5.73 | 18 | **−1.27 regression vs Pilot 100 ch2 7.0** |
+| ch3 | 66 | 7.62 | 32 | Matches Pilot 100 ch3 7.5 |
+| ch4 | 66 | 7.68 | 46 | Matches Pilot 100 ch4 7.5 |
+| ch5 | 66 | 5.80 | 14 | Not in Pilot 100; mixed (review chapters, some art-mismatch) |
+| **TOTAL** | **276** | **6.67** | **115** | $10.76 regen + $0.12 audit = **$10.88** |
+
+**Score histogram** (276 audited, 0 audit failures after retry):
+- 9: 99 — 8: 30 — 7: 12 — 6: 3 — **5: 102 (artStyleMismatch softFail cap)** — 4: 14 — 3: 12 — 2: 1 — 1: 3
+
+**Regression analysis:** Pilot 100 ch2-ch5 was 7.30 avg (n=100). Track 5 ch2-ch5 (n=261) is 6.72 avg — 0.58-point regression concentrated in ch2 (5.73) and ch5 (5.80). ch3-ch4 subset (n=132) is **7.65 avg**, basically unchanged from Pilot 100 — the regression is lesson-specific (ch2 arithmetic + ch5 review), not directive-wide.
+
+**Root cause hypothesis:** 102/276 imgs scored exactly 5 = the audit's `artStyleMismatch` softFail cap (gemini-3.1 renders ch1/ch2/ch5 lessons as painterly fantasy, not RPG-manga). ch3+ch4 lessons trigger the manga style naturally; ch1+ch2+ch5 lessons need a stronger directive to push gemini toward cel-shading + linework.
+
+**Audit infrastructure issue resolved:** The original audit failed 73/276 images (ch4=7 + ch5=66) because the env var `ANTHROPIC_BASE_URL=https://api.minimax.io/anthropic` was missing the `/v1` suffix, so the request URL resolved to `https://api.minimax.io/anthropic/messages` (404). Combined with minimax-anthropic/glm/qwen hitting their daily 100-call limits, the chain exhausted. Retry with `unset ANTHROPIC_BASE_URL` + `--chain-order=anthropic` completed 73/73 in 5min for $0.04. Going forward, audit commands will unset `ANTHROPIC_BASE_URL` and use `--chain-order=anthropic` for predictable single-provider behavior.
+
+**User decision 2026-09-14:** Accept math Track 5 at 6.67 (not revert; not investigate directive variant). Proceed to reading/writing/geography/science Track 5.
 
 ## Track 6 — First school-quest deploy `[COST-GATE]`
 
