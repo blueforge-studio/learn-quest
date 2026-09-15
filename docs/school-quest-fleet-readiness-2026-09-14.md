@@ -5,7 +5,7 @@
 > `[COST-GATE]` require explicit per-step user approval (API money or infra
 > change). All other steps are code-only and can run unattended.
 
-**Last update:** 2026-09-15 11:00 CEST — **Track 5.1 Stage 3 validated.** Writing PARTIAL Batch 2 commit (87 imgs ch3-6, **6.10 avg** vs ch1 baseline 5.20 = **+0.90**). Stage 2 anti-photorealistic clause validated earlier at Pilot 32 (5.22 avg, 7 score≤4, satellite trap dead). Gemini monthly spending cap raised 100 → 200 GBP 2026-09-15. Total Track 5 remaining: 795 imgs (writing 36 leftover + geography 264 + science 495). Pilot 8 batch test pending to confirm Batch API is unblocked post-cap.
+**Last update:** 2026-09-15 13:30 CEST — **lq-writing Track 5 COMPLETE.** Writing leftover commit `e21fc76` (36 imgs, **6.17 avg**, 0 failures). Total writing regen: 87 (Batch 2 PARTIAL `d07d700`) + 36 (leftover `e21fc76`) = **123/123** — all writing Track 5 candidates done. Pilot 8 batch test confirmed Batch API quota wall is back (stuck RUNNING with updateTime==createTime, per memory `feedback-gemini-batch-quota-evening`); pivoted to realtime. 3 imgs flagged for follow-up: `handwriting-cursive-intro-ch6-{letter,scene}` + `spelling-championship-ch6-grammar` — chalkboard/parchment text still leaks on cursive-handwriting scenes, Stage 3 directive needs tightening. Total Track 5 remaining: **759 imgs** (geography 372 + science 495, less 123 writing now complete).
 **Owner:** @kmandrup
 
 ## Goal
@@ -304,12 +304,16 @@ Defer to a future Track 5.2 / separate workstream. Stage A on this branch is the
 - Avg **5.22** (7 score≤4 vs partial's 47/108). Satellite trap dead — no NASA Blue Marble renders.
 - Stage 2 directive ready to apply to Track 5 Batch 1 Geography PARTIAL re-run (ch1-2, 108 imgs) + parts 2-4 (264 imgs) = 372 imgs.
 
-**Stage 3 (Writing NO-rendered-letters clause) — Pilot 32b + Batch 2, validated.**
+**Stage 3 (Writing NO-rendered-letters clause) — Pilot 32b + Batch 2 + leftover, validated.**
 - Pilot 32b: 14 phonics-modified + 18 ch3 dictation/spelling letters. Avg **5.97**, 4 score≤4 (vs ch1 baseline 5.20). grammar-types hit 7-8, letter-types still struggle (3 score-3s).
-- Batch 2 PARTIAL: 87 imgs (ch3 thesis-statement + ch4-6 mostly), 6.10 avg, 39 score≥7 (45%), 13 score≤4 (15%), 0 failures. Commit `…pending…` (branch `track5/lq-writing-partial-batch2-2026-09-15`, lq-writing PR #5 on forge-git).
-- Imgs remaining (36, holdover): `sb-01..sb-04` ch5 + `punctuation-advanced` ch5 + `spelling-championship` ch6 grammar/letter/scene — held by monthly cap pre-raise; resume on next batch. Cost: 36 × $0.078 = $2.81 realtime or $1.40 batch.
+- Batch 2 PARTIAL: 87 imgs (ch3 thesis-statement + ch4-6 mostly), 6.10 avg, 39 score≥7 (45%), 13 score≤4 (15%), 0 failures. Commit `d07d700` (branch `track5/lq-writing-partial-batch2-2026-09-15`, lq-writing PR #5 on forge-git).
+- Leftover: 36 imgs (Pilot 8 sb-01..03 realtime + 28 leftover realtime after Batch API quota wall reappeared), 6.17 avg, 18 score≥7 (50%), 0 failures, 3 score≤3. Commit `e21fc76`.
+- **3 imgs flagged for follow-up** (chalkboard/parchment text still leaks on cursive scenes — Stage 3 directive needs tightening): `handwriting-cursive-intro-ch6-{letter,scene}` (score 4, 2) + `spelling-championship-ch6-grammar` (score 3). Hold for Track 5.1 next iteration.
+- **lq-writing Track 5 COMPLETE: 123/123 candidates** (87 Batch 2 PARTIAL + 36 leftover).
 
-**Total Track 5.1 validation spend:** $5 (Pilots) + $9.59 (writing part 2 partial) = **$14.59** (vs $5 pilot + $67 regen = $72 budgeted). **Under by $57.41.**
+**Total Track 5.1 spend to date:** $5 (Pilots) + $9.59 (writing part 2 partial realtime) + $0.94 (Pilot 8 + leftover realtime, 36 × $0.026 effective) = **$15.53** (vs $5 pilot + $67 regen = $72 budgeted). **Under by $56.47.**
+
+**Batch API quota wall (post-cap-raise):** confirmed via Pilot 8 retry on 2026-09-15 — batch `pgko70onj3vt13jaw55qxqgxrqo8ey0f8d6t` submitted, stuck in RUNNING with `updateTime == createTime` (the same pattern from 2026-09-14 per memory `feedback-gemini-batch-quota-evening`). Cancelled; pivoted to realtime. **Track 5 regen must use realtime from here on.**
 
 **Validation plan before resuming Track 5 regen** (still on the same branch):
 - Pilot 32 on lq-geography ch2 satellites cluster (~$2.50 realtime): `continents-oceans-*`, `map-quiz-continents-*`, `africa-region-profile-map`, `map-projections-*`, `hemispheres-poles-map-quiz-*` (~16 imgs, push to 32 by adding ch1 globe lessons). Goal: confirm the anti-photorealistic clause lifts those motifs to ≥6 avg.
@@ -319,13 +323,17 @@ Defer to a future Track 5.2 / separate workstream. Stage A on this branch is the
 
 **Cost if validation passes:** ~$5 pilot + $67 regen = **~$72 incremental** on top of the $102.46 already spent (~$174.50 total Track 5 spend).
 
-**Validation status (2026-09-15):** Stage 3 (writing) PASSED. Stage 2 (geography) Pilot 32a validated but Track 5 Batch 1 Geo PARTIAL re-run NOT yet executed. Next concrete steps (in order):
-1. **Pilot 8 batch test** ($0.31, ~18 min) — confirms Batch API unblocked post-cap. If stuck in `BATCH_STATE_RUNNING` (per memory `feedback-gemini-batch-quota-evening`), pivot back to realtime.
-2. **Writing Batch 2 leftover** (36 imgs): $1.40 batch or $2.81 realtime.
-3. **Geography Batch 1 PARTIAL re-run** (108 imgs, Stage 2 directive): $4.21 batch or $8.42 realtime. Validates at scale.
-4. **Geography parts 2-4** (264 imgs, Stage 2): $10.30 batch or $20.59 realtime.
-5. **Science parts 1-5** (495 imgs, base directive): $19.31 batch or $38.61 realtime.
-- Best case (batch works): $35.23 incremental. Worst case (batch wall returns, pivot realtime): $70.43 incremental.
+**Validation status (2026-09-15):** Stage 3 (writing) PASSED + writing Track 5 COMPLETE. Stage 2 (geography) Pilot 32a validated but Track 5 Batch 1 Geo PARTIAL re-run NOT yet executed. Batch API quota wall returned post-cap-raise (per `pgko70onj3vt13jaw55qxqgxrqo8ey0f8d6t` stuck RUNNING). All Track 5 regen from here on uses realtime. Next concrete steps (in order):
+1. ~~**Pilot 8 batch test** ($0.31, ~18 min)~~ DONE — batch quota wall back, pivot to realtime.
+2. ~~**Writing Batch 2 leftover** (36 imgs)~~ DONE — 6.17 avg, 0 failures, 3 imgs flagged.
+3. **Geography Batch 1 PARTIAL re-run** (108 imgs, Stage 2 directive): **$8.42 realtime**. Validates Stage 2 at scale.
+4. **Geography parts 2-4** (264 imgs, Stage 2): **$20.59 realtime**.
+5. **Science parts 1-5** (495 imgs, base directive): **$38.61 realtime**.
+- Total remaining realtime: **$67.62** (under original $72 budget by $4.38).
+
+**Track 5.1 follow-up candidates (deferred):**
+- Tighten Stage 3 NO-rendered-letters to explicitly ban parchment/scroll/sign-board text on cursive-handwriting scenes (re-generate 3 flagged imgs).
+- Decide whether to commit `track5/directive-tuning-2026-09-15` (lq-tools PR #14) BEFORE the geo re-run — currently open since 2026-09-15 morning, may need merge to ensure Stage 2 directive is in the shipped package when regen runs against it.
 
 ## Track 6 — First school-quest deploy `[COST-GATE]`
 
