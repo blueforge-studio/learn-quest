@@ -1,5 +1,12 @@
 # Books-platform audio strategy — proposal (2026-09-15)
 
+> **Operational addendum (2026-09-15):** see
+> [`AUDIO_REUSE_STRATEGY_2026_09_15.md`](./AUDIO_REUSE_STRATEGY_2026_09_15.md)
+> for the executed reuse-first ambient/music sourcing strategy. TL;DR:
+> 9/11 adventure books fully covered via adventure-craft sibling pool +
+> soundimage.org CC BY 4.0 external library, $0 spend vs ~$75 baseline.
+> Replicate is the fallback, not the default.
+
 ## What we have today (committed in 0054b457)
 
 - 16 activity-book mp3s + 30 adventure-book mp3s (jungle-detective + 3 mystery-at-midnight scenes) **pre-generated and committed alongside their scene JSON files**.
