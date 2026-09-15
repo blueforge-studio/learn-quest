@@ -139,20 +139,12 @@ missing work.
 `shipChapters: N` ships the first N chapters and holds the rest without
 deleting authored content — raise it as chapters land.
 
-### 4. Investigate `lq-nordic` at 105% — MEASURED FLEET-WIDE, see `CONTENT_WIRING_ROADMAP.md` §1
+### 4. Investigate `lq-nordic` at 105%
 
 The inverse defect: **more authored lessons on disk than `chapters.json`
 declares**. Authored content that no learner can reach, because the index never
 advertises it. Different bug, opposite direction, same root — the index and the
 content are maintained separately with nothing checking they agree.
-
-**Update 2026-09-04:** not a `lq-nordic` quirk. Measured across all 171 content
-trees: **1,416 unreachable lessons, 1,415 of which parse cleanly**. Tracked as
-§1 of `docs/CONTENT_WIRING_ROADMAP.md`, along with the check that now catches
-it (`lq-core/scripts/validate-content.ts`). Do not work this section
-separately. Note also that §3's authoring gaps (4,155) and that document's §5
-(3,971) are the same backlog measured at two layers — reconcile before planning
-`shipChapters`.
 
 ### 5. Deploy
 
