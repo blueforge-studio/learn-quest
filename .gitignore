@@ -4,8 +4,9 @@
 
 # --- nested git repos (own .git) ---
 # life-quest has its own .git wrapping 17 child repos
-books-platform/
-lingua-quest/
+# Leading slash anchors these to repo root so docs/<same-name>/X.md is still trackable.
+/books-platform/
+/lingua-quest/
 lq-assets/
 lq-cards/
 lq-core/
