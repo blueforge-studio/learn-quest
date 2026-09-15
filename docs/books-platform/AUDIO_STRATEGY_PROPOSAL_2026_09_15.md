@@ -263,14 +263,32 @@ Each entry maps to one mp3 on disk: `<sceneId>-ambient.mp3` or
 
 - `scripts/copy-reused-audio.ts [--book=<id>|--all]` — reads each
   book's `reused-manifest.json`, copies the named source mp3 from
-  `../adventure-craft/` into the book's `reused/` dir.
-- `scripts/sync-audio.ts [--dry-run] [--target=r2|local]` — walks
-  `public/sounds/<book>/reused/**/*.mp3` and uploads each to R2
-  (or mirrors to the audio-storage LocalBlobStore dir for dev
-  parity). Mirrors the existing `apps/books-image-worker/src/r2-upload.ts`
-  pattern. `--dry-run` prints the upload plan without writing.
-- `audio:copy-reused` + `audio:sync` npm scripts wired into the
-  monorepo root `package.json`.
+  `../../adventure-craft/` into the book's `reused/` dir.
+  Idempotent — skips files that already exist.
+- `scripts/wire-reused-audio.ts [--book=<id>|--all]` — updates
+  scene JSONs to point `audio.background` (per-scene) and
+  `audio.music` (per-chapter) at the reused mp3s. In-memory
+  object graph (per
+  [[project-adventure-book-audio-2026-09-15]] trap #2 — never
+  re-read and re-parse at writeback time).
+- `scripts/sync-audio.ts [--target=r2|local] [--dry-run]
+  [--book=<id>|--all]` — mirrors each book's `reused/*.mp3`
+  to R2 (`--target=r2`, requires `CLOUDFLARE_ACCOUNT_ID` +
+  `CLOUDFLARE_WORKERS_API_TOKEN`) or a local dir
+  (`--target=local`, defaults to `$AUDIO_LOCAL_DIR=/tmp/lq-audio`
+  — used by books-api's LocalBlobStore in dev). Mirrors the
+  `apps/books-image-worker/src/r2-upload.ts` R2 PUT pattern.
+- `pnpm audio:copy-reused` + `pnpm audio:wire-reused` +
+  `pnpm audio:sync` wired into the monorepo root `package.json`.
+
+**Future migration target:** swap `audio:sync` over to
+`lq-operations/scripts/sync-to-storage.ts
+--app=apps/lq-adventure-book --prefix=books --only=public
+--extensions=mp3` once `@blueforge-studio/service-storage`
+becomes a books-platform workspace dep (today the canonical
+binary can't resolve its dependency from this monorepo).
+Per [[feedback-use-project-sync-scripts]] — never `aws s3`
+or `rclone`.
 
 ### Cost impact
 
