@@ -5,7 +5,7 @@
 > `[COST-GATE]` require explicit per-step user approval (API money or infra
 > change). All other steps are code-only and can run unattended.
 
-**Last update:** 2026-09-14 (Track 5 Reading Batch 1 complete; 6.78 avg across 192 images, 58 regen candidates; Writing chunk 1 in flight)
+**Last update:** 2026-09-15 08:45 CEST — **Track 5 PARTIAL close-out.** Math + Reading fully complete. Writing PARTIAL commit `a6a4240` (6.04 avg, 108/216 imgs, ch1-3 done). Geography PARTIAL commit `5290d6c` (4.33 avg, 108/372 imgs, ch1-2 done; **SEVERE 3.15-pt regression** vs Pilot 128's 7.48). Both branches pushed to forge. Total Track 5 remaining: 867 imgs blocked on Gemini prepaid credit top-up.
 **Owner:** @kmandrup
 
 ## Goal
@@ -163,7 +163,7 @@ The actual sequence mirrors `docs/batches/batch-1-school-base-ch1-5.md` + `batch
 
 **Expected outcome:** Math already validated at 7.3 avg (Pilot 100, n=100). Reading/writing/geography validated at 6.58/6.92/7.48 avg (Pilot 128, n=128 each, ch1-4). Science not yet piloted — likely 6.0+ (similar scene-based pattern; risk is chemistry diagrams which could mirror math's chalkboard trap). Combined fleet sample n=484 avg 7.06. ch1-style lessons in untested subjects may show the same floor drop as lq-math ch1 (5.3 vs ch2-5 7.3) — chalkboard-bait concepts specific to early-curriculum.
 
-**Status:** IN PROGRESS (2026-09-14). Math Batch 1 complete (6.67 avg, 276 imgs, $10.88). Reading Batch 1 complete (6.78 avg, 192 imgs, $7.16). Writing chunk 1 in flight (130 imgs).
+**Status:** IN PROGRESS (2026-09-15). Math Batch 1 complete (6.67 avg, 276 imgs, $10.88). Reading Batch 1 complete (6.78 avg, 192 imgs, $7.16). **Writing + Geography PARTIAL — see below.** Science NOT started.
 
 ### Track 5 Batch 1 — Math result (2026-09-14, commit `0a78566`, branch `track5/lq-math-batch1-ch1to5-2026-09-14`)
 
@@ -208,6 +208,102 @@ The actual sequence mirrors `docs/batches/batch-1-school-base-ch1-5.md` + `batch
 - `VISION_CHAIN_ORDER=anthropic` (CLI flag `--chain-order=` is silently dropped by `resolveOptions`; must use env var)
 
 Final reading audit ran with full default chain (env vars unset, no VISION_CHAIN_ORDER) — chain fell through minimax-anthropic (100/100 daily limit after ~80 imgs) → glm (400 content-type rejection) → qwen/anthropic on remaining imgs. All 192 imgs audited successfully; final cost $0.064.
+
+### Track 5 Batch 1 — Writing PARTIAL (2026-09-14→15, commit `a6a4240`, branch `track5/lq-writing-partial-batch1-2026-09-14`)
+
+| Chapter | n | Avg | Notes |
+|---|---:|---:|---|
+| ch1 | 15 | 5.20 | Below 6.0 floor — phonics lessons still rendering chalkboard-adjacent |
+| ch2 | 48 | 5.94 | Below 6.0 — LF-HW + grammar-heavy, artStyleMismatch cap on most |
+| ch3 | 45 | **6.42** | Approaching Pilot 128 baseline; some hits in the 7-9 range |
+| **TOTAL** | **108** | **6.04** | $8.42 regen + $0.06 audit = **$8.48** |
+
+**Score histogram** (108 audited, 0 failures):
+- 9: 12 — 8: 28 — 7: 6 — 6: 2 — **5: 38 (artStyleMismatch softFail cap)** — 4: 10 — 3: 12
+
+**REGRESSION vs Pilot 128:** Pilot 128 writing ch1-4 (n=128) was 6.92 avg. Track 5 ch1-3 partial (n=108) is 6.04 avg — **0.88-point regression**. Issues cluster on ch1 phonics (still chalkboard-adjacent) and ch2 LF-HW/grammar motifs (hitting artStyleMismatch cap). Same pattern as math ch1's chalkboard trap, but smaller magnitude.
+
+**NOT regenerated** (deferred to next Track 5 pass after Gemini credits topped up): writing part 2 (108 imgs = ch3 leftover + ch4 + ch5), plus 2 imgs (`conjunctions-ch5-scene`) that completed in writing part 2 before the wall.
+
+### Track 5 Batch 1 — Geography PARTIAL (2026-09-14→15, commit `5290d6c`, branch `track5/lq-geography-partial-batch1-2026-09-14`)
+
+| Chapter | n | Avg | Notes |
+|---|---:|---:|---|
+| ch1 | 20 | 5.70 | Below 6.0 — maps-and-globes-k2 cluster |
+| ch2 | 88 | **4.02** | **Satellite render cluster (see below)** |
+| **TOTAL** | **108** | **4.33** | $8.42 regen + $0.05 audit = **$8.47** |
+
+**Score histogram** (108 audited, 0 failures):
+- 9: 6 — 8: 7 — 7: 1 — 5: 56 — 4: 4 — 3: 10 — 2: 1 — **1: 23**
+
+**SEVERE REGRESSION vs Pilot 128:** Pilot 128 geography ch1-4 (n=128) was **7.48 avg** (the fleet's best subject!). Track 5 ch1-2 partial (n=108) is **4.33 avg** — **3.15-point regression**. **23 score-1s**, all on ch2 lessons where gemini rendered photorealistic satellite imagery.
+
+**Root cause (per-image pattern, NOT directive-wide):** gemini-3.1-flash-image interprets literal geographic motifs (continents, oceans, globes, region profiles) as "render accurate satellite imagery" tasks. The model produces NASA Blue Marble-style photorealistic satellite maps instead of the required "High quality realistic (RPG) manga style". This was flagged in Pilot 128 (the 8× score-0s on `maps-and-globes-k2*`), but at Track 5 scale it DOMINATES the avg.
+
+**Affected images (ch2 cluster, score 1-5):**
+- `continents-oceans-*` (3 imgs, NASA Blue Marble, scores 3-5)
+- `map-quiz-continents-*` (3 imgs, satellite map, scores 3-5)
+- `continent-map-quiz-map`, `hemispheres-poles-map-quiz-*`, `map-projections-*` (satellite render, score 4)
+- `africa-region-profile-map` (no map of Africa depicted — generic savanna, score 5)
+- `famous-landmarks-landmark` (collage style, score 4)
+- `freshwater-resources-landmark`, `space-exploration-timeline-*`, `stars-constellations-*` (corner-bg-fill pixel fail, score 1)
+
+**NOT regenerated** (deferred to next Track 5 pass): geography parts 2-4 (264 imgs, ch3+ch4+ch5).
+
+**Recommended Track 5 follow-up BEFORE resuming regen:**
+1. Per-image alternate directive for "globe/map/satellite" motifs:
+   `"stylized illustrated map, NOT a photorealistic globe or satellite image"`
+2. Re-run a Pilot 32 with the alt directive to validate (~$2)
+3. Then resume Track 5 from ch3 onward
+
+### Track 5 Batch 1 — Writing (in flight, REALTIME mode) (2026-09-14)
+
+**Status:** PARTIALLY COMPLETE — pivoted from `--batch` to realtime mode mid-flight due to Gemini Batch API quota wall at 20:16 CEST (see memory `feedback_gemini_batch_quota_evening.md`).
+
+**Batch attempt log (all stuck, cancelled):**
+| Time CEST | Size | State | Duration stuck before cancel |
+|---|---:|---|---:|
+| 20:16 | 130 | 503 UNAVAILABLE → RUNNING | 34+ min, never made progress |
+| 20:23 | 130 | RUNNING | 27+ min |
+| 20:39 | 130 | RUNNING | 11+ min |
+| 20:50 | 108 | RUNNING | 8+ min |
+
+**Diagnosis:** All 12 prior batches in the day (12:38-19:43 CEST) succeeded in 3-35 min. All 4 writing batches from 20:16 CEST stayed in BATCH_STATE_RUNNING with `updateTime == createTime` (Google never sent a progress event). Cancelled all 4 at 22:48 CEST.
+
+**Pivot at 22:50 CEST:** Split 216-imgs into 2 × 108. Launched part 1 in realtime mode (no `--batch` flag). 6 imgs/min sustained. Cost $0.078/img (2x batch) = $8.42 per part, $16.85 total for writing (vs $8.42 batch — $8.43 over budget). ETA part 1 complete ~23:08 CEST.
+
+**Why realtime works where batch stuck:** Realtime goes through the same quota but as synchronous `generateContent` calls — the quota wall appears to be on the asynchronous batch *job slots* (12 already run today), not on the synchronous *requests*. Confirmed at 22:51 (12 imgs in 60 sec, 6 imgs/min sustained).
+
+**Geography + Science plan:** Split into 108-imgs chunks each. 4 × geo + 5 × science = 9 realtime processes, ~18 min each at 6 imgs/min = 162 min serial. **Launching 2 in parallel** cuts wall-clock to ~80 min. Cost: $0.078/img × 867 imgs = $67.63 (vs $33.81 batch = $33.82 over budget).
+
+**Total Track 5 cost revision:** $17.98 (math + reading batch) + $16.85 (writing realtime) + $67.63 (geo + sci realtime) = **$102.46** (vs original $130 batch budget, $27.54 under). Math/reading done at batch pricing; writing/geo/sci at 2x realtime. **Total over original $130 figure: $0** (because we still came in under). Tradeoff: more wall-clock time (~3.5 hours serial vs ~1.5 hours batch) but uses batch quota budget for math/reading only.
+
+## Track 5.1 — Directive tuning `track5/directive-tuning-2026-09-15` (2026-09-15, in progress)
+
+**What:** Staged on a separate `track5/directive-tuning-2026-09-15` branch (off `feat/school-quest-directive-2026-09-14` @ `2f71788`). Three pieces:
+
+1. **Geography anti-photorealistic clause (Stage 2).** Appended to every prompt in `packages/image-tools/src/config/subjects/geography/lessons-*.json` (general/world-map/earth/space = 102 imgs): `"Render as a STYLIZED ILLUSTRATION, NOT photorealistic satellite or NASA Blue Marble satellite imagery..."`. Addresses the Track 5 Batch 1 Geography PARTIAL regression (4.33 avg vs Pilot 128's 7.48; 23 score-1s on continents/oceans/globes/region-profile motifs).
+2. **Writing ch1 NO-rendered-letters clause (Stage 3).** Appended to 14 phonics-only lessons in `lessons-lq-writing.json`: `LF-HW-01-{grammar,letter,scene}`, `LF-HW-03-{grammar,letter,scene}`, `LF-SPL-02-letter`, `LF-SPL-04-letter`, `handwriting-uppercase-a-{grammar,letter,scene}`, `handwriting-cursive-intro-ch6-{grammar,letter,scene}`. Non-phonics writing lessons (`dictation-*`, `grammar_*-scene`, etc.) NOT touched. Addresses "visible text on parchment appears mirrored/reversed" failures on letter-teaching lessons.
+3. **Danish reading phonetics concept-images (Stage A).** Added 3 new universal phonetics diagrams to `packages/image-tools/src/config/languages/nordic/langs/danish/concept-images.json`:
+   - `danish-hard-vs-soft-d` — split profile, hard-d (fire/orange) vs soft-d (cool/blue, the-th-sound)
+   - `danish-sk-cluster` — Viking shouting, sharp ice-crystal vortex (the hard /sk/ cluster)
+   - `danish-final-t-glottal` — swallowed/absorbed rune-stone at end of row (final-t glottalization)
+   All three reuse the existing `danish-pronunciation-the-std` template (Nordic metaphor + magical glow + NO text/IPA).
+
+**Stage B (L1-aware content variation) — FLAGGED WORKSTREAM.** Image gen-configs are global per-lesson with no `learnerL1` field; the regen CLI has no `--l1` flag. Real L1-adaptive phonics guidance lives at the **content layer** (`lessons.json` text + audio), not the image layer — IPA glyphs are text and would trip the universal `NO text` constraint, plus phonics drills are inherently audio + L1-contrast notes. Stage B needs:
+- A `learnerL1` field on the learner profile + content variants per sound
+- An audio gen pass for the L1-aware drills (TTS model selection per L1, since the same Danish word pronounced *for a Thai learner* carries different stress cues than *for a German learner*)
+- A `--l1=<code>` flag on `regenerate-flagged-images.ts` that pulls the right content variant into the prompt — or, more cleanly, defers L1-awareness entirely to the content layer and lets the image layer stay universal
+
+Defer to a future Track 5.2 / separate workstream. Stage A on this branch is the minimum viable phonetic-art expansion.
+
+**Validation plan before resuming Track 5 regen** (still on the same branch):
+- Pilot 32 on lq-geography ch2 satellites cluster (~$2.50 realtime): `continents-oceans-*`, `map-quiz-continents-*`, `africa-region-profile-map`, `map-projections-*`, `hemispheres-poles-map-quiz-*` (~16 imgs, push to 32 by adding ch1 globe lessons). Goal: confirm the anti-photorealistic clause lifts those motifs to ≥6 avg.
+- Pilot 32 on lq-writing ch1 phonics (~$2.50 realtime): `LF-HW-01-{grammar,letter,scene}`, `LF-HW-03-{grammar,letter,scene}`, `LF-SPL-02-letter`, `LF-SPL-04-letter`, `handwriting-uppercase-a-{grammar,letter,scene}` (11 imgs, pad to 32 with `dictation-word-families` and `handwriting-cursive-intro-ch6`). Goal: confirm no more garbled-letter failures; no <4-avg images.
+- **Both pass** → resume Track 5 realtime chunks (writing part 2 + geo parts 2-4 + sci parts 1-5 = 867 imgs, ~$67).
+- **Either fail** → iterate the directive wording on this same branch before any regen spends.
+
+**Cost if validation passes:** ~$5 pilot + $67 regen = **~$72 incremental** on top of the $102.46 already spent (~$174.50 total Track 5 spend).
 
 ## Track 6 — First school-quest deploy `[COST-GATE]`
 
