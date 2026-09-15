@@ -180,6 +180,113 @@ This single decision moves us from a 80-minute throttle-bound run to a $0 + ~5-m
 - **Background/ambient/sound-effect generation** — separate `audio.background` / `audio.music` slots in `SceneAudio`. Same lazy-cache pattern applies but the providers (Replicate Stable Audio, owned SFX library) are different.
 - **Story-book audio coverage gap** — exists today, will exist tomorrow. The lazy-cache approach makes the gap self-healing on first play rather than an explicit script run.
 
+## Phase 2: ambient audio reuse (executed 2026-09-15)
+
+Replicate throttle wall lifted on 2026-09-15 ($20 top-up, 350 req/min
+unblocked) and user owns `adventure-craft` so reuse is unrestricted.
+Phase 2 is now active.
+
+### Inventory (fresh survey, 2026-09-15)
+
+| Source app | ambient | music | sfx | Notes |
+|---|---|---|---|---|
+| arid-world | 15 | 0 | 4 | desert, ruins, badlands, oasis, salt-flat + corruption variants + weather |
+| gothic-world | 11 | 6 | 4 | ashenmoor / dreadmere / hollowmark / pale-court / ravensreach / threshold + 5 `madness-*` variants; 6 `darklord-*` boss-fight music tracks |
+| japan-mythic | 9 | 2 | 3 | bamboo-forest / imperial-capital / sacred-mountains / spirit-realm |
+| khmer-mythic | 5 | 2 | 3 | river / temple themes (rainforest rivers) |
+| pirates | 3 | 1 | 8 | dock / ocean / tension + sea-shanty |
+| viking-world-quest | 12 | 0 | 0 | weather-only (`ambient/weather/*.mp3`) — themed weather events, NOT generic atmosphere |
+| steam-punk-world | 0 | 0 | 0 | only `scenes/` with 1 mp3 — skip |
+
+### Per-book reuse map (7 in scope, 2 deferred)
+
+| Adventure book | Reuse source | Confidence | Reusable count |
+|---|---|---|---|
+| mystery-at-midnight | gothic-world (full) | **strong** (perfect mood) | 11 ambient + 6 music |
+| the-pompeii-letters | arid-world (ruins, weather) | **strong** | 3 ambient |
+| the-lost-city-of-gold | arid-world (desert, ruins) | **strong** | 5 ambient |
+| jungle-detective | khmer-mythic (rivers) | partial | 3 ambient |
+| the-coral-kingdom | pirates/ocean + khmer-mythic/rivers | partial | 5 ambient |
+| the-mariana-express | pirates/ocean | partial | 1 ambient |
+| the-dragons-ally | gothic-world (reuse — tone mismatch flagged) | risky | 0–11 |
+| robot-rebellion | none | n/a | 0 — **deferred** |
+| the-space-heist | none | n/a | 0 — **deferred** |
+
+Sci-fi (robot-rebellion, the-space-heist) deferred per operator
+direction 2026-09-15. the-dragons-ally is in scope with a tone-
+mismatch caveat — gothic-world's `dreadmere` / `ashenmoor` work for
+medieval-fantasy too but it's a stretch.
+
+### Storage layout
+
+```
+apps/lq-adventure-book/public/sounds/adventure/<bookId>/
+├── ch<N>-<sceneId>-narration.mp3      # existing pattern (generated)
+└── reused/
+    ├── <sceneId>-ambient.mp3          # copied from adventure-craft
+    └── <chapterId>-music.mp3          # copied from adventure-craft
+```
+
+Generated narration stays at book-root; reused assets land in `reused/`
+subdir so a recursive `find … reused/` scopes the copy/sync run.
+
+### Reused manifest schema
+
+Each book with reused audio ships a per-book manifest alongside the
+sounds:
+
+`apps/lq-adventure-book/public/sounds/adventure/<bookId>/reused-manifest.json`:
+
+```json
+{
+  "bookId": "mystery-at-midnight",
+  "sourceRepo": "../adventure-craft",
+  "reuses": [
+    {
+      "kind": "ambient",
+      "sceneId": "ch1-entrance",
+      "source": "apps/gothic-world/public/audio/ambient/threshold.mp3"
+    },
+    {
+      "kind": "music",
+      "chapterId": "chapter-1",
+      "source": "apps/gothic-world/public/audio/music/darklord-ashen-matron.mp3"
+    }
+  ]
+}
+```
+
+Each entry maps to one mp3 on disk: `<sceneId>-ambient.mp3` or
+`<chapterId>-music.mp3` under `reused/`.
+
+### Scripts
+
+- `scripts/copy-reused-audio.ts [--book=<id>|--all]` — reads each
+  book's `reused-manifest.json`, copies the named source mp3 from
+  `../adventure-craft/` into the book's `reused/` dir.
+- `scripts/sync-audio.ts [--dry-run] [--target=r2|local]` — walks
+  `public/sounds/<book>/reused/**/*.mp3` and uploads each to R2
+  (or mirrors to the audio-storage LocalBlobStore dir for dev
+  parity). Mirrors the existing `apps/books-image-worker/src/r2-upload.ts`
+  pattern. `--dry-run` prints the upload plan without writing.
+- `audio:copy-reused` + `audio:sync` npm scripts wired into the
+  monorepo root `package.json`.
+
+### Cost impact
+
+Replicate Stable Audio ≈ $0.10-0.20 per generation. A typical
+book wants ~50 ambient + 6 chapter music tracks.
+
+- **Full Replicate (pre-reuse plan):** ~9 books × ~56 = ~500
+  generations at $0.15 ≈ $75 — plus the $5-10/week floor that
+  tops up against the throttle wall.
+- **Reuse-first (this plan):** zero generation needed for the 5
+  strongest-fit books. The 4 partial-fit books reuse what they can
+  and only generate the gaps. Music comes almost entirely free
+  from gothic-world's 6 tracks.
+- **Net saving:** ~70-80% of ambient + ~90% of music across the
+  7 in-scope books.
+
 ## Why now
 
 The throttle pain we hit today is the symptom, not the disease. Continuing the eager-generation approach means every future book, every text edit, every voice swap is the same 80-minute wait. The lazy-cache approach is the same amount of code (probably less, actually) and makes the throttle problem go away permanently — because the lazy endpoint doesn't burn quota speculatively; it only generates what users actually play.
