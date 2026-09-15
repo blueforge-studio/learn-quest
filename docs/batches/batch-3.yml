@@ -1,0 +1,228 @@
+# batch-3.yml — driver for batch 3 (5 highest-priority life apps)
+#
+# Apps: anatomy, health, psychology, philosophy, plumbing
+# 1,249 total imgs / 1,226 regen candidates per 2026-08-10 relaxed-bar re-audit.
+#
+# HARD PREREQUISITE: lq-tools PR adding manga/realistic-cartoon directive to:
+#   config/subjects/{anatomy,health,psychology,philosophy,plumbing}/lessons-*.json
+# Without this directive, batch 3 reproduces the Aug-5 result (avg 1.4, 95% ≤5).
+#
+# Generated 2026-09-10.
+
+batch:
+  name: life-apps-5-highest-priority
+  version: 1
+  slug: batch-3
+  created: 2026-09-10
+  status: pending
+  prerequisites:
+    - batch-2-complete
+    - lq-tools-pr-style-directive-merged   # BLOCKER — see doc
+    - pilot-20-verdict-applied
+  totalApps: 5
+  totalImages: 1249
+  regenCandidates: 1226
+  estimatedCost:
+    hybrid: $49.25             # Imagen-4 lesson scenes + 2.5-flash realtime base
+    allImagen4: $49.96
+    tierCFallback: $83.68      # 3.1-flash realtime everywhere
+    tierDFallback: $24.98      # Imagen-4-fast everywhere
+    note: "REALTIME MODE — uses GEMINI_API_KEY from env. --batch disabled."
+
+tiers: &tiers
+  imagen-4:
+    model: imagen-4.0-generate-001
+    provider: gemini
+    costPerImage: 0.040
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 7.5
+    useFor: "lesson scenes (Tier A estimate ~43% of fleet)"
+  gemini-2.5-flash:
+    model: gemini-2.5-flash-image
+    provider: gemini
+    costPerImage: 0.039
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+    useFor: "base images, general lessons (Tier B estimate ~57%)"
+  gemini-3.1-flash:
+    model: gemini-3.1-flash-image
+    provider: gemini
+    costPerImage: 0.067
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+    useFor: "premium fallback only (if Imagen-4 fails 7.5 and 2.5-flash fails 6.0)"
+  imagen-4-fast:
+    model: imagen-4.0-fast-generate-001
+    provider: gemini
+    costPerImage: 0.020
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+    useFor: "cheap fallback if Imagen-4 over-quota or quality acceptable"
+
+pacing:
+  budgetPerCall: 4.00
+  maxImagesPerBatch: 200
+  auditBatchSize: 500
+  retryRate: 0.10    # known ~3% residue per handover doc
+
+acceptanceGate:
+  imagen-4: { keepIf: "score >= 7.5", revertIf: "score < 7.5" }
+  gemini-2.5-flash: { keepIf: "score >= 6.0", revertIf: "score < 6.0" }
+  gemini-3.1-flash: { keepIf: "score >= 6.0", revertIf: "score < 6.0" }
+  imagen-4-fast: { keepIf: "score >= 6.0", revertIf: "score < 6.0" }
+
+# Apps ordered worst-first per the Aug-10 relaxed-bar re-audit:
+apps:
+
+  - name: lq-anatomy
+    path: life-quest/lq-anatomy
+    branch: deploy/hetzner-anatomy-quest   # verify
+    configDir: lq-tools/packages/image-tools/src/config/subjects/anatomy
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 468, needsRegen: 461, pixelGate: 417, llmFailed: 44 }
+    imageCounts:
+      totalBase: 468
+      regenCandidates: 461
+      variants: ~140   # size variants per imageType.variantWidths
+    excludePaths:        # already done in pilot-20 (10 imgs each tier)
+      # populated after pilot 20 completes
+    regenUnits:
+      - type: regen-file
+        tier: gemini-2.5-flash     # default to Tier B; refine per pilot verdict
+        regenFile: /tmp/lq-anatomy-batch3.json
+        budgetPerCall: 10           # 461 imgs × $0.039 = $18.0 — needs 3 calls
+        calls: 3
+        costEstimate: $17.98   # 461 × $0.039
+    postStep:
+      variants:
+        tool: lq-tools/packages/asset-scaffolding/src/generate-missing-variants.ts
+        args: --lang=en --group=anatomy
+        costEstimate: 0
+
+  - name: lq-health
+    path: life-quest/lq-health
+    branch: deploy/hetzner-health-quest
+    configDir: lq-tools/packages/image-tools/src/config/subjects/health
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 224, needsRegen: 221, pixelGate: 181, llmFailed: 40 }
+    imageCounts:
+      totalBase: 224
+      regenCandidates: 221
+      variants: ~67
+    regenUnits:
+      - type: regen-file
+        tier: gemini-2.5-flash
+        regenFile: /tmp/lq-health-batch3.json
+        budgetPerCall: 8
+        calls: 2
+        costEstimate: $8.62   # 221 × $0.039
+    postStep:
+      variants:
+        tool: lq-tools/packages/asset-scaffolding/src/generate-missing-variants.ts
+        args: --lang=en --group=health
+
+  - name: lq-psychology
+    path: life-quest/lq-psychology
+    branch: deploy/hetzner-psychology-quest
+    configDir: lq-tools/packages/image-tools/src/config/subjects/psychology
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 200, needsRegen: 200, pixelGate: 184, llmFailed: 16 }
+    imageCounts:
+      totalBase: 200
+      regenCandidates: 200
+      variants: ~60
+    regenUnits:
+      - type: regen-file
+        tier: gemini-2.5-flash
+        regenFile: /tmp/lq-psychology-batch3.json
+        budgetPerCall: 8
+        calls: 1
+        costEstimate: $7.80   # 200 × $0.039
+    postStep:
+      variants:
+        tool: lq-tools/packages/asset-scaffolding/src/generate-missing-variants.ts
+        args: --lang=en --group=psychology
+
+  - name: lq-philosophy
+    path: life-quest/lq-philosophy
+    branch: deploy/hetzner-philosophy-quest
+    configDir: lq-tools/packages/image-tools/src/config/subjects/philosophy
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 207, needsRegen: 194, pixelGate: 180, llmFailed: 14 }
+    imageCounts:
+      totalBase: 207
+      regenCandidates: 194
+      variants: ~62
+    regenUnits:
+      - type: regen-file
+        tier: gemini-2.5-flash
+        regenFile: /tmp/lq-philosophy-batch3.json
+        budgetPerCall: 8
+        calls: 1
+        costEstimate: $7.57   # 194 × $0.039
+    postStep:
+      variants:
+        tool: lq-tools/packages/asset-scaffolding/src/generate-missing-variants.ts
+        args: --lang=en --group=philosophy
+
+  - name: lq-plumbing
+    path: life-quest/lq-plumbing
+    branch: deploy/hetzner-plumbing-quest
+    configDir: lq-tools/packages/image-tools/src/config/subjects/plumbing
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 150, needsRegen: 150, pixelGate: 133, llmFailed: 17 }
+    imageCounts:
+      totalBase: 150
+      regenCandidates: 150
+      variants: ~45
+    regenUnits:
+      - type: regen-file
+        tier: gemini-2.5-flash
+        regenFile: /tmp/lq-plumbing-batch3.json
+        budgetPerCall: 6
+        calls: 1
+        costEstimate: $5.85   # 150 × $0.039
+    postStep:
+      variants:
+        tool: lq-tools/packages/asset-scaffolding/src/generate-missing-variants.ts
+        args: --lang=en --group=plumbing
+
+# Apps NOT in this batch (deferred to batch-4):
+#   tech, law, construction, media, game-design, game-dev, maker, electronics,
+#   cooking, engineering — need Stage-2 relaxed-bar re-audit first.
+#   economics, finance — already covered by their own empties pilot (~14 final residue).
+
+postStep:
+  audit:
+    model: minimax-m3
+    provider: minimax
+    rateLimit: 80
+    budgetPerApp: 2
+  commit:
+    message: "batch-3: regenerate {totalImgs} ({regenCandidates} regen candidates, {tierSummary})"
+    branches:
+      - lq-anatomy: deploy/hetzner-anatomy-quest
+      - lq-health: deploy/hetzner-health-quest
+      - lq-psychology: deploy/hetzner-psychology-quest
+      - lq-philosophy: deploy/hetzner-philosophy-quest
+      - lq-plumbing: deploy/hetzner-plumbing-quest
+
+sequence:
+  - app: lq-anatomy
+    reason: "461/468 regen candidates (98.5%); biggest payoff; pilot app so signal is freshest"
+  - app: lq-plumbing
+    reason: "150/150 regen candidates (100%); smallest app, easiest win"
+  - app: lq-health
+    reason: "221/224 (98.7%); second-highest regen density"
+  - app: lq-philosophy
+    reason: "194/207 (93.7%); mid-tier"
+  - app: lq-psychology
+    reason: "200/200 (100%); cleanest tail-end"

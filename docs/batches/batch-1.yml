@@ -1,0 +1,315 @@
+# batch-1.yml — driver for batch 1 (school reading+writing+math base + ch1-5)
+#
+# Driver design:
+# - Tier definitions (imagen-4, gemini-3.1-batch) are referenced by name from app sections.
+# - Each app lists `regenUnits`: a list of {type, tier, paths[]} entries.
+# - `regen-units.type` is one of:
+#     "chapter"      — config-driven via --chapter=N (paths are chapter-N dirs)
+#     "regen-file"   — filtered audit JSON via --regen-file=<path>
+# - A future `batch-driver.ts` (lq-tools/scripts/lib/batch-driver.ts) reads this file,
+#   dispatches regenerate-flagged-images.ts per unit, and tracks aggregate spend.
+# - This YAML is currently documentation; the driver script is not yet written.
+#
+# Generated 2026-09-10.
+
+batch:
+  name: school-base-ch1-5
+  version: 2
+  slug: batch-1
+  created: 2026-09-10
+  updated: 2026-09-10   # multi-model 5x5 verdict applied: Tier A = 3.1-flash; Tier B = gpt-image-1 medium; Tier B' = flash-lite (demoted)
+  status: pending
+  prerequisites:
+    - pilot-20-verdict          # see pilot-imagen4-vs-gemini3.1.md — DONE 2026-09-10
+    - multi-model-5x5-verdict   # 2026-09-10 — see 00-program-overview.md § Multi-model 5x5 verdict
+    - pilot-100-verdict         # see pilot-imagen4-vs-gemini3.1.md — should include gpt-image-1 row
+    - lq-tools-style-directive-pr-merged   # BLOCKER for hitting target scores
+  totalApps: 3
+  totalImages: 1007
+  estimatedCost:
+    hybrid: $59.66              # Tier A 3.1-flash lesson scenes (494 imgs × $0.067 = $33.10) + Tier B gpt-image-1 medium subject base (312 imgs × $0.042 = $13.10) + lesson scenes (covered above)
+    allFlashLite: $33.84        # 1007 × $0.0336 — flash-lite scored 3.0/10 on 5x5, below 6.0 target — NOT recommended as primary; cheapest fallback only
+    allGemini2_5_flash: $39.27  # cheap fallback (post-directive)
+    allGemini3_1_flash: $67.47  # premium fallback (all-Tier A)
+    hybrid_gpt_image_1: $59.66  # NEW 2026-09-10 — beats $62 2.5-flash hybrid on quality (3.8/10 vs 2.7/10) at $0.83 more
+    note: "REALTIME MODE — uses GEMINI_API_KEY from env. --batch disabled (triggers Vertex AI auth path)."
+
+# Tier definitions. Cost references @blueforge-studio/image-gen pricing.ts (v0.2.4).
+# NOTE 2026-09-10: Imagen-4 (imagen-4.0-generate-001) and Imagen-4-fast are NOT exposed via
+# the public Gemini API — Vertex AI OAuth is required. Pilot 20 confirmed both return
+# `404 NOT_FOUND` when invoked via GEMINI_API_KEY. Tier A demoted to gemini-3.1-flash.
+# 2026-09-10 (multi-model 5x5 verdict): flash-lite DEMOTED from Tier A' to Tier B' (3.0/10
+# on clean-prompt sample, below 6.0 target). gpt-image-1 medium PROMOTED to Tier B
+# (3.8/10, beats 2.5-flash pilot 20 2.7/10 at $0.003 more per image).
+# VERIFIED providers (multi-model audit 2026-09-10): gemini-3.1-flash 6.0/10; gpt-image-1 3.8/10; gemini-3.1-flash-lite 3.0/10; replicate-flux-schnell 2.6/10; fal-seedream-5 1.2/10.
+tiers:
+  gemini-3.1-flash:
+    model: gemini-3.1-flash-image
+    provider: gemini
+    costPerImage: 0.067
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+    pilotResult: "lq-anatomy n=10, avg 4.0 (+3.0 from 1.0 floor, 60% art-style match) — hard inputs"
+    multiModel5x5: "lq-anatomy n=5, avg 6.0 (clean educational prompts) — VERIFIED on this tier"
+    useFor: "Tier A — lesson scenes, rpg/avatars/backgrounds/bosses/equipment"
+  gpt-image-1-medium:
+    model: gpt-image-1
+    provider: openai
+    costPerImage: 0.042
+    qualityTier: medium
+    batchApi: false
+    mode: realtime
+    auth: OPENAI_API_KEY        # alias OPEN_AI_KEY (user env) works — read both
+    targetScore: 5.0
+    multiModel5x5: "lq-anatomy n=4, avg 3.8 (1 OpenAI moderation block) — TIER B NEW 2026-09-10"
+    note: "OPENAI moderation blocked 1/5: 'transparent human body' → 'sexual' category; anatomical content may need prompt rewording"
+    useFor: "Tier B — subject-folder base, lessons/general, non-anatomical content"
+  gemini-3.1-flash-lite:
+    model: gemini-3.1-flash-lite-image
+    provider: gemini
+    costPerImage: 0.0336
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 6.0
+    pricingVerified: 2026-09-10  # https://ai.google.dev/pricing — see blueforge-org#114
+    multiModel5x5: "lq-anatomy n=5, avg 3.0 (below 6.0 target — DEMOTED 2026-09-10 from Tier A' candidate)"
+    useFor: "Tier B' — only for non-critical general/ images where quality bar is lowest; use 2.5-flash if budget allows"
+  gemini-2.5-flash:
+    model: gemini-2.5-flash-image
+    provider: gemini
+    costPerImage: 0.039
+    batchApi: false
+    mode: realtime
+    auth: GEMINI_API_KEY
+    targetScore: 5.0
+    pilotResult: "lq-anatomy n=10, avg 2.7 (+1.7 from 1.0 floor, 60% art-style match)"
+    useFor: "Tier C — fallback when gpt-image-1 unavailable (provider down, OpenAI key missing, or rationing spend)"
+  replicate-flux-schnell:
+    model: black-forest-labs/flux-schnell
+    provider: replicate
+    costPerImage: 0.003
+    batchApi: false
+    mode: realtime
+    auth: REPLICATE_API_TOKEN
+    targetScore: 6.0
+    multiModel5x5: "lq-anatomy n=5, avg 2.6 (below target — placeholder use only)"
+    useFor: "(placeholder only) ultra-cheap $0.003 placeholders for content where visual quality doesn't matter; rate-limit 6 req/min — must pace"
+    status: OPTIONAL
+  fal-seedream-5:
+    model: fal-ai/seedream-5
+    provider: fal
+    costPerImage: 0.0262   # $0.026/MP × 1MP @ 1K
+    batchApi: false
+    mode: realtime
+    auth: FAL_AI_KEY
+    targetScore: 6.0
+    multiModel5x5: "lq-anatomy n=5, avg 1.2 — EXCLUDED 2026-09-10"
+    status: EXCLUDED
+    useFor: "(none) — quality too low"
+  imagen-4:
+    model: imagen-4.0-generate-001
+    provider: gemini
+    costPerImage: 0.040
+    batchApi: false
+    mode: realtime
+    auth: VERTEX_AI_REQUIRED   # not GEMINI_API_KEY
+    targetScore: 7.5
+    status: UNAVAILABLE         # 404 NOT_FOUND via GEMINI_API_KEY — Vertex AI OAuth needed
+    useFor: "(future) premium fallback if Vertex AI auth is wired"
+  imagen-4-fast:
+    model: imagen-4.0-fast-generate-001
+    provider: gemini
+    costPerImage: 0.020
+    batchApi: false
+    mode: realtime
+    auth: VERTEX_AI_REQUIRED
+    targetScore: 6.0
+    status: UNAVAILABLE
+    useFor: "(future) cheap fallback if Vertex AI auth is wired"
+
+# Pacing constraint — verbatim from memory feedback_regen_pacing.md
+pacing:
+  budgetPerCall: 4.00
+  maxImagesPerBatch: 200
+  auditBatchSize: 500
+  retryRate: 0.10
+
+# Acceptance gate per tier (post-pilot-20 + post-multi-model-5x5, pre-directive target; raise after directive lands)
+acceptanceGate:
+  gemini-3.1-flash: { keepIf: "score >= 4.0", revertIf: "score < 4.0", postDirectiveTarget: 6.0 }
+  gpt-image-1-medium: { keepIf: "score >= 3.5", revertIf: "score < 3.5", postDirectiveTarget: 5.0 }
+  gemini-3.1-flash-lite: { keepIf: "score >= 3.0", revertIf: "score < 3.0", postDirectiveTarget: 6.0 }
+  gemini-2.5-flash: { keepIf: "score >= 3.0", revertIf: "score < 3.0", postDirectiveTarget: 5.0 }
+  revertMethod: "git checkout -- <file> after audit"
+  textOnlyRevertAboveThreshold: false
+
+# Apps
+apps:
+
+  - name: lq-reading
+    path: school-quest/lq-reading
+    branch: deploy/hetzner-reading-quest
+    branchNote: "currently on chore/shared-app-audit-checks — rebase before batch 1"
+    configDir: lq-tools/packages/image-tools/src/config/subjects/reading
+    currentAuditFile: public/images/image-audit-results-2026-08-27.json
+    auditSummary: { total: 306, needsRegen: 92, avgScore: 4.3 }
+    imageCounts:
+      lessonsGeneral: 102
+      subjectFolders: 12   # comprehension(3) + literature(3) + phonics(3) + vocabulary(3)
+      chapter1: 10
+      chapter2: 36
+      chapter3: 42
+      chapter4: 46
+      chapter5: 48
+      chapter6: 10        # NOT in this batch
+      chapter1to5: 182
+      baseTotal: 296      # general + subject + ch1-5 (NOT ch6)
+    regenUnits:
+      - type: chapter
+        tier: gemini-3.1-flash
+        chapters: [1, 2, 3, 4, 5]
+        paths:
+          - public/images/lessons/lq-reading/chapter-1/
+          - public/images/lessons/lq-reading/chapter-2/
+          - public/images/lessons/lq-reading/chapter-3/
+          - public/images/lessons/lq-reading/chapter-4/
+          - public/images/lessons/lq-reading/chapter-5/
+        budgetPerCall: 20
+        costEstimate: $12.19  # 182 × $0.067
+      - type: regen-file
+        tier: gpt-image-1-medium
+        filterPaths:
+          - public/images/lessons/comprehension/
+          - public/images/lessons/literature/
+          - public/images/lessons/phonics/
+          - public/images/lessons/vocabulary/
+          - public/images/lessons/general/
+        regenFile: /tmp/lq-reading-base-regen.json
+        budgetPerCall: 15
+        costEstimate: $4.79   # 114 × $0.042 (gpt-image-1 medium)
+
+  - name: lq-writing
+    path: school-quest/lq-writing
+    branch: deploy/hetzner-writing-quest
+    branchNote: "matches handover doc — clean state"
+    configDir: lq-tools/packages/image-tools/src/config/subjects/writing
+    currentAuditFile: public/images/image-audit-results-2026-08-27.json
+    auditSummary: { total: 322, needsRegen: 162, avgScore: 3.4 }
+    imageCounts:
+      lessonsGeneral: 79
+      subjectFolders: 12   # creative(3) + essays(3) + grammar(3) + practical(3)
+      chapter1: 15
+      chapter2: 48
+      chapter3: 48
+      chapter4: 57
+      chapter5: 48
+      chapter6: 15        # NOT in this batch
+      chapter1to5: 216
+      baseTotal: 307
+    regenUnits:
+      - type: chapter
+        tier: gemini-3.1-flash
+        chapters: [1, 2, 3, 4, 5]
+        paths:
+          - public/images/lessons/lq-writing/chapter-1/
+          - public/images/lessons/lq-writing/chapter-2/
+          - public/images/lessons/lq-writing/chapter-3/
+          - public/images/lessons/lq-writing/chapter-4/
+          - public/images/lessons/lq-writing/chapter-5/
+        budgetPerCall: 20
+        costEstimate: $14.47  # 216 × $0.067
+      - type: regen-file
+        tier: gpt-image-1-medium
+        filterPaths:
+          - public/images/lessons/creative/
+          - public/images/lessons/essays/
+          - public/images/lessons/grammar/
+          - public/images/lessons/practical/
+          - public/images/lessons/general/
+        regenFile: /tmp/lq-writing-base-regen.json
+        budgetPerCall: 15
+        costEstimate: $3.82   # 91 × $0.042 (gpt-image-1 medium)
+
+  - name: lq-math
+    path: school-quest/lq-math
+    branch: deploy/hetzner-math-quest
+    branchNote: "7 unpushed commits — push or rebase before batch 1"
+    configDir: lq-tools/packages/image-tools/src/config/subjects/math
+    currentAuditFile: public/images/image-audit-results-2026-08-10.json
+    auditSummary: { total: 403, needsRegen: 305, avgScore: 2.1 }
+    imageCounts:
+      lessonsGeneral: 92
+      subjectFolders: 15    # algebra(3) + arithmetic(3) + geometry(3) + statistics(3) + word-problems(3)
+      rpgBase: 20           # avatars(6) + backgrounds(3) + bosses(5) + equipment(6)
+      rpgVariants: 60       # --128/--256/--512 — auto-regenerated by processConfigBatch
+      chapter1: 16
+      chapter2: 63
+      chapter3: 66
+      chapter4: 66
+      chapter5: 66
+      chapter1to5: 277
+      baseTotal: 404        # general + subject + ch1-5 + rpg
+    regenUnits:
+      - type: regen-file
+        tier: gemini-3.1-flash
+        filterPaths:
+          - public/images/rpg/avatars/
+          - public/images/rpg/backgrounds/
+          - public/images/rpg/bosses/
+          - public/images/rpg/equipment/
+        regenFile: /tmp/lq-math-rpg-regen.json
+        budgetPerCall: 5
+        costEstimate: $1.34   # 20 × $0.067
+        note: "highest priority per user — backgrounds, avatars, rpg"
+      - type: chapter
+        tier: gemini-3.1-flash
+        chapters: [1, 2, 3, 4, 5]
+        paths:
+          - public/images/lessons/lq-math/chapter-1/
+          - public/images/lessons/lq-math/chapter-2/
+          - public/images/lessons/lq-math/chapter-3/
+          - public/images/lessons/lq-math/chapter-4/
+          - public/images/lessons/lq-math/chapter-5/
+        budgetPerCall: 20
+        costEstimate: $18.56  # 277 × $0.067
+      - type: regen-file
+        tier: gpt-image-1-medium
+        filterPaths:
+          - public/images/lessons/algebra/
+          - public/images/lessons/arithmetic/
+          - public/images/lessons/geometry/
+          - public/images/lessons/statistics/
+          - public/images/lessons/word-problems/
+          - public/images/lessons/general/
+        regenFile: /tmp/lq-math-base-regen.json
+        budgetPerCall: 15
+        costEstimate: $4.49   # 107 × $0.042 (gpt-image-1 medium)
+
+# Variant regeneration is automatic via processConfigBatch + image-processor.generateVariants.
+# No separate variant regen unit needed.
+
+# Post-step: audit + acceptance gate per tier
+postStep:
+  audit:
+    model: minimax-m3
+    provider: minimax
+    rateLimit: 80
+    budgetPerApp: 2
+  commit:
+    message: "batch-1: regenerate {totalImgs} base + ch1-5 ({tierSummary})"
+    branches:
+      - lq-reading: deploy/hetzner-reading-quest (after rebase)
+      - lq-writing: deploy/hetzner-writing-quest
+      - lq-math: deploy/hetzner-math-quest
+
+# Sequence within the batch (worst-quality first per pacing constraint)
+sequence:
+  - app: lq-math
+    reason: "highest needsRegen (305/403 = 76%), has rpg/ folders (highest-priority tier)"
+  - app: lq-writing
+    reason: "162/322 = 50% needsRegen; mid-tier"
+  - app: lq-reading
+    reason: "92/306 = 30% needsRegen; lowest needsRegen but branch fix needed first"

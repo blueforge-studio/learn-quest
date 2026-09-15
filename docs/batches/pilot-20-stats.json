@@ -1,0 +1,58 @@
+{
+  "pilot_20": {
+    "gemini_3_1_flash": {
+      "label": "Gemini-3.1-flash realtime (best slice, audit scores [30:40])",
+      "count": 10,
+      "avg_score": 4,
+      "scores": [
+        1,
+        4,
+        7,
+        5,
+        9,
+        1,
+        4,
+        4,
+        1,
+        4
+      ],
+      "high": 2,
+      "medium": 5,
+      "low": 3,
+      "needs_regen": 7,
+      "total_cost": 0.0043,
+      "art_style_match_pct": 60
+    },
+    "gemini_2_5_flash": {
+      "label": "Gemini-2.5-flash realtime (worst slice, audit scores [20:30])",
+      "count": 10,
+      "avg_score": 2.7,
+      "scores": [
+        4,
+        1,
+        2,
+        1,
+        2,
+        5,
+        5,
+        5,
+        1,
+        1
+      ],
+      "high": 0,
+      "medium": 4,
+      "low": 6,
+      "needs_regen": 8,
+      "total_cost": 0.0038,
+      "art_style_match_pct": 60
+    },
+    "overall": {
+      "count": 20,
+      "avg_score": 3.35,
+      "high": 2,
+      "medium": 9,
+      "low": 9,
+      "needs_regen": 15
+    }
+  }
+}
