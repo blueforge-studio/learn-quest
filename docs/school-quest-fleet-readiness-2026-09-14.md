@@ -5,7 +5,7 @@
 > `[COST-GATE]` require explicit per-step user approval (API money or infra
 > change). All other steps are code-only and can run unattended.
 
-**Last update:** 2026-09-15 13:30 CEST — **lq-writing Track 5 COMPLETE.** Writing leftover commit `e21fc76` (36 imgs, **6.17 avg**, 0 failures). Total writing regen: 87 (Batch 2 PARTIAL `d07d700`) + 36 (leftover `e21fc76`) = **123/123** — all writing Track 5 candidates done. Pilot 8 batch test confirmed Batch API quota wall is back (stuck RUNNING with updateTime==createTime, per memory `feedback-gemini-batch-quota-evening`); pivoted to realtime. 3 imgs flagged for follow-up: `handwriting-cursive-intro-ch6-{letter,scene}` + `spelling-championship-ch6-grammar` — chalkboard/parchment text still leaks on cursive-handwriting scenes, Stage 3 directive needs tightening. Total Track 5 remaining: **759 imgs** (geography 372 + science 495, less 123 writing now complete).
+**Last update:** 2026-09-15 14:30 CEST — **lq-writing Track 5 COMPLETE + 3-flagged imgs closed.** Writing leftover `e21fc76` (36 imgs, 6.17 avg) + cursive-scene regen `b894cbc` (3 imgs: 4→5, 2→5, 3→5; cost $0.117 realtime; tightened Stage 3 directive at lq-tools commit `93aca62`). All 123 lq-writing candidates done; score≤3 gap closed. Total Track 5 remaining: **759 imgs** (geography 372 + science 495).
 **Owner:** @kmandrup
 
 ## Goal
@@ -308,7 +308,7 @@ Defer to a future Track 5.2 / separate workstream. Stage A on this branch is the
 - Pilot 32b: 14 phonics-modified + 18 ch3 dictation/spelling letters. Avg **5.97**, 4 score≤4 (vs ch1 baseline 5.20). grammar-types hit 7-8, letter-types still struggle (3 score-3s).
 - Batch 2 PARTIAL: 87 imgs (ch3 thesis-statement + ch4-6 mostly), 6.10 avg, 39 score≥7 (45%), 13 score≤4 (15%), 0 failures. Commit `d07d700` (branch `track5/lq-writing-partial-batch2-2026-09-15`, lq-writing PR #5 on forge-git).
 - Leftover: 36 imgs (Pilot 8 sb-01..03 realtime + 28 leftover realtime after Batch API quota wall reappeared), 6.17 avg, 18 score≥7 (50%), 0 failures, 3 score≤3. Commit `e21fc76`.
-- **3 imgs flagged for follow-up** (chalkboard/parchment text still leaks on cursive scenes — Stage 3 directive needs tightening): `handwriting-cursive-intro-ch6-{letter,scene}` (score 4, 2) + `spelling-championship-ch6-grammar` (score 3). Hold for Track 5.1 next iteration.
+- **3 imgs flagged for follow-up** ~~(chalkboard/parchment text still leaks on cursive scenes — Stage 3 directive needs tightening)~~ **RESOLVED** via commit `b894cbc`: tightened Stage 3 (lq-tools `93aca62`) added explicit bans on cursive-script-style text, calligraphy flourishes, script-style pen strokes, banner/ribbon/trophy/sign-board text on championship scenes, and "ABC"/"hello"/"spelling" placeholder words. Re-regen scores: 4→5, 2→5, 3→5. No more score≤3 in writing Track 5.
 - **lq-writing Track 5 COMPLETE: 123/123 candidates** (87 Batch 2 PARTIAL + 36 leftover).
 
 **Total Track 5.1 spend to date:** $5 (Pilots) + $9.59 (writing part 2 partial realtime) + $0.94 (Pilot 8 + leftover realtime, 36 × $0.026 effective) = **$15.53** (vs $5 pilot + $67 regen = $72 budgeted). **Under by $56.47.**
