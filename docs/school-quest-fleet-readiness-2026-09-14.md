@@ -290,12 +290,20 @@ Final reading audit ran with full default chain (env vars unset, no VISION_CHAIN
    - `danish-final-t-glottal` — swallowed/absorbed rune-stone at end of row (final-t glottalization)
    All three reuse the existing `danish-pronunciation-the-std` template (Nordic metaphor + magical glow + NO text/IPA).
 
-**Stage B (L1-aware content variation) — FLAGGED WORKSTREAM.** Image gen-configs are global per-lesson with no `learnerL1` field; the regen CLI has no `--l1` flag. Real L1-adaptive phonics guidance lives at the **content layer** (`lessons.json` text + audio), not the image layer — IPA glyphs are text and would trip the universal `NO text` constraint, plus phonics drills are inherently audio + L1-contrast notes. Stage B needs:
-- A `learnerL1` field on the learner profile + content variants per sound
-- An audio gen pass for the L1-aware drills (TTS model selection per L1, since the same Danish word pronounced *for a Thai learner* carries different stress cues than *for a German learner*)
-- A `--l1=<code>` flag on `regenerate-flagged-images.ts` that pulls the right content variant into the prompt — or, more cleanly, defers L1-awareness entirely to the content layer and lets the image layer stay universal
+**Stage B (L1-aware content variation) — DESIGN SHIPPED.** Full spec at [`docs/superpowers/specs/2026-09-15-track52-l1-aware-phonics-stage-b-design.md`](./superpowers/specs/2026-09-15-track52-l1-aware-phonics-stage-b-design.md). Image gen-configs are global per-lesson with no `learnerL1` field; the regen CLI has no `--l1` flag (and won't get one — image layer stays universal per Stage A). Real L1-adaptive phonics guidance lives at the **content layer** (`lessons.json` text + audio).
 
-Defer to a future Track 5.2 / separate workstream. Stage A on this branch is the minimum viable phonetic-art expansion.
+**Track 5.2 (Stage B) scope** (designed, awaiting user approval to start Slice 1): ~9 working days / 3 PRs.
+- **Slice 1 (4 days):** `learnerL1` field (Player TS + Drizzle `0009_learner_l1.sql` + zustand + onboarding screen) + content variants in 5 pilot lessons (`lq-nordic` Danish × 3 + `lq-reading` phonics × 2). Text-only — no audio yet.
+- **Slice 2 (3 days):** `l1-phonetic-map.json` + `(target, l1)` voice selection + `generate-audio.ts --parallel=l1s` for 20 L1-cue mp3 files. ~$0.18 TTS cost pilot.
+- **Slice 3 (2 days):** 3-pass median audit on variant text + audio spot-check + E2E onboarding→lesson test.
+- **Slice 4 (deferred):** school app rollout to all phonics lessons, ~5 days.
+
+**Open questions for user** (decide before Slice 1 starts):
+1. L1 list — initial scope `da`/`de`/`en`/`th` or all 14 ISO codes up front?
+2. UI placement — full-screen onboarding step or settings-only?
+3. Default for existing players — `en` or prompt-on-next-login?
+4. Pilot app scope — OK with `lq-nordic Danish` + `lq-reading`?
+5. Voice cost budget — OK with per-L1 voice differentiation (~$0.18 pilot, ~$5/lang-app at full scale)?
 
 ### Track 5.1 — Stage 2 + Stage 3 validation result (2026-09-15)
 
