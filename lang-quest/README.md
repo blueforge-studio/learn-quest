@@ -24,19 +24,29 @@ The language apps (language quests) can be integrated with the school app `Brigh
 | Southeast Asian | `lang-quest/lq-southeast-asian/` |
 | Uralic | `lang-quest/lq-uralic/` |
 | West Slavic | `lang-quest/lq-west-slavic/` |
-## Brand: one mark, fourteen repos
 
-Every group repo deploys as its own control-plane app, but they are one
-product on blueforge.studio (`lang-quest`). forge-control reads
-`blueforge.product.yml` from the repo it deploys, so each group repo carries
-the sidecar and the mark it references. Do not edit those copies:
+## Brand and sidecars: one per group
 
-```bash
-node lang-quest/scripts/sync-brand.mjs            # write into every lang-quest/lq-* checkout present
-node lang-quest/scripts/sync-brand.mjs --dir ../lq-nordic   # one checkout
-node lang-quest/scripts/sync-brand.mjs --check    # CI: exit 1 when a copy drifted
-```
+Every group repo deploys as its own control-plane app **and is its own product**
+on blueforge.studio — `lq-nordic` deploys as `nordic-quest`, `lq-slavic` as
+`slavic-quest`. Each group owns its `blueforge.product.yml` (its id, name,
+tagline, description, features, status) and its own mark under `brand/`. The
+fourteen marks are fourteen different images, and nothing fans a shared one out
+to them.
 
-Source of truth is `lang-quest/brand/` (`logo-512.webp`, `og.webp`). Change
-a file there, re-run, commit the group repos; their next deploy uploads the new
-sha (see blueforge `docs/deploy/asset-sync.md`).
+`lang-quest/scripts/sync-brand.mjs` used to, and has been **deleted**. It was
+written for the pre-migration layout, in which the groups were one product
+(`id: lang-quest`); by the end it was wrong on every axis. Running it would have
+overwritten each group's id, deleted the tagline/description/features/status and
+cover it did not know about, and replaced all fourteen marks with the umbrella's.
+Do not reintroduce a shared-mark fan-out.
+
+Author a sidecar with blueforge's own tool (`pnpm sidecar <product-id>`, see the
+blueforge README) and validate the set across repos with
+`scripts/check-sidecars.mjs`. forge-control uploads the assets a sidecar points
+at whenever a deploy changes their bytes — see blueforge
+`docs/deploy/asset-sync.md`.
+
+`lang-quest/brand/` is the **umbrella's** art. The family has no repo of its own,
+so this is where its source art lives; it is what the `lang-quest` collection
+page on blueforge.studio renders. It is not deployed to the groups.
