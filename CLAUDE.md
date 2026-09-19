@@ -76,3 +76,23 @@ To verify wiring, run each app's `tests/unit/content-integrity.spec.ts`
 - Migration to standard `@blueforge/deployer` output
 
 See `PORTFOLIO_STATUS.md` for both `lang-quest` and `books-platform` rows.
+
+## Agentic surface
+
+This repo carries cross-repo agentic files at the root `.claude/agents/` so
+that any session — operator or spawned subagent — has the same deploy / CI /
+publish context:
+
+- `.claude/agents/forge-deploy.md` — `forge app-deploy` patterns, override.yml
+  trap, dual-pointer drift, host-port gotchas
+- `.claude/agents/fgit-pr.md` — `fgit pr merge` / `trigger` / `checks` /
+  `doctor`, token scopes, exit codes, the `--ref` vs `--input branch=` gotcha
+- `.claude/agents/packr-publisher.md` — packr publish recipe, Caddy 403
+  workaround, source-vs-dist conventions
+- `.claude/agents/lfs-deploy.md` — LFS skip-smudge for deploy trees, R2 sync,
+  MINIO_* env mapping, per-app account-ID gotcha
+- `.claude/agents/external-inputs.md` — index of forge-control / forge-git /
+  packr-registry input the agentic files encode
+
+For the current dated roadmap see `docs/ROADMAP_2026_09_19.md` (supersedes
+`docs/ROADMAP.md`).
