@@ -6,24 +6,22 @@
 
 ## Portfolio Status
 
-_Last audited: 2026-07-13 · Part of the [BlueForge](https://blueforge.studio) portfolio._
+_Last audited: 2026-09-19 · Part of the [BlueForge](https://blueforge.studio) portfolio._
 
-### Recent changes (2026-07-13)
+> See `docs/ROADMAP_2026_09_19.md` for the current dated roadmap (this section
+> summarises the latest shipped slice; the dated roadmap is the canonical
+> forward-looking list).
 
-- **lq-core household-goals Phase 9 — kid wishlist + parent grants** — new `libs/app/household-goals` package, new `libs/screens/household-goals` (kid/parent/dashboard/goal-editor/grants/wishlist-review), Drizzle migration `0008_household_goals.sql`, 15-locale i18n, QuestShell `householdRoutes` flag gated by `VITE_HOUSEHOLD_FEATURE_ENABLED`, Playwright smoke template, behavioral repo tests. 67 commits ahead of `origin/main`, working tree dirty.
-- **LinguaQuest narrative engine (Phases 0–3) shipped** — `packages/quest-constraint` solver; server-side validation pipeline (`apps/collab-server` in-process validator); Yjs two-way binding in `apps/quest-editor`; GPU shader rendering (PixiJS); graph-aware dialogue advance; Mediterranean Odyssey (Italian Roman quest) as exemplar.
-- **LinguaQuest 15 locales shipped** — added `ar` `da` `de` `nl` `pt` `ru` `sw` `yo` to the original `th`/`zh`/`en`/`es`/`ja`/`fr`/`it` set. `ru`/`pt`/`de`/`nl`/`yo`/`sw` quests split from 1 chapter into 4–5 chapters each with 87+ DeepSeek-generated scenes.
-- **LinguaQuest consolidation (2026-06-10)** — `collab-validator` merged into `collab-server` as in-process module; `apps/backend` consolidated into `apps/api` (game routes mounted at `/api/game` with JWT middleware). In-progress commit on `screen-audit/iterate-2026-05-05T14-12-14` branch.
-- **Books Platform E2E refactor** — replaced bash E2E script with Vitest + supertest suite (`apps/books-api`); unified config — `blueforge.config.ts` is single source of truth with config-driven Dockerfile generation; per-app `Dockerfile` + `blueforge.json` are derived artifacts.
+### Recent changes (2026-09-19)
 
-### Recent changes (2026-04-24)
+- **L1-aware phonics Wave-1 — Stage A + Slice 1/2/3 merged** — 14 group apps + 1 school app now ship learner-L1-aware phonics cues (Thai/German/English variants) via `@learnquest/content-generators` 0.4.x. Stage A images on R2; Slice 1 lesson text on 5 group apps; Slice 2 audio cue shipped to `lq-reading`; Slice 3 audit alignment done. PRs #51 (lq-core), #33 (lq-nordic), #5 (lq-reading), #15 (lq-tools) all merged. **Open:** SEA + east deploys blocked on app-3 disk-guard + LFS skip-smudge + Gitea merge lock.
+- **Books-platform live on `forge-app-2`** — all 10 containers running on the new Hetzner box (178.104.130.80). Stripe test-mode ready, livemode gated. Audio reuse-first strategy shipped — 9/11 adventure books fully covered via reuse (adventure-craft sibling + soundimage.org CC BY 4.0) at $0 spend vs $75 Replicate baseline. Activity-book audio 16 mp3s + Adventure-book audio 266 mp3s via `@blueforge-studio/audio-gateway` (ReplicateTtsAdapter/Kokoro fallback).
+- **Phase 4 / 5 published packages (2026-09-13/14)** — `@blueforge-studio/image-tools` 0.3.4, `@blueforge-studio/content-generators` 0.3.0→0.4.0, `@blueforge-studio/content-audit` 0.3.0, `@blueforge-studio/image-validation` 0.3.5. Published to packr-registry. (Fly path retired 2026-09-09; current path via `pnpm pack` + `npm publish --@learnquest:registry`.)
+- **LangQuest brand migration** — `lang-quest/scripts/sync-brand.mjs` retired by PR #20 (2026-09-18). Each group repo now owns its own `blueforge.product.yml` (no shared fan-out). 14 lang repos got their independent sidecars + cover/og assets.
+- **forge-git secret rotation outstanding** — Gitea `INTERNAL_TOKEN` / `JWT_SECRET` / `SECRET_KEY` / Postgres password all unrotated. Blast radius measured small (0 TOTP, 0 WebAuthn, 0 OAuth grants).
+- **forge-git-runner idle** — small self-hosted runner pool stalls; `pull_request` runs queue 12+ min. Workaround: `fgit pr merge … --force`.
 
-- **LinguaQuest on-prem foundation shipped** — `main` on the new canonical remote `blueforge-studio/linguaquest` now has full Drizzle schema for 16 tables, portable RLS helper (`public.current_user_id()`), `apps/api` REST layer with JWT middleware + `withJwtSession` per-request session helper, and 56 integration tests. Non-destructive; Supabase prod unchanged until `VITE_DB_ADAPTER=postgres` is flipped. See `lingua-quest/docs/superpowers/plans/` for the plans and `lingua-quest/docs/runbooks/` for provisioning + dress-rehearsal reports.
-- **LinguaQuest repo remote moved** — canonical origin is now `blueforge-studio/linguaquest` (was `kristianmandrup/linguaquest`). The personal fork is kept as the `backup` remote.
-- **lq-history content restructure committed** — 299 orphan images removed from pre-hierarchy layout, 853 new chapter-organized images added (`{epoch}/{region}/chapter-N/`). All 1,012 lesson JSONs verified to resolve.
-- **12 cross-portfolio worktrees swept** — `.worktrees/` under `/Users/kmandrup/Projects/Repos/` now empty; feature branches on 12 `*-os` repos merged and deleted.
-
-**Status:** `Beta`
+**Status:** `Beta` (live in production on the BlueForge federation)
 
 ### Apps & Sites in this Repo
 
@@ -163,20 +161,49 @@ pnpm --dir life-quest/lq-economics install && pnpm --dir life-quest/lq-economics
 
 Required env vars (per sub-app): `VITE_AUTH_URL` (forge-auth), `VITE_API_URL`, `VITE_DB_PROVIDER=postgres`, `VITE_CONTENT_API_URL` (REST content source). Packr auth token required for `@learnquest/*` packages. Supabase env vars removed (2026-07-19) — the on-prem Postgres + R2 stack is the active replacement.
 
-### Deployment
+### Deployment (2026-09-19)
 - **Site:** `lq-site` → https://lq-site-three.vercel.app (Live) → learnquest.blueforge.studio (Live)
 - **LinguaQuest App:** `linguaquest-app` → https://linguaquest-app.vercel.app (Live) → app.linguaquest.blueforge.studio (Live)
 - **LinguaQuest Site:** served via `questlang-site` → linguaquest.blueforge.studio (Live)
-- **SchoolQuest subjects:** each deployed as its own Vercel project (`lq-math`, `lq-science`, `lq-history`, `lq-geography`, `lq-reading`, `lq-writing`) — all Live (200) but not yet on BlueForge subdomains
-- **SchoolQuest canonical:** `schoolquest-app` → 404 (errored), canonical `app.schoolquest.blueforge.studio` broken
+- **Books-Platform:** live on `forge-app-2` (178.104.130.80). 10 containers,
+  full Hetzner port table in `books-platform/CLAUDE.md § Hetzner Deployment`.
+  Public URLs under `*.questbooks.blueforge.studio`.
+- **Lang-Quest group apps (14):** each deployed as its own control-plane app
+  via forge-control. See the `lang-quest` table below for port + domain.
+  Live example: `nordic-quest.blueforge.studio` (200).
+- **School-Quest subjects:** each deployed as its own Vercel project
+  (`lq-math`, `lq-science`, `lq-history`, `lq-geography`, `lq-reading`,
+  `lq-writing`) — all Live (200); migration to forge-control in flight.
+- **forge-git-runners idle** — small self-hosted runner pool stalls;
+  `pull_request` runs queue 12+ min. **Workaround:** `fgit pr merge <repo>
+  <num> --force`. See `.claude/agents/fgit-pr.md`.
 
-### Known Issues
-- `schoolquest-app` canonical Vercel project is errored (cf. `vercel-health.tsv`) while the 6 subject-specific projects are Live — routing/ownership mismatch
-- `app.schoolquest.blueforge.studio` DNS is set but no response — Vercel custom-domain attachment missing (`domain-check.tsv`)
-- Life-Quest subject apps are not yet linked to Vercel projects (`repo-vercel-map.tsv` has no rows for `life-quest/*`)
-- Books-Platform and Lang-Quest group apps are not yet deployed
-- `brightpath-site` Vercel project is Live but `brightpath.blueforge.studio` returns no response — domain attachment missing
-- `questbooks` has no Vercel project mapping in `domains.yml`
+### Known Issues (2026-09-19)
+
+- **L1 phonics deploys blocked** — `lq-southeast-asian` and `lq-east-asian`
+  L1 wave-1 deploys failing on `app-3` disk-guard (89% + 2.3GB reservation =
+  90.4% > 90%). Need a free-space wash OR a runner swap before retry.
+- **LFS skip-smudge trap on deploys** — bare `git lfs fetch` + `forge app-deploy`
+  ships 130-byte pointers as production audio. Run `git lfs pull` BEFORE any
+  `forge app-deploy`; verify with `git lfs ls-files | wc -l` matching disk.
+- **Gitea merge lock on `lq-reading`** — branch protection required-check
+  context from a runner that no longer exists blocks the merge. Workaround:
+  `fgit pr merge <repo> <num> --force`.
+- **`lq-reading` prod blank shell** — Buffer/lesson-ui class-extends crash
+  on the latest deploy; needs a revert-and-rebuild.
+- **PACKR_TOKEN scope** — current token is read-scoped, blocks publishes of
+  new `@learnquest/*` package versions. Need a write-scoped token rotated.
+- **forge-git-runners idle** — small self-hosted runner pool stalls;
+  `pull_request` runs queue 12+ min. Workaround: `fgit pr merge … --force`.
+- **forge-git secret rotation outstanding** — `INTERNAL_TOKEN`,
+  `JWT_SECRET`, `SECRET_KEY`, Postgres password all unrotated. Blast radius
+  measured small (0 TOTP, 0 WebAuthn, 0 OAuth grants). See
+  `docs/2026-09-04-handover.md §4` for the rotation plan.
+- **Vercel-era pages stale** — the older `vercel-health.tsv`,
+  `domain-check.tsv`, `repo-vercel-map.tsv` files reference a Vercel-era
+  layout that has been superseded by the forge-app-2 + Hetzner + Caddy
+  path. Books-platform is now live on the federation; LinguaQuest is in
+  migration.
 
 ## Sub-Projects
 

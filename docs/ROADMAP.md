@@ -1,5 +1,12 @@
 # LearnQuest — Consolidated Roadmap
 
+> **⚠️ Superseded by [`docs/ROADMAP_2026_09_19.md`](./ROADMAP_2026_09_19.md)
+> (compiled 2026-09-19).** This file remains for historical reference per
+> the operator's "supersede dated rather than edit-accumulate" rule; the
+> dated file is the canonical forward-looking list.
+
+---
+
 > **Compiled 2026-09-09.** Aggregates open work from `MEMORY.md`, the in-repo
 > roadmaps (`CONTENT_WIRING_ROADMAP.md`, `FLEET_READINESS_ROADMAP.md`,
 > `DEPLOYMENT_READINESS_ROADMAP.md`, `MIGRATION_PLAN.md`,
