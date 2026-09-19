@@ -32,6 +32,7 @@ coverage/
 
 # --- local state / tooling output ---
 .claude/
+!.claude/agents/
 .playwright-mcp/
 e2e-reports/
 .content-db.sqlite
