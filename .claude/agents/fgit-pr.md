@@ -127,6 +127,38 @@ If a `fgit` command fails with a scope error, the answer is **never** to
 switch to `@full` (that's a security escalation). Instead, run the
 operation from a different agent or accept the lower privilege.
 
+**CX33 migration trap — `fgit` defaults still point at the OLD IP.**
+v0.7.0's `--host` default for `token generate` / `token rotate` /
+`token revoke` / `token with` and `doctor` is `178.104.233.155` (the
+old forge-git box). After the 2026-09-17 migration, the SSH daemon is
+down AND the Gitea container isn't there. Always pass
+`--host 88.99.170.135` (CX33) explicitly until the fgit defaults flip.
+The HTTP API works on both, so `fgit pr`, `fgit ci`, `fgit mirror`
+keep functioning without a flag change.
+
+### Queue API
+
+`fgit queue` is HTTP-only — **not** a Postgres connection. Default URL
+is `https://forge-git-v2.blueforge.studio` (separate from Gitea proper);
+override via `FORGE_GIT_API_URL`. Endpoint path: `/api/admin/ci-queue`.
+
+**It requires a Gitea site-admin token, not an org-level admin.**
+The current operator tokens (`forge-git-admin-bootstrap`,
+`learn-quest-agent-20260919-1138` etc.) are org/repo admins but not
+Gitea site-admins. With a non-admin token you get back
+`Admin scope required / Gitea user <x> is not a site administrator.`
+Token order in `queue.ts`: `GITEA_ADMIN_TOKEN` → `FORGE_GIT_TOKEN` →
+`GITEA_TOKEN`. Set `GITEA_ADMIN_TOKEN` to a true Gitea site-admin
+token to make queue operations work.
+
+**If `fgit queue list` returns `Queue control is not configured /
+Set GITEA_DATABASE_URL on the forge-git deployment.`** that's the
+server telling you its OWN `GITEA_DATABASE_URL` env var isn't set —
+the queue feature is server-side gated on having a direct Postgres
+connection. Either the CX33 deployment is missing the env var, or the
+endpoint you're hitting is the old one (`forge-git.blueforge.studio`
+not `-v2.blueforge.studio`).
+
 ## CI planner
 
 Three-layer resolution:
@@ -186,6 +218,41 @@ git push -u origin <branch>
 ```
 
 From then on, `fgit pr create` works against the HTTPS origin.
+
+## SSH daemon down on the new forge-git server (CX33, 2026-09-19)
+
+Different from the SSH-origin gotcha above. This is a **transport-layer
+failure**: any SSH path to `forge-git.blueforge.studio` returns
+`Connection closed by UNKNOWN port 65535` (TCP refused, not auth). The
+HTTPS API works fine — `curl https://forge-git.blueforge.studio/api/v1/...`
+returns 403 (auth) on the same port, proving the host is up but SSH port
+22 is not accepting connections.
+
+**Symptom:**
+
+```
+$ ssh -o ConnectTimeout=5 -o BatchMode=yes -T git@forge-git.blueforge.studio
+channel 0: open failed: connect failed: Connection refused
+stdio forwarding failed
+Connection closed by UNKNOWN port 65535
+```
+
+**Workaround (always apply on first push to a fresh checkout):**
+
+```bash
+git remote set-url origin https://forge-git.blueforge.studio/<owner>/<repo>.git
+git push -u origin <branch>
+```
+
+**Root cause (filed as `blueforge-studio/forge-git#102` 2026-09-19):**
+the new forge-git server (CX33, 88.99.170.135 — replaces 178.104.233.155)
+was migrated without port 22 / `START_SSH_SERVER` / `gitea.ini [server]`
+SSH_DOMAIN being carried over or routed. Investigation lives on
+`blueforge-studio/forge-git` for visibility; forge-control tagged in
+issue comment #21238.
+
+**Don't confuse with:** the SSH-origin scope failure above — that one
+returns an auth error from the API, not a TCP connection-refused.
 
 ## What NOT to do
 
