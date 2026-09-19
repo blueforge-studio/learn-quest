@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""
+Generate docs/L1_CONTENT_REVIEW.md — a plain-English review sheet for all
+L1-aware lesson variants across the fleet.
+
+Reads lesson content straight from the app checkouts and renders, per
+lesson and per learner language: the ORIGINAL text, an English gloss of
+what it says, the cue line, and the audio demo words.
+
+Glosses are the author's statement of meaning; a native-speaker pass is
+the real quality gate (design risk #2).
+
+Usage: python3 scripts/generate_l1_review.py
+"""
+import json, glob, os
+
+CHECKOUTS = {
+    'lq-nordic': '/Volumes/SSD/Projects/Repos/lq-nordic-fresh',
+    'lq-southeast-asian': '/Volumes/SSD/Projects/Repos/lq-southeast-asian',
+    'lq-east-asian': '/Volumes/SSD/Projects/Repos/lq-east-asian',
+    'lq-germanic': '/Volumes/SSD/Projects/Repos/lq-germanic',
+}
+LANG_TARGET = {'danish': 'Danish', 'thai': 'Thai', 'lao': 'Lao', 'burmese': 'Burmese',
+               'khmer': 'Khmer', 'vietnamese': 'Vietnamese', 'indonesian': 'Indonesian',
+               'malay': 'Malay', 'tagalog': 'Filipino (Tagalog)', 'chinese': 'Mandarin Chinese',
+               'cantonese': 'Cantonese', 'japanese': 'Japanese', 'korean': 'Korean',
+               'german': 'German', 'dutch': 'Dutch', 'flemish': 'Flemish', 'swiss': 'Swiss German'}
+L1_NAMES = {'default': 'default (international)', 'da': 'Danish', 'de': 'German',
+            'en': 'English', 'th': 'Thai'}
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'docs', 'L1_CONTENT_REVIEW.md')
+
+def entries_with_variants(root, lang):
+    pattern = os.path.join(root, 'languages', lang, 'data', 'en', 'lessons', 'chapter-*', '*.json')
+    for f in sorted(glob.glob(pattern)):
+        try:
+            d = json.load(open(f))
+        except Exception:
+            continue
+        e = d.get('lessons')[0] if isinstance(d, dict) and isinstance(d.get('lessons'), list) and d.get('lessons') else d
+        if not isinstance(e, dict):
+            continue
+        content = e.get('content')
+        if isinstance(content, list):
+            content = next((x for x in content if isinstance(x, dict) and x.get('variants')), None)
+        v = content.get('variants') if isinstance(content, dict) else None
+        if isinstance(v, dict) and 'default' in v:
+            lid = e.get('id') or os.path.basename(f).replace('.json', '')
+            yield lid, e.get('chapterId', '?'), v
+
+
+# English glosses of Thai-script intros, keyed (repo, lang, lesson, l1).
+# Written by the author at content-creation time; native review confirms.
+THAI_GLOSSES = {
+  ('lq-nordic','danish','concept-danish-stod','th'):
+    "The stod is a small catch in the throat at the end of a word — Thai has nothing like it, but you can learn it by hearing where the voice stops suddenly: hund (dog) has the catch, hun (she) doesn't.",
+  ('lq-nordic','danish','concept-danish-hard-vs-soft-d','th'):
+    "Danish has two D sounds, hard and soft — like Thai distinguishing hard and soft consonants. The soft d sounds like the English 'th' in 'this'.",
+  ('lq-nordic','danish','concept-danish-sk-cluster','th'):
+    "The Danish /sk/ is sharper than the /sk/ in Thai loanwords — start it further forward in the mouth.",
+  ('lq-nordic','danish','concept-danish-final-t-glottal','th'):
+    "A written final -t usually becomes a glottal stop — Thai speakers do this naturally, which is an advantage.",
+  ('lq-southeast-asian','thai','concept-particles','th'):
+    "Thai sentences end with a politeness particle: krap (male) or ka (female). Dropping it sounds abrupt — like answering the phone with just 'Yeah'.",
+  ('lq-southeast-asian','thai','tonal-thai-tones-intro','th'):
+    "A reminder for Thai readers: you already have the ear for this lesson's contrasts — the Danish examples map onto tones you know.",
+  ('lq-southeast-asian','thai','concept-sounds','th'):
+    "An overview of the Thai sound system — consonant classes, vowel length and the tone rules that follow from them.",
+  ('lq-southeast-asian','thai','conversation-greetings','en'):
+    "Greet with sa-wat-dee plus krap (male) or ka (female) — it covers both hello and goodbye.",
+  ('lq-southeast-asian','thai','dialogue-meeting-someone','en'):
+    "Introduce yourself with your first name plus the politeness particle, then 'dee-jai tee dai roo-jak' (nice to meet you).",
+}
+
+def main():
+    sections = []   # (repo, tname, [(lid, ch, variants)])
+    counts = {}
+    for repo, root in CHECKOUTS.items():
+        langs = sorted(os.listdir(os.path.join(root, 'languages')))
+        for lang in langs:
+            tname = LANG_TARGET.get(lang, lang)
+            lessons = list(entries_with_variants(root, lang))
+            if lessons:
+                sections.append((repo, tname, lang, lessons))
+                counts[tname] = counts.get(tname, 0) + len(lessons)
+
+    lines = ['# L1-Aware Phonics — Plain-English Content Review Sheet', '',
+             'Every lesson variant shipped in the L1 wave, rendered so a non-native reader can review it.',
+             'Generated by `scripts/generate_l1_review.py` — re-run after content changes.', '',
+             '## Coverage', '',
+             '| Target language | Lessons with L1 variants |', '|---|---|']
+    total = 0
+    for t, n in sorted(counts.items()):
+        lines.append(f'| {t} | {n} |')
+        total += n
+    lines.append(f'| **Total** | **{total}** |')
+    lines.append('')
+    lines.append('**Review checklist for a native speaker** (per intro):')
+    lines.append('')
+    lines.append('1. Does it read naturally in your language?')
+    lines.append('2. Is the phonetic explanation correct?')
+    lines.append('3. Is the comparison to your language fair and useful?')
+    lines.append('4. Cue audio: is the target-language pronunciation clear and the pace right?')
+    lines.append('')
+    lines.append('English glosses of non-English intros are the author\'s statement of meaning.')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+
+    for repo, tname, lang, lessons in sections:
+        lines.append(f'## {repo} — {tname}')
+        lines.append('')
+        for lid, ch, v in lessons:
+            lines.append(f'### {lid} ({ch})')
+            lines.append('')
+            dflt = v['default']
+            lines.append(f'**Universal intro (default):** {dflt.get("intro","")}')
+            lines.append('')
+            for l1 in v:
+                if l1 == 'default':
+                    continue
+                t = v[l1]
+                name = L1_NAMES.get(l1, l1)
+                lines.append(f'**{name} intro:** {t.get("intro","")}')
+                lines.append('')
+                gl = THAI_GLOSSES.get((repo, lang, lid, l1))
+                if gl:
+                    lines.append(f'*English gloss:* {gl}')
+                    lines.append('')
+                lines.append(f'*Cue line:* {t.get("cue","")}')
+                lines.append('')
+                lines.append(f'*Audio demo words:* {t.get("audioPrompt","(none — TTS fallback speaks the intro)")}')
+                lines.append('')
+            lines.append('---')
+            lines.append('')
+    open(OUT, 'w').write('\n'.join(lines))
+    print('written', OUT, '| lessons:', total)
+
+if __name__ == '__main__':
+    main()
