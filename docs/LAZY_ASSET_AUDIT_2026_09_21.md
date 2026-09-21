@@ -52,7 +52,7 @@ description: "Full audit of the lazy-asset pipeline on lq-core + books-platform 
 | 🟡 WARN | `probeStorage` uses `storage.list(undefined)` — O(N) | Switch to `storage.head(key)` | ✅ addressed by **lq-core#70** — uses `storage.list(key)` as prefix-filter; URL derived from `publicUrlBase`. Strictly better than head() (no new method on adapter interface) |
 | 🟡 WARN | Stale `LAZY_ASSET_HANDOVER_2026_09_19.md` (says "✅ CODE COMPLETE") | Refresh to a dated handover | ✅ covered by STATUS_2026_09_21 + this audit's corrections |
 | 🟡 WARN | Memory doesn't surface the audit+upload gap | Update memory | ✅ done (see `project_lazy_asset_pr5c_m3_aiclient_2026_09_19.md`) |
-| 🟡 WARN | PR #15 (platform-api deploy) is 76 commits behind main, predates #67/#68 — **NOT obsolete** (operator-verified 2026-09-21, see comment on #15) | Rebase onto main, keep build/entrypoint/CI/overrides/ignore/lockfile-regen hunks, drop the duplicate `project` key, defer shared-vs-sidecar postgres to platform | 🔴 OPEN — blocks pilot gate flip; `api.quest` is the hand-deploy of #15, main undeployed |
+| 🟡 WARN | PR #15 (platform-api deploy) is 76 commits behind main, predates #67/#68 — **NOT obsolete** (operator-verified 2026-09-21, see comment on #15) | Rebase onto main, keep build/entrypoint/CI/overrides/ignore/lockfile-regen hunks, drop the duplicate `project` key, defer shared-vs-sidecar postgres to platform | 🟡 REBASED 2026-09-21 — pushed `760e9275`; CI pending (job 103914); postgres decision deferred |
 | 🟡 WARN | 4 stale branches on lq-core (`chore/lazy-asset-pr1/pr3/pr5a-2026-09-19` + `feat/lazy-asset-pr5c-m3-aiclient-2026-09-19`) all already merged via PRs | `git branch -D` | ✅ DONE (PR C) — pruned 2026-09-21 |
 | 💡 NOTE | Spec says handler lives in `@learnquest/web-core/lazy-asset`; actual is `apps/lang-core/src/lazy-asset` | Document the location deviation | not blocking |
 | 💡 NOTE | `reuse` catalog lookup for SFX (spec § Cross-platform coverage) not implemented anywhere | Track as PR 2.5+ work | not blocking |
@@ -248,7 +248,7 @@ The audit's original ordering was based on a stale local main. Corrected view ag
 1. ~~**Fix the handler audit+upload gap** (finding #1)~~ ✅ SUPERSEDED by **lq-core#70** (different design — render dep returns buffer directly; cleaner)
 2. ~~**Wire real audit (no more noop)** (finding #2)~~ ✅ SUPERSEDED by **lq-core#72** (`pixelAuditImage` facade)
 3. ~~**Switch `probeStorage` to `storage.head`** (finding #3)~~ ✅ SUPERSEDED by **lq-core#70** (`storage.list(key)` prefix-filter is strictly better than head() — no adapter interface change)
-4. ~~**Decide on PR #15** (finding #6)~~ ✅ decision recorded (NOT obsolete — needs rebase + selective cherry-pick + lockfile regen + shared-vs-sidecar platform decision); see updated §2 + operator comment on #15
+4. ~~**Decide on PR #15** (finding #6)~~ ✅ decision recorded (NOT obsolete — needs rebase + selective cherry-pick + lockfile regen + shared-vs-sidecar platform decision); see updated §2 + operator comment on #15. **2026-09-21 rebase done:** branch force-pushed as `760e9275` with all surviving hunks intact + duplicate `project` key dropped + DATABASE_URL workaround deferred. CI pending.
 5. ~~**Prune 4 stale branches** (finding #7)~~ ✅ DONE 2026-09-21 — PR C; pruned `chore/lazy-asset-pr1/pr3/pr5a` + `feat/lazy-asset-pr5c` (all local-only, squash-merged duplicates)
 6. ~~**Refresh handover doc** (finding #4)~~ ✅ covered by [`STATUS_2026_09_21.md`](./STATUS_2026_09_21.md) + this audit's corrections
 7. ~~**Update memory entry** (finding #5)~~ ✅ done (see `project_lazy_asset_pr5c_m3_aiclient_2026_09_19.md`)
@@ -265,7 +265,7 @@ After #70 + #72 land (both on origin/main), the pilot gate flip becomes safe *in
 | A | lq-core | `fix(lazy-asset): handler must read buffer, audit, upload, write sidecar` | ~1 hr | ⚪ SUPERSEDED by **lq-core#70** (parallel work) |
 | B | lq-core | `perf(lazy-asset): probeStorage via head() not list()` | ~15 min | ⚪ SUPERSEDED by **lq-core#70** (list(key) prefix-filter is strictly better) |
 | C | lq-core | `chore: prune stale lazy-asset-* branches` (pr1, pr3, pr5a, pr5c) | ~5 min | ✅ DONE 2026-09-21 (local branches — never pushed; squash-merged duplicates) |
-| D | lq-core | `chore: rebase #15 onto current main, drop duplicate project key, regenerate lockfile` | ~½ day | 🟡 OPEN — NOT obsolete (corrected); operator comment on #15 documents surviving hunks |
+| D | lq-core | `chore: rebase #15 onto current main, drop duplicate project key, regenerate lockfile` | ~½ day | 🟡 REBASED 2026-09-21 — pushed `760e9275`; CI pending; deferred postgres decision |
 | E | learn-quest | `docs: refresh LAZY_ASSET_HANDOVER_2026_09_21.md` | ~10 min | ✅ covered by STATUS_2026_09_21 + this audit |
 | F | (memory) | `update project_lazy_asset_pr5c_m3_aiclient.md` | ~5 min | ✅ done |
 | G | (this audit doc) | `docs/LAZY_ASSET_AUDIT_2026_09_21.md` | — | ✅ done (corrected 2026-09-21) |
