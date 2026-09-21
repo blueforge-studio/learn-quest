@@ -53,7 +53,7 @@ description: "Full audit of the lazy-asset pipeline on lq-core + books-platform 
 | 🟡 WARN | Stale `LAZY_ASSET_HANDOVER_2026_09_19.md` (says "✅ CODE COMPLETE") | Refresh to a dated handover | ✅ covered by STATUS_2026_09_21 + this audit's corrections |
 | 🟡 WARN | Memory doesn't surface the audit+upload gap | Update memory | ✅ done (see `project_lazy_asset_pr5c_m3_aiclient_2026_09_19.md`) |
 | 🟡 WARN | PR #15 (platform-api deploy) is 76 commits behind main, predates #67/#68 — **NOT obsolete** (operator-verified 2026-09-21, see comment on #15) | Rebase onto main, keep build/entrypoint/CI/overrides/ignore/lockfile-regen hunks, drop the duplicate `project` key, defer shared-vs-sidecar postgres to platform | 🔴 OPEN — blocks pilot gate flip; `api.quest` is the hand-deploy of #15, main undeployed |
-| 🟡 WARN | 3 stale branches on lq-core (`chore/lazy-asset-pr1/pr3/pr5a-2026-09-19`) all already merged via PRs | `git branch -D` | 🔴 OPEN (PR C from §4) |
+| 🟡 WARN | 4 stale branches on lq-core (`chore/lazy-asset-pr1/pr3/pr5a-2026-09-19` + `feat/lazy-asset-pr5c-m3-aiclient-2026-09-19`) all already merged via PRs | `git branch -D` | ✅ DONE (PR C) — pruned 2026-09-21 |
 | 💡 NOTE | Spec says handler lives in `@learnquest/web-core/lazy-asset`; actual is `apps/lang-core/src/lazy-asset` | Document the location deviation | not blocking |
 | 💡 NOTE | `reuse` catalog lookup for SFX (spec § Cross-platform coverage) not implemented anywhere | Track as PR 2.5+ work | not blocking |
 | ⚪ SUPERSEDED | PR A — handler audit+upload glue (opened as lq-core#73) | — | ❌ closed 2026-09-21 — superseded by #70 (same goal, different design landed in parallel) |
@@ -203,16 +203,18 @@ This PR is on the critical path to the lazy-asset pilot gate flip: `api.quest` i
 
 **Why I (the audit author) called it "likely obsolete":** I conflated "behind main" with "obsolete". The comment on #15 corrected this. The branch's hunks remain load-bearing; the staleness is the rebuild, not the substance.
 
-### 🟡 WARN · Stale branches (PR C — open)
+### 🟡 WARN · Stale branches (✅ DONE 2026-09-21, PR C)
 
-**Location:** lq-core local branches (verified 2026-09-21, post-ff to origin/main)
+**Location:** lq-core local branches (verified 2026-09-21, post-ff to origin/main @ 52c77f53)
 
-| Branch | Status | Action |
-|---|---|---|
-| `chore/lazy-asset-pr1-foundation-2026-09-19` | Merged in PR #64 (`d41b0d37`) | **Delete** — `git branch -D` |
-| `chore/lazy-asset-pr3-handler-2026-09-19` | Merged in PR #65 (`63da5302`) | **Delete** — `git branch -D` |
-| `chore/lazy-asset-pr5a-pilot-gate-2026-09-19` | Merged in PR #67 (`8a625bdf`) | **Delete** — `git branch -D` |
-| `chore/lazy-asset-pr4-hooks-ui-2026-09-19` | Not present locally | n/a (memory error — was `chore/lazy-asset-pr5a`, not `pr4`) |
+| Branch | Status | Action | Status |
+|---|---|---|---|
+| `chore/lazy-asset-pr1-foundation-2026-09-19` | Merged in PR #64 (`d41b0d37`) | `git branch -D` | ✅ deleted |
+| `chore/lazy-asset-pr3-handler-2026-09-19` | Merged in PR #65 (`63da5302`) | `git branch -D` | ✅ deleted |
+| `chore/lazy-asset-pr5a-pilot-gate-2026-09-19` | Merged in PR #67 (`8a625bdf`) | `git branch -D` | ✅ deleted |
+| `feat/lazy-asset-pr5c-m3-aiclient-2026-09-19` | Tip identical to PR #68 squash `3f5e2c5d`; empty diff vs main | `git branch -D` | ✅ deleted |
+
+All four were local-only branches (never pushed; squash-merge duplicates). The audit's memory entry that listed `chore/lazy-asset-pr4-hooks-ui-2026-09-19` was a memory error — the actual local set was pr1, pr3, pr5a, pr5c. None had remote refs.
 | `feat/lazy-asset-pr5c-m3-aiclient-2026-09-19` | Same as main HEAD | Switch off, delete |
 
 ### 💡 NOTE · Spec location deviation
@@ -247,7 +249,7 @@ The audit's original ordering was based on a stale local main. Corrected view ag
 2. ~~**Wire real audit (no more noop)** (finding #2)~~ ✅ SUPERSEDED by **lq-core#72** (`pixelAuditImage` facade)
 3. ~~**Switch `probeStorage` to `storage.head`** (finding #3)~~ ✅ SUPERSEDED by **lq-core#70** (`storage.list(key)` prefix-filter is strictly better than head() — no adapter interface change)
 4. ~~**Decide on PR #15** (finding #6)~~ ✅ decision recorded (NOT obsolete — needs rebase + selective cherry-pick + lockfile regen + shared-vs-sidecar platform decision); see updated §2 + operator comment on #15
-5. **Prune 3 stale branches** (finding #7) — single `git branch -D` call (PR C — open)
+5. ~~**Prune 4 stale branches** (finding #7)~~ ✅ DONE 2026-09-21 — PR C; pruned `chore/lazy-asset-pr1/pr3/pr5a` + `feat/lazy-asset-pr5c` (all local-only, squash-merged duplicates)
 6. ~~**Refresh handover doc** (finding #4)~~ ✅ covered by [`STATUS_2026_09_21.md`](./STATUS_2026_09_21.md) + this audit's corrections
 7. ~~**Update memory entry** (finding #5)~~ ✅ done (see `project_lazy_asset_pr5c_m3_aiclient_2026_09_19.md`)
 8. **Land `lq-core#15` rebased** → redeploy `api.quest` from main → pilot gate flip on `lq-romance/french/ch1` + `story-book/the-three-bears`. Currently `api.quest` runs the hand-deploy of #15, so the post-#70 handler isn't reachable on prod yet.
@@ -262,7 +264,7 @@ After #70 + #72 land (both on origin/main), the pilot gate flip becomes safe *in
 |---|---|---|---|---|
 | A | lq-core | `fix(lazy-asset): handler must read buffer, audit, upload, write sidecar` | ~1 hr | ⚪ SUPERSEDED by **lq-core#70** (parallel work) |
 | B | lq-core | `perf(lazy-asset): probeStorage via head() not list()` | ~15 min | ⚪ SUPERSEDED by **lq-core#70** (list(key) prefix-filter is strictly better) |
-| C | lq-core | `chore: prune stale lazy-asset-* branches` (pr1, pr3, pr5a) | ~5 min | 🟡 OPEN |
+| C | lq-core | `chore: prune stale lazy-asset-* branches` (pr1, pr3, pr5a, pr5c) | ~5 min | ✅ DONE 2026-09-21 (local branches — never pushed; squash-merged duplicates) |
 | D | lq-core | `chore: rebase #15 onto current main, drop duplicate project key, regenerate lockfile` | ~½ day | 🟡 OPEN — NOT obsolete (corrected); operator comment on #15 documents surviving hunks |
 | E | learn-quest | `docs: refresh LAZY_ASSET_HANDOVER_2026_09_21.md` | ~10 min | ✅ covered by STATUS_2026_09_21 + this audit |
 | F | (memory) | `update project_lazy_asset_pr5c_m3_aiclient.md` | ~5 min | ✅ done |
