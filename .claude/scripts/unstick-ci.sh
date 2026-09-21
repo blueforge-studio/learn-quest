@@ -168,22 +168,35 @@ print(f'  {\" \".join(parts):60}  {repo}  {path}')
 " "$1"
 }
 
-# Cancel a single run. Returns 0 on success (or dry-run), 1 on HTTP error.
+# Cancel a single run via the per-repo cancel endpoint. Gitea's
+# `DELETE …/actions/runs/{id}` actually deletes the run (including logs
+# + artifacts on 1.27); the correct call is `POST …/actions/runs/{id}/cancel`.
+# Gitea returns 409 when the run is already completed — treat that as
+# success ("it's done, nothing to cancel") rather than an error.
+# Repo path is derived from `repository.full_name` so this works for
+# any repo, not just blueforge.
 cancel_one() {
   local run="$1"
-  local id status attempt
+  local id status attempt repo_full cancel_url http_code
   id=$(printf '%s' "$run" | python3 -c "import json, sys; print(json.load(sys.stdin)['id'])")
   status=$(printf '%s' "$run" | python3 -c "import json, sys; print(json.load(sys.stdin).get('status','?'))")
   attempt=$(printf '%s' "$run" | python3 -c "import json, sys; print(json.load(sys.stdin).get('run_attempt','?'))")
+  repo_full=$(printf '%s' "$run" | python3 -c "import json, sys; print(json.load(sys.stdin).get('repository',{}).get('full_name','?'))")
   if [[ $DRY_RUN -eq 1 ]]; then
-    echo "  would cancel:  #$id  status=$status  attempt=$attempt"
+    echo "  would cancel:  #$id  status=$status  attempt=$attempt  ($repo_full)"
     return 0
   fi
-  http_code=$(curl -s -o /dev/null -w '%{http_code}' -X DELETE -H "$AUTH" "$BASE/repos/blueforge-studio/blueforge/actions/runs/$id")
-  if [[ "$http_code" == "204" ]]; then
-    echo "  cancelled:    #$id  status=$status  attempt=$attempt"
-    return 0
-  fi
+  cancel_url="$BASE/repos/$repo_full/actions/runs/$id/cancel"
+  http_code=$(curl -s -o /dev/null -w '%{http_code}' -X POST -H "$AUTH" -H "User-Agent: $UA" "$cancel_url")
+  # 200 / 204 = accepted / cancelled. 409 = already done (treat as success).
+  case "$http_code" in
+    200|204)
+      echo "  cancelled:    #$id  status=$status  attempt=$attempt"
+      return 0 ;;
+    409)
+      echo "  already done: #$id  status=$status  attempt=$attempt"
+      return 0 ;;
+  esac
   echo "  failed (HTTP $http_code):  #$id"
   return 1
 }
@@ -197,13 +210,14 @@ fi
 
 # Mode: --run <id>
 if [[ -n "$RUN_ID" ]]; then
-  # Hard-coded to blueforge-studio/blueforge. For other repos, use the
-  # admin API directly:
-  #   curl -X DELETE -H "$AUTH" "$BASE/repos/<owner>/<repo>/actions/runs/$RUN_ID"
-  run=$(curl -s -H "$AUTH" "$BASE/repos/blueforge-studio/blueforge/actions/runs/$RUN_ID" || true)
+  # Look up the run via the admin endpoint so we know which repo it lives
+  # in (the per-repo endpoint is required for cancel). Repo is derived
+  # from the run's `repository.full_name` — works for any repo, not just
+  # blueforge-studio/blueforge. For other repos, the cancel will go
+  # through the right path automatically.
+  run=$(curl -s -H "$AUTH" -H "User-Agent: $UA" "$BASE/admin/actions/runs/$RUN_ID" || true)
   if [[ -z "$run" || "$run" == "null" ]]; then
-    echo "Run $RUN_ID not found at $BASE/repos/blueforge-studio/blueforge/actions/runs/$RUN_ID." >&2
-    echo "(This script's --run only handles blueforge-studio/blueforge. For other repos, use the admin API directly.)" >&2
+    echo "Run $RUN_ID not found via $BASE/admin/actions/runs/$RUN_ID." >&2
     exit 2
   fi
   echo "Target:"; print_summary "$run"
@@ -263,17 +277,20 @@ for r in candidates:
     print(f"  #{rid:5}  {repo}  {path}")
     if DRY:
         continue
-    repo_part = repo.replace('blueforge-studio/', '')
-    cancel_url = f"{BASE}/repos/blueforge-studio/{repo_part}/actions/runs/{rid}"
+    # Gitea 1.27: DELETE /runs/{id} deletes the run (incl. logs/artifacts);
+    # the correct call is POST /runs/{id}/cancel. 409 = already done
+    # (treat as success; the operator's intent is achieved either way).
+    cancel_url = f"{BASE}/repos/{repo}/actions/runs/{rid}/cancel"
     cancel_req = urllib.request.Request(
-        cancel_url, headers={'Authorization': 'token ${GITEA_TOKEN}', 'User-Agent': '${UA}'}, method='DELETE')
+        cancel_url, headers={'Authorization': 'token ${GITEA_TOKEN}', 'User-Agent': '${UA}'}, method='POST')
     try:
         with urllib.request.urlopen(cancel_req, timeout=15) as r2:
             code = r2.status
     except urllib.error.HTTPError as e:
         code = e.code
-    if code == 204:
-        print(f"          cancelled")
+    if code in (200, 204, 409):
+        verb = {200: 'cancelled', 204: 'cancelled', 409: 'already done'}[code]
+        print(f"          {verb}")
     else:
         print(f"          failed (HTTP {code})")
         fail += 1
@@ -330,17 +347,20 @@ for r in candidates:
         continue
     # Per-repo cancel endpoint. Hard-coded to blueforge-studio/<repo>; the
     # admin endpoint requires repo-specific routing.
-    repo_part = repo.replace('blueforge-studio/', '')
-    cancel_url = f"{BASE}/repos/blueforge-studio/{repo_part}/actions/runs/{rid}"
+    # Gitea 1.27: DELETE /runs/{id} deletes the run (incl. logs/artifacts);
+    # the correct call is POST /runs/{id}/cancel. 409 = already done
+    # (treat as success; the operator's intent is achieved either way).
+    cancel_url = f"{BASE}/repos/{repo}/actions/runs/{rid}/cancel"
     cancel_req = urllib.request.Request(
-        cancel_url, headers={'Authorization': 'token ${GITEA_TOKEN}', 'User-Agent': '${UA}'}, method='DELETE')
+        cancel_url, headers={'Authorization': 'token ${GITEA_TOKEN}', 'User-Agent': '${UA}'}, method='POST')
     try:
         with urllib.request.urlopen(cancel_req, timeout=15) as r2:
             code = r2.status
     except urllib.error.HTTPError as e:
         code = e.code
-    if code == 204:
-        print(f"          cancelled")
+    if code in (200, 204, 409):
+        verb = {200: 'cancelled', 204: 'cancelled', 409: 'already done'}[code]
+        print(f"          {verb}")
     else:
         print(f"          failed (HTTP {code})")
         fail += 1
