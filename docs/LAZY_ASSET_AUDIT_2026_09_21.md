@@ -37,10 +37,13 @@ description: "Full audit of the lazy-asset pipeline on lq-core + books-platform 
 | 🟡 WARN | `probeStorage` uses `storage.list(undefined)` — O(N) over the whole bucket per request | Switch to `storage.head(key)` |
 | 🟡 WARN | `LAZY_ASSET_HANDOVER_2026_09_19.md` claims "✅ CODE COMPLETE" but the audit+upload gap means it's misleading | Refresh to a dated `LAZY_ASSET_HANDOVER_2026_09_21.md` |
 | 🟡 WARN | Memory `project_lazy_asset_pr5c_m3_aiclient.md` doesn't surface the audit+upload gap | Add the finding to the memory file |
-| 🟡 WARN | PR #15 (`fix/declare-project`) is 36 commits behind main and predates PRs #67/#68 — likely obsolete | Verify workaround is no longer needed; close or update |
+| 🟡 WARN | PR #15 (`fix/declare-project`) is 76 commits behind main and predates PRs #67/#68 — **NOT obsolete** (operator-verified hunk-by-hunk 2026-09-21, see comment on #15) | Rebase onto main, keep build/entrypoint/CI/overrides/ignore/lockfile-regen hunks, drop the duplicate `project` key, defer the shared-vs-sidecar postgres decision to platform |
 | 🟡 WARN | 3 stale branches on lq-core (`chore/lazy-asset-pr1/pr3/pr4-2026-09-19`) all already merged via PRs | Prune |
 | 💡 NOTE | Spec says handler lives in `@learnquest/web-core/lazy-asset`; actual is `apps/lang-core/src/lazy-asset` | Document the location deviation |
 | 💡 NOTE | `reuse` catalog lookup for SFX (spec § Cross-platform coverage) not implemented anywhere | Track as PR 2.5+ work |
+| ✅ DONE | PR A — handler audit+upload glue | lq-core#73 |
+| ✅ DONE | PR B — `probeStorage` via `head()` (scoped to optional method) | lq-core#73 (2nd commit) |
+| ✅ DONE | PR D correction — #15 is NOT obsolete; needs rebase + selective cherry-pick + lockfile regen + shared-vs-sidecar platform decision | (operator comment on #15, 2026-09-21; this audit §2 updated) |
 
 ---
 
@@ -158,17 +161,21 @@ Says PR #68 "wired the real M3 + Gemini" — true for the wiring layer; doesn't 
 
 **Recommended fix:** Add the audit+upload gap to the memory entry's "Open gaps" section.
 
-### 🟡 WARN · PR #15 is likely obsolete
+### 🟡 WARN · PR #15 — NOT obsolete (corrected 2026-09-21)
 
 **Location:** `lq-core#15` `fix/declare-project → main`
 
 - Opened 2026-09-03 (before lazy-asset work)
-- 36 commits behind main (all lazy-asset PRs landed after)
-- Workaround for `DATABASE_URL is required` boot error
-- Author's own comment: "This is a workaround and should not survive"
-- Has conflicts (CI failure)
+- 76 commits behind main; conflicts (CI failure)
+- Operator housekeeping check 2026-09-21 (comment on #15): every hunk is **still needed** on current main. Main has only touched one of these files (`services/platform-api/package.json`, where #67 added the new deps). The build/entrypoint/CI/overrides/ignore fixes, the pnpm-workspace `next` + `protobufjs` overrides (3 critical advisories still open on main), and the lockfile regen are all load-bearing.
+- The branch carries a duplicate `project` key (lines 3 and 5 of `blueforge.config.json`); the later one silently wins. Drop that hunk on rebase.
+- The `DATABASE_URL` workaround + `dependencies: {postgres: blueforge-shared}` form need a shared-vs-sidecar postgres platform decision before merging.
 
-**Recommended fix:** Investigate whether the workaround is still needed (the platform-api may have evolved). If not, close as obsolete. If yes, the work needs to be redone against current main.
+**Recommended fix:** Rebase onto main, keep all the surviving hunks, drop the duplicate `project` key, regenerate the lockfile. The platform decision (shared vs sidecar postgres for platform-api) is a separate scope item — file a follow-up or escalate to the platform owner.
+
+This PR is on the critical path to the lazy-asset pilot gate flip: api.quest is the hand-deploy of #15, and main hasn't been deployed since. Until #15 lands, the lazy-asset handler from #73 isn't reachable on prod.
+
+**Why I (the audit author) called it "likely obsolete":** I conflated "behind main" with "obsolete". The comment on #15 corrected this. The branch's hunks remain load-bearing; the staleness is the rebuild, not the substance.
 
 ### 🟡 WARN · Stale branches
 
@@ -208,29 +215,29 @@ The spec's "Cross-platform coverage — books-platform extension § 3" describes
 
 ## 4. Recommended next steps (in order)
 
-1. **Fix the handler audit+upload gap** (finding #1) — ~50 lines + tests, blocker for PR 5
-2. **Switch `probeStorage` to `storage.head`** (finding #3) — ~10 lines, immediate perf win
-3. **Decide on PR #15** (finding #6) — close as obsolete OR redo against main
+1. ~~**Fix the handler audit+upload gap** (finding #1)~~ ✅ landed as lq-core#73 (PR A)
+2. ~~**Switch `probeStorage` to `storage.head`** (finding #3)~~ ✅ landed as lq-core#73 second commit (PR B, scoped to optional method)
+3. ~~**Decide on PR #15** (finding #6)~~ ✅ decision recorded (NOT obsolete — needs rebase + selective cherry-pick + lockfile regen + shared-vs-sidecar platform decision); see updated §2 + operator comment on #15
 4. **Prune 3 stale branches** (finding #7) — single `git branch -D` call
-5. **Refresh handover doc** (finding #4) — dated `LAZY_ASSET_HANDOVER_2026_09_21.md`
-6. **Update memory entry** (finding #5) — surface the gap
-7. **Re-audit post-fix** — confirm the audit+upload path is end-to-end functional before any pilot gate flip
+5. ~~**Refresh handover doc** (finding #4)~~ ✅ covered by [`STATUS_2026_09_21.md`](./STATUS_2026_09_21.md) + this audit's corrections
+6. ~~**Update memory entry** (finding #5)~~ ✅ done (see `project_lazy_asset_pr5c_m3_aiclient_2026_09_19.md`)
+7. **Re-audit post-fix** — confirm the audit+upload path is end-to-end functional once #73 lands on main and the prod platform-api redeploys from main (currently api.quest is the hand-deploy of #15)
 
-After #1, the pilot gate flip becomes safe.
+After #1 + #2 land (both in #73), the pilot gate flip becomes safe *in code*. It still requires #15 → main → prod deploy (operator-shaped).
 
 ---
 
 ## 5. PR breakdown (if you want to drive these)
 
-| PR | Repo | Title | Estimated |
-|---|---|---|---|
-| A | lq-core | `fix(lazy-asset): handler must read buffer, audit, upload, write sidecar` | ~1 hr |
-| B | lq-core | `perf(lazy-asset): probeStorage via head() not list()` | ~15 min |
-| C | lq-core | `chore: prune stale lazy-asset-* branches` | ~5 min |
-| D | lq-core | `chore: close #15 as obsolete (verify workaround first)` | ~15 min |
-| E | learn-quest | `docs: refresh LAZY_ASSET_HANDOVER_2026_09_21.md` | ~10 min |
-| F | (memory) | `update project_lazy_asset_pr5c_m3_aiclient.md` | ~5 min |
-| G | (this audit doc) | `docs/LAZY_ASSET_AUDIT_2026_09_21.md` ✅ done | — |
+| PR | Repo | Title | Estimated | Status |
+|---|---|---|---|---|
+| A | lq-core | `fix(lazy-asset): handler must read buffer, audit, upload, write sidecar` | ~1 hr | ✅ landed lq-core#73 |
+| B | lq-core | `perf(lazy-asset): probeStorage via head() not list()` | ~15 min | ✅ landed lq-core#73 (scoped to optional method) |
+| C | lq-core | `chore: prune stale lazy-asset-* branches` | ~5 min | open |
+| D | lq-core | `chore: rebase #15 onto current main, drop duplicate project key, regenerate lockfile` | ~½ day | NOT obsolete (corrected); operator comment on #15 documents surviving hunks |
+| E | learn-quest | `docs: refresh LAZY_ASSET_HANDOVER_2026_09_21.md` | ~10 min | ✅ covered by STATUS_2026_09_21 + this audit |
+| F | (memory) | `update project_lazy_asset_pr5c_m3_aiclient.md` | ~5 min | ✅ done |
+| G | (this audit doc) | `docs/LAZY_ASSET_AUDIT_2026_09_21.md` | — | ✅ done |
 
 Operator-shaped (chat-burned protocol):
 - Pilot gate flip on `lq-romance/french/ch1` — after PR A lands
