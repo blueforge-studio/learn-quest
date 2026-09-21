@@ -69,11 +69,34 @@ To verify wiring, run each app's `tests/unit/content-integrity.spec.ts`
 - `lingua-quest-web-1` (port 8081), `lingua-quest-quest-editor-1` (port 8082), `lingua-quest-site-1` (port 3500), `lingua-quest-api-1` (port 3002) — all on box 1
 - `books-platform-frontend-1` (port 8080), `books-platform-books-api-1` (port 3009), `books-platform-stripe-api-1` (port 3001) — all on box 1
 
+## Lessons from 2026-09-21 session (lazy-asset pilot + fleet fix)
+
+### Lazy-asset pipeline is code-complete end-to-end
+- `lq-core` PRs #64–#72 (foundation + handler/audit/UI/route/M3-Gemini wiring) + #76 (lib-level pg lazy-load) on main.
+- `books-platform#32` (vite fallback fleet) merged — 6 SPAs get production-host fallbacks when `apps.web.buildEnv` injection fails (forge-control#1391).
+- Pilot gate flip pending on the operator: `forge app-deploy platform-api --server --no-dns` from `lq-core`'s main, then set `GEMINI_API_KEY` + `IMAGE_LAZY_GENERATION_ENABLED=true` in forge-app-2 deploy env. Env vars were set in this session; rebuild is queued behind 12d/13d stale in-flight builds on app-3.
+
+### Patterns worth remembering
+1. **`pg` lazy-load on client-side services** — `SessionService.recordSessionEnd`, `rewardGrantService.grantForCompletedGoal`, `balanceService.{creditBalance,screenTimeAvailableToday}` in `lq-core`. Without the lazy `await import('@learnquest/database/postgres')`, Rollup bundles `pg` into the Vite SPA entry chunk because `pg` doesn't declare `sideEffects: false`. Symptom: blank page with `class extends value undefined` (EventEmitter) or `Buffer is not defined`. The lib-level fix (`lq-core#76`) supersedes per-app vite treeshake workarounds like `lq-reading#18` for the `app-shell 0.15` fleet.
+2. **Workspace-mode deploy hits `apps/web`** — even when `apps.web.kind: dev`, forge-control's workspace deploy mode bundles EVERY app in `blueforge.config.json`'s `apps` block. The platform-api deploy is blocked until `apps/web` builds. `lq-core#74` (replace `%VITE_LANGUAGE_LABEL%` in `apps/web/index.html`) + #75 (export `./limits`) + #77 (export `./game` + `./routeDependencies`) cover the three concrete build failures as of 2026-09-21. New failures will surface as new subpath-export bugs in `@learnquest/*` libs.
+3. **Every `@learnquest/*` lib needs subpath-export audits** when adding new files. Pattern: a file at `libs/app/config/src/limits.ts` was imported as `@learnquest/app-config/limits` but the `package.json` `exports` map was never updated. Build fails with `Missing "./limits" specifier`. Same bug class affected `./game` and `./routeDependencies`. The audit script: `grep -rn "from .@learnquest/<lib>/<subpath>" libs apps services | sort -u` against the lib's `exports` map.
+4. **Pilot gate flip runbook** — full sequence in `learn-quest/docs/LAZY_ASSET_HANDOVER_2026_09_19.md`. Operational state: `forge app list learnquest-core` shows `api` on app-3; env vars go through `forge env set <project> <key> <value>` (three positional args); deploy via `forge app-deploy platform-api --server --no-wait` from `lq-core`'s main; verify `curl https://api.quest.blueforge.studio/api/health` lists `/api/assets/lazy` in the routes.
+
+### Memory state
+- `project_lazy_asset_pr5c_m3_aiclient` — campaign state; #70/#72/#73/#76 all addressed the same class of bugs the original spec missed.
+- `project_platform_api_prod_on_pr15_branch` — pilot blocker resolved (PR #15 MERGED on main).
+- `project_pg_blank_page_fix` — fleet blank-page rescue (lq-core#76).
+- `project_p2_4_per_app_generators` — P2.4 fleet closed.
+
 ## Pending
 
 - Phase 6 retro-fit: replace handrolled `deploy/*` with generator output
 - Per-app DB provisioning (current shared Postgres)
 - Migration to standard `@blueforge/deployer` output
+- Operator actions to unblock the pilot gate flip:
+  - Evict stale in-flight builds on app-3 (`git-runners queue unstick --older-than 30m`) or wait for them to drain
+  - Add `books-platform` workspace `ignore` override (the pre-existing 413 Payload Too Large blocks story-book deploys)
+  - Decide `shared-vs-sidecar` postgres for platform-api (the `lq-core#15` piece the rebase deferred)
 
 See `PORTFOLIO_STATUS.md` for both `lang-quest` and `books-platform` rows.
 
