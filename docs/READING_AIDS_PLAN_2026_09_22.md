@@ -75,7 +75,8 @@ All in lq-core `lesson-ui`, so it affects **every school app**, not only lq-read
   the page falls back to a flat gradient.
 - Art: the CDN root `_shared/images/rpg/backgrounds/` has `hygge-interior`, `fairy-forest`,
   `coastal-cliffs`, `battle-arena`, `viking-village-battle` (Nordic-themed); `study`, `library`,
-  `classroom` and similar names 404. **Reading-themed art (library, storybook) needs generating.**
+  `classroom` and similar names 404. Reading-themed art was generated on 2026-09-22 (see step 1 below);
+  other school apps still have none.
 - Onboarding (lq-core, seen in lq-reading's production build): the character step crashes with
   `useLocation() may be used only in the context of a <Router>`. New learners cannot finish onboarding;
   the legacy `onboarding-completed` key bypasses the guard. Also the brand button shows 🇹🇭 for Reading.
@@ -94,7 +95,12 @@ All in lq-core `lesson-ui`, so it affects **every school app**, not only lq-read
 - Sight-words gets quiz state (options were unselectable); fluency practice becomes interactive; non-array
   `practice` (sight-words-set-1) no longer crashes the screen.
 - Glass chrome: `ReadingLessonShell` + `GlassCard` (local, until lesson-ui is fixed), `domains.json` mapping
-  every domain to art that exists on the CDN.
+  every domain to a background.
+- Backgrounds: `reading-nook` (lesson content), `grand-library` (dashboard, library, settings),
+  `storybook-village` (lesson map), `story-forest` (profile, onboarding, social) in
+  `public/_shared/images/rpg/backgrounds/` — gemini-3.1-flash-image realtime, 6 calls ≈ $0.47. Plain files
+  are 1920×1080 (the `srcset` declares them 1920w). **Not yet on the CDN** — production falls back to the
+  gradient until they're synced to `lq-assets` `_shared/images/rpg/backgrounds/`.
 - Content: `syllables` added to ch2 + ch5 syllable-type examples (`ba-by` → `baby`); ch4 already had them.
 - Tests: 17 new (components + a content guard over all 554 practice items: every choice has a correct
   option among its options, every split parses, every non-open fallback has something to reveal).
