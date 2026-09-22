@@ -1,6 +1,6 @@
 # School & life apps — shell wiring, logos and review rollout (2026-09-22)
 
-**Status:** lq-reading done (pilot) — merged and deploying. The other 22 apps: not started.
+**Status:** lq-reading done (pilot) — live on reading.blueforge.studio since 2026-09-22 (deploy 0849d117). The other 22 apps: not started.
 **Why:** school/life apps were never wired onto the shared shell the language apps use, so shared
 screens (onboarding, top bar, lesson chrome) rendered with most of their styles missing, the wrong copy
 ("Your Language Adventure"), a 🇹🇭 brand mark and crashes. Only lq-reading was ever deployed.
@@ -40,6 +40,10 @@ Manual steps the scaffold does **not** do yet (all hit on lq-reading — fold in
 - CI: `.github/workflows/test.yml` + `test:unit` / `test:e2e` scripts, e2e against a production build with
   onboarding skipped via stored state (lq-reading#31 is the template).
 - Logos: `lq-tools/packages/logo-tools/src/logos/generate-app-logos.ts --app=<repo>` (lq-tools#24).
+- Production CDN mode: default `VITE_CLOUD_ASSETS` / `VITE_ASSETS_BASE_URL` in `vite.config.ts` for `vite build` —
+  forge's packer strips `.env*` and its build ignores the config env (forge-control#1391); lq-reading#35.
+- Deploy with `forge app-deploy web --server --wait --verify` (upload mode) while `--from-git` fails on
+  forge-git SSH (forge-git#102); verify the live body, not the status code.
 
 ## Per-app list (for prioritising)
 
