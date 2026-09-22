@@ -94,8 +94,9 @@ All in lq-core `lesson-ui`, so it affects **every school app**, not only lq-read
   "Read it" sentence card, old `letter/sound/words/sentences` lesson shape supported.
 - Sight-words gets quiz state (options were unselectable); fluency practice becomes interactive; non-array
   `practice` (sight-words-set-1) no longer crashes the screen.
-- Glass chrome: `ReadingLessonShell` + `GlassCard` (local, until lesson-ui is fixed), `domains.json` mapping
-  every domain to a background.
+- Glass chrome: fixed in the **standard** layout instead of per app — lesson-ui 0.6.0 (lq-core#83, published
+  2026-09-22) makes `LessonShell` transparent and `ContentCard` a `GlassmorphismCard`; lq-reading uses it
+  (`@learnquest/ui` added as a direct dep + Tailwind `@source`). `domains.json` maps every domain to a background.
 - Backgrounds: `reading-nook` (lesson content), `grand-library` (dashboard, library, settings),
   `storybook-village` (lesson map), `story-forest` (profile, onboarding, social) in
   `public/_shared/images/rpg/backgrounds/` — gemini-3.1-flash-image realtime, 6 calls ≈ $0.47. Plain files
@@ -223,7 +224,7 @@ for that word. Store in the existing progress store; no new backend.
 | Step | Where | What | Exit criterion |
 |---|---|---|---|
 | **1** | lq-reading | Show dropped example data (explanation, audio w/ speech fallback, sentence); render questions for multiple-choice items; support `syllable-split` locally with an interactive split; hand-authored syllables rendered as dots in example words (local prototype of `<AnnotatedWord>`) | phonics screens show every authored field; no hidden prompts on lq-reading screens; syllable lessons show `but·ter·fly` |
-| **2a** | lq-core lesson-ui + app-shell | Fix the shared renderer bugs: prompt for `OptionGrid` types, `classification` alias, answer aliases (index / boolean / `answer`), grouped sorts, handlers for `blend` / `build` / `order` / `syllable-split`. Fix the chrome: transparent `LessonShell`, glass `ContentCard` (with dark mode for the activities), `LessonHeader` gradient default. Ship `domains.json` + reading/school background art for school apps. Fix the onboarding character-step Router crash. Then drop lq-reading's local workarounds | 0 hidden prompts / 0 "not yet supported" across school apps (content-integrity check); school lessons show domain backgrounds; onboarding completes |
+| **2a** | lq-core lesson-ui + app-shell | Fix the shared renderer bugs: prompt for `OptionGrid` types, `classification` alias, answer aliases (index / boolean / `answer`), grouped sorts, handlers for `blend` / `build` / `order` / `syllable-split`. ~~Fix the chrome~~ (done: lesson-ui 0.6.0, lq-core#83 — other school apps pick it up by bumping; dark mode for the activities still open). Ship `domains.json` + reading/school background art for school apps. Fix the onboarding character-step Router crash. Then drop lq-reading's local workarounds | 0 hidden prompts / 0 "not yet supported" across school apps (content-integrity check); school lessons show domain backgrounds; onboarding completes |
 | **2b** | lq-core | `WordAnnotation` schema, `<AnnotatedWord>`/`<AnnotatedText>`, reading-aids setting | lq-reading uses the shared component; Storybook stories for en + da |
 | **3** | lq-tools | `annotate-words` generator (en first, then da) + admin shorthand editor | lq-reading examples annotated & confirmed; Danish d/g lessons annotated |
 | **4** | lq-core + apps | `sound-pattern` lesson type, sound catalogs + clips, fading, first en/da lessons | 5 en + 4 da pattern lessons live |
