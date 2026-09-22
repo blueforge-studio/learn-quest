@@ -1,6 +1,6 @@
 # Reading aids — plan & design spec (2026-09-22)
 
-**Status:** step 1 done — lq-reading#29 (open). Steps 2–4 not started.
+**Status:** step 1 done — lq-reading#29 **merged** 2026-09-22. Steps 2–4 not started.
 **Scope:** `lq-core` (shared model + component), `lq-reading` (first consumer),
 lang apps (`lq-nordic` Danish first), `lq-tools` (annotation generator).
 **Companion spec:** [`PERSONALIZED_CONTENT_PLAN_2026_09_22.md`](PERSONALIZED_CONTENT_PLAN_2026_09_22.md).
