@@ -2,6 +2,15 @@
 // Materialize each lq-*/blueforge.config.json as a FULL standalone config from
 // the lang-quest project source. Idempotent — safe to re-run.
 //
+// Asset shape follows docs/ASSET_RESOLUTION.md (decided 2026-09-01) and the
+// lq-nordic revert d4cdc420 (2026-09-02):
+//   - primary is cloudflare_r2 on the SHARED `lq-assets` bucket — the one the
+//     R2 custom domain serves; a per-app bucket is unreachable through it.
+//   - minio is a mirror into the per-family `<group>-quest-assets` bucket.
+//   - push prefixes must mirror the runtime read path (`<group>` is
+//     interpolated here); `public/data` is deliberately NOT pushed (ships in
+//     the image) and nothing pulls.
+//
 // Per-app overrides in lang-quest/blueforge.config.json:
 //   push  — full push list (default: shared assets.push + spec.extraPush)
 //   pull  — full pull list (default: shared assets.pull)
@@ -21,17 +30,33 @@ const COMMON_IGNORE = [
   '.sync-state', '.superpowers', '.audit-cache.sqlite*', 'audit-results',
 ]
 
+/** Interpolate the `<group>` token (lq-nordic → nordic) in prefix/bucket strings. */
+const groupOf = (appDir) => appDir.replace(/^lq-/, '')
+const fillGroup = (value, group) =>
+  typeof value === 'string' ? value.replaceAll('<group>', group) : value
+const fillGroupDeep = (value, group) => {
+  if (Array.isArray(value)) return value.map((v) => fillGroupDeep(v, group))
+  if (value && typeof value === 'object')
+    return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, fillGroupDeep(v, group)]))
+  return fillGroup(value, group)
+}
+
 for (const [appDir, spec] of Object.entries(apps)) {
+  const group = groupOf(appDir)
   const bucket = spec.bucket
   const out = {
     name: spec.name,
     ignore: [...new Set([...COMMON_IGNORE, ...(spec.ignore ?? [])])],
-    infra: spec.infra,
+    infra: fillGroupDeep(spec.infra, group),
     assets: {
-      primary: { provider: 'minio', bucket },
-      mirrors: assets.mirrors.map((m) => ({ ...m, bucket })),
-      push: spec.push ?? [...assets.push, ...(spec.extraPush ?? [])],
-      pull: spec.pull ?? assets.pull,
+      primary: fillGroupDeep(assets.primary, group),
+      mirrors: (assets.mirrors ?? []).map((m) => ({ ...fillGroupDeep(m, group), bucket })),
+      push: (spec.push ?? [...assets.push, ...(spec.extraPush ?? [])]).map((p) =>
+        fillGroupDeep(p, group)),
+      ...(() => {
+        const pull = (spec.pull ?? assets.pull ?? []).map((p) => fillGroupDeep(p, group))
+        return pull.length ? { pull } : {} // empty pull is omitted — matches canonical nordic
+      })(),
     },
     audit: spec.audit ?? { enabled: true, flows: ['site-landing'], failOn: ['critical', 'major'], timeout: 120 },
     phases: { postBuild: [] }, // legacy R2 script dropped — assetSync phase is canonical
