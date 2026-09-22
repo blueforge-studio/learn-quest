@@ -213,10 +213,13 @@ keys in use are scoped to `lq-assets` only — they get `403 AccessDenied` on it
 Revisit **after alpha/beta**; moving buckets mid-flight would mean re-uploading
 the fleet and re-pointing `VITE_ASSETS_BASE_URL` for no user-visible gain.
 
-**Credentials: do not trust the shell environment for the account id.**
-`CLOUDFLARE_ACCOUNT_ID` in `~/.zshrc` is a *different* account and does not own
-these buckets; `R2_LANG_PUBLIC_BASE` points at `lq-lang-assets`, not the live
-one. The working set is the account id above plus `R2_LQ_ACCESS_KEY_ID` /
+**Credentials: do not trust a stale shell environment for the account id.**
+`CLOUDFLARE_ACCOUNT_ID` pointed at a *different* account that does not own
+these buckets (the env table above recorded the trap); **the operator corrected
+`~/.zshrc` on 2026-09-22** to export `fce4dc21…`, so new shells are right —
+re-source it in any long-lived shell that still gets `Authentication error`.
+`R2_LANG_PUBLIC_BASE` still points at `lq-lang-assets`, not the live one.
+The working set is the account id above plus `R2_LQ_ACCESS_KEY_ID` /
 `R2_LQ_SECRET_ACCESS_KEY`, verified with a signed `ListObjectsV2` (200 on
 `lq-assets`). Of the Cloudflare API tokens only `CLOUDFLARE_WORKERS_API_TOKEN`
 is valid — the other two return `Invalid API Token`.
@@ -227,26 +230,26 @@ them: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`. `R2_BUCKET`
 is **not** among them — sync-to-storage's `buildStorage` bridges
 `assets.bucket` in at construction.
 
-### MinIO as an alternative backend — wired, but not connected
+### MinIO as a mirror backend — wired, and connected
 
-`forge-infra-minio` is live on the platform host and the config layer already
-supports a dual setup: `assets.primary` plus `assets.mirrors`, which lq-nordic
-already declares (`primary: minio`, mirror to `cloudflare_r2 lq-assets`).
+`forge-infra-minio` is live on the platform host and the config layer
+supports a dual setup: `assets.primary` plus `assets.mirrors`.
 
-That declaration does not work today. The resolver and the adapter disagree on
-variable names:
+The resolver/adapter name mismatch that used to break this is **fixed on the
+forge-control side** (`resolveMinIOS3` now emits `MINIO_ENDPOINT` /
+`MINIO_ACCESS_KEY` / `MINIO_SECRET_KEY` aliases beside `S3_*` — PR #684 +
+`17079a401`; same shape as the R2 gap fixed in #670). The old table:
 
-| `resolveMinIOS3` + `resolveInfraEnv` emit | `providerEnvSchemas.minio` reads |
+| `resolveMinIOS3` used to emit | `providerEnvSchemas.minio` reads |
 |---|---|
-| `S3_ENDPOINT`, `S3_BUCKET`, `S3_ACCESS_KEY`, `S3_SECRET_KEY` | `MINIO_ENDPOINT`, `MINIO_BUCKET`, `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` |
+| `S3_ENDPOINT`, `S3_ACCESS_KEY`, `S3_SECRET_KEY` only | `MINIO_ENDPOINT`, `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY`, `MINIO_BUCKET` |
 
-Nothing bridges the two, so a MinIO asset sync fails exactly the way R2 did
-before the phase-env fix — "MINIO_… are required" with a fully-configured
-project. Making the option real is a small mapping change, not a migration.
-
-Until then, treat `assets.primary: minio` as aspirational and keep R2 as the
-serving layer: zero egress and a custom domain are hard to beat for public
-delivery, and MinIO on a 75 GB app host would need its own edge story.
+**R2 stays the primary/serving layer** — zero egress and a custom domain beat
+a 75 GB app host's MinIO for public delivery (the 2026-09-01 call, unchanged).
+The canonical app shape (lq-nordic, revert `d4cdc420` 2026-09-02) is
+`primary: cloudflare_r2 lq-assets` + `mirrors: [minio <group>-quest-assets]` —
+the earlier MinIO-primary flip was reverted because it uploaded to a store the
+app never read. `generate-app-configs.mjs` now emits exactly this shape.
 
 ### `public/data` is deliberately not pushed
 
