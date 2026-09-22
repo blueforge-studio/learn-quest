@@ -1,8 +1,9 @@
 # School & life apps — shell wiring, logos and review rollout (2026-09-22)
 
 **Status:** lq-reading done (pilot) — live on reading.blueforge.studio since 2026-09-22 (deploy 0849d117).
-lq-math wired (PR open: lq-math#8) and lq-writing wired (PR open: lq-writing#6); deploy step not yet run
-for either. The other 20 apps: not started. Scaffold gaps folded into lq-operations#13 (merged).
+lq-math wired — merged as lq-math#7 (2026-09-22 18:48Z) with CI fixes in lq-math#8 — and lq-writing
+wired — merged as lq-writing#6; deploy step not yet run for either. The other 20 apps: not started.
+Scaffold gaps folded into lq-operations#13 (merged).
 **Why:** school/life apps were never wired onto the shared shell the language apps use, so shared
 screens (onboarding, top bar, lesson chrome) rendered with most of their styles missing, the wrong copy
 ("Your Language Adventure"), a 🇹🇭 brand mark and crashes. Only lq-reading was ever deployed.
@@ -58,6 +59,17 @@ Two CI traps hit on the second/third apps (2026-09-22 evening) — check both be
   with `ERR_PNPM_IGNORED_BUILDS` (esbuild, sharp) unless `pnpm-workspace.yaml` lists them under
   `allowBuilds:` (`esbuild: true`, `sharp: true`, `@google/genai`, `protobufjs` where present).
   Same fix as lq-math cf140af / lq-writing 3fe2ba2.
+- **Cross-repo `actions/checkout` of lq-tools fails twice over.** The Actions job token cannot read
+  sibling repos ("Repository not found"), and modern checkout also rejects `path: ../lq-tools`
+  ("not under" the workspace). Use the published bin instead: `validate:images` →
+  `image-validate public/images --strict` with `@learnquest/image-validation` (lq-math#8; supersedes
+  the stale Track-3 PRs lq-math#2/#4, now closed).
+- **Restricted `remote.origin.fetch` refspec → stale `origin/main`.** The deploy-branch-era config on
+  these repos fetches *only* `deploy/hetzner-<subject>-quest`, so `git fetch origin main` silently
+  does not update `origin/main`. A session that bases work on the stale ref will not see PRs already
+  merged to main (lq-math#7 was merged while #8 duplicated it, showing up as phantom "conflicts").
+  Step 1 of the checklist: run `git ls-remote origin refs/heads/main` (or fix the refspec to
+  `+refs/heads/*:refs/remotes/origin/*`) before deciding what is left to do.
 
 ## Per-app list (for prioritising)
 
@@ -70,8 +82,8 @@ not `main` — decide per app which is canonical before wiring.
 | App | Chapters / lessons | Images (audit) | Blockers / notes | Suggested order |
 |---|---|---|---|---|
 | lq-reading | 6 / 96 | Pilot 128: 6.58 avg | **done** (this rollout's pilot) | — |
-| lq-math | 5 / 92 | Pilot 100 ch2–5: 7.3; ch1 ≈ 5.3 (chalkboard trap) | **shell-wired — lq-math#8 open, CI queued** (unit 13/13 + e2e 8/8 verified locally); old PRs #1–#5; declares `math.school-quest` domain | 1 |
-| lq-writing | 6 / 77 | Pilot 128: 6.92; Track 5 batch 2 partial 6.10 | **shell-wired — lq-writing#6 open, CI queued** (unit 10/10 + e2e 7/7 verified locally; main was unbuildable — Supabase leftovers — plus a handwriting `r.map` fix); domain differs between main and default branch | 2 |
+| lq-math | 5 / 92 | Pilot 100 ch2–5: 7.3; ch1 ≈ 5.3 (chalkboard trap) | **shell-wired, merged** (lq-math#7 + CI fixes #8; all checks green); old PRs #1/#3/#5 open; declares `math.school-quest` domain | 1 |
+| lq-writing | 6 / 77 | Pilot 128: 6.92; Track 5 batch 2 partial 6.10 | **shell-wired, merged** (lq-writing#6, all checks green; main was unbuildable — Supabase leftovers — plus a handwriting `r.map` fix); domain differs between main and default branch | 2 |
 | lq-science | 5 / 165 | baseline 12H/175M/462L; ch1 8.5; never through Pilot 128 | no school-quest domain PR | 3 |
 | lq-geography | 5 / 93 | Pilot 128: 7.48, but Track 5 ch1–2 **regressed to 4.33** (satellite-render trap) | 129 dirty files on local checkout | 4 (after image fix) |
 | lq-history | 23 tracks / ~1,012 | worst: 163H/400M/1703L, 655 need regen | ~45 campaign commits not on the default branch; the only app that uses the era step | 5 (largest) |
