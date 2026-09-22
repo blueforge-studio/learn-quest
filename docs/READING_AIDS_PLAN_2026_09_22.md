@@ -1,6 +1,6 @@
 # Reading aids — plan & design spec (2026-09-22)
 
-**Status:** step 1 done on lq-reading branch `feat/reading-aids-step1` (not pushed). Steps 2–4 not started.
+**Status:** step 1 done — lq-reading#29 (open). Steps 2–4 not started.
 **Scope:** `lq-core` (shared model + component), `lq-reading` (first consumer),
 lang apps (`lq-nordic` Danish first), `lq-tools` (annotation generator).
 **Companion spec:** [`PERSONALIZED_CONTENT_PLAN_2026_09_22.md`](PERSONALIZED_CONTENT_PLAN_2026_09_22.md).
@@ -99,8 +99,8 @@ All in lq-core `lesson-ui`, so it affects **every school app**, not only lq-read
 - Backgrounds: `reading-nook` (lesson content), `grand-library` (dashboard, library, settings),
   `storybook-village` (lesson map), `story-forest` (profile, onboarding, social) in
   `public/_shared/images/rpg/backgrounds/` — gemini-3.1-flash-image realtime, 6 calls ≈ $0.47. Plain files
-  are 1920×1080 (the `srcset` declares them 1920w). **Not yet on the CDN** — production falls back to the
-  gradient until they're synced to `lq-assets` `_shared/images/rpg/backgrounds/`.
+  are 1920×1080 (the `srcset` declares them 1920w). Uploaded to `lq-assets` `_shared/images/rpg/backgrounds/`
+  on 2026-09-22 via `sync-to-storage.ts` (12 files). Edges that saw a pre-upload probe cache the 404 for 4h.
 - Content: `syllables` added to ch2 + ch5 syllable-type examples (`ba-by` → `baby`); ch4 already had them.
 - Tests: 17 new (components + a content guard over all 554 practice items: every choice has a correct
   option among its options, every split parses, every non-open fallback has something to reveal).

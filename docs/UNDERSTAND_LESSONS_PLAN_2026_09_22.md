@@ -1,6 +1,6 @@
 # "Understand" lessons — plan & design spec (2026-09-22)
 
-**Status:** proposal. Nothing started.
+**Status:** U0 done — lq-reading#30 (stacked on #29). U1–U4 not started.
 **Scope:** new `understand` lesson type in lq-core, first consumers lq-reading (English) and
 lq-nordic (Danish), then all lang families.
 **Related:** [`READING_AIDS_PLAN_2026_09_22.md`](READING_AIDS_PLAN_2026_09_22.md) (aids inside passages),
