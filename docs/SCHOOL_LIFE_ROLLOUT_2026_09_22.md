@@ -1,9 +1,9 @@
 # School & life apps — shell wiring, logos and review rollout (2026-09-22)
 
-**Status:** lq-reading done (pilot) — live on reading.blueforge.studio since 2026-09-22 (deploy 0849d117).
-lq-math wired — merged as lq-math#7 (2026-09-22 18:48Z) with CI fixes in lq-math#8 — and lq-writing
-wired — merged as lq-writing#6; deploy step not yet run for either. The other 20 apps: not started.
-Scaffold gaps folded into lq-operations#13 (merged).
+**Status:** **3 of 23 live** (2026-09-23) — lq-reading on reading.blueforge.studio (pilot, deploy 0849d117),
+lq-math on **math.blueforge.studio** and lq-writing on **writing.blueforge.studio** (deployed + verified
+2026-09-23; wiring lq-math#7/#8 + lq-writing#6, config lq-math#9 + lq-writing#7, proxied CNAMEs via
+`forge dns set`). The other 20 apps: not started. Scaffold gaps folded into lq-operations#13 (merged).
 **Why:** school/life apps were never wired onto the shared shell the language apps use, so shared
 screens (onboarding, top bar, lesson chrome) rendered with most of their styles missing, the wrong copy
 ("Your Language Adventure"), a 🇹🇭 brand mark and crashes. Only lq-reading was ever deployed.
@@ -71,6 +71,24 @@ Two CI traps hit on the second/third apps (2026-09-22 evening) — check both be
   Step 1 of the checklist: run `git ls-remote origin refs/heads/main` (or fix the refspec to
   `+refs/heads/*:refs/remotes/origin/*`) before deciding what is left to do.
 
+Deploy traps (hit on the math/writing go-lives, 2026-09-23):
+
+- **`"secrets": []` is rejected** — forge 2.10.2 wants the object form (`{}` when empty), else the
+  deploy dies at config validation before uploading (lq-writing#7).
+- **`server: "hetzner-prod-1"` warns but works** — the local CLI doesn't know the alias and falls
+  back to "automatic placement … will not land where DNS points"; the hosting side resolves it
+  (reading-quest's stored config says the same). Harmless.
+- **CD webhook needs two env vars, neither exported by default:** `GITEA_TOKEN` (from
+  `~/.config/forge/secrets.env`, which assigns without `export` — use `set -a; source …; set +a`)
+  *and* `GITEA_WEBHOOK_SECRET`, which lives only in `/etc/forge/hosting-api.env` on infra-1
+  (not in the local secrets.env, not in `forge vault`). Without both, deploys succeed but
+  main-push auto-deploy never gets registered.
+- **No wildcard DNS.** Each app needs `forge dns set <name>.blueforge.studio --type CNAME --value
+  hetzner.blueforge.studio --proxied` (copy reading's shape). The local router negative-caches the
+  pre-creation NXDOMAIN up to the zone SOA minimum (**1800 s**) — public resolvers see the record
+  immediately, so verify new names with `dig @1.1.1.1` or `curl --resolve …` rather than trusting
+  the first local failure.
+
 ## Per-app list (for prioritising)
 
 Deploy state from the 2026-09-22 survey: only lq-reading is live; the rest have no forge app entry and
@@ -82,8 +100,8 @@ not `main` — decide per app which is canonical before wiring.
 | App | Chapters / lessons | Images (audit) | Blockers / notes | Suggested order |
 |---|---|---|---|---|
 | lq-reading | 6 / 96 | Pilot 128: 6.58 avg | **done** (this rollout's pilot) | — |
-| lq-math | 5 / 92 | Pilot 100 ch2–5: 7.3; ch1 ≈ 5.3 (chalkboard trap) | **shell-wired, merged** (lq-math#7 + CI fixes #8; all checks green); old PRs #1/#3/#5 open; declares `math.school-quest` domain | 1 |
-| lq-writing | 6 / 77 | Pilot 128: 6.92; Track 5 batch 2 partial 6.10 | **shell-wired, merged** (lq-writing#6, all checks green; main was unbuildable — Supabase leftovers — plus a handwriting `r.map` fix); domain differs between main and default branch | 2 |
+| lq-math | 5 / 92 | Pilot 100 ch2–5: 7.3; ch1 ≈ 5.3 (chalkboard trap) | **live: math.blueforge.studio** (wired lq-math#7/#8, config #9); old PRs #1/#3/#5 stale — close or retarget | 1 |
+| lq-writing | 6 / 77 | Pilot 128: 6.92; Track 5 batch 2 partial 6.10 | **live: writing.blueforge.studio** (wired lq-writing#6, config #7; handwriting `r.map` fix included); default branch still `deploy/hetzner-writing-quest` | 2 |
 | lq-science | 5 / 165 | baseline 12H/175M/462L; ch1 8.5; never through Pilot 128 | no school-quest domain PR | 3 |
 | lq-geography | 5 / 93 | Pilot 128: 7.48, but Track 5 ch1–2 **regressed to 4.33** (satellite-render trap) | 129 dirty files on local checkout | 4 (after image fix) |
 | lq-history | 23 tracks / ~1,012 | worst: 163H/400M/1703L, 655 need regen | ~45 campaign commits not on the default branch; the only app that uses the era step | 5 (largest) |
