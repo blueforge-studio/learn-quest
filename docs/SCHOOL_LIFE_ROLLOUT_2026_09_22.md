@@ -1,9 +1,13 @@
 # School & life apps — shell wiring, logos and review rollout (2026-09-22)
 
-**Status:** **3 of 23 live** (2026-09-23) — lq-reading on reading.blueforge.studio (pilot, deploy 0849d117),
-lq-math on **math.blueforge.studio** and lq-writing on **writing.blueforge.studio** (deployed + verified
-2026-09-23; wiring lq-math#7/#8 + lq-writing#6, config lq-math#9 + lq-writing#7, proxied CNAMEs via
-`forge dns set`). The other 20 apps: not started. Scaffold gaps folded into lq-operations#13 (merged).
+**Status:** **4 of 23 live** (2026-09-23) — lq-reading (reading.blueforge.studio, pilot 0849d117),
+lq-math (**math.blueforge.studio**), lq-writing (**writing.blueforge.studio**) and lq-science
+(**science.blueforge.studio**, deploy `17e42e67`, webhook hook 70) all deployed + body-verified.
+Wiring PRs: lq-math#7/#8, lq-writing#6, lq-science#3; configs lq-math#9 / lq-writing#7 /
+lq-science#4; proxied CNAMEs via `forge dns set`. Scaffold fixes landed alongside:
+lq-operations#13 (test wiring), #14 (ui/hooks pins), #15 (create pnpm-workspace.yaml).
+The other 19 apps: not started. Next per order = lq-geography (after its satellite-render image
+regressions are fixed) — or content/image review (checklist step 3) for the four live apps.
 **Why:** school/life apps were never wired onto the shared shell the language apps use, so shared
 screens (onboarding, top bar, lesson chrome) rendered with most of their styles missing, the wrong copy
 ("Your Language Adventure"), a 🇹🇭 brand mark and crashes. Only lq-reading was ever deployed.
@@ -88,6 +92,13 @@ Deploy traps (hit on the math/writing go-lives, 2026-09-23):
   pre-creation NXDOMAIN up to the zone SOA minimum (**1800 s**) — public resolvers see the record
   immediately, so verify new names with `dig @1.1.1.1` or `curl --resolve …` rather than trusting
   the first local failure.
+- **`@learnquest/ui@0.1.6` / `hooks@0.1.3` break fresh installs** — they declare peer
+  `@learnquest/web-core@>=0.2.1-rc.0` and the registry only has `0.2.0` + `0.2.2-rc.0` (a
+  prerelease doesn't satisfy `>=` outside its own x.y.z). Any new wiring that resolves `^0.1.5` /
+  `^0.1.0` dies with `ERR_PNPM_NO_MATCHING_VERSION`. The scaffold now pins `ui: 0.1.5` +
+  `hooks: 0.1.2` exact (lq-operations#14) and **creates** `pnpm-workspace.yaml` when missing
+  (#15 — the old existsSync gate silently skipped overrides + allowBuilds). Unblock by publishing
+  `web-core@0.2.1` stable, then the pins can lift.
 
 ## Per-app list (for prioritising)
 
@@ -102,7 +113,7 @@ not `main` — decide per app which is canonical before wiring.
 | lq-reading | 6 / 96 | Pilot 128: 6.58 avg | **done** (this rollout's pilot) | — |
 | lq-math | 5 / 92 | Pilot 100 ch2–5: 7.3; ch1 ≈ 5.3 (chalkboard trap) | **live: math.blueforge.studio** (wired lq-math#7/#8, config #9); old PRs #1/#3/#5 stale — close or retarget | 1 |
 | lq-writing | 6 / 77 | Pilot 128: 6.92; Track 5 batch 2 partial 6.10 | **live: writing.blueforge.studio** (wired lq-writing#6, config #7; handwriting `r.map` fix included); default branch still `deploy/hetzner-writing-quest` | 2 |
-| lq-science | 5 / 165 | baseline 12H/175M/462L; ch1 8.5; never through Pilot 128 | no school-quest domain PR | 3 |
+| lq-science | 5 / 165 | baseline 12H/175M/462L; ch1 8.5; never through Pilot 128 | **live: science.blueforge.studio** (wired lq-science#3, config #4; image *format* gate 672/672 — quality review still owed) | 3 |
 | lq-geography | 5 / 93 | Pilot 128: 7.48, but Track 5 ch1–2 **regressed to 4.33** (satellite-render trap) | 129 dirty files on local checkout | 4 (after image fix) |
 | lq-history | 23 tracks / ~1,012 | worst: 163H/400M/1703L, 655 need regen | ~45 campaign commits not on the default branch; the only app that uses the era step | 5 (largest) |
 
