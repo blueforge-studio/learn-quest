@@ -1,6 +1,14 @@
 # Reading aids — plan & design spec (2026-09-22)
 
-**Status (2026-09-23):** steps **1, 2a, 2b and 3 done**; step 4 not started.
+**Status (2026-09-23):** steps **1, 2a, 2b, 3 and 4 done — plan complete
+through the exit criteria.** Step 4: `sound-pattern` lesson type +
+sound catalogs + fading (lq-core#95/#96: app-types0.1.2,
+lang-lesson-types0.2.2, game-state0.1.8, web-app0.5.4 published);
+**5 en lessons live on reading** (lq-reading#41) and **4 da lessons live
+on nordic** (lq-nordic#49) — content JSON + bundles verified over HTTPS
+2026-09-23. Admin editor UI (shorthand) remains the one deferred item
+from step 3 (CLI `parse` ships); everything in the plan's table is
+shipped.
 - Step 1 — lq-reading#29 merged (2026-09-22).
 - Step 2a — lq-core#89/#90 (shared renderer: prompts, answer aliases, reveal
   fallback, syllable-split) + lq-reading#37 dropped the local workarounds;
