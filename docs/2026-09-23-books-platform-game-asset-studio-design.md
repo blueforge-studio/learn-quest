@@ -274,11 +274,18 @@ content actually changes.
    `gamevault.blueforge.studio` DNS, the `@gamevault/*` npm scope,
    gamevault.com? (Recommend: docs/UI copy now; DNS + npm scope later —
    they're the breaking ones.)
-2. **Marketplace deploy (P0):** which URL — keep path-routed
-   `gamevault.blueforge.studio/marketplace`, or a dedicated
-   `gas.blueforge.studio` / `market.*`? Reminder: GAP main does not
-   auto-deploy; the deploy is an explicit `forge app-deploy --server
-   --no-dns`.
+2. ~~Marketplace deploy URL~~ — **DECIDED 2026-09-23:** dedicated host
+   **`vault7.blueforge.studio` → 46.225.226.92** (app-2), plus
+   `marketplace.vault7.blueforge.studio` on the same target; both verified
+   directly against the authoritative NS (`algin.ns.cloudflare.com`,
+   bypassing resolver caches) and the zombie `*.vault7` wildcard deleted
+   (random-subdomain probe NXDOMAIN at authority). forge-control ran
+   `forge dns set` + zone verify; forge-auth `cae70a8` registered both
+   OAuth origins with a pinning test + prod smoke. Dedicated host over the
+   path-route, as §4 recommended. Deploy itself: building from `947a0267`
+   with `--wait` (still no main-push auto-deploy — explicit
+   `forge app-deploy --server --no-dns`). **P0 remains: when the build
+   reports, mint the books key at `/admin/api-keys`.**
 3. **Paid assets:** marketplace packs are Stripe-priced. v1 recommendation:
    **free + federation-owned creator store only** — paid in-book assets need
    a separate licensing/royalty answer. Ratify or reject.
