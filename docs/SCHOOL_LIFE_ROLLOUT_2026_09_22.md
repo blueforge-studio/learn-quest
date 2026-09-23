@@ -93,12 +93,23 @@ Deploy traps (hit on the math/writing go-lives, 2026-09-23):
   immediately, so verify new names with `dig @1.1.1.1` or `curl --resolve …` rather than trusting
   the first local failure.
 - **`@learnquest/ui@0.1.6` / `hooks@0.1.3` break fresh installs** — they declare peer
-  `@learnquest/web-core@>=0.2.1-rc.0` and the registry only has `0.2.0` + `0.2.2-rc.0` (a
-  prerelease doesn't satisfy `>=` outside its own x.y.z). Any new wiring that resolves `^0.1.5` /
-  `^0.1.0` dies with `ERR_PNPM_NO_MATCHING_VERSION`. The scaffold now pins `ui: 0.1.5` +
-  `hooks: 0.1.2` exact (lq-operations#14) and **creates** `pnpm-workspace.yaml` when missing
-  (#15 — the old existsSync gate silently skipped overrides + allowBuilds). Unblock by publishing
-  `web-core@0.2.1` stable, then the pins can lift.
+  `@learnquest/web-core@>=0.2.1-rc.0` and no published version satisfied it (a prerelease
+  doesn't match `>=` outside its own x.y.z). Fixed same-day: **`web-core@0.2.3-rc.0` published**
+  (browser-safe sha256), `ui@0.1.8` carries peer `>=0.2.3-rc.0`, scaffold pins
+  `ui: 0.1.8` / `hooks: 0.1.2` / `game-state: ^0.1.7` exact (lq-operations#14/#16) and
+  **creates** `pnpm-workspace.yaml` when missing (#15). Also: pnpm **overrides rewrite
+  requested ranges** — bump package.json and the workspace override together, and verify with a
+  **cold-clone** `pnpm install --frozen-lockfile` (warm trees short-circuit and never validate;
+  CI is the first honest check).
+- **`shellScreens.profileSettings` is not passed → the real Settings screen never mounts.**
+  `createApp({…})` without `shellScreens: { profileSettings: SettingsScreen }` falls back to
+  app-shell's minimal `DefaultProfileSettings`, so screen-profile's SettingsScreen — L1 selector,
+  Reading Aids toggles — is absent from the bundle entirely (string-literal forensics across all
+  32 live chunks on reading; pre-existing since wiring, found when the 2b section "didn't go
+  live"). **math/writing/science have the same gap** — one-line `createApp` fix each when their
+  next PR opens. Settings also renders `null` without a player (e2e fixtures must seed
+  `userId` + `<STORAGE_PREFIX>_player`; the prefix bakes to the engine default `thai` unless
+  `VITE_APP_LOCALE` is set).
 
 ## Per-app list (for prioritising)
 
