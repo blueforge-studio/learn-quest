@@ -1,6 +1,21 @@
 # Reading aids — plan & design spec (2026-09-22)
 
-**Status:** step 1 done — lq-reading#29 **merged** 2026-09-22. Steps 2–4 not started.
+**Status (2026-09-23):** steps **1, 2a, 2b and 3 done**; step 4 not started.
+- Step 1 — lq-reading#29 merged (2026-09-22).
+- Step 2a — lq-core#89/#90 (shared renderer: prompts, answer aliases, reveal
+  fallback, syllable-split) + lq-reading#37 dropped the local workarounds;
+  lesson-ui 0.6.2 published; live on all four school apps.
+- Step 2b — lq-core#91/#92/#94: `WordAnnotation` schema (schemas 0.1.2),
+  `<AnnotatedWord>`/`<AnnotatedText>` (ui 0.1.8, en+da stories),
+  reading-aids setting (game-state 0.1.7 + screen-profile 0.2.7); phonics
+  renders through it with live toggles; Settings screen mount fixed
+  (lq-reading#39) — deployed and bundle-verified.
+- Step 3 — lq-tools#25 `annotate-words` (propose → confidence → CONFIRM);
+  exit met: lq-reading#40 = 318 confirmed annotations / 62 files,
+  lq-nordic#48 = d/g lessons confirmed-high (Dag/Gade/Rød contrasts).
+  **Admin shorthand editor UI deferred** — the CLI `parse` subcommand
+  compiles plan-§1 shorthand and the module is shared for the editor.
+- Open decisions below still open; step 4 (`sound-pattern` lessons) next.
 **Scope:** `lq-core` (shared model + component), `lq-reading` (first consumer),
 lang apps (`lq-nordic` Danish first), `lq-tools` (annotation generator).
 **Companion spec:** [`PERSONALIZED_CONTENT_PLAN_2026_09_22.md`](PERSONALIZED_CONTENT_PLAN_2026_09_22.md).
