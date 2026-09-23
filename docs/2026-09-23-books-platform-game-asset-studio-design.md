@@ -5,9 +5,10 @@
 (landed — cross-linked both ways; structure agreed cross-session, sections 4
 and 7 are where the two specs diverge: world/asset authoring vs book
 authoring).
-**Authority on branding:** `game-asset-platform/docs/design/2026-09-23-branding-…`
-(path pending, game-asset-platform session) — this spec only states **how the
-brand lands for books-platform clients**.
+**Authority on branding:**
+`game-asset-platform/docs/design/2026-09-23-branding-game-asset-studio-vault7.md`
+(game-asset-platform PR #46) — this spec only states **how the brand lands for
+books-platform clients**.
 **Requested by:** operator, 2026-09-23 — "hook up Books Platform to Game Asset
 Platform … for book authors", with the platform renamed to match the `.gas`
 format. A **two-umbrella model** was ratified by the operator mid-draft (via
@@ -299,9 +300,13 @@ content actually changes.
   lane deferred, a Studio-side `studio-mcp` mirroring Studio's REST 1:1 —
   the split from this spec is book-authoring tools on the existing
   `asset-marketplace-mcp` + shared `gsk_` key scheme).
-- **Branding authority (pending path):**
-  `game-asset-platform/docs/design/2026-09-23-branding-….md` — the
-  two-umbrella model (§1) comes from there via the adventure-craft session.
+- **Branding authority:**
+  `game-asset-platform/docs/design/2026-09-23-branding-game-asset-studio-vault7.md`
+  (PR #46) — the two-umbrella model (§1) comes from there via the
+  adventure-craft session; its P0 (deploy the Vault7 API plane) is the same
+  deploy that unblocks this spec's books-P1 key minting, and its sequencing
+  rule "copy-first, identifiers-never, DNS-last" governs the rename surfaces
+  in §8 Q1.
 - **GAP inventory + surfaces** — from the game-asset-platform session
   (2026-09-23 message), verified against the repo and live endpoints where
   noted.
