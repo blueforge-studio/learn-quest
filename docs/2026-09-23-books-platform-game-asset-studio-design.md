@@ -2,39 +2,54 @@
 
 **Status:** draft for operator review · no code
 **Companion to:** `adventure-craft/docs/superpowers/specs/2026-09-23-creative-studio-game-asset-studio-design.md`
-(planned — adventure-craft's GAP recon was still running when this was written;
-structure agreed cross-session, sections 4 and 7 are where the two specs
-diverge: world/asset authoring vs book authoring). Section structure mirrors
-that companion's proposed outline.
+(landed — cross-linked both ways; structure agreed cross-session, sections 4
+and 7 are where the two specs diverge: world/asset authoring vs book
+authoring).
+**Authority on branding:** `game-asset-platform/docs/design/2026-09-23-branding-…`
+(path pending, game-asset-platform session) — this spec only states **how the
+brand lands for books-platform clients**.
 **Requested by:** operator, 2026-09-23 — "hook up Books Platform to Game Asset
-Platform … for book authors", with the rename GAP → **Game Asset Studio** to
-match the `.gas` format.
+Platform … for book authors", with the platform renamed to match the `.gas`
+format. A **two-umbrella model** was ratified by the operator mid-draft (via
+the adventure-craft session): see §1.
 
 ---
 
 ## 1. Naming & positioning
 
-**The rename.** The operator has directed: *Game Asset Platform (GAP) → Game
-Asset Studio*, matching the `.gas` interchange format. The repo currently
-straddles **four** names, and the rename has to reconcile them:
+**The rename — two umbrellas (operator-ratified 2026-09-23).** The platform is
+**not** collapsing into a single name. The ratified split:
 
-| Surface | Today | Proposed |
+| Umbrella | Covers | Consequence for this spec |
 |---|---|---|
-| Internal docs (`CLAUDE.md`) | "GAS (Game Asset **Server**) Platform" | Game Asset Studio (GAS) |
-| Marketplace/store brand | **GameVault** (openapi title "GameVault Marketplace API", `gamevault.blueforge.studio`, `gamevault.com/docs`, `@gamevault/*` scope, catalog product `vault7`) | open question — see §8 |
-| Operator shorthand | GAP | Game Asset Studio |
-| Unified editor app | `apps/gas-studio` | unchanged — already the target name |
+| **Game Asset Studio** | The *apps* ecosystem: `gas-studio` hub, the editor packages, `forge-studio`, site | The books feature is **"Import from Game Asset Studio"**; editor deep-links are Studio surfaces |
+| **Vault7** | The *vault* of assets and data — "designed for API, SDK and agentic access via MCP as well as integrated into Game Asset Studio apps (`.gas` interchange format)" | The marketplace API, MCP server, API keys and `.gas` retrieval we consume are **Vault7** surfaces; the provenance scheme (§4) points at the vault |
 
-**Positioning vs `apps/gas-studio`.** `gas-studio` is GAP's *own* unified
-editor shell (mounts the `*-editor-core` libraries). Books Platform is a
-**consumer** of the asset library, not an editor host: v1 imports assets into
-books; it does not embed gas-studio or ship a competing "studio" UI. When
-authors need to edit, they deep-link to GAP's live editors (§4), and when the
-books UI needs a name for the feature it is **"Import from Game Asset
+Free consequence: **Vault7 leans into the already-frozen catalog id `vault7`**
+(`game-asset-platform: vault7` in `blueforge/data/repo-products.yml`) — the
+brand follows the id, no "source is identity" migration. The remaining
+reconciliation (authored copy "GAS = Game Asset **Server**", display brand
+**GameVault** across openapi/DNS/gamevault.com, the `@gamevault/*` npm scope)
+is the game-asset-platform session's **branding spec** — authority linked in
+the header; this document keeps only the client-facing mapping:
+
+| Surface we touch | Under the two-umbrella model |
+|---|---|
+| Search/retrieve/import API, MCP, API keys, `.gas` bundles | Vault7 |
+| Editor deep-links (`…/sprite-editor` etc.), the import feature's display name | Game Asset Studio |
+| `@gamevault/*` npm scope | stays Vault7's SDK surface (published-name identity — noted agreement, not a decision this spec makes) |
+| `.gas` format name | unchanged (it is the interchange, not a brand) |
+
+**Positioning vs `apps/gas-studio`.** `gas-studio` is the Studio umbrella's
+unified editor shell (mounts the `*-editor-core` libraries). Books Platform is
+a **consumer** of the Vault7 asset library, not an editor host: v1 imports
+assets into books; it does not embed gas-studio or ship a competing "studio"
+UI. When authors need to edit, they deep-link to the live editors (§4); when
+the books UI needs a name for the feature it is **"Import from Game Asset
 Studio"** — never "Books Studio".
 
 Books is a *client* in the same sense the engine plugins are: it reads the
-`.gas` interchange, it does not extend GAP's data model.
+`.gas` interchange, it does not extend the vault's data model.
 
 ## 2. Current-state audit
 
@@ -277,10 +292,16 @@ content actually changes.
 
 ## 9. Related work & credits
 
-- **Companion spec (pending):**
+- **Companion spec (landed, cross-linked both ways):**
   `adventure-craft/docs/superpowers/specs/2026-09-23-creative-studio-game-asset-studio-design.md`
-  — same structure; its sections 4/7 rank GAP apps for world/asset authoring.
-  Cross-session structure agreed 2026-09-23 with the adventure-craft session.
+  — same structure; its sections 4/7 rank GAP apps for world/asset authoring
+  (read-only catalog + link-into-project first, editor deep-links, export
+  lane deferred, a Studio-side `studio-mcp` mirroring Studio's REST 1:1 —
+  the split from this spec is book-authoring tools on the existing
+  `asset-marketplace-mcp` + shared `gsk_` key scheme).
+- **Branding authority (pending path):**
+  `game-asset-platform/docs/design/2026-09-23-branding-….md` — the
+  two-umbrella model (§1) comes from there via the adventure-craft session.
 - **GAP inventory + surfaces** — from the game-asset-platform session
   (2026-09-23 message), verified against the repo and live endpoints where
   noted.
