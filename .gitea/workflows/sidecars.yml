@@ -1,0 +1,20 @@
+name: Sidecars
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  sidecars:
+    runs-on: ubuntu-latest
+    env:
+      PACKR_TOKEN: ${{ secrets.PACKR_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci --legacy-peer-deps
+      - name: Validate BlueForge sidecars
+        run: node scripts/check-sidecars.mjs

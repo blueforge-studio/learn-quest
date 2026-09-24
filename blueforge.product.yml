@@ -1,0 +1,16 @@
+version: "2.0.0"
+products:
+  - id: learn-quest
+    name: Learn Quest
+    description: >-
+      Validator-only package.json so the fleet-sidecar Zod gate can install its dependency.
+      The repo's real app code lives in lang-quest/, books-platform/, lingua-quest/,
+      school-quest/.
+    apps: [lq-site, books-platform, lingua-quest-site, lingua-quest-api, lingua-quest-collab-server, lingua-quest-quest-editor, lingua-quest-web]
+    primaryApp: lingua-quest-site
+    links:
+      site: https://linguaquest.blueforge.studio
+    assets:
+      og: lang-quest/brand/og.webp
+      cover: lang-quest/brand/cover.webp
+      logo: lang-quest/brand/logo-512.webp
