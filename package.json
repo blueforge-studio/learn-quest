@@ -10,5 +10,18 @@
   "devDependencies": {
     "@blueforge-studio/blueforge-sidecar-schemas": "^0.10.1",
     "yaml": "^2.8.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "cpu-features",
+      "esbuild",
+      "msgpackr-extract",
+      "protobufjs",
+      "sharp",
+      "ssh2",
+      "unrs-resolver"
+    ]
   }
 }
