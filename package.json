@@ -8,7 +8,7 @@
     "sidecar:check": "node scripts/check-sidecars.mjs"
   },
   "devDependencies": {
-    "@blueforge-studio/blueforge-sidecar-schemas": "^0.10.1",
+    "@blueforge-studio/blueforge-sidecar-schemas": "^0.17.0",
     "yaml": "^2.8.1"
   }
 }

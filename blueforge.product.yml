@@ -8,9 +8,38 @@ products:
       school-quest/.
     apps: [lq-site, books-platform, lingua-quest-site, lingua-quest-api, lingua-quest-collab-server, lingua-quest-quest-editor, lingua-quest-web]
     primaryApp: lingua-quest-site
+    # Valid ecosystem id in blueforge/data/ecosystems.yml ("Learning
+    # Ecosystem": QuestLang, SchoolQuest, QuestBooks — what this umbrella
+    # ships). Added by the wave-D structured-data rollout; no other identity
+    # fields invented here.
+    ecosystems:
+      - learning
     links:
       site: https://linguaquest.blueforge.studio
     assets:
       og: lang-quest/brand/og.webp
       cover: lang-quest/brand/cover.webp
       logo: lang-quest/brand/logo-512.webp
+    # Union of the UI locales this umbrella's own apps ship — every code is
+    # present as translation files in this tree, nothing invented:
+    #   lq-site (8): en es fr de ja ko th zh — lq-site/src/i18n/config.ts,
+    #     lq-site/src/messages/*.json
+    #   lingua-quest site (9): ar de en es fr ja ko th zh —
+    #     lingua-quest/apps/site/src/locales/*.json
+    #   lingua-quest web (9): th ja es zh en fr it da ar —
+    #     lingua-quest/apps/web/src/lib/local-content-loader.ts:163
+    #   books-platform (en da es th): books-platform/apps/*/src/i18n/locales/
+    # Coverage is per app (the school-quest sub-repos ship no locale packs).
+    i18n:
+      locales:
+        - ar
+        - da
+        - de
+        - en
+        - es
+        - fr
+        - it
+        - ja
+        - ko
+        - th
+        - zh
