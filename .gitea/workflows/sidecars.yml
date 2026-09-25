@@ -18,3 +18,5 @@ jobs:
       - run: npm ci --legacy-peer-deps
       - name: Validate BlueForge sidecars
         run: node scripts/check-sidecars.mjs
+      - name: Check generated blueforge.manifest.yml
+        run: npm exec -- blueforge-sidecars aggregate --check
