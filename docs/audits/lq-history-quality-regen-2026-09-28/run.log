@@ -1,0 +1,1025 @@
+[chunk 1] start 2026-09-28T13:23:49
+📋 102 regen candidates from /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-quality-regen-2026-09-28/chunk-1.json
+   Target: lq-history
+   Configs: /Volumes/SSD/Projects/Repos/lq-tools/packages/image-tools/src/config/subjects/history
+   Output:  /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Provider: gemini
+   Model:   gemini-3.1-flash-image
+   Batch API: yes (50% cheaper)
+   Budget:  $6
+   Dry run: false
+
+📊 Plan: 3 config(s), 102 images
+
+  history/lessons-ancient.json
+    Images: 75, dirs: 24 different
+      ancient-laws-ch5.webp → /lessons/ancient/_general
+      ancient-laws.webp → /lessons/ancient/_general
+      ancient-religions-ch2.webp → /lessons/ancient/_general
+      ancient-trade-ch4.webp → /lessons/ancient/_general
+      ancient-trade.webp → /lessons/ancient/_general
+      ancient-warfare-ch2.webp → /lessons/ancient/_general
+      ancient-warfare-ch5.webp → /lessons/ancient/_general
+      ancient-warfare.webp → /lessons/ancient/_general
+      bronze-age-ch4.webp → /lessons/ancient/_general
+      ancient-religions-portrait.webp → /lessons/ancient/_general/chapter-1
+      ancient-warfare-portrait.webp → /lessons/ancient/_general/chapter-1
+      timeline-ancient-civilizations-timeline.webp → /lessons/ancient/_general/chapter-1
+      ancient-inventions-ch2-timeline.webp → /lessons/ancient/_general/chapter-2
+      ancient-trade-ch2-map.webp → /lessons/ancient/_general/chapter-2
+      first-civilizations-ch2-scene.webp → /lessons/ancient/_general/chapter-2
+      invention-of-writing-ch2-portrait.webp → /lessons/ancient/_general/chapter-2
+      ancient-warfare-ch3-portrait.webp → /lessons/ancient/_general/chapter-3
+      bronze-age-ch3-map.webp → /lessons/ancient/_general/chapter-3
+      ancient-trade-ch4-map.webp → /lessons/ancient/_general/chapter-4
+      ancient-trade-ch4-portrait.webp → /lessons/ancient/_general/chapter-4
+      ancient-warfare-ch4-portrait.webp → /lessons/ancient/_general/chapter-4
+      invention-of-writing-ch4-portrait.webp → /lessons/ancient/_general/chapter-4
+      ancient-trade-ch5-map.webp → /lessons/ancient/_general/chapter-5
+      historical-figure-leonardo.webp → /lessons/ancient/_general
+      invention-of-writing-ch2.webp → /lessons/ancient/_general
+      invention-of-writing-ch4.webp → /lessons/ancient/_general
+      invention-of-writing-ch5.webp → /lessons/ancient/_general
+      invention-of-writing.webp → /lessons/ancient/_general
+      iron-age-ch4.webp → /lessons/ancient/_general
+      iron-age-ch5.webp → /lessons/ancient/_general
+      ancient-egypt-pharaohs-map.webp → /lessons/ancient/african/chapter-1
+      era-exploration-ancient-egypt-kingdoms-map.webp → /lessons/ancient/african/chapter-1
+      nile-river-life-map.webp → /lessons/ancient/african/chapter-1
+      pyramids-of-giza-map.webp → /lessons/ancient/african/chapter-1
+      ancient-egypt-pharaohs-map.webp → /lessons/ancient/african/chapter-3
+      egyptian-gods-map.webp → /lessons/ancient/african/chapter-5
+      kingdom-of-kush-map.webp → /lessons/ancient/african/chapter-5
+      nile-river-life-map.webp → /lessons/ancient/african/chapter-5
+      first-americans-timeline.webp → /lessons/ancient/american/chapter-2
+      teotihuacan-map.webp → /lessons/ancient/american/chapter-3
+      nazca-lines-portrait.webp → /lessons/ancient/american/chapter-5
+      ancient-india.webp → /lessons/ancient
+      ancient-japan.webp → /lessons/ancient
+      ancient-china-dynasties-timeline.webp → /lessons/ancient/asian/chapter-1
+      ancient-japan-map.webp → /lessons/ancient/asian/chapter-1
+      confucius-scene.webp → /lessons/ancient/asian/chapter-1
+      silk-road-map.webp → /lessons/ancient/asian/chapter-1
+      ancient-japan-portrait.webp → /lessons/ancient/asian/chapter-2
+      confucius-scene.webp → /lessons/ancient/asian/chapter-2
+      great-wall-china-portrait.webp → /lessons/ancient/asian/chapter-2
+      indus-valley-map.webp → /lessons/ancient/asian/chapter-2
+      ancient-china-dynasties-scene.webp → /lessons/ancient/asian/chapter-3
+      confucius-scene.webp → /lessons/ancient/asian/chapter-3
+      great-wall-china-map.webp → /lessons/ancient/asian/chapter-3
+      han-dynasty-inventions-map.webp → /lessons/ancient/asian/chapter-3
+      indus-valley-map.webp → /lessons/ancient/asian/chapter-3
+      qin-shi-huang-scene.webp → /lessons/ancient/asian/chapter-3
+      confucius-portrait.webp → /lessons/ancient/asian/chapter-4
+      han-dynasty-inventions-map.webp → /lessons/ancient/asian/chapter-4
+      indus-valley-map.webp → /lessons/ancient/asian/chapter-4
+      ancient-china-dynasties-timeline.webp → /lessons/ancient/asian/chapter-5
+      ancient-japan-map.webp → /lessons/ancient/asian/chapter-5
+      qin-shi-huang-scene.webp → /lessons/ancient/asian/chapter-5
+      alexander-the-great.webp → /lessons/ancient/european
+      ancient-greek-olympics.webp → /lessons/ancient/european
+      fall-of-rome-timeline.webp → /lessons/ancient/european/chapter-1
+      roman-republic-map.webp → /lessons/ancient/european/chapter-1
+      celtic-tribes-map.webp → /lessons/ancient/european/chapter-2
+      fall-of-rome-timeline.webp → /lessons/ancient/european/chapter-2
+      ancient-greece-democracy-map.webp → /lessons/ancient/european/chapter-3
+      greek-olympics-portrait.webp → /lessons/ancient/european/chapter-3
+      ancient-greece-democracy-map.webp → /lessons/ancient/european/chapter-4
+      greek-olympics-map.webp → /lessons/ancient/european/chapter-4
+      fall-of-rome-timeline.webp → /lessons/ancient/european/chapter-5
+      roman-engineering.webp → /lessons/ancient/european
+
+  history/lessons-contemporary.json
+    Images: 4, dirs: 3 different
+      digital-revolution-timeline.webp → /lessons/contemporary/american/chapter-4
+      civil-rights-movement.webp → /lessons/contemporary/american
+      vietnam-war.webp → /lessons/contemporary/american
+      soviet-collapse-timeline.webp → /lessons/contemporary/european/chapter-3
+
+  history/lessons-early-modern.json
+    Images: 23, dirs: 10 different
+      benjamin-franklin-scene.webp → /lessons/early-modern/american/chapter-5
+      haitian-revolution-map.webp → /lessons/early-modern/american/chapter-5
+      simon-bolivar-portrait.webp → /lessons/early-modern/american/chapter-5
+      simon-bolivar-scene.webp → /lessons/early-modern/american/chapter-5
+      siamese-kingdom-map.webp → /lessons/early-modern/asian/chapter-1
+      east-india-companies-portrait.webp → /lessons/early-modern/asian/chapter-2
+      mughal-empire-portrait.webp → /lessons/early-modern/asian/chapter-2
+      safavid-persia-portrait.webp → /lessons/early-modern/asian/chapter-2
+      kangxi-emperor-scene.webp → /lessons/early-modern/asian/chapter-3
+      qing-dynasty-map.webp → /lessons/early-modern/asian/chapter-3
+      suleiman-portrait.webp → /lessons/early-modern/asian/chapter-3
+      tokugawa-japan-map.webp → /lessons/early-modern/asian/chapter-3
+      ottoman-golden-age-map.webp → /lessons/early-modern/asian/chapter-4
+      ottoman-golden-age-portrait.webp → /lessons/early-modern/asian/chapter-4
+      kangxi-emperor-portrait.webp → /lessons/early-modern/asian/chapter-5
+      mughal-empire.webp → /lessons/early-modern/asian
+      qing-dynasty.webp → /lessons/early-modern/asian
+      tokugawa-japan.webp → /lessons/early-modern/asian
+      french-revolution-timeline.webp → /lessons/early-modern/european/chapter-2
+      peter-the-great-scene.webp → /lessons/early-modern/european/chapter-4
+      voltaire-rousseau-scene.webp → /lessons/early-modern/european/chapter-4
+      isaac-newton-portrait.webp → /lessons/early-modern/european/chapter-5
+      isaac-newton-scene.webp → /lessons/early-modern/european/chapter-5
+
+🚀 Starting regeneration...
+
+  Using Gemini gemini-3.1-flash-image (token-based pricing, budget $6)
+
+══════════════════════════════════════════════════
+  history/lessons-ancient.json
+══════════════════════════════════════════════════
+  🎯 selected 75/675 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 75 image(s): ancient-laws-ch5, ancient-laws, ancient-religions-ch2, ancient-trade-ch4, ancient-trade, ancient-warfare-ch2, ancient-warfare-ch5, ancient-warfare, bronze-age-ch4, ancient-religions-portrait, ancient-warfare-portrait, timeline-ancient-civilizations-timeline, ancient-inventions-ch2-timeline, ancient-trade-ch2-map, first-civilizations-ch2-scene, invention-of-writing-ch2-portrait, ancient-warfare-ch3-portrait, bronze-age-ch3-map, ancient-trade-ch4-map, ancient-trade-ch4-portrait, ancient-warfare-ch4-portrait, invention-of-writing-ch4-portrait, ancient-trade-ch5-map, historical-figure-leonardo, invention-of-writing-ch2, invention-of-writing-ch4, invention-of-writing-ch5, invention-of-writing, iron-age-ch4, iron-age-ch5, ancient-egypt-pharaohs-map, era-exploration-ancient-egypt-kingdoms-map, nile-river-life-map, pyramids-of-giza-map, ancient-egypt-pharaohs-map, egyptian-gods-map, kingdom-of-kush-map, nile-river-life-map, first-americans-timeline, teotihuacan-map, nazca-lines-portrait, ancient-india, ancient-japan, ancient-china-dynasties-timeline, ancient-japan-map, confucius-scene, silk-road-map, ancient-japan-portrait, confucius-scene, great-wall-china-portrait, indus-valley-map, ancient-china-dynasties-scene, confucius-scene, great-wall-china-map, han-dynasty-inventions-map, indus-valley-map, qin-shi-huang-scene, confucius-portrait, han-dynasty-inventions-map, indus-valley-map, ancient-china-dynasties-timeline, ancient-japan-map, qin-shi-huang-scene, alexander-the-great, ancient-greek-olympics, fall-of-rome-timeline, roman-republic-map, celtic-tribes-map, fall-of-rome-timeline, ancient-greece-democracy-map, greek-olympics-portrait, ancient-greece-democracy-map, greek-olympics-map, fall-of-rome-timeline, roman-engineering
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-ancient (75 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 75 images to Gemini Batch API...
+  [1/75] ancient-laws-ch5.webp (1280x720)
+    Done: ancient-laws-ch5.webp
+  [2/75] ancient-laws.webp (1280x720)
+    Done: ancient-laws.webp
+  [3/75] ancient-religions-ch2.webp (1280x720)
+    Done: ancient-religions-ch2.webp
+  [4/75] ancient-trade-ch4.webp (1280x720)
+    Done: ancient-trade-ch4.webp
+  [5/75] ancient-trade.webp (1280x720)
+    Done: ancient-trade.webp
+  [6/75] ancient-warfare-ch2.webp (1280x720)
+    Done: ancient-warfare-ch2.webp
+  [7/75] ancient-warfare-ch5.webp (1280x720)
+    Done: ancient-warfare-ch5.webp
+  [8/75] ancient-warfare.webp (1280x720)
+    Done: ancient-warfare.webp
+  [9/75] bronze-age-ch4.webp (1280x720)
+    Done: bronze-age-ch4.webp
+  [10/75] ancient-religions-portrait.webp (512x512)
+    Done: ancient-religions-portrait.webp
+  [11/75] ancient-warfare-portrait.webp (512x512)
+    Done: ancient-warfare-portrait.webp
+  [12/75] timeline-ancient-civilizations-timeline.webp (1280x720)
+    Done: timeline-ancient-civilizations-timeline.webp
+  [13/75] ancient-inventions-ch2-timeline.webp (1280x720)
+    Done: ancient-inventions-ch2-timeline.webp
+  [14/75] ancient-trade-ch2-map.webp (1280x720)
+    Done: ancient-trade-ch2-map.webp
+  [15/75] first-civilizations-ch2-scene.webp (1280x720)
+    Done: first-civilizations-ch2-scene.webp
+  [16/75] invention-of-writing-ch2-portrait.webp (512x512)
+    Done: invention-of-writing-ch2-portrait.webp
+  [17/75] ancient-warfare-ch3-portrait.webp (512x512)
+    Done: ancient-warfare-ch3-portrait.webp
+  [18/75] bronze-age-ch3-map.webp (1280x720)
+    Done: bronze-age-ch3-map.webp
+  [19/75] ancient-trade-ch4-map.webp (1280x720)
+    Done: ancient-trade-ch4-map.webp
+  [20/75] ancient-trade-ch4-portrait.webp (512x512)
+    Done: ancient-trade-ch4-portrait.webp
+  [21/75] ancient-warfare-ch4-portrait.webp (512x512)
+    Done: ancient-warfare-ch4-portrait.webp
+  [22/75] invention-of-writing-ch4-portrait.webp (512x512)
+    Done: invention-of-writing-ch4-portrait.webp
+  [23/75] ancient-trade-ch5-map.webp (1280x720)
+    Done: ancient-trade-ch5-map.webp
+  [24/75] historical-figure-leonardo.webp (1280x720)
+    Done: historical-figure-leonardo.webp
+  [25/75] invention-of-writing-ch2.webp (1280x720)
+    Done: invention-of-writing-ch2.webp
+  [26/75] invention-of-writing-ch4.webp (1280x720)
+    Done: invention-of-writing-ch4.webp
+  [27/75] invention-of-writing-ch5.webp (1280x720)
+    Done: invention-of-writing-ch5.webp
+  [28/75] invention-of-writing.webp (1280x720)
+    Done: invention-of-writing.webp
+  [29/75] iron-age-ch4.webp (1280x720)
+    Done: iron-age-ch4.webp
+  [30/75] iron-age-ch5.webp (1280x720)
+    Done: iron-age-ch5.webp
+  [31/75] ancient-egypt-pharaohs-map.webp (1280x720)
+    Done: ancient-egypt-pharaohs-map.webp
+  [32/75] era-exploration-ancient-egypt-kingdoms-map.webp (1280x720)
+    Done: era-exploration-ancient-egypt-kingdoms-map.webp
+  [33/75] nile-river-life-map.webp (1280x720)
+    Done: nile-river-life-map.webp
+  [34/75] pyramids-of-giza-map.webp (1280x720)
+    Done: pyramids-of-giza-map.webp
+  [35/75] ancient-egypt-pharaohs-map.webp (1280x720)
+    Done: ancient-egypt-pharaohs-map.webp
+  [36/75] egyptian-gods-map.webp (1280x720)
+    Done: egyptian-gods-map.webp
+  [37/75] kingdom-of-kush-map.webp (1280x720)
+    Done: kingdom-of-kush-map.webp
+  [38/75] nile-river-life-map.webp (1280x720)
+    Done: nile-river-life-map.webp
+  [39/75] first-americans-timeline.webp (1280x720)
+    Done: first-americans-timeline.webp
+  [40/75] teotihuacan-map.webp (1280x720)
+    Done: teotihuacan-map.webp
+  [41/75] nazca-lines-portrait.webp (512x512)
+    Done: nazca-lines-portrait.webp
+  [42/75] ancient-india.webp (1280x720)
+    Done: ancient-india.webp
+  [43/75] ancient-japan.webp (1280x720)
+    Done: ancient-japan.webp
+  [44/75] ancient-china-dynasties-timeline.webp (1280x720)
+    Done: ancient-china-dynasties-timeline.webp
+  [45/75] ancient-japan-map.webp (1280x720)
+    Done: ancient-japan-map.webp
+  [46/75] confucius-scene.webp (1280x720)
+    Done: confucius-scene.webp
+  [47/75] silk-road-map.webp (1280x720)
+    Done: silk-road-map.webp
+  [48/75] ancient-japan-portrait.webp (512x512)
+    Done: ancient-japan-portrait.webp
+  [49/75] confucius-scene.webp (1280x720)
+    Done: confucius-scene.webp
+  [50/75] great-wall-china-portrait.webp (512x512)
+    Done: great-wall-china-portrait.webp
+  [51/75] indus-valley-map.webp (1280x720)
+    Done: indus-valley-map.webp
+  [52/75] ancient-china-dynasties-scene.webp (1280x720)
+    Done: ancient-china-dynasties-scene.webp
+  [53/75] confucius-scene.webp (1280x720)
+    Done: confucius-scene.webp
+  [54/75] great-wall-china-map.webp (1280x720)
+    Done: great-wall-china-map.webp
+  [55/75] han-dynasty-inventions-map.webp (1280x720)
+    Done: han-dynasty-inventions-map.webp
+  [56/75] indus-valley-map.webp (1280x720)
+    Done: indus-valley-map.webp
+  [57/75] qin-shi-huang-scene.webp (1280x720)
+    Done: qin-shi-huang-scene.webp
+  [58/75] confucius-portrait.webp (512x512)
+    Done: confucius-portrait.webp
+  [59/75] han-dynasty-inventions-map.webp (1280x720)
+    Done: han-dynasty-inventions-map.webp
+  [60/75] indus-valley-map.webp (1280x720)
+    Done: indus-valley-map.webp
+  [61/75] ancient-china-dynasties-timeline.webp (1280x720)
+    Done: ancient-china-dynasties-timeline.webp
+  [62/75] ancient-japan-map.webp (1280x720)
+    Done: ancient-japan-map.webp
+  [63/75] qin-shi-huang-scene.webp (1280x720)
+    Done: qin-shi-huang-scene.webp
+  [64/75] alexander-the-great.webp (1280x720)
+    Done: alexander-the-great.webp
+  [65/75] ancient-greek-olympics.webp (1280x720)
+    Done: ancient-greek-olympics.webp
+  [66/75] fall-of-rome-timeline.webp (1280x720)
+    Done: fall-of-rome-timeline.webp
+  [67/75] roman-republic-map.webp (1280x720)
+    Done: roman-republic-map.webp
+  [68/75] celtic-tribes-map.webp (1280x720)
+    Done: celtic-tribes-map.webp
+  [69/75] fall-of-rome-timeline.webp (1280x720)
+    Done: fall-of-rome-timeline.webp
+  [70/75] ancient-greece-democracy-map.webp (1280x720)
+    Done: ancient-greece-democracy-map.webp
+  [71/75] greek-olympics-portrait.webp (512x512)
+    Done: greek-olympics-portrait.webp
+  [72/75] ancient-greece-democracy-map.webp (1280x720)
+    Done: ancient-greece-democracy-map.webp
+  [73/75] greek-olympics-map.webp (1280x720)
+    Done: greek-olympics-map.webp
+  [74/75] fall-of-rome-timeline.webp (1280x720)
+    Done: fall-of-rome-timeline.webp
+  [75/75] roman-engineering.webp (1280x720)
+    Done: roman-engineering.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-ancient      75    75     0     0   225    8m 36s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                           75    75     0     0   225    8m 36s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 516.7s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 75 x $0.0390 = $2.9250
+  Local variants (resizes): 225 (free)
+  Estimated total cost: $2.9250
+  Note: Google may not charge on free tier
+
+  Done. 75 images + 225 variants generated.
+
+  Manifest: 0 updated, 75 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-contemporary.json
+══════════════════════════════════════════════════
+  🎯 selected 4/51 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 4 image(s): digital-revolution-timeline, civil-rights-movement, vietnam-war, soviet-collapse-timeline
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-contemporary (4 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 4 images to Gemini Batch API...
+  ⚠️  1 batch items returned no image — retrying interactively: .regen-tmp-lessons-contemporary:3
+  [1/4] digital-revolution-timeline.webp (1280x720)
+    Done: digital-revolution-timeline.webp
+  [2/4] civil-rights-movement.webp (1280x720)
+    Done: civil-rights-movement.webp
+  [3/4] vietnam-war.webp (1280x720)
+    Done: vietnam-war.webp
+  [4/4] soviet-collapse-timeline.webp (1280x720)
+[GeminiImageClient] Error generating image: No image data found in Gemini response
+    Retry 1/2 in 2s...
+    Done: soviet-collapse-timeline.webp (attempt 2/3)
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-contemporary     4     4     0     0    12    3m 12s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            4     4     0     0    12    3m 12s
+
+  Retried images (1):
+
+    .regen-tmp-lessons-contemporary/soviet-collapse-timeline.webp — generated after 2 attempts
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 711.3s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 4 x $0.0390 = $0.1560
+  Local variants (resizes): 12 (free)
+  Estimated total cost: $0.1560
+  Note: Google may not charge on free tier
+
+  Done. 4 images + 12 variants generated.
+
+  Manifest: 0 updated, 4 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-early-modern.json
+══════════════════════════════════════════════════
+  🎯 selected 23/336 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 23 image(s): benjamin-franklin-scene, haitian-revolution-map, simon-bolivar-portrait, simon-bolivar-scene, siamese-kingdom-map, east-india-companies-portrait, mughal-empire-portrait, safavid-persia-portrait, kangxi-emperor-scene, qing-dynasty-map, suleiman-portrait, tokugawa-japan-map, ottoman-golden-age-map, ottoman-golden-age-portrait, kangxi-emperor-portrait, mughal-empire, qing-dynasty, tokugawa-japan, french-revolution-timeline, peter-the-great-scene, voltaire-rousseau-scene, isaac-newton-portrait, isaac-newton-scene
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-early-modern (23 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 23 images to Gemini Batch API...
+  [1/23] benjamin-franklin-scene.webp (1280x720)
+    Done: benjamin-franklin-scene.webp
+  [2/23] haitian-revolution-map.webp (1280x720)
+    Done: haitian-revolution-map.webp
+  [3/23] simon-bolivar-portrait.webp (512x512)
+    Done: simon-bolivar-portrait.webp
+  [4/23] simon-bolivar-scene.webp (1280x720)
+    Done: simon-bolivar-scene.webp
+  [5/23] siamese-kingdom-map.webp (1280x720)
+    Done: siamese-kingdom-map.webp
+  [6/23] east-india-companies-portrait.webp (512x512)
+    Done: east-india-companies-portrait.webp
+  [7/23] mughal-empire-portrait.webp (512x512)
+    Done: mughal-empire-portrait.webp
+  [8/23] safavid-persia-portrait.webp (512x512)
+    Done: safavid-persia-portrait.webp
+  [9/23] kangxi-emperor-scene.webp (1280x720)
+    Done: kangxi-emperor-scene.webp
+  [10/23] qing-dynasty-map.webp (1280x720)
+    Done: qing-dynasty-map.webp
+  [11/23] suleiman-portrait.webp (512x512)
+    Done: suleiman-portrait.webp
+  [12/23] tokugawa-japan-map.webp (1280x720)
+    Done: tokugawa-japan-map.webp
+  [13/23] ottoman-golden-age-map.webp (1280x720)
+    Done: ottoman-golden-age-map.webp
+  [14/23] ottoman-golden-age-portrait.webp (512x512)
+    Done: ottoman-golden-age-portrait.webp
+  [15/23] kangxi-emperor-portrait.webp (512x512)
+    Done: kangxi-emperor-portrait.webp
+  [16/23] mughal-empire.webp (1280x720)
+    Done: mughal-empire.webp
+  [17/23] qing-dynasty.webp (1280x720)
+    Done: qing-dynasty.webp
+  [18/23] tokugawa-japan.webp (1280x720)
+    Done: tokugawa-japan.webp
+  [19/23] french-revolution-timeline.webp (1280x720)
+    Done: french-revolution-timeline.webp
+  [20/23] peter-the-great-scene.webp (1280x720)
+    Done: peter-the-great-scene.webp
+  [21/23] voltaire-rousseau-scene.webp (1280x720)
+    Done: voltaire-rousseau-scene.webp
+  [22/23] isaac-newton-portrait.webp (512x512)
+    Done: isaac-newton-portrait.webp
+  [23/23] isaac-newton-scene.webp (1280x720)
+    Done: isaac-newton-scene.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-early-modern    23    23     0     0    69    3m 57s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                           23    23     0     0    69    3m 57s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 950.7s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 23 x $0.0390 = $0.8970
+  Local variants (resizes): 69 (free)
+  Estimated total cost: $0.8970
+  Note: Google may not charge on free tier
+
+  Done. 23 images + 69 variants generated.
+
+  Manifest: 0 updated, 23 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  REGENERATION COMPLETE
+══════════════════════════════════════════════════
+  Generated: 102
+  Failed:    0
+  Sanitized: 0 prompts
+  Time:      952.6s
+[chunk 1] rc=0 2026-09-28T13:39:42
+[chunk 2] start 2026-09-28T13:39:42
+📋 101 regen candidates from /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-quality-regen-2026-09-28/chunk-2.json
+   Target: lq-history
+   Configs: /Volumes/SSD/Projects/Repos/lq-tools/packages/image-tools/src/config/subjects/history
+   Output:  /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Provider: gemini
+   Model:   gemini-3.1-flash-image
+   Batch API: yes (50% cheaper)
+   Budget:  $6
+   Dry run: false
+
+📊 Plan: 5 config(s), 101 images
+
+  history/lessons-early-modern.json
+    Images: 2, dirs: /Volumes/SSD/Projects/Repos/lq-history/public/images/lessons/early-modern/european
+      enlightenment.webp → /lessons/early-modern/european
+      voltaire-rousseau.webp → /lessons/early-modern/european
+
+  history/lessons-industrial.json
+    Images: 15, dirs: 7 different
+      great-exhibition-map.webp → /lessons/industrial/european/chapter-4
+      abolition-slavery-timeline.webp → /lessons/industrial/global/chapter-1
+      scramble-for-africa-scene.webp → /lessons/industrial/global/chapter-2
+      telegraph-communication-map.webp → /lessons/industrial/global/chapter-2
+      thomas-edison-scene.webp → /lessons/industrial/global/chapter-2
+      american-industrialization-portrait.webp → /lessons/industrial/global/chapter-3
+      suez-canal-map.webp → /lessons/industrial/global/chapter-3
+      suez-canal-portrait.webp → /lessons/industrial/global/chapter-3
+      thomas-edison-portrait.webp → /lessons/industrial/global/chapter-3
+      colonialism-industrial-portrait.webp → /lessons/industrial/global/chapter-4
+      telegraph-communication-portrait.webp → /lessons/industrial/global/chapter-4
+      thomas-edison-portrait.webp → /lessons/industrial/global/chapter-4
+      thomas-edison-scene.webp → /lessons/industrial/global/chapter-4
+      scramble-for-africa-timeline.webp → /lessons/industrial/global/chapter-5
+      meiji-restoration.webp → /lessons/industrial/global
+
+  history/lessons-medieval.json
+    Images: 42, dirs: 20 different
+      mali-empire-map.webp → /lessons/medieval/african/chapter-1
+      sundiata-keita-portrait.webp → /lessons/medieval/african/chapter-1
+      sundiata-keita-scene.webp → /lessons/medieval/african/chapter-1
+      kingdom-of-ghana-map.webp → /lessons/medieval/african/chapter-2
+      mali-empire-map.webp → /lessons/medieval/african/chapter-2
+      mansa-musa-scene.webp → /lessons/medieval/african/chapter-2
+      timbuktu-learning-map.webp → /lessons/medieval/african/chapter-2
+      mansa-musa-scene.webp → /lessons/medieval/african/chapter-3
+      timbuktu-learning-map.webp → /lessons/medieval/african/chapter-4
+      songhai-empire-map.webp → /lessons/medieval/african/chapter-5
+      swahili-coast-map.webp → /lessons/medieval/african/chapter-5
+      timbuktu-learning-map.webp → /lessons/medieval/african/chapter-5
+      ethiopian-churches.webp → /lessons/medieval/african
+      swahili-coast.webp → /lessons/medieval/african
+      timbuktu-learning.webp → /lessons/medieval/african
+      khmer-empire-map.webp → /lessons/medieval/asian/chapter-1
+      marco-polo-scene.webp → /lessons/medieval/asian/chapter-2
+      mughal-india-map.webp → /lessons/medieval/asian/chapter-3
+      tang-dynasty-map.webp → /lessons/medieval/asian/chapter-3
+      tang-dynasty-portrait.webp → /lessons/medieval/asian/chapter-3
+      feudal-system-map.webp → /lessons/medieval/european/chapter-1
+      crusades-timeline.webp → /lessons/medieval/european/chapter-3
+      hundred-years-war-timeline.webp → /lessons/medieval/european/chapter-4
+      feudal-system-portrait.webp → /lessons/medieval/european/chapter-5
+      joan-of-arc-scene.webp → /lessons/medieval/european/chapter-5
+      magna-carta.webp → /lessons/medieval/european
+      vlad-the-impaler.webp → /lessons/medieval/european
+      golden-age-islam-map.webp → /lessons/medieval/middle-eastern/chapter-1
+      ottoman-origins-portrait.webp → /lessons/medieval/middle-eastern/chapter-1
+      rise-of-islam-scene.webp → /lessons/medieval/middle-eastern/chapter-1
+      al-khwarizmi-scene.webp → /lessons/medieval/middle-eastern/chapter-2
+      rise-of-islam-timeline.webp → /lessons/medieval/middle-eastern/chapter-2
+      saladin-scene.webp → /lessons/medieval/middle-eastern/chapter-2
+      abbasid-caliphate-map.webp → /lessons/medieval/middle-eastern/chapter-3
+      al-khwarizmi-scene.webp → /lessons/medieval/middle-eastern/chapter-3
+      rise-of-islam-timeline.webp → /lessons/medieval/middle-eastern/chapter-3
+      al-khwarizmi-scene.webp → /lessons/medieval/middle-eastern/chapter-4
+      persian-literature-portrait.webp → /lessons/medieval/middle-eastern/chapter-4
+      rise-of-islam-timeline.webp → /lessons/medieval/middle-eastern/chapter-4
+      ottoman-origins-map.webp → /lessons/medieval/middle-eastern/chapter-5
+      saladin-scene.webp → /lessons/medieval/middle-eastern/chapter-5
+      golden-age-islam.webp → /lessons/medieval/middle-eastern
+
+  history/lessons-modern.json
+    Images: 27, dirs: 15 different
+      fdr-new-deal-scene.webp → /lessons/modern/american/chapter-1
+      panama-canal-map.webp → /lessons/modern/american/chapter-1
+      roaring-twenties-map.webp → /lessons/modern/american/chapter-2
+      panama-canal-map.webp → /lessons/modern/american/chapter-3
+      teddy-roosevelt-scene.webp → /lessons/modern/american/chapter-3
+      panama-canal-map.webp → /lessons/modern/american/chapter-5
+      panama-canal-portrait.webp → /lessons/modern/american/chapter-5
+      roaring-twenties-portrait.webp → /lessons/modern/american/chapter-5
+      indian-independence-timeline.webp → /lessons/modern/asian/chapter-1
+      boxer-rebellion-map.webp → /lessons/modern/asian/chapter-2
+      indian-independence-timeline.webp → /lessons/modern/asian/chapter-2
+      ww2-pacific-timeline.webp → /lessons/modern/asian/chapter-3
+      meiji-japan-modern-map.webp → /lessons/modern/asian/chapter-4
+      ww2-pacific-timeline.webp → /lessons/modern/asian/chapter-5
+      cold-war-asia-timeline.webp → /lessons/modern/asian/chapter-6
+      rise-of-fascism-map.webp → /lessons/modern/european/chapter-1
+      world-war-2-europe-timeline.webp → /lessons/modern/european/chapter-1
+      womens-suffrage-timeline.webp → /lessons/modern/european/chapter-2
+      anne-frank-portrait.webp → /lessons/modern/european/chapter-4
+      anne-frank-scene.webp → /lessons/modern/european/chapter-4
+      marie-curie-scene.webp → /lessons/modern/european/chapter-4
+      womens-suffrage-scene.webp → /lessons/modern/european/chapter-4
+      world-war-2-europe-scene.webp → /lessons/modern/european/chapter-4
+      anne-frank-scene.webp → /lessons/modern/european/chapter-5
+      marie-curie-scene.webp → /lessons/modern/european/chapter-5
+      world-war-1-timeline.webp → /lessons/modern/european/chapter-5
+      collapse-soviet-union-scene.webp → /lessons/modern/european/chapter-6
+
+  history/lessons-renaissance.json
+    Images: 15, dirs: 8 different
+      michelangelo-scene.webp → /lessons/renaissance/european/chapter-1
+      northern-renaissance-portrait.webp → /lessons/renaissance/european/chapter-1
+      copernicus-galileo-portrait.webp → /lessons/renaissance/european/chapter-2
+      michelangelo-scene.webp → /lessons/renaissance/european/chapter-2
+      spanish-inquisition-map.webp → /lessons/renaissance/european/chapter-2
+      gutenberg-press-portrait.webp → /lessons/renaissance/european/chapter-3
+      northern-renaissance-portrait.webp → /lessons/renaissance/european/chapter-3
+      copernicus-galileo-portrait.webp → /lessons/renaissance/european/chapter-4
+      copernicus-galileo-scene.webp → /lessons/renaissance/european/chapter-4
+      leonardo-da-vinci-portrait.webp → /lessons/renaissance/european/chapter-4
+      portuguese-trade-map.webp → /lessons/renaissance/global/chapter-2
+      ming-treasure-voyages-portrait.webp → /lessons/renaissance/global/chapter-3
+      portuguese-trade-map.webp → /lessons/renaissance/global/chapter-4
+      inca-empire-map.webp → /lessons/renaissance/global/chapter-5
+      ming-treasure-voyages-map.webp → /lessons/renaissance/global/chapter-5
+
+🚀 Starting regeneration...
+
+  Using Gemini gemini-3.1-flash-image (token-based pricing, budget $6)
+
+══════════════════════════════════════════════════
+  history/lessons-early-modern.json
+══════════════════════════════════════════════════
+  🎯 selected 2/336 config images (chapter-safe filter)
+  🎨 2 image(s): enlightenment, voltaire-rousseau
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-early-modern (2 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 2 images to Gemini Batch API...
+  [1/2] enlightenment.webp (1280x720)
+    Done: enlightenment.webp
+  [2/2] voltaire-rousseau.webp (1280x720)
+    Done: voltaire-rousseau.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-early-modern     2     2     0     0     6    3m 17s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            2     2     0     0     6    3m 17s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 197.7s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 2 x $0.0390 = $0.0780
+  Local variants (resizes): 6 (free)
+  Estimated total cost: $0.0780
+  Note: Google may not charge on free tier
+
+  Done. 2 images + 6 variants generated.
+
+  Manifest: 0 updated, 2 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-industrial.json
+══════════════════════════════════════════════════
+  🎯 selected 15/220 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 15 image(s): great-exhibition-map, abolition-slavery-timeline, scramble-for-africa-scene, telegraph-communication-map, thomas-edison-scene, american-industrialization-portrait, suez-canal-map, suez-canal-portrait, thomas-edison-portrait, colonialism-industrial-portrait, telegraph-communication-portrait, thomas-edison-portrait, thomas-edison-scene, scramble-for-africa-timeline, meiji-restoration
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-industrial (15 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 15 images to Gemini Batch API...
+  [1/15] great-exhibition-map.webp (1280x720)
+    Done: great-exhibition-map.webp
+  [2/15] abolition-slavery-timeline.webp (1280x720)
+    Done: abolition-slavery-timeline.webp
+  [3/15] scramble-for-africa-scene.webp (1280x720)
+    Done: scramble-for-africa-scene.webp
+  [4/15] telegraph-communication-map.webp (1280x720)
+    Done: telegraph-communication-map.webp
+  [5/15] thomas-edison-scene.webp (1280x720)
+    Done: thomas-edison-scene.webp
+  [6/15] american-industrialization-portrait.webp (512x512)
+    Done: american-industrialization-portrait.webp
+  [7/15] suez-canal-map.webp (1280x720)
+    Done: suez-canal-map.webp
+  [8/15] suez-canal-portrait.webp (512x512)
+    Done: suez-canal-portrait.webp
+  [9/15] thomas-edison-portrait.webp (512x512)
+    Done: thomas-edison-portrait.webp
+  [10/15] colonialism-industrial-portrait.webp (512x512)
+    Done: colonialism-industrial-portrait.webp
+  [11/15] telegraph-communication-portrait.webp (512x512)
+    Done: telegraph-communication-portrait.webp
+  [12/15] thomas-edison-portrait.webp (512x512)
+    Done: thomas-edison-portrait.webp
+  [13/15] thomas-edison-scene.webp (1280x720)
+    Done: thomas-edison-scene.webp
+  [14/15] scramble-for-africa-timeline.webp (1280x720)
+    Done: scramble-for-africa-timeline.webp
+  [15/15] meiji-restoration.webp (1280x720)
+    Done: meiji-restoration.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-industrial    15    15     0     0    45    2m 13s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                           15    15     0     0    45    2m 13s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 333.5s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 15 x $0.0390 = $0.5850
+  Local variants (resizes): 45 (free)
+  Estimated total cost: $0.5850
+  Note: Google may not charge on free tier
+
+  Done. 15 images + 45 variants generated.
+
+  Manifest: 0 updated, 15 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-medieval.json
+══════════════════════════════════════════════════
+  🎯 selected 42/452 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 42 image(s): mali-empire-map, sundiata-keita-portrait, sundiata-keita-scene, kingdom-of-ghana-map, mali-empire-map, mansa-musa-scene, timbuktu-learning-map, mansa-musa-scene, timbuktu-learning-map, songhai-empire-map, swahili-coast-map, timbuktu-learning-map, ethiopian-churches, swahili-coast, timbuktu-learning, khmer-empire-map, marco-polo-scene, mughal-india-map, tang-dynasty-map, tang-dynasty-portrait, feudal-system-map, crusades-timeline, hundred-years-war-timeline, feudal-system-portrait, joan-of-arc-scene, magna-carta, vlad-the-impaler, golden-age-islam-map, ottoman-origins-portrait, rise-of-islam-scene, al-khwarizmi-scene, rise-of-islam-timeline, saladin-scene, abbasid-caliphate-map, al-khwarizmi-scene, rise-of-islam-timeline, al-khwarizmi-scene, persian-literature-portrait, rise-of-islam-timeline, ottoman-origins-map, saladin-scene, golden-age-islam
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-medieval (42 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 42 images to Gemini Batch API...
+  [1/42] mali-empire-map.webp (1280x720)
+    Done: mali-empire-map.webp
+  [2/42] sundiata-keita-portrait.webp (512x512)
+    Done: sundiata-keita-portrait.webp
+  [3/42] sundiata-keita-scene.webp (1280x720)
+    Done: sundiata-keita-scene.webp
+  [4/42] kingdom-of-ghana-map.webp (1280x720)
+    Done: kingdom-of-ghana-map.webp
+  [5/42] mali-empire-map.webp (1280x720)
+    Done: mali-empire-map.webp
+  [6/42] mansa-musa-scene.webp (1280x720)
+    Done: mansa-musa-scene.webp
+  [7/42] timbuktu-learning-map.webp (1280x720)
+    Done: timbuktu-learning-map.webp
+  [8/42] mansa-musa-scene.webp (1280x720)
+    Done: mansa-musa-scene.webp
+  [9/42] timbuktu-learning-map.webp (1280x720)
+    Done: timbuktu-learning-map.webp
+  [10/42] songhai-empire-map.webp (1280x720)
+    Done: songhai-empire-map.webp
+  [11/42] swahili-coast-map.webp (1280x720)
+    Done: swahili-coast-map.webp
+  [12/42] timbuktu-learning-map.webp (1280x720)
+    Done: timbuktu-learning-map.webp
+  [13/42] ethiopian-churches.webp (1280x720)
+    Done: ethiopian-churches.webp
+  [14/42] swahili-coast.webp (1280x720)
+    Done: swahili-coast.webp
+  [15/42] timbuktu-learning.webp (1280x720)
+    Done: timbuktu-learning.webp
+  [16/42] khmer-empire-map.webp (1280x720)
+    Done: khmer-empire-map.webp
+  [17/42] marco-polo-scene.webp (1280x720)
+    Done: marco-polo-scene.webp
+  [18/42] mughal-india-map.webp (1280x720)
+    Done: mughal-india-map.webp
+  [19/42] tang-dynasty-map.webp (1280x720)
+    Done: tang-dynasty-map.webp
+  [20/42] tang-dynasty-portrait.webp (512x512)
+    Done: tang-dynasty-portrait.webp
+  [21/42] feudal-system-map.webp (1280x720)
+    Done: feudal-system-map.webp
+  [22/42] crusades-timeline.webp (1280x720)
+    Done: crusades-timeline.webp
+  [23/42] hundred-years-war-timeline.webp (1280x720)
+    Done: hundred-years-war-timeline.webp
+  [24/42] feudal-system-portrait.webp (512x512)
+    Done: feudal-system-portrait.webp
+  [25/42] joan-of-arc-scene.webp (1280x720)
+    Done: joan-of-arc-scene.webp
+  [26/42] magna-carta.webp (1280x720)
+    Done: magna-carta.webp
+  [27/42] vlad-the-impaler.webp (1280x720)
+    Done: vlad-the-impaler.webp
+  [28/42] golden-age-islam-map.webp (1280x720)
+    Done: golden-age-islam-map.webp
+  [29/42] ottoman-origins-portrait.webp (512x512)
+    Done: ottoman-origins-portrait.webp
+  [30/42] rise-of-islam-scene.webp (1280x720)
+    Done: rise-of-islam-scene.webp
+  [31/42] al-khwarizmi-scene.webp (1280x720)
+    Done: al-khwarizmi-scene.webp
+  [32/42] rise-of-islam-timeline.webp (1280x720)
+    Done: rise-of-islam-timeline.webp
+  [33/42] saladin-scene.webp (1280x720)
+    Done: saladin-scene.webp
+  [34/42] abbasid-caliphate-map.webp (1280x720)
+    Done: abbasid-caliphate-map.webp
+  [35/42] al-khwarizmi-scene.webp (1280x720)
+    Done: al-khwarizmi-scene.webp
+  [36/42] rise-of-islam-timeline.webp (1280x720)
+    Done: rise-of-islam-timeline.webp
+  [37/42] al-khwarizmi-scene.webp (1280x720)
+    Done: al-khwarizmi-scene.webp
+  [38/42] persian-literature-portrait.webp (512x512)
+    Done: persian-literature-portrait.webp
+  [39/42] rise-of-islam-timeline.webp (1280x720)
+    Done: rise-of-islam-timeline.webp
+  [40/42] ottoman-origins-map.webp (1280x720)
+    Done: ottoman-origins-map.webp
+  [41/42] saladin-scene.webp (1280x720)
+    Done: saladin-scene.webp
+  [42/42] golden-age-islam.webp (1280x720)
+    Done: golden-age-islam.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-medieval     42    42     0     0   126    3m 27s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                           42    42     0     0   126    3m 27s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 543.1s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 42 x $0.0390 = $1.6380
+  Local variants (resizes): 126 (free)
+  Estimated total cost: $1.6380
+  Note: Google may not charge on free tier
+
+  Done. 42 images + 126 variants generated.
+
+  Manifest: 0 updated, 42 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-modern.json
+══════════════════════════════════════════════════
+  🎯 selected 27/332 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 27 image(s): fdr-new-deal-scene, panama-canal-map, roaring-twenties-map, panama-canal-map, teddy-roosevelt-scene, panama-canal-map, panama-canal-portrait, roaring-twenties-portrait, indian-independence-timeline, boxer-rebellion-map, indian-independence-timeline, ww2-pacific-timeline, meiji-japan-modern-map, ww2-pacific-timeline, cold-war-asia-timeline, rise-of-fascism-map, world-war-2-europe-timeline, womens-suffrage-timeline, anne-frank-portrait, anne-frank-scene, marie-curie-scene, womens-suffrage-scene, world-war-2-europe-scene, anne-frank-scene, marie-curie-scene, world-war-1-timeline, collapse-soviet-union-scene
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-modern (27 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 27 images to Gemini Batch API...
+  ⚠️  1 batch items returned no image — retrying interactively: .regen-tmp-lessons-modern:15
+  [1/27] fdr-new-deal-scene.webp (1280x720)
+    Done: fdr-new-deal-scene.webp
+  [2/27] panama-canal-map.webp (1280x720)
+    Done: panama-canal-map.webp
+  [3/27] roaring-twenties-map.webp (1280x720)
+    Done: roaring-twenties-map.webp
+  [4/27] panama-canal-map.webp (1280x720)
+    Done: panama-canal-map.webp
+  [5/27] teddy-roosevelt-scene.webp (1280x720)
+    Done: teddy-roosevelt-scene.webp
+  [6/27] panama-canal-map.webp (1280x720)
+    Done: panama-canal-map.webp
+  [7/27] panama-canal-portrait.webp (512x512)
+    Done: panama-canal-portrait.webp
+  [8/27] roaring-twenties-portrait.webp (512x512)
+    Done: roaring-twenties-portrait.webp
+  [9/27] indian-independence-timeline.webp (1280x720)
+    Done: indian-independence-timeline.webp
+  [10/27] boxer-rebellion-map.webp (1280x720)
+    Done: boxer-rebellion-map.webp
+  [11/27] indian-independence-timeline.webp (1280x720)
+    Done: indian-independence-timeline.webp
+  [12/27] ww2-pacific-timeline.webp (1280x720)
+    Done: ww2-pacific-timeline.webp
+  [13/27] meiji-japan-modern-map.webp (1280x720)
+    Done: meiji-japan-modern-map.webp
+  [14/27] ww2-pacific-timeline.webp (1280x720)
+    Done: ww2-pacific-timeline.webp
+  [15/27] cold-war-asia-timeline.webp (1280x720)
+    Done: cold-war-asia-timeline.webp
+  [16/27] rise-of-fascism-map.webp (1280x720)
+[GeminiImageClient] Error generating image: No image data found in Gemini response
+    Retry 1/2 in 2s...
+    Done: rise-of-fascism-map.webp (attempt 2/3)
+  [17/27] world-war-2-europe-timeline.webp (1280x720)
+    Done: world-war-2-europe-timeline.webp
+  [18/27] womens-suffrage-timeline.webp (1280x720)
+    Done: womens-suffrage-timeline.webp
+  [19/27] anne-frank-portrait.webp (512x512)
+    Done: anne-frank-portrait.webp
+  [20/27] anne-frank-scene.webp (1280x720)
+    Done: anne-frank-scene.webp
+  [21/27] marie-curie-scene.webp (1280x720)
+    Done: marie-curie-scene.webp
+  [22/27] womens-suffrage-scene.webp (1280x720)
+    Done: womens-suffrage-scene.webp
+  [23/27] world-war-2-europe-scene.webp (1280x720)
+    Done: world-war-2-europe-scene.webp
+  [24/27] anne-frank-scene.webp (1280x720)
+    Done: anne-frank-scene.webp
+  [25/27] marie-curie-scene.webp (1280x720)
+    Done: marie-curie-scene.webp
+  [26/27] world-war-1-timeline.webp (1280x720)
+    Done: world-war-1-timeline.webp
+  [27/27] collapse-soviet-union-scene.webp (1280x720)
+    Done: collapse-soviet-union-scene.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-modern       27    27     0     0    81    4m 18s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                           27    27     0     0    81    4m 18s
+
+  Retried images (1):
+
+    .regen-tmp-lessons-modern/rise-of-fascism-map.webp — generated after 2 attempts
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 803.9s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 27 x $0.0390 = $1.0530
+  Local variants (resizes): 81 (free)
+  Estimated total cost: $1.0530
+  Note: Google may not charge on free tier
+
+  Done. 27 images + 81 variants generated.
+
+  Manifest: 0 updated, 27 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-renaissance.json
+══════════════════════════════════════════════════
+  🎯 selected 15/200 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 15 image(s): michelangelo-scene, northern-renaissance-portrait, copernicus-galileo-portrait, michelangelo-scene, spanish-inquisition-map, gutenberg-press-portrait, northern-renaissance-portrait, copernicus-galileo-portrait, copernicus-galileo-scene, leonardo-da-vinci-portrait, portuguese-trade-map, ming-treasure-voyages-portrait, portuguese-trade-map, inca-empire-map, ming-treasure-voyages-map
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-renaissance (15 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 15 images to Gemini Batch API...
+  [1/15] michelangelo-scene.webp (1280x720)
+    Done: michelangelo-scene.webp
+  [2/15] northern-renaissance-portrait.webp (512x512)
+    Done: northern-renaissance-portrait.webp
+  [3/15] copernicus-galileo-portrait.webp (512x512)
+    Done: copernicus-galileo-portrait.webp
+  [4/15] michelangelo-scene.webp (1280x720)
+    Done: michelangelo-scene.webp
+  [5/15] spanish-inquisition-map.webp (1280x720)
+    Done: spanish-inquisition-map.webp
+  [6/15] gutenberg-press-portrait.webp (512x512)
+    Done: gutenberg-press-portrait.webp
+  [7/15] northern-renaissance-portrait.webp (512x512)
+    Done: northern-renaissance-portrait.webp
+  [8/15] copernicus-galileo-portrait.webp (512x512)
+    Done: copernicus-galileo-portrait.webp
+  [9/15] copernicus-galileo-scene.webp (1280x720)
+    Done: copernicus-galileo-scene.webp
+  [10/15] leonardo-da-vinci-portrait.webp (512x512)
+    Done: leonardo-da-vinci-portrait.webp
+  [11/15] portuguese-trade-map.webp (1280x720)
+    Done: portuguese-trade-map.webp
+  [12/15] ming-treasure-voyages-portrait.webp (512x512)
+    Done: ming-treasure-voyages-portrait.webp
+  [13/15] portuguese-trade-map.webp (1280x720)
+    Done: portuguese-trade-map.webp
+  [14/15] inca-empire-map.webp (1280x720)
+    Done: inca-empire-map.webp
+  [15/15] ming-treasure-voyages-map.webp (1280x720)
+    Done: ming-treasure-voyages-map.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-renaissance    15    15     0     0    45    2m 53s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                           15    15     0     0    45    2m 53s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 979.6s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 15 x $0.0390 = $0.5850
+  Local variants (resizes): 45 (free)
+  Estimated total cost: $0.5850
+  Note: Google may not charge on free tier
+
+  Done. 15 images + 45 variants generated.
+
+  Manifest: 0 updated, 15 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  REGENERATION COMPLETE
+══════════════════════════════════════════════════
+  Generated: 101
+  Failed:    0
+  Sanitized: 0 prompts
+  Time:      981.5s
+[chunk 2] rc=0 2026-09-28T13:56:04
+[all] done 2026-09-28T13:56:04

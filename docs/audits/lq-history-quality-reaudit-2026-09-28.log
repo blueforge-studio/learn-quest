@@ -1,0 +1,476 @@
+📄 Using audit config: /Volumes/SSD/Projects/Repos/lq-tools/scripts/image-audit.config.json
+🔍 AI Quality Audit: 203 image(s) [offset=0 limit=203 of 203] (image-list: 203 matched)
+   From: /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Budget: $1   Rate limit: 80   Sleep: 250ms
+   Rules: /Volumes/SSD/Projects/Repos/lq-tools/scripts/audit-rules.config.json   App: lq-history   Fleet default label language: english
+   Pixel gate: enabled
+   Chain order (config): minimax-anthropic,glm,qwen,anthropic
+   Corner-flood: enabled (bgFraction > 0.5)
+
+  [0%] lessons/ancient/_general/ancient-laws-ch5.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [1%] lessons/ancient/_general/ancient-laws.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [1%] lessons/ancient/_general/ancient-religions-ch2.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [2%] lessons/ancient/_general/ancient-trade-ch4.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [2%] lessons/ancient/_general/ancient-trade.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [3%] lessons/ancient/_general/ancient-warfare-ch2.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [3%] lessons/ancient/_general/ancient-warfare-ch5.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [4%] lessons/ancient/_general/ancient-warfare.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [4%] lessons/ancient/_general/bronze-age-ch4.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0007
+  [5%] lessons/ancient/_general/chapter-1/ancient-religions-portrait.webp ... score=8 ✓
+  [5%] lessons/ancient/_general/chapter-1/ancient-warfare-portrait.webp ... score=5 regen=true cost=$0.0006
+  [6%] lessons/ancient/_general/chapter-1/timeline-ancient-civilizations-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [6%] lessons/ancient/_general/chapter-2/ancient-inventions-ch2-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [7%] lessons/ancient/_general/chapter-2/ancient-trade-ch2-map.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0007
+  [7%] lessons/ancient/_general/chapter-2/first-civilizations-ch2-scene.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [8%] lessons/ancient/_general/chapter-2/invention-of-writing-ch2-portrait.webp ... score=4 regen=true cost=$0.0007
+  [8%] lessons/ancient/_general/chapter-3/ancient-warfare-ch3-portrait.webp ... score=5 regen=true cost=$0.0007
+  [9%] lessons/ancient/_general/chapter-3/bronze-age-ch3-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [9%] lessons/ancient/_general/chapter-4/ancient-trade-ch4-map.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [10%] lessons/ancient/_general/chapter-4/ancient-trade-ch4-portrait.webp ... score=5 regen=true cost=$0.0007
+  [10%] lessons/ancient/_general/chapter-4/ancient-warfare-ch4-portrait.webp ... score=3 regen=true cost=$0.0006
+  [11%] lessons/ancient/_general/chapter-4/invention-of-writing-ch4-portrait.webp ... score=7 ✓
+  [11%] lessons/ancient/_general/chapter-5/ancient-trade-ch5-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [12%] lessons/ancient/_general/historical-figure-leonardo.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [12%] lessons/ancient/_general/invention-of-writing-ch2.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [13%] lessons/ancient/_general/invention-of-writing-ch4.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0006
+  [13%] lessons/ancient/_general/invention-of-writing-ch5.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [14%] lessons/ancient/_general/invention-of-writing.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [14%] lessons/ancient/_general/iron-age-ch4.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [15%] lessons/ancient/_general/iron-age-ch5.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [15%] lessons/ancient/african/chapter-1/ancient-egypt-pharaohs-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [16%] lessons/ancient/african/chapter-1/era-exploration-ancient-egypt-kingdoms-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [16%] lessons/ancient/african/chapter-1/nile-river-life-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [17%] lessons/ancient/african/chapter-1/pyramids-of-giza-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [17%] lessons/ancient/african/chapter-3/ancient-egypt-pharaohs-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [18%] lessons/ancient/african/chapter-5/egyptian-gods-map.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0007
+  [18%] lessons/ancient/african/chapter-5/kingdom-of-kush-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [19%] lessons/ancient/african/chapter-5/nile-river-life-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [19%] lessons/ancient/american/chapter-2/first-americans-timeline.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [20%] lessons/ancient/american/chapter-3/teotihuacan-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [20%] lessons/ancient/american/chapter-5/nazca-lines-portrait.webp ... score=4 regen=true cost=$0.0007
+  [21%] lessons/ancient/ancient-india.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [21%] lessons/ancient/ancient-japan.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [22%] lessons/ancient/asian/chapter-1/ancient-china-dynasties-timeline.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0005
+  [22%] lessons/ancient/asian/chapter-1/ancient-japan-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [23%] lessons/ancient/asian/chapter-1/confucius-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [23%] lessons/ancient/asian/chapter-1/silk-road-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [24%] lessons/ancient/asian/chapter-2/ancient-japan-portrait.webp ... score=3 regen=true cost=$0.0007
+  [24%] lessons/ancient/asian/chapter-2/confucius-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [25%] lessons/ancient/asian/chapter-2/great-wall-china-portrait.webp ... score=4 regen=true cost=$0.0006
+  [25%] lessons/ancient/asian/chapter-2/indus-valley-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [26%] lessons/ancient/asian/chapter-3/ancient-china-dynasties-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [26%] lessons/ancient/asian/chapter-3/confucius-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [27%] lessons/ancient/asian/chapter-3/great-wall-china-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [27%] lessons/ancient/asian/chapter-3/han-dynasty-inventions-map.webp ... [ds 600x338 from 1280x720] score=8 regen=true cost=$0.0005
+  [28%] lessons/ancient/asian/chapter-3/indus-valley-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [28%] lessons/ancient/asian/chapter-3/qin-shi-huang-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [29%] lessons/ancient/asian/chapter-4/confucius-portrait.webp ... score=8 ✓
+  [29%] lessons/ancient/asian/chapter-4/han-dynasty-inventions-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [30%] lessons/ancient/asian/chapter-4/indus-valley-map.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0008
+  [30%] lessons/ancient/asian/chapter-5/ancient-china-dynasties-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0008
+  [31%] lessons/ancient/asian/chapter-5/ancient-japan-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [31%] lessons/ancient/asian/chapter-5/qin-shi-huang-scene.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [32%] lessons/ancient/european/alexander-the-great.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [32%] lessons/ancient/european/ancient-greek-olympics.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [33%] lessons/ancient/european/chapter-1/fall-of-rome-timeline.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0007
+  [33%] lessons/ancient/european/chapter-1/roman-republic-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [33%] lessons/ancient/european/chapter-2/celtic-tribes-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [34%] lessons/ancient/european/chapter-2/fall-of-rome-timeline.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [34%] lessons/ancient/european/chapter-3/ancient-greece-democracy-map.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0007
+  [35%] lessons/ancient/european/chapter-3/greek-olympics-portrait.webp ... score=3 regen=true cost=$0.0007
+  [35%] lessons/ancient/european/chapter-4/ancient-greece-democracy-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [36%] lessons/ancient/european/chapter-4/greek-olympics-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [36%] lessons/ancient/european/chapter-5/fall-of-rome-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [37%] lessons/ancient/european/roman-engineering.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0007
+  [37%] lessons/contemporary/american/chapter-4/digital-revolution-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [38%] lessons/contemporary/american/civil-rights-movement.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [38%] lessons/contemporary/american/vietnam-war.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [39%] lessons/contemporary/european/chapter-3/soviet-collapse-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [39%] lessons/early-modern/american/chapter-5/benjamin-franklin-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [40%] lessons/early-modern/american/chapter-5/haitian-revolution-map.webp ... [ds 600x338 from 1280x720] score=7 regen=true cost=$0.0006
+  [40%] lessons/early-modern/american/chapter-5/simon-bolivar-portrait.webp ... score=4 regen=true cost=$0.0007
+  [41%] lessons/early-modern/american/chapter-5/simon-bolivar-scene.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [41%] lessons/early-modern/asian/chapter-1/siamese-kingdom-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [42%] lessons/early-modern/asian/chapter-2/east-india-companies-portrait.webp ... score=4 regen=true cost=$0.0007
+  [42%] lessons/early-modern/asian/chapter-2/mughal-empire-portrait.webp ... score=5 regen=true cost=$0.0007
+  [43%] lessons/early-modern/asian/chapter-2/safavid-persia-portrait.webp ... score=5 regen=true cost=$0.0006
+  [43%] lessons/early-modern/asian/chapter-3/kangxi-emperor-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [44%] lessons/early-modern/asian/chapter-3/qing-dynasty-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0007
+  [44%] lessons/early-modern/asian/chapter-3/suleiman-portrait.webp ... score=5 regen=true cost=$0.0007
+  [45%] lessons/early-modern/asian/chapter-3/tokugawa-japan-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [45%] lessons/early-modern/asian/chapter-4/ottoman-golden-age-map.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0007
+  [46%] lessons/early-modern/asian/chapter-4/ottoman-golden-age-portrait.webp ... score=3 regen=true cost=$0.0006
+  [46%] lessons/early-modern/asian/chapter-5/kangxi-emperor-portrait.webp ... score=8 ✓
+  [47%] lessons/early-modern/asian/mughal-empire.webp ... [ds 600x338 from 1280x720] score=2 regen=true cost=$0.0007
+  [47%] lessons/early-modern/asian/qing-dynasty.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [48%] lessons/early-modern/asian/tokugawa-japan.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [48%] lessons/early-modern/european/chapter-2/french-revolution-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0007
+  [49%] lessons/early-modern/european/chapter-4/peter-the-great-scene.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [49%] lessons/early-modern/european/chapter-4/voltaire-rousseau-scene.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [50%] lessons/early-modern/european/chapter-5/isaac-newton-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [50%] lessons/early-modern/european/chapter-5/isaac-newton-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [51%] lessons/early-modern/european/enlightenment.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [51%] lessons/early-modern/european/voltaire-rousseau.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [52%] lessons/industrial/european/chapter-4/great-exhibition-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [52%] lessons/industrial/global/chapter-1/abolition-slavery-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [53%] lessons/industrial/global/chapter-2/scramble-for-africa-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [53%] lessons/industrial/global/chapter-2/telegraph-communication-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [54%] lessons/industrial/global/chapter-2/thomas-edison-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [54%] lessons/industrial/global/chapter-3/american-industrialization-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [55%] lessons/industrial/global/chapter-3/suez-canal-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [55%] lessons/industrial/global/chapter-3/suez-canal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [56%] lessons/industrial/global/chapter-3/thomas-edison-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [56%] lessons/industrial/global/chapter-4/colonialism-industrial-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [57%] lessons/industrial/global/chapter-4/telegraph-communication-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [57%] lessons/industrial/global/chapter-4/thomas-edison-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [58%] lessons/industrial/global/chapter-4/thomas-edison-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [58%] lessons/industrial/global/chapter-5/scramble-for-africa-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [59%] lessons/industrial/global/meiji-restoration.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [59%] lessons/medieval/african/chapter-1/mali-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [60%] lessons/medieval/african/chapter-1/sundiata-keita-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [60%] lessons/medieval/african/chapter-1/sundiata-keita-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [61%] lessons/medieval/african/chapter-2/kingdom-of-ghana-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [61%] lessons/medieval/african/chapter-2/mali-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [62%] lessons/medieval/african/chapter-2/mansa-musa-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [62%] lessons/medieval/african/chapter-2/timbuktu-learning-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [63%] lessons/medieval/african/chapter-3/mansa-musa-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [63%] lessons/medieval/african/chapter-4/timbuktu-learning-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [64%] lessons/medieval/african/chapter-5/songhai-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [64%] lessons/medieval/african/chapter-5/swahili-coast-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [65%] lessons/medieval/african/chapter-5/timbuktu-learning-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [65%] lessons/medieval/african/ethiopian-churches.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [66%] lessons/medieval/african/swahili-coast.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [66%] lessons/medieval/african/timbuktu-learning.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [67%] lessons/medieval/asian/chapter-1/khmer-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [67%] lessons/medieval/asian/chapter-2/marco-polo-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [67%] lessons/medieval/asian/chapter-3/mughal-india-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=4 regen=true cost=$0.0003
+  [68%] lessons/medieval/asian/chapter-3/tang-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [68%] lessons/medieval/asian/chapter-3/tang-dynasty-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [69%] lessons/medieval/european/chapter-1/feudal-system-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [69%] lessons/medieval/european/chapter-3/crusades-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=4 regen=true cost=$0.0003
+  [70%] lessons/medieval/european/chapter-4/hundred-years-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=4 regen=true cost=$0.0003
+  [70%] lessons/medieval/european/chapter-5/feudal-system-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [71%] lessons/medieval/european/chapter-5/joan-of-arc-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [71%] lessons/medieval/european/magna-carta.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [72%] lessons/medieval/european/vlad-the-impaler.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [72%] lessons/medieval/middle-eastern/chapter-1/golden-age-islam-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [73%] lessons/medieval/middle-eastern/chapter-1/ottoman-origins-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [73%] lessons/medieval/middle-eastern/chapter-1/rise-of-islam-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [74%] lessons/medieval/middle-eastern/chapter-2/al-khwarizmi-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [74%] lessons/medieval/middle-eastern/chapter-2/rise-of-islam-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [75%] lessons/medieval/middle-eastern/chapter-2/saladin-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [75%] lessons/medieval/middle-eastern/chapter-3/abbasid-caliphate-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [76%] lessons/medieval/middle-eastern/chapter-3/al-khwarizmi-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [76%] lessons/medieval/middle-eastern/chapter-3/rise-of-islam-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [77%] lessons/medieval/middle-eastern/chapter-4/al-khwarizmi-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [77%] lessons/medieval/middle-eastern/chapter-4/persian-literature-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [78%] lessons/medieval/middle-eastern/chapter-4/rise-of-islam-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [78%] lessons/medieval/middle-eastern/chapter-5/ottoman-origins-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [79%] lessons/medieval/middle-eastern/chapter-5/saladin-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [79%] lessons/medieval/middle-eastern/golden-age-islam.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [80%] lessons/modern/american/chapter-1/fdr-new-deal-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [80%] lessons/modern/american/chapter-1/panama-canal-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [81%] lessons/modern/american/chapter-2/roaring-twenties-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [81%] lessons/modern/american/chapter-3/panama-canal-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [82%] lessons/modern/american/chapter-3/teddy-roosevelt-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [82%] lessons/modern/american/chapter-5/panama-canal-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [83%] lessons/modern/american/chapter-5/panama-canal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [83%] lessons/modern/american/chapter-5/roaring-twenties-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [84%] lessons/modern/asian/chapter-1/indian-independence-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [84%] lessons/modern/asian/chapter-2/boxer-rebellion-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [85%] lessons/modern/asian/chapter-2/indian-independence-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [85%] lessons/modern/asian/chapter-3/ww2-pacific-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [86%] lessons/modern/asian/chapter-4/meiji-japan-modern-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [86%] lessons/modern/asian/chapter-5/ww2-pacific-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [87%] lessons/modern/asian/chapter-6/cold-war-asia-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=4 regen=true cost=$0.0003
+  [87%] lessons/modern/european/chapter-1/rise-of-fascism-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [88%] lessons/modern/european/chapter-1/world-war-2-europe-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [88%] lessons/modern/european/chapter-2/womens-suffrage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [89%] lessons/modern/european/chapter-4/anne-frank-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [89%] lessons/modern/european/chapter-4/anne-frank-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [90%] lessons/modern/european/chapter-4/marie-curie-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [90%] lessons/modern/european/chapter-4/womens-suffrage-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [91%] lessons/modern/european/chapter-4/world-war-2-europe-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [91%] lessons/modern/european/chapter-5/anne-frank-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [92%] lessons/modern/european/chapter-5/marie-curie-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [92%] lessons/modern/european/chapter-5/world-war-1-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [93%] lessons/modern/european/chapter-6/collapse-soviet-union-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [93%] lessons/renaissance/european/chapter-1/michelangelo-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [94%] lessons/renaissance/european/chapter-1/northern-renaissance-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [94%] lessons/renaissance/european/chapter-2/copernicus-galileo-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [95%] lessons/renaissance/european/chapter-2/michelangelo-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [95%] lessons/renaissance/european/chapter-2/spanish-inquisition-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [96%] lessons/renaissance/european/chapter-3/gutenberg-press-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [96%] lessons/renaissance/european/chapter-3/northern-renaissance-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [97%] lessons/renaissance/european/chapter-4/copernicus-galileo-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=10 ✓
+  [97%] lessons/renaissance/european/chapter-4/copernicus-galileo-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [98%] lessons/renaissance/european/chapter-4/leonardo-da-vinci-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [98%] lessons/renaissance/global/chapter-2/portuguese-trade-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [99%] lessons/renaissance/global/chapter-3/ming-treasure-voyages-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [99%] lessons/renaissance/global/chapter-4/portuguese-trade-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 regen=true cost=$0.0110
+  [100%] lessons/renaissance/global/chapter-5/inca-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [100%] lessons/renaissance/global/chapter-5/ming-treasure-voyages-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 regen=true cost=$0.0105
+
+════════════════════════════════════════════════════════════
+  AUDIT SUMMARY
+════════════════════════════════════════════════════════════
+  Total:      203 image(s)
+  Audited:    203
+  Failed:     0
+  Needs regen: 115
+  Avg score:  6.6/10
+  Total cost: $0.1159
+
+  Quality distribution:
+    High (7-10):  117
+    Medium (4-6): 48
+    Low (1-3):    38
+
+  Issue frequency:
+    art-style mismatch: High quality realistic (RPG) manga style.: 27
+    childish style: flat, primary-color preschool cartoon below target audience bar: 19
+    excessive text dominating the illustration: 17
+    art-style mismatch: East-Asian classical art (Chinese ink-wash painting, imperial court, silk-and-jade, terracotta): 11
+    art-style mismatch: Ming/Qing dynasty and Edo-period art: 11
+    too many visible text words: 14 > 3: 9
+    art-style mismatch: Greco-Roman classical art (marble sculpture, temple architecture, Mediterranean palette): 9
+    too many visible text words: 12 > 3: 8
+    misspelled or non-English text inside the image: 7
+    art-style mismatch: Ancient Egyptian/Nubian monumental art (hieroglyphs, temple reliefs, sandstone and gold): 6
+
+  Regeneration candidates (115):
+    lessons/ancient/_general/ancient-laws-ch5.webp — score: 3, issues: Childish preschool-cartoon style with flat color fills, thin outlines, and no painterly depth — below the production bar and inappropriate for the required realistic (RPG) manga style., Art style does not match the required High quality realistic (RPG) manga style., No visible text content., childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Required style is High quality realistic (RPG) manga style; actual rendering is a flat, simple illustrated cartoon with thin line outlines, flat color fills, no atmospheric depth, no textured rendering, and no painterly lighting — characteristic of a preschool/children's picture book illustration.
+    lessons/ancient/_general/ancient-laws.webp — score: 4, issues: Art style mismatch: required high-quality realistic (RPG) manga style, but image is rendered as a simple illustrated cartoon with flat color fills and thin outlines., The stone stele contains cuneiform-like glyph marks rather than readable text; treated as non-text decoration., Overall rendering is below the production bar for the required art style., art-style mismatch: High quality realistic (RPG) manga style., Style is a flat, semi-cartoon illustration with thin line outlines and flat color fills, lacking the layered, textured, painterly rendering expected of high quality realistic manga/RPG style., Anatomical proportions and facial details are simplified and stylized in a children's-book manner rather than rendered realistically., No atmospheric depth, dramatic lighting, or painterly shading typical of realistic manga/RPG art.
+    lessons/ancient/_general/ancient-religions-ch2.webp — score: 4, issues: Art style does not match required high quality realistic (RPG) manga style, Illustration has a stylized cartoon feel with simplified anatomy and minimal atmospheric depth, Otherwise composition and subject (ancient religions scene) are coherent and on-topic, art-style mismatch: High quality realistic (RPG) manga style., Style is a stylized cartoon/illustrated vignette, not high quality realistic (RPG) manga style, Characters lack realistic anatomy and detailed shading typical of manga style, Rendering is closer to a children's educational illustration with flat-ish coloring rather than a polished realistic manga treatment
+    lessons/ancient/_general/ancient-trade-ch4.webp — score: 5, issues: Art style does not match the required 'high quality realistic (RPG) manga style'; image is a soft painterly digital illustration without manga-specific rendering features., art-style mismatch: High quality realistic (RPG) manga style., Required style is high quality realistic (RPG) manga style, but the image is rendered as a painterly/digital illustration with soft brushwork and no manga or anime characteristics (no linework, no cel-shading, no manga-style rendering).
+    lessons/ancient/_general/ancient-trade.webp — score: 5, issues: Art style deviation: required 'High quality realistic (RPG) manga style' but the image is rendered in a painterly Western historical-illustration style without manga/RPG-specific stylization., art-style mismatch: High quality realistic (RPG) manga style., The required style is 'High quality realistic (RPG) manga style' which emphasizes manga/RPG illustration aesthetics. This image is a highly detailed, painterly digital illustration that resembles a historical/fantasy trading scene but lacks the characteristic manga/RPG stylization (e.g., anime-influenced character rendering, RPG-gamebook composition, or Japanese illustration conventions). It reads more as a Western historical fantasy illustration than a realistic manga RPG style.
+    lessons/ancient/_general/ancient-warfare.webp — score: 5, issues: Required art style is 'High quality realistic (RPG) manga style' but the image is rendered in a Western painterly/digital illustration style without manga conventions., Illustration quality itself is good: detailed anatomy, clear composition, layered foreground/midground/background, believable lighting and atmosphere., art-style mismatch: High quality realistic (RPG) manga style., Style is a polished digital illustration with painterly rendering, not a 'High quality realistic (RPG) manga style'. Manga style requires distinctly Japanese-influenced linework, cel-shading, or anime aesthetic conventions, which are absent here.
+    lessons/ancient/_general/bronze-age-ch4.webp — score: 5, issues: Art style does not match required 'high quality realistic (RPG) manga style' — the rendering is a Western painterly digital illustration without manga linework, cel-shading, or anime-influenced character stylization., art-style mismatch: High quality realistic (RPG) manga style., Style is painterly/illustrative digital art rather than the required high-quality realistic (RPG) manga style. Manga style requires visible Japanese-influenced linework, cel-shading or distinct anime/manga rendering conventions, and stylized character anatomy typical of RPG manga (e.g., Final Fantasy, manga RPG manuals). This image is a softer, Western painterly digital illustration without manga linework, cel-shading, or characteristic anime stylization.
+    lessons/ancient/_general/chapter-1/ancient-warfare-portrait.webp — score: 5, issues: Required art style is high quality realistic (RPG) manga, but image is rendered as a flat, stylized ancient-historica illustration (pictograph/manuscript style) with no realistic rendering, depth shading, or manga characteristics., Mundane shield emblems (bull head, bird) read as decorative rather than meaningful portraiture for the 'ancient-warfare-portrait' lesson., art-style mismatch: High quality realistic (RPG) manga style., Style deviates from required 'high quality realistic (RPG) manga style'. The illustration is a flat, parchment-toned historical pictograph in the style of ancient Egyptian or medieval manuscript art, not realistic manga/RPG style.
+    lessons/ancient/_general/chapter-1/timeline-ancient-civilizations-timeline.webp — score: 3, issues: Visible text exceeds 3-word limit: 'Tigris', 'Tigris', 'Euphrates', 'Nile' appear as river labels and additional partially legible text appears on a scroll and pyramid (#14 words counted, all small-scale though several are non-english river names), Misspelled / non-english river labels: 'Tigris' and 'Euphrates' are non-english proper nouns not translated to English (e.g., the English river names should be used or they should be transliterated; as proper nouns they could be acceptable, but they are foreign-language labels which violates the English-only text rule), Art style required is 'realistic (RPG) manga style' but the image is a painterly educational illustration, not manga/realistic fantasy, Small but visible label-like text on the scroll and pyramid appears partially garbled or unreadable, Texture/quality is otherwise competent but does not match the mandated style, misspelled or non-English text inside the image, too many visible text words: 14 > 3, art-style mismatch: High quality realistic (RPG) manga style., Required style is high quality realistic (RPG) manga style, but the illustration is a painterly/educational infographic style without manga-style rendering (no ink linework, screentone, or anime-influenced character anatomy). The Pharaoh figure and scenes are rendered as a stylized educational illustration, not a realistic manga.
+    lessons/ancient/_general/chapter-2/ancient-inventions-ch2-timeline.webp — score: 3, issues: Visible text contains 12 words across three captions ('The Wheel Rolls Out', 'Watering the Fields: Irrigation', 'Counting is Invented: Mathematics') which exceeds the 3-word maximum, Art style is a simple illustrated cartoon with flat colors and limited shading, below the required realistic (RPG) manga style and unsuitable for ages 10+, Requires regeneration due to excessive visible text and style mismatch, too many visible text words: 12 > 3, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Style is a flat, simplified cartoon with muted fills and minimal shading, not a high-quality realistic (RPG) manga style, Anatomy and rendering are simplified rather than detailed and layered, Lacks atmospheric depth, painterly lighting, and textured rendering expected of the target style
+    lessons/ancient/_general/chapter-2/ancient-trade-ch2-map.webp — score: 2, issues: Visible text word count exceeds the 3-word limit (22 words of map labels), Text dominates the composition more than illustration, Misspelled/non-English label: 'Mediterranien Sea' instead of 'Mediterranean Sea', Non-English language label: 'GOBI' region label (Gobi Desert is acceptable English, but combined with the misspelling this is suspect), Stylistic deviation: flat illustrated map in a children's-picture-book style rather than high-quality realistic (RPG) manga, Style is not appropriate for ages 10+; reads as preschool/elementary educational illustration, misspelled or non-English text inside the image, excessive text dominating the illustration, too many visible text words: 22 > 3, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Style is a flat, painted children's-book illustration with no atmospheric depth, painterly lighting, or detailed manga/RPG realism, Lacks the layered shading, textured rendering, and anatomical/environmental detail required for high quality realistic (RPG) manga style
+    lessons/ancient/_general/chapter-2/first-civilizations-ch2-scene.webp — score: 4, issues: Art style does not match the required high quality realistic (RPG) manga style; image is a stylized parchment illustration/map painting with an aged paper border and decorative aged texture., Thick parchment-style border/frame surrounds the illustration, resembling a border artifact on the top, left, and right edges., art-style mismatch: High quality realistic (RPG) manga style., Required style is high quality realistic (RPG) manga style, but the image is rendered as a parchment-style illustrated map/painting with a parchment texture border and aged paper background. This is not realistic RPG manga style.
+    lessons/ancient/_general/chapter-2/invention-of-writing-ch2-portrait.webp — score: 4, issues: Visible cuneiform-style markings on clay tablets count as text symbols (estimated 2 word-equivalents); they appear as stylized script rather than garbled but are not clearly readable English, Art style does not match required high-quality realistic (RPG) manga style — rendering is more flat illustrative with heavy outlines and limited realistic depth/shading, Composition is split-panel which may not be ideal for a single portrait asset, art-style mismatch: High quality realistic (RPG) manga style., Required style is high-quality realistic (RPG) manga style, but the image is rendered in a stylized illustrative/painterly digital art style with flat coloring and outline-heavy rendering rather than realistic manga, The figures lack the anatomically detailed, shaded, realistic rendering expected of RPG manga style; rendering appears more like a decorative educational illustration
+    lessons/ancient/_general/chapter-3/ancient-warfare-ch3-portrait.webp — score: 5, issues: Art style does not match the required 'high quality realistic (RPG) manga style' — rendering is stylized/illustrative with flat shading rather than realistic fantasy manga, Composition is solid with clear subject (Egyptian charioteers attacking a fortified position) and good color palette, No visible text issues; filename is valid English with appropriate semantic meaning, art-style mismatch: High quality realistic (RPG) manga style., Required style is high quality realistic (RPG) manga style; the image is rendered in a flat, cel-shaded illustration style with simplified line outlines, decorative patterns on shields, and lack of atmospheric depth or realistic rendering, Style is closer to a vintage educational illustration or stylized children's book illustration than to a polished realistic manga/fantasy RPG aesthetic
+    lessons/ancient/_general/chapter-3/bronze-age-ch3-map.webp — score: 4, issues: Art style does not match required 'High quality realistic (RPG) manga style' — image is a stylized illustrated map with simplified iconographic figures and a parchment/watercolor treatment., Stylistic figures (people, animals, ships) are rendered in a flat, decorative illustrative manner rather than realistic manga anatomy., art-style mismatch: High quality realistic (RPG) manga style., Required style is 'High quality realistic (RPG) manga style' but the image is a stylized antique-style illustrated map with painterly watercolor-like rendering, not realistic manga. The figures, ships, and landscape are cartoonishly simplified iconography rather than anatomically convincing manga illustration.
+    lessons/ancient/_general/chapter-4/ancient-trade-ch4-map.webp — score: 5, issues: Art style mismatch: image is a stylized illustrated trade map, not a high quality realistic (RPG) manga style illustration., Small embedded gem-like cartouches and tiny figures/icons read more like clipart/map embellishments than manga-style rendering., art-style mismatch: High quality realistic (RPG) manga style., Required style is 'High quality realistic (RPG) manga style' but image is a decorative illustrated fantasy map with small icon-like cartouches and miniature ships/figures. It is painterly and detailed but not manga; it is a stylized cartographic illustration.
+    lessons/ancient/_general/chapter-4/ancient-trade-ch4-portrait.webp — score: 5, issues: Art style does not match the required 'High quality realistic (RPG) manga style' — image reads as soft painted storybook illustration rather than RPG manga., Composition is somewhat cluttered with multiple figures filling the frame; acceptable but tightly packed., art-style mismatch: High quality realistic (RPG) manga style., Style is more of a painted/illustrated storybook look rather than 'High quality realistic (RPG) manga style'. Lacks the manga linework, cel-shading, and stylized anime-influenced rendering expected for RPG manga art., Rendering is soft watercolor/digital painting rather than the sharper, more stylized realistic look characteristic of RPG manga illustration.
+    lessons/ancient/_general/chapter-4/ancient-warfare-ch4-portrait.webp — score: 3, issues: Childish cartoon style aimed at young children: flat shapes, thin outlines, no shading depth, Does not match required high-quality realistic RPG manga style, Background appears as plain tan/parchment color lacking depth and atmosphere, Figures and objects have uniform flat fills without painterly or rendered detail, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Rendering is a flat, simplified illustrated cartoon with thin line outlines and flat color fills, Lacks painterly lighting, atmospheric depth, and textured rendering, Style resembles a children's picture book rather than realistic RPG manga
+    lessons/ancient/_general/chapter-5/ancient-trade-ch5-map.webp — score: 4, issues: Art style mismatch: required 'High quality realistic (RPG) manga style' is not present; the asset is an antique decorative map illustration., Visible text 'OCEAN OCEAN' is redundant/duplicated wording, though each is a single word., too many visible text words: 5 > 3, art-style mismatch: High quality realistic (RPG) manga style., Required art style is 'High quality realistic (RPG) manga style' but this is a vintage illustrated antique-style map with parchment textures, hand-drawn cartographic conventions, compass rose, and sailing vessels — it is not realistic RPG manga style.
+    lessons/ancient/_general/historical-figure-leonardo.webp — score: 5, issues: Art style does not match required 'High quality realistic (RPG) manga style' — image is a classical painterly illustration rather than RPG/manga., art-style mismatch: High quality realistic (RPG) manga style., The required style is 'High quality realistic (RPG) manga style' but the image is rendered in a detailed painterly/classical illustration style with soft shading and watercolor-like textures, not in a manga/RPG aesthetic.
+    ... and 95 more
+
+  Results saved to: /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-quality-reaudit-2026-09-28.json

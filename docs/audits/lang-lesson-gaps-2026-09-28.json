@@ -1,0 +1,823 @@
+{
+ "african": {
+  "sha": "13a03bb",
+  "langs": {
+   "afrikaans": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 76,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 36,
+     "ch11-15": 40
+    }
+   },
+   "amharic": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 77,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 36,
+     "ch11-15": 40
+    }
+   },
+   "hausa": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 25,
+     "ch11-15": 40
+    }
+   },
+   "swahili": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 25,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 18,
+     "ch11-15": 7
+    }
+   },
+   "yoruba": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 63,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 23,
+     "ch11-15": 40
+    }
+   },
+   "zulu": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 25,
+     "ch11-15": 40
+    }
+   }
+  }
+ },
+ "balkan": {
+  "sha": "f606aba",
+  "langs": {
+   "albanian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "bosnian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 63,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 23,
+     "ch11-15": 40
+    }
+   },
+   "bulgarian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "croatian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "greek": {
+    "chapters": 15,
+    "declared": 172,
+    "gap": 93,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 53,
+     "ch11-15": 40
+    }
+   },
+   "macedonian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "romanian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "serbian": {
+    "chapters": 15,
+    "declared": 172,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "slovenian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   }
+  }
+ },
+ "celtic": {
+  "sha": "609cd0e",
+  "langs": {
+   "breton": {
+    "chapters": 15,
+    "declared": 202,
+    "gap": 91,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 13,
+     "ch6-10": 38,
+     "ch11-15": 40
+    }
+   },
+   "irish": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 25,
+     "ch11-15": 40
+    }
+   },
+   "scottish-gaelic": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 25,
+     "ch11-15": 40
+    }
+   },
+   "welsh": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 63,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 23,
+     "ch11-15": 40
+    }
+   }
+  }
+ },
+ "east-asian": {
+  "sha": "aa6a097",
+  "langs": {
+   "cantonese": {
+    "chapters": 15,
+    "declared": 213,
+    "gap": 125,
+    "ship": null,
+    "enabled": false,
+    "bands": {
+     "ch1-5": 31,
+     "ch6-10": 52,
+     "ch11-15": 42
+    }
+   },
+   "chinese": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 56,
+    "ship": null,
+    "enabled": false,
+    "bands": {
+     "ch6-10": 43,
+     "ch11-15": 13
+    }
+   },
+   "japanese": {
+    "chapters": 15,
+    "declared": 177,
+    "gap": 11,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 6,
+     "ch6-10": 4,
+     "ch11-15": 1
+    }
+   },
+   "korean": {
+    "chapters": 15,
+    "declared": 177,
+    "gap": 4,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 2,
+     "ch6-10": 1,
+     "ch11-15": 1
+    }
+   }
+  }
+ },
+ "english": {
+  "sha": "7a09255",
+  "langs": {
+   "american": {
+    "chapters": 15,
+    "declared": 177,
+    "gap": 0,
+    "ship": 15,
+    "enabled": true,
+    "bands": {}
+   },
+   "australian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 37,
+    "ship": 10,
+    "enabled": true,
+    "bands": {
+     "ch11-15": 37
+    }
+   },
+   "british": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 37,
+    "ship": 10,
+    "enabled": true,
+    "bands": {
+     "ch11-15": 37
+    }
+   },
+   "scottish": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 37,
+    "ship": 10,
+    "enabled": true,
+    "bands": {
+     "ch11-15": 37
+    }
+   },
+   "welsh": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 85,
+    "ship": 5,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 48,
+     "ch11-15": 37
+    }
+   }
+  }
+ },
+ "germanic": {
+  "sha": "c0a93e9",
+  "langs": {
+   "dutch": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 74,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 31,
+     "ch11-15": 42
+    }
+   },
+   "flemish": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 73,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 31,
+     "ch11-15": 42
+    }
+   },
+   "german": {
+    "chapters": 15,
+    "declared": 175,
+    "gap": 23,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 14,
+     "ch11-15": 9
+    }
+   },
+   "swiss": {
+    "chapters": 15,
+    "declared": 175,
+    "gap": 23,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 14,
+     "ch11-15": 9
+    }
+   }
+  }
+ },
+ "middle-eastern": {
+  "sha": "402d47c",
+  "langs": {
+   "arabic": {
+    "chapters": 15,
+    "declared": 175,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "hebrew": {
+    "chapters": 15,
+    "declared": 175,
+    "gap": 70,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 30,
+     "ch11-15": 40
+    }
+   },
+   "persian": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "turkish": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   }
+  }
+ },
+ "nordic": {
+  "sha": "357ac6cc",
+  "langs": {
+   "danish": {
+    "chapters": 20,
+    "declared": 283,
+    "gap": 0,
+    "ship": null,
+    "enabled": true,
+    "bands": {}
+   },
+   "icelandic": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 0,
+    "ship": null,
+    "enabled": true,
+    "bands": {}
+   },
+   "norwegian": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 0,
+    "ship": null,
+    "enabled": true,
+    "bands": {}
+   },
+   "swedish": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 0,
+    "ship": null,
+    "enabled": true,
+    "bands": {}
+   }
+  }
+ },
+ "romance": {
+  "sha": "66b9d8c",
+  "langs": {
+   "french": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 3,
+    "ship": 15,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 3
+    }
+   },
+   "italian": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 4,
+    "ship": 15,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 3,
+     "ch11-15": 1
+    }
+   },
+   "portuguese": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 4,
+    "ship": 15,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 3,
+     "ch11-15": 1
+    }
+   },
+   "romanian": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 3,
+    "ship": 15,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 3
+    }
+   },
+   "spanish": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 4,
+    "ship": 15,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 3,
+     "ch11-15": 1
+    }
+   }
+  }
+ },
+ "slavic": {
+  "sha": "1accaef",
+  "langs": {
+   "belarusian": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 51,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 39,
+     "ch11-15": 11
+    }
+   },
+   "russian": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 25,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 13,
+     "ch11-15": 11
+    }
+   },
+   "ukrainian": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 52,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 39,
+     "ch11-15": 12
+    }
+   }
+  }
+ },
+ "south-asian": {
+  "sha": "c6dc648",
+  "langs": {
+   "bengali": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "hindi": {
+    "chapters": 15,
+    "declared": 175,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "marathi": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "punjabi": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 66,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 26,
+     "ch11-15": 40
+    }
+   },
+   "tamil": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "telugu": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 66,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 26,
+     "ch11-15": 40
+    }
+   },
+   "urdu": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   }
+  }
+ },
+ "southeast-asian": {
+  "sha": "b8f5c7fe",
+  "langs": {
+   "burmese": {
+    "chapters": 10,
+    "declared": 168,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 21,
+     "ch6-10": 44
+    }
+   },
+   "indonesian": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 68,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 26,
+     "ch11-15": 42
+    }
+   },
+   "khmer": {
+    "chapters": 15,
+    "declared": 187,
+    "gap": 83,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 41,
+     "ch11-15": 42
+    }
+   },
+   "lao": {
+    "chapters": 10,
+    "declared": 166,
+    "gap": 63,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 18,
+     "ch6-10": 45
+    }
+   },
+   "malay": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 56,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 14,
+     "ch11-15": 42
+    }
+   },
+   "tagalog": {
+    "chapters": 15,
+    "declared": 173,
+    "gap": 56,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 14,
+     "ch11-15": 42
+    }
+   },
+   "thai": {
+    "chapters": 15,
+    "declared": 325,
+    "gap": 40,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 22,
+     "ch11-15": 17
+    }
+   },
+   "vietnamese": {
+    "chapters": 15,
+    "declared": 174,
+    "gap": 34,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 17,
+     "ch11-15": 17
+    }
+   }
+  }
+ },
+ "uralic": {
+  "sha": "3beefe5",
+  "langs": {
+   "estonian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "finnish": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "hungarian": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   }
+  }
+ },
+ "west-slavic": {
+  "sha": "576bdc7",
+  "langs": {
+   "czech": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 64,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   },
+   "polish": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 67,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch6-10": 27,
+     "ch11-15": 40
+    }
+   },
+   "slovak": {
+    "chapters": 15,
+    "declared": 171,
+    "gap": 65,
+    "ship": null,
+    "enabled": true,
+    "bands": {
+     "ch1-5": 1,
+     "ch6-10": 24,
+     "ch11-15": 40
+    }
+   }
+  }
+ }
+}
