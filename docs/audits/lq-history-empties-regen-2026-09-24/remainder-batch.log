@@ -1,0 +1,301 @@
+[chunk 1] start 
+📋 165 regen candidates from /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-empties-regen-2026-09-24/remainder-chunk-1.json
+   Target: lq-history
+   Configs: /Volumes/SSD/Projects/Repos/lq-tools/packages/image-tools/src/config/subjects/history
+   Output:  /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Provider: gemini
+   Model:   gemini-3.1-flash-image
+   Batch API: yes (50% cheaper)
+   Budget:  $10
+   Dry run: false
+
+📊 Plan: 5 config(s), 165 images
+
+  history/lessons-ancient.json
+    Images: 5, dirs: 5 different
+      iron-age-ch5-portrait.webp → /lessons/ancient/_general/chapter-5
+      chavin-culture-portrait.webp → /lessons/ancient/american/chapter-2
+      maurya-empire-portrait.webp → /lessons/ancient/asian/chapter-3
+      maurya-empire-portrait.webp → /lessons/ancient/asian/chapter-4
+      lesson-fall-of-rome-timeline.webp → /lessons/ancient/european
+
+  history/lessons-contemporary.json
+    Images: 1, dirs: /Volumes/SSD/Projects/Repos/lq-history/public/images/lessons/contemporary/american/chapter-2
+      korean-war-timeline.webp → /lessons/contemporary/american/chapter-2
+
+  history/lessons-early-modern.json
+    Images: 8, dirs: 6 different
+      american-revolution-timeline.webp → /lessons/early-modern/american/chapter-1
+      simon-bolivar-portrait.webp → /lessons/early-modern/american/chapter-4
+      benjamin-franklin-portrait.webp → /lessons/early-modern/american/chapter-5
+      us-constitution-portrait.webp → /lessons/early-modern/american/chapter-5
+      baroque-art-portrait.webp → /lessons/early-modern/european/chapter-2
+      napoleon-portrait.webp → /lessons/early-modern/european/chapter-3
+      thirty-years-war-portrait.webp → /lessons/early-modern/european/chapter-3
+      peter-the-great-portrait.webp → /lessons/early-modern/european/chapter-5
+
+  history/lessons-industrial.json
+    Images: 64, dirs: 12 different
+      charles-dickens-scene.webp → /lessons/industrial/european/chapter-1
+      child-labor-portrait.webp → /lessons/industrial/european/chapter-1
+      railways-scene.webp → /lessons/industrial/european/chapter-1
+      railways-timeline.webp → /lessons/industrial/european/chapter-1
+      steam-engine-portrait.webp → /lessons/industrial/european/chapter-1
+      trade-unions-map.webp → /lessons/industrial/european/chapter-1
+      charles-dickens-portrait.webp → /lessons/industrial/european/chapter-2
+      factory-system-map.webp → /lessons/industrial/european/chapter-2
+      railways-timeline.webp → /lessons/industrial/european/chapter-2
+      steam-engine-portrait.webp → /lessons/industrial/european/chapter-2
+      trade-unions-map.webp → /lessons/industrial/european/chapter-2
+      urbanization-portrait.webp → /lessons/industrial/european/chapter-2
+      charles-dickens-portrait.webp → /lessons/industrial/european/chapter-3
+      charles-dickens-scene.webp → /lessons/industrial/european/chapter-3
+      great-exhibition-map.webp → /lessons/industrial/european/chapter-3
+      great-exhibition-portrait.webp → /lessons/industrial/european/chapter-3
+      railways-timeline.webp → /lessons/industrial/european/chapter-3
+      spinning-jenny-portrait.webp → /lessons/industrial/european/chapter-3
+      trade-unions-portrait.webp → /lessons/industrial/european/chapter-3
+      charles-dickens-portrait.webp → /lessons/industrial/european/chapter-4
+      great-exhibition-portrait.webp → /lessons/industrial/european/chapter-4
+      railways-timeline.webp → /lessons/industrial/european/chapter-4
+      spinning-jenny-portrait.webp → /lessons/industrial/european/chapter-4
+      trade-unions-portrait.webp → /lessons/industrial/european/chapter-4
+      urbanization-map.webp → /lessons/industrial/european/chapter-4
+      isambard-brunel-portrait.webp → /lessons/industrial/european/chapter-5
+      trade-unions-map.webp → /lessons/industrial/european/chapter-5
+      urbanization-map.webp → /lessons/industrial/european/chapter-5
+      great-exhibition.webp → /lessons/industrial/european
+      isambard-brunel.webp → /lessons/industrial/european
+      railways.webp → /lessons/industrial/european
+      steam-engine.webp → /lessons/industrial/european
+      abolition-slavery.webp → /lessons/industrial/global
+      american-industrialization-map.webp → /lessons/industrial/global/chapter-1
+      american-industrialization-portrait.webp → /lessons/industrial/global/chapter-1
+      harriet-tubman-portrait.webp → /lessons/industrial/global/chapter-1
+      telegraph-communication-portrait.webp → /lessons/industrial/global/chapter-1
+      thomas-edison-portrait.webp → /lessons/industrial/global/chapter-1
+      thomas-edison-scene.webp → /lessons/industrial/global/chapter-1
+      abolition-slavery-timeline.webp → /lessons/industrial/global/chapter-2
+      american-industrialization-map.webp → /lessons/industrial/global/chapter-2
+      american-industrialization-portrait.webp → /lessons/industrial/global/chapter-2
+      harriet-tubman-portrait.webp → /lessons/industrial/global/chapter-2
+      opium-wars-map.webp → /lessons/industrial/global/chapter-2
+      abolition-slavery-timeline.webp → /lessons/industrial/global/chapter-3
+      colonialism-industrial-map.webp → /lessons/industrial/global/chapter-3
+      harriet-tubman-portrait.webp → /lessons/industrial/global/chapter-3
+      abolition-slavery-timeline.webp → /lessons/industrial/global/chapter-4
+      american-industrialization-portrait.webp → /lessons/industrial/global/chapter-4
+      meiji-restoration-map.webp → /lessons/industrial/global/chapter-4
+      opium-wars-portrait.webp → /lessons/industrial/global/chapter-4
+      scramble-for-africa-timeline.webp → /lessons/industrial/global/chapter-4
+      abolition-slavery-timeline.webp → /lessons/industrial/global/chapter-5
+      colonialism-industrial-portrait.webp → /lessons/industrial/global/chapter-5
+      meiji-restoration-map.webp → /lessons/industrial/global/chapter-5
+      meiji-restoration-portrait.webp → /lessons/industrial/global/chapter-5
+      opium-wars-portrait.webp → /lessons/industrial/global/chapter-5
+      suez-canal-map.webp → /lessons/industrial/global/chapter-5
+      thomas-edison-portrait.webp → /lessons/industrial/global/chapter-5
+      thomas-edison-scene.webp → /lessons/industrial/global/chapter-5
+      harriet-tubman.webp → /lessons/industrial/global
+      scramble-for-africa.webp → /lessons/industrial/global
+      suez-canal.webp → /lessons/industrial/global
+      thomas-edison.webp → /lessons/industrial/global
+
+  history/lessons-medieval.json
+    Images: 87, dirs: 18 different
+      benin-kingdom.webp → /lessons/medieval/african
+      ethiopian-churches-map.webp → /lessons/medieval/african/chapter-1
+      great-zimbabwe-portrait.webp → /lessons/medieval/african/chapter-1
+      mansa-musa-portrait.webp → /lessons/medieval/african/chapter-1
+      benin-kingdom-map.webp → /lessons/medieval/african/chapter-2
+      mansa-musa-portrait.webp → /lessons/medieval/african/chapter-2
+      songhai-empire-portrait.webp → /lessons/medieval/african/chapter-2
+      swahili-coast-portrait.webp → /lessons/medieval/african/chapter-2
+      great-zimbabwe-portrait.webp → /lessons/medieval/african/chapter-3
+      kingdom-of-ghana-map.webp → /lessons/medieval/african/chapter-3
+      kingdom-of-ghana-portrait.webp → /lessons/medieval/african/chapter-3
+      mali-empire-map.webp → /lessons/medieval/african/chapter-3
+      mansa-musa-portrait.webp → /lessons/medieval/african/chapter-3
+      songhai-empire-map.webp → /lessons/medieval/african/chapter-3
+      sundiata-keita-scene.webp → /lessons/medieval/african/chapter-3
+      swahili-coast-portrait.webp → /lessons/medieval/african/chapter-3
+      great-zimbabwe-map.webp → /lessons/medieval/african/chapter-4
+      kingdom-of-ghana-portrait.webp → /lessons/medieval/african/chapter-4
+      mansa-musa-scene.webp → /lessons/medieval/african/chapter-4
+      sundiata-keita-portrait.webp → /lessons/medieval/african/chapter-4
+      swahili-coast-portrait.webp → /lessons/medieval/african/chapter-4
+      timbuktu-learning-portrait.webp → /lessons/medieval/african/chapter-4
+      great-zimbabwe-map.webp → /lessons/medieval/african/chapter-5
+      mali-empire-portrait.webp → /lessons/medieval/african/chapter-5
+      timbuktu-learning-portrait.webp → /lessons/medieval/african/chapter-5
+      kingdom-of-ghana.webp → /lessons/medieval/african
+      khmer-empire-portrait.webp → /lessons/medieval/asian/chapter-1
+      marco-polo-portrait.webp → /lessons/medieval/asian/chapter-1
+      marco-polo-scene.webp → /lessons/medieval/asian/chapter-1
+      ming-dynasty-portrait.webp → /lessons/medieval/asian/chapter-1
+      song-dynasty-portrait.webp → /lessons/medieval/asian/chapter-1
+      tang-dynasty-map.webp → /lessons/medieval/asian/chapter-1
+      timur-tamerlane-portrait.webp → /lessons/medieval/asian/chapter-1
+      genghis-khan-scene.webp → /lessons/medieval/asian/chapter-2
+      samurai-japan-map.webp → /lessons/medieval/asian/chapter-2
+      samurai-japan-portrait.webp → /lessons/medieval/asian/chapter-2
+      genghis-khan-portrait.webp → /lessons/medieval/asian/chapter-3
+      genghis-khan-scene.webp → /lessons/medieval/asian/chapter-3
+      marco-polo-portrait.webp → /lessons/medieval/asian/chapter-3
+      ming-dynasty-map.webp → /lessons/medieval/asian/chapter-3
+      mongol-empire-map.webp → /lessons/medieval/asian/chapter-3
+      song-dynasty-map.webp → /lessons/medieval/asian/chapter-3
+      marco-polo-portrait.webp → /lessons/medieval/asian/chapter-4
+      tang-dynasty-map.webp → /lessons/medieval/asian/chapter-4
+      tang-dynasty-portrait.webp → /lessons/medieval/asian/chapter-4
+      khmer-empire-portrait.webp → /lessons/medieval/asian/chapter-5
+      ming-dynasty-map.webp → /lessons/medieval/asian/chapter-5
+      ming-dynasty-portrait.webp → /lessons/medieval/asian/chapter-5
+      mughal-india-map.webp → /lessons/medieval/asian/chapter-5
+      mughal-india-portrait.webp → /lessons/medieval/asian/chapter-5
+      song-dynasty-portrait.webp → /lessons/medieval/asian/chapter-5
+      genghis-khan.webp → /lessons/medieval/asian
+      song-dynasty.webp → /lessons/medieval/asian
+      tang-dynasty.webp → /lessons/medieval/asian
+      timur-tamerlane.webp → /lessons/medieval/asian
+      zheng-he.webp → /lessons/medieval/asian
+      black-death-portrait.webp → /lessons/medieval/european/chapter-1
+      charlemagne-portrait.webp → /lessons/medieval/european/chapter-1
+      crusades-timeline.webp → /lessons/medieval/european/chapter-1
+      feudal-system-portrait.webp → /lessons/medieval/european/chapter-1
+      hundred-years-war-timeline.webp → /lessons/medieval/european/chapter-1
+      reconquista-timeline.webp → /lessons/medieval/european/chapter-1
+      viking-age-portrait.webp → /lessons/medieval/european/chapter-1
+      vlad-the-impaler-portrait.webp → /lessons/medieval/european/chapter-1
+      black-death-portrait.webp → /lessons/medieval/european/chapter-2
+      crusades-timeline.webp → /lessons/medieval/european/chapter-2
+      hundred-years-war-timeline.webp → /lessons/medieval/european/chapter-2
+      magna-carta-map.webp → /lessons/medieval/european/chapter-2
+      viking-age-map.webp → /lessons/medieval/european/chapter-2
+      castles-sieges-map.webp → /lessons/medieval/european/chapter-3
+      castles-sieges-portrait.webp → /lessons/medieval/european/chapter-3
+      charlemagne-portrait.webp → /lessons/medieval/european/chapter-3
+      charlemagne-scene.webp → /lessons/medieval/european/chapter-3
+      hundred-years-war-scene.webp → /lessons/medieval/european/chapter-3
+      black-death-portrait.webp → /lessons/medieval/european/chapter-4
+      castles-sieges-portrait.webp → /lessons/medieval/european/chapter-4
+      charlemagne-portrait.webp → /lessons/medieval/european/chapter-4
+      crusades-timeline.webp → /lessons/medieval/european/chapter-4
+      medieval-monks-portrait.webp → /lessons/medieval/european/chapter-4
+      black-death-portrait.webp → /lessons/medieval/european/chapter-5
+      castles-sieges-portrait.webp → /lessons/medieval/european/chapter-5
+      crusades-scene.webp → /lessons/medieval/european/chapter-5
+      crusades-timeline.webp → /lessons/medieval/european/chapter-5
+      feudal-system-map.webp → /lessons/medieval/european/chapter-5
+      hundred-years-war-timeline.webp → /lessons/medieval/european/chapter-5
+      viking-age-map.webp → /lessons/medieval/european/chapter-5
+      charlemagne.webp → /lessons/medieval/european
+
+🚀 Starting regeneration...
+
+  Using Gemini gemini-3.1-flash-image (token-based pricing, budget $10)
+
+══════════════════════════════════════════════════
+  history/lessons-ancient.json
+══════════════════════════════════════════════════
+  🎯 selected 5/675 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 5 image(s): iron-age-ch5-portrait, chavin-culture-portrait, maurya-empire-portrait, maurya-empire-portrait, lesson-fall-of-rome-timeline
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-ancient (5 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 5 images to Gemini Batch API...
+  [1/5] iron-age-ch5-portrait.webp (512x512)
+    Done: iron-age-ch5-portrait.webp
+  [2/5] chavin-culture-portrait.webp (512x512)
+    Done: chavin-culture-portrait.webp
+  [3/5] maurya-empire-portrait.webp (512x512)
+    Done: maurya-empire-portrait.webp
+  [4/5] maurya-empire-portrait.webp (512x512)
+    Done: maurya-empire-portrait.webp
+  [5/5] lesson-fall-of-rome-timeline.webp (1280x720)
+    Done: lesson-fall-of-rome-timeline.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-ancient       5     5     0     0    15    5m 32s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            5     5     0     0    15    5m 32s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 332.7s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 5 x $0.0390 = $0.1950
+  Local variants (resizes): 15 (free)
+  Estimated total cost: $0.1950
+  Note: Google may not charge on free tier
+
+  Done. 5 images + 15 variants generated.
+
+  Manifest: 0 updated, 5 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-contemporary.json
+══════════════════════════════════════════════════
+  🎯 selected 1/51 config images (chapter-safe filter)
+  🎨 1 image(s): korean-war-timeline
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-contemporary (1 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 1 images to Gemini Batch API...
+  [1/1] korean-war-timeline.webp (1280x720)
+    Done: korean-war-timeline.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-contemporary     1     1     0     0     3    2m 26s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            1     1     0     0     3    2m 26s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 481.4s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 1 x $0.0390 = $0.0390
+  Local variants (resizes): 3 (free)
+  Estimated total cost: $0.0390
+  Note: Google may not charge on free tier
+
+  Done. 1 images + 3 variants generated.
+
+  Manifest: 0 updated, 1 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-early-modern.json
+══════════════════════════════════════════════════
+  🎯 selected 8/336 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 8 image(s): american-revolution-timeline, simon-bolivar-portrait, benjamin-franklin-portrait, us-constitution-portrait, baroque-art-portrait, napoleon-portrait, thirty-years-war-portrait, peter-the-great-portrait
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-early-modern (8 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 8 images to Gemini Batch API...

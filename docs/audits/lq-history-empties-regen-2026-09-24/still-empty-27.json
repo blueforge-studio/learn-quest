@@ -1,0 +1,996 @@
+{
+ "auditDate": "2026-09-28",
+ "auditModel": "minimax-m3",
+ "auditProvider": "minimax",
+ "sourceDirectory": "/Volumes/SSD/Projects/Repos/lq-history/public/images",
+ "baseImagesOnly": true,
+ "variantRule": "Files matching --<size> are derived downscaled variants and are not audited separately.",
+ "summary": {
+  "total": 362,
+  "audited": 327,
+  "failed": 35,
+  "needsRegen": 82,
+  "avgScore": "6.6",
+  "totalCost": "1.0849"
+ },
+ "results": [
+  {
+   "image": "lessons/early-modern/european/chapter-2/baroque-art-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.559, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.559, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/early-modern/european/chapter-3/napoleon-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.821, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.821, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/early-modern/european/chapter-3/thirty-years-war-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.562, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.562, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/industrial/european/chapter-2/charles-dickens-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.677, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.677, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/industrial/european/chapter-2/steam-engine-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.696, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.696, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/industrial/global/chapter-1/harriet-tubman-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.646, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.646, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/industrial/global/chapter-2/harriet-tubman-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.701, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.701, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/industrial/global/chapter-3/harriet-tubman-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "low luminance variation (std=20.2)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "low luminance variation (std=20.2)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/asian/chapter-5/khmer-empire-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.636, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.636, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/european/chapter-1/vlad-the-impaler-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.732, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.732, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/european/chapter-4/medieval-monks-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.608, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.608, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/european/chapter-5/feudal-system-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.581, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.581, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/ww2-pacific-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.583, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.583, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-3/ataturk-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.763, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.763, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/meiji-japan-modern-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.512, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.512, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/marie-curie-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.621, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.621, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/treaty-of-versailles-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.674, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.674, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/world-war-1-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.565, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.565, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/world-war-1-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.665, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.665, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-1/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.782, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.782, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-2/leonardo-da-vinci-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": true,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.667, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.538, threshold=0.5)",
+    "pixel:near-black-dominant (nearBlack=53.8%, threshold=50%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.667, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.538, threshold=0.5)",
+     "pixel:near-black-dominant (nearBlack=53.8%, threshold=50%)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=0.0%, nearBlack=53.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-3/leonardo-da-vinci-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.675, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.675, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.717, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.717, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/italian-renaissance-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.785, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.785, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/reformation-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.508, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.508, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.598, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.598, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/magellan-circumnavigation-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.631, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.631, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  }
+ ]
+}

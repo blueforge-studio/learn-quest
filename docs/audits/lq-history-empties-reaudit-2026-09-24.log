@@ -1,0 +1,1323 @@
+📄 Using audit config: /Volumes/SSD/Projects/Repos/lq-tools/scripts/image-audit.config.json
+🔍 AI Quality Audit: 662 image(s) [offset=0 limit=662 of 662] (image-list: 662 matched)
+   From: /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Budget: $2   Rate limit: 80   Sleep: 250ms
+   Rules: /Volumes/SSD/Projects/Repos/lq-tools/scripts/audit-rules.config.json   App: lq-history   Fleet default label language: english
+   Pixel gate: enabled
+   Chain order (config): minimax-anthropic,glm,qwen,anthropic
+   Corner-flood: enabled (bgFraction > 0.5)
+
+  [0%] lessons/ancient/_general/ancient-inventions-ch2.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [0%] lessons/ancient/_general/ancient-inventions-ch3.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [0%] lessons/ancient/_general/ancient-inventions-ch4.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [1%] lessons/ancient/_general/ancient-inventions-ch5.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [1%] lessons/ancient/_general/ancient-inventions.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [1%] lessons/ancient/_general/ancient-laws-ch2.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [1%] lessons/ancient/_general/ancient-trade-ch2.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [1%] lessons/ancient/_general/ancient-warfare-ch3.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [1%] lessons/ancient/_general/bronze-age-ch5.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [2%] lessons/ancient/_general/chapter-1/ancient-inventions-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [2%] lessons/ancient/_general/chapter-1/ancient-laws-portrait.webp ... score=4 regen=true cost=$0.0006
+  [2%] lessons/ancient/_general/chapter-1/ancient-trade-portrait.webp ... score=4 regen=true cost=$0.0006
+  [2%] lessons/ancient/_general/chapter-1/bronze-age-portrait.webp ... score=5 ✓
+  [2%] lessons/ancient/_general/chapter-1/fall-of-empires-portrait.webp ... score=7 ✓
+  [2%] lessons/ancient/_general/chapter-1/first-civilizations-portrait.webp ... score=5 ✓
+  [2%] lessons/ancient/_general/chapter-1/iron-age-portrait.webp ... score=8 ✓
+  [3%] lessons/ancient/_general/chapter-1/stone-age-era-exploration-portrait.webp ... score=9 ✓
+  [3%] lessons/ancient/_general/chapter-1/timeline-past-present-future-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [3%] lessons/ancient/_general/chapter-2/ancient-inventions-ch2-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [3%] lessons/ancient/_general/chapter-2/ancient-laws-ch2-portrait.webp ... score=5 ✓
+  [3%] lessons/ancient/_general/chapter-2/fall-of-empires-ch2-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [3%] lessons/ancient/_general/chapter-2/fall-of-empires-ch2-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [3%] lessons/ancient/_general/chapter-2/first-civilizations-ch2-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [4%] lessons/ancient/_general/chapter-2/invention-of-writing-ch2-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [4%] lessons/ancient/_general/chapter-3/fall-of-empires-ch3-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [4%] lessons/ancient/_general/chapter-3/invention-of-writing-ch3-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [4%] lessons/ancient/_general/chapter-3/invention-of-writing-ch3-portrait.webp ... score=3 regen=true cost=$0.0006
+  [4%] lessons/ancient/_general/chapter-4/ancient-inventions-ch4-timeline.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [4%] lessons/ancient/_general/chapter-4/ancient-religions-ch4-portrait.webp ... score=5 ✓
+  [5%] lessons/ancient/_general/chapter-4/first-civilizations-ch4-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [5%] lessons/ancient/_general/chapter-4/iron-age-ch4-portrait.webp ... score=2 regen=true cost=$0.0006
+  [5%] lessons/ancient/_general/chapter-5/ancient-inventions-ch5-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [5%] lessons/ancient/_general/chapter-5/ancient-religions-ch5-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [5%] lessons/ancient/_general/chapter-5/ancient-trade-ch5-portrait.webp ... score=3 regen=true cost=$0.0006
+  [5%] lessons/ancient/_general/chapter-5/fall-of-empires-ch5-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [5%] lessons/ancient/_general/chapter-5/invention-of-writing-ch5-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [6%] lessons/ancient/_general/chapter-5/invention-of-writing-ch5-portrait.webp ... score=9 ✓
+  [6%] lessons/ancient/_general/chapter-5/iron-age-ch5-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.590, threshold=0.5)]
+  [6%] lessons/ancient/_general/fall-of-empires-ch2.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [6%] lessons/ancient/_general/fall-of-empires-ch3.webp ... [ds 600x338 from 1280x720] score=7 ✓
+  [6%] lessons/ancient/_general/fall-of-empires-ch4.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [6%] lessons/ancient/_general/fall-of-empires-ch5.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [6%] lessons/ancient/_general/fall-of-empires.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [7%] lessons/ancient/_general/first-civilizations-ch2.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [7%] lessons/ancient/_general/first-civilizations-ch3.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [7%] lessons/ancient/_general/first-civilizations-ch4.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [7%] lessons/ancient/_general/first-civilizations-ch5.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [7%] lessons/ancient/_general/first-civilizations.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [7%] lessons/ancient/_general/stone-age-era-exploration.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [8%] lessons/ancient/_general/timeline-ancient-civilizations.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [8%] lessons/ancient/_general/timeline-past-present-future.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [8%] lessons/ancient/african/carthage-hannibal.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [8%] lessons/ancient/african/chapter-1/aksum-empire-portrait.webp ... score=8 ✓
+  [8%] lessons/ancient/african/chapter-1/carthage-hannibal-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [8%] lessons/ancient/african/chapter-1/egyptian-gods-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [8%] lessons/ancient/african/chapter-1/hatshepsut-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [9%] lessons/ancient/african/chapter-1/hieroglyphics-portrait.webp ... score=5 ✓
+  [9%] lessons/ancient/african/chapter-1/historical-figure-rosetta-stone-scribe-portrait.webp ... score=5 ✓
+  [9%] lessons/ancient/african/chapter-1/timeline-ancient-egypt-milestones-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [9%] lessons/ancient/african/chapter-2/egyptian-gods-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [9%] lessons/ancient/african/chapter-2/pyramids-of-giza-portrait.webp ... score=9 ✓
+  [9%] lessons/ancient/african/chapter-3/aksum-empire-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [10%] lessons/ancient/african/chapter-3/aksum-empire-portrait.webp ... score=5 ✓
+  [10%] lessons/ancient/african/chapter-3/ancient-egypt-pharaohs-portrait.webp ... score=9 ✓
+  [10%] lessons/ancient/african/chapter-3/carthage-hannibal-portrait.webp ... score=5 ✓
+  [10%] lessons/ancient/african/chapter-3/cleopatra-portrait.webp ... score=8 ✓
+  [10%] lessons/ancient/african/chapter-3/hatshepsut-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [10%] lessons/ancient/african/chapter-3/hieroglyphics-portrait.webp ... score=5 ✓
+  [10%] lessons/ancient/african/chapter-3/kingdom-of-kush-portrait.webp ... score=8 ✓
+  [11%] lessons/ancient/african/chapter-3/nile-river-life-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [11%] lessons/ancient/african/chapter-3/pyramids-of-giza-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [11%] lessons/ancient/african/chapter-3/pyramids-of-giza-portrait.webp ... score=5 ✓
+  [11%] lessons/ancient/african/chapter-4/hatshepsut-portrait.webp ... score=8 ✓
+  [11%] lessons/ancient/african/chapter-4/hatshepsut-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [11%] lessons/ancient/african/chapter-4/hieroglyphics-map.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [11%] lessons/ancient/african/chapter-4/kingdom-of-kush-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [12%] lessons/ancient/african/chapter-4/pyramids-of-giza-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [12%] lessons/ancient/african/chapter-5/ancient-egypt-pharaohs-portrait.webp ... score=8 ✓
+  [12%] lessons/ancient/african/chapter-5/hieroglyphics-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [12%] lessons/ancient/african/egyptian-gods.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [12%] lessons/ancient/african/era-exploration-ancient-egypt-kingdoms.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [12%] lessons/ancient/african/era-exploration-daily-life-in-thebes.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [13%] lessons/ancient/african/hatshepsut.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [13%] lessons/ancient/african/historical-figure-hatshepsut.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [13%] lessons/ancient/african/timeline-ancient-egypt-milestones.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [13%] lessons/ancient/american/chapter-1/ancient-mound-builders-portrait.webp ... score=5 ✓
+  [13%] lessons/ancient/american/chapter-1/nazca-lines-portrait.webp ... score=5 ✓
+  [13%] lessons/ancient/american/chapter-1/teotihuacan-portrait.webp ... score=8 ✓
+  [13%] lessons/ancient/american/chapter-1/zapotec-monte-alban-map.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [14%] lessons/ancient/american/chapter-2/chavin-culture-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [14%] lessons/ancient/american/chapter-2/chavin-culture-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.573, threshold=0.5)]
+  [14%] lessons/ancient/american/chapter-2/maya-cities-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [14%] lessons/ancient/american/chapter-2/moche-civilization-portrait.webp ... score=8 ✓
+  [14%] lessons/ancient/american/chapter-2/nazca-lines-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [14%] lessons/ancient/american/chapter-2/nazca-lines-portrait.webp ... score=8 ✓
+  [15%] lessons/ancient/american/chapter-2/zapotec-monte-alban-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [15%] lessons/ancient/american/chapter-3/chavin-culture-map.webp ... [ds 600x338 from 1280x720] score=7 regen=true cost=$0.0006
+  [15%] lessons/ancient/american/chapter-3/first-americans-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [15%] lessons/ancient/american/chapter-3/maya-cities-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [15%] lessons/ancient/american/chapter-3/moche-civilization-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [15%] lessons/ancient/american/chapter-3/zapotec-monte-alban-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [15%] lessons/ancient/american/chapter-4/chavin-culture-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [16%] lessons/ancient/american/chapter-4/moche-civilization-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [16%] lessons/ancient/american/chapter-4/zapotec-monte-alban-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [16%] lessons/ancient/american/chapter-5/chavin-culture-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [16%] lessons/ancient/american/chapter-5/first-americans-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [16%] lessons/ancient/american/chapter-5/maya-calendar-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [16%] lessons/ancient/american/chapter-5/moche-civilization-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [16%] lessons/ancient/american/chapter-5/olmec-civilization-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [17%] lessons/ancient/american/chapter-5/zapotec-monte-alban-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [17%] lessons/ancient/american/first-americans.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [17%] lessons/ancient/american/moche-civilization.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [17%] lessons/ancient/american/teotihuacan.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [17%] lessons/ancient/asian/ancient-china-dynasties.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [17%] lessons/ancient/asian/ancient-china-india-inventions-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=4 regen=true cost=$0.0003
+  [18%] lessons/ancient/asian/chapter-1/ancient-china-dynasties-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [18%] lessons/ancient/asian/chapter-1/ancient-china-india-inventions-timeline-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [18%] lessons/ancient/asian/chapter-1/ancient-china-india-inventions-timeline-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [18%] lessons/ancient/asian/chapter-1/ancient-japan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [18%] lessons/ancient/asian/chapter-1/han-dynasty-inventions-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [18%] lessons/ancient/asian/chapter-1/siddhartha-buddha-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [18%] lessons/ancient/asian/chapter-2/ancient-china-dynasties-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [19%] lessons/ancient/asian/chapter-2/great-wall-china-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [19%] lessons/ancient/asian/chapter-2/han-dynasty-inventions-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [19%] lessons/ancient/asian/chapter-2/qin-shi-huang-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [19%] lessons/ancient/asian/chapter-2/siddhartha-buddha-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [19%] lessons/ancient/asian/chapter-2/silk-road-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [19%] lessons/ancient/asian/chapter-3/ancient-china-dynasties-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [19%] lessons/ancient/asian/chapter-3/ancient-japan-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [20%] lessons/ancient/asian/chapter-3/ancient-japan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [20%] lessons/ancient/asian/chapter-3/maurya-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.574, threshold=0.5)]
+  [20%] lessons/ancient/asian/chapter-3/silk-road-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [20%] lessons/ancient/asian/chapter-3/silk-road-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [20%] lessons/ancient/asian/chapter-4/ancient-china-dynasties-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [20%] lessons/ancient/asian/chapter-4/ancient-japan-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [21%] lessons/ancient/asian/chapter-4/maurya-empire-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.522, threshold=0.5)]
+  [21%] lessons/ancient/asian/chapter-4/qin-shi-huang-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [21%] lessons/ancient/asian/chapter-5/confucius-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [21%] lessons/ancient/asian/chapter-5/great-wall-china-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [21%] lessons/ancient/asian/chapter-5/great-wall-china-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [21%] lessons/ancient/asian/chapter-5/han-dynasty-inventions-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [21%] lessons/ancient/asian/chapter-5/han-dynasty-inventions-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [22%] lessons/ancient/asian/chapter-5/indus-valley-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [22%] lessons/ancient/asian/chapter-5/maurya-empire-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [22%] lessons/ancient/asian/chapter-5/siddhartha-buddha-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [22%] lessons/ancient/asian/confucius.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [22%] lessons/ancient/asian/great-wall-china.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [22%] lessons/ancient/asian/han-dynasty-inventions.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [23%] lessons/ancient/asian/han-maurya-era-exploration.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [23%] lessons/ancient/asian/indus-valley.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [23%] lessons/ancient/asian/qin-shi-huang-historical-figure.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [23%] lessons/ancient/asian/qin-shi-huang.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [23%] lessons/ancient/asian/siddhartha-buddha.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [23%] lessons/ancient/asian/siddhartha-gautama-historical-figure.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [23%] lessons/ancient/european/ancient-greece-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [24%] lessons/ancient/european/athens-vs-sparta.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [24%] lessons/ancient/european/chapter-1/alexander-the-great-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [24%] lessons/ancient/european/chapter-1/ancient-greece-democracy-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [24%] lessons/ancient/european/chapter-1/athens-vs-sparta-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [24%] lessons/ancient/european/chapter-1/athens-vs-sparta-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [24%] lessons/ancient/european/chapter-1/greek-olympics-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [24%] lessons/ancient/european/chapter-1/julius-caesar-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [25%] lessons/ancient/european/chapter-2/ancient-greece-democracy-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [25%] lessons/ancient/european/chapter-2/lesson-augustus-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [25%] lessons/ancient/european/chapter-2/lesson-gladiators-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [25%] lessons/ancient/european/chapter-2/pompeii-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [25%] lessons/ancient/european/chapter-3/fall-of-rome-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [25%] lessons/ancient/european/chapter-3/julius-caesar-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [26%] lessons/ancient/european/chapter-3/roman-republic-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [26%] lessons/ancient/european/chapter-4/fall-of-rome-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [26%] lessons/ancient/european/chapter-4/greek-olympics-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [26%] lessons/ancient/european/chapter-4/roman-republic-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=8 regen=true cost=$0.0003
+  [26%] lessons/ancient/european/chapter-4/socrates-plato-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [26%] lessons/ancient/european/chapter-5/alexander-the-great-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [26%] lessons/ancient/european/chapter-5/celtic-tribes-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [27%] lessons/ancient/european/chapter-5/celtic-tribes-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [27%] lessons/ancient/european/chapter-5/fall-of-rome-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [27%] lessons/ancient/european/chapter-5/roman-republic-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [27%] lessons/ancient/european/fall-of-rome.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [27%] lessons/ancient/european/julius-caesar.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [27%] lessons/ancient/european/lesson-augustus.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [27%] lessons/ancient/european/lesson-fall-of-rome-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.519, threshold=0.5)]
+  [28%] lessons/ancient/european/pericles.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [28%] lessons/ancient/european/socrates.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [28%] lessons/ancient/first-civilizations.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [28%] lessons/ancient/maya-civilization.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [28%] lessons/ancient/roman-empire.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [28%] lessons/contemporary/american/chapter-1/civil-rights-movement-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [29%] lessons/contemporary/american/chapter-1/civil-rights-movement-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [29%] lessons/contemporary/american/chapter-1/gulf-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [29%] lessons/contemporary/american/chapter-1/vietnam-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [29%] lessons/contemporary/american/chapter-2/cold-war-america-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=8 regen=true cost=$0.0003
+  [29%] lessons/contemporary/american/chapter-2/korean-war-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.641, threshold=0.5)]
+  [29%] lessons/contemporary/american/chapter-5/counterculture-60s-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [29%] lessons/contemporary/american/gulf-war.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [30%] lessons/contemporary/asian/asian-tigers.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [30%] lessons/contemporary/asian/chapter-1/rise-of-japan-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [30%] lessons/contemporary/asian/rise-of-japan.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [30%] lessons/contemporary/european/berlin-wall-fall.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [30%] lessons/contemporary/european/chapter-2/berlin-wall-fall-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [30%] lessons/contemporary/global/chapter-1/globalization-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [31%] lessons/contemporary/global/globalization.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/early-modern/american/american-revolution.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/early-modern/american/benjamin-franklin.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/early-modern/american/chapter-1/american-revolution-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.504, threshold=0.5)]
+  [31%] lessons/early-modern/american/chapter-1/colonial-america-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/early-modern/american/chapter-1/george-washington-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/early-modern/american/chapter-1/george-washington-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-1/lewis-and-clark-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-1/native-american-encounters-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-1/native-american-encounters-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-1/triangular-trade-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-1/triangular-trade-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-1/us-constitution-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [32%] lessons/early-modern/american/chapter-2/colonial-america-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [33%] lessons/early-modern/american/chapter-2/haitian-revolution-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [33%] lessons/early-modern/american/chapter-2/native-american-encounters-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [33%] lessons/early-modern/american/chapter-2/native-american-encounters-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [33%] lessons/early-modern/american/chapter-3/american-revolution-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [33%] lessons/early-modern/american/chapter-3/colonial-america-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [33%] lessons/early-modern/american/chapter-3/colonial-america-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [34%] lessons/early-modern/american/chapter-3/george-washington-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [34%] lessons/early-modern/american/chapter-3/simon-bolivar-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [34%] lessons/early-modern/american/chapter-3/triangular-trade-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [34%] lessons/early-modern/american/chapter-3/us-constitution-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [34%] lessons/early-modern/american/chapter-4/benjamin-franklin-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [34%] lessons/early-modern/american/chapter-4/colonial-america-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [34%] lessons/early-modern/american/chapter-4/george-washington-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [35%] lessons/early-modern/american/chapter-4/simon-bolivar-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.773, threshold=0.5)]
+  [35%] lessons/early-modern/american/chapter-4/simon-bolivar-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [35%] lessons/early-modern/american/chapter-4/triangular-trade-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [35%] lessons/early-modern/american/chapter-4/us-constitution-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [35%] lessons/early-modern/american/chapter-5/american-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [35%] lessons/early-modern/american/chapter-5/benjamin-franklin-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.653, threshold=0.5)]
+  [35%] lessons/early-modern/american/chapter-5/george-washington-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [36%] lessons/early-modern/american/chapter-5/haitian-revolution-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [36%] lessons/early-modern/american/chapter-5/us-constitution-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.519, threshold=0.5)]
+  [36%] lessons/early-modern/american/george-washington.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [36%] lessons/early-modern/american/simon-bolivar.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [36%] lessons/early-modern/american/us-constitution.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [36%] lessons/early-modern/asian/akbar-the-great.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/akbar-the-great-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/east-india-companies-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/east-india-companies-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/kangxi-emperor-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/mughal-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/mughal-empire-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [37%] lessons/early-modern/asian/chapter-1/ottoman-golden-age-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [38%] lessons/early-modern/asian/chapter-1/qing-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [38%] lessons/early-modern/asian/chapter-1/siamese-kingdom-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [38%] lessons/early-modern/asian/chapter-1/suleiman-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [38%] lessons/early-modern/asian/chapter-1/tokugawa-japan-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [38%] lessons/early-modern/asian/chapter-2/kangxi-emperor-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [38%] lessons/early-modern/asian/chapter-2/kangxi-emperor-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=4 regen=true cost=$0.0098
+  [39%] lessons/early-modern/asian/chapter-2/mughal-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [39%] lessons/early-modern/asian/chapter-2/ottoman-golden-age-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [39%] lessons/early-modern/asian/chapter-2/qing-dynasty-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [39%] lessons/early-modern/asian/chapter-2/safavid-persia-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [39%] lessons/early-modern/asian/chapter-2/siamese-kingdom-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [39%] lessons/early-modern/asian/chapter-2/tokugawa-japan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [39%] lessons/early-modern/asian/chapter-3/akbar-the-great-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [40%] lessons/early-modern/asian/chapter-3/east-india-companies-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [40%] lessons/early-modern/asian/chapter-3/mughal-empire-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [40%] lessons/early-modern/asian/chapter-3/ottoman-golden-age-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [40%] lessons/early-modern/asian/chapter-4/akbar-the-great-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [40%] lessons/early-modern/asian/chapter-4/east-india-companies-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [40%] lessons/early-modern/asian/chapter-4/kangxi-emperor-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [40%] lessons/early-modern/asian/chapter-4/safavid-persia-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [41%] lessons/early-modern/asian/chapter-4/siamese-kingdom-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [41%] lessons/early-modern/asian/chapter-4/tokugawa-japan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [41%] lessons/early-modern/asian/chapter-5/akbar-the-great-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [41%] lessons/early-modern/asian/chapter-5/qing-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [41%] lessons/early-modern/asian/chapter-5/suleiman-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [41%] lessons/early-modern/asian/chapter-5/tokugawa-japan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=4 regen=true cost=$0.0102
+  [42%] lessons/early-modern/asian/kangxi-emperor.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [42%] lessons/early-modern/asian/siamese-kingdom.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [42%] lessons/early-modern/asian/suleiman.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [42%] lessons/early-modern/european/chapter-1/dutch-east-india-company-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [42%] lessons/early-modern/european/chapter-1/dutch-east-india-company-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [42%] lessons/early-modern/european/chapter-1/dutch-golden-age-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [42%] lessons/early-modern/european/chapter-1/enlightenment-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=4 regen=true cost=$0.0099
+  [43%] lessons/early-modern/european/chapter-1/french-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [43%] lessons/early-modern/european/chapter-1/thirty-years-war-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [43%] lessons/early-modern/european/chapter-1/voltaire-rousseau-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=8 ✓
+  [43%] lessons/early-modern/european/chapter-2/baroque-art-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.657, threshold=0.5)]
+  [43%] lessons/early-modern/european/chapter-2/french-revolution-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [43%] lessons/early-modern/european/chapter-2/napoleon-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [44%] lessons/early-modern/european/chapter-2/scientific-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [44%] lessons/early-modern/european/chapter-2/voltaire-rousseau-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [44%] lessons/early-modern/european/chapter-3/baroque-art-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [44%] lessons/early-modern/european/chapter-3/baroque-art-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [44%] lessons/early-modern/european/chapter-3/british-empire-origins-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [44%] lessons/early-modern/european/chapter-3/british-empire-origins-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [44%] lessons/early-modern/european/chapter-3/enlightenment-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [45%] lessons/early-modern/european/chapter-3/french-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [45%] lessons/early-modern/european/chapter-3/napoleon-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.901, threshold=0.5)]
+  [45%] lessons/early-modern/european/chapter-3/thirty-years-war-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.606, threshold=0.5)]
+  [45%] lessons/early-modern/european/chapter-4/enlightenment-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [45%] lessons/early-modern/european/chapter-4/scientific-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [45%] lessons/early-modern/european/chapter-4/thirty-years-war-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [45%] lessons/early-modern/european/chapter-4/thirty-years-war-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [46%] lessons/early-modern/european/chapter-5/baroque-art-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [46%] lessons/early-modern/european/chapter-5/french-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [46%] lessons/early-modern/european/chapter-5/peter-the-great-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.710, threshold=0.5)]
+  [46%] lessons/early-modern/european/chapter-5/scientific-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [46%] lessons/early-modern/european/dutch-east-india-company.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [46%] lessons/early-modern/european/french-revolution.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [47%] lessons/early-modern/european/isaac-newton.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [47%] lessons/early-modern/european/napoleon.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [47%] lessons/early-modern/european/scientific-revolution.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [47%] lessons/early-modern/european/thirty-years-war.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [47%] lessons/industrial/european/chapter-1/charles-dickens-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.581, threshold=0.5)]
+  [47%] lessons/industrial/european/chapter-1/child-labor-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.579, threshold=0.5)]
+  [47%] lessons/industrial/european/chapter-1/railways-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.646, threshold=0.5)]
+  [48%] lessons/industrial/european/chapter-1/railways-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.545, threshold=0.5)]
+  [48%] lessons/industrial/european/chapter-1/steam-engine-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.519, threshold=0.5)]
+  [48%] lessons/industrial/european/chapter-1/trade-unions-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.741, threshold=0.5)]
+  [48%] lessons/industrial/european/chapter-2/charles-dickens-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.637, threshold=0.5)]
+  [48%] lessons/industrial/european/chapter-2/factory-system-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.836, threshold=0.5)]
+  [48%] lessons/industrial/european/chapter-2/railways-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=83.7%, colorful=12.32%)]
+  [48%] lessons/industrial/european/chapter-2/steam-engine-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.517, threshold=0.5)]
+  [49%] lessons/industrial/european/chapter-2/trade-unions-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.536, threshold=0.5)]
+  [49%] lessons/industrial/european/chapter-2/urbanization-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.569, threshold=0.5)]
+  [49%] lessons/industrial/european/chapter-3/charles-dickens-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.584, threshold=0.5)]
+  [49%] lessons/industrial/european/chapter-3/charles-dickens-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.540, threshold=0.5)]
+  [49%] lessons/industrial/european/chapter-3/great-exhibition-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.567, threshold=0.5)]
+  [49%] lessons/industrial/european/chapter-3/great-exhibition-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.541, threshold=0.5)]
+  [50%] lessons/industrial/european/chapter-3/railways-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=87.9%, colorful=8.92%)]
+  [50%] lessons/industrial/european/chapter-3/spinning-jenny-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.561, threshold=0.5)]
+  [50%] lessons/industrial/european/chapter-3/trade-unions-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.518, threshold=0.5)]
+  [50%] lessons/industrial/european/chapter-4/charles-dickens-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.810, threshold=0.5)]
+  [50%] lessons/industrial/european/chapter-4/great-exhibition-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.512, threshold=0.5)]
+  [50%] lessons/industrial/european/chapter-4/railways-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=84.2%, colorful=9.78%)]
+  [50%] lessons/industrial/european/chapter-4/spinning-jenny-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill-refilled (fraction=0.605, threshold=0.5)]
+  [51%] lessons/industrial/european/chapter-4/trade-unions-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.601, threshold=0.5)]
+  [51%] lessons/industrial/european/chapter-4/urbanization-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.682, threshold=0.5)]
+  [51%] lessons/industrial/european/chapter-5/isambard-brunel-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: text-only on near-white background (nearWhite=82.1%, uniqueColors=84, colorful=1.24%)]
+  [51%] lessons/industrial/european/chapter-5/trade-unions-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.586, threshold=0.5)]
+  [51%] lessons/industrial/european/chapter-5/urbanization-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.713, threshold=0.5)]
+  [51%] lessons/industrial/european/great-exhibition.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.620, threshold=0.5)]
+  [52%] lessons/industrial/european/isambard-brunel.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.547, threshold=0.5)]
+  [52%] lessons/industrial/european/railways.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=93.5%, colorful=3.69%)]
+  [52%] lessons/industrial/european/steam-engine.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.520, threshold=0.5)]
+  [52%] lessons/industrial/global/abolition-slavery.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=96.4%, colorful=2.09%)]
+  [52%] lessons/industrial/global/chapter-1/american-industrialization-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.625, threshold=0.5)]
+  [52%] lessons/industrial/global/chapter-1/american-industrialization-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.541, threshold=0.5)]
+  [52%] lessons/industrial/global/chapter-1/harriet-tubman-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.594, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-1/telegraph-communication-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.547, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-1/thomas-edison-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.575, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-1/thomas-edison-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.506, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-2/abolition-slavery-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.790, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-2/american-industrialization-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.653, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-2/american-industrialization-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.610, threshold=0.5)]
+  [53%] lessons/industrial/global/chapter-2/harriet-tubman-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.510, threshold=0.5)]
+  [54%] lessons/industrial/global/chapter-2/opium-wars-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.675, threshold=0.5)]
+  [54%] lessons/industrial/global/chapter-3/abolition-slavery-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=90.5%, colorful=5.78%)]
+  [54%] lessons/industrial/global/chapter-3/colonialism-industrial-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.603, threshold=0.5)]
+  [54%] lessons/industrial/global/chapter-3/harriet-tubman-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.514, threshold=0.5)]
+  [54%] lessons/industrial/global/chapter-4/abolition-slavery-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.730, threshold=0.5)]
+  [54%] lessons/industrial/global/chapter-4/american-industrialization-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.747, threshold=0.5)]
+  [55%] lessons/industrial/global/chapter-4/meiji-restoration-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.705, threshold=0.5)]
+  [55%] lessons/industrial/global/chapter-4/opium-wars-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.615, threshold=0.5)]
+  [55%] lessons/industrial/global/chapter-4/scramble-for-africa-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.902, threshold=0.5)]
+  [55%] lessons/industrial/global/chapter-5/abolition-slavery-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=91.2%, colorful=5.05%)]
+  [55%] lessons/industrial/global/chapter-5/colonialism-industrial-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.591, threshold=0.5)]
+  [55%] lessons/industrial/global/chapter-5/meiji-restoration-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.883, threshold=0.5)]
+  [55%] lessons/industrial/global/chapter-5/meiji-restoration-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.553, threshold=0.5)]
+  [56%] lessons/industrial/global/chapter-5/opium-wars-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.597, threshold=0.5)]
+  [56%] lessons/industrial/global/chapter-5/suez-canal-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.622, threshold=0.5)]
+  [56%] lessons/industrial/global/chapter-5/thomas-edison-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.523, threshold=0.5)]
+  [56%] lessons/industrial/global/chapter-5/thomas-edison-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.652, threshold=0.5)]
+  [56%] lessons/industrial/global/harriet-tubman.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.539, threshold=0.5)]
+  [56%] lessons/industrial/global/scramble-for-africa.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.649, threshold=0.5)]
+  [56%] lessons/industrial/global/suez-canal.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.530, threshold=0.5)]
+  [57%] lessons/industrial/global/thomas-edison.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.619, threshold=0.5)]
+  [57%] lessons/medieval/african/benin-kingdom.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.593, threshold=0.5)]
+  [57%] lessons/medieval/african/chapter-1/ethiopian-churches-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.553, threshold=0.5)]
+  [57%] lessons/medieval/african/chapter-1/great-zimbabwe-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.561, threshold=0.5)]
+  [57%] lessons/medieval/african/chapter-1/mansa-musa-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.713, threshold=0.5)]
+  [57%] lessons/medieval/african/chapter-2/benin-kingdom-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.583, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-2/mansa-musa-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.504, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-2/songhai-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.539, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-2/swahili-coast-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.666, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-3/great-zimbabwe-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.594, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-3/kingdom-of-ghana-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.562, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-3/kingdom-of-ghana-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.630, threshold=0.5)]
+  [58%] lessons/medieval/african/chapter-3/mali-empire-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.604, threshold=0.5)]
+  [59%] lessons/medieval/african/chapter-3/mansa-musa-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.603, threshold=0.5)]
+  [59%] lessons/medieval/african/chapter-3/songhai-empire-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.516, threshold=0.5)]
+  [59%] lessons/medieval/african/chapter-3/sundiata-keita-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.767, threshold=0.5)]
+  [59%] lessons/medieval/african/chapter-3/swahili-coast-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.740, threshold=0.5)]
+  [59%] lessons/medieval/african/chapter-4/great-zimbabwe-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.542, threshold=0.5)]
+  [59%] lessons/medieval/african/chapter-4/kingdom-of-ghana-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.664, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-4/mansa-musa-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.510, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-4/sundiata-keita-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.750, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-4/swahili-coast-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.651, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-4/timbuktu-learning-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.550, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-5/great-zimbabwe-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.652, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-5/mali-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.505, threshold=0.5)]
+  [60%] lessons/medieval/african/chapter-5/timbuktu-learning-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.588, threshold=0.5)]
+  [61%] lessons/medieval/african/kingdom-of-ghana.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.514, threshold=0.5)]
+  [61%] lessons/medieval/asian/chapter-1/khmer-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.671, threshold=0.5)]
+  [61%] lessons/medieval/asian/chapter-1/marco-polo-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.559, threshold=0.5)]
+  [61%] lessons/medieval/asian/chapter-1/marco-polo-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.875, threshold=0.5)]
+  [61%] lessons/medieval/asian/chapter-1/ming-dynasty-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.505, threshold=0.5)]
+  [61%] lessons/medieval/asian/chapter-1/song-dynasty-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.569, threshold=0.5)]
+  [61%] lessons/medieval/asian/chapter-1/tang-dynasty-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.785, threshold=0.5)]
+  [62%] lessons/medieval/asian/chapter-1/timur-tamerlane-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.534, threshold=0.5)]
+  [62%] lessons/medieval/asian/chapter-2/genghis-khan-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.533, threshold=0.5)]
+  [62%] lessons/medieval/asian/chapter-2/samurai-japan-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.778, threshold=0.5)]
+  [62%] lessons/medieval/asian/chapter-2/samurai-japan-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.569, threshold=0.5)]
+  [62%] lessons/medieval/asian/chapter-3/genghis-khan-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.580, threshold=0.5)]
+  [62%] lessons/medieval/asian/chapter-3/genghis-khan-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.564, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-3/marco-polo-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.593, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-3/ming-dynasty-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.729, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-3/mongol-empire-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.659, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-3/song-dynasty-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.938, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-4/marco-polo-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.551, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-4/tang-dynasty-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.767, threshold=0.5)]
+  [63%] lessons/medieval/asian/chapter-4/tang-dynasty-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.572, threshold=0.5)]
+  [64%] lessons/medieval/asian/chapter-5/khmer-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.732, threshold=0.5)]
+  [64%] lessons/medieval/asian/chapter-5/ming-dynasty-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.695, threshold=0.5)]
+  [64%] lessons/medieval/asian/chapter-5/ming-dynasty-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.776, threshold=0.5)]
+  [64%] lessons/medieval/asian/chapter-5/mughal-india-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.585, threshold=0.5)]
+  [64%] lessons/medieval/asian/chapter-5/mughal-india-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.724, threshold=0.5)]
+  [64%] lessons/medieval/asian/chapter-5/song-dynasty-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.627, threshold=0.5)]
+  [65%] lessons/medieval/asian/genghis-khan.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.524, threshold=0.5)]
+  [65%] lessons/medieval/asian/song-dynasty.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.558, threshold=0.5)]
+  [65%] lessons/medieval/asian/tang-dynasty.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.660, threshold=0.5)]
+  [65%] lessons/medieval/asian/timur-tamerlane.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.630, threshold=0.5)]
+  [65%] lessons/medieval/asian/zheng-he.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.536, threshold=0.5)]
+  [65%] lessons/medieval/european/chapter-1/black-death-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.558, threshold=0.5)]
+  [65%] lessons/medieval/european/chapter-1/charlemagne-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.553, threshold=0.5)]
+  [66%] lessons/medieval/european/chapter-1/crusades-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=92.9%, colorful=4.69%)]
+  [66%] lessons/medieval/european/chapter-1/feudal-system-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.514, threshold=0.5)]
+  [66%] lessons/medieval/european/chapter-1/hundred-years-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=88.6%, colorful=7.10%)]
+  [66%] lessons/medieval/european/chapter-1/reconquista-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=85.3%, colorful=12.81%)]
+  [66%] lessons/medieval/european/chapter-1/viking-age-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.628, threshold=0.5)]
+  [66%] lessons/medieval/european/chapter-1/vlad-the-impaler-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.642, threshold=0.5)]
+  [66%] lessons/medieval/european/chapter-2/black-death-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.650, threshold=0.5)]
+  [67%] lessons/medieval/european/chapter-2/crusades-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.583, threshold=0.5)]
+  [67%] lessons/medieval/european/chapter-2/hundred-years-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.696, threshold=0.5)]
+  [67%] lessons/medieval/european/chapter-2/magna-carta-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.564, threshold=0.5)]
+  [67%] lessons/medieval/european/chapter-2/viking-age-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.700, threshold=0.5)]
+  [67%] lessons/medieval/european/chapter-3/castles-sieges-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.533, threshold=0.5)]
+  [67%] lessons/medieval/european/chapter-3/castles-sieges-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.548, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-3/charlemagne-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.537, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-3/charlemagne-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.555, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-3/hundred-years-war-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.516, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-4/black-death-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.570, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-4/castles-sieges-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.576, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-4/charlemagne-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.591, threshold=0.5)]
+  [68%] lessons/medieval/european/chapter-4/crusades-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=87.7%, colorful=3.90%)]
+  [69%] lessons/medieval/european/chapter-4/medieval-monks-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.554, threshold=0.5)]
+  [69%] lessons/medieval/european/chapter-5/black-death-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.541, threshold=0.5)]
+  [69%] lessons/medieval/european/chapter-5/castles-sieges-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.540, threshold=0.5)]
+  [69%] lessons/medieval/european/chapter-5/crusades-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.551, threshold=0.5)]
+  [69%] lessons/medieval/european/chapter-5/crusades-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.806, threshold=0.5)]
+  [69%] lessons/medieval/european/chapter-5/feudal-system-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.638, threshold=0.5)]
+  [69%] lessons/medieval/european/chapter-5/hundred-years-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=90.4%, colorful=5.24%)]
+  [70%] lessons/medieval/european/chapter-5/viking-age-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.915, threshold=0.5)]
+  [70%] lessons/medieval/european/charlemagne.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.512, threshold=0.5)]
+  [70%] lessons/medieval/european/crusades.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.803, threshold=0.5)]
+  [70%] lessons/medieval/european/feudal-system.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.519, threshold=0.5)]
+  [70%] lessons/medieval/european/hundred-years-war.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.642, threshold=0.5)]
+  [70%] lessons/medieval/european/joan-of-arc.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.692, threshold=0.5)]
+  [71%] lessons/medieval/european/reconquista.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.685, threshold=0.5)]
+  [71%] lessons/medieval/middle-eastern/abbasid-caliphate.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.674, threshold=0.5)]
+  [71%] lessons/medieval/middle-eastern/al-andalus.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.545, threshold=0.5)]
+  [71%] lessons/medieval/middle-eastern/al-khwarizmi.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.571, threshold=0.5)]
+  [71%] lessons/medieval/middle-eastern/chapter-1/abbasid-caliphate-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.921, threshold=0.5)]
+  [71%] lessons/medieval/middle-eastern/chapter-1/abbasid-caliphate-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill-refilled (fraction=0.570, threshold=0.5)]
+  [71%] lessons/medieval/middle-eastern/chapter-1/al-andalus-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.805, threshold=0.5)]
+  [72%] lessons/medieval/middle-eastern/chapter-1/al-khwarizmi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.540, threshold=0.5)]
+  [72%] lessons/medieval/middle-eastern/chapter-1/ottoman-origins-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.867, threshold=0.5)]
+  [72%] lessons/medieval/middle-eastern/chapter-1/rise-of-islam-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=80.5%, colorful=0.51%)]
+  [72%] lessons/medieval/middle-eastern/chapter-1/seljuk-turks-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.591, threshold=0.5)]
+  [72%] lessons/medieval/middle-eastern/chapter-2/abbasid-caliphate-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.826, threshold=0.5)]
+  [72%] lessons/medieval/middle-eastern/chapter-2/golden-age-islam-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.821, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-2/persian-literature-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.643, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-3/abbasid-caliphate-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.553, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-3/ottoman-origins-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.791, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-3/ottoman-origins-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.545, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-3/persian-literature-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.565, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-3/persian-literature-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.589, threshold=0.5)]
+  [73%] lessons/medieval/middle-eastern/chapter-3/saladin-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.637, threshold=0.5)]
+  [74%] lessons/medieval/middle-eastern/chapter-4/abbasid-caliphate-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.960, threshold=0.5)]
+  [74%] lessons/medieval/middle-eastern/chapter-4/abbasid-caliphate-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.511, threshold=0.5)]
+  [74%] lessons/medieval/middle-eastern/chapter-4/al-khwarizmi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.668, threshold=0.5)]
+  [74%] lessons/medieval/middle-eastern/chapter-4/ibn-battuta-portrait.webp ... [ds 600x600 from 1024x1024] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x300 (~120 image tokens)
+score=5 ✓
+  [74%] lessons/medieval/middle-eastern/chapter-4/ibn-battuta-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.504, threshold=0.5)]
+  [74%] lessons/medieval/middle-eastern/chapter-4/mamluk-egypt-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.830, threshold=0.5)]
+  [74%] lessons/medieval/middle-eastern/chapter-4/ottoman-origins-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.785, threshold=0.5)]
+  [75%] lessons/medieval/middle-eastern/chapter-4/saladin-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.678, threshold=0.5)]
+  [75%] lessons/medieval/middle-eastern/chapter-4/seljuk-turks-portrait.webp ... [ds 600x600 from 1024x1024] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x300 (~120 image tokens)
+score=5 ✓
+  [75%] lessons/medieval/middle-eastern/chapter-5/abbasid-caliphate-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.693, threshold=0.5)]
+  [75%] lessons/medieval/middle-eastern/chapter-5/al-khwarizmi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.544, threshold=0.5)]
+  [75%] lessons/medieval/middle-eastern/chapter-5/golden-age-islam-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.544, threshold=0.5)]
+  [75%] lessons/medieval/middle-eastern/chapter-5/persian-literature-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.649, threshold=0.5)]
+  [76%] lessons/medieval/middle-eastern/chapter-5/rise-of-islam-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.817, threshold=0.5)]
+  [76%] lessons/medieval/middle-eastern/rise-of-islam.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.938, threshold=0.5)]
+  [76%] lessons/medieval/middle-eastern/saladin.webp ... [ds 600x600 from 1024x1024] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x300 (~120 image tokens)
+score=5 ✓
+  [76%] lessons/modern/american/chapter-1/abraham-lincoln-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.787, threshold=0.5)]
+  [76%] lessons/modern/american/chapter-1/great-depression-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.635, threshold=0.5)]
+  [76%] lessons/modern/american/chapter-1/great-depression-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.686, threshold=0.5)]
+  [76%] lessons/modern/american/chapter-1/immigration-america-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.561, threshold=0.5)]
+  [77%] lessons/modern/american/chapter-1/mexican-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=94.4%, colorful=2.33%)]
+  [77%] lessons/modern/american/chapter-1/teddy-roosevelt-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.725, threshold=0.5)]
+  [77%] lessons/modern/american/chapter-1/teddy-roosevelt-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.702, threshold=0.5)]
+  [77%] lessons/modern/american/chapter-1/us-civil-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=85.8%, colorful=0.14%)]
+  [77%] lessons/modern/american/chapter-2/abraham-lincoln-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.702, threshold=0.5)]
+  [77%] lessons/modern/american/chapter-2/fdr-new-deal-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.574, threshold=0.5)]
+  [77%] lessons/modern/american/chapter-2/immigration-america-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.502, threshold=0.5)]
+  [78%] lessons/modern/american/chapter-2/mexican-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=80.2%, colorful=3.55%)]
+  [78%] lessons/modern/american/chapter-2/panama-canal-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.954, threshold=0.5)]
+  [78%] lessons/modern/american/chapter-2/panama-canal-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.542, threshold=0.5)]
+  [78%] lessons/modern/american/chapter-2/teddy-roosevelt-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.579, threshold=0.5)]
+  [78%] lessons/modern/american/chapter-2/us-civil-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.659, threshold=0.5)]
+  [78%] lessons/modern/american/chapter-2/wright-brothers-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.501, threshold=0.5)]
+  [79%] lessons/modern/american/chapter-3/abraham-lincoln-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.749, threshold=0.5)]
+  [79%] lessons/modern/american/chapter-3/fdr-new-deal-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.736, threshold=0.5)]
+  [79%] lessons/modern/american/chapter-3/fdr-new-deal-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.706, threshold=0.5)]
+  [79%] lessons/modern/american/chapter-3/mexican-revolution-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=80.9%, colorful=11.30%)]
+  [79%] lessons/modern/american/chapter-3/roaring-twenties-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.614, threshold=0.5)]
+  [79%] lessons/modern/american/chapter-3/us-civil-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.587, threshold=0.5)]
+  [79%] lessons/modern/american/chapter-4/fdr-new-deal-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.662, threshold=0.5)]
+  [80%] lessons/modern/american/chapter-4/great-depression-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.567, threshold=0.5)]
+  [80%] lessons/modern/american/chapter-4/great-depression-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.709, threshold=0.5)]
+  [80%] lessons/modern/american/chapter-4/mexican-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=92.2%, colorful=5.69%)]
+  [80%] lessons/modern/american/chapter-4/us-civil-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.789, threshold=0.5)]
+  [80%] lessons/modern/american/chapter-5/fdr-new-deal-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.650, threshold=0.5)]
+  [80%] lessons/modern/american/chapter-5/great-depression-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.552, threshold=0.5)]
+  [81%] lessons/modern/american/chapter-5/us-civil-war-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.587, threshold=0.5)]
+  [81%] lessons/modern/american/chapter-6/civil-rights-movement-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.862, threshold=0.5)]
+  [81%] lessons/modern/american/chapter-6/neoliberalism-america-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=88.9%, colorful=2.79%)]
+  [81%] lessons/modern/asian/chapter-1/ataturk-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.532, threshold=0.5)]
+  [81%] lessons/modern/asian/chapter-1/boxer-rebellion-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.543, threshold=0.5)]
+  [81%] lessons/modern/asian/chapter-1/fall-of-ottoman-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.507, threshold=0.5)]
+  [81%] lessons/modern/asian/chapter-1/gandhi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.583, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-1/russo-japanese-war-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.655, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-1/russo-japanese-war-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.609, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-1/sun-yat-sen-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.560, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-1/ww2-pacific-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.524, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-1/ww2-pacific-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.897, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-2/gandhi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.604, threshold=0.5)]
+  [82%] lessons/modern/asian/chapter-2/indian-independence-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.507, threshold=0.5)]
+  [83%] lessons/modern/asian/chapter-2/meiji-japan-modern-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.570, threshold=0.5)]
+  [83%] lessons/modern/asian/chapter-2/russo-japanese-war-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.528, threshold=0.5)]
+  [83%] lessons/modern/asian/chapter-2/sun-yat-sen-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.718, threshold=0.5)]
+  [83%] lessons/modern/asian/chapter-2/ww2-pacific-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.958, threshold=0.5)]
+  [83%] lessons/modern/asian/chapter-3/ataturk-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.743, threshold=0.5)]
+  [83%] lessons/modern/asian/chapter-3/chinese-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=89.8%, colorful=6.19%)]
+  [84%] lessons/modern/asian/chapter-3/gandhi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.660, threshold=0.5)]
+  [84%] lessons/modern/asian/chapter-3/indian-independence-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=96.0%, colorful=1.13%)]
+  [84%] lessons/modern/asian/chapter-3/sun-yat-sen-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.643, threshold=0.5)]
+  [84%] lessons/modern/asian/chapter-4/ataturk-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.756, threshold=0.5)]
+  [84%] lessons/modern/asian/chapter-4/chinese-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.760, threshold=0.5)]
+  [84%] lessons/modern/asian/chapter-4/fall-of-ottoman-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.566, threshold=0.5)]
+  [84%] lessons/modern/asian/chapter-4/fall-of-ottoman-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.831, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-4/gandhi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.630, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-4/indian-independence-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.748, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-4/meiji-japan-modern-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.741, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-4/russo-japanese-war-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.555, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-5/fall-of-ottoman-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.789, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-5/gandhi-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.734, threshold=0.5)]
+  [85%] lessons/modern/asian/chapter-5/gandhi-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.536, threshold=0.5)]
+  [86%] lessons/modern/asian/chapter-5/indian-independence-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=95.4%, colorful=1.32%)]
+  [86%] lessons/modern/asian/chapter-5/meiji-japan-modern-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.830, threshold=0.5)]
+  [86%] lessons/modern/asian/chapter-5/ww2-pacific-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.707, threshold=0.5)]
+  [86%] lessons/modern/asian/chapter-6/asian-economic-rise-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.743, threshold=0.5)]
+  [86%] lessons/modern/asian/chapter-6/india-emergence-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.640, threshold=0.5)]
+  [86%] lessons/modern/asian/chapter-6/japan-economic-miracle-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=83.0%, colorful=0.97%)]
+  [87%] lessons/modern/asian/chapter-6/rise-of-china-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=92.2%, colorful=4.03%)]
+  [87%] lessons/modern/european/chapter-1/anne-frank-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.557, threshold=0.5)]
+  [87%] lessons/modern/european/chapter-1/league-of-nations-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.577, threshold=0.5)]
+  [87%] lessons/modern/european/chapter-1/marie-curie-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.760, threshold=0.5)]
+  [87%] lessons/modern/european/chapter-1/rise-of-fascism-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.778, threshold=0.5)]
+  [87%] lessons/modern/european/chapter-1/russian-revolution-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.547, threshold=0.5)]
+  [87%] lessons/modern/european/chapter-1/russian-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.671, threshold=0.5)]
+  [88%] lessons/modern/european/chapter-1/treaty-of-versailles-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.761, threshold=0.5)]
+  [88%] lessons/modern/european/chapter-1/winston-churchill-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.542, threshold=0.5)]
+  [88%] lessons/modern/european/chapter-1/womens-suffrage-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.526, threshold=0.5)]
+  [88%] lessons/modern/european/chapter-1/womens-suffrage-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.784, threshold=0.5)]
+  [88%] lessons/modern/european/chapter-1/world-war-1-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=92.8%, colorful=0.30%)]
+  [88%] lessons/modern/european/chapter-1/world-war-2-europe-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill-refilled (fraction=0.571, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-2/anne-frank-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.669, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-2/rise-of-fascism-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.843, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-2/russian-revolution-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.766, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-2/russian-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.930, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-2/world-war-1-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.780, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-2/world-war-2-europe-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.964, threshold=0.5)]
+  [89%] lessons/modern/european/chapter-3/anne-frank-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.598, threshold=0.5)]
+  [90%] lessons/modern/european/chapter-3/rise-of-fascism-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.618, threshold=0.5)]
+  [90%] lessons/modern/european/chapter-3/womens-suffrage-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.886, threshold=0.5)]
+  [90%] lessons/modern/european/chapter-3/world-war-1-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.915, threshold=0.5)]
+  [90%] lessons/modern/european/chapter-3/world-war-2-europe-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=83.3%, colorful=3.44%)]
+  [90%] lessons/modern/european/chapter-4/league-of-nations-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.693, threshold=0.5)]
+  [90%] lessons/modern/european/chapter-4/russian-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.720, threshold=0.5)]
+  [90%] lessons/modern/european/chapter-4/treaty-of-versailles-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.729, threshold=0.5)]
+  [91%] lessons/modern/european/chapter-4/treaty-of-versailles-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.757, threshold=0.5)]
+  [91%] lessons/modern/european/chapter-4/winston-churchill-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.668, threshold=0.5)]
+  [91%] lessons/modern/european/chapter-4/winston-churchill-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.635, threshold=0.5)]
+  [91%] lessons/modern/european/chapter-4/world-war-1-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=87.0%, colorful=0.33%)]
+  [91%] lessons/modern/european/chapter-5/rise-of-fascism-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.655, threshold=0.5)]
+  [91%] lessons/modern/european/chapter-5/russian-revolution-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.544, threshold=0.5)]
+  [92%] lessons/modern/european/chapter-5/womens-suffrage-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.685, threshold=0.5)]
+  [92%] lessons/modern/european/chapter-6/cold-war-europe-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.827, threshold=0.5)]
+  [92%] lessons/modern/european/chapter-6/collapse-soviet-union-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.776, threshold=0.5)]
+  [92%] lessons/modern/european/chapter-6/decolonization-africa-asia-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.555, threshold=0.5)]
+  [92%] lessons/modern/european/chapter-6/decolonization-africa-asia-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.917, threshold=0.5)]
+  [92%] lessons/modern/european/chapter-6/neoliberalism-globalism-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=95.0%, colorful=0.68%)]
+  [92%] lessons/renaissance/european/chapter-1/northern-renaissance-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.673, threshold=0.5)]
+  [93%] lessons/renaissance/european/chapter-1/reformation-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=81.4%, colorful=10.83%)]
+  [93%] lessons/renaissance/european/chapter-1/shakespeare-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.568, threshold=0.5)]
+  [93%] lessons/renaissance/european/chapter-1/spanish-inquisition-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.554, threshold=0.5)]
+  [93%] lessons/renaissance/european/chapter-2/gutenberg-press-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.513, threshold=0.5)]
+  [93%] lessons/renaissance/european/chapter-2/leonardo-da-vinci-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.784, threshold=0.5)]
+  [93%] lessons/renaissance/european/chapter-2/northern-renaissance-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.531, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-2/reformation-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill-refilled (fraction=0.511, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-3/leonardo-da-vinci-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.657, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-3/leonardo-da-vinci-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.592, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-3/shakespeare-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.507, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-3/spanish-inquisition-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.596, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-4/gutenberg-press-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.535, threshold=0.5)]
+  [94%] lessons/renaissance/european/chapter-4/italian-renaissance-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill-refilled (fraction=0.518, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-4/medici-family-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.556, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-4/reformation-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.556, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-4/reformation-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.806, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-4/spanish-inquisition-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.541, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-5/gutenberg-press-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.778, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-5/italian-renaissance-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.584, threshold=0.5)]
+  [95%] lessons/renaissance/european/chapter-5/leonardo-da-vinci-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.529, threshold=0.5)]
+  [96%] lessons/renaissance/european/chapter-5/northern-renaissance-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.706, threshold=0.5)]
+  [96%] lessons/renaissance/european/chapter-5/reformation-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.890, threshold=0.5)]
+  [96%] lessons/renaissance/european/chapter-5/shakespeare-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.569, threshold=0.5)]
+  [96%] lessons/renaissance/european/chapter-5/spanish-inquisition-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.500, threshold=0.5)]
+  [96%] lessons/renaissance/global/chapter-1/aztec-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.734, threshold=0.5)]
+  [96%] lessons/renaissance/global/chapter-1/columbian-exchange-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.806, threshold=0.5)]
+  [97%] lessons/renaissance/global/chapter-1/inca-empire-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.513, threshold=0.5)]
+  [97%] lessons/renaissance/global/chapter-1/spanish-conquest-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=90.5%, colorful=2.42%)]
+  [97%] lessons/renaissance/global/chapter-1/vasco-da-gama-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.539, threshold=0.5)]
+  [97%] lessons/renaissance/global/chapter-2/african-slave-trade-begins-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.916, threshold=0.5)]
+  [97%] lessons/renaissance/global/chapter-2/inca-empire-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.699, threshold=0.5)]
+  [97%] lessons/renaissance/global/chapter-2/portuguese-trade-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.731, threshold=0.5)]
+  [97%] lessons/renaissance/global/chapter-2/spanish-conquest-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=88.1%, colorful=9.44%)]
+  [98%] lessons/renaissance/global/chapter-3/african-slave-trade-begins-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.810, threshold=0.5)]
+  [98%] lessons/renaissance/global/chapter-3/columbian-exchange-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill-refilled (fraction=0.662, threshold=0.5)]
+  [98%] lessons/renaissance/global/chapter-3/columbus-voyage-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.876, threshold=0.5)]
+  [98%] lessons/renaissance/global/chapter-3/spanish-conquest-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.675, threshold=0.5)]
+  [98%] lessons/renaissance/global/chapter-4/african-slave-trade-begins-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.653, threshold=0.5)]
+  [98%] lessons/renaissance/global/chapter-4/aztec-empire-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.901, threshold=0.5)]
+  [98%] lessons/renaissance/global/chapter-4/columbian-exchange-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.633, threshold=0.5)]
+  [99%] lessons/renaissance/global/chapter-4/columbus-voyage-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=88.0%, colorful=3.39%)]
+  [99%] lessons/renaissance/global/chapter-4/spanish-conquest-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.885, threshold=0.5)]
+  [99%] lessons/renaissance/global/chapter-4/vasco-da-gama-scene.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.649, threshold=0.5)]
+  [99%] lessons/renaissance/global/chapter-5/aztec-empire-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.580, threshold=0.5)]
+  [99%] lessons/renaissance/global/chapter-5/columbian-exchange-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.593, threshold=0.5)]
+  [99%] lessons/renaissance/global/chapter-5/columbus-voyage-timeline.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel-gate: mostly white background with limited content (nearWhite=80.1%, colorful=15.29%)]
+  [100%] lessons/renaissance/global/chapter-5/magellan-circumnavigation-map.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.597, threshold=0.5)]
+  [100%] lessons/renaissance/global/chapter-5/magellan-circumnavigation-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.702, threshold=0.5)]
+  [100%] lessons/renaissance/global/chapter-5/ming-treasure-voyages-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.546, threshold=0.5)]
+  [100%] lessons/renaissance/global/chapter-5/portuguese-trade-portrait.webp ... [ds 600x600 from 1024x1024] score=1 regen=true [pixel:corner-bg-fill (fraction=0.734, threshold=0.5)]
+
+════════════════════════════════════════════════════════════
+  AUDIT SUMMARY
+════════════════════════════════════════════════════════════
+  Total:      662 image(s)
+  Audited:    662
+  Failed:     0
+  Needs regen: 407
+  Avg score:  3.5/10
+  Total cost: $1.0771
+
+  Quality distribution:
+    High (7-10):  126
+    Medium (4-6): 165
+    Low (1-3):    371
+
+  Issue frequency:
+    art-style mismatch: High quality realistic (RPG) manga style.: 13
+    childish style: flat, primary-color preschool cartoon below target audience bar: 7
+    too many visible text words: 12 > 3: 6
+    border-artifact: thick solid-color frame around illustration: 6
+    too many visible text words: 14 > 3: 6
+    too many visible text words: 4 > 3: 4
+    pixel:corner-bg-fill (fraction=0.519, threshold=0.5): 4
+    pixel:corner-bg-fill (fraction=0.569, threshold=0.5): 4
+    pixel:corner-bg-fill (fraction=0.541, threshold=0.5): 4
+    pixel:corner-bg-fill (fraction=0.553, threshold=0.5): 4
+
+  Regeneration candidates (407):
+    lessons/ancient/_general/ancient-inventions-ch2.webp — score: 4, issues: Three separate captions at the bottom total 12 visible words, exceeding the 3-word limit, Art style is a simple illustrated cartoon with flat fills and minimal shading, below the required realistic (RPG) manga style and resembling a preschool/children's educational illustration, Required style is realistic (RPG) manga; current style is textbook/educational cartoon, too many visible text words: 12 > 3, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., The illustration is rendered in a flat, simple, illustrative cartoon style with limited shading and minimal atmospheric depth, characteristic of a children's picture book or educational textbook rather than the required high quality realistic (RPG) manga style. Anatomies are simplified, lighting is flat, and there is no painterly or detailed fantasy illustration treatment.
+    lessons/ancient/_general/ancient-inventions-ch5.webp — score: 3, issues: Childish cartoon style: flat shapes, thin outlines, flat fills, no depth or shading — preschool picture book treatment rather than the required realistic (RPG) manga style, Thick red border artifact frames the entire illustration, Style does not match the required high quality realistic RPG manga style, border-artifact: thick solid-color frame around illustration, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Style is a flat, simple illustrated cartoon with thin black line outlines, flat color fills, no atmospheric depth, no painterly lighting, and no textured rendering — reads as a preschool/children's picture book illustration, not a high-quality realistic RPG manga style
+    lessons/ancient/_general/chapter-1/ancient-laws-portrait.webp — score: 4, issues: Art style does not match required high quality realistic (RPG) manga style; image is a simulated stone relief/carving, Visible text includes cuneiform-like symbols and small inscriptions that exceed 3 words when counted as distinct symbol groupings, too many visible text words: 5 > 3, art-style mismatch: High quality realistic (RPG) manga style., Rendering style is a stone relief/sculpture carving rather than a high quality realistic (RPG) manga style illustration, The image depicts a carved stone tablet rather than manga-style character art
+    lessons/ancient/_general/chapter-1/ancient-trade-portrait.webp — score: 4, issues: Thick solid blue border/frame surrounds the illustration, constituting a border artifact, border-artifact: thick solid-color frame around illustration
+    lessons/ancient/_general/chapter-2/first-civilizations-ch2-timeline.webp — score: 3, issues: Art style is a flat, preschool-style illustrated cartoon lacking shading, texture, or atmospheric depth — fails the high-quality realistic (RPG) manga style requirement., Visible text contains 5 time-period labels (ca. 4000-3500 BCE, ca. 3500-3100 BCE, ca. 3100-2600 BCE, ca. 2600-1900 BCE, ca. 1700-1100 BCE) totaling 15 words, exceeding the 3-word limit., too many visible text words: 15 > 3, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Style is a simple illustrated educational cartoon with thin outlines, flat color fills, and minimal shading or atmospheric depth — not a high-quality realistic RPG manga style.
+    lessons/ancient/_general/chapter-3/invention-of-writing-ch3-portrait.webp — score: 3, issues: Visible text on the clay tablet and scroll consists of cuneiform/symbolic characters that are not English and contain no legible English words; rule requires visible text to be English when present., Art style is a flat decorative illustration with ornamental frame, not realistic (RPG) manga style., Although well-composed, style mismatch and non-English inscribed characters require replacement., misspelled or non-English text inside the image, art-style mismatch: High quality realistic (RPG) manga style., Style is decorative flat-vector illustration with Celtic-style ornamental borders, not a realistic (RPG) manga style. Lacks the painterly rendering, cel-shading, linework, and anatomy typical of manga. Reads more like a tapestry or stained-glass piece.
+    lessons/ancient/_general/chapter-4/ancient-inventions-ch4-timeline.webp — score: 3, issues: Childish preschool-cartoon style: flat shapes, thin outlines, flat color fills with no atmospheric depth or painterly rendering, Required art style is high quality realistic (RPG) manga style — not met, Visible text exceeds 3 words (17 words total across three caption blocks), too many visible text words: 17 > 3, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Rendering is a flat, simplified illustrated cartoon with thin line outlines and flat color fills — lacks painterly depth, layered shading, and atmospheric lighting expected of high-quality realistic manga style
+    lessons/ancient/_general/chapter-4/iron-age-ch4-portrait.webp — score: 2, issues: Art style mismatch: required high quality realistic (RPG) manga style not delivered; the rendering is a flat illustrated cartoon with outline-based forms and limited shading., Style resembles a children's textbook illustration, falling below the target production bar., Overall polish and depth are insufficient for the intended realistic manga/RPG aesthetic., art-style mismatch: High quality realistic (RPG) manga style., The required style is 'High quality realistic (RPG) manga style,' but the image is a flat, outlined illustrated cartoon with brown/ochre flat fills, no atmospheric depth, no painterly lighting, and no textured rendering. It reads as a textbook/picture-book illustration rather than realistic manga/RPG art.
+    lessons/ancient/_general/chapter-5/ancient-religions-ch5-map.webp — score: 3, issues: Art style is a flat illustrated cartoon with thin outlines and flat fills — fails the required high-quality realistic (RPG) manga style, Visible decorative border/frame around the map counts as a border artifact, Childish cartoon rendering inappropriate for target audience, border-artifact: thick solid-color frame around illustration, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: High quality realistic (RPG) manga style., Style is a flat, illustrated map with thin line outlines and flat color fills — reads as a children's picture book or educational illustration rather than high-quality realistic (RPG) manga style, Lacks the painterly rendering, atmospheric depth, shading, and detailed character anatomy required for realistic RPG manga style
+    lessons/ancient/_general/chapter-5/ancient-trade-ch5-portrait.webp — score: 3, issues: Art style is a flat illustrated cartoon with thin outlines and flat fills, failing the required 'High quality realistic (RPG) manga style'., Lacks shading, depth, atmospheric rendering, and detailed fantasy illustration qualities expected for the target age group., No visible text, background, border, or checkerboard issues; filename is valid., art-style mismatch: High quality realistic (RPG) manga style., The required style is 'High quality realistic (RPG) manga style' but the image is rendered as a flat, illustrated cartoon with simplified linework, flat color fills, minimal shading, and no atmospheric depth or painterly rendering typical of realistic manga or RPG illustrations.
+    lessons/ancient/_general/chapter-5/iron-age-ch5-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.590, threshold=0.5)
+    lessons/ancient/_general/fall-of-empires.webp — score: 5, issues: Art style does not match the required high-quality realistic (RPG) manga style; rendering leans toward a vintage illustrated-book aesthetic with heavy outlines and less painterly detail, Subject is somewhat cluttered and lacks strong focal hierarchy beyond the central tree, art-style mismatch: High quality realistic (RPG) manga style., Style is more akin to a vintage/colored-pencil storybook illustration with outlined, sketch-like rendering rather than a high-quality realistic RPG manga style, Lacks the polished, detailed painterly or cel-shaded rendering expected of realistic manga; figures and architecture appear somewhat flat and simplified
+    lessons/ancient/_general/first-civilizations-ch2.webp — score: 4, issues: Art style does not match the required high-quality realistic (RPG) manga style; rendering is closer to a simplified illustrated children's picture-book cartoon, Flat color fills and uniform thin outlines lack the painterly depth, shading, and atmospheric rendering expected for the target style, art-style mismatch: High quality realistic (RPG) manga style., Style is a simplified illustrated cartoon with thin line outlines and flat color fills, lacking the painterly depth, atmospheric lighting, and detailed rendering required for high-quality realistic (RPG) manga style, Characters and architecture are rendered in a children's picture-book style rather than realistic fantasy art
+    lessons/ancient/_general/first-civilizations.webp — score: 4, issues: Required art style is 'High quality realistic (RPG) manga style' but the image is a flat, illustrated educational diagram with no manga characteristics., Style deviation is meaningful enough to fail art_style_match., art-style mismatch: High quality realistic (RPG) manga style., Style is a hand-drawn colored-pencil/illustrated diagram style, not realistic (RPG) manga. Lacks manga-style linework, cel-shading, and the polished semi-realistic rendering of the required style., Rendering is flat and sketchy with minimal atmospheric depth; subject matter is conveyed more as an educational infographic than as a detailed manga illustration.
+    lessons/ancient/_general/timeline-ancient-civilizations.webp — score: 4, issues: Art style does not match required high quality realistic (RPG) manga style — rendering is flat illustrated cartoon with thin outlines and minimal shading rather than detailed, layered fantasy illustration with depth and atmosphere., art-style mismatch: High quality realistic (RPG) manga style., Art style is flat illustrated cartoon with line outlines and solid color fills, lacking painterly depth, atmospheric shading, and realistic rendering required for high quality realistic (RPG) manga style. Stylization is closer to an educational children's illustration than a detailed fantasy/manga piece.
+    lessons/ancient/african/egyptian-gods.webp — score: 3, issues: childish preschool-style cartoon rendering: flat shapes, limited shading, no monumental relief-carved or gilded texture appropriate to Ancient Egyptian temple art, art style mismatch: required Ancient Egyptian/Nubian monumental art with hieroglyphs, temple reliefs, sandstone and gold is not achieved, figures and pyramids read as generic illustrated cartoon rather than authentic period stylization, childish style: flat, primary-color preschool cartoon below target audience bar, art-style mismatch: Ancient Egyptian/Nubian monumental art (hieroglyphs, temple reliefs, sandstone and gold), style is a flat, simplified illustrated cartoon with flat fills and minimal shading, lacking the monumental relief-carved sandstone-and-gold aesthetic of authentic Ancient Egyptian/Nubian temple art; figures read as clipart-style rather than hieroglyphic relief
+    lessons/ancient/african/era-exploration-ancient-egypt-kingdoms.webp — score: 5, issues: Art style mismatch: required Ancient Egyptian/Nubian monumental art (hieroglyphs, temple reliefs, sandstone and gold) but image is a modern colorful illustration with painted folk-art aesthetic, Composition is busy and reads more like a generic 'ancient civilization' collage than a monumental Egyptian/Nubian artwork, art-style mismatch: Ancient Egyptian/Nubian monumental art (hieroglyphs, temple reliefs, sandstone and gold), Art style is a modern illustrated/folk-art digital painting with saturated colors and cartoon-like rendering, not Ancient Egyptian/Nubian monumental art (no hieroglyphs, no temple reliefs, no sandstone-and-gold monumental palette or stylization)
+    lessons/ancient/american/chapter-2/chavin-culture-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.573, threshold=0.5)
+    lessons/ancient/american/chapter-2/maya-cities-map.webp — score: 4, issues: Childish preschool-cartoon style: flat color fills, thin line outlines, no atmospheric depth, no painterly lighting or textured rendering, Visible text word count is 9, exceeding the 3-word maximum allowed (Gulf of Mexico, Caribbean Sea, Pacific Ocean, Belize Barrier Reef), Rendering resembles a simplified illustrated map aimed at young children rather than detailed fantasy illustration appropriate for ages 10+, too many visible text words: 9 > 3, childish style: flat, primary-color preschool cartoon below target audience bar
+    lessons/ancient/american/chapter-3/chavin-culture-map.webp — score: 7, issues: Visible text contains 5 words total across 'Chavin Jaguar' label and 'Maranon' map label — exceeds 3-word limit, Visible text is acceptable but the cumulative word count (5) trips the >3 words threshold requiring regeneration, too many visible text words: 5 > 3
+    ... and 387 more
+
+  Results saved to: /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-empties-reaudit-2026-09-24.json

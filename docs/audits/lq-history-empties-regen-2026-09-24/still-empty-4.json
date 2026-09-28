@@ -1,0 +1,168 @@
+{
+ "auditDate": "2026-09-28",
+ "auditModel": "minimax-m3",
+ "auditProvider": "minimax",
+ "sourceDirectory": "/Volumes/SSD/Projects/Repos/lq-history/public/images",
+ "baseImagesOnly": true,
+ "variantRule": "Files matching --<size> are derived downscaled variants and are not audited separately.",
+ "summary": {
+  "total": 662,
+  "audited": 303,
+  "failed": 359,
+  "needsRegen": 188,
+  "avgScore": "6.0",
+  "totalCost": "1.2461"
+ },
+ "results": [
+  {
+   "image": "lessons/early-modern/european/chapter-3/napoleon-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.709, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.709, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/industrial/european/chapter-2/charles-dickens-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": true,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.820, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.563, threshold=0.5)",
+    "pixel:near-black-dominant (nearBlack=56.3%, threshold=50%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.820, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.563, threshold=0.5)",
+     "pixel:near-black-dominant (nearBlack=56.3%, threshold=50%)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=0.0%, nearBlack=56.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/industrial/global/chapter-2/harriet-tubman-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "low luminance variation (std=23.6)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "low luminance variation (std=23.6)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.709, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.709, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  }
+ ]
+}

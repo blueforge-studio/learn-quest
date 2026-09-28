@@ -1,6 +1,6 @@
 # School & life apps — shell wiring, logos and review rollout (2026-09-22)
 
-**Status:** **4 of 23 live** (2026-09-23) — lq-reading (reading.blueforge.studio, pilot 0849d117),
+**Status:** **6 of 23 live** (2026-09-28: + geography 09-24, + **history.blueforge.studio** 09-28 — lq-history#7 images, #8 shell wiring; forge project created via `forge project create --slug history-quest --team-id <blueforge-studio> --framework vite --branch main`; first deploy hit app-1 Docker address-pool exhaustion, fixed by forge-control widening default-address-pools). **Fleet CI trap (09-28):** the 09-24 sidecar wave put `sidecars.yml` in `.gitea/workflows`, silently disabling Test on every repo — moved into `.github/workflows` on all school + lang apps. Previously: 4 of 23 live (2026-09-23) — lq-reading (reading.blueforge.studio, pilot 0849d117),
 lq-math (**math.blueforge.studio**), lq-writing (**writing.blueforge.studio**) and lq-science
 (**science.blueforge.studio**, deploy `17e42e67`, webhook hook 70) all deployed + body-verified.
 Wiring PRs: lq-math#7/#8, lq-writing#6, lq-science#3; configs lq-math#9 / lq-writing#7 /

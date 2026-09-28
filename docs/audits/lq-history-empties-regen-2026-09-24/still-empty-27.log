@@ -1,0 +1,327 @@
+📋 27 regen candidates from /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-empties-regen-2026-09-24/still-empty-27.json
+   Target: lq-history
+   Configs: /Volumes/SSD/Projects/Repos/lq-tools/packages/image-tools/src/config/subjects/history
+   Output:  /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Provider: gemini
+   Model:   gemini-3.1-flash-image
+   Batch API: no
+   Budget:  $3
+   Dry run: false
+
+📊 Plan: 5 config(s), 27 images
+
+  history/.regen-tmp-lessons-early-modern.json
+    Images: 3, dirs: 2 different
+      baroque-art-portrait.webp → /lessons/early-modern/european/chapter-2
+      napoleon-portrait.webp → /lessons/early-modern/european/chapter-3
+      thirty-years-war-portrait.webp → /lessons/early-modern/european/chapter-3
+
+  history/lessons-industrial.json
+    Images: 5, dirs: 4 different
+      charles-dickens-portrait.webp → /lessons/industrial/european/chapter-2
+      steam-engine-portrait.webp → /lessons/industrial/european/chapter-2
+      harriet-tubman-portrait.webp → /lessons/industrial/global/chapter-1
+      harriet-tubman-portrait.webp → /lessons/industrial/global/chapter-2
+      harriet-tubman-portrait.webp → /lessons/industrial/global/chapter-3
+
+  history/lessons-medieval.json
+    Images: 4, dirs: 4 different
+      khmer-empire-portrait.webp → /lessons/medieval/asian/chapter-5
+      vlad-the-impaler-portrait.webp → /lessons/medieval/european/chapter-1
+      medieval-monks-portrait.webp → /lessons/medieval/european/chapter-4
+      feudal-system-map.webp → /lessons/medieval/european/chapter-5
+
+  history/lessons-modern.json
+    Images: 7, dirs: 5 different
+      ww2-pacific-timeline.webp → /lessons/modern/asian/chapter-1
+      ataturk-portrait.webp → /lessons/modern/asian/chapter-3
+      meiji-japan-modern-portrait.webp → /lessons/modern/asian/chapter-4
+      marie-curie-portrait.webp → /lessons/modern/european/chapter-1
+      treaty-of-versailles-portrait.webp → /lessons/modern/european/chapter-1
+      world-war-1-timeline.webp → /lessons/modern/european/chapter-1
+      world-war-1-timeline.webp → /lessons/modern/european/chapter-4
+
+  history/lessons-renaissance.json
+    Images: 8, dirs: 6 different
+      spanish-inquisition-portrait.webp → /lessons/renaissance/european/chapter-1
+      leonardo-da-vinci-portrait.webp → /lessons/renaissance/european/chapter-2
+      leonardo-da-vinci-portrait.webp → /lessons/renaissance/european/chapter-3
+      spanish-inquisition-portrait.webp → /lessons/renaissance/european/chapter-4
+      italian-renaissance-portrait.webp → /lessons/renaissance/european/chapter-5
+      reformation-timeline.webp → /lessons/renaissance/european/chapter-5
+      spanish-inquisition-portrait.webp → /lessons/renaissance/european/chapter-5
+      magellan-circumnavigation-portrait.webp → /lessons/renaissance/global/chapter-5
+
+🚀 Starting regeneration...
+
+  Using Gemini gemini-3.1-flash-image (token-based pricing, budget $3)
+
+══════════════════════════════════════════════════
+  history/.regen-tmp-lessons-early-modern.json
+══════════════════════════════════════════════════
+  🎯 selected 3/8 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 3 image(s): baroque-art-portrait, napoleon-portrait, thirty-years-war-portrait
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-.regen-tmp-lessons-early-modern (3 images)
+────────────────────────────────────────────────────────────
+  [1/3] baroque-art-portrait.webp (512x512)
+    Done: baroque-art-portrait.webp
+  [2/3] napoleon-portrait.webp (512x512)
+    Done: napoleon-portrait.webp
+  [3/3] thirty-years-war-portrait.webp (512x512)
+    Done: thirty-years-war-portrait.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-.regen-tmp-lessons-early-modern     3     3     0     0     9       29s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            3     3     0     0     9       29s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 29.7s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 3 x $0.0390 = $0.1170
+  Local variants (resizes): 9 (free)
+  Estimated total cost: $0.1170
+  Note: Google may not charge on free tier
+
+  Done. 3 images + 9 variants generated.
+
+  Manifest: 0 updated, 3 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-industrial.json
+══════════════════════════════════════════════════
+  🎯 selected 5/220 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 5 image(s): charles-dickens-portrait, steam-engine-portrait, harriet-tubman-portrait, harriet-tubman-portrait, harriet-tubman-portrait
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-industrial (5 images)
+────────────────────────────────────────────────────────────
+  [1/5] charles-dickens-portrait.webp (512x512)
+    Done: charles-dickens-portrait.webp
+  [2/5] steam-engine-portrait.webp (512x512)
+    Done: steam-engine-portrait.webp
+  [3/5] harriet-tubman-portrait.webp (512x512)
+    Done: harriet-tubman-portrait.webp
+  [4/5] harriet-tubman-portrait.webp (512x512)
+    Done: harriet-tubman-portrait.webp
+  [5/5] harriet-tubman-portrait.webp (512x512)
+    Done: harriet-tubman-portrait.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-industrial     5     5     0     0    15       53s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            5     5     0     0    15       53s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 85.2s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 5 x $0.0390 = $0.1950
+  Local variants (resizes): 15 (free)
+  Estimated total cost: $0.1950
+  Note: Google may not charge on free tier
+
+  Done. 5 images + 15 variants generated.
+
+  Manifest: 0 updated, 5 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-medieval.json
+══════════════════════════════════════════════════
+  🎯 selected 4/452 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 4 image(s): khmer-empire-portrait, vlad-the-impaler-portrait, medieval-monks-portrait, feudal-system-map
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-medieval (4 images)
+────────────────────────────────────────────────────────────
+  [1/4] khmer-empire-portrait.webp (512x512)
+    Done: khmer-empire-portrait.webp
+  [2/4] vlad-the-impaler-portrait.webp (512x512)
+    Done: vlad-the-impaler-portrait.webp
+  [3/4] medieval-monks-portrait.webp (512x512)
+    Done: medieval-monks-portrait.webp
+  [4/4] feudal-system-map.webp (1280x720)
+    Done: feudal-system-map.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-medieval      4     4     0     0    12       48s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            4     4     0     0    12       48s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 136.1s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 4 x $0.0390 = $0.1560
+  Local variants (resizes): 12 (free)
+  Estimated total cost: $0.1560
+  Note: Google may not charge on free tier
+
+  Done. 4 images + 12 variants generated.
+
+  Manifest: 0 updated, 4 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-modern.json
+══════════════════════════════════════════════════
+  🎯 selected 7/332 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 7 image(s): ww2-pacific-timeline, ataturk-portrait, meiji-japan-modern-portrait, marie-curie-portrait, treaty-of-versailles-portrait, world-war-1-timeline, world-war-1-timeline
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-modern (7 images)
+────────────────────────────────────────────────────────────
+  [1/7] ww2-pacific-timeline.webp (1280x720)
+    Done: ww2-pacific-timeline.webp
+  [2/7] ataturk-portrait.webp (512x512)
+[GeminiImageClient] Error generating image: No image data found in Gemini response
+    Retry 1/2 in 2s...
+[GeminiImageClient] Error generating image: No image data found in Gemini response
+    Retry 2/2 in 4s...
+    Done: ataturk-portrait.webp (attempt 3/3)
+  [3/7] meiji-japan-modern-portrait.webp (512x512)
+    Done: meiji-japan-modern-portrait.webp
+  [4/7] marie-curie-portrait.webp (512x512)
+    Done: marie-curie-portrait.webp
+  [5/7] treaty-of-versailles-portrait.webp (512x512)
+    Done: treaty-of-versailles-portrait.webp
+  [6/7] world-war-1-timeline.webp (1280x720)
+    Done: world-war-1-timeline.webp
+  [7/7] world-war-1-timeline.webp (1280x720)
+    Done: world-war-1-timeline.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-modern        7     7     0     0    21    1m 39s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            7     7     0     0    21    1m 39s
+
+  Retried images (1):
+
+    .regen-tmp-lessons-modern/ataturk-portrait.webp — generated after 3 attempts
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 238.0s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 7 x $0.0390 = $0.2730
+  Local variants (resizes): 21 (free)
+  Estimated total cost: $0.2730
+  Note: Google may not charge on free tier
+
+  Done. 7 images + 21 variants generated.
+
+  Manifest: 0 updated, 7 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  history/lessons-renaissance.json
+══════════════════════════════════════════════════
+  🎯 selected 8/200 config images (chapter-safe filter)
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 8 image(s): spanish-inquisition-portrait, leonardo-da-vinci-portrait, leonardo-da-vinci-portrait, spanish-inquisition-portrait, italian-renaissance-portrait, reformation-timeline, spanish-inquisition-portrait, magellan-circumnavigation-portrait
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-renaissance (8 images)
+────────────────────────────────────────────────────────────
+  [1/8] spanish-inquisition-portrait.webp (512x512)
+    Done: spanish-inquisition-portrait.webp
+  [2/8] leonardo-da-vinci-portrait.webp (512x512)
+    Done: leonardo-da-vinci-portrait.webp
+  [3/8] leonardo-da-vinci-portrait.webp (512x512)
+    Done: leonardo-da-vinci-portrait.webp
+  [4/8] spanish-inquisition-portrait.webp (512x512)
+    Done: spanish-inquisition-portrait.webp
+  [5/8] italian-renaissance-portrait.webp (512x512)
+    Done: italian-renaissance-portrait.webp
+  [6/8] reformation-timeline.webp (1280x720)
+    Done: reformation-timeline.webp
+  [7/8] spanish-inquisition-portrait.webp (512x512)
+    Done: spanish-inquisition-portrait.webp
+  [8/8] magellan-circumnavigation-portrait.webp (512x512)
+    Done: magellan-circumnavigation-portrait.webp
+
+============================================================
+  IMAGE GENERATION REPORT — regenerate
+============================================================
+
+  Per-config results:
+
+  Config                       Total   Gen  Skip  Fail   Var      Time
+  ────────────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-renaissance     8     8     0     0    24    1m 29s
+  ────────────────────────────────────────────────────────────────────
+  TOTAL                            8     8     0     0    24    1m 29s
+
+=== AI Usage Summary ===
+
+  Requests: 0 (0 failed)
+  Total cost: $0.0000
+  Duration: 329.6s
+
+=== Image Generation Cost Estimate (Google Imagen) ===
+
+  AI-generated images: 8 x $0.0390 = $0.3120
+  Local variants (resizes): 24 (free)
+  Estimated total cost: $0.3120
+  Note: Google may not charge on free tier
+
+  Done. 8 images + 24 variants generated.
+
+  Manifest: 0 updated, 8 skipped (no manifest or not in it)
+
+══════════════════════════════════════════════════
+  REGENERATION COMPLETE
+══════════════════════════════════════════════════
+  Generated: 27
+  Failed:    0
+  Sanitized: 0 prompts
+  Time:      331.4s

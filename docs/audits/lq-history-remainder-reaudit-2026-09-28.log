@@ -1,0 +1,1128 @@
+📄 Using audit config: /Volumes/SSD/Projects/Repos/lq-tools/scripts/image-audit.config.json
+🔍 AI Quality Audit: 362 image(s) [offset=0 limit=362 of 362] (image-list: 362 matched)
+   From: /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Budget: $1   Rate limit: 80   Sleep: 250ms
+   Rules: /Volumes/SSD/Projects/Repos/lq-tools/scripts/audit-rules.config.json   App: lq-history   Fleet default label language: english
+   Pixel gate: enabled
+   Chain order (config): minimax-anthropic,glm,qwen,anthropic
+   Corner-flood: enabled (bgFraction > 0.5)
+
+  [0%] lessons/ancient/_general/chapter-5/iron-age-ch5-portrait.webp ... score=5 regen=true cost=$0.0006
+  [1%] lessons/ancient/american/chapter-2/chavin-culture-portrait.webp ... score=8 ✓
+  [1%] lessons/ancient/asian/chapter-3/maurya-empire-portrait.webp ... score=5 ✓
+  [1%] lessons/ancient/asian/chapter-4/maurya-empire-portrait.webp ... score=5 ✓
+  [1%] lessons/ancient/european/lesson-fall-of-rome-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [2%] lessons/contemporary/american/chapter-2/korean-war-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [2%] lessons/early-modern/american/chapter-1/american-revolution-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [2%] lessons/early-modern/american/chapter-4/simon-bolivar-portrait.webp ... score=5 ✓
+  [2%] lessons/early-modern/american/chapter-5/benjamin-franklin-portrait.webp ... score=8 ✓
+  [3%] lessons/early-modern/american/chapter-5/us-constitution-portrait.webp ... score=2 regen=true cost=$0.0006
+  [3%] lessons/early-modern/european/chapter-2/baroque-art-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.559, threshold=0.5)]
+  [3%] lessons/early-modern/european/chapter-3/napoleon-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.821, threshold=0.5)]
+  [4%] lessons/early-modern/european/chapter-3/thirty-years-war-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.562, threshold=0.5)]
+  [4%] lessons/early-modern/european/chapter-5/peter-the-great-portrait.webp ... score=5 ✓
+  [4%] lessons/industrial/european/chapter-1/charles-dickens-scene.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [4%] lessons/industrial/european/chapter-1/child-labor-portrait.webp ... score=9 ✓
+  [5%] lessons/industrial/european/chapter-1/railways-scene.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [5%] lessons/industrial/european/chapter-1/railways-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [5%] lessons/industrial/european/chapter-1/steam-engine-portrait.webp ... score=8 ✓
+  [6%] lessons/industrial/european/chapter-1/trade-unions-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [6%] lessons/industrial/european/chapter-2/charles-dickens-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.677, threshold=0.5)]
+  [6%] lessons/industrial/european/chapter-2/factory-system-map.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [6%] lessons/industrial/european/chapter-2/railways-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [7%] lessons/industrial/european/chapter-2/steam-engine-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.696, threshold=0.5)]
+  [7%] lessons/industrial/european/chapter-2/trade-unions-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [7%] lessons/industrial/european/chapter-2/urbanization-portrait.webp ... score=9 ✓
+  [7%] lessons/industrial/european/chapter-3/charles-dickens-portrait.webp ... score=5 ✓
+  [8%] lessons/industrial/european/chapter-3/charles-dickens-scene.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [8%] lessons/industrial/european/chapter-3/great-exhibition-map.webp ... [ds 600x338 from 1280x720] score=9 regen=true cost=$0.0005
+  [8%] lessons/industrial/european/chapter-3/great-exhibition-portrait.webp ... score=9 ✓
+  [9%] lessons/industrial/european/chapter-3/railways-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [9%] lessons/industrial/european/chapter-3/spinning-jenny-portrait.webp ... score=8 ✓
+  [9%] lessons/industrial/european/chapter-3/trade-unions-portrait.webp ... score=5 ✓
+  [9%] lessons/industrial/european/chapter-4/charles-dickens-portrait.webp ... score=3 regen=true cost=$0.0006
+  [10%] lessons/industrial/european/chapter-4/great-exhibition-portrait.webp ... score=9 ✓
+  [10%] lessons/industrial/european/chapter-4/railways-timeline.webp ... [ds 600x338 from 1280x720] score=7 regen=true cost=$0.0006
+  [10%] lessons/industrial/european/chapter-4/spinning-jenny-portrait.webp ... score=8 ✓
+  [10%] lessons/industrial/european/chapter-4/trade-unions-portrait.webp ... score=5 ✓
+  [11%] lessons/industrial/european/chapter-4/urbanization-map.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [11%] lessons/industrial/european/chapter-5/isambard-brunel-portrait.webp ... score=9 ✓
+  [11%] lessons/industrial/european/chapter-5/trade-unions-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [12%] lessons/industrial/european/chapter-5/urbanization-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [12%] lessons/industrial/european/great-exhibition.webp ... [ds 600x338 from 1280x720] score=5 regen=true cost=$0.0006
+  [12%] lessons/industrial/european/isambard-brunel.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [12%] lessons/industrial/european/railways.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [13%] lessons/industrial/european/steam-engine.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [13%] lessons/industrial/global/abolition-slavery.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [13%] lessons/industrial/global/chapter-1/american-industrialization-map.webp ... [ds 600x338 from 1280x720] score=6 regen=true cost=$0.0006
+  [14%] lessons/industrial/global/chapter-1/american-industrialization-portrait.webp ... score=9 ✓
+  [14%] lessons/industrial/global/chapter-1/harriet-tubman-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.646, threshold=0.5)]
+  [14%] lessons/industrial/global/chapter-1/telegraph-communication-portrait.webp ... score=9 ✓
+  [14%] lessons/industrial/global/chapter-1/thomas-edison-portrait.webp ... score=8 ✓
+  [15%] lessons/industrial/global/chapter-1/thomas-edison-scene.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [15%] lessons/industrial/global/chapter-2/abolition-slavery-timeline.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [15%] lessons/industrial/global/chapter-2/american-industrialization-map.webp ... [ds 600x338 from 1280x720] score=4 regen=true cost=$0.0006
+  [15%] lessons/industrial/global/chapter-2/american-industrialization-portrait.webp ... score=8 ✓
+  [16%] lessons/industrial/global/chapter-2/harriet-tubman-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.701, threshold=0.5)]
+  [16%] lessons/industrial/global/chapter-2/opium-wars-map.webp ... [ds 600x338 from 1280x720] score=9 regen=true cost=$0.0006
+  [16%] lessons/industrial/global/chapter-3/abolition-slavery-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [17%] lessons/industrial/global/chapter-3/colonialism-industrial-map.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [17%] lessons/industrial/global/chapter-3/harriet-tubman-portrait.webp ... score=1 regen=true [pixel-gate: low luminance variation (std=20.2)]
+  [17%] lessons/industrial/global/chapter-4/abolition-slavery-timeline.webp ... [ds 600x338 from 1280x720] score=8 regen=true cost=$0.0006
+  [17%] lessons/industrial/global/chapter-4/american-industrialization-portrait.webp ... score=8 ✓
+  [18%] lessons/industrial/global/chapter-4/meiji-restoration-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [18%] lessons/industrial/global/chapter-4/opium-wars-portrait.webp ... score=9 regen=true cost=$0.0005
+  [18%] lessons/industrial/global/chapter-4/scramble-for-africa-timeline.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [19%] lessons/industrial/global/chapter-5/abolition-slavery-timeline.webp ... [ds 600x338 from 1280x720] score=7 ✓
+  [19%] lessons/industrial/global/chapter-5/colonialism-industrial-portrait.webp ... score=8 ✓
+  [19%] lessons/industrial/global/chapter-5/meiji-restoration-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [19%] lessons/industrial/global/chapter-5/meiji-restoration-portrait.webp ... score=8 ✓
+  [20%] lessons/industrial/global/chapter-5/opium-wars-portrait.webp ... score=8 ✓
+  [20%] lessons/industrial/global/chapter-5/suez-canal-map.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [20%] lessons/industrial/global/chapter-5/thomas-edison-portrait.webp ... score=5 ✓
+  [20%] lessons/industrial/global/chapter-5/thomas-edison-scene.webp ... [ds 600x338 from 1280x720] score=9 ✓
+  [21%] lessons/industrial/global/harriet-tubman.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [21%] lessons/industrial/global/scramble-for-africa.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [21%] lessons/industrial/global/suez-canal.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [22%] lessons/industrial/global/thomas-edison.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [22%] lessons/medieval/african/benin-kingdom.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [22%] lessons/medieval/african/chapter-1/ethiopian-churches-map.webp ... [ds 600x338 from 1280x720] score=7 ✓
+  [22%] lessons/medieval/african/chapter-1/great-zimbabwe-portrait.webp ... score=8 ✓
+  [23%] lessons/medieval/african/chapter-1/mansa-musa-portrait.webp ... score=9 ✓
+  [23%] lessons/medieval/african/chapter-2/benin-kingdom-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [23%] lessons/medieval/african/chapter-2/mansa-musa-portrait.webp ... score=9 ✓
+  [23%] lessons/medieval/african/chapter-2/songhai-empire-portrait.webp ... score=3 regen=true cost=$0.0006
+  [24%] lessons/medieval/african/chapter-2/swahili-coast-portrait.webp ... score=8 ✓
+  [24%] lessons/medieval/african/chapter-3/great-zimbabwe-portrait.webp ... score=8 ✓
+  [24%] lessons/medieval/african/chapter-3/kingdom-of-ghana-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [25%] lessons/medieval/african/chapter-3/kingdom-of-ghana-portrait.webp ... score=8 ✓
+  [25%] lessons/medieval/african/chapter-3/mali-empire-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [25%] lessons/medieval/african/chapter-3/mansa-musa-portrait.webp ... score=9 ✓
+  [25%] lessons/medieval/african/chapter-3/songhai-empire-map.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [26%] lessons/medieval/african/chapter-3/sundiata-keita-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [26%] lessons/medieval/african/chapter-3/swahili-coast-portrait.webp ... score=5 ✓
+  [26%] lessons/medieval/african/chapter-4/great-zimbabwe-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [27%] lessons/medieval/african/chapter-4/kingdom-of-ghana-portrait.webp ... score=9 ✓
+  [27%] lessons/medieval/african/chapter-4/mansa-musa-scene.webp ... [ds 600x338 from 1280x720] score=3 regen=true cost=$0.0006
+  [27%] lessons/medieval/african/chapter-4/sundiata-keita-portrait.webp ... score=7 ✓
+  [27%] lessons/medieval/african/chapter-4/swahili-coast-portrait.webp ... score=4 regen=true cost=$0.0006
+  [28%] lessons/medieval/african/chapter-4/timbuktu-learning-portrait.webp ... score=9 ✓
+  [28%] lessons/medieval/african/chapter-5/great-zimbabwe-map.webp ... [ds 600x338 from 1280x720] score=8 ✓
+  [28%] lessons/medieval/african/chapter-5/mali-empire-portrait.webp ... score=9 ✓
+  [28%] lessons/medieval/african/chapter-5/timbuktu-learning-portrait.webp ... score=8 ✓
+  [29%] lessons/medieval/african/kingdom-of-ghana.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [29%] lessons/medieval/asian/chapter-1/khmer-empire-portrait.webp ... score=5 ✓
+  [29%] lessons/medieval/asian/chapter-1/marco-polo-portrait.webp ... score=8 ✓
+  [30%] lessons/medieval/asian/chapter-1/marco-polo-scene.webp ... [ds 600x338 from 1280x720] score=5 ✓
+  [30%] lessons/medieval/asian/chapter-1/ming-dynasty-portrait.webp ... score=5 ✓
+  [30%] lessons/medieval/asian/chapter-1/song-dynasty-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [30%] lessons/medieval/asian/chapter-1/tang-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [31%] lessons/medieval/asian/chapter-1/timur-tamerlane-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/medieval/asian/chapter-2/genghis-khan-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/medieval/asian/chapter-2/samurai-japan-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [31%] lessons/medieval/asian/chapter-2/samurai-japan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [32%] lessons/medieval/asian/chapter-3/genghis-khan-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [32%] lessons/medieval/asian/chapter-3/genghis-khan-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=10 ✓
+  [32%] lessons/medieval/asian/chapter-3/marco-polo-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [33%] lessons/medieval/asian/chapter-3/ming-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [33%] lessons/medieval/asian/chapter-3/mongol-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [33%] lessons/medieval/asian/chapter-3/song-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [33%] lessons/medieval/asian/chapter-4/marco-polo-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [34%] lessons/medieval/asian/chapter-4/tang-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [34%] lessons/medieval/asian/chapter-4/tang-dynasty-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [34%] lessons/medieval/asian/chapter-5/khmer-empire-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.636, threshold=0.5)]
+  [35%] lessons/medieval/asian/chapter-5/ming-dynasty-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [35%] lessons/medieval/asian/chapter-5/ming-dynasty-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [35%] lessons/medieval/asian/chapter-5/mughal-india-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [35%] lessons/medieval/asian/chapter-5/mughal-india-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [36%] lessons/medieval/asian/chapter-5/song-dynasty-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [36%] lessons/medieval/asian/genghis-khan.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [36%] lessons/medieval/asian/song-dynasty.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [36%] lessons/medieval/asian/tang-dynasty.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [37%] lessons/medieval/asian/timur-tamerlane.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [37%] lessons/medieval/asian/zheng-he.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [37%] lessons/medieval/european/chapter-1/black-death-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [38%] lessons/medieval/european/chapter-1/charlemagne-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [38%] lessons/medieval/european/chapter-1/crusades-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [38%] lessons/medieval/european/chapter-1/feudal-system-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [38%] lessons/medieval/european/chapter-1/hundred-years-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [39%] lessons/medieval/european/chapter-1/reconquista-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [39%] lessons/medieval/european/chapter-1/viking-age-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [39%] lessons/medieval/european/chapter-1/vlad-the-impaler-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.732, threshold=0.5)]
+  [40%] lessons/medieval/european/chapter-2/black-death-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [40%] lessons/medieval/european/chapter-2/crusades-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [40%] lessons/medieval/european/chapter-2/hundred-years-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [40%] lessons/medieval/european/chapter-2/magna-carta-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [41%] lessons/medieval/european/chapter-2/viking-age-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [41%] lessons/medieval/european/chapter-3/castles-sieges-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [41%] lessons/medieval/european/chapter-3/castles-sieges-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [41%] lessons/medieval/european/chapter-3/charlemagne-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=10 ✓
+  [42%] lessons/medieval/european/chapter-3/charlemagne-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [42%] lessons/medieval/european/chapter-3/hundred-years-war-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [42%] lessons/medieval/european/chapter-4/black-death-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [43%] lessons/medieval/european/chapter-4/castles-sieges-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [43%] lessons/medieval/european/chapter-4/charlemagne-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [43%] lessons/medieval/european/chapter-4/crusades-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [43%] lessons/medieval/european/chapter-4/medieval-monks-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.608, threshold=0.5)]
+  [44%] lessons/medieval/european/chapter-5/black-death-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [44%] lessons/medieval/european/chapter-5/castles-sieges-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [44%] lessons/medieval/european/chapter-5/crusades-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [44%] lessons/medieval/european/chapter-5/crusades-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=3 regen=true cost=$0.0003
+  [45%] lessons/medieval/european/chapter-5/feudal-system-map.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.581, threshold=0.5)]
+  [45%] lessons/medieval/european/chapter-5/hundred-years-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [45%] lessons/medieval/european/chapter-5/viking-age-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [46%] lessons/medieval/european/charlemagne.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [46%] lessons/medieval/european/crusades.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [46%] lessons/medieval/european/feudal-system.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [46%] lessons/medieval/european/hundred-years-war.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [47%] lessons/medieval/european/joan-of-arc.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0003
+  [47%] lessons/medieval/european/reconquista.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [47%] lessons/medieval/middle-eastern/abbasid-caliphate.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [48%] lessons/medieval/middle-eastern/al-andalus.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [48%] lessons/medieval/middle-eastern/al-khwarizmi.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [48%] lessons/medieval/middle-eastern/chapter-1/abbasid-caliphate-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [48%] lessons/medieval/middle-eastern/chapter-1/abbasid-caliphate-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [49%] lessons/medieval/middle-eastern/chapter-1/al-andalus-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [49%] lessons/medieval/middle-eastern/chapter-1/al-khwarizmi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [49%] lessons/medieval/middle-eastern/chapter-1/ottoman-origins-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [49%] lessons/medieval/middle-eastern/chapter-1/rise-of-islam-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [50%] lessons/medieval/middle-eastern/chapter-1/seljuk-turks-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [50%] lessons/medieval/middle-eastern/chapter-2/abbasid-caliphate-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [50%] lessons/medieval/middle-eastern/chapter-2/golden-age-islam-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [51%] lessons/medieval/middle-eastern/chapter-2/persian-literature-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [51%] lessons/medieval/middle-eastern/chapter-3/abbasid-caliphate-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [51%] lessons/medieval/middle-eastern/chapter-3/ottoman-origins-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [51%] lessons/medieval/middle-eastern/chapter-3/ottoman-origins-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [52%] lessons/medieval/middle-eastern/chapter-3/persian-literature-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [52%] lessons/medieval/middle-eastern/chapter-3/persian-literature-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [52%] lessons/medieval/middle-eastern/chapter-3/saladin-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [52%] lessons/medieval/middle-eastern/chapter-4/abbasid-caliphate-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [53%] lessons/medieval/middle-eastern/chapter-4/abbasid-caliphate-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [53%] lessons/medieval/middle-eastern/chapter-4/al-khwarizmi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=5 ✓
+  [53%] lessons/medieval/middle-eastern/chapter-4/ibn-battuta-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [54%] lessons/medieval/middle-eastern/chapter-4/mamluk-egypt-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [54%] lessons/medieval/middle-eastern/chapter-4/ottoman-origins-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [54%] lessons/medieval/middle-eastern/chapter-4/saladin-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [54%] lessons/medieval/middle-eastern/chapter-5/abbasid-caliphate-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [55%] lessons/medieval/middle-eastern/chapter-5/al-khwarizmi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [55%] lessons/medieval/middle-eastern/chapter-5/golden-age-islam-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [55%] lessons/medieval/middle-eastern/chapter-5/persian-literature-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [56%] lessons/medieval/middle-eastern/chapter-5/rise-of-islam-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [56%] lessons/medieval/middle-eastern/rise-of-islam.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [56%] lessons/modern/american/chapter-1/abraham-lincoln-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [56%] lessons/modern/american/chapter-1/great-depression-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [57%] lessons/modern/american/chapter-1/great-depression-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=8 regen=true cost=$0.0003
+  [57%] lessons/modern/american/chapter-1/immigration-america-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [57%] lessons/modern/american/chapter-1/mexican-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [57%] lessons/modern/american/chapter-1/teddy-roosevelt-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [58%] lessons/modern/american/chapter-1/teddy-roosevelt-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [58%] lessons/modern/american/chapter-1/us-civil-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [58%] lessons/modern/american/chapter-2/abraham-lincoln-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 ✓
+  [59%] lessons/modern/american/chapter-2/fdr-new-deal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+score=9 regen=true cost=$0.0002
+  [59%] lessons/modern/american/chapter-2/immigration-america-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [59%] lessons/modern/american/chapter-2/mexican-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [59%] lessons/modern/american/chapter-2/panama-canal-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [60%] lessons/modern/american/chapter-2/panama-canal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [60%] lessons/modern/american/chapter-2/teddy-roosevelt-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [60%] lessons/modern/american/chapter-2/us-civil-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [60%] lessons/modern/american/chapter-2/wright-brothers-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [61%] lessons/modern/american/chapter-3/abraham-lincoln-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=4 regen=true cost=$0.0097
+  [61%] lessons/modern/american/chapter-3/fdr-new-deal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [61%] lessons/modern/american/chapter-3/fdr-new-deal-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=9 ✓
+  [62%] lessons/modern/american/chapter-3/mexican-revolution-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [62%] lessons/modern/american/chapter-3/roaring-twenties-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=8 regen=true cost=$0.0099
+  [62%] lessons/modern/american/chapter-3/us-civil-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=8 ✓
+  [62%] lessons/modern/american/chapter-4/fdr-new-deal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [63%] lessons/modern/american/chapter-4/great-depression-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=8 ✓
+  [63%] lessons/modern/american/chapter-4/great-depression-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [63%] lessons/modern/american/chapter-4/mexican-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [64%] lessons/modern/american/chapter-4/us-civil-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [64%] lessons/modern/american/chapter-5/fdr-new-deal-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [64%] lessons/modern/american/chapter-5/great-depression-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=8 ✓
+  [64%] lessons/modern/american/chapter-5/us-civil-war-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [65%] lessons/modern/american/chapter-6/civil-rights-movement-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [65%] lessons/modern/american/chapter-6/neoliberalism-america-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [65%] lessons/modern/asian/chapter-1/ataturk-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [65%] lessons/modern/asian/chapter-1/boxer-rebellion-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [66%] lessons/modern/asian/chapter-1/fall-of-ottoman-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [66%] lessons/modern/asian/chapter-1/gandhi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [66%] lessons/modern/asian/chapter-1/russo-japanese-war-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [67%] lessons/modern/asian/chapter-1/russo-japanese-war-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [67%] lessons/modern/asian/chapter-1/sun-yat-sen-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [67%] lessons/modern/asian/chapter-1/ww2-pacific-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [67%] lessons/modern/asian/chapter-1/ww2-pacific-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.583, threshold=0.5)]
+  [68%] lessons/modern/asian/chapter-2/gandhi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [68%] lessons/modern/asian/chapter-2/indian-independence-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [68%] lessons/modern/asian/chapter-2/meiji-japan-modern-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [69%] lessons/modern/asian/chapter-2/russo-japanese-war-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [69%] lessons/modern/asian/chapter-2/sun-yat-sen-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [69%] lessons/modern/asian/chapter-2/ww2-pacific-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [69%] lessons/modern/asian/chapter-3/ataturk-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.763, threshold=0.5)]
+  [70%] lessons/modern/asian/chapter-3/chinese-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [70%] lessons/modern/asian/chapter-3/gandhi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [70%] lessons/modern/asian/chapter-3/indian-independence-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [70%] lessons/modern/asian/chapter-3/sun-yat-sen-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [71%] lessons/modern/asian/chapter-4/ataturk-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [71%] lessons/modern/asian/chapter-4/chinese-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [71%] lessons/modern/asian/chapter-4/fall-of-ottoman-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [72%] lessons/modern/asian/chapter-4/fall-of-ottoman-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [72%] lessons/modern/asian/chapter-4/gandhi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [72%] lessons/modern/asian/chapter-4/indian-independence-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [72%] lessons/modern/asian/chapter-4/meiji-japan-modern-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.512, threshold=0.5)]
+  [73%] lessons/modern/asian/chapter-4/russo-japanese-war-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [73%] lessons/modern/asian/chapter-5/fall-of-ottoman-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [73%] lessons/modern/asian/chapter-5/gandhi-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [73%] lessons/modern/asian/chapter-5/gandhi-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [74%] lessons/modern/asian/chapter-5/indian-independence-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [74%] lessons/modern/asian/chapter-5/meiji-japan-modern-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [74%] lessons/modern/asian/chapter-5/ww2-pacific-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [75%] lessons/modern/asian/chapter-6/asian-economic-rise-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [75%] lessons/modern/asian/chapter-6/india-emergence-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [75%] lessons/modern/asian/chapter-6/japan-economic-miracle-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [75%] lessons/modern/asian/chapter-6/rise-of-china-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [76%] lessons/modern/european/chapter-1/anne-frank-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [76%] lessons/modern/european/chapter-1/league-of-nations-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [76%] lessons/modern/european/chapter-1/marie-curie-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.621, threshold=0.5)]
+  [77%] lessons/modern/european/chapter-1/rise-of-fascism-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [77%] lessons/modern/european/chapter-1/russian-revolution-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [77%] lessons/modern/european/chapter-1/russian-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [77%] lessons/modern/european/chapter-1/treaty-of-versailles-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.674, threshold=0.5)]
+  [78%] lessons/modern/european/chapter-1/winston-churchill-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [78%] lessons/modern/european/chapter-1/womens-suffrage-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [78%] lessons/modern/european/chapter-1/womens-suffrage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [78%] lessons/modern/european/chapter-1/world-war-1-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.565, threshold=0.5)]
+  [79%] lessons/modern/european/chapter-1/world-war-2-europe-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [79%] lessons/modern/european/chapter-2/anne-frank-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [79%] lessons/modern/european/chapter-2/rise-of-fascism-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [80%] lessons/modern/european/chapter-2/russian-revolution-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [80%] lessons/modern/european/chapter-2/russian-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [80%] lessons/modern/european/chapter-2/world-war-1-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [80%] lessons/modern/european/chapter-2/world-war-2-europe-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [81%] lessons/modern/european/chapter-3/anne-frank-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [81%] lessons/modern/european/chapter-3/rise-of-fascism-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [81%] lessons/modern/european/chapter-3/womens-suffrage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [81%] lessons/modern/european/chapter-3/world-war-1-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [82%] lessons/modern/european/chapter-3/world-war-2-europe-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [82%] lessons/modern/european/chapter-4/league-of-nations-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [82%] lessons/modern/european/chapter-4/russian-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [83%] lessons/modern/european/chapter-4/treaty-of-versailles-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [83%] lessons/modern/european/chapter-4/treaty-of-versailles-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [83%] lessons/modern/european/chapter-4/winston-churchill-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [83%] lessons/modern/european/chapter-4/winston-churchill-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [84%] lessons/modern/european/chapter-4/world-war-1-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.665, threshold=0.5)]
+  [84%] lessons/modern/european/chapter-5/rise-of-fascism-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [84%] lessons/modern/european/chapter-5/russian-revolution-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [85%] lessons/modern/european/chapter-5/womens-suffrage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [85%] lessons/modern/european/chapter-6/cold-war-europe-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [85%] lessons/modern/european/chapter-6/collapse-soviet-union-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [85%] lessons/modern/european/chapter-6/decolonization-africa-asia-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [86%] lessons/modern/european/chapter-6/decolonization-africa-asia-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [86%] lessons/modern/european/chapter-6/neoliberalism-globalism-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [86%] lessons/renaissance/european/chapter-1/northern-renaissance-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [86%] lessons/renaissance/european/chapter-1/reformation-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [87%] lessons/renaissance/european/chapter-1/shakespeare-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [87%] lessons/renaissance/european/chapter-1/spanish-inquisition-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.782, threshold=0.5)]
+  [87%] lessons/renaissance/european/chapter-2/gutenberg-press-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [88%] lessons/renaissance/european/chapter-2/leonardo-da-vinci-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.667, threshold=0.5)]
+  [88%] lessons/renaissance/european/chapter-2/northern-renaissance-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=9 ✓
+  [88%] lessons/renaissance/european/chapter-2/reformation-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [88%] lessons/renaissance/european/chapter-3/leonardo-da-vinci-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.675, threshold=0.5)]
+  [89%] lessons/renaissance/european/chapter-3/leonardo-da-vinci-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 300x256 (~102 image tokens)
+score=5 ✓
+  [89%] lessons/renaissance/european/chapter-3/shakespeare-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+[anthropic-vision] downscaled to 256x256 (~87 image tokens)
+score=5 ✓
+  [89%] lessons/renaissance/european/chapter-3/spanish-inquisition-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [90%] lessons/renaissance/european/chapter-4/gutenberg-press-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [90%] lessons/renaissance/european/chapter-4/italian-renaissance-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [90%] lessons/renaissance/european/chapter-4/medici-family-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [90%] lessons/renaissance/european/chapter-4/reformation-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [91%] lessons/renaissance/european/chapter-4/reformation-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [91%] lessons/renaissance/european/chapter-4/spanish-inquisition-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.717, threshold=0.5)]
+  [91%] lessons/renaissance/european/chapter-5/gutenberg-press-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [91%] lessons/renaissance/european/chapter-5/italian-renaissance-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.785, threshold=0.5)]
+  [92%] lessons/renaissance/european/chapter-5/leonardo-da-vinci-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [92%] lessons/renaissance/european/chapter-5/northern-renaissance-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [92%] lessons/renaissance/european/chapter-5/reformation-timeline.webp ... [ds 600x338 from 1280x720] score=1 regen=true [pixel:corner-bg-fill (fraction=0.508, threshold=0.5)]
+  [93%] lessons/renaissance/european/chapter-5/shakespeare-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [93%] lessons/renaissance/european/chapter-5/spanish-inquisition-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.598, threshold=0.5)]
+  [93%] lessons/renaissance/global/chapter-1/aztec-empire-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [93%] lessons/renaissance/global/chapter-1/columbian-exchange-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [94%] lessons/renaissance/global/chapter-1/inca-empire-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [94%] lessons/renaissance/global/chapter-1/spanish-conquest-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [94%] lessons/renaissance/global/chapter-1/vasco-da-gama-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [94%] lessons/renaissance/global/chapter-2/african-slave-trade-begins-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [95%] lessons/renaissance/global/chapter-2/inca-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [95%] lessons/renaissance/global/chapter-2/portuguese-trade-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [95%] lessons/renaissance/global/chapter-2/spanish-conquest-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [96%] lessons/renaissance/global/chapter-3/african-slave-trade-begins-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [96%] lessons/renaissance/global/chapter-3/columbian-exchange-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [96%] lessons/renaissance/global/chapter-3/columbus-voyage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [96%] lessons/renaissance/global/chapter-3/spanish-conquest-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [97%] lessons/renaissance/global/chapter-4/african-slave-trade-begins-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [97%] lessons/renaissance/global/chapter-4/aztec-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [97%] lessons/renaissance/global/chapter-4/columbian-exchange-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [98%] lessons/renaissance/global/chapter-4/columbus-voyage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [98%] lessons/renaissance/global/chapter-4/spanish-conquest-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [98%] lessons/renaissance/global/chapter-4/vasco-da-gama-scene.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [98%] lessons/renaissance/global/chapter-5/aztec-empire-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [99%] lessons/renaissance/global/chapter-5/columbian-exchange-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [99%] lessons/renaissance/global/chapter-5/columbus-voyage-timeline.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [99%] lessons/renaissance/global/chapter-5/magellan-circumnavigation-map.webp ... [ds 600x338 from 1280x720] [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [99%] lessons/renaissance/global/chapter-5/magellan-circumnavigation-portrait.webp ... score=1 regen=true [pixel:corner-bg-fill (fraction=0.631, threshold=0.5)]
+  [100%] lessons/renaissance/global/chapter-5/ming-treasure-voyages-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+  [100%] lessons/renaissance/global/chapter-5/portuguese-trade-portrait.webp ... [vision-chain] provider 1/4 failed (Image call limit reached: 100/100 calls.), falling back
+[vision-chain] provider 2/4 failed (Vision API 400: {"error":{"code":"1210","message":"messages.content.type 参数非法，取值范围 ['text']"}}), falling back
+[vision-chain] provider 3/4 failed (Image call limit reached: 100/100 calls.), falling back
+FAILED
+
+════════════════════════════════════════════════════════════
+  AUDIT SUMMARY
+════════════════════════════════════════════════════════════
+  Total:      362 image(s)
+  Audited:    327
+  Failed:     35
+  Needs regen: 82
+  Avg score:  6.6/10
+  Total cost: $1.0849
+
+  Quality distribution:
+    High (7-10):  170
+    Medium (4-6): 124
+    Low (1-3):    33
+
+  Issue frequency:
+    too many visible text words: 14 > 3: 9
+    too many visible text words: 6 > 3: 7
+    too many visible text words: 12 > 3: 7
+    too many visible text words: 4 > 3: 5
+    too many visible text words: 24 > 3: 4
+    misspelled or non-English text inside the image: 3
+    art-style mismatch: Industrial Revolution era engraving and sepia lithograph style: 3
+    too many visible text words: 10 > 3: 3
+    too many visible text words: 28 > 3: 3
+    too many visible text words: 7 > 3: 3
+
+  Regeneration candidates (82):
+    lessons/ancient/_general/chapter-5/iron-age-ch5-portrait.webp — score: 5, issues: Art style does not match the required 'High quality realistic (RPG) manga style' — the image is a polished painterly digital illustration without manga linework or cel-shading characteristics., art-style mismatch: High quality realistic (RPG) manga style., Style is high-quality painterly/digital illustration but is not manga; lacks manga-specific rendering features such as linework, cel-shading, and anime-influenced stylization required for 'High quality realistic (RPG) manga style'.
+    lessons/early-modern/american/chapter-5/us-constitution-portrait.webp — score: 2, issues: Visible text on the document contains many words (far exceeding the 3-word limit), appearing as illegible cursive paragraph filler rather than meaningful transcription, Text on the document appears garbled and contains nonsensical/illegible cursive strokes that do not form coherent English words, Excessive in-image text dominates a significant portion of the document on the table, The cursive writing on the parchment is rendered as illegible squiggles rather than readable text, misspelled or non-English text inside the image, excessive text dominating the illustration, too many visible text words: 50 > 3
+    lessons/early-modern/european/chapter-2/baroque-art-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.559, threshold=0.5)
+    lessons/early-modern/european/chapter-3/napoleon-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.821, threshold=0.5)
+    lessons/early-modern/european/chapter-3/thirty-years-war-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.562, threshold=0.5)
+    lessons/industrial/european/chapter-2/charles-dickens-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.677, threshold=0.5)
+    lessons/industrial/european/chapter-2/factory-system-map.webp — score: 5, issues: Art style deviates from required Industrial Revolution era engraving and sepia lithograph aesthetic — image uses modern colored cartoon-style vignettes rather than period-appropriate monochrome engraving/lithograph rendering., art-style mismatch: Industrial Revolution era engraving and sepia lithograph style, Style is a modern colored digital illustration with flat cartoon-like vignettes, not an Industrial Revolution era engraving or sepia lithograph. The required style should feature monochrome/limited palette, cross-hatching, stippling, and period-accurate engraving aesthetics rather than contemporary colored cartoon rendering.
+    lessons/industrial/european/chapter-2/steam-engine-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.696, threshold=0.5)
+    lessons/industrial/european/chapter-3/great-exhibition-map.webp — score: 9, issues: too many visible text words: 6 > 3
+    lessons/industrial/european/chapter-4/charles-dickens-portrait.webp — score: 3, issues: Visible text on the newspaper held by Dickens reads 'THE SMAIL' (or similar garbled string) which is misspelled/garbled, Visible text on book spine appears as 'SMAIL ATLIT' or similar garbled/misspelled characters, Text on newspaper and book exceeds acceptable integrated scene text and contains nonsensical/garbled words, Some newspaper text appears as illegible squiggles suggesting garbled OCR-like content, misspelled or non-English text inside the image, too many visible text words: 4 > 3
+    lessons/industrial/european/chapter-4/railways-timeline.webp — score: 7, issues: Visible text labels are duplicated (appears both at top and bottom of the image), doubling the effective text word count, Visible text contains 10 words which exceeds the 3-word maximum allowance, Text labels are rendered in a clean sans-serif font that doesn't quite match the engraved/lithograph style of the illustration itself, The illustration panels have a somewhat soft, digitally rendered quality rather than the crisp linework characteristic of true engravings or sepia lithographs, too many visible text words: 10 > 3
+    lessons/industrial/european/chapter-5/urbanization-map.webp — score: 4, issues: Art style does not match the required Industrial Revolution era engraving and sepia lithograph style, Uses modern flat-color digital illustration rendering rather than period-appropriate engraving aesthetics, art-style mismatch: Industrial Revolution era engraving and sepia lithograph style, Style is a colorful modern digital illustration with bright flat colors, not an Industrial Revolution era engraving or sepia lithograph, Requires muted sepia/brown tones characteristic of period lithographs, not the saturated greens, blues, and reds shown, Missing the cross-hatching, linework, and period-accurate engraving aesthetic of the required style
+    lessons/industrial/european/great-exhibition.webp — score: 5, issues: Art style mismatch: image is a polished modern digital illustration, not a sepia-toned engraving/lithograph from the Industrial Revolution era, Color palette is vibrant and full-spectrum rather than sepia/ochre, art-style mismatch: Industrial Revolution era engraving and sepia lithograph style, Rendered in a fully saturated, modern digital painterly style with vivid colors and smooth gradients, rather than the muted sepia tones, hatching/cross-hatching, and flat color fills characteristic of Industrial Revolution era engravings and lithographs
+    lessons/industrial/global/chapter-1/american-industrialization-map.webp — score: 6, issues: Visible text exceeds 3-word threshold: city labels (Buffalo, Boston, New York, Philadelphia, Cincinnati), map title (American Industrialization Map), and legend (Factories, Railway, Mines, City) total 16 words, Image is text-heavy with numerous labels, diminishing visual focus, too many visible text words: 16 > 3
+    lessons/industrial/global/chapter-1/harriet-tubman-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.646, threshold=0.5)
+    lessons/industrial/global/chapter-2/american-industrialization-map.webp — score: 4, issues: Visible text contains 13 city names (Boston, New York, Philadelphia, Baltimore, Buffalo, Chicago, St. Louis, Birmingham, Iowa, San Francisco area, etc.), exceeding the 3-word maximum allowed for in-image text, Requires regeneration to reduce visible text to minimal labeling appropriate for an illustration, too many visible text words: 13 > 3
+    lessons/industrial/global/chapter-2/harriet-tubman-portrait.webp — score: 1, issues: pixel:corner-bg-fill (fraction=0.701, threshold=0.5)
+    lessons/industrial/global/chapter-2/opium-wars-map.webp — score: 9, issues: Visible text exceeds 3 words: 'UK', 'INDIA', 'CHINA', 'Calcutta', 'Hong Kong', 'Nanking' (6 words across labels). Borderline excessive labeling but integrated into the map scene at appropriate scale., too many visible text words: 6 > 3
+    lessons/industrial/global/chapter-3/harriet-tubman-portrait.webp — score: 1, issues: low luminance variation (std=20.2)
+    lessons/industrial/global/chapter-4/abolition-slavery-timeline.webp — score: 8, issues: The visible text 'THE NARRATIVE' (plus the small title above it, 'The Narrative of ___' which is partially obscured but appears to read as a proper book title) is rendered as a prominent book cover/prop and sits at roughly 4 words visible. This is on the borderline of the >3 words threshold but it functions as an integrated scene element (a book cover being shown to readers), so it is acceptable., Composition is dense and narratively rich, fitting the imperial-era globe-trotting steam-and-sail aesthetic well., too many visible text words: 4 > 3
+    ... and 62 more
+
+  Results saved to: /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-remainder-reaudit-2026-09-28.json

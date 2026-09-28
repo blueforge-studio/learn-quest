@@ -1,0 +1,91 @@
+{
+ "auditDate": "2026-09-24",
+ "auditModel": "minimax-m3 (chain: minimax-anthropic\u2192glm\u2192qwen\u2192anthropic)",
+ "sourceDirectory": "/Volumes/SSD/Projects/Repos/lq-history/public/images",
+ "baseImagesOnly": true,
+ "bar": "default relaxed bar \u2014 22 era/region path rules enforced; 177 ancient/_general fall to rpg preset; no --art-style override (comparable to Aug-9 partial)",
+ "summary": {
+  "total": 2,
+  "audited": 2266,
+  "failed": 0,
+  "needsRegen": 2,
+  "avgScore": 3.72,
+  "totalCost": "3.9928"
+ },
+ "results": [
+  {
+   "image": "lessons/renaissance/global/chapter-5/ming-treasure-voyages-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.546, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.546, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/portuguese-trade-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=73.4%, nearBlack=5.1%)"
+    ]
+   }
+  }
+ ]
+}

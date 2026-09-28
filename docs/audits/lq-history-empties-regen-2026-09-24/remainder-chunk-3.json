@@ -1,0 +1,1184 @@
+{
+ "auditDate": "2026-09-24",
+ "auditModel": "minimax-m3",
+ "auditProvider": "minimax",
+ "sourceDirectory": "/Volumes/SSD/Projects/Repos/lq-history/public/images",
+ "baseImagesOnly": true,
+ "variantRule": "Files matching --<size> are derived downscaled variants and are not audited separately.",
+ "summary": {
+  "total": 32,
+  "audited": 662,
+  "failed": 0,
+  "needsRegen": 32,
+  "avgScore": "3.5",
+  "totalCost": "1.0771"
+ },
+ "results": [
+  {
+   "image": "lessons/renaissance/european/chapter-5/italian-renaissance-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.584, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.584, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/leonardo-da-vinci-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.529, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.529, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/northern-renaissance-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.706, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.706, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/reformation-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.890, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.890, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/shakespeare-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.569, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.569, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.500, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.500, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-1/aztec-empire-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=73.1%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-1/columbian-exchange-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.806, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.806, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-1/inca-empire-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.513, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.513, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-1/spanish-conquest-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=90.5%, colorful=2.42%)",
+    "low luminance variation (std=17.7)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=90.5%, colorful=2.42%)",
+     "low luminance variation (std=17.7)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-1/vasco-da-gama-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.539, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.539, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-2/african-slave-trade-begins-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.916, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.916, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=60.0%, nearBlack=0.1%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-2/inca-empire-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.699, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.699, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-2/portuguese-trade-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.731, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.731, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=65.5%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-2/spanish-conquest-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=88.1%, colorful=9.44%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=88.1%, colorful=9.44%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-3/african-slave-trade-begins-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.810, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.810, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-3/columbian-exchange-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill-refilled (fraction=0.662, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill-refilled (fraction=0.662, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-3/columbus-voyage-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.876, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.876, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-3/spanish-conquest-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.675, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.675, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-4/african-slave-trade-begins-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.653, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.653, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=64.4%, nearBlack=0.1%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-4/aztec-empire-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.901, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.901, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-4/columbian-exchange-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.633, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.633, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-4/columbus-voyage-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=88.0%, colorful=3.39%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=88.0%, colorful=3.39%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-4/spanish-conquest-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.885, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.885, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-4/vasco-da-gama-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.649, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.649, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/aztec-empire-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.580, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.580, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/columbian-exchange-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.593, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.593, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/columbus-voyage-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=80.1%, colorful=15.29%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=80.1%, colorful=15.29%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/magellan-circumnavigation-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.597, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.597, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/magellan-circumnavigation-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.702, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.702, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=69.6%, nearBlack=0.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/ming-treasure-voyages-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.546, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.546, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/global/chapter-5/portuguese-trade-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=73.4%, nearBlack=5.1%)"
+    ]
+   }
+  }
+ ]
+}

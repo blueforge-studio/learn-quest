@@ -1,0 +1,6064 @@
+{
+ "auditDate": "2026-09-24",
+ "auditModel": "minimax-m3",
+ "auditProvider": "minimax",
+ "sourceDirectory": "/Volumes/SSD/Projects/Repos/lq-history/public/images",
+ "baseImagesOnly": true,
+ "variantRule": "Files matching --<size> are derived downscaled variants and are not audited separately.",
+ "summary": {
+  "total": 165,
+  "audited": 662,
+  "failed": 0,
+  "needsRegen": 165,
+  "avgScore": "3.5",
+  "totalCost": "1.0771"
+ },
+ "results": [
+  {
+   "image": "lessons/medieval/european/crusades.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.803, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.803, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=78.8%, nearBlack=0.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/european/feudal-system.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.519, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.519, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=50.4%, nearBlack=4.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/european/hundred-years-war.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.642, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.642, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=62.0%, nearBlack=0.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/european/joan-of-arc.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.692, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.692, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=66.0%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/european/reconquista.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.685, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.685, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=67.6%, nearBlack=0.1%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/abbasid-caliphate.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.674, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.674, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=65.9%, nearBlack=0.4%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/al-andalus.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.545, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.545, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/al-khwarizmi.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.571, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.571, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=56.7%, nearBlack=1.6%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/abbasid-caliphate-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.921, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.921, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/abbasid-caliphate-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill-refilled (fraction=0.570, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill-refilled (fraction=0.570, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=50.4%, nearBlack=6.6%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/al-andalus-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.805, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.805, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/al-khwarizmi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.540, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.540, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/ottoman-origins-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.867, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.867, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/rise-of-islam-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=80.5%, colorful=0.51%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=80.5%, colorful=0.51%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-1/seljuk-turks-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.591, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.591, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-2/abbasid-caliphate-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.826, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.826, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-2/golden-age-islam-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.821, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.821, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-2/persian-literature-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.643, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.643, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-3/abbasid-caliphate-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.553, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.553, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=51.5%, nearBlack=7.5%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-3/ottoman-origins-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.791, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.791, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-3/ottoman-origins-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.545, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.545, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-3/persian-literature-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.565, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.565, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-3/persian-literature-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.589, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.589, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-3/saladin-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.637, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.637, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/abbasid-caliphate-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.960, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.960, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/abbasid-caliphate-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.511, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.511, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/al-khwarizmi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.668, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.668, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/ibn-battuta-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.504, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.504, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/mamluk-egypt-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.830, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.830, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/ottoman-origins-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.785, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.785, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-4/saladin-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.678, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.678, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-5/abbasid-caliphate-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.693, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.693, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-5/al-khwarizmi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.544, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.544, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=54.4%, nearBlack=9.7%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-5/golden-age-islam-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.544, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.544, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-5/persian-literature-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.649, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.649, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/chapter-5/rise-of-islam-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.817, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.817, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=61.3%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/medieval/middle-eastern/rise-of-islam.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.938, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.938, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=76.8%, nearBlack=0.2%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/abraham-lincoln-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.787, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.694, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.787, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.694, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=58.1%, nearBlack=11.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/great-depression-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.635, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.635, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/great-depression-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.686, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.686, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/immigration-america-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.561, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.561, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/mexican-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=94.4%, colorful=2.33%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=94.4%, colorful=2.33%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/teddy-roosevelt-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.725, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.725, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/teddy-roosevelt-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.702, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.702, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-1/us-civil-war-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=85.8%, colorful=0.14%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=85.8%, colorful=0.14%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/abraham-lincoln-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.702, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.702, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/fdr-new-deal-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.574, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.574, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/immigration-america-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.502, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.502, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/mexican-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=80.2%, colorful=3.55%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=80.2%, colorful=3.55%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/panama-canal-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.954, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.954, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/panama-canal-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.542, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.542, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/teddy-roosevelt-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.579, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.579, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/us-civil-war-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.659, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.659, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=64.7%, nearBlack=2.1%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-2/wright-brothers-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.501, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.501, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=54.1%, nearBlack=5.9%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-3/abraham-lincoln-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.749, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.756, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.749, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.756, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=55.6%, nearBlack=20.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-3/fdr-new-deal-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.736, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.736, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-3/fdr-new-deal-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.706, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.706, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-3/mexican-revolution-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=80.9%, colorful=11.30%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=80.9%, colorful=11.30%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-3/roaring-twenties-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.614, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.614, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-3/us-civil-war-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.587, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.587, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=58.0%, nearBlack=1.7%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-4/fdr-new-deal-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.662, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.662, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-4/great-depression-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.567, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.567, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-4/great-depression-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.709, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.709, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-4/mexican-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=92.2%, colorful=5.69%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=92.2%, colorful=5.69%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-4/us-civil-war-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.789, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.789, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=78.4%, nearBlack=0.9%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-5/fdr-new-deal-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.650, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.650, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-5/great-depression-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.552, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.552, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-5/us-civil-war-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.587, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.587, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-6/civil-rights-movement-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.862, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.862, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/american/chapter-6/neoliberalism-america-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=88.9%, colorful=2.79%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=88.9%, colorful=2.79%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/ataturk-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.532, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.532, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=54.4%, nearBlack=6.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/boxer-rebellion-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.543, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.543, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/fall-of-ottoman-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.507, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.507, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/gandhi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.583, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.583, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=62.3%, nearBlack=7.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/russo-japanese-war-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.655, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.655, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=66.1%, nearBlack=1.4%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/russo-japanese-war-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.609, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.609, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/sun-yat-sen-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.560, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.560, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/ww2-pacific-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.524, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.524, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-1/ww2-pacific-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.897, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.897, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-2/gandhi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.604, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.604, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=62.3%, nearBlack=2.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-2/indian-independence-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.507, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.507, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-2/meiji-japan-modern-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.570, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.570, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-2/russo-japanese-war-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.528, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.528, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-2/sun-yat-sen-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.718, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.718, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=60.1%, nearBlack=2.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-2/ww2-pacific-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.958, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.958, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-3/ataturk-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.743, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.743, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-3/chinese-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=89.8%, colorful=6.19%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=89.8%, colorful=6.19%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-3/gandhi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.660, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.756, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.660, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.756, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=66.2%, nearBlack=9.5%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-3/indian-independence-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=96.0%, colorful=1.13%)",
+    "low luminance variation (std=24.7)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=96.0%, colorful=1.13%)",
+     "low luminance variation (std=24.7)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-3/sun-yat-sen-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.643, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.643, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/ataturk-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.756, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.756, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/chinese-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.760, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.760, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=61.3%, nearBlack=1.4%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/fall-of-ottoman-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.566, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.566, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/fall-of-ottoman-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.831, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.831, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=64.4%, nearBlack=0.2%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/gandhi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.630, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.630, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/indian-independence-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.748, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.748, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/meiji-japan-modern-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.741, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.741, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=73.8%, nearBlack=0.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-4/russo-japanese-war-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.555, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.555, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-5/fall-of-ottoman-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.789, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.789, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-5/gandhi-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.734, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=72.3%, nearBlack=4.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-5/gandhi-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.536, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.536, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=58.7%, nearBlack=1.7%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-5/indian-independence-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=95.4%, colorful=1.32%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=95.4%, colorful=1.32%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-5/meiji-japan-modern-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.830, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.830, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=78.8%, nearBlack=1.9%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-5/ww2-pacific-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.707, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.707, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-6/asian-economic-rise-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.743, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.743, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=70.9%, nearBlack=0.2%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-6/india-emergence-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.640, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.640, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-6/japan-economic-miracle-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=83.0%, colorful=0.97%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=83.0%, colorful=0.97%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/asian/chapter-6/rise-of-china-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=92.2%, colorful=4.03%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=92.2%, colorful=4.03%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/anne-frank-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.557, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.557, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/league-of-nations-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.577, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.577, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/marie-curie-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.760, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.666, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.760, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.666, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=53.7%, nearBlack=12.9%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/rise-of-fascism-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.778, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.778, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/russian-revolution-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.547, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.547, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/russian-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.671, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.671, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=59.0%, nearBlack=0.8%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/treaty-of-versailles-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.761, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.526, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.761, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.526, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/winston-churchill-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.542, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.542, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/womens-suffrage-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.526, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.526, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/womens-suffrage-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.784, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.784, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=76.8%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/world-war-1-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=92.8%, colorful=0.30%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=92.8%, colorful=0.30%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-1/world-war-2-europe-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill-refilled (fraction=0.571, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill-refilled (fraction=0.571, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-2/anne-frank-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.669, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.669, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-2/rise-of-fascism-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.843, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.843, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-2/russian-revolution-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.766, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.766, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=76.7%, nearBlack=0.4%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-2/russian-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.930, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.930, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-2/world-war-1-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.780, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.780, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=74.7%, nearBlack=1.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-2/world-war-2-europe-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.964, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.964, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-3/anne-frank-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.598, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.598, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-3/rise-of-fascism-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.618, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.618, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-3/womens-suffrage-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.886, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.886, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-3/world-war-1-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.915, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.915, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-3/world-war-2-europe-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=83.3%, colorful=3.44%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=83.3%, colorful=3.44%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/league-of-nations-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.693, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.693, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/russian-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.720, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.720, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=73.2%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/treaty-of-versailles-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.729, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.729, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/treaty-of-versailles-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.757, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.757, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/winston-churchill-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.668, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.668, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=66.8%, nearBlack=25.6%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/winston-churchill-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.635, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.635, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-4/world-war-1-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=87.0%, colorful=0.33%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=87.0%, colorful=0.33%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-5/rise-of-fascism-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.655, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.655, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-5/russian-revolution-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.544, threshold=0.5)",
+    "pixel:corner-bg-fill-refilled (fraction=0.533, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.544, threshold=0.5)",
+     "pixel:corner-bg-fill-refilled (fraction=0.533, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=53.3%, nearBlack=0.0%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-5/womens-suffrage-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.685, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.685, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=68.2%, nearBlack=2.1%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-6/cold-war-europe-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.827, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.827, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-6/collapse-soviet-union-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.776, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.776, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=76.5%, nearBlack=2.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-6/decolonization-africa-asia-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.555, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.555, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=56.0%, nearBlack=1.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-6/decolonization-africa-asia-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.917, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.917, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/modern/european/chapter-6/neoliberalism-globalism-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=95.0%, colorful=0.68%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=95.0%, colorful=0.68%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-1/northern-renaissance-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.673, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.673, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-1/reformation-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "mostly white background with limited content (nearWhite=81.4%, colorful=10.83%)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "mostly white background with limited content (nearWhite=81.4%, colorful=10.83%)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-1/shakespeare-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.568, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.568, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-1/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.554, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.554, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=55.9%, nearBlack=0.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-2/gutenberg-press-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.513, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.513, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-2/leonardo-da-vinci-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.784, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.784, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-2/northern-renaissance-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.531, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.531, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-2/reformation-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill-refilled (fraction=0.511, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill-refilled (fraction=0.511, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-3/leonardo-da-vinci-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.657, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.657, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-3/leonardo-da-vinci-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.592, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.592, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-3/shakespeare-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.507, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.507, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-3/spanish-inquisition-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.596, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.596, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/gutenberg-press-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.535, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.535, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=52.8%, nearBlack=10.4%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/italian-renaissance-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill-refilled (fraction=0.518, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill-refilled (fraction=0.518, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/medici-family-map.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.556, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.556, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=53.3%, nearBlack=0.3%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/reformation-scene.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.556, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.556, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/reformation-timeline.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": true,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.806, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.806, threshold=0.5)"
+    ],
+    "softFailReasons": [
+     "dominant empty background (nearWhite=78.3%, nearBlack=0.4%)"
+    ]
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-4/spanish-inquisition-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.541, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.541, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  },
+  {
+   "image": "lessons/renaissance/european/chapter-5/gutenberg-press-portrait.webp",
+   "success": true,
+   "has_meaningful_visual": false,
+   "is_text_only": false,
+   "has_text": false,
+   "has_misspelled_text": false,
+   "has_excessive_text": false,
+   "has_checkerboard": false,
+   "has_border_artifact": false,
+   "has_bad_background": false,
+   "has_dominant_empty_background": false,
+   "has_childish_style": false,
+   "has_large_text_label": false,
+   "visible_text_word_count": 0,
+   "art_style_match": true,
+   "art_style_issues": [],
+   "filename_valid": true,
+   "filename_issues": [],
+   "label_integrity": "not_applicable",
+   "quality_score": 1,
+   "issues": [
+    "pixel:corner-bg-fill (fraction=0.778, threshold=0.5)"
+   ],
+   "needs_regeneration": true,
+   "cost": 0,
+   "llm_skipped": true,
+   "non_llm_audit": {
+    "hardFail": true,
+    "softFail": false,
+    "hardFailReasons": [
+     "pixel:corner-bg-fill (fraction=0.778, threshold=0.5)"
+    ],
+    "softFailReasons": []
+   }
+  }
+ ]
+}

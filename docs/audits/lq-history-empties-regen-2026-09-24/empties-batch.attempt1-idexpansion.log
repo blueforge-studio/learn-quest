@@ -1,0 +1,161 @@
+[chunk 1] start 
+📋 165 regen candidates from /Volumes/SSD/Projects/Repos/learn-quest/docs/audits/lq-history-empties-regen-2026-09-24/empties-chunk-1.json
+   Target: lq-history
+   Configs: /Volumes/SSD/Projects/Repos/lq-tools/packages/image-tools/src/config/subjects/history
+   Output:  /Volumes/SSD/Projects/Repos/lq-history/public/images
+   Provider: gemini
+   Model:   gemini-3.1-flash-image
+   Batch API: yes (50% cheaper)
+   Budget:  $10
+   Dry run: false
+
+📊 Plan: 1 config(s), 131 images
+
+  history/lessons-ancient.json
+    Images: 131, dirs: 25 different
+      ancient-inventions-ch2.webp → /lessons/ancient/_general
+      ancient-inventions-ch3.webp → /lessons/ancient/_general
+      ancient-inventions-ch4.webp → /lessons/ancient/_general
+      ancient-inventions-ch5.webp → /lessons/ancient/_general
+      ancient-inventions.webp → /lessons/ancient/_general
+      ancient-laws-ch2.webp → /lessons/ancient/_general
+      ancient-trade-ch2.webp → /lessons/ancient/_general
+      ancient-warfare-ch3.webp → /lessons/ancient/_general
+      bronze-age-ch5.webp → /lessons/ancient/_general
+      ancient-inventions-timeline.webp → /lessons/ancient/_general/chapter-1
+      ancient-laws-portrait.webp → /lessons/ancient/_general/chapter-1
+      ancient-trade-portrait.webp → /lessons/ancient/_general/chapter-1
+      bronze-age-portrait.webp → /lessons/ancient/_general/chapter-1
+      fall-of-empires-portrait.webp → /lessons/ancient/_general/chapter-1
+      first-civilizations-portrait.webp → /lessons/ancient/_general/chapter-1
+      iron-age-portrait.webp → /lessons/ancient/_general/chapter-1
+      stone-age-era-exploration-portrait.webp → /lessons/ancient/_general/chapter-1
+      timeline-past-present-future-scene.webp → /lessons/ancient/_general/chapter-1
+      ancient-inventions-ch2-scene.webp → /lessons/ancient/_general/chapter-2
+      ancient-laws-ch2-portrait.webp → /lessons/ancient/_general/chapter-2
+      fall-of-empires-ch2-scene.webp → /lessons/ancient/_general/chapter-2
+      fall-of-empires-ch2-timeline.webp → /lessons/ancient/_general/chapter-2
+      first-civilizations-ch2-timeline.webp → /lessons/ancient/_general/chapter-2
+      invention-of-writing-ch2-map.webp → /lessons/ancient/_general/chapter-2
+      fall-of-empires-ch3-scene.webp → /lessons/ancient/_general/chapter-3
+      invention-of-writing-ch3-map.webp → /lessons/ancient/_general/chapter-3
+      invention-of-writing-ch3-portrait.webp → /lessons/ancient/_general/chapter-3
+      ancient-inventions-ch4-timeline.webp → /lessons/ancient/_general/chapter-4
+      ancient-religions-ch4-portrait.webp → /lessons/ancient/_general/chapter-4
+      first-civilizations-ch4-timeline.webp → /lessons/ancient/_general/chapter-4
+      iron-age-ch4-portrait.webp → /lessons/ancient/_general/chapter-4
+      ancient-inventions-ch5-timeline.webp → /lessons/ancient/_general/chapter-5
+      ancient-religions-ch5-map.webp → /lessons/ancient/_general/chapter-5
+      ancient-trade-ch5-portrait.webp → /lessons/ancient/_general/chapter-5
+      fall-of-empires-ch5-timeline.webp → /lessons/ancient/_general/chapter-5
+      invention-of-writing-ch5-map.webp → /lessons/ancient/_general/chapter-5
+      invention-of-writing-ch5-portrait.webp → /lessons/ancient/_general/chapter-5
+      iron-age-ch5-portrait.webp → /lessons/ancient/_general/chapter-5
+      fall-of-empires-ch2.webp → /lessons/ancient/_general
+      fall-of-empires-ch3.webp → /lessons/ancient/_general
+      fall-of-empires-ch4.webp → /lessons/ancient/_general
+      fall-of-empires-ch5.webp → /lessons/ancient/_general
+      fall-of-empires.webp → /lessons/ancient/_general
+      first-civilizations-ch2.webp → /lessons/ancient/_general
+      first-civilizations-ch3.webp → /lessons/ancient/_general
+      first-civilizations-ch4.webp → /lessons/ancient/_general
+      first-civilizations-ch5.webp → /lessons/ancient/_general
+      first-civilizations.webp → /lessons/ancient/_general
+      stone-age-era-exploration.webp → /lessons/ancient/_general
+      timeline-ancient-civilizations.webp → /lessons/ancient/_general
+      timeline-past-present-future.webp → /lessons/ancient/_general
+      carthage-hannibal.webp → /lessons/ancient/african
+      aksum-empire-portrait.webp → /lessons/ancient/african/chapter-1
+      carthage-hannibal-scene.webp → /lessons/ancient/african/chapter-1
+      egyptian-gods-map.webp → /lessons/ancient/african/chapter-1
+      hatshepsut-scene.webp → /lessons/ancient/african/chapter-1
+      hieroglyphics-portrait.webp → /lessons/ancient/african/chapter-1
+      historical-figure-rosetta-stone-scribe-portrait.webp → /lessons/ancient/african/chapter-1
+      timeline-ancient-egypt-milestones-timeline.webp → /lessons/ancient/african/chapter-1
+      pyramids-of-giza-portrait.webp → /lessons/ancient/african/chapter-2
+      aksum-empire-map.webp → /lessons/ancient/african/chapter-3
+      ancient-egypt-pharaohs-portrait.webp → /lessons/ancient/african/chapter-3
+      carthage-hannibal-portrait.webp → /lessons/ancient/african/chapter-3
+      cleopatra-portrait.webp → /lessons/ancient/african/chapter-3
+      kingdom-of-kush-portrait.webp → /lessons/ancient/african/chapter-3
+      nile-river-life-map.webp → /lessons/ancient/african/chapter-3
+      pyramids-of-giza-map.webp → /lessons/ancient/african/chapter-3
+      hatshepsut-portrait.webp → /lessons/ancient/african/chapter-4
+      hieroglyphics-map.webp → /lessons/ancient/african/chapter-4
+      kingdom-of-kush-map.webp → /lessons/ancient/african/chapter-4
+      egyptian-gods.webp → /lessons/ancient/african
+      era-exploration-ancient-egypt-kingdoms.webp → /lessons/ancient/african
+      era-exploration-daily-life-in-thebes.webp → /lessons/ancient/african
+      hatshepsut.webp → /lessons/ancient/african
+      historical-figure-hatshepsut.webp → /lessons/ancient/african
+      timeline-ancient-egypt-milestones.webp → /lessons/ancient/african
+      ancient-mound-builders-portrait.webp → /lessons/ancient/american/chapter-1
+      nazca-lines-portrait.webp → /lessons/ancient/american/chapter-1
+      teotihuacan-portrait.webp → /lessons/ancient/american/chapter-1
+      zapotec-monte-alban-map.webp → /lessons/ancient/american/chapter-1
+      chavin-culture-map.webp → /lessons/ancient/american/chapter-2
+      chavin-culture-portrait.webp → /lessons/ancient/american/chapter-2
+      maya-cities-map.webp → /lessons/ancient/american/chapter-2
+      moche-civilization-portrait.webp → /lessons/ancient/american/chapter-2
+      nazca-lines-map.webp → /lessons/ancient/american/chapter-2
+      first-americans-timeline.webp → /lessons/ancient/american/chapter-3
+      moche-civilization-map.webp → /lessons/ancient/american/chapter-3
+      zapotec-monte-alban-portrait.webp → /lessons/ancient/american/chapter-4
+      maya-calendar-map.webp → /lessons/ancient/american/chapter-5
+      olmec-civilization-map.webp → /lessons/ancient/american/chapter-5
+      first-americans.webp → /lessons/ancient/american
+      moche-civilization.webp → /lessons/ancient/american
+      teotihuacan.webp → /lessons/ancient/american
+      ancient-china-dynasties.webp → /lessons/ancient/asian
+      ancient-china-india-inventions-timeline.webp → /lessons/ancient/asian
+      ancient-china-dynasties-scene.webp → /lessons/ancient/asian/chapter-1
+      ancient-china-india-inventions-timeline-scene.webp → /lessons/ancient/asian/chapter-1
+      ancient-china-india-inventions-timeline-timeline.webp → /lessons/ancient/asian/chapter-1
+      ancient-japan-portrait.webp → /lessons/ancient/asian/chapter-1
+      han-dynasty-inventions-map.webp → /lessons/ancient/asian/chapter-1
+      siddhartha-buddha-portrait.webp → /lessons/ancient/asian/chapter-1
+      ancient-china-dynasties-timeline.webp → /lessons/ancient/asian/chapter-2
+      great-wall-china-map.webp → /lessons/ancient/asian/chapter-2
+      han-dynasty-inventions-portrait.webp → /lessons/ancient/asian/chapter-2
+      qin-shi-huang-portrait.webp → /lessons/ancient/asian/chapter-2
+      silk-road-map.webp → /lessons/ancient/asian/chapter-2
+      ancient-japan-map.webp → /lessons/ancient/asian/chapter-3
+      maurya-empire-portrait.webp → /lessons/ancient/asian/chapter-3
+      silk-road-portrait.webp → /lessons/ancient/asian/chapter-3
+      confucius-portrait.webp → /lessons/ancient/asian/chapter-5
+      great-wall-china-portrait.webp → /lessons/ancient/asian/chapter-5
+      indus-valley-portrait.webp → /lessons/ancient/asian/chapter-5
+      confucius.webp → /lessons/ancient/asian
+      great-wall-china.webp → /lessons/ancient/asian
+      han-dynasty-inventions.webp → /lessons/ancient/asian
+      han-maurya-era-exploration.webp → /lessons/ancient/asian
+      indus-valley.webp → /lessons/ancient/asian
+      qin-shi-huang-historical-figure.webp → /lessons/ancient/asian
+      qin-shi-huang.webp → /lessons/ancient/asian
+      siddhartha-buddha.webp → /lessons/ancient/asian
+      siddhartha-gautama-historical-figure.webp → /lessons/ancient/asian
+      ancient-greece-timeline.webp → /lessons/ancient/european
+      athens-vs-sparta.webp → /lessons/ancient/european
+      alexander-the-great-portrait.webp → /lessons/ancient/european/chapter-1
+      ancient-greece-democracy-map.webp → /lessons/ancient/european/chapter-1
+      athens-vs-sparta-map.webp → /lessons/ancient/european/chapter-1
+      athens-vs-sparta-portrait.webp → /lessons/ancient/european/chapter-1
+      greek-olympics-portrait.webp → /lessons/ancient/european/chapter-1
+      julius-caesar-portrait.webp → /lessons/ancient/european/chapter-1
+      lesson-augustus-portrait.webp → /lessons/ancient/european/chapter-2
+      lesson-gladiators-portrait.webp → /lessons/ancient/european/chapter-2
+
+🚀 Starting regeneration...
+
+  Using Gemini gemini-3.1-flash-image (token-based pricing, budget $10)
+
+══════════════════════════════════════════════════
+  history/lessons-ancient.json
+══════════════════════════════════════════════════
+  📁 Multiple output dirs — using patched per-image outputPaths
+  🎨 131 image(s): ancient-inventions-ch2, ancient-inventions-ch3, ancient-inventions-ch4, ancient-inventions-ch5, ancient-inventions, ancient-laws-ch2, ancient-trade-ch2, ancient-warfare-ch3, bronze-age-ch5, ancient-inventions-timeline, ancient-laws-portrait, ancient-trade-portrait, bronze-age-portrait, fall-of-empires-portrait, first-civilizations-portrait, iron-age-portrait, stone-age-era-exploration-portrait, timeline-past-present-future-scene, ancient-inventions-ch2-scene, ancient-laws-ch2-portrait, fall-of-empires-ch2-scene, fall-of-empires-ch2-timeline, first-civilizations-ch2-timeline, invention-of-writing-ch2-map, fall-of-empires-ch3-scene, invention-of-writing-ch3-map, invention-of-writing-ch3-portrait, ancient-inventions-ch4-timeline, ancient-religions-ch4-portrait, first-civilizations-ch4-timeline, iron-age-ch4-portrait, ancient-inventions-ch5-timeline, ancient-religions-ch5-map, ancient-trade-ch5-portrait, fall-of-empires-ch5-timeline, invention-of-writing-ch5-map, invention-of-writing-ch5-portrait, iron-age-ch5-portrait, fall-of-empires-ch2, fall-of-empires-ch3, fall-of-empires-ch4, fall-of-empires-ch5, fall-of-empires, first-civilizations-ch2, first-civilizations-ch3, first-civilizations-ch4, first-civilizations-ch5, first-civilizations, stone-age-era-exploration, timeline-ancient-civilizations, timeline-past-present-future, carthage-hannibal, aksum-empire-portrait, carthage-hannibal-scene, egyptian-gods-map, hatshepsut-scene, hieroglyphics-portrait, historical-figure-rosetta-stone-scribe-portrait, timeline-ancient-egypt-milestones-timeline, pyramids-of-giza-portrait, aksum-empire-map, ancient-egypt-pharaohs-portrait, carthage-hannibal-portrait, cleopatra-portrait, kingdom-of-kush-portrait, nile-river-life-map, pyramids-of-giza-map, hatshepsut-portrait, hieroglyphics-map, kingdom-of-kush-map, egyptian-gods, era-exploration-ancient-egypt-kingdoms, era-exploration-daily-life-in-thebes, hatshepsut, historical-figure-hatshepsut, timeline-ancient-egypt-milestones, ancient-mound-builders-portrait, nazca-lines-portrait, teotihuacan-portrait, zapotec-monte-alban-map, chavin-culture-map, chavin-culture-portrait, maya-cities-map, moche-civilization-portrait, nazca-lines-map, first-americans-timeline, moche-civilization-map, zapotec-monte-alban-portrait, maya-calendar-map, olmec-civilization-map, first-americans, moche-civilization, teotihuacan, ancient-china-dynasties, ancient-china-india-inventions-timeline, ancient-china-dynasties-scene, ancient-china-india-inventions-timeline-scene, ancient-china-india-inventions-timeline-timeline, ancient-japan-portrait, han-dynasty-inventions-map, siddhartha-buddha-portrait, ancient-china-dynasties-timeline, great-wall-china-map, han-dynasty-inventions-portrait, qin-shi-huang-portrait, silk-road-map, ancient-japan-map, maurya-empire-portrait, silk-road-portrait, confucius-portrait, great-wall-china-portrait, indus-valley-portrait, confucius, great-wall-china, han-dynasty-inventions, han-maurya-era-exploration, indus-valley, qin-shi-huang-historical-figure, qin-shi-huang, siddhartha-buddha, siddhartha-gautama-historical-figure, ancient-greece-timeline, athens-vs-sparta, alexander-the-great-portrait, ancient-greece-democracy-map, athens-vs-sparta-map, athens-vs-sparta-portrait, greek-olympics-portrait, julius-caesar-portrait, lesson-augustus-portrait, lesson-gladiators-portrait
+
+────────────────────────────────────────────────────────────
+  .regen-tmp-lessons-ancient (328 images, batch)
+────────────────────────────────────────────────────────────
+  🚀 Submitting 328 images to Gemini Batch API...
