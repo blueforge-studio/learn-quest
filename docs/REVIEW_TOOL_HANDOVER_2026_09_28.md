@@ -11,7 +11,8 @@ This handover covers go-live for the native-speaker lesson review tool. The desi
 | lq-core#111: review app `apps/review` | **Merged** |
 | lq-tools#46: `scripts/apply-lesson-reviews.ts` | Merged |
 | learn-quest#50: `docs/REVIEW_TOOL.md` | Merged |
-| lq-core#112: declare `@learnquest/quest-prefs` in `apps/web` | Opened. Merge it once CI is green (see step 1). |
+| lq-core#112: declare `@learnquest/quest-prefs` in `apps/web` | **Merged**. The deploy it triggered was queued at the time of writing. |
+| **Prod migrations 0000–0003** applied to `platform-api` (sidecar `learnquest-core-postgres-1`) | **Done 2026-09-28** on the operator's instruction. One transaction; dry-run on PGlite first. Result: 38 public tables and 4 rows in `drizzle.__drizzle_migrations` (drizzle-compatible sha256 and `when`), so a later `db:migrate` applies only 0004+. |
 
 ## Two findings
 
@@ -29,25 +30,25 @@ This handover covers go-live for the native-speaker lesson review tool. The desi
      `learnquest-core-postgres-1`.
    - That database has **0 tables** and no `drizzle.__drizzle_migrations`. Migrations 0000–0002 were
      never applied.
-   - **Operator decision needed:** apply 0000–0002 as well, or hold until the open
-     "shared vs dedicated Postgres for platform-api" decision is settled. 0003 has no dependencies and can
-     go in on its own.
+   - **Resolved:** the operator chose to apply 0000–0003 (see Done). The "shared vs dedicated Postgres"
+     decision is still open; moving the database later means migrating this data too.
 
 ## Blocked for the agent
 
 The permission classifier blocked the production migration twice ("Production Deploy"), even with the
-operator's approval given in chat. Writing to the secret store (`forge env set`) was blocked earlier in
+operator's approval given in chat. It went through once the operator gave a direct instruction to apply
+0000–0003. Writing to the secret store (`forge env set`) was blocked earlier in
 the session. An agent can run these only after a Bash permission rule is added.
 
 ## For you to run, in order
 
-1. **Merge the build fix.** #110 and #111 are already merged.
+1. ~~**Merge the build fix.**~~ Done. Only check that the deploy went through:
    ```bash
    fgit pr checks lq-core 112        # wait for green
    fgit pr merge lq-core 112         # triggers the learnquest-core deploy with #110/#111/#112
    forge app deploys learnquest-core # expect "deployed", not "build failed for app 'web'"
    ```
-2. **Apply migration 0003** (one transaction, additive, `IF NOT EXISTS`). Run it from an lq-core
+2. ~~**Apply migration 0003**~~ **Done** (0000–0003, see above). Kept for reference (one transaction, additive, `IF NOT EXISTS`). Run it from an lq-core
    checkout on main:
    ```bash
    cd /Volumes/SSD/Projects/Repos/lq-core && git pull --rebase
