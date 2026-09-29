@@ -1,0 +1,1549 @@
+{
+ "app": "lq-balkan",
+ "lang": "croatian",
+ "locale": "de",
+ "date": "2026-09-29",
+ "pr": "https://forge-git.blueforge.studio/blueforge-studio/lq-balkan/pulls/42",
+ "branch": "content/croatian-de-locale-fill-2026-09-29",
+ "commit": "630e04b",
+ "filledStrings": 1535,
+ "lessons": 104,
+ "leftoverEnglish": [
+  "chapter-7/vocab-work.json:content/items/7/meaning (email)"
+ ],
+ "models": {
+  "primary": "MiniMax-M3 via api.minimax.io/anthropic",
+  "fallback": "glm-5.3-flash via api.z.ai paas reasoning_effort=low (thinking:disabled rejected)"
+ },
+ "estimatedCostUSD_listPrice": "~0.10 across all passes incl. discarded ch1 iterations; $0 marginal on flat plan",
+ "manualRepairs": "ch3 concept-prepositions tips/2; ch4 concept-possessives sections/1,2 tips/1,2; ch4 review sections/0-3; ch5 concept-location-words sections/1 tips/1 examples/*; ch5 multiple-choice-home q2 explanation",
+ "chapterReports": {
+  "report-croatian-de-1-dry.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "1",
+   "dryRun": true,
+   "files": 18,
+   "candidates": 2,
+   "filled": 0,
+   "seconds": 0,
+   "usage": {
+    "minimax": [
+     0,
+     0,
+     0
+    ],
+    "glm": [
+     0,
+     0,
+     0
+    ],
+    "backoffs": 0
+   },
+   "minimaxListCostUSD": 0.0,
+   "glmStringsUsed": 0,
+   "errors": [],
+   "validationFailures": [],
+   "files_detail": [
+    [
+     "chapter-1/concept-sentence-structure.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/concept-sounds.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/conversation-greetings.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/culture-intro.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/dialogue-meeting-someone.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/drill-greetings.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/drill-numbers-1-10.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/multiple-choice-basics.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/spelling-greetings.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-animals.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-basic-nouns.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-basic-phrases.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-basic-verbs.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-colors.json",
+     1,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-common-adjectives.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-pronouns.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-1/vocab-weather-basic.json",
+     1,
+     0,
+     null
+    ],
+    [
+     "chapter-1/word-order-simple.json",
+     0,
+     0,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-1.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "1",
+   "dryRun": false,
+   "files": 18,
+   "candidates": 269,
+   "filled": 269,
+   "seconds": 83,
+   "usage": {
+    "minimax": [
+     16790,
+     5568,
+     18
+    ],
+    "glm": [
+     0,
+     0,
+     0
+    ],
+    "backoffs": 18
+   },
+   "minimaxListCostUSD": 0.0078,
+   "glmStringsUsed": 0,
+   "errors": [],
+   "validationFailures": [],
+   "files_detail": [
+    [
+     "chapter-1/concept-sentence-structure.json",
+     15,
+     15,
+     null
+    ],
+    [
+     "chapter-1/concept-sounds.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-1/conversation-greetings.json",
+     22,
+     22,
+     null
+    ],
+    [
+     "chapter-1/culture-intro.json",
+     10,
+     10,
+     null
+    ],
+    [
+     "chapter-1/dialogue-meeting-someone.json",
+     32,
+     32,
+     null
+    ],
+    [
+     "chapter-1/drill-greetings.json",
+     35,
+     35,
+     null
+    ],
+    [
+     "chapter-1/drill-numbers-1-10.json",
+     23,
+     23,
+     null
+    ],
+    [
+     "chapter-1/multiple-choice-basics.json",
+     18,
+     18,
+     null
+    ],
+    [
+     "chapter-1/spelling-greetings.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-1/vocab-animals.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-1/vocab-basic-nouns.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-1/vocab-basic-phrases.json",
+     7,
+     7,
+     null
+    ],
+    [
+     "chapter-1/vocab-basic-verbs.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-1/vocab-colors.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-1/vocab-common-adjectives.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-1/vocab-pronouns.json",
+     8,
+     8,
+     null
+    ],
+    [
+     "chapter-1/vocab-weather-basic.json",
+     8,
+     8,
+     null
+    ],
+    [
+     "chapter-1/word-order-simple.json",
+     8,
+     8,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-2.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "2",
+   "dryRun": false,
+   "files": 14,
+   "candidates": 226,
+   "filled": 226,
+   "seconds": 88,
+   "usage": {
+    "minimax": [
+     13873,
+     4636,
+     15
+    ],
+    "glm": [
+     496,
+     34,
+     1
+    ],
+    "backoffs": 20
+   },
+   "minimaxListCostUSD": 0.0065,
+   "glmStringsUsed": 2,
+   "errors": [],
+   "validationFailures": [
+    [
+     "Which Croatian word means \"milk\"?",
+     "Welches kroatische Wort bedeutet „milk“?",
+     "quoted English kept: milk",
+     "call_minimax"
+    ],
+    [
+     "Which Croatian word refers to \"coffee\"?",
+     "Welches kroatische Wort bezeichnet „coffee“?",
+     "quoted English kept: coffee",
+     "call_minimax"
+    ],
+    [
+     "Which Croatian word means \"milk\"?",
+     "Welches kroatische Wort bedeutet „milk“?",
+     "quoted English kept: milk",
+     "call_minimax"
+    ],
+    [
+     "Which Croatian word refers to \"coffee\"?",
+     "Welches kroatische Wort steht für „coffee“?",
+     "quoted English kept: coffee",
+     "call_minimax"
+    ]
+   ],
+   "files_detail": [
+    [
+     "chapter-2/concept-articles.json",
+     17,
+     17,
+     null
+    ],
+    [
+     "chapter-2/conversation-at-market.json",
+     34,
+     34,
+     null
+    ],
+    [
+     "chapter-2/culture-food.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-2/dialogue-ordering-food.json",
+     28,
+     28,
+     null
+    ],
+    [
+     "chapter-2/drill-food-vocab.json",
+     35,
+     35,
+     null
+    ],
+    [
+     "chapter-2/multiple-choice-daily-life.json",
+     18,
+     18,
+     null
+    ],
+    [
+     "chapter-2/review.json",
+     15,
+     15,
+     null
+    ],
+    [
+     "chapter-2/spelling-food.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-2/vocab-days-time.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-2/vocab-food-drinks.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-2/vocab-local-cuisine.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-2/vocab-numbers-11-20.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-2/vocab-shopping.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-2/word-order-daily.json",
+     8,
+     8,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-3.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "3",
+   "dryRun": false,
+   "files": 12,
+   "candidates": 206,
+   "filled": 206,
+   "seconds": 17,
+   "usage": {
+    "minimax": [
+     12589,
+     4283,
+     13
+    ],
+    "glm": [
+     659,
+     232,
+     1
+    ],
+    "backoffs": 0
+   },
+   "minimaxListCostUSD": 0.0059,
+   "glmStringsUsed": 12,
+   "errors": [],
+   "validationFailures": [
+    [
+     "How do you say \"train\" in Croatian?",
+     "Wie sagt man „train“ auf Kroatisch?",
+     "quoted English kept: train",
+     "call_minimax"
+    ],
+    [
+     "'Vlak' is the Croatian word for 'train'.",
+     "„Vlak“ ist das kroatische Wort für „train“.",
+     "quoted English kept: train",
+     "call_minimax"
+    ],
+    [
+     "What is \"car\" in Croatian?",
+     "Was ist „car“ auf Kroatisch?",
+     "quoted English kept: car",
+     "call_minimax"
+    ],
+    [
+     "'Auto' means 'car' in Croatian.",
+     "„Auto“ bedeutet „car“ auf Kroatisch.",
+     "quoted English kept: car",
+     "call_minimax"
+    ],
+    [
+     "Select the Croatian word for \"bicycle\".",
+     "Wähle das kroatische Wort für „bicycle“.",
+     "quoted English kept: bicycle",
+     "call_minimax"
+    ],
+    [
+     "'Bicikl' is the Croatian word for 'bicycle'.",
+     "„Bicikl“ ist das kroatische Wort für „bicycle“.",
+     "quoted English kept: bicycle",
+     "call_minimax"
+    ],
+    [
+     "How would you say \"subway\" in Croatian?",
+     "Wie würdest du „subway“ auf Kroatisch sagen?",
+     "quoted English kept: subway",
+     "call_minimax"
+    ],
+    [
+     "'Podzemna željeznica' means 'subway' in Croatian.",
+     "„Podzemna željeznica“ bedeutet „subway“ auf Kroatisch.",
+     "quoted English kept: subway",
+     "call_minimax"
+    ],
+    [
+     "What is the Croatian word for \"airport\"?",
+     "Was ist das kroatische Wort für „airport“?",
+     "quoted English kept: airport",
+     "call_minimax"
+    ],
+    [
+     "'Zračna luka' is the Croatian word for 'airport'.",
+     "„Zračna luka“ ist das kroatische Wort für „airport“.",
+     "quoted English kept: airport",
+     "call_minimax"
+    ],
+    [
+     "Which of these words means \"station\"?",
+     "Welches dieser Wörter bedeutet „station“?",
+     "quoted English kept: station",
+     "call_minimax"
+    ],
+    [
+     "'Kolodvor' is the Croatian word for 'station'.",
+     "„Kolodvor“ ist das kroatische Wort für „station“.",
+     "quoted English kept: station",
+     "call_minimax"
+    ],
+    [
+     "How do you say \"train\" in Croatian?",
+     "Wie sagt man „train“ auf Kroatisch?",
+     "quoted English kept: train",
+     "call_minimax"
+    ],
+    [
+     "'Vlak' is the Croatian word for 'train'.",
+     "‚Vlak‘ ist das kroatische Wort für ‚train‘.",
+     "quoted English kept: train",
+     "call_minimax"
+    ],
+    [
+     "What is \"car\" in Croatian?",
+     "Was ist „car“ auf Kroatisch?",
+     "quoted English kept: car",
+     "call_minimax"
+    ],
+    [
+     "'Auto' means 'car' in Croatian.",
+     "‚Auto‘ bedeutet ‚car‘ auf Kroatisch.",
+     "quoted English kept: car",
+     "call_minimax"
+    ],
+    [
+     "Select the Croatian word for \"bicycle\".",
+     "Wähle das kroatische Wort für „bicycle“.",
+     "quoted English kept: bicycle",
+     "call_minimax"
+    ],
+    [
+     "'Bicikl' is the Croatian word for 'bicycle'.",
+     "‚Bicikl‘ ist das kroatische Wort für ‚bicycle‘.",
+     "quoted English kept: bicycle",
+     "call_minimax"
+    ],
+    [
+     "How would you say \"subway\" in Croatian?",
+     "Wie würdest du „subway“ auf Kroatisch sagen?",
+     "quoted English kept: subway",
+     "call_minimax"
+    ],
+    [
+     "'Podzemna željeznica' means 'subway' in Croatian.",
+     "‚Podzemna željeznica‘ bedeutet ‚subway‘ auf Kroatisch.",
+     "quoted English kept: subway",
+     "call_minimax"
+    ],
+    [
+     "What is the Croatian word for \"airport\"?",
+     "Was ist das kroatische Wort für „airport“?",
+     "quoted English kept: airport",
+     "call_minimax"
+    ],
+    [
+     "'Zračna luka' is the Croatian word for 'airport'.",
+     "‚Zračna luka‘ ist das kroatische Wort für ‚airport‘.",
+     "quoted English kept: airport",
+     "call_minimax"
+    ],
+    [
+     "Which of these words means \"station\"?",
+     "Welches dieser Wörter bedeutet „station“?",
+     "quoted English kept: station",
+     "call_minimax"
+    ],
+    [
+     "'Kolodvor' is the Croatian word for 'station'.",
+     "‚Kolodvor‘ ist das kroatische Wort für ‚station‘.",
+     "quoted English kept: station",
+     "call_minimax"
+    ]
+   ],
+   "files_detail": [
+    [
+     "chapter-3/concept-prepositions.json",
+     21,
+     21,
+     null
+    ],
+    [
+     "chapter-3/conversation-asking-directions.json",
+     28,
+     28,
+     null
+    ],
+    [
+     "chapter-3/culture-transport.json",
+     10,
+     10,
+     null
+    ],
+    [
+     "chapter-3/dialogue-getting-around.json",
+     28,
+     28,
+     null
+    ],
+    [
+     "chapter-3/drill-transport-vocab.json",
+     35,
+     35,
+     null
+    ],
+    [
+     "chapter-3/multiple-choice-transport.json",
+     18,
+     18,
+     null
+    ],
+    [
+     "chapter-3/review.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-3/spelling-places.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-3/vocab-directions.json",
+     10,
+     10,
+     null
+    ],
+    [
+     "chapter-3/vocab-places.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-3/vocab-transport.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-3/word-order-directions.json",
+     8,
+     8,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-4-pass1.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "4",
+   "dryRun": false,
+   "files": 13,
+   "candidates": 209,
+   "filled": 207,
+   "seconds": 36,
+   "usage": {
+    "minimax": [
+     14739,
+     4888,
+     16
+    ],
+    "glm": [
+     1234,
+     388,
+     2
+    ],
+    "backoffs": 7
+   },
+   "minimaxListCostUSD": 0.0069,
+   "glmStringsUsed": 7,
+   "errors": [
+    "call_glm: JSONDecodeError Invalid control character at: line 2 column 265 (char 266)"
+   ],
+   "validationFailures": [
+    [
+     "In Croatian, showing possession is a bit different from English. While English u",
+     "Im Kroatischen unterscheidet sich das Ausdrücken von Besitz etwas vom Englischen",
+     "english leak: ['my', 'his']",
+     "call_minimax"
+    ],
+    [
+     "In Croatian, showing possession is a bit different from English. While English u",
+     "Im Kroatischen unterscheidet sich das Ausdrücken von Besitz etwas vom Englischen",
+     "english leak: ['my', 'his', 'my']",
+     "call_minimax"
+    ],
+    [
+     "My car is fast. (lit: My car is fast.)",
+     "Moj auto je brz.",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "My house is big. (lit: My house is big.)",
+     "Moja kuća je velika.",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "His book is interesting. (lit: His book is interesting.)",
+     "Njegova knjiga je zanimljiva.",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "Her dog is small. (lit: Her dog is small.)",
+     "Njezin pas je malen.",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "Our child is sleeping. (lit: Our child sleeps.)",
+     "Naše dijete spava.",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "Cultural Significance",
+     "None",
+     "empty",
+     "call_minimax"
+    ],
+    [
+     "What is \"mother\" in Croatian?",
+     "Was heißt „mother“ auf Kroatisch?",
+     "quoted English kept: mother",
+     "call_minimax"
+    ],
+    [
+     "Which word means \"father\"?",
+     "Welches Wort bedeutet „father“?",
+     "quoted English kept: father",
+     "call_minimax"
+    ],
+    [
+     "How do you say \"family\" in Croatian?",
+     "Wie sagt man „family“ auf Kroatisch?",
+     "quoted English kept: family",
+     "call_minimax"
+    ],
+    [
+     "What is the Croatian word for \"child\"?",
+     "Was ist das kroatische Wort für „child“?",
+     "quoted English kept: child",
+     "call_minimax"
+    ],
+    [
+     "What is the Croatian word for \"kitchen\"?",
+     "Was ist das kroatische Wort für „kitchen“?",
+     "quoted English kept: kitchen",
+     "call_minimax"
+    ],
+    [
+     "Which word best describes a \"home\" as a place of comfort and belonging?",
+     "Welches Wort beschreibt am besten ein „home“ als Ort des Wohlbefindens und der Z",
+     "quoted English kept: home",
+     "call_minimax"
+    ],
+    [
+     "While \"kuća\" means house (a physical building), \"dom\" conveys the meaning of \"ho",
+     "Während „kuća“ Haus bedeutet (ein physisches Gebäude), drückt „dom“ die Bedeutun",
+     "quoted English kept: home",
+     "call_minimax"
+    ],
+    [
+     "In Croatian, showing possession is a bit different from English. While English u",
+     "Im Kroatischen ist das Zeigen von Besitz etwas anders als im Englischen. Während",
+     "english leak: ['my', 'your', 'his', 'her']",
+     "call_minimax"
+    ],
+    [
+     "In Croatian, showing possession is a bit different from English. While English u",
+     "Im Kroatischen ist das Zeigen von Besitz etwas anders als im Englischen. Während",
+     "english leak: ['my', 'your', 'his', 'her']",
+     "call_minimax"
+    ],
+    [
+     "What is \"mother\" in Croatian?",
+     "Was ist „mother\" auf Kroatisch?",
+     "quoted English kept: mother",
+     "call_minimax"
+    ],
+    [
+     "Which word means \"father\"?",
+     "Welches Wort bedeutet „father\"?",
+     "quoted English kept: father",
+     "call_minimax"
+    ],
+    [
+     "How do you say \"family\" in Croatian?",
+     "Wie sagt man „family\" auf Kroatisch?",
+     "quoted English kept: family",
+     "call_minimax"
+    ],
+    [
+     "What is the Croatian word for \"child\"?",
+     "Was ist das kroatische Wort für „child\"?",
+     "quoted English kept: child",
+     "call_minimax"
+    ],
+    [
+     "What is the Croatian word for \"kitchen\"?",
+     "Was ist das kroatische Wort für „kitchen\"?",
+     "quoted English kept: kitchen",
+     "call_minimax"
+    ],
+    [
+     "Which word best describes a \"home\" as a place of comfort and belonging?",
+     "Welches Wort beschreibt am besten „home\" als Ort des Trostes und der Zugehörigke",
+     "quoted English kept: home",
+     "call_minimax"
+    ],
+    [
+     "While \"kuća\" means house (a physical building), \"dom\" conveys the meaning of \"ho",
+     "Während „kuća\" Haus bedeutet (ein physisches Gebäude), vermittelt „dom\" die Bede",
+     "quoted English kept: home",
+     "call_minimax"
+    ]
+   ],
+   "files_detail": [
+    [
+     "chapter-4/concept-possessives.json",
+     21,
+     19,
+     "leftover 2"
+    ],
+    [
+     "chapter-4/conversation-meeting-family.json",
+     22,
+     22,
+     null
+    ],
+    [
+     "chapter-4/culture-family.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-4/dialogue-family-dinner.json",
+     28,
+     28,
+     null
+    ],
+    [
+     "chapter-4/drill-family-vocab.json",
+     35,
+     35,
+     null
+    ],
+    [
+     "chapter-4/multiple-choice-family.json",
+     18,
+     18,
+     null
+    ],
+    [
+     "chapter-4/review.json",
+     13,
+     13,
+     null
+    ],
+    [
+     "chapter-4/spelling-family.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-4/vocab-daily-routines.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-4/vocab-family.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-4/vocab-feelings.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-4/vocab-home.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-4/word-order-possessives.json",
+     8,
+     8,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-4.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "4",
+   "dryRun": false,
+   "files": 13,
+   "candidates": 2,
+   "filled": 2,
+   "seconds": 54,
+   "usage": {
+    "minimax": [
+     785,
+     262,
+     1
+    ],
+    "glm": [
+     0,
+     0,
+     0
+    ],
+    "backoffs": 3
+   },
+   "minimaxListCostUSD": 0.0004,
+   "glmStringsUsed": 0,
+   "errors": [],
+   "validationFailures": [],
+   "files_detail": [
+    [
+     "chapter-4/concept-possessives.json",
+     2,
+     2,
+     null
+    ],
+    [
+     "chapter-4/conversation-meeting-family.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/culture-family.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/dialogue-family-dinner.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/drill-family-vocab.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/multiple-choice-family.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/review.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/spelling-family.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/vocab-daily-routines.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/vocab-family.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/vocab-feelings.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/vocab-home.json",
+     0,
+     0,
+     null
+    ],
+    [
+     "chapter-4/word-order-possessives.json",
+     0,
+     0,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-5.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "5",
+   "dryRun": false,
+   "files": 15,
+   "candidates": 258,
+   "filled": 258,
+   "seconds": 67,
+   "usage": {
+    "minimax": [
+     17302,
+     6210,
+     18
+    ],
+    "glm": [
+     674,
+     267,
+     1
+    ],
+    "backoffs": 12
+   },
+   "minimaxListCostUSD": 0.0084,
+   "glmStringsUsed": 11,
+   "errors": [
+    "call_minimax: JSONDecodeError Invalid \\escape: line 1 column 253 (char 252)"
+   ],
+   "validationFailures": [
+    [
+     "Choose the Croatian word for \"chair\".",
+     "None",
+     "empty",
+     "call_minimax"
+    ],
+    [
+     "Someone says \"Hvala!\" (Thank you!). How do you respond with \"You're welcome\"?",
+     "Jemand sagt \"Hvala!\" (Thank you!). Wie antwortest du mit \"You're welcome\"?",
+     "quoted English kept: You",
+     "call_minimax"
+    ],
+    [
+     "Molim can mean 'please' or 'you're welcome' in Croatian.",
+     "Molim kann auf Kroatisch 'please' oder 'you're welcome' bedeuten.",
+     "quoted English kept: please",
+     "call_minimax"
+    ],
+    [
+     "Da means 'yes' in Croatian.",
+     "Da bedeutet auf Kroatisch 'yes'.",
+     "quoted English kept: yes",
+     "call_minimax"
+    ],
+    [
+     "Ne means 'no' in Croatian.",
+     "Ne bedeutet auf Kroatisch 'no'.",
+     "quoted English kept: no",
+     "call_minimax"
+    ],
+    [
+     "Oprostite means 'excuse me' and is used to politely get someone's attention or t",
+     "Oprostite bedeutet 'excuse me' und wird benutzt, um höflich jemandes Aufmerksamk",
+     "quoted English kept: excuse me",
+     "call_minimax"
+    ],
+    [
+     "You want to ask for something politely, like 'Can I have some water, please?'. W",
+     "Du möchtest höflich um etwas bitten, wie 'Can I have some water, please?'. Welch",
+     "quoted English kept: Can I have some water, please?",
+     "call_minimax"
+    ],
+    [
+     "Molim means 'please' when making a polite request.",
+     "Molim bedeutet 'please', wenn man eine höfliche Bitte äußert.",
+     "quoted English kept: please",
+     "call_minimax"
+    ],
+    [
+     "Which Croatian word means 'he'?",
+     "Welches kroatische Wort bedeutet 'he'?",
+     "quoted English kept: he",
+     "call_minimax"
+    ],
+    [
+     "On is the Croatian pronoun for 'he'.",
+     "On ist das kroatische Pronomen für 'he'.",
+     "quoted English kept: he",
+     "call_minimax"
+    ],
+    [
+     "Which Croatian word means 'she'?",
+     "Welches kroatische Wort bedeutet 'she'?",
+     "quoted English kept: she",
+     "call_minimax"
+    ],
+    [
+     "Ona is the Croatian pronoun for 'she'.",
+     "Ona ist das kroatische Pronomen für 'she'.",
+     "quoted English kept: she",
+     "call_minimax"
+    ],
+    [
+     "Practice with simple sentences: Start by forming basic sentences like 'The X is ",
+     "Übe mit einfachen Sätzen: Beginne damit, einfache Sätze wie ‚The X is in the Y‘ ",
+     "english leak: ['the', 'is', 'the', 'the']",
+     "call_minimax"
+    ]
+   ],
+   "files_detail": [
+    [
+     "chapter-5/concept-home-culture.json",
+     21,
+     21,
+     null
+    ],
+    [
+     "chapter-5/concept-location-words.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-5/conversation-visiting-home.json",
+     28,
+     28,
+     null
+    ],
+    [
+     "chapter-5/culture-home-life.json",
+     12,
+     12,
+     null
+    ],
+    [
+     "chapter-5/dialogue-apartment.json",
+     34,
+     34,
+     null
+    ],
+    [
+     "chapter-5/drill-home-vocab.json",
+     39,
+     39,
+     null
+    ],
+    [
+     "chapter-5/multiple-choice-home.json",
+     18,
+     18,
+     null
+    ],
+    [
+     "chapter-5/review.json",
+     15,
+     15,
+     null
+    ],
+    [
+     "chapter-5/spelling-home.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-5/vocab-chores.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-5/vocab-cooking.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-5/vocab-furniture.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-5/vocab-household-items.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-5/vocab-rooms.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-5/word-order-prepositions.json",
+     8,
+     8,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-6.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "6",
+   "dryRun": false,
+   "files": 11,
+   "candidates": 128,
+   "filled": 128,
+   "seconds": 60,
+   "usage": {
+    "minimax": [
+     8986,
+     1847,
+     11
+    ],
+    "glm": [
+     0,
+     0,
+     0
+    ],
+    "backoffs": 12
+   },
+   "minimaxListCostUSD": 0.0033,
+   "glmStringsUsed": 0,
+   "errors": [],
+   "validationFailures": [],
+   "files_detail": [
+    [
+     "chapter-6/concept-body-parts.json",
+     12,
+     12,
+     null
+    ],
+    [
+     "chapter-6/conversation-at-doctor.json",
+     30,
+     30,
+     null
+    ],
+    [
+     "chapter-6/culture-healthcare.json",
+     10,
+     10,
+     null
+    ],
+    [
+     "chapter-6/dialogue-pharmacy.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-6/drill-health-vocab.json",
+     17,
+     17,
+     null
+    ],
+    [
+     "chapter-6/multiple-choice-health.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-6/review.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-6/spelling-body-parts.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-6/vocab-body.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-6/vocab-health.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-6/vocab-sports.json",
+     9,
+     9,
+     null
+    ]
+   ]
+  },
+  "report-croatian-de-7.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "7",
+   "dryRun": false,
+   "files": 10,
+   "candidates": 111,
+   "filled": 110,
+   "seconds": 6,
+   "usage": {
+    "minimax": [
+     8909,
+     1754,
+     11
+    ],
+    "glm": [
+     490,
+     9,
+     1
+    ],
+    "backoffs": 0
+   },
+   "minimaxListCostUSD": 0.0032,
+   "glmStringsUsed": 0,
+   "errors": [],
+   "validationFailures": [
+    [
+     "email",
+     "E-Mail",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "email",
+     "E-Mail",
+     "returned the taught-language context instead of a gloss",
+     "call_minimax"
+    ],
+    [
+     "email",
+     "E-Mail",
+     "returned the taught-language context instead of a gloss",
+     "call_glm"
+    ]
+   ],
+   "files_detail": [
+    [
+     "chapter-7/concept-verb-tenses.json",
+     14,
+     14,
+     null
+    ],
+    [
+     "chapter-7/conversation-job-interview.json",
+     30,
+     30,
+     null
+    ],
+    [
+     "chapter-7/culture-work-life.json",
+     10,
+     10,
+     null
+    ],
+    [
+     "chapter-7/dialogue-at-school.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-7/drill-work-vocab.json",
+     17,
+     17,
+     null
+    ],
+    [
+     "chapter-7/multiple-choice-work.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-7/review.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-7/vocab-professions.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-7/vocab-school.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-7/vocab-work.json",
+     9,
+     8,
+     "leftover 1"
+    ]
+   ]
+  },
+  "report-croatian-de-8.json": {
+   "app": "croatian-de-fill",
+   "lang": "croatian",
+   "locale": "de",
+   "chapter": "8",
+   "dryRun": false,
+   "files": 11,
+   "candidates": 129,
+   "filled": 129,
+   "seconds": 8,
+   "usage": {
+    "minimax": [
+     9018,
+     2081,
+     11
+    ],
+    "glm": [
+     0,
+     0,
+     0
+    ],
+    "backoffs": 0
+   },
+   "minimaxListCostUSD": 0.0035,
+   "glmStringsUsed": 0,
+   "errors": [],
+   "validationFailures": [],
+   "files_detail": [
+    [
+     "chapter-8/concept-compound-words.json",
+     14,
+     14,
+     null
+    ],
+    [
+     "chapter-8/conversation-at-shop.json",
+     30,
+     30,
+     null
+    ],
+    [
+     "chapter-8/culture-capital-guide.json",
+     10,
+     10,
+     null
+    ],
+    [
+     "chapter-8/dialogue-exploring-city.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-8/drill-city-vocab.json",
+     16,
+     16,
+     null
+    ],
+    [
+     "chapter-8/multiple-choice-city.json",
+     1,
+     1,
+     null
+    ],
+    [
+     "chapter-8/review.json",
+     11,
+     11,
+     null
+    ],
+    [
+     "chapter-8/spelling-city.json",
+     19,
+     19,
+     null
+    ],
+    [
+     "chapter-8/vocab-city.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-8/vocab-services.json",
+     9,
+     9,
+     null
+    ],
+    [
+     "chapter-8/vocab-shopping-advanced.json",
+     9,
+     9,
+     null
+    ]
+   ]
+  }
+ }
+}
