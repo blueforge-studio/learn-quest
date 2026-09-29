@@ -25,10 +25,7 @@
       "path": "lingua-quest/apps/site",
       "type": "next",
       "role": "marketing",
-      "port": 3500,
-      "domains": [
-        "linguaquest.blueforge.studio"
-      ]
+      "port": 3500
     },
     "lingua-quest-api": {
       "path": "lingua-quest/apps/api",
@@ -36,9 +33,6 @@
       "role": "api",
       "port": 3002,
       "healthcheck": "/health",
-      "domains": [
-        "api.linguaquest.blueforge.studio"
-      ],
       "dependencies": [
         "postgres"
       ],
@@ -66,9 +60,6 @@
       "role": "api",
       "port": 3040,
       "healthcheck": "/health",
-      "domains": [
-        "collab.linguaquest.blueforge.studio"
-      ],
       "dependencies": [
         "postgres"
       ],
