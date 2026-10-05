@@ -1,0 +1,477 @@
+{
+ "generated": "2026-09-29T13:32:37.108Z",
+ "ref": "origin/main",
+ "classifier": "lq-tools packages/app-generators/src/extend/placeholder.ts",
+ "apps": {
+  "african": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "balkan": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "celtic": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "east-asian": {
+   "published": {},
+   "source": {
+    "cantonese": [
+     {
+      "chapter": "chapter-15",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/cantonese/data/en/lessons/chapter-15/review.json",
+      "status": "draft",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     }
+    ],
+    "chinese": [
+     {
+      "chapter": "chapter-15",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/chinese/data/en/lessons/chapter-15/review.json",
+      "status": "draft",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     }
+    ]
+   },
+   "counts": {
+    "published": 0,
+    "source": 2,
+    "byLang": {}
+   }
+  },
+  "english": {
+   "published": {},
+   "source": {
+    "welsh": [
+     {
+      "chapter": "chapter-10",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-10/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-10",
+      "lesson": "spelling-traditions",
+      "type": "spelling",
+      "file": "languages/welsh/data/en/lessons/chapter-10/spelling-traditions.json",
+      "status": "locked",
+      "rules": [
+       "filler-token"
+      ],
+      "fields": [
+       {
+        "path": "content.words[0].word",
+        "rule": "filler-token",
+        "value": "word-1"
+       },
+       {
+        "path": "content.words[1].word",
+        "rule": "filler-token",
+        "value": "word-2"
+       },
+       {
+        "path": "content.words[2].word",
+        "rule": "filler-token",
+        "value": "word-3"
+       },
+       {
+        "path": "content.words[3].word",
+        "rule": "filler-token",
+        "value": "word-4"
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-11",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-11/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-12",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-12/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-13",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-13/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-14",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-14/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-15",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-15/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-6",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-6/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-6",
+      "lesson": "spelling-body-parts",
+      "type": "spelling",
+      "file": "languages/welsh/data/en/lessons/chapter-6/spelling-body-parts.json",
+      "status": "locked",
+      "rules": [
+       "filler-token"
+      ],
+      "fields": [
+       {
+        "path": "content.words[0].word",
+        "rule": "filler-token",
+        "value": "word-1"
+       },
+       {
+        "path": "content.words[1].word",
+        "rule": "filler-token",
+        "value": "word-2"
+       },
+       {
+        "path": "content.words[2].word",
+        "rule": "filler-token",
+        "value": "word-3"
+       },
+       {
+        "path": "content.words[3].word",
+        "rule": "filler-token",
+        "value": "word-4"
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-7",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-7/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-7",
+      "lesson": "spelling-work",
+      "type": "spelling",
+      "file": "languages/welsh/data/en/lessons/chapter-7/spelling-work.json",
+      "status": "locked",
+      "rules": [
+       "filler-token"
+      ],
+      "fields": [
+       {
+        "path": "content.words[0].word",
+        "rule": "filler-token",
+        "value": "word-1"
+       },
+       {
+        "path": "content.words[1].word",
+        "rule": "filler-token",
+        "value": "word-2"
+       },
+       {
+        "path": "content.words[2].word",
+        "rule": "filler-token",
+        "value": "word-3"
+       },
+       {
+        "path": "content.words[3].word",
+        "rule": "filler-token",
+        "value": "word-4"
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-8",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-8/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-8",
+      "lesson": "spelling-city",
+      "type": "spelling",
+      "file": "languages/welsh/data/en/lessons/chapter-8/spelling-city.json",
+      "status": "locked",
+      "rules": [
+       "filler-token"
+      ],
+      "fields": [
+       {
+        "path": "content.words[0].word",
+        "rule": "filler-token",
+        "value": "word-1"
+       },
+       {
+        "path": "content.words[1].word",
+        "rule": "filler-token",
+        "value": "word-2"
+       },
+       {
+        "path": "content.words[2].word",
+        "rule": "filler-token",
+        "value": "word-3"
+       },
+       {
+        "path": "content.words[3].word",
+        "rule": "filler-token",
+        "value": "word-4"
+       }
+      ]
+     },
+     {
+      "chapter": "chapter-9",
+      "lesson": "review",
+      "type": "review",
+      "file": "languages/welsh/data/en/lessons/chapter-9/review.json",
+      "status": "locked",
+      "rules": [
+       "generic-review"
+      ],
+      "fields": [
+       {
+        "path": "content.sections[0].body",
+        "rule": "generic-review",
+        "value": "Review all vocabulary."
+       }
+      ]
+     }
+    ]
+   },
+   "counts": {
+    "published": 0,
+    "source": 14,
+    "byLang": {}
+   }
+  },
+  "germanic": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "middle-eastern": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "nordic": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "romance": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "slavic": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "south-asian": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "southeast-asian": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "uralic": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  },
+  "west-slavic": {
+   "published": {},
+   "source": {},
+   "counts": {
+    "published": 0,
+    "source": 0,
+    "byLang": {}
+   }
+  }
+ },
+ "totals": {
+  "published": 0,
+  "source": 16
+ }
+}
