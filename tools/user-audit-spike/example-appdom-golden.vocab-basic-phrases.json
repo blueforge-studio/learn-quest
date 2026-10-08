@@ -1,7 +1,7 @@
 {
   "schema": "lq.appdom-inventory/1",
   "url": "http://localhost:3010/en/danish/chapters/chapter-1/concept-sounds",
-  "drivenToCompleteInSteps": -1,
+  "drivenToCompleteInSteps": 0,
   "screens": {
     "step-0": {
       "appdom": [
@@ -69,11 +69,16 @@
           "id": "lesson-cue-play",
           "type": "Button",
           "scope": "main"
+        },
+        {
+          "id": "lesson-complete",
+          "type": "Button",
+          "scope": "main"
         }
       ],
-      "testids": 13,
-      "interactive": 9,
-      "interactiveInsideAppdom": 9,
+      "testids": 19,
+      "interactive": 10,
+      "interactiveInsideAppdom": 10,
       "duplicateIds": []
     }
   }

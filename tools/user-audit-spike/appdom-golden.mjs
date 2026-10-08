@@ -2,16 +2,13 @@
 // through it, recording the app-dom inventory per screen. Read-only against the dev
 // server; writes appdom-golden.json (lq.appdom-inventory/1 shape, one entry per step).
 import { writeFileSync } from 'node:fs';
-import { chromium } from '@playwright/test';
+import { launch, onboard, base } from './lib4.mjs';
 import { observability } from './appdom-observe.mjs';
-const base = process.env.BASE_URL || 'http://localhost:3010';
 const id = process.argv[2] || 'concept-sounds';
-const seed = { 'lq-terms-accepted': '2026-08-27', 'onboarding-completed': 'true', userId: 'audit-player',
-  nordic_target_language: JSON.stringify({ state: { targetLanguage: 'danish', hasExplicitlySelected: true }, version: 0 }),
-  nordic_last_visited: JSON.stringify({ locale: 'en', sectionId: 'danish', bookId: 'chapters', chapterId: 'chapter-1' }) };
-const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 430, height: 900 } });
-await ctx.addInitScript((s) => { for (const [k, v] of Object.entries(s)) if (localStorage.getItem(k) === null) localStorage.setItem(k, v); }, seed);
-const page = await ctx.newPage();
+// Real onboarding creates a real player (decision D6): a player-less seed makes
+// LessonCompleteBar return null, so concept/MC screens would show no complete anchor.
+const { b, page } = await launch();
+await onboard(page);
 const inventory = () => page.evaluate(() => {
   const nodes = [...document.querySelectorAll('[data-appdom-id]')].map((el) => ({ id: el.dataset.appdomId, type: el.dataset.appdomType, scope: el.dataset.appdomScope }));
   const seen = new Set(), dup = new Set(); nodes.forEach((n) => (seen.has(n.id) ? dup.add(n.id) : seen.add(n.id)));
@@ -21,13 +18,15 @@ const inventory = () => page.evaluate(() => {
     interactiveInsideAppdom: inter.filter((e) => { const a = e.closest('[data-appdom-id]:not([data-appdom-id="app-root"])'); return !!a; }).length, duplicateIds: [...dup] };
 });
 await page.goto(`${base}/en/danish/chapters/chapter-1/${id}`, { waitUntil: 'domcontentloaded' });
-await page.waitForSelector('[data-testid="lesson-navigation"]', { timeout: 60000 }).catch(() => console.log('lesson-navigation never rendered'));
+await page.waitForSelector('[data-appdom-id="lesson-layout"], [data-appdom-id="lesson-concept"]', { timeout: 60000 }).catch(() => console.log('no lesson anchor rendered'));
+// An anchor may sit on the button itself (web-app concept screen) or on a wrapper (lesson-ui).
+const anchor = (name) => page.locator(`button[data-appdom-id="${name}"], [data-appdom-id="${name}"] button`);
+await page.waitForSelector('[data-appdom-id="lesson-next"], [data-appdom-id="lesson-complete"]', { timeout: 30000 }).catch(() => console.log('neither lesson-next nor lesson-complete rendered'));
 const screens = {}; let driven = 0;
 for (let step = 0; step < 15; step++) {
   screens[`step-${step}`] = await inventory();
-  const complete = page.locator('[data-appdom-id="lesson-complete"] button');
-  const next = page.locator('[data-appdom-id="lesson-next"] button');
-  if (await complete.count()) { driven = step; break; }
+  if (await anchor('lesson-complete').count()) { driven = step; break; }
+  const next = anchor('lesson-next');
   if (!(await next.count())) { driven = -1; break; }
   await next.first().click({ timeout: 5000 }).catch(() => {}); await page.waitForTimeout(500);
 }
