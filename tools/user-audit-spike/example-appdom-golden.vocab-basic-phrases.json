@@ -1,0 +1,85 @@
+{
+  "schema": "lq.appdom-inventory/1",
+  "url": "http://localhost:3010/en/danish/chapters/chapter-1/concept-sounds",
+  "drivenToCompleteInSteps": 0,
+  "screens": {
+    "step-0": {
+      "appdom": [
+        {
+          "id": "release-banner",
+          "type": "Banner",
+          "scope": "banner"
+        },
+        {
+          "id": "release-banner-terms",
+          "type": "Link",
+          "scope": "banner"
+        },
+        {
+          "id": "release-banner-privacy",
+          "type": "Link",
+          "scope": "banner"
+        },
+        {
+          "id": "release-banner-dismiss",
+          "type": "IconButton",
+          "scope": "banner"
+        },
+        {
+          "id": "app-root",
+          "type": "Container",
+          "scope": "main"
+        },
+        {
+          "id": "quest-topbar",
+          "type": "Header",
+          "scope": "header"
+        },
+        {
+          "id": "quest-brand",
+          "type": "Brand",
+          "scope": "header"
+        },
+        {
+          "id": "quest-theme-toggle",
+          "type": "IconButton",
+          "scope": "header"
+        },
+        {
+          "id": "quest-avatar-menu",
+          "type": "IconButton",
+          "scope": "header"
+        },
+        {
+          "id": "lesson-layout",
+          "type": "Screen",
+          "scope": "main"
+        },
+        {
+          "id": "lesson-concept",
+          "type": "Screen",
+          "scope": "main"
+        },
+        {
+          "id": "lesson-back",
+          "type": "Button",
+          "scope": "main"
+        },
+        {
+          "id": "lesson-cue-play",
+          "type": "Button",
+          "scope": "main"
+        },
+        {
+          "id": "lesson-complete",
+          "type": "Button",
+          "scope": "main"
+        }
+      ],
+      "testids": 19,
+      "interactive": 10,
+      "interactiveInsideAppdom": 10,
+      "duplicateIds": []
+    }
+  }
+}

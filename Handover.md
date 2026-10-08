@@ -1,11 +1,13 @@
-# Handover — 2026-09-04
+# Handover — 2026-10-04
 
-Session focus: **stop widening the language fleet, deepen the finished apps and
-ship them.** Ends mid-flight on the first deploy.
+Session focus: **un-wedge books-platform's deploy pipeline.** It had not shipped a
+fully-green project deploy since 2026-10-01; by the end of the day three stacked
+root causes were found, fixed, merged, deployed and verified — production is
+current on every surface for the first time since early September in places.
 
-Roadmaps: `docs/DEPLOYMENT_READINESS_ROADMAP.md` (current plan, authoritative),
-`docs/CONTENT_WIRING_ROADMAP.md` (earlier plan, §1-§4 closed).
-Read `docs/ASSET_RESOLUTION.md` before touching any asset path.
+Full detail: [`docs/STATUS_2026_10_04.md`](./docs/STATUS_2026_10_04.md)
+(supersedes `STATUS_2026_10_02.md`). Memory:
+`project_books_image_worker_build_fix_2026_10_04` carries the condensed chain.
 
 ---
 
@@ -13,189 +15,89 @@ Read `docs/ASSET_RESOLUTION.md` before touching any asset path.
 
 | | |
 |---|---|
-| §A infrastructure | **done**, committed across all 14 app repos |
-| §A4 `_shared` prefix bug | **open**, newly found, blocks a further 358 MB to ~22 MB |
-| §B ship lq-nordic | **blocked on §A4** — artifact 554 MB against a 500 MB server cap |
-| §C release clean languages | not started |
-| §D lq-romance to 15 chapters | not started, 179 lessons |
-| §E nordic disabled locales | not started, ~1,700 authored files behind a flag |
+| books-platform pipeline | **green** — project deploy `dbc79157` terminal `deployed`, first since 10-01 |
+| books-image-worker | rebuilt + live for the first time since **2026-09-07** (PR #48) |
+| lq-books-site fonts | hermetic — committed Inter, no build-time Google fetch (PR #49) |
+| audio-storage closure | declared + copied into books-site and interactive-book images (PR #50) |
+| workspaceDeps audit | clean — no phantom entries remain in books-platform or lq-core |
+| forge-control defects #1754/#1756/#1758 | still parked, federation-side |
+| forge-ops generator gap | known, deliberately not fixed (see below) |
 
-Fleet content faults from the earlier roadmap: `no-index` 62 → **0**, `invalid`
-188 → **0**, `unlisted` 1,416 → **0**, `dangling` 5,829 → 5,423 (pure authoring
-backlog). Languages below 5 chapters: 14 → **0**.
+All six surfaces verified by body, not status code: marketplace, discover,
+interactive, activity (titles correct), books-api + image-worker health OK.
+Containers rolled to same-day images — books-site's previous image was from
+**09-09**, image-worker's from **09-07**.
 
----
+## The three root causes, in the order they were peeled
 
-## The decision this session turned on
+1. **#48 — phantom `workspaceDeps`.** The image-worker's config declared
+   `workspaceDeps: ['packages/books-shared']` while its package.json never
+   declared the dep → the install filter never covered books-shared → its
+   devDep `tsup` missing → every build since the pnpm@9→10 flip (2026-09-08)
+   died `sh: tsup: not found`. Hidden for a month by the 4000-char
+   HEAD-truncation of `app_deploys.errorMessage` (forge-control#1756).
+2. **#49 — `next/font/google` is not hermetic.** After #48, the deploy
+   progressed to the worker build stage and died: Turbopack cannot resolve the
+   generated Google-font module (42 errors). Not egress, not the repo, not a
+   worker toolchain change (10-03 and 10-04 worker images are identical) — the
+   floating input is the **css2 response Google serves at build time**. The
+   worker builds passed 10-01/02 and failed now with zero code changes: that is
+   remote-response drift. Fixed by committing `InterVariable.woff2` (OFL) and
+   using `next/font/local`; verified inside the worker container itself.
+3. **#50 — one-level-short workspace closure.** With fonts fixed, the next
+   layer was the **host-side** image build: `TS2307: Cannot find module
+   '@learnquest/audio-storage'`. books-reader imports it; audio-storage exports
+   are dist-only (unlike books-reader's `./src` exports); the Dockerfile copies
+   only `workspaceDeps`, listed one level short. The worker build stage never
+   catches this class — it runs in the full clone.
 
-Maturity is **two independent axes**, and no two apps are strong on the same one:
+## Techniques that mattered (reusable)
 
-| app | clean languages (15/15, 0 dangling) | blocked languages | unit tests | images on R2 | deployed |
-|---|---|---|---|---|---|
-| **lq-nordic** | danish, icelandic, norwegian, swedish — **4 of 4** | — | **2825 pass** | yes | in flight |
-| **lq-east-asian** | japanese, korean | chinese (54 dangling), cantonese (84) | 19 pass | no | no |
-| **lq-english** | american | british/australian/scottish (37 each, clean thru ch10), welsh (85) | **3 fail** | no | no |
-| **lq-romance** | — | all 5 (179 dangling) | 22 pass | yes | **yes, live** |
+- **Read the error on the host, not the record.** Every docker-build failure
+  tail is truncated away in `errorMessage`. Re-running the exact Dockerfile
+  build on app-1 from the staged context (`/opt/books-platform/<app>/`, a full
+  monorepo staging; compose applies the per-app `.override.yml`) gives the
+  untruncated error in one command. Done four times this session; each time it
+  produced the answer the deploy record hid.
+- **Reproduce inside the build worker.** `docker exec forge-build-worker` +
+  clone + install + build reproduces pipeline build failures exactly — this is
+  what proved the font failure deterministic-in-worker and dissolves
+  "works locally" claims. Full build logs exist **only** in
+  `docker logs forge-build-worker` on ci-1 (container rolls destroy history).
+- **Clean-room regen.** `generate-dockerfiles --check` is environment-relative:
+  a regen on the working checkout bakes env vars from gitignored `.env` files
+  into committed artifacts, and CI then sees drift. Fresh clone +
+  `pnpm install --frozen-lockfile` + check reproduces CI exactly
+  (`~/tmp-books-cleanroom` kept as a control). Both failure directions of this
+  trap have now happened; see `feedback_generator_env_leak_ci`.
+- **Verify the property, not the label.** Image tags/`deployed` status lied
+  twice (the 09-07 image was "deployed" for a month; deploy rows said deployed
+  while building nothing). Check the container's image creation date and hit
+  the endpoint, read the body.
 
-**Gate per language, not per app.** `shipChapters` is app-wide, so one
-unfinished language holds back finished ones. Japanese and Korean are as clean
-as anything in lq-nordic but sit behind Chinese and Cantonese. That is §C, and
-it is a flag flip, not content work.
+## Deliberately not done
 
-**`shipChapters` was set too conservatively.** It came from the contiguous run
-of chapters where *every* advertised lesson has a file. French is not a
-5-chapter course — it has authored content in all 15, missing only 2-5 lessons
-per chapter. The cap withdrew ~60 real French lessons that are serving in
-production right now. That is §D.
+- **forge-ops generator fix** (transitive workspace-dep closure + dep build
+  lines in the frontend-next/frontend-vite templates) — that is the proper fix
+  for the #50 class but lives in shared federation infra
+  (`blueforge-org/packages/utilities/forge-ops`). Route via a forge-control /
+  forge-ops PR, not a repo-local hack.
+- **errorMessage truncation (#1756), prune jobs (#1754), disk telemetry
+  (#1758)** — all filed, all still open, all federation-side. #1756 has now
+  cost a month of diagnosis on books-platform alone.
+- **Disk reclaim on app-1/app-3** — operator decision; queue was idle at time
+  of writing, app-1 at 76% / 56 containers (warn ≥ 40), app-3 at 80%.
 
----
+## Operator actions
 
-## Two corrections worth carrying forward
+None required from today's work — all three PRs merged through CI, deployed,
+and verified. Open decisions carried from 10-02 remain: the prune, and the
+forge-control defect chain.
 
-**1. The `ignore` lists were inert, not blocking.** I first read the configs as
-excluding each app's own lesson content from the deploy bundle, and said so.
-That was wrong. `applyIgnore` globs with `cwd` set to the **build output**
-(`dist/`), after `strategy.build()` — `forge-cli/src/lib/package-app.ts:107-112`,
-`deploy-strategies/src/ignore.ts`. Every learn-quest pattern was written against
-the *source* layout (`public/data`, `public/languages`, …) and `dist/` has no
-`public/` directory, so they matched nothing. Verified against a simulated tree:
+## Pointers
 
-```
-CURRENT config patterns -> matched: languages/french/images
-dist-relative patterns  -> matched: languages, _shared, _regional
-```
-
-Content ships fine — live romance serving French chapter 9 proves it. The real
-fault was the inverse: the size reduction never happened. lq-nordic built a
-**840 MB** `dist` (a stale one on disk was 1.5 GB), ~460 MB of it images already
-on R2 and served from `VITE_ASSETS_BASE_URL`.
-
-**2. Live romance is ahead of its own source.** Production advertises and serves
-15 French chapters; the source now ships 5. It was not built from current source
-through the config path — it predates this session's generator fixes.
-
----
-
-## §A4 — the open bug, found while sizing §A
-
-The resolver sends `_shared/...` to the CDN's **bucket root**
-(`lq-core/libs/common/assets/src/core/BaseAssetService/path-resolution.ts:22-28`).
-Every app's `assets` block pushes the same tree to `<group>/_shared/images`.
-Both tiers exist and hold different content:
-
-```
-_shared/images/chapters/chapter-13--640.webp          404
-nordic/_shared/images/chapters/chapter-13--640.webp   200
-```
-
-**20 of 54 sampled files (37%) are missing at the root** — `chapters/`,
-`vocab/`, `hero/`, `lessons/vocabulary/`. Bucket root does hold a genuinely
-cross-app tier (`_shared/sounds/`, `_shared/images/equipment/` both 200), which
-is why this survives: the inert ignore list has been shipping `_shared` from the
-app's own origin the whole time, masking it.
-
-**Do not "fix" this by pushing to the bucket root.** The 14 group trees are not
-interchangeable and would collide on same-named files — `chapters/chapter-2.webp`
-differs per group. The fix belongs in the resolver, which already receives
-`locale` as `<group>/<language>` and can derive the group. It needs a
-`@learnquest/assets` publish, which hits the same 403 as `unit-core`.
-
-Until then `_shared` stays in the bundle. That is why nordic ships 381 MB rather
-than ~22 MB.
-
----
-
-## What landed
-
-**All 14 app repos**, one commit each (`fix(deploy): make the ignore list
-actually match the tree it is applied to`):
-
-- `ignore` rewritten dist-relative, 18-33 patterns down to 2 (`languages`,
-  `_regional`). `data` and `_shared` deliberately kept — see above.
-- `sync-assets-to-r2.sh` postBuild dropped from 12 apps. It defaulted to
-  `<slug>-quest-assets`, a per-app bucket that cannot exist (one R2 custom
-  domain binds to one bucket), with prefixes disagreeing with the same file's
-  `assets` block, under `set -euo pipefail` so a missing key aborts the deploy.
-  Redundant: `package-app` runs the declarative block as `assetSync` right after
-  postBuild, and `hosting-core/src/deploy-phases.ts:78` reads the legacy
-  `assets.r2` shape. The two apps that already had it disabled are the two whose
-  images are confirmed live on R2.
-- `prebuild` wired in the 12 apps lacking it. Regenerating produced **zero diff
-  in all 14**, so it is a guard against drift, not a repair.
-
-Verified: `1.5 GB → 358 MB` on the stale dist; a clean rebuild is `840 MB → 381 MB`.
-
-**learn-quest root:** `docs/DEPLOYMENT_READINESS_ROADMAP.md` (new), this file.
-
----
-
-## Pick up here
-
-1. **Unblock the deploy — it is §A4, and now hard.** Two attempts made:
-
-   - `forge app-deploy web --wait` (local, `mode=v1`) — **exit code 0 but it
-     failed**: `connect ECONNREFUSED 172.21.0.2:5432` plus repeated
-     `[ioredis] ECONNREFUSED 172.21.0.3:6379`. Those are Docker-internal
-     addresses being dialled from a laptop. mission-control itself is healthy
-     (`/api/health` 200), so this is the local path reaching for the
-     control-plane's private Postgres/Redis. **The exit code lying about a
-     failed deploy is its own bug and worth filing.**
-   - `forge app-deploy web --server --no-wait` — reached the build worker and
-     was rejected cleanly:
-     `Upload failed (413): Artifact exceeds 524288000 bytes (Content-Length: 554782322)`
-
-   So the server pipeline works and the blocker is size. `_shared` is 368 MB of
-   the 381 MB bundle. **Fix §A4 and the artifact drops to roughly 22 MB** —
-   that single fix is what ships nordic.
-
-   Note also a domain disagreement: mission-control has
-   `nordic.quest.blueforge.studio`, `blueforge.config.json` has
-   `nordic.lang-quest.blueforge.studio`. `forge sync` reconciles; decide which
-   is canonical first. Neither resolves yet.
-   Verify live: root 200, `data/lessons/en/danish/chapters/chapters.json`
-   returns **real JSON, not the SPA fallback** (every path returns 200 —
-   check the body, not the status), a chapter-15 lesson loads, images resolve
-   from the CDN.
-2. **§C, cheap and next.** `enabled: false` on chinese + cantonese gives a
-   Japanese/Korean release at 15/15. Same move ships american at 15.
-3. **Fix the 3 failing lq-english unit tests.** Two are real bugs in
-   `findPreservationBreaches` — a dropped preserved key yields **0** breaches,
-   so the guard does not guard. The third is 214 missing `american` audio refs
-   (`audio/chapter-6/spelling-body-parts/*.mp3` and similar): generate them or
-   drop the refs.
-4. **§D, the big content win.** 179 lessons takes the one live app from 5 to 15
-   chapters across five languages: french 34, italian 34, spanish 26,
-   portuguese 25, romanian 60. Cheapest chapters first — most need only 2-4.
-
-### Blocked on credentials
-
-`npm publish` returns `E403 token not authorized for scope: @learnquest`; the
-`~/.npmrc` token is read-scoped. Two packages are queued behind it:
-
-- `@learnquest/unit-core@0.1.5` — version bump committed (`ce656081`), adds
-  `createContentWiringTests`; then bump the 14 apps and add the 3-line spec.
-- `@learnquest/assets` — once §A4's resolver fix is written.
-
-`@learnquest/*` normally publishes via CI on push to main; the local admin-token
-route is the documented fallback for when CI is down.
-
-### Also still open, unchanged
-
-Propagate the 215 renamed lessons; promote-or-hold the 39 alpha locales;
-adjectives & locative prepositions (spec written, unimplemented); register the
-Turkish, Uralic, Semitic/Persian and Celtic family specs; re-run Thai after the
-`isCandidate` combining-marks fix; apply South Asian `ur` (47) and `pa` (69, up
-from 61) to content; ~330 splits await human adjudication.
-
----
-
-## Traps this session re-learned
-
-- **A 200 is not content.** Every path on these SPAs returns 200; the router
-  serves `index.html` for anything unmatched. Read the body.
-- **Verify which tree a glob is applied to.** The entire §A finding is one
-  config written against `public/` and executed against `dist/`.
-- **`du` on a stale `dist` lies.** The 1.5 GB tree predated a clean build; the
-  real figure is 840 MB.
-- **Directory URLs on R2 always 404.** Probing `nordic/_shared/images/` proves
-  nothing — `curl` a real object key.
+- STATUS: `docs/STATUS_2026_10_04.md` (this session's full record)
+- Memory: `project_books_image_worker_build_fix_2026_10_04`,
+  `feedback_generator_env_leak_ci` (updated), `feedback_next_font_local_hermetic` (new)
+- PRs: books-platform #48, #49, #50 (all merged, squash)
+- Clean-room control clone: `~/tmp-books-cleanroom` (safe to delete)

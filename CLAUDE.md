@@ -6,14 +6,6 @@ Monorepo for language learning + books platforms.
 **Live:** `lang-quest.blueforge.studio` + `questbooks.blueforge.studio` (live-handrolled via `deploy/*` scripts; retro-fit pass in Phase 6)
 **Banned patterns:** not yet audited (expected low — long-running production)
 
-## Architecture
-
-- **Sub-projects:**
-  - `lang-quest` — language learning platform
-  - `books-platform` — books marketplace
-- **Deployment:** handrolled `deploy/*` scripts (will be retro-fitted to generator in Phase 6)
-- **Stack:** Next.js + Postgres (assumed standard, needs audit)
-
 ## Asset resolution — read before counting or auditing images
 
 **`docs/ASSET_RESOLUTION.md`** — read it before writing any script that counts
@@ -48,33 +40,11 @@ To verify wiring, run each app's `tests/unit/content-integrity.spec.ts`
 (`@learnquest/unit-core`) rather than hand-rolling a resolver — but note it does
 *not* cover the per-domain asset maps.
 
-## Asset gen-configs state (2026-08-08)
+## Asset gen-configs (image regen pipeline)
 
-- **lang** (`lq-tools/packages/image-tools/src/config/languages/`), **school** + **life** (`.../config/subjects/`), and **books** (`.../config/books/<app>/`) app groups have gen-configs wired into the regen pipeline.
-- **Life apps: DONE** — all 17 bootstrapped (commit `1b9daf9`), configs in `config/subjects/<family>/lessons-*.json`, resolver returns `group: 'life'`, regen flows through `regenerate-flagged-images.ts` unchanged.
-- **Books: DONE (3 apps with image trees)** — `config/books/{adventure-book,story-book,interactive-book}/*.json` (adventure 50, story 99, interactive 9). Resolver returns `group: 'books'` with a per-app `BOOKS_IMAGE_ROOTS` map (irregular image roots; `findApp` scans `books-platform/apps`). Remaining book apps (activity-book, market, author, site) stay on-demand at build time (`books-image-worker` + `book-builder` via Replicate Flux Schnell) and throw a clear resolver message.
-- **Lang: DONE (all 14 families, 2026-08-08)** — per-lang `lessons/` tree + non-lesson categories (avatars/backgrounds/ui/rpg/illustrations/logos/features/textures/hero + family `_shared`) all bootstrapped: `config/languages/<family>/langs/<lang>/lessons-*.json` + `coverage-*.json`, plus `config/languages/<family>/_shared/coverage-*.json` where the dir exists (commits `58d8097`/`775544e`/`18522c0`/`56228ea`/`9a4bb70`). `bootstrap-regen-configs.ts` gained `--lang=<lang>` (default all langs); `lessonDataRoot` probes array-form (`public/data/lessons/en/<lang>/chapters/...`) vs map-form (`languages/<lang>/data/en/lessons.json`) lesson data; lesson-aware prompts via `scripts/lib/config-bootstrap/lang-filename.ts` (concept/culture id-prefix, sceneRef/characterRef, vocab item-image; orphan fallback). Audit: **lang 14/14 COVERED** (configImages 28,240 vs diskImages 25,719). Note: 11 of 14 families store shared configs FLAT at the family root (avatars-modern.json, logos.json, shared-*.json, textures.json) — the audit only counts a real `_shared/` dir, so those family-root files are not in the count.
-- **Chapter stamping + `--chapter=N` regen mode + per-chapter audit (2026-08-08)** — bootstrap emits `chapter: N` on lesson-linked config images (`config-writer.ts` `BootstrapImage.chapter`; lang from `lesson.chapterId`, school/life from the `chapter-N/` path segment); `bootstrap-regen-configs.ts --force` backfills stamps onto already-written configs. `regenerate-flagged-images.ts --chapter=N` regenerates every stamped image wholesale (audit-score-independent; `scripts/lib/config-bootstrap/regen-chapter.ts` `collectChapterImages`; warns loudly on 0 stamped). Collector hardened (2026-08-08, `0af8b8e`/`4b69fbb`): strict positive-integer `--chapter` parse, exits on conflict with `--offset`/`--limit`/`--regen-file`, dedupes by resolved disk location (same-basename files across `_shared`/per-lang roots both regenerate), aborts a 0-target non-dry-run. `coverage-audit.ts` reports a per-app `ch1: <config>/<disk> OK|GAP` line (lang aggregates `langs/*` + `_shared`).
-- **Chapter-1 pilot (2026-08-08, DONE)** — french (`lq-romance`), science, health re-bootstrapped with stamps + regenerated via `--chapter=1 --batch` (~$1.33, 34 images in place). Result: science avg quality 3.5→5.3, health 1.5→3.5 on `ai-audit-images.ts` re-audit; coverage `ch1 15/15`, `16/16`, `3/0` OK. Science orphan cleanup was a **no-op** (design's ~26 estimate stale — only 2 prefix-unhomed candidates, both referenced chemistry lessons, now config-covered). French runtime asset maps regenerated from disk (`generate-conversation-asset-maps.ts`) fixing the `conversation-scenes.json` underscore-key staleness (`home_living_room` → `home-living-room` runtime miss); `dialogue-meeting-someone` sceneRef retargeted `meeting-someone-for-the-first-time`→`cafe`.
-- **Batch orchestration moved to `@blueforge-studio/image-gen` (2026-08-08)** — `processConfigBatch` + parallel `processConfigBatches` (bounded worker pool, default `concurrency: 4`) now come from the published package (0.1.14+), NOT lq-tools. `regenerate-flagged-images.ts` imports them from the package and gained `--concurrency=<n>`; the local `processConfigBatch`/`aspectRatioFor`/`BatchCapableClient` block + tests were deleted from `packages/image-tools/src/image-gen/config-processor.ts`. Package `processOneImage` accepts an 8th `prefetchedBuffer` param to reuse batch results without an interactive retry. 0.1.14 fixed a concurrent batch-upload name collision (`buildBatchInputName` appends a random suffix).
-- **Scaffold generates configs at generation time** — `lq-operations/scripts/scaffold-repo.ts` has a `--life <subject>` branch (17 `LIFE_SUBJECTS`) and a config-gen step that shells out to lq-tools' `bootstrap-regen-configs.ts` after any school/life scaffold. Fresh apps get empty skeleton configs; re-running on a populated app produces full configs.
-- Life bootstrap: exact base-filename lesson matcher (`scripts/lib/config-bootstrap/life-filename.ts`, flat `general` images searched across chapters), square 1024x1024 imageType, guard for missing `asset-map.json`. Full detail in auto-memory `project_life_books_genconfigs.md`.
-- **RPG-manga style fix (school/life, 2026-08-08)** — `schoolStyle()` now returns `ART_STYLE_PRESETS.rpg.suffix` verbatim (lq-tools `cff5242`), aligning school/life generation with the audit's RPG-manga expectation. lq-history proof committed on `deploy/hetzner-history-quest` (`2024c35`, 155 images, not pushed): 76 >5, 100/100 of the 100-worst improved, 0 score-1s, art-style mismatch 0 on kept set. **Phase 2 blocker:** model still renders Western-painterly (66 pinned at cap 5) — needs stronger manga linework/cel-shade directives; also fix `GeminiBatchRunner.downloadOutput` whole-file `readFileSync` (545MB JSONL → `ERR_STRING_TOO_LONG`) + dedupe batch submission by unique id (85 vs 155).
-- **Image generation moved to Gemini 3.1 + the Batch API (2026-08-26)** — default model is now `gemini-3.1-flash-image`, sourced from `BATCH_DEFAULT_MODEL` in `@blueforge-studio/image-gen` rather than hardcoded per entry point, and `generate-rpg-assets.ts` submits one asynchronous Batch job instead of running a worker pool (`--realtime` keeps the old path). Batch bills at 50% of realtime, which makes 3.1 *cheaper than the 2.5 baseline it replaces*: 17 images cost $0.57 on 3.1 batch against $0.66 on 2.5 realtime. This supersedes the 2026-08-09 "2.5 beats 3.1" note below — that was a quality call taken at realtime pricing and has not been re-run against 3.1 since; **if art quality regresses, re-audit before assuming the model is at fault.** Local per-image price tables were replaced with `estimateCost()`; the one in the large-batch alert had 3.1 at the 2.5 rate, under-quoting it by half.
-
-- **Phase A close-out (2026-08-09)** — art bar **relaxed** to "high quality realistic cartoon, not childish" (lq-tools `eaaa647`): art-style mismatch collapsed ~1255→20 in lq-history. **Region art-style descriptors** in gen-config prompts (`lessons-ancient.json`, `564411d`+`a182ca8`) + image-specific content cues fixed **7/7** art-mismatch images (lq-history `2a51d26`+`4e0c7e2`; great-wall-china 5→9, silk-road-map 1→8). Empties regen (559 deterministic) + 50 more committed (`4fda968`). Fleet state + staged art-mismatch plan in `learn-quest/docs/image-quality-fleet-handover-2026-08-09.md` (44 apps; lq-history 2266 partial 163H/400M/1703L/655-needs; other apps at Aug-5 baseline, need relaxed-bar re-audit + empties sweep). Model: gemini-2.5-flash-image (beat 3.1 **as of 2026-08-09** — superseded, see below). Batch orchestration lives in `@blueforge-studio/image-gen@0.1.14`.
-
-## Hetzner state
-
-- `lingua-quest-web-1` (port 8081), `lingua-quest-quest-editor-1` (port 8082), `lingua-quest-site-1` (port 3500), `lingua-quest-api-1` (port 3002) — all on box 1
-- `books-platform-frontend-1` (port 8080), `books-platform-books-api-1` (port 3009), `books-platform-stripe-api-1` (port 3001) — all on box 1
+- History and gotchas of the lq-tools gen-config / regen pipeline (config layout per app group, `--chapter=N` regen, batch orchestration in `@blueforge-studio/image-gen`, Gemini 3.1 + Batch API default): see [`docs/ASSET_GEN_CONFIGS_STATE_2026_08.md`](docs/ASSET_GEN_CONFIGS_STATE_2026_08.md). Read it before touching regen configs.
 
 ## Lessons from 2026-09-21 session (lazy-asset pilot + fleet fix)
-
-### Lazy-asset pipeline is code-complete end-to-end
-- `lq-core` PRs #64–#72 (foundation + handler/audit/UI/route/M3-Gemini wiring) + #76 (lib-level pg lazy-load) on main.
-- `books-platform#32` (vite fallback fleet) merged — 6 SPAs get production-host fallbacks when `apps.web.buildEnv` injection fails (forge-control#1391).
-- Pilot gate flip pending on the operator: `forge app-deploy platform-api --server --no-dns` from `lq-core`'s main, then set `GEMINI_API_KEY` + `IMAGE_LAZY_GENERATION_ENABLED=true` in forge-app-2 deploy env. Env vars were set in this session; rebuild is queued behind 12d/13d stale in-flight builds on app-3.
 
 ### Patterns worth remembering
 1. **`pg` lazy-load on client-side services** — `SessionService.recordSessionEnd`, `rewardGrantService.grantForCompletedGoal`, `balanceService.{creditBalance,screenTimeAvailableToday}` in `lq-core`. Without the lazy `await import('@learnquest/database/postgres')`, Rollup bundles `pg` into the Vite SPA entry chunk because `pg` doesn't declare `sideEffects: false`. Symptom: blank page with `class extends value undefined` (EventEmitter) or `Buffer is not defined`. The lib-level fix (`lq-core#76`) supersedes per-app vite treeshake workarounds like `lq-reading#18` for the `app-shell 0.15` fleet.
@@ -82,23 +52,8 @@ To verify wiring, run each app's `tests/unit/content-integrity.spec.ts`
 3. **Every `@learnquest/*` lib needs subpath-export audits** when adding new files. Pattern: a file at `libs/app/config/src/limits.ts` was imported as `@learnquest/app-config/limits` but the `package.json` `exports` map was never updated. Build fails with `Missing "./limits" specifier`. Same bug class affected `./game` and `./routeDependencies`. The audit script: `grep -rn "from .@learnquest/<lib>/<subpath>" libs apps services | sort -u` against the lib's `exports` map.
 4. **Pilot gate flip runbook** — full sequence in `learn-quest/docs/LAZY_ASSET_HANDOVER_2026_09_19.md`. Operational state: `forge app list learnquest-core` shows `api` on app-3; env vars go through `forge env set <project> <key> <value>` (three positional args); deploy via `forge app-deploy platform-api --server --no-wait` from `lq-core`'s main; verify `curl https://api.quest.blueforge.studio/api/health` lists `/api/assets/lazy` in the routes.
 
-### Memory state
-- `project_lazy_asset_pr5c_m3_aiclient` — campaign state; #70/#72/#73/#76 all addressed the same class of bugs the original spec missed.
-- `project_platform_api_prod_on_pr15_branch` — pilot blocker resolved (PR #15 MERGED on main).
-- `project_pg_blank_page_fix` — fleet blank-page rescue (lq-core#76).
-- `project_p2_4_per_app_generators` — P2.4 fleet closed.
 
-## Pending
-
-- Phase 6 retro-fit: replace handrolled `deploy/*` with generator output
-- Per-app DB provisioning (current shared Postgres)
-- Migration to standard `@blueforge/deployer` output
-- Operator actions to unblock the pilot gate flip:
-  - Evict stale in-flight builds on app-3 (`git-runners queue unstick --older-than 30m`) or wait for them to drain
-  - Add `books-platform` workspace `ignore` override (the pre-existing 413 Payload Too Large blocks story-book deploys)
-  - Decide `shared-vs-sidecar` postgres for platform-api (the `lq-core#15` piece the rebase deferred)
-
-See `PORTFOLIO_STATUS.md` for both `lang-quest` and `books-platform` rows.
+Current status, open work and operator actions live in the dated `docs/STATUS_*.md` files (latest first).
 
 ## Agentic surface
 
