@@ -1,0 +1,350 @@
+{
+  "schema": "blueforge.user-audit/1",
+  "generatedAt": "2026-10-06T13:33:51.226Z",
+  "runId": "ua-f72552ef-2026-10-06-pilot1",
+  "tier": "pilot",
+  "build": {
+    "repo": "lq-nordic",
+    "head": "f72552ef",
+    "target": "local dev (vite), not a deployed host"
+  },
+  "cell": {
+    "app": "lq-nordic",
+    "language": "danish",
+    "uiLocale": "en",
+    "l1": "en",
+    "segment": "casual-adult",
+    "profile": "perfect",
+    "proficiency": "beginner",
+    "device": "mobile-430x900"
+  },
+  "scope": {
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "declaredLessons": 520,
+    "walkedLessons": 123,
+    "scopeCoverage": 0.237,
+    "note": "declared = lesson files for this language incl. electives; scores cover the walked scope only"
+  },
+  "dimensions": [
+    {
+      "id": "completability",
+      "title": "Completability",
+      "score": 95.1,
+      "weight": 20,
+      "nominalWeight": 20,
+      "checkCoverage": 1,
+      "notes": [
+        "117/123 lessons completed in chapters 1-5",
+        "blocked: drill-numbers-1-10 (screen-crash: Cannot read properties of undefined (reading '0'))",
+        "blocked: tonal-stod-minimal-pairs (no-advance-control)",
+        "blocked: sound-pattern-g (no-advance-control)",
+        "blocked: sound-pattern-d (no-advance-control)",
+        "blocked: multiple-choice-pronouns-1 (screen-crash: )",
+        "blocked: culture-family-values (screen-crash: )"
+      ],
+      "facts": {
+        "checksRun": 1,
+        "checksDeclared": 1,
+        "completed": 117,
+        "walked": 123,
+        "blocked": 6
+      }
+    },
+    {
+      "id": "game_mechanics",
+      "title": "Game mechanics",
+      "score": 100,
+      "weight": 3,
+      "nominalWeight": 15,
+      "checkCoverage": 0.2,
+      "notes": [
+        "unlock chain: each completion made the next card current (walker advanced on every completed lesson)",
+        "NOT scored: XP awarded differs from declared on 117/117 lessons; awaiting a product decision on whether that is the rule",
+        "untested: hearts, boss gating, streak, level-up display"
+      ],
+      "facts": {
+        "checksRun": 1,
+        "checksDeclared": 5,
+        "xpAwardedNeqDeclared": 117,
+        "untested": [
+          "hearts",
+          "boss-gating",
+          "streak",
+          "level-up"
+        ]
+      }
+    },
+    {
+      "id": "learning_pace",
+      "title": "Learning pace",
+      "score": 84,
+      "weight": 3.75,
+      "nominalWeight": 15,
+      "checkCoverage": 0.25,
+      "notes": [
+        "longest run of consecutive non-practice lessons per chapter: ch1=7, ch2=4, ch3=5, ch4=2, ch5=4 (score drops 10 per lesson beyond 3)",
+        "untested: new items per lesson, time to first success, accuracy curve"
+      ],
+      "facts": {
+        "checksRun": 1,
+        "checksDeclared": 4,
+        "runs": [
+          {
+            "chapter": 1,
+            "maxRun": 7
+          },
+          {
+            "chapter": 2,
+            "maxRun": 4
+          },
+          {
+            "chapter": 3,
+            "maxRun": 5
+          },
+          {
+            "chapter": 4,
+            "maxRun": 2
+          },
+          {
+            "chapter": 5,
+            "maxRun": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui_ux",
+      "title": "UI / UX",
+      "score": 92.7,
+      "weight": 6,
+      "nominalWeight": 15,
+      "checkCoverage": 0.4,
+      "notes": [
+        "9 lessons showed an unresolved template or a console error: drill-numbers-1-10, dialogue-meeting-someone, sound-pattern-g, sound-pattern-d, sound-pattern-hv-h, sound-pattern-final-t, multiple-choice-pronouns-1, culture-family-values, conversation-meeting-family",
+        "untested: vision grading, tap targets, feedback after actions (lesson completion shows none)"
+      ],
+      "facts": {
+        "checksRun": 2,
+        "checksDeclared": 5,
+        "flagged": [
+          "drill-numbers-1-10",
+          "dialogue-meeting-someone",
+          "sound-pattern-g",
+          "sound-pattern-d",
+          "sound-pattern-hv-h",
+          "sound-pattern-final-t",
+          "multiple-choice-pronouns-1",
+          "culture-family-values",
+          "conversation-meeting-family"
+        ]
+      }
+    },
+    {
+      "id": "assistance",
+      "title": "Assistance",
+      "score": null,
+      "weight": 10,
+      "nominalWeight": 10,
+      "checkCoverage": 0,
+      "notes": [
+        "no checks implemented"
+      ],
+      "facts": {
+        "checksRun": 0,
+        "checksDeclared": 4
+      }
+    },
+    {
+      "id": "content_quality",
+      "title": "Content quality",
+      "score": 94.3,
+      "weight": 5,
+      "nominalWeight": 10,
+      "checkCoverage": 0.5,
+      "notes": [
+        "static shape check: 7/123 walked lessons have error-level findings",
+        "untested: walker-vs-content answer disagreement"
+      ],
+      "facts": {
+        "checksRun": 1,
+        "checksDeclared": 2,
+        "staticErrorLessons": [
+          "dialogue-meeting-someone",
+          "drill-numbers-1-10",
+          "sound-pattern-d",
+          "sound-pattern-g",
+          "multiple-choice-pronouns-1",
+          "conversation-meeting-family",
+          "culture-family-values"
+        ]
+      }
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "score": null,
+      "weight": 5,
+      "nominalWeight": 5,
+      "checkCoverage": 0,
+      "notes": [
+        "no checks implemented"
+      ],
+      "facts": {
+        "checksRun": 0,
+        "checksDeclared": 4
+      }
+    },
+    {
+      "id": "performance",
+      "title": "Performance",
+      "score": null,
+      "weight": 5,
+      "nominalWeight": 5,
+      "checkCoverage": 0,
+      "notes": [
+        "recorded only: 6646 ms average per lesson (includes walker waits); no thresholds yet"
+      ],
+      "facts": {
+        "checksRun": 0,
+        "checksDeclared": 3,
+        "avgStepMs": 6646
+      }
+    },
+    {
+      "id": "engagement",
+      "title": "Engagement",
+      "score": null,
+      "weight": 5,
+      "nominalWeight": 5,
+      "checkCoverage": 0,
+      "notes": [
+        "no checks implemented"
+      ],
+      "facts": {
+        "checksRun": 0,
+        "checksDeclared": 3
+      }
+    }
+  ],
+  "total": 93.9,
+  "gates": [
+    {
+      "id": "blocked-main-path",
+      "triggered": true,
+      "cap": 60,
+      "reason": "6 lessons blocked on a linear map; first: drill-numbers-1-10 (chapter 1)"
+    }
+  ],
+  "finalScore": 60,
+  "confidence": 0.38,
+  "findings": [
+    {
+      "severity": "blocker",
+      "dimension": "completability",
+      "lesson": "drill-numbers-1-10",
+      "chapter": 1,
+      "rule": "blocked",
+      "reason": "screen-crash: Cannot read properties of undefined (reading '0')",
+      "ownerClass": "content",
+      "ticket": "lq-nordic#77"
+    },
+    {
+      "severity": "blocker",
+      "dimension": "completability",
+      "lesson": "tonal-stod-minimal-pairs",
+      "chapter": 1,
+      "rule": "blocked",
+      "reason": "no-advance-control",
+      "ownerClass": "lib",
+      "ticket": "lq-core#141"
+    },
+    {
+      "severity": "blocker",
+      "dimension": "completability",
+      "lesson": "sound-pattern-g",
+      "chapter": 1,
+      "rule": "blocked",
+      "reason": "no-advance-control",
+      "ownerClass": "content",
+      "ticket": null,
+      "note": "pairs words lack soundId; pairs screen renders blank"
+    },
+    {
+      "severity": "blocker",
+      "dimension": "completability",
+      "lesson": "sound-pattern-d",
+      "chapter": 1,
+      "rule": "blocked",
+      "reason": "no-advance-control",
+      "ownerClass": "content",
+      "ticket": null,
+      "note": "pairs words lack soundId; pairs screen renders blank"
+    },
+    {
+      "severity": "blocker",
+      "dimension": "completability",
+      "lesson": "multiple-choice-pronouns-1",
+      "chapter": 2,
+      "rule": "blocked",
+      "reason": "screen-crash: ",
+      "ownerClass": "content",
+      "ticket": "lq-nordic#77"
+    },
+    {
+      "severity": "blocker",
+      "dimension": "completability",
+      "lesson": "culture-family-values",
+      "chapter": 4,
+      "rule": "blocked",
+      "reason": "screen-crash: ",
+      "ownerClass": "content",
+      "ticket": "lq-nordic#77"
+    },
+    {
+      "severity": "major",
+      "dimension": "ui_ux",
+      "lesson": "dialogue-meeting-someone",
+      "chapter": 1,
+      "rule": "visible-text",
+      "reason": "unresolved-template: Ja, jeg hedder {{playerName}}. Hvad hed",
+      "ownerClass": "content",
+      "ticket": "lq-nordic#77"
+    },
+    {
+      "severity": "major",
+      "dimension": "ui_ux",
+      "lesson": "conversation-meeting-family",
+      "chapter": 4,
+      "rule": "visible-text",
+      "reason": "unresolved-template: Hej! Jeg hedder {{playerName}}. Hyggelig",
+      "ownerClass": "content",
+      "ticket": "lq-nordic#77"
+    },
+    {
+      "severity": "minor",
+      "dimension": "game_mechanics",
+      "rule": "xp-awarded-ne-declared",
+      "reason": "117/117 completed lessons awarded XP different from the declared value (100 vs 60/80)",
+      "ownerClass": "design",
+      "ticket": null
+    }
+  ],
+  "metering": {
+    "wallMs": 817422,
+    "steps": 123,
+    "avgStepMs": 6646,
+    "parallelism": 1,
+    "browser": "chromium",
+    "cpuSeconds": null,
+    "peakRssMb": null,
+    "costUsd": null,
+    "note": "wall time includes fixed walker waits; CPU/memory/cost not yet measured"
+  },
+  "stepsFile": "walk3-ch{1..5}.jsonl"
+}
