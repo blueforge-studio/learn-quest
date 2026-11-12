@@ -1,0 +1,35 @@
+# What blueforge.studio says about Learn Quest: MARKETING sidecar.
+#
+# Identity (name, tagline, links, assets) lives in blueforge.product.yml.
+# Written 2026-11-12 (the repo had a product sidecar only, so its catalogue
+# card registered with `features: 0` — fleet sidecar adoption audit 2026-11-09,
+# taskmaster a3714d25). Every bullet carries a stable kebab-case `feature:` id
+# and a declared `status:`; evidence for each claim sits in the comment above
+# it, measured against this repo's main on 2026-11-12. The fourteen group apps
+# are their own products with their own cards (one per regional group, per
+# lang-quest/README.md) — these bullets describe the umbrella, not the groups'
+# marketing copy. There is no features/<id>.feature.yml spec for any id yet.
+
+version: "2.0.0"
+features:
+  - product: learn-quest
+    features:
+      # blueforge.product.yml: primaryApp lingua-quest-site, site https://linguaquest.blueforge.studio; HTTPS 200 (checked 2026-11-12).
+      - feature: learn-lingua-quest
+        text: "LinguaQuest — the language-learning platform, live at linguaquest.blueforge.studio"
+        status: shipped
+      # lang-quest/blueforge.config.json → apps: 14 entries (lq-nordic … lq-west-slavic); lang-quest/README.md table, one git repo and one product per group; trees of lq-nordic and lq-african checked (main, 2026-11-12).
+      - feature: learn-language-group-family
+        text: "The language-group quest family — fourteen groups from African to West Slavic, each its own repo and product"
+        status: shipped
+      # lang-quest/shared-vocab-images/ — 34 topic directories from animals to weather-2 (main, 2026-11-12).
+      - feature: learn-shared-vocab-library
+        text: "A shared vocabulary image library — 34 topical sets reused across the language apps"
+        status: shipped
+      # school-quest/config/school-quest/{geography,history,math,reading,science,writing}/ — chapter-1…chapter-6 directories, history organised by era (main, 2026-11-12).
+      - feature: learn-school-subjects
+        text: "Six school subjects with chaptered lesson content — geography, history, math, reading, science and writing"
+        status: shipped
+    categories:
+      - slug: education
+        label: "Education"
