@@ -15,8 +15,10 @@ import { parse as parseYaml } from "yaml";
 import {
   parseProductSidecar,
   parseFeaturesSidecar,
+  parseVisionSidecar,
   SIDECAR_FILENAME,
   FEATURES_FILENAME,
+  VISION_FILENAME,
 } from "@blueforge-studio/blueforge-sidecar-schemas";
 
 const CWD = process.cwd();
@@ -54,6 +56,9 @@ function check(label, filename, parser) {
 
 const product = check("product", SIDECAR_FILENAME, parseProductSidecar);
 check("features", FEATURES_FILENAME, parseFeaturesSidecar);
+// blueforge.vision.yml: validated whenever present (vision joined the sidecar class fleet-wide
+// 2026-11-12, forge-git#691); absent = skipped, like the roadmap.
+check("vision", VISION_FILENAME, parseVisionSidecar);
 
 // forge-control uploads `assets` by path after a deploy; a typo silently
 // ships no image, so fail here instead.

@@ -41,3 +41,23 @@ product:
           - ko
           - th
           - zh
+features:
+  version: 2.0.0
+  features:
+    - product: learn-quest
+      features:
+        - feature: learn-lingua-quest
+          text: LinguaQuest — the language-learning platform, live at linguaquest.blueforge.studio
+          status: shipped
+        - feature: learn-language-group-family
+          text: The language-group quest family — fourteen groups from African to West Slavic, each its own repo and product
+          status: shipped
+        - feature: learn-shared-vocab-library
+          text: A shared vocabulary image library — 34 topical sets reused across the language apps
+          status: shipped
+        - feature: learn-school-subjects
+          text: Six school subjects with chaptered lesson content — geography, history, math, reading, science and writing
+          status: shipped
+      categories:
+        - slug: education
+          label: Education
